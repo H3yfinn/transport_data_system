@@ -24,7 +24,7 @@ PRINT_GRAPHS_AND_STATS = False
 
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
-FILE_DATE_ID = '_DATE{}'.format(file_date)
+FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = ''
 
 #%%
