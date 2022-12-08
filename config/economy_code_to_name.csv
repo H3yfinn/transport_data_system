@@ -1,22 +1,3 @@
-Economy,Economy_name,ATO_economy_name
-01_AUS,Australia,Australia
-02_BD,Brunei Darussalam,Brunei Darussalam
-03_CDA,Canada,
-04_CHL,Chile,
-05_PRC,China,People's Republic of China
-06_HKC,Hong Kong,"Hong Kong, China"
-07_INA,Indonesia,Indonesia
-08_JPN,Japan,Japan
-09_ROK,Korea,Republic of Korea
-10_MAS,Malaysia,Malaysia
-11_MEX,Mexico,
-12_NZ,New Zealand,New Zealand
-13_PNG,Papua New Guinea,Papua New Guinea
-14_PE,Peru,
-15_RP,Philippines,Philippines
-16_RUS,Russia,Russian Federation
-17_SIN,Singapore,Singapore
-18_CT,Chinese Taipei,"Taipei,China"
-19_THA,Thailand,Thailand
-20_USA,USA,
-21_VN,Viet Nam,Viet Nam
+version https://git-lfs.github.com/spec/v1
+oid sha256:37320d01330db712c73de7330c8fe382fea66ea615c50b925607d146231c96e1
+size 621
