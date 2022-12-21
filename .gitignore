@@ -1,3 +1,37 @@
+######################################
+#following are my own additions
+######################################
+
+# excell files 
+*.xlsx
+*.csv
+*.pickle
+#graphs
+*.png
+*.jpg
+*.html
+
+#anything in archive folders doesnt nee to be tracked
+**/archive
+
+#####################
+item.sqlite
+env_jupyter/*
+env_no_jupyter/*
+#####################
+
+#except any files in these folders
+!config/*
+# !other_outputs/*
+!input_data/**
+!documentation/*
+
+
+
+######################################
+#Following are defaults based on a file i found on github
+######################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -123,30 +157,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# excell files 
-*.xlsx
-*.csv
-*.pickle
-#graphs
-*.png
-*.jpg
-*.html
-
-#anything in archive folders doesnt nee to be tracked
-**/archive
-
-#####################
-item.sqlite
-env_jupyter/*
-env_no_jupyter/*
-#####################
-
-#except any files in these folders
-!config/*
-# !other_outputs/*
-!input_data/**
-!documentation/*
-
-
 
