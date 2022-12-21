@@ -9,6 +9,8 @@ from dis import show_code
 from tokenize import Special
 from matplotlib.pyplot import title
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
@@ -338,7 +340,7 @@ for measure in ATO_clean_2015_concordance['Measure'].unique():
 
 #OKAY WRAPPING UP FOR NOW
 #save data
-ATO_clean_2015_concordance.to_csv('output_data/ATO_clean_2015_2022_concordance.csv', index=False)
+ATO_clean_2015_concordance.to_csv('intermediate_data/ATO_clean_2015_2022_concordance.csv', index=False)
 #i guerss plan from here is to look at how to fill in the hoels and also find more measures.
 #%%
 #extra measures which may be very useful can be saved separately: eg.

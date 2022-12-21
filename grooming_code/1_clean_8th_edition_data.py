@@ -4,6 +4,8 @@
 #%%
 
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
@@ -13,11 +15,16 @@ import plotly.io as pio
 pio.renderers.default = "browser"#allow plotting of graphs in the interactive notebook in vscode #or set to notebook
 import plotly.graph_objects as go
 import plotly
+import datetime
 
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
 PRINT_GRAPHS_AND_STATS = False
+
+#create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
+file_date = datetime.datetime.now().strftime("%Y%m%d")
+FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 
 #STOCKS DATA
@@ -62,7 +69,7 @@ stocks_long.to_csv("intermediate_data/8th_edition_transport_model/road_stocks.cs
 #load in osemosys data
 spreadsheet_name = 'OSEMOSYS-hughslast'
 output_file_name = "input_data/8th_edition_transport_model/raw_data/{}.xlsx".format(spreadsheet_name)
-# output_file_name = 'output_data/OSEMOSYS_TransoprtReference_06-16-2022-36.xlsx'
+# output_file_name = 'intermediate_data/OSEMOSYS_TransoprtReference_06-16-2022-36.xlsx'
 AccumulatedAnnualDemand_df = pd.read_excel(output_file_name, sheet_name = "AccumulatedAnnualDemand", header=0)
 InputActivityRatio_df = pd.read_excel(output_file_name, sheet_name = "InputActivityRatio", header=0)
 

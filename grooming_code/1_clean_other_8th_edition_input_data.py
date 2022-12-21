@@ -5,17 +5,24 @@
 #NOTE this data only needs to be available for the base year, as it is then changed by the growth rate that is part of the user input. 
 #%%
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
 pd.options.plotting.backend = "plotly"#set pandas backend to plotly plotting instead of matplotlib
 import plotly.io as pio
 pio.renderers.default = "browser"#allow plotting of graphs in the interactive notebook in vscode #or set to notebook
+import datetime
 
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
 PRINT_GRAPHS_AND_STATS = False
+
+#create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
+file_date = datetime.datetime.now().strftime("%Y%m%d")
+FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 #adjustments
 turnover_rate = pd.read_excel('input_data/8th_edition_transport_model/adjustments_spreadsheet.xlsx', sheet_name='Turnover_Rate')

@@ -29,6 +29,8 @@
 #first, open the excel workbook and extract the names of all the sheets in the workbook. we will use those to extract data from the sheets iteratively.
 #%%
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 # import openpyxl
@@ -38,6 +40,9 @@ import datetime
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
+#create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
+file_date = datetime.datetime.now().strftime("%Y%m%d")
+FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 #open the workbook using pandas
 wb = pd.ExcelFile('./input_data/TRANSPORT ACTIVITY & SERVICES (TAS).xlsx')
@@ -186,27 +191,27 @@ for sheet_name in sheets:
 #so first,, checking all files with 'other_data' in the name, against other_data_agg
 same_other_data = False
 same_actual_data = False
-for file in os.listdir('output_data/ATO_data/'):
+for file in os.listdir('intermediate_data/ATO_data/'):
     if 'other_data' in file:
-        other_data_agg_old = pd.read_csv('output_data/ATO_data/' + file)
+        other_data_agg_old = pd.read_csv('intermediate_data/ATO_data/' + file)
         if other_df_agg.equals(other_data_agg_old):
             same_other_data = True
             print('other_data_agg is the same as the data in '+file)
             break
 if same_other_data == False:
     print('other_data_agg is different from the data in all files with "other_data" in the name')
-    other_df_agg.to_csv('output_data/ATO_data/ATO_other_data_'+str(datetime.date.today())+'.csv', index=False)
+    other_df_agg.to_csv('intermediate_data/ATO_data/ATO_other_data_'+FILE_DATE_ID+'.csv', index=False)
 
-for file in os.listdir('output_data/ATO_data/'):
+for file in os.listdir('intermediate_data/ATO_data/'):
     if 'actual_data' in file:
-        actual_data_agg_old = pd.read_csv('output_data/ATO_data/' + file)
+        actual_data_agg_old = pd.read_csv('intermediate_data/ATO_data/' + file)
         if actual_df_agg.equals(actual_data_agg_old):
             same_actual_data
             print('actual_data_agg is the same as the data in '+file)
             break
 if same_actual_data == False:
     print('actual_data_agg is different from the data in all files with "actual_data" in the name')
-    actual_df_agg.to_csv('output_data/ATO_data/ATO_actual_data_'+str(datetime.date.today())+'.csv', index=False)
+    actual_df_agg.to_csv('intermediate_data/ATO_data/ATO_actual_data_'+FILE_DATE_ID+'.csv', index=False)
 
 
 #%%

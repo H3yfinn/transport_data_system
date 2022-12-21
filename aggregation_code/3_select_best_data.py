@@ -2,37 +2,38 @@
 #%%
 import datetime
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
-# import plotly.express as px
-# pd.options.plotting.backend = "plotly"#set pandas backend to plotly plotting instead of matplotlib
-
-# import plotly.io as pio
-# pio.renderers.default = "browser"#allow plotting of graphs in the interactive notebook in vscode #or set to notebook
-# import plotly.graph_objects as go
-# import plotly
+import pickle
+import sys
 import matplotlib.pyplot as plt
-import data_selection_functions
+
+#if using jupyter notebook then set the backend to inline so that the graphs are displayed in the notebook instead of in a new window
+
+# %matplotlib inline
+
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
+import data_selection_functions as data_selection_functions
 PRINT_GRAPHS_AND_STATS = False
 
 #%%
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-FILE_DATE_ID = 'DATE20221206'
+# FILE_DATE_ID = 'DATE20221206'
 
 #%%
 #this is for determining what are the best datpoints to use when there are two or more datapoints for a given time period
 
 #load data
 # FILE_DATE_ID = 'DATE20221205'
-combined_dataset = pd.read_csv('output_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
-combined_data_concordance= pd.read_csv('output_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
-combined_data = pd.read_csv('output_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
+combined_data_concordance= pd.read_csv('intermediate_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
+combined_data = pd.read_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
 #%%
 #visualise what data points we have multiple data for by creating a table that shows what rows have duplicates when we ignore the value and dataset columns:
 
@@ -41,27 +42,32 @@ print('Dear User this is a strongly worded statement to check that there are no 
 
 #%%
 
-# #open the csv file with duplicates in it
-duplicates = pd.read_csv('output_data/duplicates{}.csv'.format(FILE_DATE_ID))
+#open the csv file with duplicates in it
+duplicates = pd.read_csv('intermediate_data/duplicates{}.csv'.format(FILE_DATE_ID))
+
+#datasets column is being converted to a string for some reason, we will convert it back to a list
+duplicates['Datasets'] = duplicates['Datasets'].apply(lambda x: eval(x))
+
+#%%
+INDEX_COLS = ['Year', 'Economy', 'Measure', 'Vehicle Type', 'Unit', 'Medium',
+       'Transport Type','Drive']
+#Remove year from the current cols without removing it from original list, and set it as a new list
+INDEX_COLS_no_year = INDEX_COLS.copy()
+INDEX_COLS_no_year.remove('Year')
+
 #%%
 
 #now for the rows that have duplicates we will find the best datapoint to use for each row:
 #INTRO
 #Instead of setting values we will be setting the value of the dataset columnn where there are two or more datapoints for a given row to the dataset that we should use for that row.
 #we will provide an automatic way of doing this and then also allow the user to manually select the best datapoint for each row.
-#ABOUT MANUAL METHOD
-#In the manual method, the way that we will display what dataset to use for each datapoint is by creating a dataset for each measure where we will have a column for each year and then the value for each year, for each combination of categories (which are columns) will be the dataset that we should use for that year. Then we will save that as an xlsx with each sheet a different measure
-#Then the user can easily go into the xlsx and adjust the dataset that is used for each year manually if they want to. This way it will be easier for the user to see what is going on.
-#ABOUT AUTOMATIC METHOD
-#The automatic is detailed in that section.
 
-#FINAL OUTPUT
-#The final output will be a large, tall dataframe with one row for each unique combination of categories,  a years column, a vlaues column, a dataset column and a column to indicate if the value was manually selected or automatically selected and a column to indicate how many datapoints there were for that row
 
 #%%
 #STEP 1
 #So first of all we need a dataframe which replicates the final dataframe but with no values in the dataset, value and duplicate columns (This dataframe is created in aggregation_code\1_aggregate_cleaned_datasets.py so we can just import that as combined_data_concordance)
 #In the folowing scripts we will fill that df with the dataset that we choose to use for each row. Any rows where we dont have the dataset to use we will leave blank and that will end up as an NA
+
 #we will also create a column to indicate if the value was manually selected or automatically selected and a column to indicate how many datapoints there were for that row
 #later on we can fill the value column with the value from the dataset that we choose to use for each row, but for now we will leave it blank
 combined_data_concordance['Dataset'] = None
@@ -69,140 +75,111 @@ combined_data_concordance['Num_datapoints'] = None
 combined_data_concordance['Value'] = None
 combined_data_concordance['Dataset_selection_method'] = None
 
-combined_data_concordance_automatic = combined_data_concordance.copy()
-duplicates_auto = duplicates.copy()
+#add Datasets and Count columns from duplicates_manual to combined_data for use in setting values
+combined_data = combined_data.merge(duplicates.reset_index().set_index(INDEX_COLS)[['Datasets', 'Count']], how='left', left_on=INDEX_COLS, right_on=INDEX_COLS)
 
-#create dummy spreadsheet for testing. this can be a copy of the automatic. perhaps this line can be deleted later TODO
-combined_data_concordance_manual = combined_data_concordance.copy()
-duplicates_manual = duplicates.copy()
+#set index of all the dfs we will use for AUTOMATIC AND MANUAL METHODS, using the INDEX_COLs:
+#AUTOMATIC data prep
+combined_data_concordance_automatic = combined_data_concordance.set_index(INDEX_COLS)
+duplicates_auto = duplicates.set_index(INDEX_COLS_no_year)
+duplicates_auto_with_year_index = duplicates.set_index(INDEX_COLS)
+combined_data_automatic = combined_data.set_index(INDEX_COLS+['Dataset'])
+
+#MANUAL data prep
+combined_data_concordance_iterator = combined_data_concordance[INDEX_COLS_no_year].drop_duplicates().set_index(INDEX_COLS_no_year)#TODO i think this is correct
+combined_data_concordance_manual = combined_data_concordance.set_index(INDEX_COLS_no_year)
+duplicates_manual = duplicates.set_index(INDEX_COLS_no_year)
+combined_data = combined_data.set_index(INDEX_COLS_no_year)
+
 #%%
-##
-#ignore this cell i think
-#Sort by Year in both combined_data_concordance and duplicates. This is so we can more easily use index to find previous and next years for certain rows in the dfs
-# combined_data_concordance = combined_data_concordance.sort_values(by='Year')
-# duplicates = duplicates.sort_values(by='Year')
-run = False
-if run:
-       automatically_picked_data = data_selection_functions.automatic_method(duplicates_auto,combined_data_concordance_automatic)
 
-#IN THE ABOVE NEED TO APPLY METHOD TO MAKE SURE THE DIFFERENCE IS LESS THAN 25% OTEHRWISE WE USE THE NEXT OPTION. ALSO MIGHJT NEED TO MAKE THE CONCORDANCE CREATION METHOD IN THE AGGREGATION METHOD FASTER.
-       # #OPTION 5
-       # #if there is a previous year row index
-       # if len(previous_year_row_index) > 0:
-       #        #get the value for the previous year
-       #        previous_year_value = combined_data_concordance.loc[previous_year_row_index, 'Value'].values[0]
-       #        #get the value for the current row
-       #        current_value = row.Value
-       #        #get the difference between the current value and the previous year value
-       #        diff_previous_year = abs(current_value - previous_year_value)
-       #        #if the difference between the current value and the previous year value is less than the threshold
-       #        if diff_previous_year < threshold:
-       #               #set the value in combined_data_concordance for this year to the value for the same dataset
+#STEP 2
+#AUTOMATIC METHOD
+run_automatic = True
+datasets_to_always_choose = []
+if run_automatic:
+       #open txt file to send all the printed output to while using the next function, instead of printing to the console
+       with open('intermediate_data/data_selection/automatic_method{}.txt'.format(FILE_DATE_ID), 'w') as f:
+              old_stdout = sys.stdout
+              sys.stdout = f
+              #run the automatic method
+              combined_data_concordance_automatic, rows_to_select_manually = data_selection_functions.automatic_method(combined_data_automatic, combined_data_concordance_automatic,duplicates_auto,duplicates_auto_with_year_index,datasets_to_always_choose)
+              
+              sys.stdout = old_stdout
+
+       #save
+       combined_data_concordance_automatic.to_csv('intermediate_data/data_selection/{}_data_selection_automatic.csv'.format(FILE_DATE_ID))
+
+       #convert list of tuples rows_to_select_manually to a dataframe with the same titles as INDEX_COLS
+       rows_to_select_manually_df = pd.DataFrame(rows_to_select_manually, columns=INDEX_COLS_no_year)
+       rows_to_select_manually_df.to_csv('intermediate_data/data_selection/{}_rows_to_select_manually.csv'.format(FILE_DATE_ID), index=False)
+       
+
+#save
 #%%
 #MANUAL METHOD
-#in the manual method we will take in the spreadsheet created by the user. We will turn it into a long format with all the measures concatenated so there is one measure column.
-#then join the automatic and manual datasets so we can compare the dataset  columns from both the manual dataset automatic dataset
-#create a final_dataset column. This will be filled with the dataset in the automatic column, except where the values in the manual and automatic dataset columns are different, for which we will use the value in the manual dataset.
-#for the sake of tracking what has been done we will also create a column called dataset_selection_method which will be filled with the name of the column that the dataset was selected from. So if the dataset was selected from the automatic column then it will be filled with automatic and if it was selected from the manual column then it will be filled with manual.
-do_this = False#I realised that this may be too difficult and the use of the tool in next cell may be better. also thought of the idea that user may need help knowing what years and rows to fill in with datasets we may have.
-if do_this:
-       #create dummy spreadsheet for testing. this can be a copy of the automatic
-       combined_data_concordance_manual = combined_data_concordance.copy()
-       #remove the dataset_selection_method,Num_datapoints, and Value columns
-       combined_data_concordance_manual = combined_data_concordance_manual.drop(columns=['Dataset_selection_method', 'Num_datapoints', 'Value'])
-       #make it wide so the years are columns
-       combined_data_concordance_manual = combined_data_concordance_manual.pivot_table(index=['Economy', 'Measure', 'Vehicle Type', 'Unit', 'Medium', 'Transport Type', 'Drive'], columns='Year', values='Dataset')
-       #reset the index
-       combined_data_concordance_manual = combined_data_concordance_manual.reset_index()
-       # #make the years columns into integers not strings
-       # combined_data_concordance_manual.columns = combined_data_concordance_manual.columns.astype(int)
-       #now jsut quickly we will save the combined_data_concordance_manual to an xlsx file so we can manually edit it and load it in as if it was the manual dataset
-       #So for each measure in the combined_data_concordance_manual dataset create a sheet in the saved xlsx below, and set the name of the sheet to the measure
-       for measure in combined_data_concordance_manual.Measure.unique():
-              #filter for only the current measure
-              measure_rows = combined_data_concordance_manual[combined_data_concordance_manual.Measure == measure]
-              #save those values in a sheet with the measure name as the sheet name
-              # measure_rows.to_excel('./output_data/concordance_manual_{}.xlsx'.format(FILE_DATE_ID), index=False)
-#%%
-#We will also create a series of helpful scripts to make it easier for the user to do the manual selection of datasets, especailly at the start of choosing the datasets as it will otehrwise be very timeconsuming to create all the spreadsheets. These will be:
-#1. a script that will find the rows that have duplicates and then plot a timeseries for the full series which the duplicates are from, with the line a different color for each dataset. This way the user can easily see which dataset is the best one to use for each row.
-#b. i. this will also ask the user what dataset they want to choose for that instance and then update the dataset column for that row to be the chosen dataset. this can be done using the input() function and then using the .loc function to update the dataset column for that row, based on whether the user chooses 1, 2, 3, etc. for the dataset they want to use.
-#b. ii. since this will be a bit timeconsuming to do for every value in a timeseries, the user can choose options that will set that dataset as the default for all rows where that dataset is available. This can be done by just asking the user a second question after their input for the first question. This will be a yes or no question asking if they want to set that dataset as the default for all rows where that dataset is available. If they say yes then we will use the .loc function to update the dataset column for all rows in the same timeseries where that dataset is available to be the chosen dataset. If they say no then we will just update the dataset column for that row to be the chosen dataset.
+#This is a script to make it easier for the user to do the manual selection of datasets, especailly at the start of choosing the datasets as it will otehrwise be very timeconsuming to create all the spreadsheets.
 
-#create that script now:
 # 1a.find the rows that have duplicates and then plot a timeseries for the full series which the duplicates are from
 #so find the unique combinations of the following columns: Economy, Measure, Vehicle Type, Unit, Medium, Transport Type, Drive, then if any years of that combination have more than one dataset of data, then plot a timeseries for that unique combination of columns.
-#find the unique combinations of the following columns: Economy, Measure, Vehicle Type, Unit, Medium, Transport Type, Drive
-combined_data_concordance_manual_not_indexed = combined_data_concordance_manual.copy()
-duplicates_manual_not_indexed = duplicates_manual.copy()
-combined_data_not_indexed = combined_data.copy()
-
-current_cols = ['Year', 'Economy', 'Measure', 'Vehicle Type', 'Unit', 'Medium',
-       'Transport Type','Drive']
-#Remove year from the current cols without removing it from original list, and set it as a new list
-current_cols_no_year = current_cols.copy()
-current_cols_no_year.remove('Year')
-#add the dataset column to the current cols without removing it from original list, and set it as a new list
-current_cols_dataset = current_cols.copy()
-current_cols_dataset.append('Dataset')
 
 #%%
-#set index of all the dfs we will use to be the above cols
-combined_data_concordance_manual = combined_data_concordance_manual_not_indexed.set_index(current_cols_no_year)
-
-duplicates_manual=duplicates_manual_not_indexed.set_index(current_cols_no_year)
-combined_data = combined_data_not_indexed.set_index(current_cols_no_year)#set year as index so we can retrieve the data by year in this dataset
-
-combined_data_for_value_extraction = combined_data_not_indexed.copy().set_index(current_cols_dataset)
-
-unique_combinations = combined_data_concordance_manual_not_indexed[current_cols_no_year].drop_duplicates()
-
-unique_combinations.set_index(current_cols_no_year, inplace=True)
-
-#TODO create bad_unique_combinations as a empty df with the same columns as unique_combinations
-bad_unique_combinations = pd.DataFrame(columns=unique_combinations.columns)
-num_bad_unique_combinations = 0
+run_only_on_rows_to_select_manually = True
+if run_only_on_rows_to_select_manually:
+       #if this, only run the manual process on index rows where we couldnt find a dataset to use automatically for some year
+       #since the automatic method is relatively strict there should be a large amount of rows to select manually
+       #note that if any one year cannot be chosen automatically then we will have to choose the dataset manually for all years of that row
+       if not 'rows_to_select_manually_df' in locals():
+              rows_to_select_manually_df = pd.read_csv('intermediate_data/data_selection/{}_rows_to_select_manually.csv'.format(FILE_DATE_ID))
+       iterator = rows_to_select_manually_df.reset_index().set_index(INDEX_COLS_no_year).drop_duplicates()
+else:
+       iterator = combined_data_concordance_iterator
+#Create bad_index_rows as a empty df with the same columns as index_rows
+bad_index_rows = pd.DataFrame(columns=combined_data_concordance_iterator.columns)
+num_bad_index_rows = 0
 #%%
 #loop through the unique combinations, plot a timeseries for each one and then ask the user what dataset they want to choose for that instance and then update the dataset column in combined_data for that row to be the chosen dataset
-for unique_combination in unique_combinations.index:
+for index_row in iterator.index:
        #filter for only the current row in our duplicates_manual dataset by using the row as an index
-       #TODO we are going to try using this but if it doesnt work then add the unqiue combination as a row to a lsit and we will check them outside the loop
        try:
-              current_row_filter = duplicates_manual.loc[duplicates_manual.index.isin([unique_combination])]
+              current_row_filter = duplicates_manual.loc[duplicates_manual.index.isin([index_row])]
        except KeyError:
-              num_bad_unique_combinations += 1
-              print('bad unique combination {}: {}'.format(num_bad_unique_combinations,unique_combination))
-              bad_unique_combinations = bad_unique_combinations.append(unique_combinations.loc[unique_combination])
+              num_bad_index_rows += 1
+              print('Bad unique combination {}: {}. Please check it to find out what the error was'.format(num_bad_index_rows,index_row))
+              bad_index_rows = bad_index_rows.append(combined_data_concordance_iterator.loc[index_row])
               #if the row is not in the duplicates_manual dataset then continue to the next row
               continue
        
        #identify how many datasets there are for each year by looking at the Count column
-       #if there are rows where count is greater than 1 then we will plot and ask user to choose
+       #if there are rows where count is greater than 1 then we will plot and ask user to choose which dataset to use
        if current_row_filter.Count.max() > 1:
               #grab the data for this unique combination of columns from the combined_data df
-              data_for_plotting = combined_data.loc[combined_data.index.isin([unique_combination])]
+              data_for_plotting = combined_data.loc[combined_data.index.isin([index_row])]
 
               ##PLOT
-              data_selection_functions.graph_manual_data(data_for_plotting, unique_combination)
+              #plot data for this unique index row
+              fig = data_selection_functions.graph_manual_data(data_for_plotting, index_row)
               
               ##USER INPUT
-
-              #ask user what dataset they want to choose for each year where a decision needs to be made
-              options = ['Keep the dataset "{}" for all years that the same combination of datasets is available', 'Keep the dataset "{}" for all years that the chosen dataset is available', 'Keep the dataset "{}" only for that year']
+              #ask user what dataset they want to choose for each year where a decision needs to be made, and then based on what they choose, update combined_data_concordance_manual 
+              combined_data_concordance_manual, user_input = data_selection_functions.manual_user_input_function(data_for_plotting, index_row,  combined_data_concordance_manual, INDEX_COLS)
               
-              #Then based on what they choose, update the dataset column in  combined_data_concordance_manual for that row to be the chosen dataset
-              #quickly save the values using pickle: options, data_for_plotting, unique_combination,  combined_data_concordance_manual, combined_data_for_value_extraction
-              import pickle
-              with open('./intermediate_data/data_selection/{}_data_selection_manual.pickle'.format(FILE_DATE_ID), 'wb') as f:
-                     pickle.dump([options, data_for_plotting, unique_combination,  combined_data_concordance_manual, combined_data_for_value_extraction], f)
-
-              combined_data_concordance_manual = data_selection_functions.user_input_function(options, data_for_plotting, unique_combination,  combined_data_concordance_manual, combined_data_for_value_extraction)
-                                   
+              plt.close(fig)
+              if user_input == 'quit':
+                     print('User input was quit on unique combination {}, so quitting the script and saving the progress to a csv'.format(index_row))
+                     break
+              else:
+                     print('Finished with unique combination: {}'.format(index_row))
+       else:
+              pass#print('Unique combination: {} did not have more than 1 dataset available so no manual decision was needed'.format(index_row))
+       
+print('Finished with manual selection of datasets')
+#%%
 #save the combined_data_concordance_manual df to a csv
 combined_data_concordance_manual.to_csv('./intermediate_data/data_selection/{}_data_selection_manual.csv'.format(FILE_DATE_ID))
 
-#save bad_unique_combinations to a csv
-bad_unique_combinations.to_csv('./intermediate_data/data_selection/{}_bad_unique_combinations.csv'.format(FILE_DATE_ID))
+# #save bad_index_rows to a csv
+bad_index_rows.to_csv('./intermediate_data/data_selection/{}_bad_index_rows.csv'.format(FILE_DATE_ID))
 
 #%%
 #Some issues we may come across:
@@ -211,4 +188,41 @@ bad_unique_combinations.to_csv('./intermediate_data/data_selection/{}_bad_unique
 #BIGGEST ISSUE is that we are probably going to have very few datapoints that are duplicates because we will get lots of datapoints for lots of different categories that dont match exactly. eg. ato data is not split into different vehicle or engine types so there are no duplicates between that and 8th edition activity data.
 #ALSO with the manual sheet, if you dont know what years we have values for then it will eb hard to use. so
 
+#EXTRA MANUAL METHOD: PLEASE NOTE THAT IF YOU WANT TO CHOOSE THE DATA MANUALLY THEN JJUST SET THE DATA WITHIN THE CSV {}_data_selection_manual.csv'.format(FILE_DATE_ID)), THIS WILL BE USED INSTEAD OF WHAT IS OUTPUT FROM THE MANUAL METHOD ABOVE
+#%%
+#COMBINE MANUAL AND AUTOMATIC DATA SELECTION OUTPUT DFs
+#join the automatic and manual datasets so we can compare the dataset  columns from both the manual dataset automatic dataset
+#create a final_dataset column. This will be filled with the dataset in the automatic column, except where the values in the manual and automatic dataset columns are different, for which we will use the value in the manual dataset.
+test=True
+if test:
+       #load in the manual data selection df and automatic data selection df
+       combined_data_concordance_manual = pd.read_csv('intermediate_data/data_selection/{}_data_selection_manual.csv'.format(FILE_DATE_ID), index_col=INDEX_COLS)
+       combined_data_concordance_automatic = pd.read_csv('intermediate_data/data_selection/{}_data_selection_automatic.csv'.format(FILE_DATE_ID), index_col=INDEX_COLS)
 
+do_this = True
+if do_this:
+       #join manual and automatic data selection dfs
+       final_combined_data_concordance = combined_data_concordance_manual.merge(combined_data_concordance_automatic, how='outer', left_index=True, right_index=True, suffixes=('_manual', '_auto'))
+
+       #we will either have dataset names or nan values in the manual and automatic dataset columns. We want to use the manual dataset column if it is not nan, otherwise use the automatic dataset column:
+       #first set the dataset_selection_method column based on that criteria, and then use that to set other columns
+       final_combined_data_concordance.loc[final_combined_data_concordance['Dataset_auto'].notnull(), 'Final_dataset_selection_method'] = 'Automatic'
+       #if the manual dataset column is not nan then use that instead
+       final_combined_data_concordance.loc[final_combined_data_concordance['Dataset_manual'].notnull(), 'Final_dataset_selection_method'] = 'Manual'
+
+       #Now depending on the value of the final_dataset_selection_method column, we can set final_value and final_dataset columns
+       #if the final_dataset_selection_method is manual then use the manual dataset column
+       final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Manual', 'Value'] = final_combined_data_concordance['Value_manual']
+       final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Manual', 'Dataset'] = final_combined_data_concordance['Dataset_manual']
+       #if the final_dataset_selection_method is automatic then use the automatic dataset column
+       final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Automatic', 'Dataset'] = final_combined_data_concordance['Dataset_auto']
+       final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Automatic', 'Value'] = final_combined_data_concordance['Value_auto']
+
+       #drop cols ending in _manual and _auto
+       final_combined_data_concordance.drop(columns=[col for col in final_combined_data_concordance.columns if col.endswith('_manual') or col.endswith('_auto')], inplace=True)
+             
+       #save the final_combined_data_concordance df to a csv
+       final_combined_data_concordance.to_csv('./output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
+
+
+#%%

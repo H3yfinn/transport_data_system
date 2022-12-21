@@ -9,6 +9,8 @@ from dis import show_code
 from tokenize import Special
 from matplotlib.pyplot import title
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
@@ -25,7 +27,7 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_sys
 
 #%%
 #load in the data
-ATO_data = pd.read_csv('output_data/ATO_data/ATO_actual_data_2022-10-19.csv')
+ATO_data = pd.read_csv('intermediate_data/ATO_data/ATO_actual_data_2022-10-19.csv')
 country_codes = pd.read_csv('config/economy_code_to_name.csv')
 #drop na from country codes
 country_codes = country_codes.dropna()

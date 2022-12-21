@@ -8,6 +8,8 @@
 
 from matplotlib.pyplot import title
 import pandas as pd
+# set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
+pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
@@ -17,6 +19,7 @@ import plotly.io as pio
 pio.renderers.default = "browser"#allow plotting of graphs in the interactive notebook in vscode #or set to notebook
 
 import itertools
+import datetime
 
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
@@ -25,12 +28,12 @@ PRINT_GRAPHS_AND_STATS = False
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-# FILE_DATE_ID = ''
+# FILE_DATE_ID = 'DATE20221214'
 
 #%%
 #load data
 
-ATO_data_transport_checking_concordance_check = pd.read_csv('intermediate_data/ATO_data/ATO_data_transport_checking_concordance_check.csv')
+ATO_data_transport_checking_concordance_check = pd.read_csv('intermediate_data/ATO_data/ATO_data_transport_checking_concordance_check_{}.csv'.format(FILE_DATE_ID))
 
 #%%
 #next steps:
@@ -82,7 +85,6 @@ ATO_data_transport_checking_concordance_check['Measure'] = ATO_data_transport_ch
 #note that we are gnoring the international values for now.
 freight_km_medium_column_names = ['Freight Transport - Tonne-km for Aviation (Domestic)','Freight Transport - Tonne-km for Railways', 'Freight Transport - Tonne-km for Roads', 'Freight Transport - Tonne-km for Waterways/shipping (Domestic)']
 ATO_data_transport_checking_concordance_check['Measure'] = ATO_data_transport_checking_concordance_check['Measure'].replace(to_replace=freight_km_medium_column_names,value='freight_tonne_km')
-
 #%%
 #same as above for vehicle registration:
     #    ' Electric Vehicle registration  (Bus)',
@@ -342,8 +344,18 @@ if PRINT_GRAPHS_AND_STATS:
 ATO_clean_2015_concordance.drop(columns=['data_available'], inplace=True)
 #remove sheet col
 ATO_clean_2015_concordance.drop(columns=['Sheet'], inplace=True)
+
+#%%
+#make sure there is only one unit for each measure
+ATO_clean_2015_concordance.groupby(['Measure', 'Unit']).size().reset_index().rename(columns={0:'count'})
+if len(ATO_clean_2015_concordance.groupby(['Measure', 'Unit']).size().reset_index().rename(columns={0:'count'})) == len(ATO_clean_2015_concordance['Measure'].unique()):
+    print('All measures have one unit')
+else:
+    print('There are measures with more than one unit')
+
+#%%
 #save data
-ATO_clean_2015_concordance.to_csv('output_data/ATO_data/ATO_dataset_clean_{}.csv'.format(FILE_DATE_ID), index=False)
+ATO_clean_2015_concordance.to_csv('intermediate_data/ATO_data/ATO_dataset_clean_{}.csv'.format(FILE_DATE_ID), index=False)
 #i guerss plan from here is to look at how to fill in the hoels and also find more measures.
 
 #%%

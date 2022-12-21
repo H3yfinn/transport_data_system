@@ -1,12 +1,16 @@
+import sys
 
+sys.path.append('./aggregation_code')
+
+import aggregation_code.data_selection_functions as data_selection_functions
 #%%
 #use this below to print names of all py files in this folder and folders inside. You can then easily copy them into the script to run them in the order you need.
 import os
-
 for root, dirs, files in os.walk(".", topdown=False):
     for name in files:
         if name.endswith('.py'):
-            print(os.path.join(root, name))
+            if name.endswith('.py'):
+                print('exec(open("{}").read())'.format(os.path.join(root, name).replace('\\', '/')))
 
 #%%
 #printed names of all py files in this folder and folders inside:
@@ -34,9 +38,11 @@ exec(open("./grooming_code/2_clean_ATO_dataset.py").read())
 exec(open("./grooming_code/3_clean_ATO_dataset.py").read())
 #%%
 exec(open("./aggregation_code/1_aggregate_cleaned_datasets.py").read())
-# exec(open("./aggregation_code/2_select_best_data.py").read())
+exec(open("./aggregation_code/2_identify_duplicate_datapoints.py").read())
+exec(open("./aggregation_code/3_select_best_data.py").read())
 
-# exec(open("./analysis_code/track_data_requirements_template.py").read())
-exec(open("./analysis_code/communicate_whole_dataset_details.py").read())
+#%%
+exec(open("./analysis_code/plot_finalised_data.py").read())
+# exec(open("./analysis_code/communicate_whole_dataset_details.py").read())
 #%%
 

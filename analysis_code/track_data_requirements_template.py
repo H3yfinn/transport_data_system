@@ -15,3 +15,13 @@
 
 #%%
 #this will probably6 end up being a file thast is used in other systems to see wat data in the transport data sytstem is available.
+
+#%%
+#load in the concordacne for data we need for the application
+import pandas as pd
+import numpy as np 
+
+#load in the concordance (in this case for the transport model)
+model_concordances_version = '_v1.0'
+model_concordances_all_file_name = 'model_concordances_all{}.csv'.format(model_concordances_version)
+concordance = pd.read_csv('./input_data/concordances/{}'.format(model_concordances_all_file_name))
