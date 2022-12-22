@@ -1,3 +1,7 @@
+Please view the Wiki here for contextual information:
+
+https://github.com/H3yfinn/transport_data_system/wiki
+
 ## SETUP
 There are two options for environments. They depend if you want to use jupyter or just the command line to run the model. I prefer to use jupyter but i know that it takes a lot of space/set-up-time.
  - config/env_jupyter.yml
@@ -25,11 +29,8 @@ year | economy | transport_type | vehicle_type | drive | medium | measure | unit
 
 There will be a lot of files intended for one set of input data and these may become irrelevant over time. So it's expected that an effort will be put towards keepinng things systematic and well documented. 
 
-## Intention to integrate with iTEM database
+### Intention to integrate with iTEM database
 Also, if we can, it would be good to design the files so they can be used in iTEM's transport database for extracting data and putting it into the format they have in their database.
-
-#########################################################################################################
-#########################################################################################################
 
 ## Data sources
 Please note that the following will be quite messy. It is a work in progress and will be updated as we go along.
