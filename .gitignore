@@ -24,6 +24,9 @@ env_no_jupyter/*
 !config/*
 # !other_outputs/*
 !input_data/**
+#but ignore this particularly large file
+input_data/Google mobility data/Global_Mobility_Report.csv
+
 !documentation/*
 
 
