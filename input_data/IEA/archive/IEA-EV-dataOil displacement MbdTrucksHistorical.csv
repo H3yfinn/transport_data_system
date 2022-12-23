@@ -1,0 +1,40 @@
+region,category,parameter,mode,powertrain,year,unit,value
+China,Historical,Oil displacement Mbd,Trucks,EV,2010,Milion barrels per day,1.5999999902760464e-7
+China,Historical,Oil displacement Mbd,Trucks,EV,2011,Milion barrels per day,2.699999868127634e-7
+China,Historical,Oil displacement Mbd,Trucks,EV,2012,Milion barrels per day,7.699999855503847e-7
+China,Historical,Oil displacement Mbd,Trucks,EV,2013,Milion barrels per day,0.0000035000000480067683
+China,Historical,Oil displacement Mbd,Trucks,EV,2014,Milion barrels per day,0.000003999999989900971
+China,Historical,Oil displacement Mbd,Trucks,EV,2015,Milion barrels per day,0.00005199999941396527
+China,Historical,Oil displacement Mbd,Trucks,EV,2016,Milion barrels per day,0.00007500000356230885
+China,Historical,Oil displacement Mbd,Trucks,EV,2017,Milion barrels per day,0.00011000000085914508
+China,Historical,Oil displacement Mbd,Trucks,EV,2018,Milion barrels per day,0.0003800000122282654
+China,Historical,Oil displacement Mbd,Trucks,EV,2019,Milion barrels per day,0.00039999998989515007
+China,Historical,Oil displacement Mbd,Trucks,EV,2020,Milion barrels per day,0.0003600000054575503
+China,Historical,Oil displacement Mbd,Trucks,EV,2021,Milion barrels per day,0.0005200000014156103
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2010,Milion barrels per day,2.0000000233721948e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2011,Milion barrels per day,2.7999999474559445e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2012,Milion barrels per day,2.900000026784255e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2013,Milion barrels per day,4.799999828719592e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2014,Milion barrels per day,5.599999894911889e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2015,Milion barrels per day,6.000000212225132e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2016,Milion barrels per day,8.200000252145401e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2017,Milion barrels per day,9.299999987888441e-7
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2018,Milion barrels per day,0.0000013000000080864993
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2019,Milion barrels per day,0.000003000000106112566
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2020,Milion barrels per day,0.000003999999989900971
+Europe,Historical,Oil displacement Mbd,Trucks,EV,2021,Milion barrels per day,0.000014000000192027073
+Rest of the world,Historical,Oil displacement Mbd,Trucks,EV,2019,Milion barrels per day,7.400000185953104e-7
+Rest of the world,Historical,Oil displacement Mbd,Trucks,EV,2020,Milion barrels per day,0.0000010999999631167157
+Rest of the world,Historical,Oil displacement Mbd,Trucks,EV,2021,Milion barrels per day,0.000004500000159168849
+World,Historical,Oil displacement Mbd,Trucks,EV,2010,Milion barrels per day,3.6000000136482413e-7
+World,Historical,Oil displacement Mbd,Trucks,EV,2011,Milion barrels per day,0.0000032000000373955118
+World,Historical,Oil displacement Mbd,Trucks,EV,2012,Milion barrels per day,0.0000033999999686784577
+World,Historical,Oil displacement Mbd,Trucks,EV,2013,Milion barrels per day,0.000006300000222836388
+World,Historical,Oil displacement Mbd,Trucks,EV,2014,Milion barrels per day,0.00000670000008540228
+World,Historical,Oil displacement Mbd,Trucks,EV,2015,Milion barrels per day,0.00005500000042957254
+World,Historical,Oil displacement Mbd,Trucks,EV,2016,Milion barrels per day,0.00007999999797903001
+World,Historical,Oil displacement Mbd,Trucks,EV,2017,Milion barrels per day,0.00011000000085914508
+World,Historical,Oil displacement Mbd,Trucks,EV,2018,Milion barrels per day,0.0003800000122282654
+World,Historical,Oil displacement Mbd,Trucks,EV,2019,Milion barrels per day,0.00041000000783242285
+World,Historical,Oil displacement Mbd,Trucks,EV,2020,Milion barrels per day,0.0003699999942909926
+World,Historical,Oil displacement Mbd,Trucks,EV,2021,Milion barrels per day,0.0005799999926239252
