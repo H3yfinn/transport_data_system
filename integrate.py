@@ -33,11 +33,13 @@ for root, dirs, files in os.walk(".", topdown=False):
 exec(open("./grooming_code/1_clean_8th_edition_data.py").read())
 exec(open("./grooming_code/1_clean_other_8th_edition_input_data.py").read())
 exec(open("./grooming_code/1_extract_ATO_dataset.py").read())
+exec(open("./grooming_code/1_clean_item_data.py").read())
 exec(open("./grooming_code/2_aggregate_8th_edition_data.py").read())
 exec(open("./grooming_code/2_clean_ATO_dataset.py").read())
 exec(open("./grooming_code/3_clean_ATO_dataset.py").read())
 #%%
 exec(open("./aggregation_code/1_aggregate_cleaned_datasets.py").read())
+#%%
 exec(open("./aggregation_code/2_identify_duplicate_datapoints.py").read())
 exec(open("./aggregation_code/3_select_best_data.py").read())
 

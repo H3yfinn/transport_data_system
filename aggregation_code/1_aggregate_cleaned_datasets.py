@@ -31,6 +31,9 @@ FILE_DATE_ID = 'DATE{}'.format(file_date)
 ATO_dataset_clean = pd.read_csv('intermediate_data/ATO_data/ATO_dataset_clean_{}.csv'.format(FILE_DATE_ID))
 
 eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID))
+item_data_apec_tall = pd.read_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv')
+#%%
+#handle transport model dataset
 #remove all 8th edition data that is from the reference and carbon neutrality scenarios
 eigth_edition_transport_data = eigth_edition_transport_data[eigth_edition_transport_data['Dataset'] == '8th edition transport model']
 
@@ -52,11 +55,16 @@ ATO_dataset_clean['Medium'] = ATO_dataset_clean['Medium'].str.lower()
 #remove nan values in vlaue column
 ATO_dataset_clean = ATO_dataset_clean[ATO_dataset_clean['Value'].notna()]
 #%%
-#handle transport model dataset
-
+#handle item data
+item_data_apec_tall['Dataset'] = 'ITEM'
+#remove Source column
+item_data_apec_tall = item_data_apec_tall.drop(columns=['Source'])
+#remove na values in value column
+item_data_apec_tall = item_data_apec_tall[item_data_apec_tall['Value'].notna()]
 #%%
 #join data together
 combined_data = ATO_dataset_clean.append(eigth_edition_transport_data, ignore_index=True)
+combined_data = combined_data.append(item_data_apec_tall, ignore_index=True)
 
 #filter data where year is less than 2010
 combined_data = combined_data[combined_data['Year'] >= 2010]
