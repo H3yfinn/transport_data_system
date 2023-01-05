@@ -1,3 +1,7 @@
+Please view the Wiki here for contextual information:
+
+https://github.com/H3yfinn/transport_data_system/wiki
+
 ## SETUP
 There are two options for environments. They depend if you want to use jupyter or just the command line to run the model. I prefer to use jupyter but i know that it takes a lot of space/set-up-time.
  - config/env_jupyter.yml
@@ -25,11 +29,8 @@ year | economy | transport_type | vehicle_type | drive | medium | measure | unit
 
 There will be a lot of files intended for one set of input data and these may become irrelevant over time. So it's expected that an effort will be put towards keepinng things systematic and well documented. 
 
-## Intention to integrate with iTEM database
+### Intention to integrate with iTEM database
 Also, if we can, it would be good to design the files so they can be used in iTEM's transport database for extracting data and putting it into the format they have in their database.
-
-#########################################################################################################
-#########################################################################################################
 
 ## Data sources
 Please note that the following will be quite messy. It is a work in progress and will be updated as we go along.
@@ -53,3 +54,17 @@ The dataset includes data for Energy, activity and road stocks. There is also da
 Sometimes i probably use words like 'concordance' in the wrong contexts. Here are some examples in case it helps:
 Concordance table: used to describe a data table used to state certain rules within the data i'm using. for example it can be used to create a mapping between sets of categories (eg. drive types to fuel types) or to state what categories of data are allowed or are present in the data i'm using.
 
+# Github LFS (Large File Storage)
+So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice this as some larger input files are not in the repo but are instead in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and then run the following command in the terminal:
+
+> git lfs pull
+
+# My current LFS strategy:
+I have found it a little tricky to work with LFS but here is what i believe is best:
+Create lfs pointers for all files in input_data/** and output_data/** (except those that are ignored by the .gitignore)
+This is done by using the commands:
+> git lfs track "input_data/**"
+> git lfs track "output_data/**"
+
+This means that as you add files to input_data and output_data push them to github remote, they will be replaced with pointers on the remote server, which point to the files which are stored in the LFS. If you were then to clone or pull from the github remote you will be pulling the pointers. To download the actual files from the LFS, run the command:
+> git lfs pull
