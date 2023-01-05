@@ -55,8 +55,8 @@ Sometimes i probably use words like 'concordance' in the wrong contexts. Here ar
 Concordance table: used to describe a data table used to state certain rules within the data i'm using. for example it can be used to create a mapping between sets of categories (eg. drive types to fuel types) or to state what categories of data are allowed or are present in the data i'm using.
 
 # Github LFS (Large File Storage)
-So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice this as some larger input files are not in the repo but are instead in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and then run the following command in the terminal:
-
+So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice that some csv and xlsx files are only 1kb large. This is because they are pointers to the actual files which are stored in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and run the following command in the terminal:
+> git lfs install
 > git lfs pull
 
 # My current LFS strategy:
@@ -66,5 +66,7 @@ This is done by using the commands:
 > git lfs track "input_data/**"
 > git lfs track "output_data/**"
 
-This means that as you add files to input_data and output_data push them to github remote, they will be replaced with pointers on the remote server, which point to the files which are stored in the LFS. If you were then to clone or pull from the github remote you will be pulling the pointers. To download the actual files from the LFS, run the command:
+(You can see the files that are being tracked by LFS in .gitattributes.)
+
+This means that as you add files to input_data and output_data push them to github remote, they will be replaced with pointers on the remote server, which point to the files which are stored in the LFS. If you were then to clone or pull from the github remote you will be pulling the pointers. To download the actual files from the LFS, just run the command which will transform the 1kb pointer files into their actual sized files:
 > git lfs pull
