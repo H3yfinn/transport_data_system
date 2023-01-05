@@ -54,3 +54,7 @@ The dataset includes data for Energy, activity and road stocks. There is also da
 Sometimes i probably use words like 'concordance' in the wrong contexts. Here are some examples in case it helps:
 Concordance table: used to describe a data table used to state certain rules within the data i'm using. for example it can be used to create a mapping between sets of categories (eg. drive types to fuel types) or to state what categories of data are allowed or are present in the data i'm using.
 
+# Github LFS (Large File Storage)
+So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice this as some larger input files are not in the repo but are instead in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and then run the following command in the terminal:
+
+git lfs pull

@@ -98,34 +98,29 @@ progress_markers = np.linspace(0, num_rows, 10, dtype=int)
 #start timer so we can give an estimate of how long the script will take to run
 start = datetime.datetime.now()
 
-#%%
-run_this = True
-if run_this:
-    #iterate through the unique rows in the concordance
-    for index, row in combined_data_concordance.iterrows():
-        #use the repeat method to create a new row for each year in the range
-        repeated_row = pd.DataFrame(np.repeat([row], len(years), axis=0))
-        #set the year column in the repeated row to the array of years
-        repeated_row['Year'] = years
-        #append the repeated row to the concordance
-        combined_data_concordance_new = combined_data_concordance_new.append(repeated_row, ignore_index=True)
-        #print progress if we are 10% done, 20% done etc
-        if index in progress_markers:
-            print('{}% done'.format(int(index/num_rows*100)))
-            print('Time elapsed: {}'.format(datetime.datetime.now() - start))
+#iterate through the unique rows in the concordance
+for index, row in combined_data_concordance.iterrows():
+    #use the repeat method to create a new row for each year in the range
+    repeated_row = pd.DataFrame(np.repeat([row], len(years), axis=0))
+    #set the year column in the repeated row to the array of years
+    repeated_row['Year'] = years
+    #append the repeated row to the concordance
+    combined_data_concordance_new = combined_data_concordance_new.append(repeated_row, ignore_index=True)
+    #print progress if we are 10% done, 20% done etc
+    if index in progress_markers:
+        print('{}% done'.format(int(index/num_rows*100)))
+        print('Time elapsed: {}'.format(datetime.datetime.now() - start))
 
-    #set all column names except the Year to be the same as the combined data concordance
-    #set Year col as an index 
-    combined_data_concordance_new.set_index('Year', inplace=True)
-    combined_data_concordance_new.columns = combined_data_concordance.columns
-    #reset the index so that the Year column is a column again
-    combined_data_concordance_new.reset_index(inplace=True)
-
-    combined_data_concordance_new.to_csv('intermediate_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID), index=False)
+#set all column names except the Year to be the same as the combined data concordance
+#set Year col as an index 
+combined_data_concordance_new.set_index('Year', inplace=True)
+combined_data_concordance_new.columns = combined_data_concordance.columns
+#reset the index so that the Year column is a column again
+combined_data_concordance_new.reset_index(inplace=True)
 
 #%%
 
 #save
 combined_data.to_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID), index=False)
-
+combined_data_concordance_new.to_csv('intermediate_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID), index=False)
 #%%
