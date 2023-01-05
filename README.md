@@ -57,4 +57,14 @@ Concordance table: used to describe a data table used to state certain rules wit
 # Github LFS (Large File Storage)
 So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice this as some larger input files are not in the repo but are instead in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and then run the following command in the terminal:
 
-git lfs pull
+> git lfs pull
+
+# My current LFS strategy:
+I have found it a little tricky to work with LFS but here is what i believe is best:
+Create lfs pointers for all files in input_data/** and output_data/** (except those that are ignored by the .gitignore)
+This is done by using the commands:
+> git lfs track "input_data/**"
+> git lfs track "output_data/**"
+
+This means that as you add files to input_data and output_data push them to github remote, they will be replaced with pointers on the remote server, which point to the files which are stored in the LFS. If you were then to clone or pull from the github remote you will be pulling the pointers. To download the actual files from the LFS, run the command:
+> git lfs pull
