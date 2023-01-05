@@ -1,6 +1,6 @@
-input_data/*.csv filter=lfs diff=lfs merge=lfs -text
-input_data/*.xlsx filter=lfs diff=lfs merge=lfs -text
-intermediate_data/*.xlsx filter=lfs diff=lfs merge=lfs -text
-intermediate_data/*.csv filter=lfs diff=lfs merge=lfs -text
-output_data/*.csv filter=lfs diff=lfs merge=lfs -text
-output_data/*.xlsx filter=lfs diff=lfs merge=lfs -text
+output_data/DATE20221212_final_combined_data_concordance.csv filter=lfs diff=lfs merge=lfs -text
+output_data/DATE20221213_1235_interpolated_combined_data_concordance.csv filter=lfs diff=lfs merge=lfs -text
+output_data/DATE20221214_final_combined_data_concordance.csv filter=lfs diff=lfs merge=lfs -text
+output_data/DATE20221214_interpolated_combined_data_concordance.csv filter=lfs diff=lfs merge=lfs -text
+output_data/lfs_test filter=lfs diff=lfs merge=lfs -text
+output_data/archive filter=lfs diff=lfs merge=lfs -text
