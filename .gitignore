@@ -29,7 +29,9 @@ input_data/Google mobility data/Global_Mobility_Report.csv
 
 !documentation/*
 
-
+#TEMP
+!output_data/**
+output_data/archive/**
 
 ######################################
 #Following are defaults based on a file i found on github
