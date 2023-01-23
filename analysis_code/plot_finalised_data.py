@@ -1,4 +1,5 @@
-#use this to plot a grid of time series of the data that was aggregasted and selected in 3_select_best_data.py
+#plot_finalised_data.py
+#Use this to plot line graphs with value on the y axis and date on the x axis. These will show the time series for all the different possible time series in the final data that was selected and, if the user chooses, interpolated. On each graph could be a number of time series lines (or singular values if there is only one for that time series) for that graphs economy, measure and transport type. The time series line will have markers at each different datapoint to indicate what dataset teh value is from
 
 #%%
 import datetime
@@ -9,8 +10,6 @@ pd.options.mode.chained_assignment = None
 import numpy as np
 import os
 import re
-import pickle
-import sys
 import matplotlib
 import matplotlib.pyplot as plt
 # %matplotlib notebook
@@ -28,13 +27,14 @@ USE_INTERPOLATED_DATA = True
 #%%
 #laod in data that has been interpolated and data that hasnt been (since we may at times want to plot the data before it has been interpolated). They are both the same structure:
 file_date = datetime.datetime.now().strftime("%Y%m%d")
+import utility_functions as utility_functions
+file_date = utility_functions.get_latest_date_for_data_file('./output_data/', '_interpolated_combined_data_condordance.csv')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
+interpolated_data = pd.read_csv('output_data/{}_interpolated_combined_data_condordance.csv'.format(FILE_DATE_ID))
 
-# FILE_DATE_ID_hr_min = 'DATE20221213_1235'
-FILE_DATE_ID = 'DATE20221214'
-interpolated_data = pd.read_csv('output_data/{}_interpolated_combined_data_concordance.csv'.format(FILE_DATE_ID))
+file_date = utility_functions.get_latest_date_for_data_file('./output_data/', '_final_combined_data_concordance.csv')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
 non_interpolated_data = pd.read_csv('output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
-
 
 #if we dont want to plot interpoalted data then set interpolated_data to non_interpolated_data now
 if not USE_INTERPOLATED_DATA:
@@ -42,16 +42,20 @@ if not USE_INTERPOLATED_DATA:
 
 
 #%%
-INDEX_COLS = ['Year', 'Economy', 'Measure', 'Vehicle Type', 'Medium',
-       'Transport Type','Drive']
+INDEX_COLS = ['Economy', 'Measure', 'Vehicle Type', 'Unit', 'Medium',
+       'Transport Type', 'Drive', 'Fuel_Type', 'Frequency', 'Date',
+       'Dataset']
 #Remove year from the current cols without removing it from original list, and set it as a new list
 INDEX_COLS_no_year = INDEX_COLS.copy()
-INDEX_COLS_no_year.remove('Year')
+INDEX_COLS_no_year.remove('Date')
 
 INDEX_COLS_no_year_no_measure_no_economy_no_type = INDEX_COLS_no_year.copy()
 INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Measure')
 INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Economy')
 INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Transport Type')
+INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Dataset')
+INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Unit')
+
 
 
 #%%
@@ -63,10 +67,6 @@ number_of_economies = len(interpolated_data['Economy'].unique())
 
 #create indexes in the data so we can loop through it
 interpolated_data.set_index(INDEX_COLS_no_year_no_measure_no_economy_no_type, inplace=True)
-
-#%%
-
-
 
 #%%
 # Loop through the data and plot each time series on its own subplot
@@ -127,13 +127,13 @@ if plot_markers_to_use:
 
 #%%
 #take a look at where dataset is 'ATO'
-interpolated_data.loc[interpolated_data['Dataset'] == 'ATO']
+# interpolated_data.loc[interpolated_data['Dataset'] == 'ATO']
 #%%
 for measure in interpolated_data['Measure'].unique():
     for transport_type in interpolated_data['Transport Type'].unique():
         #if there is no values in Value COL except na's for the current measure and transport type then skip it and let user know
         if interpolated_data.loc[(interpolated_data['Measure'] == measure) & (interpolated_data['Transport Type'] == transport_type)].Value.isnull().all():
-            print('There are no values for the measure {} and transport type {} so skipping it'.format(measure, transport_type))
+            print('There are no values for the measure {} and transport type {} so skipping the plotting of it'.format(measure, transport_type))
             continue
 
         #######################
@@ -166,7 +166,7 @@ for measure in interpolated_data['Measure'].unique():
 
             #set visual details for the current subplot
             ax[row, col].yaxis.set_major_formatter(formatter)
-            ax[row,col].set_xlim(interpolated_data.Year.min(), interpolated_data.Year.max())
+            ax[row,col].set_xlim(interpolated_data.Date.min(), interpolated_data.Date.max())
             try:
                 ax[row,col].set_ylim(-current_economy_measure_data.Value.max()*0.1, current_economy_measure_data.Value.max()*1.5)
             except ValueError:
@@ -189,7 +189,7 @@ for measure in interpolated_data['Measure'].unique():
                 
                 #plot the data for the current row in the current economys subplot 
 
-                ax[row, col].plot(current_row_data.Year, current_row_data.Value, label=unique_row, linewidth=4, color=color_dict[unique_row], marker = 'None')
+                ax[row, col].plot(current_row_data.Date, current_row_data.Value, label=unique_row, linewidth=4, color=color_dict[unique_row], marker = 'None')
 
             #Now this subplot is done, get handles and labels and add them to the legend
             handles, labels = ax[row, col].get_legend_handles_labels()
@@ -197,7 +197,7 @@ for measure in interpolated_data['Measure'].unique():
             labels_list.extend(labels)
 
             #now for each economy plot the datasets
-            for unique_row in current_economy_measure_data.index.unique():#rows are based on vehicle type medium and drive
+            for unique_row in current_economy_measure_data.index.unique():#rows are based the index rows
                 for unique_dataset in current_economy_measure_data.Dataset.unique():
                     #if dataset is nan then skip it
                     if pd.isnull(unique_dataset):
@@ -207,7 +207,7 @@ for measure in interpolated_data['Measure'].unique():
                     current_row_data = current_row_data.loc[current_row_data['Dataset'] == unique_dataset,:]
 
                     #plot the data for the current row in the current economys subplot 
-                    ax[row, col].scatter(current_row_data.Year, current_row_data.Value, label=unique_row, color=color_dict[unique_row], marker=marker_dict[unique_dataset], s=200)
+                    ax[row, col].scatter(current_row_data.Date, current_row_data.Value, label=unique_row, color=color_dict[unique_row], marker=marker_dict[unique_dataset], s=200)
 
         #get number of actual values in the data
         number_of_values = len(interpolated_data.loc[(interpolated_data['Measure'] == measure) & (interpolated_data['Transport Type'] == transport_type), 'Value'].dropna())   
@@ -235,6 +235,9 @@ for measure in interpolated_data['Measure'].unique():
         
         
         fig.legend(handles2, labels2, loc='center right', ncol=1, bbox_to_anchor=(1.05, 0.1))
+
+        #make sure there is minmmal white space on either side of the plot
+        plt.tight_layout()
 
         #save the plot with id for the date and the measure. Make the plot really high resolution so that it can be zoomed in on
         plt.savefig('plotting_output/plot_finalised_data/{}_{}_{}_plot.png'.format(FILE_DATE_ID, measure, transport_type), bbox_inches='tight')

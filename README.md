@@ -19,18 +19,18 @@ Note that installing those libraries in the yml files will result in a few other
 ## About
 This system is intended for handling all data that is needed in the transport model and other APERC transport related systems/analysis.
 
-So the system will extract data from csv's/xlsx's/databases, groomm the data so that it is all in the correct format and then concatenate everything into one large dataframe.
+So the system will extract data from csv's/xlsx's/databases, groom the data so that it is all in the correct format and then concatenate everything into one large dataframe.
 
-The structure of the dataframe will be for these columns:
+The structure of the dataframe will be for these columns (but this might change as we add new cols):
 
-year | economy | transport_type | vehicle_type | drive | medium | measure | unit
----|---|----|----|----|----|----|----
-2017 | 01_AUS | freight | ht | bev | road | energy | PJ
+year | economy | transport_type | vehicle_type | drive | medium | measure | unit | fuel_type
+---|---|----|----|----|----|----|----|----
+2017 | 01_AUS | freight | ht | bev | road | energy | PJ | coal
 
-There will be a lot of files intended for one set of input data and these may become irrelevant over time. So it's expected that an effort will be put towards keepinng things systematic and well documented. 
+There is the possibility that this may include a lot of different data sources, and then the grooming for those will inevitably be a bit messy/complicated so it could get out of hand over time. However the hope is that by then there will be a much more centralised repositry of transport data so the importing/grooming process will be a lot nicer.
 
 ### Intention to integrate with iTEM database
-Also, if we can, it would be good to design the files so they can be used in iTEM's transport database for extracting data and putting it into the format they have in their database.
+Eventually, if we can, it would be good to design the files so they can be used in iTEM's transport database for extracting data and putting it into the format they have in their database.
 
 ## Data sources
 Please note that the following will be quite messy. It is a work in progress and will be updated as we go along.
@@ -49,12 +49,14 @@ None yet but intended we get something!
 This data is what was used in the 8th edition of the APERC transport model. The major issue with this data is that it has no sources or methods. However it is complete so it can make a good starting point for testing out any analysis. The dataset includes data that was projected as part of the 8th edition. this projected data is from around 2019 onwards, but that isn't specified in the dataset anywhere.
 The dataset includes data for Energy, activity and road stocks. There is also data that i trust less and think was estimated based on the scenario the model was based on: turnover_rate, occupance_load and new_vehicle_efficiency
 
+# iTEM data
+From item's database which is hosted here https://zenodo.org/record/4121180
 
 # weird terminology in the work i do:
 Sometimes i probably use words like 'concordance' in the wrong contexts. Here are some examples in case it helps:
 Concordance table: used to describe a data table used to state certain rules within the data i'm using. for example it can be used to create a mapping between sets of categories (eg. drive types to fuel types) or to state what categories of data are allowed or are present in the data i'm using.
 
-# Github LFS (Large File Storage)
+## Github LFS (Large File Storage)
 So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice that some csv and xlsx files are only 1kb large. This is because they are pointers to the actual files which are stored in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and run the following command in the terminal:
 > git lfs install
 > git lfs pull

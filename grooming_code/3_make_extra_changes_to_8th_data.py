@@ -1,5 +1,6 @@
 #%%
 import pandas as pd
+import numpy as np
 # set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
 pd.options.mode.chained_assignment = None
 import os
@@ -9,12 +10,14 @@ import datetime
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
-file_date = datetime.datetime.now().strftime("%Y%m%d")
+# file_date = datetime.datetime.now().strftime("%Y%m%d")
+import utility_functions as utility_functions
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_aggregated_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-FILE_DATE_ID = 'DATE20221214'
+# FILE_DATE_ID = 'DATE20221214'
 #%%
 #load 8th data
-eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID))
+eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_aggregated_{}.csv'.format(FILE_DATE_ID))
 #%%
 
 #there are too many missing values for 2017 in new_vehicle_efficiency, we will jsut fill them in with the values for 2018
@@ -45,6 +48,92 @@ occupance_load['Year'] = 2017
 eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Measure'] == 'occupancy_or_load') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model')),:]
 eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, occupance_load])
 ####################################################################################################################################
+#%%
+#Replace million_stocks with stocks
+#timeseries data for stocks is in millions, so we need to multiply by 1,000,000
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'] == 'million_stocks', 'Value'] = eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'] == 'million_stocks', 'Value'] * 1000000
+
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'] == 'million_stocks', 'Unit'] = 'Stocks'
+
+#units are currently in thousands for activity, and PJ for energy. We want to convert activity to singlular units#NOTE IT SEEMS THAT PERHAPS THE VALUES SHOULD BE IN MILLIONS FOR ACTIVITY!!!
+eigth_edition_transport_data['Value'] = eigth_edition_transport_data['Value'].astype(float)
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'].isin(['passenger_km', 'freight_tonne_km']), 'Value'] = eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'].isin(['passenger_km', 'freight_tonne_km']), 'Value'] * 1000000
+
+#perhaps we should do efficiency as well. as it is in PJ per 1000 passenger km and PJ per 1000 freight tonne km. We want to convert to PJ per passenger km and PJ per freight tonne km
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Measure'] == 'Efficiency', 'Value'] = eigth_edition_transport_data.loc[eigth_edition_transport_data['Measure'] == 'Efficiency', 'Value'] / 1000000#NOTE IT SEEMS THAT PERHAPS THE VALUES SHOULD BE IN MILLIONS FOR ACTIVITY!!!
+#%%
+#if we have a value in vehicle type but medium is nan we can set it based on the vehicle type
+#frst seperate out the data that we want to change
+temp = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Vehicle Type'].notnull()) & (eigth_edition_transport_data['Medium'].isnull()),:]
+#if vtype =air then medium = air
+temp.loc[temp['Vehicle Type'] == 'air', 'Medium'] = 'air'
+#if vtype = rail then medium = rail
+temp.loc[temp['Vehicle Type'] == 'rail', 'Medium'] = 'rail'
+#if vtype = nonspecified then medium = nonspecified
+temp.loc[temp['Vehicle Type'] == 'nonspecified', 'Medium'] = 'nonspecified'
+#if vtype = ship then medium = ship
+temp.loc[temp['Vehicle Type'] == 'ship', 'Medium'] = 'ship'
+#for all the rest we will set medium = road
+temp.loc[temp['Medium'].isnull(), 'Medium'] = 'road'
+
+#add data back to eigth_edition_transport_data
+eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Vehicle Type'].notnull()) & (eigth_edition_transport_data['Medium'].isnull())),:]
+eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, temp])
+####################################################################################################################################
+
+#%%
+#because we have a lot of totals in our data and it would be good to compare this data agisnt them, we will calcualte some totals, for example:
+#total passenger km for road
+#total freight km for road
+#total energy use for road
+#total energy use for road passenger
+#total energy use for road freight
+#and eprhaps some more later
+
+total_road_passenger_km = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'passenger_km') & (eigth_edition_transport_data['Medium'] == 'road'),:]
+cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+total_road_passenger_km = total_road_passenger_km.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
+total_road_passenger_km['Vehicle Type'] = 'road'
+total_road_passenger_km['Drive'] = 'road'
+
+total_road_freight_km = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'freight_tonne_km') & (eigth_edition_transport_data['Medium'] == 'road'),:]
+cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+total_road_freight_km = total_road_freight_km.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
+total_road_freight_km['Vehicle Type'] = 'road'
+total_road_freight_km['Drive'] = 'road'
+
+total_road_energy_use = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'Energy') & (eigth_edition_transport_data['Medium'] == 'road'),:]
+cols_to_group = ['Economy', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+total_road_energy_use = total_road_energy_use.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
+total_road_energy_use['Vehicle Type'] = 'road'
+total_road_energy_use['Drive'] = 'road'
+total_road_energy_use['Transport Type'] = 'combined'
+
+total_road_passenger_energy_use = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'Energy') & (eigth_edition_transport_data['Medium'] == 'road') & (eigth_edition_transport_data['Transport Type'] == 'passenger'),:]
+cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+total_road_passenger_energy_use = total_road_passenger_energy_use.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
+total_road_passenger_energy_use['Vehicle Type'] = 'road'
+total_road_passenger_energy_use['Drive'] = 'road'
+
+total_road_freight_energy_use = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'Energy') & (eigth_edition_transport_data['Medium'] == 'road') & (eigth_edition_transport_data['Transport Type'] == 'freight'),:]
+cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+total_road_freight_energy_use = total_road_freight_energy_use.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
+total_road_freight_energy_use['Vehicle Type'] = 'road'
+total_road_freight_energy_use['Drive'] = 'road'
+
+#%%
+#now add these totals to the data
+eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, total_road_passenger_km, total_road_freight_km, total_road_energy_use, total_road_passenger_energy_use, total_road_freight_energy_use])
+
+#%%
+#where dataset is 8th edition transport model, make Source col = 'Reference'
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model', 'Source'] = 'Reference'
+#where dataset is 8th edition transport model (forecasted carbon neutrality scenario) make Source col = 'Carbon neutrality' and make dataset col = '8th edition transport model'
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted carbon neutrality scenario)', 'Source'] = 'Carbon neutrality'
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted carbon neutrality scenario)', 'Dataset'] = '8th edition transport model'
+#where dataset is 8th edition transport model (forecasted reference scenario) maek Source col = 'Reference' and make dataset col = '8th edition transport model'
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted reference scenario)', 'Source'] = 'Reference'
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted reference scenario)', 'Dataset'] = '8th edition transport model'
 #%%
 #
 #save data to same file

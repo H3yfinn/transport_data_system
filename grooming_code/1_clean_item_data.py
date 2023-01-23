@@ -5,10 +5,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import datetime
-#change directory to root absed on the location of this file
+import re
 import os
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
-os.chdir('../')
+#set cwd to the root of the project
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 #%%
 
 file_date = datetime.datetime.now().strftime("%Y%m%d")
@@ -120,29 +120,74 @@ if VISUALISE:
         print(item_data_apec_tall[col].unique())
         print('')
 #%%
-#first Measure can be changed to the following:
-# 'Passenger Activity' -> 'passenger_km'
-# 'Freight Activity' -> 'freight_tonne_km'
-#and leave the rest as is, for now
-item_data_apec_tall['Measure'] = item_data_apec_tall['Measure'].replace({'Passenger Activity': 'passenger_km', 'Freight Activity': 'freight_tonne_km', 'Stock':'Stocks'})
+#first let's set the measure and then units based on the units:
+# '10^9 passenger-km / yr' -> 'passenger_km'
+# '10^9 tonne-km / yr' -> 'freight_tonne_km'
+# '10^6 vehicle' -> 'Stocks'
+#  -> '
+# 10^3 passenger-km / vehicle -> 'passenger_km / vehicle'
+# 10^6 vehicle / yr -> 'Sales'
+# 10^3 tonne-km / vehicle -> 'freight_tonne_km / vehicle'
+# 10^6 t CO2 / yr -> 'CO2_tonnes'
+dict_unit_to_measure = {}
+dict_unit_to_measure['10^9 passenger-km / yr'] = 'passenger_km'
+dict_unit_to_measure['10^9 tonne-km / yr'] = 'freight_tonne_km'
+dict_unit_to_measure['10^6 vehicle'] = 'Stocks'
+dict_unit_to_measure['10^3 passenger-km / vehicle'] = 'passenger_km / vehicle'
+dict_unit_to_measure['10^6 vehicle / yr'] = 'Sales'
+dict_unit_to_measure['10^3 tonne-km / vehicle'] = 'freight_tonne_km / vehicle'
+dict_unit_to_measure['10^6 t CO2 / yr'] = 'CO2_tonnes'
+dict_unit_to_measure['10^6 people'] = 'Population'
+dict_unit_to_measure['Vehicles per 1000 inhabitants'] = 'Vehicles per 1000 inhabitants'
+#Grab remaning unts and put them in there with their current measure as value
+for unit in item_data_apec_tall['Unit'].unique():
+    if unit not in dict_unit_to_measure.keys():
+        #double check theres only one unique measure, else throw error
+        if len(item_data_apec_tall.loc[item_data_apec_tall['Unit'] == unit, 'Measure'].unique()) != 1:
+            raise ValueError(f'There is more than one unique measure for unit {unit}')
+        dict_unit_to_measure[unit] = item_data_apec_tall.loc[item_data_apec_tall['Unit'] == unit, 'Measure'].unique()[0]
 
-#and convert values so units are in standard units
-#first print the unique units for each unique value of Measure
-# print(item_data_apec_tall.groupby('Measure')['Unit'].unique())
+dict_unit_magnitudes = {}
+dict_unit_magnitudes['10^9 passenger-km / yr'] = 10**9
+dict_unit_magnitudes['10^9 tonne-km / yr'] = 10**9
+dict_unit_magnitudes['10^6 vehicle'] = 10**6
+dict_unit_magnitudes['10^3 passenger-km / vehicle'] = 10**3
+dict_unit_magnitudes['10^6 vehicle / yr'] = 10**6
+dict_unit_magnitudes['10^3 tonne-km / vehicle'] = 10**3
+dict_unit_magnitudes['10^6 t CO2 / yr'] = 10**6
+dict_unit_magnitudes['10^3 tonne / yr'] = 10**3
+dict_unit_magnitudes['10^6 people'] = 10**6
+dict_unit_magnitudes['Vehicles per 1000 inhabitants'] = 10**6
+#for every other unit, set the magnitude to 1
+for unit in item_data_apec_tall['Unit'].unique():
+    if unit not in dict_unit_magnitudes.keys():
+        dict_unit_magnitudes[unit] = 1
+
+
+dict_new_unit = {}
+dict_new_unit['10^9 passenger-km / yr'] = 'passenger_km'
+dict_new_unit['10^9 tonne-km / yr'] = 'freight_tonne_km'
+dict_new_unit['Freight Activity'] = 'freight_tonne_km'
+dict_new_unit['10^6 vehicle'] = 'Stocks'
+dict_new_unit['10^3 passenger-km / vehicle'] = 'passenger_km / vehicle'
+dict_new_unit['10^6 vehicle / yr'] = 'Sales'
+dict_new_unit['10^3 tonne-km / vehicle'] = 'freight_tonne_km / vehicle'
+dict_new_unit['10^6 t CO2 / yr'] = 'CO2_tonnes'
+dict_new_unit['10^6 people'] = 'Population'
+dict_new_unit['Vehicles per 1000 inhabitants'] = 'Vehicles per 1000 inhabitants'
+dict_new_unit['10^3 tonne / yr'] = 'tonne / yr'
+
+#for every other unit, keep the same unit
+for unit in item_data_apec_tall['Unit'].unique():
+    if unit not in dict_new_unit.keys():
+        dict_new_unit[unit] = unit
 
 #%%
-#where unit is '10^9 tonne-km / yr', convert to 'freight_tonne_km' and times Value by 10^9
-item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^9 tonne-km / yr', 'Value'] = item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^9 tonne-km / yr', 'Value'] * 10**9
-#convert the unit to 'freight_tonne_km'
-item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^9 tonne-km / yr', 'Unit'] = 'freight_tonne_km'
-#where unit is '10^9 passenger-km / yr', convert to 'passenger_km' and times by 10^9
-item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^9 passenger-km / yr', 'Value'] = item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^9 passenger-km / yr', 'Value'] * 10**9
-#convert the unit to 'passenger_km'
-item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^9 passenger-km / yr', 'Unit'] = 'passenger_km'
-#where stock is 10^6 vehicles, convert to 'Stocks' and times by 10^6
-item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^6 vehicles', 'Value'] = item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^6 vehicles', 'Value'] * 10**6
-#convert the unit to 'Stocks'
-item_data_apec_tall.loc[item_data_apec_tall['Unit'] == '10^6 vehicle', 'Unit'] = 'Stocks'
+#change values according to the dicts above by mapping from one col to the next
+item_data_apec_tall['Measure'] = item_data_apec_tall['Unit'].map(dict_unit_to_measure)
+item_data_apec_tall['Unit'] = item_data_apec_tall['Unit'].map(dict_new_unit)
+item_data_apec_tall['Value'] = item_data_apec_tall['Value'] * item_data_apec_tall['Unit'].map(dict_unit_magnitudes)
+
 #%%
 #then also check if the groups of [ 'Measure', 'Transport Type', 'Medium', 'Vehicle Type', 'Drive', 'Fuel','Economy','Year_range_count'] where Units in Vehicles per 1000 inhabitants are availabl are different to the ones where Units in Stocks are available
 #first create new df and filter for only Measure == 'Stocks'
@@ -162,7 +207,7 @@ z = z.groupby(['Measure', 'Transport Type', 'Medium', 'Vehicle Type', 'Drive', '
 #  in the cell above we can see that in y, there is data in 10^3 tonne-km / vehicle for LDV's in about 8 cases where it is not available in freight_tonne_km. So we will times these values by 10^3 and convert the unit to freight_tonne_km by timesing by Stocks too. 
 #first identify that we have stocks of LDV's in these economys for the same years..... UNFORTUNATELY WE DONT HAVE STOCKS FOR LDVS AT ALL FOR THEES ECOJOMYS. MAYBE WE CAN GET THEM FROM THE OTHER DATA SETS
 #):
-
+#%%
 #%%
 #So weve been through the data now. Letsmake small adjsustments like decapitilsinag vlaues in cols and so on:
 #convert Motorcycles and Mopeds to 2W, Bus to bus, 'Coastal', 'Inland Waterway' to 'ship', Light Truck to lt, Heavy Truck to ht, Trams to rail
@@ -179,6 +224,27 @@ item_data_apec_tall['Transport Type'] = item_data_apec_tall['Transport Type'].re
 #and remove cols we dont need (Year_range_count)
 item_data_apec_tall = item_data_apec_tall.drop(['Year_range_count'], axis=1)
 
+#might as well drop NA's from value col
+item_data_apec_tall = item_data_apec_tall.dropna(subset=['Value'])
+
+#rename Fuel col to Fuel Type
+item_data_apec_tall = item_data_apec_tall.rename(columns={'Fuel': 'Fuel_Type'})
+#if there is only one Fuel type and it is 'All' then just remove the col
+if (len(item_data_apec_tall['Fuel_Type'].unique()) == 1) & ('All' in item_data_apec_tall['Fuel_Type'].unique()):
+    item_data_apec_tall = item_data_apec_tall.drop(['Fuel_Type'], axis=1)
+#%%
+
+item_data_apec_tall_dropped = item_data_apec_tall.drop(['Value'], axis=1)
+if len(item_data_apec_tall_dropped[item_data_apec_tall_dropped.duplicated()]) > 0:
+    #get dupes
+    dupes = item_data_apec_tall_dropped[item_data_apec_tall_dropped.duplicated()]
+    #check that the only source is United Nations Economic Commission for Europe
+    if (len(dupes['Source'].unique()) > 1) & ('United Nations Economic Commission for Europe' not in dupes['Source'].unique()):
+        raise Exception('there are duplicates in the data that are not from UNECE')
+    else:
+        #drop first occurence of duplicates
+        item_data_apec_tall = item_data_apec_tall.drop_duplicates(item_data_apec_tall_dropped.columns.tolist())
+        print('there are duplicates in the data that are from UNECE. Dropping them')
 #%%
 #and now we can save the data with FILE_DATE_ID
 item_data_apec_tall.to_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv', index=False)

@@ -9,5 +9,6 @@ dependencies:
   - pip
   - jupyter
   - xlwings
+  - scipy
   - pip:
     - kaleido

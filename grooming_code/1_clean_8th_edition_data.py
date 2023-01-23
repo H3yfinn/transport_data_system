@@ -193,7 +193,7 @@ AccumulatedAnnualDemand = AccumulatedAnnualDemand.groupby(['Scenario', 'Economy'
 
 #%%
 #SAVE all 
-AccumulatedAnnualDemand.to_csv('intermediate_data/8th_edition_transport_model/activity.csv', index=False)
+AccumulatedAnnualDemand.to_csv('intermediate_data/8th_edition_transport_model/activity_from_{}.csv'.format(spreadsheet_name), index=False)
 InputActivityRatio.to_csv('intermediate_data/8th_edition_transport_model/inputactivityratio_from_{}.csv'.format(spreadsheet_name), index=False)
 
 #%%
@@ -287,3 +287,4 @@ energy.to_csv("intermediate_data/8th_edition_transport_model/energy_with_fuel.cs
 
 
 # #%%
+#%%

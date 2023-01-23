@@ -89,7 +89,7 @@ else:
     print('There are measures with more than one unit')
 #%%
 #save
-eigth_edition_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID), index=False)
+eigth_edition_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_aggregated_{}.csv'.format(FILE_DATE_ID), index=False)
 
 #%%
 

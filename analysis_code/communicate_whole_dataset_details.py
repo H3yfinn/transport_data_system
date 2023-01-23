@@ -1,10 +1,8 @@
 #communicate_whole_dataset_details.py
 #%%
-#go through the dataset we have aggregated in 1_aggregate_cleaned_datasets.py and communicate the details of the dataset and datasets within it to the user.
-#we will use the categories in the columns, like the datset column, to specify useful information so that the user can quickly identify what is in the dataset and what is not. this should be in a styler that can also be repurposed to be used in the documentation of the dataset.
-#we can also use this to identify any problems with the dataset, like missing data, or data that is in a category that we werent expecting to see in the dataset. This would be done with a sense check by the user.
-
-#perhaps we can include the option of identfiyting if there is new data in the datasets too but this is reliant on the cleaning process being good enough not to remove any data that is not in the categories we expect to see in the dataset.
+#This script will go through the dataset we have aggregated in 1_aggregate_cleaned_datasets.py and communicate the details of the dataset and datasets within it to the user.
+#It will use the categories in the columns, like the datset column, to specify useful information so that the user can quickly identify what is in the dataset and what is not. This is in a style that can also be repurposed to be used in the documentation of the dataset.
+#We can also use this script to identify any problems with the dataset, like missing data, or data that is in a category that we werent expecting to see in the dataset. This would be done with a sense check of the outputs by the user.
 
 ############################################################################
 #%%
@@ -32,6 +30,8 @@ PRINT_GRAPHS_AND_STATS = False
 #%%
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
+import utility_functions as utility_functions
+file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = ''
 
@@ -39,7 +39,7 @@ FILE_DATE_ID = 'DATE{}'.format(file_date)
 #this is for determining what are the best datpoints to use when there are two or more datapoints for a given time period
 
 #load data
-combined_dataset = pd.read_csv('output_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
+combined_dataset = pd.read_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
 
 #%%
 ############################################################################
@@ -113,22 +113,30 @@ for dataset in na_dataset.Dataset.unique():
     #create a new string to print out the details of the na values in the dataset
     na_dataset_details += '\n\nDataset: {}\r\n'.format(dataset)
     #1 The number of na values in the df
-    na_dataset_details += '  - Number of NA Values: {}\r\n'.format(len(na_dataset))
+    na_dataset_details += '  - Number of NA Values: {}\r\n'.format(len(na_dataset_df))
     #2 The number of na values in each column (so ignore this if it is the Value column, and altogether ignore if this is the na_value_column_dataset)
 
     for column in na_dataset_df.columns:
         if column != 'Value':
             na_dataset_details += '    - Number of NA Values in {}: {}\r\n'.format(column, len(na_dataset_df[na_dataset_df[column].isna()]))
+    #add a new line
+    na_dataset_details += '\r\n'
+
     #3 For each non na value in each column, how many rows are there of that unqique value as that will help us to understand what the cause of NA's is and how to fix it
     for column in na_dataset_df.columns:
         if column != 'Value':
             if len(na_dataset_df[column].value_counts()) > 0:
                 na_dataset_details += '    - Number of Rows for each Unique Value in {}: {}\r\n'.format(column, na_dataset_df[column].value_counts())
-
+    #add a new line
+    na_dataset_details += '\r\n'
+    
     #now print the details of the not_na_value_column_dataset
     #1 The number of na values in the df
     na_dataset_details += '  - Number of NA Values in Value Column: {}\r\n'.format(len(na_dataset_df_value_col))
-
+    
+    #add a new line
+    na_dataset_details += '\r\n'
+    
 #Now we will print the details of the dataset
 print(dataset_details)
 #Now we will print the details of the na values in the dataset
