@@ -32,8 +32,14 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/i
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 item_data_apec_tall = pd.read_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv')
 
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/iea/', 'iea_evs_data_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+iea_evs = pd.read_csv('intermediate_data/iea/iea_evs_data_' + FILE_DATE_ID + '.csv')
 ############################################################
 
+#HANDLE SPECIFIC DATASETS
+
+############################################################
 #%%
 #handle transport model dataset
 #remove all 8th edition data that is from the reference and carbon neutrality scenarios
@@ -46,14 +52,12 @@ eigth_edition_transport_data['Frequency'] = 'Yearly'
 eigth_edition_transport_data = eigth_edition_transport_data.drop(columns=['Year'])
 
 #%%
-############################################################
-
-
 #handle ATO dataset
 ATO_dataset_clean['Dataset'] = 'ATO'
 
 #remove nan values in vlaue column
 ATO_dataset_clean = ATO_dataset_clean[ATO_dataset_clean['Value'].notna()]
+
 #%%
 #some ato in multiple sheets have the same values in all other cols. So we will check for duplicates before removing the sheet col, throw an error if there are any, and then remove the sheet col
 if len(ATO_dataset_clean[ATO_dataset_clean.duplicated()]) > 0:
@@ -66,9 +70,6 @@ ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
 # ATO_dataset_clean.loc[ATO_dataset_clean.duplicated(subset=cols, keep='first'), 'Dataset'] = 'ATO2'
 # #do it again just to be sure
 # ATO_dataset_clean.loc[ATO_dataset_clean.duplicated(subset=cols, keep='first'), 'Dataset'] = 'ATO3'
-
-############################################################
-
 
 #%%
 #handle item data
@@ -84,14 +85,32 @@ item_data_apec_tall['Frequency'] = 'Yearly'
 #remove Year column
 item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
 
-
+#%%
+#handle iea evs dataset
+iea_evs['Dataset'] = 'IEA EVs'
+#remove na values in value column
+iea_evs = iea_evs[iea_evs['Value'].notna()]
+#create a date column with month and day set to 12-31
+iea_evs['Date'] = iea_evs['Year'].astype(str) + '-12-31'
+#make frequency column and set to yearly
+iea_evs['Frequency'] = 'Yearly'
+#remove Year column
+iea_evs = iea_evs.drop(columns=['Year'])
+#make the first letter of words in columns uppercase
+iea_evs.columns = iea_evs.columns.str.title()
+#TODO double check the origianl scriptn to make sure eveyrhting is sorrted
+#make Medium = road
+iea_evs['Medium'] = 'Road' 
 ############################################################
 
+#COMBINE DATASETS
+
+############################################################
 #%%
 #join data together
 combined_data = ATO_dataset_clean.append(eigth_edition_transport_data, ignore_index=True)
 combined_data = combined_data.append(item_data_apec_tall, ignore_index=True)
-
+combined_data = combined_data.append(iea_evs, ignore_index=True)
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 
@@ -112,8 +131,16 @@ combined_data['Drive'] = combined_data['Drive'].fillna(combined_data['Medium'])
 combined_data.loc[(combined_data['Drive'] == 'Road'), 'Drive'] = np.nan
 
 #%%
+#remove all na values in value column
+combined_data = combined_data[combined_data['Value'].notna()]
+#ALSO AS A TEST, WE WILL REMOVE ALL 0 VALUES. THIS IS BECAUSE WE WOULD EXPECT THAT IF A VALUE IS 0, IT IS BECAUSE IT IS NOT REPORTED, NOT BECAUSE IT IS ACTUALLY 0. THIS IS A TEST TO SEE IF IT IMPROVES THE RESULTS
+combined_data = combined_data[combined_data['Value'] != 0]
 
-#create a frequency column and set it to yearly if the gap bet
+############################################################
+
+#CHECK FOR ERRORS AND HANDLE THEM
+
+############################################################
 #%%
 #Important step: make sure that units are the same for each measure so that they can be compared. If they are not then the measure should be different.
 #For example, if one measure is in tonnes and another is in kg then they should just be converted. But if one is in tonnes and another is in number of vehicles then they should be different measures.
@@ -131,6 +158,12 @@ if len(combined_data[combined_data.duplicated()]) > 0:
 combined_data['Dataset'] = combined_data.apply(lambda row: row['Dataset'] if pd.isna(row['Source']) else row['Dataset'] + ' $ ' + row['Source'], axis=1)
 #then drop source column
 combined_data = combined_data.drop(columns=['Source'])
+
+############################################################
+
+#CREATE CONCORDANCE
+
+############################################################
 #%%
 #CREATE CONCORDANCE
 #create a concordance which contains all the unique rows in the combined data df, when you remove the Dataset source and value columns.
@@ -161,6 +194,11 @@ monthly = monthly.merge(pd.DataFrame(months, columns=['Date']), how='cross')
 #concat the months and years concordances together
 combined_data_concordance_new = pd.concat([combined_data_concordance_new, monthly], axis=0)
 
+############################################################
+
+#SAVE DATA
+
+############################################################
 #%%
 #save
 combined_data.to_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID), index=False)

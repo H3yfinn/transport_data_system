@@ -299,7 +299,7 @@ ATO_data['unit'] = ATO_data['unit'].str.replace('  ', ' ')
 ATO_data['unit'] = ATO_data['unit'].str.replace(',', '')
 
 #and if any unit are in 'tj', convert to 'pj' and times vlaue by 1000
-ATO_data.loc[ATO_data['unit'] == 'tj', 'value'] = ATO_data.loc[ATO_data['unit'] == 'tj', 'value'] * 1000
+ATO_data.loc[ATO_data['unit'] == 'tj', 'value'] = ATO_data.loc[ATO_data['unit'] == 'tj', 'value'] / 1000
 ATO_data.loc[ATO_data['unit'] == 'tj', 'unit'] = 'pj'
 
 #QUICK FIX
@@ -315,7 +315,7 @@ ATO_data.loc[(ATO_data['measure'] == 'energy_use') & (ATO_data['unit'] == 'tonne
 
 #and convert co2_emissions where the unit are tonnes to mtco2e. This involves just diving by 10**6 to convert to million tonnes (please note that Mtc02e is not metric tonnes!)
 ATO_data.loc[ATO_data['unit'] == 'tonnes', 'value'] = ATO_data.loc[ATO_data['unit'] == 'tonnes', 'value'] * 10**-6
-ATO_data.loc[ATO_data['unit'] == 'tonnes', 'unit'] = 'MtC02e'
+ATO_data.loc[(ATO_data['unit'] == 'tonnes') & (ATO_data['measure'] == 'co2_emissions'), 'unit'] = 'MtC02e'
 #also convert any thing that is mtco2e to Mtc02e
 ATO_data.loc[ATO_data['unit'] == 'mtco2e', 'unit'] = 'MtC02e'
 #%%

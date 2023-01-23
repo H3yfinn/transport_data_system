@@ -42,6 +42,7 @@ print('Dear User this is a strongly worded statement to check that there are no 
 duplicates = combined_dataset.copy()
 duplicates = duplicates.drop(columns=['Value'])
 duplicates = duplicates[duplicates.duplicated(keep=False)]
+#%%
 #If there are any duplicates then we will print them out to the user and tell the user to fix them before continuing
 if len(duplicates) > 0:
        print('There are duplicate rows in the dataset with different Values. Please fix them before continuing. You will probably want to split them into different datasets. The duplicates are: ')
@@ -50,12 +51,10 @@ if len(duplicates) > 0:
        #extrasct the rows with duplicates and sabve them to a csv so we can import them into a spreadsheet to look at them
        duplicates = combined_dataset.copy()
        col_no_value = [col for col in duplicates.columns if col != 'Value']
-       duplicates = duplicates[duplicates.duplicated(subset=col_no_value,keep=True)]
+       duplicates = duplicates[duplicates.duplicated(subset=col_no_value,keep=False)]
        duplicates.to_csv('intermediate_data/testing/erroneus_duplicates.csv', index=False)
 
        raise Exception('There are duplicate rows in the dataset. Please fix them before continuing')
-
-#%%    
 
 
 #%%

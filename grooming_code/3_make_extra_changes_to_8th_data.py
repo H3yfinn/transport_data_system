@@ -134,6 +134,36 @@ eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th
 #where dataset is 8th edition transport model (forecasted reference scenario) maek Source col = 'Reference' and make dataset col = '8th edition transport model'
 eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted reference scenario)', 'Source'] = 'Reference'
 eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted reference scenario)', 'Dataset'] = '8th edition transport model'
+
+#%%
+#one issue is that the data for stocks is much more spoecific than the publicly available data. So we  will aggregate the stocks data to the same level as the publicly available data so it can be directly compared when we merge the two datasets
+#first we need to get the stocks data
+stocks_data = eigth_edition_transport_data.loc[eigth_edition_transport_data['Measure'] == 'Stocks',:]
+#print the unique vehicle types
+print(stocks_data['Vehicle Type'].unique())
+#we want to sum up lt and ldv to get ldv's
+ldv_stocks_data = stocks_data.loc[stocks_data['Vehicle Type'].isin(['lt','lv'])]
+ldv_stocks_data['Vehicle Type'] = 'ldv'
+#set drive to road for all of these
+ldv_stocks_data['Drive'] = 'road'
+#sum up the datas
+cols  = ldv_stocks_data.columns.to_list()
+cols.remove('Value')
+ldv_stocks_data = ldv_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
+
+#and also do one for 'road' where we set all vehicle types to 'road' where medium is road
+road_stocks_data = stocks_data.loc[stocks_data['Medium'] == 'road',:]
+road_stocks_data['Vehicle Type'] = 'road'
+road_stocks_data['Drive'] = 'road'
+road_stocks_data = road_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
+
+#and just concat the two together
+stocks_data = pd.concat([ldv_stocks_data, road_stocks_data])
+#%%
+#and concat to main
+eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, stocks_data])
+
+
 #%%
 #
 #save data to same file

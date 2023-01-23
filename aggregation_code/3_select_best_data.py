@@ -72,14 +72,30 @@ INDEX_COLS_no_year.remove('Date')
 
 #%%
 #filter for the years we want to bother selecting data for
+EARLIEST_YEAR = "2010-01-01"
+LATEST_YEAR = '2020-01-01'#datetime.datetime.now().year
 #filter data where year is less than 2010
-combined_data = combined_data[combined_data['Date'] >= '2010-01-01']
-combined_data_concordance = combined_data_concordance[combined_data_concordance['Date'] >= '2010-01-01']
-duplicates = duplicates[duplicates['Date'] >= '2010-01-01']
+combined_data = combined_data[combined_data['Date'] >= EARLIEST_YEAR]
+combined_data_concordance = combined_data_concordance[combined_data_concordance['Date'] >= EARLIEST_YEAR]
+duplicates = duplicates[duplicates['Date'] >= EARLIEST_YEAR]
 #and also only data where year is less than the current year
-combined_data = combined_data[combined_data['Date'] < datetime.datetime.now().strftime("%Y-%m-%d")]
-combined_data_concordance = combined_data_concordance[combined_data_concordance['Date'] < datetime.datetime.now().strftime("%Y-%m-%d")]
-duplicates = duplicates[duplicates['Date'] < datetime.datetime.now().strftime("%Y-%m-%d")]
+combined_data = combined_data[combined_data['Date'] < LATEST_YEAR]
+combined_data_concordance = combined_data_concordance[combined_data_concordance['Date'] < LATEST_YEAR]
+duplicates = duplicates[duplicates['Date'] < LATEST_YEAR]
+
+#%%
+#######################################################################
+#STARTING SPECIFIC FIX, FEEL FREE TO IGNORE IT
+#I have made this into a function to reduce the code in this aprticular file. it is in data_selection_functions.py and reduces the code in this file by about 40 lines
+combined_data, duplicates = data_selection_functions.remove_duplicate_transport_8th_data(combined_data, duplicates)
+#######################################################################
+#but actually temporarily we are going to just remove any data for the Carbon neutrality scenario since it is just another scenario and we dont want to have to deal with it
+combined_data = combined_data[combined_data['Dataset'] != '8th edition transport model $ Carbon neutrality']
+#to remove it fromduplicates we need to remove it from the datasets lists column and reduce count by 1
+duplicates['Datasets'] = duplicates['Datasets'].apply(lambda x: [i for i in x if i != '8th edition transport model $ Carbon neutrality'])
+#double check count is correct
+duplicates['Count'] = duplicates['Datasets'].apply(lambda x: len(x))
+
 
 #%%
 
@@ -123,7 +139,7 @@ combined_data = combined_data.set_index(INDEX_COLS_no_year)
 #STEP 2
 #AUTOMATIC METHOD
 run_automatic = False
-datasets_to_always_choose = []
+datasets_to_always_choose = ["ATO $ Country Official Statistics"]
 checkpoints_1 = []
 checkpoints_2 = []
 if run_automatic:
@@ -171,7 +187,9 @@ if run_automatic:
 #so find the unique combinations of the following columns: Economy, Measure, Vehicle Type, Unit, Medium, Transport Type, Drive, then if any years of that combination have more than one dataset of data, then plot a timeseries for that unique combination of columns.
 
 #%%~
-run_only_on_rows_to_select_manually = True
+#if we want to add to the rows_to_select_manually_df to check specific rows then set the below to True
+add_to_rows_to_select_manually_df = False
+run_only_on_rows_to_select_manually = False
 if run_only_on_rows_to_select_manually:
        #if this, only run the manual process on index rows where we couldnt find a dataset to use automatically for some year
        #since the automatic method is relatively strict there should be a large amount of rows to select manually
@@ -181,6 +199,13 @@ if run_only_on_rows_to_select_manually:
        iterator = rows_to_select_manually_df.copy()
        iterator.set_index(INDEX_COLS_no_year, inplace=True)
        iterator.drop_duplicates(inplace=True)#TEMP get rid of this later
+elif add_to_rows_to_select_manually_df:
+       #we can add rows form the combined_data_concordance_iterator to the rows_to_select_manually_df
+       #for this example we will add all Stocks data (for the purpoose of betterunderstanding our stocks data!) and remove all the other data
+       iterator = combined_data_concordance_iterator.reset_index()
+       iterator = iterator[iterator['Measure']=='Stocks']
+       #set the index to the index cols
+       iterator.set_index(INDEX_COLS_no_year, inplace=True)
 else:
        iterator = combined_data_concordance_iterator
 #Create bad_index_rows as a empty df with the same columns as index_rows
@@ -269,7 +294,7 @@ for index_row in iterator.index:
        
        #identify how many datasets there are for each year by looking at the Count column
        #if there are rows where count is greater than 1 then we will plot and ask user to choose which dataset to use
-       if current_row_filter.Count.max() > 1:
+       if (current_row_filter.Count.max() > 1):# | (add_to_rows_to_select_manually_df):#if we ware adding to the rows to select manually df then we want to plot all of them because its important to check them even if none of them are duplicates
               #grab the data for this unique combination of columns from the combined_data df
               data_for_plotting = combined_data.loc[index_row]
 
@@ -304,12 +329,22 @@ duplicates_manual.Date = duplicates_manual.Date.apply(lambda x: str(x)+'-12-31')
 
 
 #%%
-
+#create option to import manual data selection from perveious runs to avoid having to do it again (can replace any rows where the Final_dataset_selection_method is na with where they are Manual in the imported csv)
+import_manual_data_selection = False
+if import_manual_data_selection:
+       FILE_DATE_ID = 'DATE20230120'
+       final_combined_data_concordance = pd.read_csv('./output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
+       final_combined_data_concordance = final_combined_data_concordance.set_index(INDEX_COLS)
+       final_combined_data_concordance = final_combined_data_concordance[final_combined_data_concordance.Final_dataset_selection_method == 'Manual']
+       combined_data_concordance_manual = combined_data_concordance_manual.combine_first(final_combined_data_concordance)#this SHOULD work because the index is the same for both dfs and the only difference is that the final_combined_data_concordance df has some rows with Final_dataset_selection_method = Manual and the combined_data_concordance_manual df has some rows with Final_dataset_selection_method = na
+       
+#%%
 #save the combined_data_concordance_manual df to a csv
 combined_data_concordance_manual.to_csv('./intermediate_data/data_selection/{}_data_selection_manual.csv'.format(FILE_DATE_ID), index=False)
 
 # #save bad_index_rows to a csv
 bad_index_rows.to_csv('./intermediate_data/data_selection/{}_bad_index_rows.csv'.format(FILE_DATE_ID), index=True)
+
 
 #%%
 #Some issues we may come across:

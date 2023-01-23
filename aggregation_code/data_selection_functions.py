@@ -459,7 +459,51 @@ def manual_apply_user_input_to_data(user_input, choice_dict, options, combined_d
         return combined_data_concordance_manual, years_to_ignore
 #%%
 
+def remove_duplicate_transport_8th_data(combined_data, duplicates):
+       #prepare a copy of our dataframes so we can check that output from follkowing is what we expect
+       duplicates_copy = duplicates.copy()
+       combined_data_copy = combined_data.copy()
+       #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
+       #we should be able to do this by filtering for Dataset == '8th edition transport model $ Reference' and '8th edition transport model $ Carbon neutrality' and then filtering for rows where all other columns have the same values. Then remove the Reference data from those duplicates. We will then remove that data from the combined data and combined data concordance as well.
+       duplicates_8th_edition_transport_model = combined_data[combined_data['Dataset'].isin(['8th edition transport model $ Carbon neutrality', '8th edition transport model $ Reference'])]
+       #find duplicates
+       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model[duplicates_8th_edition_transport_model.duplicated(subset = ['Measure', 'Medium', 'Value', 'Unit', 'Economy', 'Transport Type', 'Vehicle Type', 'Fuel_Type', 'Comments', 'Scope', 'Frequency', 'Date', 'Drive'], keep=False)]
+       #grab only rows we want to remove
+       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model[duplicates_8th_edition_transport_model['Dataset'] != '8th edition transport model $ Reference']
+       #now remove that data from the combined data and duplicates (for duplicates will need to rmeove the carbon neutral dataset from the datasets list and reduce count by 1)
+       #First remove from combined data:
+       #set all cols to indexes
+       combined_data = combined_data.set_index(combined_data.columns.tolist())
+       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.set_index(duplicates_8th_edition_transport_model.columns.tolist())
+       #now remove the data where the rows are the same
+       combined_data = combined_data.drop(duplicates_8th_edition_transport_model.index)
+       combined_data = combined_data.reset_index()
+       #Now for duplicates:
+       #and for the duplicates df, make the index = all cols indexes except: count, datasets. Then we will do a left join with indicator = True
+       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.reset_index()
+       index_list = duplicates.columns.tolist()
+       index_list.remove('Count')
+       index_list.remove('Datasets')
+       #drop any cols not in duplicates
+       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.drop([i for i in duplicates_8th_edition_transport_model.columns.tolist() if i not in index_list], axis=1)
+       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.set_index(index_list)
+       duplicates = duplicates.set_index(index_list)
+       duplicates_new = duplicates.merge(duplicates_8th_edition_transport_model, how='left', indicator=True, on=index_list)
+       #NOW WHERE _merge is both, we will remove "8th edition transport model $ Carbon neutrality" from the datasets list and reduce count by 1
+       duplicates_new = duplicates_new.reset_index()
+       duplicates_new1 = duplicates_new[duplicates_new['_merge'] == 'both']
+       duplicates_new2 = duplicates_new[duplicates_new['_merge'] != 'both']
+       duplicates_new1['Datasets'] = duplicates_new1['Datasets'].apply(lambda x: [i for i in x if i != '8th edition transport model $ Carbon neutrality'])
+       duplicates_new1['Count'] = duplicates_new1['Count'] - 1
+       #now remove the _merge column
+       duplicates_new1 = duplicates_new1.drop(columns=['_merge'])
+       duplicates_new2 = duplicates_new2.drop(columns=['_merge'])
+       #concat
+       duplicates = pd.concat([duplicates_new1, duplicates_new2])
+       return combined_data, duplicates
+       #WOULD like to double check the above worked but mind is blanking on how to do this. Will come back to it later.
 
+#%%
 
 
 
