@@ -40,6 +40,7 @@ this = False
 #start integrated script:
 if this:
     #run the files in this order:
+    exec(open("./grooming_code/1_clean_iea_ev_data.py").read())
     exec(open("./grooming_code/1_clean_8th_edition_data.py").read())
     exec(open("./grooming_code/1_clean_item_data.py").read())
     exec(open("./grooming_code/1_clean_other_8th_edition_input_data.py").read())
@@ -47,16 +48,19 @@ if this:
     exec(open("./grooming_code/2_aggregate_8th_edition_data.py").read())
     exec(open("./grooming_code/2_clean_ATO_data.3py").read())
     exec(open("./grooming_code/3_make_extra_changes_to_8th_data.py").read())
-
+    exec(open("./grooming_code/1_clean_iea_ev_data.py").read())
 #%%
 exec(open("./aggregation_code/1_aggregate_cleaned_datasets.py").read())
-#%%
 exec(open("./aggregation_code/2_identify_duplicate_datapoints.py").read())
 #%%
-exec(open("./aggregation_code/3_select_best_data.py").read())
-%matplotlib notebook
+exec(open("./aggregation_code/3_select_best_data_automatic.py").read())
+exec(open("./aggregation_code/4_select_best_data_manual.py").read())
+exec(open("./aggregation_code/5_combine_manual_and_automatic_output_dfs.py").read())
 #%%
-exec(open("./aggregation_code/4_interpolate_missing_values.py").read())
+%matplotlib notebook
+exec(open("./aggregation_code/6_interpolate_missing_values.py").read())
+
+
 
 #%%
 exec(open("./analysis_code/communicate_whole_dataset_details.py").read())

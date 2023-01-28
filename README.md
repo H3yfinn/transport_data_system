@@ -72,3 +72,6 @@ This is done by using the commands:
 
 This means that as you add files to input_data and output_data push them to github remote, they will be replaced with pointers on the remote server, which point to the files which are stored in the LFS. If you were then to clone or pull from the github remote you will be pulling the pointers. To download the actual files from the LFS, just run the command which will transform the 1kb pointer files into their actual sized files:
 > git lfs pull
+
+# How to handle estimated data:
+After realising that most datasets were missing a lot of data i decided that estimated data using the other input data can be input into the data system and chosen next to the other data. But to do this it's especially impoortant to be transparent about the methods used to estimate the data. This is so that if someone else wants to use the data they can see how it was estimated and if they want to use it they can use the same methods. It's also important to design the estimations so that if the input data were to change the estiamtions wouldnt continue until the suer changed it. 

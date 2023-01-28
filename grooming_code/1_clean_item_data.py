@@ -211,7 +211,7 @@ z = z.groupby(['Measure', 'Transport Type', 'Medium', 'Vehicle Type', 'Drive', '
 #%%
 #So weve been through the data now. Letsmake small adjsustments like decapitilsinag vlaues in cols and so on:
 #convert Motorcycles and Mopeds to 2W, Bus to bus, 'Coastal', 'Inland Waterway' to 'ship', Light Truck to lt, Heavy Truck to ht, Trams to rail
-item_data_apec_tall['Vehicle Type'] = item_data_apec_tall['Vehicle Type'].replace({'Motorcycles': '2W', 'Mopeds': '2W', 'Bus': 'bus', 'Coastal': 'ship', 'Inland Waterway': 'ship', 'Light Truck': 'lt', 'Heavy Truck': 'ht', 'Trams': 'rail'})
+item_data_apec_tall['Vehicle Type'] = item_data_apec_tall['Vehicle Type'].replace({'Motorcycles': '2W', 'Mopeds': '2W', 'Bus': 'bus', 'Coastal': 'ship', 'Inland Waterway': 'ship', 'Light Truck': 'lt', 'Heavy Truck': 'ht', 'Trams': 'rail', 'LDV':'ldv'})
 #and Medium: 'Rail':rail, 'Road':road, 'Air':air, 'Shipping':ship
 item_data_apec_tall['Medium'] = item_data_apec_tall['Medium'].replace({'Rail': 'rail', 'Road': 'road', 'Air': 'air', 'Shipping': 'ship'})
 #repalce drive: 'BEV' 'bev'

@@ -30,7 +30,6 @@ file_date = utility_functions.get_latest_date_for_data_file('./output_data/', '_
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = 'DATE20221212'
 
-#%%
 # final_combined_data_concordance.to_csv('./output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
 final_combined_data_concordance = pd.read_csv('./output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
 
@@ -58,7 +57,7 @@ INDEX_COLS_no_year.remove('Date')
 #set interpoaltuion methods. If the method is one that requires an order then make sure to add the order as a number right after the method name
 interpolation_methods = ['linear', 'spline2', 'spline4']
 automatic_interpolation_method = 'linear'
-automatic_interpolation = False
+automatic_interpolation = True
 #%%
 #because this was taking a long time to run we will set up some code to save the data after checkpoints are reached, and also provide the user with some inidcation of progress via timing. #TBH its not that logn nbow
 #count number of iterations:
@@ -332,8 +331,13 @@ print('Time taken to run program: {}'.format(datetime.datetime.now() - start_tim
 
 #%%
 #and just quickly separate the dataset and source coplumns by splitting the value on any $ signs
-final_combined_data_concordance['Dataset'] = final_combined_data_concordance['Dataset'].str.split(' $ ').str[0]
-final_combined_data_concordance['Source'] = final_combined_data_concordance['Dataset'].str.split(' $ ').str[1]
+final_combined_data_concordance['Source'] = final_combined_data_concordance['Dataset'].str.split('$').str[1]
+#remove any spaces
+final_combined_data_concordance['Source'] = final_combined_data_concordance['Source'].str.strip()
+
+final_combined_data_concordance['Dataset'] = final_combined_data_concordance['Dataset'].str.split('$').str[0]
+#remove any spaces
+final_combined_data_concordance['Dataset'] = final_combined_data_concordance['Dataset'].str.strip()
 #%%
 # #save the final combined data concordance to a csv file with date id 
 # file_date = datetime.datetime.now().strftime("%Y%m%d_%H%M")

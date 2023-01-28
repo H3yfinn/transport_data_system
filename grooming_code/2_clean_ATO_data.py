@@ -226,8 +226,8 @@ dict_of_measures['revenue_passenger_km'] = ['Aviation Total Passenger Kilometers
 dict_of_measures['passenger_km'] = ['Passengers Kilometer Travel - Railways', 'Passengers Kilometer Travel - Waterways/shipping', 'Passengers Kilometer Travel - Bus', 'Passengers Kilometer Travel - HSR',  'Total Passenger Kilometer Travel (Domestic+International)', 'Passengers Kilometer Travel - Roads', 'Land Transport Passenger Kilometers Travel']
 dict_of_measures['freight_km'] = ['Freight Transport - Tonne-km (Total) (Domestic+International)',  'Freight Transport - Tonne-km for Roads', 'Freight Transport - Tonne-km for Railways', 'Freight Transport - Tonne-km for Waterways/shipping (Domestic)', 'Freight Transport - Tonne-km for Waterways/shipping (Domestic+International)', 'Freight Transport - Tonne-km for Aviation (Domestic)', 'Freight Transport - Tonne-km for Aviation (Domestic+International)', 'Land Transport Freight Kilometers Travel']
 dict_of_measures['vehicle_registration'] = ['Vehicle registration  (Motorised 2W)', 'Vehicle registration  (Motorised 3W)', 'Vehicle registration  (LDV)', 'Vehicle registration  (Bus)', 'Vehicle registration (Others)', 'Freight Vehicle registration', 'Total Vehicle Registration']
-dict_of_measures['vehicle_sales'] = ['Motorised Two Wheeler Sales', 'Motorised Three Wheeler Sales', 'LDV Sales', 'Total Vehicle sales (motorised)', 'Commercial Vehicle Sales (motorised)']
-dict_of_measures['energy_use'] = ['Total Transport Energy Consumption', 'Electricity Transport', 'Electricity Road', 'Electricity Rail', 'Gasoline Road', 'Diesel Road', 'Diesel Rail', 'Bio-Diesel Road', 'Bio-Gasoline Road', 'Natural Gas Road', 'Road Energy Consumption', 'Railway Energy Consumption', 'Domestic Navigation Energy Consumption', 'Domestic Aviation Energy Consumption']
+dict_of_measures['Sales'] = ['Motorised Two Wheeler Sales', 'Motorised Three Wheeler Sales', 'LDV Sales', 'Total Vehicle sales (motorised)', 'Commercial Vehicle Sales (motorised)']
+dict_of_measures['Energy'] = ['Total Transport Energy Consumption', 'Electricity Transport', 'Electricity Road', 'Electricity Rail', 'Gasoline Road', 'Diesel Road', 'Diesel Rail', 'Bio-Diesel Road', 'Bio-Gasoline Road', 'Natural Gas Road', 'Road Energy Consumption', 'Railway Energy Consumption', 'Domestic Navigation Energy Consumption', 'Domestic Aviation Energy Consumption']
 dict_of_measures['co2_emissions'] = ['Fossil Transport CO2 emissions',  'Total Transport CO2 emissions',  'Road in Transport CO2 Emissions', 'Railways in Transport CO2 Emissions', 'Shipping/Inland Waterways Transport CO2 Emissions', 'Domestic Aviation Transport CO2 Emissions']
 dict_of_measures['others'] = ['Freight tonne-km/capita (Domestic+International)','Freight tonne-km/GDP (Domestic+International)', 'Port call and performance statistics', 'Container port traffic (TEU)', 'Merchant fleet by country of beneficial ownership, annual', 'Motorisation Index', 'LDV Motorisation Index', 'Two and Three Wheelers Motorisation Index', 'Bus Motorisation Index', 'Freight Vehicles Motorisation Index', 'Transport Energy Consumption Mode share', 'Transport - Final consumption of renewable energy (PJ)', 'Electricity share in total transport energy consumption in Transport', 'Share of Biofuels in Transport Energy Consumption', 'Fossil Transport share in consumption emissions', 'Fossil Transport share in Territorial emissions', 'Transport CO2 Emissions per Capita', 'Transport CO2 Emissions by GDP', 'Transport CO2 Emissions - Mode share', 'Share of Transport CO2 Emissions in Total Fuel Combustion Energy CO2 Emissions','LDV Production', 'Bus Vehicle Production','Minerals Country Availability - cobalt, lithium, graphite, manganese','Ships built by country of building, annual','Heavy Truck Production','Total Vehicle Production','Air transport, carrier departures','Aviation Trips per capita ','Aviation Trips per capita  -2030 Forecast (BAU)','Total Passenger Kilometer Travel/Capita (Domestic+International)','Total Passenger Kilometer Travel/GDP (Domestic+International)','Total Passenger Kilometer Travel Mode Share (Domestic+International)','Total Freight Kilometer Travel Mode Share (Domestic+International)']
 dict_of_measures['COVID'] = ['COVID Google Mobility Data - Grocery and pharmacy', 'COVID Google Mobility Data - Retail and recreation', 'COVID Google Mobility Data - Parks', 'COVID Google Mobility Data - Public transport stations', 'COVID Google Mobility Data - Workplaces', 'COVID Google Mobility Data - Residential', 'COVID Apple Mobility Data - Driving', 'COVID Apple Mobility Data - Walking', 'COVID Apple Mobility Data - Public transport', 'COVID Restrictions - Public Transport', 'COVID Restrictions - Domestic Transport', 'COVID Restrictions - International Transport']
@@ -311,7 +311,7 @@ ATO_data.loc[ATO_data['unit'] == 'kilowatt-hours', 'value'] = ATO_data.loc[ATO_d
 ATO_data.loc[ATO_data['unit'] == 'kilowatt-hours', 'unit'] = 'pj'
 
 #there is some data where measre is energy_use thats measured in unit= tonnes. For now, jsut convert the measure to 'energy_use_tonnes'
-ATO_data.loc[(ATO_data['measure'] == 'energy_use') & (ATO_data['unit'] == 'tonnes'), 'measure'] = 'energy_use_tonnes'
+ATO_data.loc[(ATO_data['measure'] == 'Energy') & (ATO_data['unit'] == 'tonnes'), 'measure'] = 'energy_use_tonnes'
 
 #and convert co2_emissions where the unit are tonnes to mtco2e. This involves just diving by 10**6 to convert to million tonnes (please note that Mtc02e is not metric tonnes!)
 ATO_data.loc[ATO_data['unit'] == 'tonnes', 'value'] = ATO_data.loc[ATO_data['unit'] == 'tonnes', 'value'] * 10**-6
@@ -540,7 +540,7 @@ else:
 
 #We're actually going to set the measure col to the original measure col, and then remove the original measure col... but as long as the original measure col contains these values (if not then the data has changed amnd the user should deal with the new original_measure values)
 #our lsit:
-temp_list = ['passenger_km', 'freight_km', 'vehicle_sales','revenue_passenger_km','vehicle_registration', 'Vehicle registration (Others)','Total Transport Energy Consumption', 'energy_use','Fossil Transport CO2 emissions', 'Total Transport CO2 emissions','co2_emissions','COVID Google Mobility Data - Grocery and pharmacy','COVID Google Mobility Data - Retail and recreation','COVID Google Mobility Data - Parks','COVID Google Mobility Data - Public transport stations','COVID Google Mobility Data - Workplaces','COVID Google Mobility Data - Residential','COVID Apple Mobility Data - Driving','COVID Apple Mobility Data - Walking','COVID Apple Mobility Data - Public transport','COVID Restrictions - Public Transport','COVID Restrictions - Domestic Transport','COVID Restrictions - International Transport','energy_use_tonnes']
+temp_list = ['passenger_km', 'freight_km', 'Sales','revenue_passenger_km','vehicle_registration', 'Vehicle registration (Others)','Total Transport Energy Consumption', 'Energy','Fossil Transport CO2 emissions', 'Total Transport CO2 emissions','co2_emissions','COVID Google Mobility Data - Grocery and pharmacy','COVID Google Mobility Data - Retail and recreation','COVID Google Mobility Data - Parks','COVID Google Mobility Data - Public transport stations','COVID Google Mobility Data - Workplaces','COVID Google Mobility Data - Residential','COVID Apple Mobility Data - Driving','COVID Apple Mobility Data - Walking','COVID Apple Mobility Data - Public transport','COVID Restrictions - Public Transport','COVID Restrictions - Domestic Transport','COVID Restrictions - International Transport','energy_use_tonnes']
 if ATO_data['original_measure'].isin(temp_list).all():
     print('Changing measure col to original_measure col, and then removing original_measure col')
     ATO_data['measure'] = ATO_data['original_measure']
@@ -593,19 +593,21 @@ ATO_dataset_clean = ATO_data.copy()
 ATO_dataset_clean.columns = ATO_dataset_clean.columns.str.title()
 #note that there now may be duplicate rows with different values. This is because different sheet may have diff versions of the same datapoint. We'll deal with this issue if we come to it later. 
 # #change the units
-ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('units', 'Stocks')
-ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('number', 'Stocks')
-ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('passenger kilometers', 'passenger_km')
-ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('tonne kilometers', 'freight_tonne_km')
-ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('pj', 'PJ')
-
+#%%
 #change the measures:
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('freight_km', 'freight_tonne_km')
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('Vehicle registration (Others)', 'Stocks')
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('Total Transport Energy Consumption', 'Energy')
-ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('energy_use', 'Energy')
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('vehicle_registration', 'Stocks')
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('Total Transport CO2 emissions', 'co2_emissions')
+
+#where measure is Sales, make unit 'sales'
+ATO_dataset_clean.loc[ATO_dataset_clean['Measure'] == 'Sales', 'Unit'] = 'sales'
+ATO_dataset_clean.loc[ATO_dataset_clean['Measure'] == 'Stocks', 'Unit'] = 'Stocks'
+ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('passenger kilometers', 'passenger_km')
+ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('tonne kilometers', 'freight_tonne_km')
+ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('pj', 'PJ')
+
 
 #change transport type values
 ATO_dataset_clean['Transport Type'] = ATO_dataset_clean['Transport Type'].str.lower()

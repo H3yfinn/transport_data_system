@@ -461,8 +461,6 @@ def manual_apply_user_input_to_data(user_input, choice_dict, options, combined_d
 
 def remove_duplicate_transport_8th_data(combined_data, duplicates):
        #prepare a copy of our dataframes so we can check that output from follkowing is what we expect
-       duplicates_copy = duplicates.copy()
-       combined_data_copy = combined_data.copy()
        #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
        #we should be able to do this by filtering for Dataset == '8th edition transport model $ Reference' and '8th edition transport model $ Carbon neutrality' and then filtering for rows where all other columns have the same values. Then remove the Reference data from those duplicates. We will then remove that data from the combined data and combined data concordance as well.
        duplicates_8th_edition_transport_model = combined_data[combined_data['Dataset'].isin(['8th edition transport model $ Carbon neutrality', '8th edition transport model $ Reference'])]

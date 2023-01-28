@@ -1,4 +1,4 @@
-#import data from iea's evs dataset here:
+#import data from iea's evs dataset here: https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer
 #and convert it to a format suitable for the transport data system
 #this data will be especail;ly useful for filling in the holes we have for stocks of drives. I imagine thaT we will jsut fulfill the activity per drive by timesing drive_share_of_stock by activity_per_vehicle_type or summin.
 #also this dataset contians projections to 2030 (useful for estimating good forecasting amounts and testing accuracy of the model)
@@ -65,30 +65,53 @@ evs.measure.unique()
 #rename the above to:
 # 'Sales', 'Stocks', 'Sales share', 'Stock share', 'EV Charging points','Oil displacement Mbd', 'Oil displacement Mlge', 'Energy'
 evs['measure'] = evs['measure'].replace({'EV sales':'Sales', 'EV stock':'Stocks', 'EV sales share':'Sales share', 'EV stock share':'Stock share', 'EV charging points':'EV Charging points', 'Oil displacement Mbd':'Oil displacement Mbd', 'Oil displacement Mlge':'Oil displacement Mlge', 'Electricity demand':'Energy'})
+
+#%%
 #and change v type
 evs['vehicle type'].unique()#'Cars', 'EV', 'Vans', 'Buses', 'Trucks'
  #Bit confused about 'EV' so take a look:
 evs[evs['vehicle type']=='EV']#it's for charging points so make it NA
-# so change all to: ldv, np.nan, ldv, bus, ht
-evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'ldv', 'EV':np.nan, 'Vans':'ldv', 'Buses':'bus', 'Trucks':'ht'})
+# so change all to: ldv, np.nan, van, bus, ht
+evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'ldv', 'EV':np.nan, 'Vans':'hdv', 'Buses':'bus', 'Trucks':'ht'})
+#set ldv's to have transport type = 'passenger'
+evs.loc[evs['vehicle type']=='ldv', 'transport type'] = 'passenger'
+#set hdv's to have transport type = 'combined'
+evs.loc[evs['vehicle type']=='hdv', 'transport type'] = 'combined'
+#set bus's to have transport type = 'passenger'
+evs.loc[evs['vehicle type']=='bus', 'transport type'] = 'passenger'
+#set ht's to have transport type = 'freight'
+evs.loc[evs['vehicle type']=='ht', 'transport type'] = 'freight'
+#%%
 #and change drive
 evs['drive'].unique()
 # 'BEV', 'EV', 'PHEV', 'Publicly available fast',
 #        'Publicly available slow'
 #check out EV
-evs[evs['drive']=='EV']#it looks like its sales for 'bevs' specicifically but it would be good to double chekc online TODO
+evs[evs['drive']=='EV']#sales share and oil displacement is for 'EV's whjich refers to bev and phev so change to bev and phev
+
+# #create a comment column where we set it to drive where drive ='Publicly available fast', 'Publicly available slow'
+# evs['comment'] = np.nan
+# evs.loc[evs['drive'].isin(['Publicly available fast', 'Publicly available slow']), 'comment'] = evs.loc[evs['drive'].isin(['Publicly available fast', 'Publicly available slow']), 'drive']
+
 #change to 'bev', 'EV' (for now), 'phev', np.nan, np.nan
-evs['drive'] = evs['drive'].replace({'BEV':'bev', 'EV':'EV', 'PHEV':'phev', 'Publicly available fast':np.nan, 'Publicly available slow':np.nan})
+evs['drive'] = evs['drive'].replace({'BEV':'bev', 'EV':'bev and phev', 'PHEV':'phev'})
 evs['unit'].unique()#'sales', 'stock', 'percent', 'charging points',
     #    'Milion barrels per day', 'Milion litres gasoline equivalent',
     #    'GWh']
 #keep all the same but we are going to change gwh to pj
-evs['unit'] = evs['unit'].replace({'GWh':'PJ'})
+evs['unit'] = evs['unit'].replace({'GWh':'PJ', 'stock':'Stocks'})
 #and convert the values to PJ
-evs.loc[evs['unit']=='PJ', 'value'] = evs.loc[evs['unit']=='PJ', 'value'] * 3.6#TODO check conversion works ok
-
+evs.loc[evs['unit']=='PJ', 'value'] = evs.loc[evs['unit']=='PJ', 'value'] * 0.0036
 #%%
-#great looks pretty clean form here!
+
+#remove specific duplciate for 04_CHL 2011 EV Charging points
+evs = evs[~((evs['Economy']=='04_CHL') & (evs['year']==2011) & (evs['source']=='Historical') & (evs['measure']=='EV Charging points'))]
+#check for duplicates
+evs[evs.duplicated()]
+
+evs['Medium'] = 'road' 
+#%%
+#great looks pretty clean from here!
 
 #saeve the data
 evs.to_csv('intermediate_data/iea/{}_evs.csv'.format(FILE_DATE_ID), index=False)

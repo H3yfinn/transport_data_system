@@ -19,14 +19,16 @@ FILE_DATE_ID = 'DATE{}'.format(file_date)
 #load 8th data
 eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_aggregated_{}.csv'.format(FILE_DATE_ID))
 #%%
-
+#rename year to date
+eigth_edition_transport_data = eigth_edition_transport_data.rename(columns={'Year':'Date'})
+#%%
 #there are too many missing values for 2017 in new_vehicle_efficiency, we will jsut fill them in with the values for 2018
 new_vehicle_efficiency = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'new_vehicle_efficiency') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model'),:]
 #filter out anny values for 2017
-new_vehicle_efficiency_not_2017 = new_vehicle_efficiency[new_vehicle_efficiency['Year'] != 2017]
-new_vehicle_efficiency_2017 = new_vehicle_efficiency.loc[new_vehicle_efficiency['Year'] == 2018]
+new_vehicle_efficiency_not_2017 = new_vehicle_efficiency[new_vehicle_efficiency['Date'] != 2017]
+new_vehicle_efficiency_2017 = new_vehicle_efficiency.loc[new_vehicle_efficiency['Date'] == 2018]
 #set year to 2017
-new_vehicle_efficiency_2017['Year'] = 2017
+new_vehicle_efficiency_2017['Date'] = 2017
 #concat
 new_vehicle_efficiency = pd.concat([new_vehicle_efficiency_not_2017, new_vehicle_efficiency_2017])
 
@@ -41,8 +43,8 @@ eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, new_vehi
 #WE ONLY HAVE PRE-2017 DATA FOR OCC_LOAD.
 occupance_load = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'occupancy_or_load') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model'),:]
 #we will set all values for BASE_YEAR to the values for 2016 in occupance_load.
-occupance_load = occupance_load.loc[occupance_load.Year == 2016,:]
-occupance_load['Year'] = 2017
+occupance_load = occupance_load.loc[occupance_load.Date == 2016,:]
+occupance_load['Date'] = 2017
 
 #add data back to eigth_edition_transport_data
 eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Measure'] == 'occupancy_or_load') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model')),:]
@@ -55,7 +57,7 @@ eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'] == 'millio
 
 eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'] == 'million_stocks', 'Unit'] = 'Stocks'
 
-#units are currently in thousands for activity, and PJ for energy. We want to convert activity to singlular units#NOTE IT SEEMS THAT PERHAPS THE VALUES SHOULD BE IN MILLIONS FOR ACTIVITY!!!
+#units are currently in thousands for activity, and PJ for energy. We want to convert activity to singlular units#NOTE IT SEEMS THAT PERHAPS THE VALUES are IN MILLIONS FOR ACTIVITY!!!
 eigth_edition_transport_data['Value'] = eigth_edition_transport_data['Value'].astype(float)
 eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'].isin(['passenger_km', 'freight_tonne_km']), 'Value'] = eigth_edition_transport_data.loc[eigth_edition_transport_data['Unit'].isin(['passenger_km', 'freight_tonne_km']), 'Value'] * 1000000
 
@@ -91,35 +93,35 @@ eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, temp])
 #and eprhaps some more later
 
 total_road_passenger_km = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'passenger_km') & (eigth_edition_transport_data['Medium'] == 'road'),:]
-cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+cols_to_group = ['Economy', 'Transport Type', 'Date','Medium', 'Unit', 'Measure', 'Dataset']
 total_road_passenger_km = total_road_passenger_km.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
-total_road_passenger_km['Vehicle Type'] = 'road'
-total_road_passenger_km['Drive'] = 'road'
+total_road_passenger_km['Vehicle Type'] =  np.nan
+total_road_passenger_km['Drive'] = np.nan
 
 total_road_freight_km = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'freight_tonne_km') & (eigth_edition_transport_data['Medium'] == 'road'),:]
-cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+cols_to_group = ['Economy', 'Transport Type', 'Date','Medium', 'Unit', 'Measure', 'Dataset']
 total_road_freight_km = total_road_freight_km.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
-total_road_freight_km['Vehicle Type'] = 'road'
-total_road_freight_km['Drive'] = 'road'
+total_road_freight_km['Vehicle Type'] =  np.nan
+total_road_freight_km['Drive'] =  np.nan
 
 total_road_energy_use = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'Energy') & (eigth_edition_transport_data['Medium'] == 'road'),:]
-cols_to_group = ['Economy', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+cols_to_group = ['Economy', 'Date','Medium', 'Unit', 'Measure', 'Dataset']
 total_road_energy_use = total_road_energy_use.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
-total_road_energy_use['Vehicle Type'] = 'road'
-total_road_energy_use['Drive'] = 'road'
+total_road_energy_use['Vehicle Type'] =  np.nan
+total_road_energy_use['Drive'] =  np.nan
 total_road_energy_use['Transport Type'] = 'combined'
 
 total_road_passenger_energy_use = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'Energy') & (eigth_edition_transport_data['Medium'] == 'road') & (eigth_edition_transport_data['Transport Type'] == 'passenger'),:]
-cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+cols_to_group = ['Economy', 'Transport Type', 'Date','Medium', 'Unit', 'Measure', 'Dataset']
 total_road_passenger_energy_use = total_road_passenger_energy_use.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
-total_road_passenger_energy_use['Vehicle Type'] = 'road'
-total_road_passenger_energy_use['Drive'] = 'road'
+total_road_passenger_energy_use['Vehicle Type'] = np.nan
+total_road_passenger_energy_use['Drive'] =  np.nan
 
 total_road_freight_energy_use = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'Energy') & (eigth_edition_transport_data['Medium'] == 'road') & (eigth_edition_transport_data['Transport Type'] == 'freight'),:]
-cols_to_group = ['Economy', 'Transport Type', 'Year','Medium', 'Unit', 'Measure', 'Dataset']
+cols_to_group = ['Economy', 'Transport Type', 'Date','Medium', 'Unit', 'Measure', 'Dataset']
 total_road_freight_energy_use = total_road_freight_energy_use.groupby(cols_to_group, as_index = False).sum(numeric_only=True)
-total_road_freight_energy_use['Vehicle Type'] = 'road'
-total_road_freight_energy_use['Drive'] = 'road'
+total_road_freight_energy_use['Vehicle Type'] = np.nan
+total_road_freight_energy_use['Drive'] = np.nan
 
 #%%
 #now add these totals to the data
@@ -144,17 +146,17 @@ print(stocks_data['Vehicle Type'].unique())
 #we want to sum up lt and ldv to get ldv's
 ldv_stocks_data = stocks_data.loc[stocks_data['Vehicle Type'].isin(['lt','lv'])]
 ldv_stocks_data['Vehicle Type'] = 'ldv'
-#set drive to road for all of these
-ldv_stocks_data['Drive'] = 'road'
+#set drive to nan for all of these
+ldv_stocks_data['Drive'] = np.nan
 #sum up the datas
 cols  = ldv_stocks_data.columns.to_list()
 cols.remove('Value')
 ldv_stocks_data = ldv_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
 
-#and also do one for 'road' where we set all vehicle types to 'road' where medium is road
+#and also do one for 'road' where we set all vehicle types to nan where medium is road
 road_stocks_data = stocks_data.loc[stocks_data['Medium'] == 'road',:]
-road_stocks_data['Vehicle Type'] = 'road'
-road_stocks_data['Drive'] = 'road'
+road_stocks_data['Vehicle Type'] = np.nan
+road_stocks_data['Drive'] = np.nan
 road_stocks_data = road_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
 
 #and just concat the two together
@@ -165,8 +167,114 @@ eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, stocks_d
 
 
 #%%
+############################################################
+#calcaulte ldv data now instead of in the data_mixing_code folder. 
+############################################################
+
+#%%
+INDEX_COLS = ['Date',
+ 'Economy',
+ 'Medium',
+ 'Measure',
+ 'Transport Type',
+ 'Drive',
+ 'Dataset',
+ 'Source',
+ 'Unit']
+
+#%%
+#we want to add up the data for lv's and lt's in energy, activity and stocks
+measures = ['freight_tonne_km','passenger_km','Energy', 'Stocks']#, 'Sales']
+vtypes = ['lv', 'lt']
+
+ldv_data = eigth_edition_transport_data[eigth_edition_transport_data['Vehicle Type'].isin(vtypes)]
+ldv_data = ldv_data[ldv_data['Measure'].isin(measures)]
+
+#%%
+#now pivot so we have lv and lt as columns
+ldv_data_wide = ldv_data.pivot(index=INDEX_COLS, columns='Vehicle Type', values='Value')
+
+#TAKE A LOOK at rows where one of lt or lv is na
+ldv_data_wide_na = ldv_data_wide.reset_index()
+ldv_data_wide_na = ldv_data_wide_na[ldv_data_wide_na['lv'].isna() | ldv_data_wide_na['lt'].isna()]
+#there are a couple of instances where this could be an issue but mostly it looks like an oversight in the data. Perhaps we should plot the sum of lv and lt and see if it matches the ldv data we do have
+ldv_data_wide = ldv_data_wide.reset_index()
+#add so that NA values are 0
+ldv_data_wide['ldv'] = ldv_data_wide['lv'].fillna(0) + ldv_data_wide['lt'].fillna(0)
+
+#%%
+#DATA TO SAVE
+ldv_data_new = ldv_data_wide.drop(['lv', 'lt'], axis=1)
+#make vehicle type ldv
+ldv_data_new['Vehicle Type'] = 'ldv'
+#make ldv into value
+ldv_data_new = ldv_data_new.rename(columns={'ldv':'Value'})
+#drop na from vlaue col
+ldv_data_new = ldv_data_new[ldv_data_new['Value'].notna()]
+
+#join back to main
+eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, ldv_data_new])
+
+#make filtered_eigth_edition_transport_data['Frequency']=='Yearly'
+eigth_edition_transport_data['Frequency']='Yearly'
+############################################################
+############################################################
+############################################################
+
+
+#%%
+############################################################
+############################################################
+#we also want to make sure that this dataset is full, even if the vlaues we inclkudee are 0. this is so that when merged with other data in the process of estimating data based on it, it wont be missing rows and therefore cause data we want to introudce to not be introudced because we did an inner join or something. 0 values will solve this and we can then jsut drop 0 values before selecting data so it doesnt cause issues
+#this is a bit hacky and could cause oversights but it seems liek a net positive. 
+#so import the 9th model concordances and identify missing rows in the 8th edition data
+
+############################################################
+
+#FILTER FOR 9th data only
+
+############################################################
+
+
+#this will import the mdoel concordance from the 9th edition model and then filter the combined data to only include data that will fit into the concordance. Then the selection process can continue as if normal (perhaps some changes to suit this case)
+
+#import snapshot of 9th concordance
+model_concordances_base_year_measures_file_name = 'model_concordances_measures.csv'
+model_concordances_measures = pd.read_csv('./intermediate_data/9th_dataset/{}'.format(model_concordances_base_year_measures_file_name))
+#make Frequency yearly
+model_concordances_measures['Frequency'] = 'Yearly'
+#%%
+new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
+#%%
+#Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
+INDEX_COLS = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
+
+#set index
+model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS)
+new_eigth_edition_transport_data = new_eigth_edition_transport_data.set_index(INDEX_COLS)
+#%%
+#use diff to identify rows that are in model_concordances_measures but not in new_eigth_edition_transport_data
+missing_rows = model_concordances_measures.index.difference(new_eigth_edition_transport_data.index)
+#create a new dataframe with the missing rows
+missing_rows_df = pd.DataFrame(index=missing_rows)
+#set Value, dataset and source to 0, 8th edition transport model and reference
+missing_rows_df['Value'] = 0
+missing_rows_df['Dataset'] = '8th edition transport model'
+missing_rows_df['Source'] = 'Reference'
+#now concat this to the new_eigth_edition_transport_data
+new_eigth_edition_transport_data = pd.concat([new_eigth_edition_transport_data, missing_rows_df])
+#%%
+#now we will also remove data that isnt in the 9th edition concordance
+extra_rows = new_eigth_edition_transport_data.index.difference(model_concordances_measures.index)
+new_eigth_edition_transport_data = new_eigth_edition_transport_data.drop(extra_rows)
+new_eigth_edition_transport_data.reset_index(inplace=True)
+############################################################
+############################################################
+#%%
+new_eigth_edition_transport_data['Date'] = new_eigth_edition_transport_data['Date'].astype(str) + '-12-31'
+#%%
 #
 #save data to same file
-eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID), index = False)
-
+new_eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID), index = False)
+eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/non_filtered_eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID), index = False)
 #%%
