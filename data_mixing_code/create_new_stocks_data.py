@@ -578,13 +578,21 @@ updated_proportions_df['Dataset'] = 'VTypeATO_est'
 updated_proportions_df['Source'] = '8th/ATO'
 
 #%%
-#We want to remove any rows in updated_proportions_df from all_data.
+#We want to remove any rows in updated_proportions_df from all_data as the data in all_data is now 'less accruate'
 #set index to non_level_index_cols+['Vehicle Type', 'Drive']
-all_data_new = all_data.set_index(non_level_index_cols+['Vehicle Type', 'Drive'])
-updated_proportions_df = updated_proportions_df.set_index(non_level_index_cols+['Vehicle Type', 'Drive'])
+all_data_new = all_data.set_index(non_level_index_cols+[ 'Drive'])
+updated_proportions_df = updated_proportions_df.set_index(non_level_index_cols+['Drive'])
 all_data_new = all_data_new[~all_data_new.index.isin(updated_proportions_df.index)]
+#%%
+#drop the indexes
+all_data_new = all_data_new.reset_index()
+updated_proportions_df = updated_proportions_df.reset_index()
 
+#set updated_proportions_df Measure to stocks
+updated_proportions_df['Measure'] = 'Stocks'
+#unit to Stocks
+updated_proportions_df['Unit'] = 'Stocks'
 #%%
 updated_proportions_df.to_csv('./intermediate_data/estimated/{}_8th_ATO_vehicle_type_update.csv'.format(FILE_DATE_ID), index=False)
-all_data.to_csv('./intermediate_data/estimated/{}_8th_iea_ev_all_stock_updates.csv'.format(FILE_DATE_ID), index=False)
+all_data_new.to_csv('./intermediate_data/estimated/{}_8th_iea_ev_all_stock_updates.csv'.format(FILE_DATE_ID), index=False)
 # %%

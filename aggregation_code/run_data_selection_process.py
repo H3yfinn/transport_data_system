@@ -1,5 +1,3 @@
-#This will intepolate missing values in the data when the missing value is between two values. There is an option for the user to pick the inteprolation method eg. spline and what order spline it is. The manual method will alsso show the user what the intpoaltion will look like. The method will record in the dataframe that the datapoint was interpolated.
-
 #%%
 import datetime
 import pandas as pd
@@ -7,65 +5,127 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 import numpy as np
 import os
-import re
 import sys
+import re
+import data_selection_functions as data_selection_functions
+import utility_functions as utility_functions
 import matplotlib.pyplot as plt
-
-#if using jupyter notebook then set the backend to inline so that the graphs are displayed in the notebook instead of in a new window
-
-# %matplotlib inline
 
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+sys.path.append('./aggregation_code')
+#%%
+#create code to run the baove functions
+INDEX_COLS = ['Date', 'Economy', 'Measure', 'Vehicle Type', 'Unit', 'Medium','Transport Type','Drive','Fuel_Type','Frequency', 'Scope']
 
-import data_selection_functions as data_selection_functions
+#MANUAL DATA SELECTION VARIABLES
+pick_up_where_left_off = True
+import_previous_selection = True
+run_only_on_rows_to_select_manually = False
 
-PRINT_GRAPHS_AND_STATS = False
+#load data
+# FILE_DATE_ID = 'DATE20221205'
+use_all_data =True 
+use_9th_edition_set = False
+if use_all_data:
+    #run aggreagtion code file
+    exec(open("./aggregation_code/1_aggregate_cleaned_datasets.py").read())
+    file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
+    FILE_DATE_ID = 'DATE{}'.format(file_date)
+    combined_dataset = pd.read_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
+    combined_data_concordance= pd.read_csv('intermediate_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
+elif use_9th_edition_set:
+    exec(open("./aggregation_code/1_aggregate_cleaned_dataset_9th_edition.py").read())
+    file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/9th_dataset/', 'combined_dataset_')
+    FILE_DATE_ID = 'DATE{}'.format(file_date)
+    combined_dataset = pd.read_csv('intermediate_data/9th_dataset/combined_dataset_{}.csv'.format(FILE_DATE_ID))
+    combined_data_concordance= pd.read_csv('intermediate_data/9th_dataset/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
+else:
+    print('Please set use_all_data or use_9th_edition_set to True')
+
+##############################################################################
+#%%
+FILE_DATE_ID = ''
 
 #%%
-#create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
-file_date = datetime.datetime.now().strftime("%Y%m%d")
-import utility_functions as utility_functions
-file_date = utility_functions.get_latest_date_for_data_file('./output_data/', '_final_combined_data_concordance.csv')
-FILE_DATE_ID = 'DATE{}'.format(file_date)
-# FILE_DATE_ID = 'DATE20221212'
+duplicates = data_selection_functions.identify_duplicates(combined_dataset, INDEX_COLS)
 
-# final_combined_data_concordance.to_csv('./output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
-final_combined_data_concordance = pd.read_csv('./output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
+combined_data_concordance_automatic,combined_data_concordance_manual,combined_data_concordance_iterator,duplicates_auto,duplicates_auto_with_year_index,combined_data_automatic,duplicates_manual,combined_data = data_selection_functions.prepare_data_for_selection(combined_data_concordance,combined_dataset,duplicates,INDEX_COLS,EARLIEST_YEAR = "2010-01-01",    LATEST_YEAR = '2020-01-01')
+#%%
+run_automatic =True
+if run_automatic:
+    combined_data_concordance_automatic, rows_to_select_manually_df = data_selection_functions.automatic_selection(combined_data_concordance_automatic,combined_data_automatic,duplicates_auto,duplicates_auto_with_year_index,INDEX_COLS, datasets_to_always_choose=[])
+#     a = rows_to_select_manually_df.copy()#TODO REMOVE THIS
+# rows_to_select_manually_df = a.copy()#TODO REMOVE THIS
+#%%
+#load combined_data_concordance_manual now so we can use it later if we need to
+previous_combined_data_concordance_manual = pd.read_csv('intermediate_data/data_selection/{}_data_selection_manual.csv'.format(FILE_DATE_ID))
+previous_duplicates_manual = pd.read_csv('intermediate_data/data_selection/{}_duplicates_manual.csv'.format(FILE_DATE_ID))
+# previous_duplicates_manual = duplicates_manual.copy()#TODO REMOVE THIS
+#reset duplicates_manual, combined_data_concordance_manual index
+duplicates_manual = duplicates_manual.reset_index()
+combined_data_concordance_manual = combined_data_concordance_manual.reset_index()
+#%%
 
-#TEMP if there is a col called 'index' then remove it
-if 'index' in final_combined_data_concordance.columns:
-    final_combined_data_concordance = final_combined_data_concordance.drop(columns=['index'])#it must be happening in the dataaselection process
+#########################SET ME TO SET VARIABLES FOR FUNCTION
+pick_up_where_left_off=False
+import_previous_selection=True
+run_only_on_rows_to_select_manually=True
+manually_chosen_rows_to_select=None
+user_edited_combined_data_concordance_iterator=None
+previous_combined_data_concordance_manual= previous_combined_data_concordance_manual
+duplicates_manual=duplicates_manual
+previous_duplicates_manual=previous_duplicates_manual
+progress_csv=None
+#########################
 #%%
-#TEMPORARY
-#remove data from dates after 2019 (have to format it as it is currently a string)
-final_combined_data_concordance['Date'] = pd.to_datetime(final_combined_data_concordance['Date'])
-final_combined_data_concordance = final_combined_data_concordance.loc[final_combined_data_concordance.Date < '2020-01-01']
+iterator, combined_data_concordance_manual = data_selection_functions.create_manual_data_iterator(combined_data_concordance_iterator,
+INDEX_COLS,combined_data_concordance_manual,
+rows_to_select_manually_df,
+pick_up_where_left_off, 
+import_previous_selection,run_only_on_rows_to_select_manually,
+manually_chosen_rows_to_select,
+user_edited_combined_data_concordance_iterator,
+previous_combined_data_concordance_manual, 
+duplicates_manual,
+previous_duplicates_manual, progress_csv)
+
 #%%
-INDEX_COLS = ['Date', 'Economy', 'Measure', 'Vehicle Type', 'Unit', 'Medium','Transport Type','Drive','Fuel_Type','Scope']
+combined_data_concordance_manual, duplicates_manual, bad_index_rows, num_bad_index_rows = data_selection_functions.select_best_data_manual(combined_data_concordance_iterator,iterator,combined_data_concordance_manual,combined_data,duplicates_manual,INDEX_COLS,FILE_DATE_ID=FILE_DATE_ID)
+#%%
+final_combined_data_concordance = data_selection_functions.combine_manual_and_automatic_output(combined_data_concordance_automatic,combined_data_concordance_manual,INDEX_COLS)
+#%%
+#do interpolation:
+new_final_combined_data,final_combined_data_concordance = data_selection_functions.interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True,FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7)
+
+if use_all_data:
+    final_combined_data_concordance.to_csv('output_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID), index=False)
+    new_final_combined_data.to_csv('output_data/combined_dataset_{}.csv'.format(FILE_DATE_ID), index=False)
+elif use_9th_edition_set:
+    final_combined_data_concordance.to_csv('output_data/9th_dataset/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID), index=False)
+    new_final_combined_data.to_csv('output_data/9th_dataset/combined_dataset_{}.csv'.format(FILE_DATE_ID), index=False)
+#%%
+automatic_interpolation_method = 'linear'
+automatic_interpolation = True
+FILE_DATE_ID=FILE_DATE_ID
+percent_of_values_needed_to_interpolate=0.7
+#FOR SOME REASON ALL OF VALUE IS NA
+# #TEMPORARY
+# #remove data from dates after 2019 (have to format it as it is currently a string)
+# final_combined_data_concordance['Date'] = pd.to_datetime(final_combined_data_concordance['Date'])
+# final_combined_data_concordance = final_combined_data_concordance.loc[final_combined_data_concordance.Date < '2020-01-01']
+
+final_combined_data_concordance = final_combined_data_concordance.reset_index()
 #Remove year from the current cols without removing it from original list, and set it as a new list
 INDEX_COLS_no_year = INDEX_COLS.copy()
 INDEX_COLS_no_year.remove('Date')
-#%%
-#set indexes
-# final_combined_data_concordance = final_combined_data_concordance.reset_index().set_index(INDEX_COLS_no_year)
-# unique_index_rows = final_combined_data_concordance.index.unique()
-# #order by unique rows 
-# final_combined_data_concordance = final_combined_data_concordance.sort_index()
 
-#%%
 #set interpoaltuion methods. If the method is one that requires an order then make sure to add the order as a number right after the method name
-interpolation_methods = ['linear', 'spline2', 'spline4']
-automatic_interpolation_method = 'linear'
-automatic_interpolation = True
-#%%
-#because this was taking a long time to run we will set up some code to save the data after checkpoints are reached, and also provide the user with some inidcation of progress via timing. #TBH its not that logn nbow
-#count number of iterations:
-number_of_measures = len(final_combined_data_concordance.Measure.unique())
+interpolation_methods = ['linear', 'spline2', 'spline4'] 
 #start a timer
 start_time = datetime.datetime.now()
 
-#%%
+########################################################
 print('Starting interpolation, this may take a few minutes...')
 #load progress
 filename ='intermediate_data/interpolation/{}_progress.csv'.format(FILE_DATE_ID)
@@ -73,49 +133,45 @@ progress = pd.read_csv(filename)
 #set index rows
 progress = progress.set_index(INDEX_COLS_no_year)
 final_combined_data_concordance = final_combined_data_concordance.set_index(INDEX_COLS_no_year)
-#temp, drop Unnamed: 0	
-progress = progress.drop(columns=['Unnamed: 0'])
-#filter progress to only include index_rows that are in the final_combined_data_concordance
-progress = progress.loc[progress.index.isin(final_combined_data_concordance.index.unique())]
 # in case the user wants to stop the code running and come back to it later, we will save the data after each measure is done. This will allow the user to pick up where they left off. So here we will load in the data from the last saved file and update the final_combined_data_concordance df so any of the users changes are kept. This will also identify if the data currently set in combined data concordance for that index row has changed since last time. If it has then we will not overwrite it an the user will ahve to inrerpolate it again.
 #so first identify where there are either 'interpolation' or 'interpolation skipped' in the final_dataselection_method column:
-previous_progress = progress.loc[progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
 previous_progress_no_interpolation = progress.loc[~progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
-#for each index row in previous_progress, check if teh sum of Value col in previous_progress_no_interpolation, matches that for final_combined_data_concordance. If not then some data point has changed and we will need to reinterpolate the data, otherwiose we can just replace the data in final_combined_data_concordance with the data in previous_progress
-#IT WOULD BE NICE TO VECTORIZE THE BELOW BUT ITS TOO COMPLCIATED FOR ME RIGHT NOW
-for index_row in previous_progress.index.unique():
-    #load value sum excluding nas
-    previous_progress_no_interpolation_value_sum = previous_progress_no_interpolation.loc[index_row].Value.sum()
-    final_combined_data_concordance_value_sum = final_combined_data_concordance.loc[index_row].Value.sum()
-    if previous_progress_no_interpolation_value_sum != final_combined_data_concordance_value_sum:
-        #if the values are different then we need to reinterpolate the data (so leave the data in final_combined_data_concordance as it is)
-        # previous_progress = previous_progress.drop(index=index_row)
-        # print('The data for {} has changed since last time, so the interpolation will need to be redone'.format(index_row))
-        pass
-    else:
-        #we want to replace all rows for this index row in final_combined_data_concordance with the rows in progress
-        final_combined_data_concordance = final_combined_data_concordance.drop(index=index_row)
-        final_combined_data_concordance = pd.concat([final_combined_data_concordance, progress.loc[index_row]])
+#for each index row in previous_progress_no_interpolation, check if teh sum of Value col  matches that for final_combined_data_concordance (this is possible because the would-be interpolated values would be NA in final_combined_data_concordance, if nothing had changed). If sum of value cols for that index row dont match then some data point has changed and we will need to reinterpolate the data. If they match we can just replace the data in final_combined_data_concordance with the data in previous_progress
+for index_row in previous_progress_no_interpolation.index.unique():
+    if index_row in final_combined_data_concordance.index.unique():
+        #calc sum of values for index_row
+        previous_progress_no_interpolation_value_sum = previous_progress_no_interpolation.loc[index_row].Value.sum()
+        final_combined_data_concordance_value_sum = final_combined_data_concordance.loc[index_row].Value.sum()
+
+        if previous_progress_no_interpolation_value_sum != final_combined_data_concordance_value_sum:
+            #if the values are different then we need to reinterpolate the data (so leave the data in final_combined_data_concordance as it is)
+            # previous_progress = previous_progress.drop(index=index_row)
+            # print('The data for {} has changed since last time, so the interpolation will need to be redone'.format(index_row))
+            pass
+
+        else:
+            #if vlkauyes are the same we want to replace all rows for this index row in final_combined_data_concordance with the rows in progress so we can pick up where we left off
+            final_combined_data_concordance = final_combined_data_concordance.drop(index=index_row)
+            final_combined_data_concordance = pd.concat([final_combined_data_concordance, progress.loc[index_row]])
 
 #reset index
 final_combined_data_concordance = final_combined_data_concordance.reset_index()
 print('Time taken so far: {}'.format(datetime.datetime.now() - start_time))
 print('Previous progress loaded, interpolation will now start')
+########################################################
 
-#%%
 #chekc for dsuplicates in final_combined_data_concordance
-#throw an error if there are duplicates
+#if there are then we should return them asnd ask the user to remove them
 duplicates = final_combined_data_concordance[final_combined_data_concordance.duplicated()]
-if duplicates.shape[0] > 0:    
-    raise ValueError('There are duplicates in the final_combined_data_concordance dataframe')
+if duplicates.shape[0] > 0:
+    print('Duplicates found in final_combined_data_concordance. Please remove them and try again. Returning them now.')
+    #return duplicates, final_combined_data_concordance
 
-
-
-#%% 
 #split the data into measures to make the dataset smaller and so faster to work on
 skipped_rows = []
 import matplotlib
 matplotlib.use('TkAgg')
+
 measures = final_combined_data_concordance.Measure.unique().tolist()
 measures.sort()
 for measure in measures:
@@ -147,12 +203,12 @@ for measure in measures:
         current_data_interpolation = current_data_interpolation.loc[index_row]
         #reset index and sort by year
         current_data_interpolation = current_data_interpolation.reset_index().sort_values(by='Date')
-
-        #if tehre are no na values in the Values column where Final_dataset_selection_method is NOT == 'interpolation skipped' then we will not interpolate because there is no data to interpolate
+        
+        #if tehre are no na values in the Values column where Final_dataset_selection_method is not == 'interpolation skipped' then we will not interpolate because there is no data to interpolate
         if current_data_interpolation.loc[current_data_interpolation.Final_dataset_selection_method != 'interpolation skipped', 'Value'].isnull().sum() == 0:
             continue
         #doulbe check that less than 70% of the data is missing. If not then we will not interpolate
-        if current_data_interpolation['Value'].isnull().sum() / len(current_data_interpolation) > 0.7:
+        if current_data_interpolation['Value'].isnull().sum() / len(current_data_interpolation) > percent_of_values_needed_to_interpolate:
             skipped_rows.append(index_row)#we can check on this later to see if we should have interpolated these rows
             #also set Final_dataset_selection_method where it is NA to 'not enough values to interpolate'
             current_data_interpolation.loc[current_data_interpolation['Value'].isnull(), 'Final_dataset_selection_method'] = 'not enough values to interpolate'
@@ -357,15 +413,9 @@ for measure in measures:
         break#this occurs if the user inputs the same incorrect value twice, which will probvably occur if they want to quit current process.
 plt.close('all')
 print('Finished all interpolation')
-#PLEASE NOTE I DONT THINK THE ABOVE IS WORKING THERES QUITE A FEW DUPLICATES!
-
-#IT SEEMS THERE ARE SOME VALUES THAT ARE NA IN THE OUTPUT EVEN THOUGHT THE DATA SELEECTION METHOD IS INTERPOLATION. 
-#Actually it seems like its ok?? GReat!
-#%%
 #print time it took to run the program
 print('Time taken to run program: {}'.format(datetime.datetime.now() - start_time))
 
-#%%
 #and just quickly separate the dataset and source coplumns by splitting the value on any $ signs
 final_combined_data_concordance['Source'] = final_combined_data_concordance['Dataset'].str.split('$').str[1]
 #remove any spaces
@@ -374,15 +424,15 @@ final_combined_data_concordance['Source'] = final_combined_data_concordance['Sou
 final_combined_data_concordance['Dataset'] = final_combined_data_concordance['Dataset'].str.split('$').str[0]
 #remove any spaces
 final_combined_data_concordance['Dataset'] = final_combined_data_concordance['Dataset'].str.strip()
-#%%
-# #save the final combined data concordance to a csv file with date id 
-# file_date = datetime.datetime.now().strftime("%Y%m%d_%H%M")
-# FILE_DATE_ID = 'DATE{}'.format(file_date)
-final_combined_data_concordance.to_csv('output_data/{}_interpolated_combined_data_condordance.csv'.format(FILE_DATE_ID), index=False)
 
 #and make new_final_combined_data by removing any NA values
 new_final_combined_data = final_combined_data_concordance.dropna(subset=['Value'])
-#save as our final dataset
-new_final_combined_data.to_csv('output_data/{}_interpolated_combined_data.csv'.format(FILE_DATE_ID), index=False)
 
-#%%
+    # return new_final_combined_data,final_combined_data_concordance
+
+
+
+
+
+
+# %%

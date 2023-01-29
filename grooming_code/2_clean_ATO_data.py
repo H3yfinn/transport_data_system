@@ -626,6 +626,8 @@ ATO_dataset_clean['Medium'] = ATO_dataset_clean['Medium'].replace('All Modes', '
 #%%
 #remove nan values in the value column
 ATO_dataset_clean = ATO_dataset_clean[ATO_dataset_clean['Value'].notna()]
+
+ATO_dataset_clean['Dataset'] = 'ATO'
 #%%
 #removing duplicates:
 #first remove dupes where the value is the same but sheet is different (keep the first one)
@@ -673,6 +675,8 @@ if visualise:
 #%%
 #save data
 ATO_dataset_clean.to_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
+
+#%%
 
 #%%
 

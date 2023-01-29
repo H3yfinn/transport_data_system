@@ -59,6 +59,9 @@ iea_ev_all_stock_updates = pd.read_csv('./intermediate_data/estimated/{}_8th_iea
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 eighth_ATO_vehicle_type_update = pd.read_csv('./intermediate_data/estimated/{}_8th_ATO_vehicle_type_update.csv'.format(FILE_DATE_ID))
+
+
+
 ############################################################
 
 #HANDLE SPECIFIC DATASETS
@@ -67,30 +70,12 @@ eighth_ATO_vehicle_type_update = pd.read_csv('./intermediate_data/estimated/{}_8
 
 
 #%%
-#handle ATO dataset
-ATO_dataset_clean['Dataset'] = 'ATO'
-
-#remove nan values in vlaue column
-ATO_dataset_clean = ATO_dataset_clean[ATO_dataset_clean['Value'].notna()]
-
-#%%
-#some ato in multiple sheets have the same values in all other cols. So we will check for duplicates before removing the sheet col, throw an error if there are any, and then remove the sheet col
-if len(ATO_dataset_clean[ATO_dataset_clean.duplicated()]) > 0:
-    raise Exception('There are duplicates in the ATO dataset when we keep the sheet column. This is not expected.')
 #drop sheet column
 ATO_dataset_clean = ATO_dataset_clean.drop(columns=['Sheet'])
 #now drop duplicates since they are only the ones where the saemw vlaue is in multiple sheets
 ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
-# #grab first duplicates and rename to ATO2
-# ATO_dataset_clean.loc[ATO_dataset_clean.duplicated(subset=cols, keep='first'), 'Dataset'] = 'ATO2'
-# #do it again just to be sure
-# ATO_dataset_clean.loc[ATO_dataset_clean.duplicated(subset=cols, keep='first'), 'Dataset'] = 'ATO3'
 
 #%%
-#handle item data
-item_data_apec_tall['Dataset'] = 'ITEM'
-#remove Source column
-# item_data_apec_tall = item_data_apec_tall.drop(columns=['Source'])
 #remove na values in value column
 item_data_apec_tall = item_data_apec_tall[item_data_apec_tall['Value'].notna()]
 #create a date column with month and day set to 1
@@ -152,8 +137,6 @@ for col in combined_data.columns:
 #%%
 #remove all na values in value column
 combined_data = combined_data[combined_data['Value'].notna()]
-# #ALSO AS A TEST, WE WILL REMOVE ALL 0 VALUES. THIS IS BECAUSE WE WOULD EXPECT THAT IF A VALUE IS 0, IT IS BECAUSE IT IS NOT REPORTED, NOT BECAUSE IT IS ACTUALLY 0. THIS IS A TEST TO SEE IF IT IMPROVES THE RESULTS
-# combined_data = combined_data[combined_data['Value'] != 0]#decided not to remove these because we were keeping 0's in the 8th dataset because we thought they reflected what had been reported
 
 ############################################################
 
@@ -219,7 +202,7 @@ combined_data_concordance_new = pd.concat([combined_data_concordance_new, monthl
 
 ############################################################
 #%%
-#save
+#save 
 combined_data.to_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID), index=False)
 #also save combined data as 'all data' in case we need to use it later
 combined_data.to_csv('output_data/all_unfiltered_data_{}.csv'.format(FILE_DATE_ID), index=False)

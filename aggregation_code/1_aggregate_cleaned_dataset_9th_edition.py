@@ -90,8 +90,6 @@ for col in combined_data.columns:
 #%%
 #remove all na values in value column
 combined_data = combined_data[combined_data['Value'].notna()]
-#ALSO AS A TEST, WE WILL REMOVE ALL 0 VALUES. THIS IS BECAUSE WE WOULD EXPECT THAT IF A VALUE IS 0, IT IS BECAUSE IT IS NOT REPORTED, NOT BECAUSE IT IS ACTUALLY 0. THIS IS A TEST TO SEE IF IT IMPROVES THE RESULTS
-# combined_data = combined_data[combined_data['Value'] != 0]#decided not to remove these because we were keeping 0's in the 8th dataset because we thought they reflected what had been reported
 
 #%%
 #check the index rows for duplicates and then remove the ones we dont want
@@ -137,9 +135,6 @@ new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
 #Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
 INDEX_COLS = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
 
-#create df that is jsut the index cols
-# index_df = model_concordances_measures[INDEX_COLS]
-# index_df2 = combined_data[INDEX_COLS]
 #%%
 #set index
 model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS)

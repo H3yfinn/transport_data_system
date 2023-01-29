@@ -246,6 +246,8 @@ if len(item_data_apec_tall_dropped[item_data_apec_tall_dropped.duplicated()]) > 
         item_data_apec_tall = item_data_apec_tall.drop_duplicates(item_data_apec_tall_dropped.columns.tolist())
         print('there are duplicates in the data that are from UNECE. Dropping them')
 #%%
+#handle item data
+item_data_apec_tall['Dataset'] = 'ITEM'
 #and now we can save the data with FILE_DATE_ID
 item_data_apec_tall.to_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv', index=False)
 
