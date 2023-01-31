@@ -143,8 +143,8 @@ for measure in measures:
         #so we will create a value column for each interpolation method and fill it with the values in the current data. Then run each interpoaltion on that column and fill in the missing values. Then we will plot the data and ask the user to choose which method to use
         #create a new dataframe to hold the data for the current index row
         current_data_interpolation = current_data.copy()
-        #filter for only the index row
-        current_data_interpolation = current_data_interpolation.loc[index_row]
+        # #filter for only the index row
+        # current_data_interpolation = current_data_interpolation.loc[index_row]#REMOVED THIS BECAUSE IT SEEMS LIKE A MISTAKE
         #reset index and sort by year
         current_data_interpolation = current_data_interpolation.reset_index().sort_values(by='Date')
 

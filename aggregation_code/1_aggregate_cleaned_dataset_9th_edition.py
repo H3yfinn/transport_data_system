@@ -62,13 +62,34 @@ iea_ev_all_stock_updates = pd.read_csv('./intermediate_data/estimated/{}_8th_iea
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 eighth_ATO_vehicle_type_update = pd.read_csv('./intermediate_data/estimated/{}_8th_ATO_vehicle_type_update.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/ATO_data/', 'ATO_data_cleaned_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+ATO_dataset_clean = pd.read_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/item_data/', 'item_dataset_clean_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+item_data_apec_tall = pd.read_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv')
+
 ############################################################
 
 #HANDLE SPECIFIC DATASETS
 
 ############################################################
 #%%
-#Moved all cleaning of datasets to their grooming files
+ATO_dataset_clean = ATO_dataset_clean.drop(columns=['Sheet'])
+#now drop duplicates since they are only the ones where the saemw vlaue is in multiple sheets
+ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
+#%%
+#remove na values in value column
+item_data_apec_tall = item_data_apec_tall[item_data_apec_tall['Value'].notna()]
+#create a date column with month and day set to 1
+item_data_apec_tall['Date'] = item_data_apec_tall['Year'].astype(str) + '-12-31'
+#make frequency column and set to yearly
+item_data_apec_tall['Frequency'] = 'Yearly'
+#remove Year column
+item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
+
 ############################################################
 
 #COMBINE DATASETS
@@ -76,16 +97,17 @@ eighth_ATO_vehicle_type_update = pd.read_csv('./intermediate_data/estimated/{}_8
 ############################################################
 #%%
 #join data together using concat
-combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update], ignore_index=True)
+combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall], ignore_index=True)
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 
 #MAKE SURE ALL COLUMNS ARE STRINGS EXCEPT FOR VALUE WHICH IS FLOAT
-for col in combined_data.columns:
-    if col != 'Value':
-        combined_data[col] = combined_data[col].astype(str)
-    else:
-        combined_data[col] = combined_data[col].astype(float)
+# #TODO NOT SURE IF THIS IS THE RIGHT THING TO DO. GOING TO REMOVVE THIS FOR NOW
+# for col in combined_data.columns:
+#     if col != 'Value':
+#         combined_data[col] = combined_data[col].astype(str)
+#     else:
+#         combined_data[col] = combined_data[col].astype(float)
 
 #%%
 #remove all na values in value column
@@ -133,12 +155,12 @@ model_concordances_measures['Date'] = model_concordances_measures['Date'].astype
 new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
 #%%
 #Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
-INDEX_COLS = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
+INDEX_COLS_no_scope_no_fuel_type = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
 
 #%%
 #set index
-model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS)
-combined_data = combined_data.set_index(INDEX_COLS)
+model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS_no_scope_no_fuel_type)
+combined_data = combined_data.set_index(INDEX_COLS_no_scope_no_fuel_type)
 
 #%%
 #Use diff to remove data that isnt in the 9th edition concordance

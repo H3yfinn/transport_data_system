@@ -805,7 +805,8 @@ def import_previous_runs_progress_to_manual(previous_combined_data_concordance_m
     previous_duplicates_manual.set_index(INDEX_COLS, inplace=True)
     duplicates_manual.set_index(INDEX_COLS, inplace=True)
     #remove the rows that are in the previous duplicates but not in the current duplicates
-    previous_duplicates_manual = previous_duplicates_manual.loc[duplicates_manual.index]
+    index_diff = previous_duplicates_manual.index.difference(duplicates_manual.index)
+    previous_duplicates_manual.drop(index_diff, inplace=True)
     #reset the index
     previous_duplicates_manual.reset_index(inplace=True)
     duplicates_manual.reset_index(inplace=True)
@@ -814,7 +815,8 @@ def import_previous_runs_progress_to_manual(previous_combined_data_concordance_m
     previous_combined_data_concordance_manual.set_index(INDEX_COLS, inplace=True)
     combined_data_concordance_manual.set_index(INDEX_COLS, inplace=True)
     #remove the rows that are in the previous duplicates but not in the current duplicates
-    previous_combined_data_concordance_manual = previous_combined_data_concordance_manual.loc[combined_data_concordance_manual.index]
+    index_diff = previous_combined_data_concordance_manual.index.difference(combined_data_concordance_manual.index)
+    previous_combined_data_concordance_manual.drop(index_diff, inplace=True)
     #reset the index
     previous_combined_data_concordance_manual.reset_index(inplace=True)
     combined_data_concordance_manual.reset_index(inplace=True)
@@ -896,7 +898,8 @@ def pickup_incomplete_manual_progress(progress_csv, combined_data_concordance_ma
     previous_duplicates_manual.set_index(INDEX_COLS, inplace=True)
     duplicates_manual.set_index(INDEX_COLS, inplace=True)
     #remove the rows that are in the previous duplicates but not in the current duplicates
-    previous_duplicates_manual = previous_duplicates_manual.loc[duplicates_manual.index]
+    index_diff = previous_duplicates_manual.index.difference(duplicates_manual.index)
+    previous_duplicates_manual.drop(index_diff, inplace=True)
     #reset the index
     previous_duplicates_manual.reset_index(inplace=True)
     duplicates_manual.reset_index(inplace=True)
@@ -905,7 +908,8 @@ def pickup_incomplete_manual_progress(progress_csv, combined_data_concordance_ma
     progress_csv.set_index(INDEX_COLS, inplace=True)
     combined_data_concordance_manual.set_index(INDEX_COLS, inplace=True)
     #remove the rows that are in the previous duplicates but not in the current duplicates
-    progress_csv = progress_csv.loc[combined_data_concordance_manual.index]
+    index_diff = progress_csv.index.difference(combined_data_concordance_manual.index)
+    progress_csv.drop(index_diff, inplace=True)
     #reset the index
     progress_csv.reset_index(inplace=True)
     combined_data_concordance_manual.reset_index(inplace=True)
@@ -958,7 +962,7 @@ def pickup_incomplete_manual_progress(progress_csv, combined_data_concordance_ma
     manual_index_rows.reset_index(inplace=True)
     manual_index_rows.set_index(INDEX_COLS_no_year, inplace=True)
     manual_index_rows = manual_index_rows[~manual_index_rows.index.isin(duplicates_diff.index)]
-
+    manual_index_rows.reset_index(inplace=True)
     #make date a part of the index in combined_data_concordance_manual
     combined_data_concordance_manual.set_index(INDEX_COLS,inplace=True)
     manual_index_rows.set_index(INDEX_COLS,inplace=True)

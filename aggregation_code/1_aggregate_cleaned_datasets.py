@@ -36,10 +36,6 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/i
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 iea_evs = pd.read_csv('intermediate_data/iea/{}_evs.csv'.format(FILE_DATE_ID))
 
-# file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_ldv_data.csv')
-# FILE_DATE_ID = 'DATE{}'.format(file_date)
-# estimated_ldvs = pd.read_csv('intermediate_data/estimated/{}_ldv_data.csv'.format(FILE_DATE_ID))
-
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 passenger_road_updates = pd.read_csv('./intermediate_data/estimated/{}_8th_ATO_passenger_road_updates.csv'.format(FILE_DATE_ID))
@@ -127,12 +123,13 @@ combined_data = pd.concat([ATO_dataset_clean, eigth_edition_transport_data, item
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 
-#MAKE SURE ALL COLUMNS ARE STRINGS EXCEPT FOR VALUE WHICH IS FLOAT
-for col in combined_data.columns:
-    if col != 'Value':
-        combined_data[col] = combined_data[col].astype(str)
-    else:
-        combined_data[col] = combined_data[col].astype(float)
+# #MAKE SURE ALL COLUMNS ARE STRINGS EXCEPT FOR VALUE WHICH IS FLOAT
+# #TODO REMOVING THIS BECASUSE I DONT THINK IT IS NEEDED
+# for col in combined_data.columns:
+#     if col != 'Value':
+#         combined_data[col] = combined_data[col].astype(str)
+#     else:
+#         combined_data[col] = combined_data[col].astype(float)
 
 #%%
 #remove all na values in value column
