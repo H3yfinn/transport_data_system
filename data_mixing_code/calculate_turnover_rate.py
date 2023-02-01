@@ -33,3 +33,5 @@ combined_data = pd.read_csv('./intermediate_data/combined_dataset_{}.csv'.format
 #calculate turnover rate as year on year change in stocks minus sales divided by stocks minus sales
 
 #plot turnover rate foir each economy on a line graph using left y axis, then also plot the stocks (dashed) and sales (double dashed) on the right y axis, with Date on the x axis. We can do this in different colors for each vehicle type, drive combination
+
+#SHOULD DO THIS AFTER EVERYTHING SO I AHVE THE BEST POSSIBLE STOCKS DATA

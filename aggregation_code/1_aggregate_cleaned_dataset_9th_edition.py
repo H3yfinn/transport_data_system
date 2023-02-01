@@ -149,10 +149,29 @@ combined_data = combined_data.drop(columns=['Source'])
 #import snapshot of 9th concordance
 model_concordances_base_year_measures_file_name = 'model_concordances_measures.csv'
 model_concordances_measures = pd.read_csv('./intermediate_data/9th_dataset/{}'.format(model_concordances_base_year_measures_file_name))
+
+#In the concordance, let's include all data we can between 2000 and 2022, because it will be easier to filter out the data we don't want later and this may allow for interpolation of data
+#so create a copy, set the date to 2000-12-31 and then append it to the original dataset. Do this for every year between 2000 and 2022, except for the year that is already in the dataset
+original_years = model_concordances_measures['Date'].unique()
+for year in range(2010, 2023):
+    if year not in original_years:
+        temp = model_concordances_measures.copy()
+        temp['Date'] = year
+        model_concordances_measures = pd.concat([model_concordances_measures,temp])
+
 #set Date
 model_concordances_measures['Date'] = model_concordances_measures['Date'].astype(str) + '-12-31'
 #%%
 new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
+
+#%%
+# #filter for rail ship and air data for energy freight and passenger activiy
+# x = x.reset_index()
+# x = x[x['Medium'].isin(['rail', 'ship', 'air'])]
+# x = x[x['Measure'].isin(['Energy', 'passenger_km', 'freight_tonne_km'])]
+# y = filtered_combined_data.reset_index()
+# y = y[y['Medium'].isin(['rail', 'ship', 'air'])]
+# y = y[y['Measure'].isin(['Energy', 'passenger_km', 'freight_tonne_km'])]
 #%%
 #Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
 INDEX_COLS_no_scope_no_fuel_type = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
@@ -177,6 +196,55 @@ print('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv')
 missing_rows_df.to_csv('./intermediate_data/9th_dataset/missing_rows.csv')
 
 filtered_combined_data.reset_index(inplace=True)
+#%%
+
+############################################################
+
+#CREATE ANOTHER DATAFRAME AND REMOVE THE 0'S, TO SEE WHAT IS MISSING IF WE DO THAT
+
+############################################################
+#%%
+
+#import snapshot of 9th concordance
+model_concordances_base_year_measures_file_name = 'model_concordances_measures.csv'
+model_concordances_measures = pd.read_csv('./intermediate_data/9th_dataset/{}'.format(model_concordances_base_year_measures_file_name))
+
+#In the concordance, let's include all data we can between 2000 and 2022, because it will be easier to filter out the data we don't want later and this may allow for interpolation of data
+#so create a copy, set the date to 2000-12-31 and then append it to the original dataset. Do this for every year between 2000 and 2022, except for the year that is already in the dataset
+original_years = model_concordances_measures['Date'].unique()
+for year in range(2010, 2023):
+    if year not in original_years:
+        temp = model_concordances_measures.copy()
+        temp['Date'] = year
+        model_concordances_measures = pd.concat([model_concordances_measures,temp])
+
+#set Date
+model_concordances_measures['Date'] = model_concordances_measures['Date'].astype(str) + '-12-31'
+#%%
+new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
+
+#%%
+#set index
+model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS_no_scope_no_fuel_type)
+# combined_data = combined_data.set_index(INDEX_COLS_no_scope_no_fuel_type)
+#DROP THE 0's
+combined_data_no_zeros = combined_data[combined_data['Value'] != 0]
+#%%
+#Use diff to remove data that isnt in the 9th edition concordance
+extra_rows = combined_data_no_zeros.index.difference(model_concordances_measures.index)
+filtered_combined_data_no_zeros = combined_data_no_zeros.drop(extra_rows)
+
+#%%
+#now see what we are missing:
+missing_rows = model_concordances_measures.index.difference(filtered_combined_data_no_zeros.index)
+#create a new dataframe with the missing rows
+missing_rows_df = pd.DataFrame(index=missing_rows)
+# save them to a csv
+print('Saving missing rows to /intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
+missing_rows_df.to_csv('./intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
+
+filtered_combined_data_no_zeros.reset_index(inplace=True)
+#%%
 
 ############################################################
 

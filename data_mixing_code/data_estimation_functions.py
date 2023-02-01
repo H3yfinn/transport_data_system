@@ -78,6 +78,8 @@ def convert_to_proportions(levels,non_level_index_cols, df):
 
               #Divide current level total by upper level total to get current level proportion
               df_copy[level+'_proportion'] = df_copy[name_1]/df_copy[name_2]
+              #if we did 0/0 then the value would be nan, so we replace nan with 0
+              df_copy[level+'_proportion'] = df_copy[level+'_proportion'].fillna(0)
               #remove uncessary columns
               unncessary_cols = [col for col in df_copy.columns if col not in current_levels_list+non_level_index_cols+[level+'_proportion']]
               df_copy = df_copy.drop(columns=unncessary_cols)

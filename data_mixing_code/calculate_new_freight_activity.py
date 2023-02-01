@@ -64,8 +64,8 @@ eight_edition_transport_model_data = eight_edition_transport_model_data[eight_ed
 df = eight_edition_transport_model_data.copy()
 levels = ['Vehicle Type','Drive']#this is like the hierarchy of the data.
 non_level_index_cols = ['Measure', 'Economy','Date', 'Scope','Frequency', 'Fuel_Type', 'Unit','Comments']
-proportions_df = data_estimation_functions.convert_to_proportions(levels,non_level_index_cols, df)
 
+proportions_df = data_estimation_functions.convert_to_proportions(levels,non_level_index_cols, df)
 #%%
 #now we insert the new total from the ato data and progressively times the proportions by the new total to get the new values:
 #join ato data to the proportions

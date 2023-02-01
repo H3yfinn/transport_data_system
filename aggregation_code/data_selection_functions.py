@@ -1014,7 +1014,12 @@ def combine_manual_and_automatic_output(combined_data_concordance_automatic,comb
     return final_combined_data_concordance
 
 
-def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID='',percent_of_values_needed_to_interpolate=0.7):
+
+############################################
+
+
+
+def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID='',percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3):
     # #TEMPORARY
     # #remove data from dates after 2019 (have to format it as it is currently a string)
     # final_combined_data_concordance['Date'] = pd.to_datetime(final_combined_data_concordance['Date'])
@@ -1038,8 +1043,9 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
     #set index rows
     progress = progress.set_index(INDEX_COLS_no_year)
     final_combined_data_concordance = final_combined_data_concordance.set_index(INDEX_COLS_no_year)
-    #temp, drop Unnamed: 0	
-    # progress = progress.drop(columns=['Unnamed: 0'])
+    #check for any cols called 'Unnamed' and remove them (this error occurs often here so we will just remove them if they exist)
+    progress = progress.loc[:, ~progress.columns.str.contains('Unnamed')]
+    print('Unnamed cols removed from progress dataframe in interpolation')
     # in case the user wants to stop the code running and come back to it later, we will save the data after each measure is done. This will allow the user to pick up where they left off. So here we will load in the data from the last saved file and update the final_combined_data_concordance df so any of the users changes are kept. This will also identify if the data currently set in combined data concordance for that index row has changed since last time. If it has then we will not overwrite it an the user will ahve to inrerpolate it again.
     #so first identify where there are either 'interpolation' or 'interpolation skipped' in the final_dataselection_method column:
     previous_progress = progress.loc[progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
@@ -1103,15 +1109,35 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
             #get the data for the current index row
             current_data = final_combined_data_concordance_measure.loc[index_row]
             
+            #if data is only one row long then we can't interpolate so we will skip it
+            if (len(current_data.shape) == 1):
+                #if value is NaN then we can just set Final_dataset_selection_method to 'not enough values to interpolate' in final_combined_data_concordance_measure, else we will leave it as it is
+                skipped_rows.append(index_row)
+                temp = final_combined_data_concordance_measure.loc[index_row]
+                if np.isnan(temp.Value):
+                    temp.Final_dataset_selection_method ='not enough values to interpolate'
+                final_combined_data_concordance_measure.loc[index_row] = temp
+                continue
+
+            elif current_data.shape[0] == 1:
+                #same thing but for some reason the shape is (1, 4) instead of (4,). this means we need to do it differently
+                skipped_rows.append(index_row)
+                temp = final_combined_data_concordance_measure.loc[index_row]
+                if np.isnan(temp.Value[0]):
+                    temp.Final_dataset_selection_method ='not enough values to interpolate'
+                #set final_combined_data_concordance_measure to temp (this will only change the Final_dataset_selection_method column where the Value is NA to indicate that we skipped it)
+                final_combined_data_concordance_measure.loc[index_row] = temp
+                continue
+
             #prepare intepolation using a spline and a linear method (could ask chat gpt how to choose the method since there is probably some mathemetical basis for it)
             #so we will create a value column for each interpolation method and fill it with the values in the current data. Then run each interpoaltion on that column and fill in the missing values. Then we will plot the data and ask the user to choose which method to use
             #create a new dataframe to hold the data for the current index row
-            current_data_interpolation = current_data.copy()
+
             #filter for only the index row
-            current_data_interpolation = current_data_interpolation.loc[index_row]
+            current_data_interpolation = current_data.loc[index_row]
             #reset index and sort by year
             current_data_interpolation = current_data_interpolation.reset_index().sort_values(by='Date')
-            
+        
             #if tehre are no na values in the Values column where Final_dataset_selection_method is not == 'interpolation skipped' then we will not interpolate because there is no data to interpolate
             if current_data_interpolation.loc[current_data_interpolation.Final_dataset_selection_method != 'interpolation skipped', 'Value'].isnull().sum() == 0:
                 continue
@@ -1122,7 +1148,10 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                 current_data_interpolation.loc[current_data_interpolation['Value'].isnull(), 'Final_dataset_selection_method'] = 'not enough values to interpolate'
                 #set final_combined_data_concordance_measure to the current data df (this will only change the Final_dataset_selection_method column where the Value is NA to indicate that we skipped it)
                 current_data_interpolation = current_data_interpolation.set_index(INDEX_COLS_no_year)
-                final_combined_data_concordance_measure.loc[index_row] = current_data_interpolation.loc[index_row]
+                #drop the index row from final_combined_data_concordance_measure
+                final_combined_data_concordance_measure = final_combined_data_concordance_measure.drop(index_row)
+                #then add the current data df to final_combined_data_concordance_measure
+                final_combined_data_concordance_measure = pd.concat([final_combined_data_concordance_measure, current_data_interpolation.loc[index_row]])  
                 #reset index
                 current_data_interpolation = current_data_interpolation.reset_index()
                 continue
@@ -1148,7 +1177,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                         #try the interpolation but it couyld fail ebcause the order is too high
                         try:
                             #interpolate the values for each interpolation method
-                            current_data_interpolation[interpolation_method] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both')
+                            current_data_interpolation[interpolation_method] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both', limit=INTERPOLATION_LIMIT)
                             #set up line in plot
                             ax.plot(current_data_interpolation['Date'], current_data_interpolation[interpolation_method], label=interpolation_method)
                             print('Polynomial interpolation succeeded for {} with method {} and order {}'.format(index_row, interpolation_method_string, order))
@@ -1163,7 +1192,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                     else:
                         current_data_interpolation[interpolation_method] = current_data_interpolation['Value']
                         #interpolate the values for each interpolation method
-                        current_data_interpolation[interpolation_method] = current_data_interpolation['Value'].interpolate(method=interpolation_method, limit_direction='both')
+                        current_data_interpolation[interpolation_method] = current_data_interpolation['Value'].interpolate(method=interpolation_method, limit_direction='both', limit=INTERPOLATION_LIMIT)
                         #set up line in plot
                         ax.plot(current_data_interpolation['Date'], current_data_interpolation[interpolation_method], label=interpolation_method)
                 
@@ -1238,7 +1267,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                     interpolation_method_string = re.sub(r'\d', '', interpolation_method)
                     try:
                         #interpolate the values for the interpolation method
-                        current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both')
+                        current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both', limit=INTERPOLATION_LIMIT)
                         Final_dataset_selection_method = 'interpolation'
                     except:
                         #spline method order is too high, try lower order and if that fails then try linear method
@@ -1246,7 +1275,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                         for order in range(1, order, -1):
                             try:
                                 #interpolate the values for the interpolation method
-                                current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both')
+                                current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both', limit=INTERPOLATION_LIMIT)
                                 interpolated = True
                                 Final_dataset_selection_method = 'interpolation'
                                 break
@@ -1258,7 +1287,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                             try:#this shouldnt fail but just in case
                                 interpolation_method_string = 'linear'
                                 #interpolate the values for the interpolation method
-                                current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, limit_direction='both')
+                                current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, limit_direction='both', limit=INTERPOLATION_LIMIT)
                                 Final_dataset_selection_method = 'interpolation'
                             except:
                                 #if the linear method fails then set the Final_dataset_selection_method to 'interpolation skipped'
@@ -1269,7 +1298,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                     try:#this shouldnt fail but just in case
                         interpolation_method_string = interpolation_method
                         #interpolate the values for the interpolation method
-                        current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, limit_direction='both')
+                        current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, limit_direction='both', limit=INTERPOLATION_LIMIT)
                         Final_dataset_selection_method = 'interpolation'
                     except:
                         #if the linear method fails then set the Final_dataset_selection_method to 'interpolation skipped'
@@ -1297,10 +1326,13 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                 #throw error
                 raise ValueError('something is wrong with the Final_dataset_selection_method for {}'.format(index_row))
 
-            #set the index to the original index
-            current_data_interpolation = current_data_interpolation.reset_index().set_index(INDEX_COLS_no_year)
+            #set the index to the original index#.reset_index()
+            current_data_interpolation = current_data_interpolation.set_index(INDEX_COLS_no_year)
             #all done with the current index row, so set the data for the current index row to the current_data_interpolation dataframe
-            final_combined_data_concordance_measure.loc[index_row] = current_data_interpolation.loc[index_row]
+            #drop the index row from final_combined_data_concordance_measure
+            final_combined_data_concordance_measure = final_combined_data_concordance_measure.drop(index_row)
+            #then add the current data df to final_combined_data_concordance_measure
+            final_combined_data_concordance_measure = pd.concat([final_combined_data_concordance_measure, current_data_interpolation.loc[index_row]])
 
         #make the changes for this measure to the original dataframe and then save that dataframe as csv file to checkpoitn our progress
         final_combined_data_concordance_measure = final_combined_data_concordance_measure.reset_index()#Date is nA? why?

@@ -80,7 +80,7 @@ iea_passenger_ldv_stock_share_new = iea_passenger_ldv_stock_share_new.melt(id_va
 #%%
 #now we have stock shares of ldvs for bev and phev, we can insert these into the ldv data we creatred using the 8th data set
 #getthe data from only the reference dataset
-eight_edition_transport_model_data = combined_data[combined_data['Dataset']=='ldvs_8th $ 8th_ref']
+eight_edition_transport_model_data = combined_data[combined_data['Dataset']=='8th edition transport model $ Reference']
 eight_edition_transport_model_data = eight_edition_transport_model_data[eight_edition_transport_model_data['Measure'] == 'Stocks']
 eight_edition_transport_model_data = eight_edition_transport_model_data[eight_edition_transport_model_data['Vehicle Type'] == 'ldv']
 eight_edition_transport_model_data = eight_edition_transport_model_data[eight_edition_transport_model_data['Transport Type'] == 'passenger']
