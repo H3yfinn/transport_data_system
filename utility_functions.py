@@ -47,19 +47,48 @@ def move_archive_to_different_folder(new_archive_folder_path, root_folder_path):
 # archive_folder_path = '../all_archived_files/'
 # move_archive_to_different_folder(archive_folder_path, root_folder_path)
 
-# #%%
-# #use os.walk to grab all folders and files in the root folder path, including all subsequent subfolders
-# from pathlib import Path
+#%%
+#use os.walk to grab all folders and files in the root folder path, including all subsequent subfolders
+import os
+def move_archive_to_different_folder(all_archived_files = 'all_archived_files', root_folder_path = './',ignored_folders_and_files = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__']):
 
-# def generate_all_files(root: Path, only_files: bool = True, ignored_folders: list = []):
-#     for p in root.rglob("*"):
-#         if only_files and not p.is_file():
-#             continue
-#         if p in ignored_folders:
-#             continue
-#         yield p
+    file_list = []
+    for root, dirs, files in os.walk(root_folder_path):
+        #remove any folders that are in the ignored folders list
+        dirs[:] = [d for d in dirs if d not in ignored_folders_and_files]
+        #remove any files that are in the ignored files list
+        files[:] = [f for f in files if f not in ignored_folders_and_files]
+        #remove all files that are
+        #connect the dir to the file name with forward slashes
+        files = [os.path.join(root, file) for file in files]
+        #make  slashes forward slashes
+        files = [file.replace('\\', '/') for file in files]
+        #add the files to the file list
+        file_list.extend(files)
 
+    #remove any files that dont contain the word archive
+    file_list = [file for file in file_list if 'archive' in file]
 
+    #add the folder name for this project to the start of the file path
+    #get folder name for this project
+    project_folder_name = os.path.basename(os.getcwd())
+
+    #now we have a list of all files in the project that are in an archive folder. We will move these to a new folder outside the project, and save them with the same folder structure as they had in this project, so if the folder is missing in the new folder, create it
+    for file in file_list:
+        #get the folder path for the file
+        folder_path = os.path.dirname(file)
+        #add the project name to the folder path
+        folder_path = folder_path.replace('./', f'./{project_folder_name}/')
+        #get the new folder path for the file
+        new_folder_path = folder_path.replace('./', f'../{all_archived_files}/')
+        #if the folders for these paths dont exist, create them
+        if not os.path.exists(new_folder_path):
+            os.makedirs(new_folder_path)
+        #move the file to the new folder path
+        os.rename(file, file.replace('./', f'../{all_archived_files}/{project_folder_name}/'))
+
+move_archive_to_different_folder(all_archived_files = 'all_archived_files', root_folder_path = './',ignored_folders_and_files = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__'])
+#%%
 # for p in generate_all_files(Path("."), only_files=False,ignored_folders = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__']):
 #     print(p)
 
