@@ -50,7 +50,7 @@ def move_archive_to_different_folder(new_archive_folder_path, root_folder_path):
 #%%
 #use os.walk to grab all folders and files in the root folder path, including all subsequent subfolders
 import os
-def move_archive_to_different_folder(all_archived_files = 'all_archived_files', root_folder_path = './',ignored_folders_and_files = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__']):
+def move_archive_to_different_folder(all_archived_files = 'all_archived_files', root_folder_path = './',ignored_folders_and_files = ['.vscode', '.git','env_jupyter','env_no_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__']):
 
     file_list = []
     for root, dirs, files in os.walk(root_folder_path):
@@ -87,7 +87,59 @@ def move_archive_to_different_folder(all_archived_files = 'all_archived_files', 
         #move the file to the new folder path
         os.rename(file, file.replace('./', f'../{all_archived_files}/{project_folder_name}/'))
 
-move_archive_to_different_folder(all_archived_files = 'all_archived_files', root_folder_path = './',ignored_folders_and_files = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__'])
+move_archive_to_different_folder(all_archived_files = 'all_archived_files', root_folder_path = './',ignored_folders_and_files = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__','env_no_jupyter'])
+#%%
+def move_all_files_to_archive(folder,files_to_ignore = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__', 'Readme.md']):
+    #move all files in a folder to an archive folder in that folder. This will walk through all subfolders in the folder and move all files to an archive folder in each subfolder
+    #get list of all files in the folder, including their paths and all subsequent subfolders
+    all_files = [os.path.join(root, file) for root, dirs, files in os.walk(folder) for file in files]
+    #replace double backslashes with forward slashes
+    all_files = [file.replace('\\', '/') for file in all_files]
+    #ignore any files that are in the archive folder
+    all_files = [file for file in all_files if 'archive' not in file]
+    #ignore any files that are in the files_to_ignore list
+    all_files = [file for file in all_files if os.path.basename(file) not in files_to_ignore]
+
+    #put all files in the archive folder, creating the archive folder if it doesnt exist
+    for file in all_files:
+        #get the folder path for the file
+        folder_path = os.path.dirname(file)
+        #get the new folder path for the file
+        new_folder_path = os.path.join(folder_path, 'archive')
+        #if new_folder_path doesnt exist, create it
+        if not os.path.exists(new_folder_path):
+            os.makedirs(new_folder_path)
+        #replace double backslashes with forward slashes
+        new_file_path = os.path.join(new_folder_path, os.path.basename(file))
+        #replace double backslashes with forward slashes
+        new_file_path = new_file_path.replace('\\', '/')
+        #move the file to the new folder path
+        os.rename(file,new_file_path )
+
+move_all_files_to_archive('./plotting_output', files_to_ignore = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__', 'Readme.md'])
+#%%
+#Now put gitkeeps into all folders that arent archive folders
+def add_gitkeep_to_all_archive_folders(folder = './',folders_to_ignore = ['.vscode', '.git','env_jupyter','env_no_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__']):
+    #get list of all files in the folder, including their paths and all subsequent subfolders
+    all_paths = [os.path.join(root, file) for root, dirs, files in os.walk(folder) for file in files]
+    #replace double backslashes with forward slashes
+    all_paths = [file.replace('\\', '/') for file in all_paths]
+    #get all folders in the folder
+    all_folders = [os.path.dirname(path) for path in all_paths]
+    #remove any folders that contain words in the folders_to_ignore list
+    all_folders = [folder for folder in all_folders if not any(word in folder for word in folders_to_ignore)]
+    #remove any folders that are archive folders
+    all_folders = [folder for folder in all_folders if 'archive' not in folder]
+
+    #add gitkeeps to all folders if they dont already have a gitkeep
+    for folder in all_folders:
+        #if the folder doesnt have a gitkeep, add one
+        if not os.path.exists(os.path.join(folder, '.gitkeep')):
+            #create a gitkeep file in the new folder
+            with open(os.path.join(folder, '.gitkeep'), 'w') as f:
+                f.write('')
+
+add_gitkeep_to_all_archive_folders('./')
 #%%
 # for p in generate_all_files(Path("."), only_files=False,ignored_folders = ['.vscode', '.git','env_jupyter','.gitattributes', '.gitignore', '.gitkeep', '__pycache__']):
 #     print(p)
