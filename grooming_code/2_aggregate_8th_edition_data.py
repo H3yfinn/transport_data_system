@@ -20,7 +20,7 @@ road_stocks= pd.read_csv('intermediate_data/8th_edition_transport_model/road_sto
 activity= pd.read_csv('intermediate_data/8th_edition_transport_model/activity.csv')
 energy= pd.read_csv('intermediate_data/8th_edition_transport_model/energy.csv')
 
-turnover_rate = pd.read_csv('intermediate_data/8th_edition_transport_model/turnover_rate.csv')
+# turnover_rate = pd.read_csv('intermediate_data/8th_edition_transport_model/turnover_rate.csv')
 new_vehicle_efficiency = pd.read_csv('intermediate_data/8th_edition_transport_model/new_vehicle_efficiency.csv')
 occupance_load = pd.read_csv('intermediate_data/8th_edition_transport_model/occupance_load.csv')
 #%%
@@ -28,7 +28,7 @@ occupance_load = pd.read_csv('intermediate_data/8th_edition_transport_model/occu
 road_stocks['Unit'] = 'million_stocks'
 #energy is pj
 energy['Unit'] = 'PJ'
-turnover_rate['Unit'] = 'turnover_rate'
+# turnover_rate['Unit'] = 'turnover_rate'8th edition transport model
 new_vehicle_efficiency['Unit'] = 'efficiency'
 occupance_load['Unit'] = 'occupancy_or_load'
 
@@ -55,8 +55,8 @@ activity_passenger['Measure'] = 'passenger_km'
 activity_freight = activity_freight.rename(columns={'freight_tonne_km':'Value'})
 activity_freight['Measure'] = 'freight_tonne_km'
 #turnover_rate
-turnover_rate = turnover_rate.rename(columns={'Turnover_rate':'Value'})
-turnover_rate['Measure'] = 'turnover_rate'
+# turnover_rate = turnover_rate.rename(columns={'Turnover_rate':'Value'})
+# turnover_rate['Measure'] = 'turnover_rate'
 #new_vehicle_efficiency
 new_vehicle_efficiency = new_vehicle_efficiency.rename(columns={'New_vehicle_efficiency':'Value'})
 new_vehicle_efficiency['Measure'] = 'new_vehicle_efficiency'
@@ -66,7 +66,7 @@ occupance_load['Measure'] = 'occupancy_or_load'
 
 #%%
 #concatenate data
-eigth_edition_data = pd.concat([road_stocks, energy, activity_passenger, activity_freight, turnover_rate, new_vehicle_efficiency, occupance_load], ignore_index=True)
+eigth_edition_data = pd.concat([road_stocks, energy, activity_passenger, activity_freight,  new_vehicle_efficiency, occupance_load], ignore_index=True)#turnover_rate,
 
 #%%
 #create source column and label as 8th edition transport model. Except where the date is greater than 2017 label the data as:

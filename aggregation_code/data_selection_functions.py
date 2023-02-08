@@ -27,7 +27,10 @@ def automatic_method(combined_data_automatic, combined_data_concordance_automati
         #3. if there are two or more datapoints for a given row and one is closer and within 25% of the previous year, then use that one
         #4 if none of the above apply then ask the user to manually select the best datapoint for each row, if it hasn't been done already in the past
         
-        Note that this method will tend to select datasets which have data avaialble for earlier years because of option 1."""
+        Note that this method will tend to select datasets which have data avaialble for earlier years because of option 1.
+        
+        
+        PLEASE NOTE THAT I HAVENT DOUBLE CHECKED IF dataset_to_always_choose IS WORKING PROPERLY. I would ignore it as it is not a priority right now."""
         if std_out_file is None:
                 std_out_file = sys.stdout
         else:
@@ -1019,7 +1022,7 @@ def combine_manual_and_automatic_output(combined_data_concordance_automatic,comb
 
 
 
-def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID='',percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3):
+def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID='',percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True):
     # #TEMPORARY
     # #remove data from dates after 2019 (have to format it as it is currently a string)
     # final_combined_data_concordance['Date'] = pd.to_datetime(final_combined_data_concordance['Date'])
@@ -1038,41 +1041,42 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
     ########################################################
     print('Starting interpolation, this may take a few minutes...')
     #load progress
-    filename ='intermediate_data/interpolation/{}_progress.csv'.format(FILE_DATE_ID)
-    progress = pd.read_csv(filename)
-    #set index rows
-    progress = progress.set_index(INDEX_COLS_no_year)
-    final_combined_data_concordance = final_combined_data_concordance.set_index(INDEX_COLS_no_year)
-    #check for any cols called 'Unnamed' and remove them (this error occurs often here so we will just remove them if they exist)
-    progress = progress.loc[:, ~progress.columns.str.contains('Unnamed')]
-    print('Unnamed cols removed from progress dataframe in interpolation')
-    # in case the user wants to stop the code running and come back to it later, we will save the data after each measure is done. This will allow the user to pick up where they left off. So here we will load in the data from the last saved file and update the final_combined_data_concordance df so any of the users changes are kept. This will also identify if the data currently set in combined data concordance for that index row has changed since last time. If it has then we will not overwrite it an the user will ahve to inrerpolate it again.
-    #so first identify where there are either 'interpolation' or 'interpolation skipped' in the final_dataselection_method column:
-    previous_progress = progress.loc[progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
-    previous_progress_no_interpolation = progress.loc[~progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
-    #for each index row in previous_progress, check if teh sum of Value col in previous_progress_no_interpolation, matches that for final_combined_data_concordance. If not then some data point has changed and we will need to reinterpolate the data, otherwiose we can just replace the data in final_combined_data_concordance with the data in previous_progress
-    for index_row in previous_progress_no_interpolation.index.unique():
-        if index_row in final_combined_data_concordance.index.unique():
-            #calc sum of values for index_row
-            previous_progress_no_interpolation_value_sum = previous_progress_no_interpolation.loc[index_row].Value.sum()
-            final_combined_data_concordance_value_sum = final_combined_data_concordance.loc[index_row].Value.sum()
+    if load_progress:
+        filename ='intermediate_data/interpolation/{}_progress.csv'.format(FILE_DATE_ID)
+        progress = pd.read_csv(filename)
+        #set index rows
+        progress = progress.set_index(INDEX_COLS_no_year)
+        final_combined_data_concordance = final_combined_data_concordance.set_index(INDEX_COLS_no_year)
+        #check for any cols called 'Unnamed' and remove them (this error occurs often here so we will just remove them if they exist)
+        progress = progress.loc[:, ~progress.columns.str.contains('Unnamed')]
+        print('Unnamed cols removed from progress dataframe in interpolation')
+        # in case the user wants to stop the code running and come back to it later, we will save the data after each measure is done. This will allow the user to pick up where they left off. So here we will load in the data from the last saved file and update the final_combined_data_concordance df so any of the users changes are kept. This will also identify if the data currently set in combined data concordance for that index row has changed since last time. If it has then we will not overwrite it an the user will ahve to inrerpolate it again.
+        #so first identify where there are either 'interpolation' or 'interpolation skipped' in the final_dataselection_method column:
+        previous_progress = progress.loc[progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
+        previous_progress_no_interpolation = progress.loc[~progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
+        #for each index row in previous_progress, check if teh sum of Value col in previous_progress_no_interpolation, matches that for final_combined_data_concordance. If not then some data point has changed and we will need to reinterpolate the data, otherwiose we can just replace the data in final_combined_data_concordance with the data in previous_progress
+        for index_row in previous_progress_no_interpolation.index.unique():
+            if index_row in final_combined_data_concordance.index.unique():
+                #calc sum of values for index_row
+                previous_progress_no_interpolation_value_sum = previous_progress_no_interpolation.loc[index_row].Value.sum()
+                final_combined_data_concordance_value_sum = final_combined_data_concordance.loc[index_row].Value.sum()
 
-            if previous_progress_no_interpolation_value_sum != final_combined_data_concordance_value_sum:
-                #if the values are different then we need to reinterpolate the data (so leave the data in final_combined_data_concordance as it is)
-                # previous_progress = previous_progress.drop(index=index_row)
-                # print('The data for {} has changed since last time, so the interpolation will need to be redone'.format(index_row))
-                pass
+                if previous_progress_no_interpolation_value_sum != final_combined_data_concordance_value_sum:
+                    #if the values are different then we need to reinterpolate the data (so leave the data in final_combined_data_concordance as it is)
+                    # previous_progress = previous_progress.drop(index=index_row)
+                    # print('The data for {} has changed since last time, so the interpolation will need to be redone'.format(index_row))
+                    pass
 
-            else:
-                #if vlkauyes are the same we want to replace all rows for this index row in final_combined_data_concordance with the rows in progress so we can pick up where we left off
-                final_combined_data_concordance = final_combined_data_concordance.drop(index=index_row)
-                final_combined_data_concordance = pd.concat([final_combined_data_concordance, progress.loc[index_row]])
+                else:
+                    #if vlkauyes are the same we want to replace all rows for this index row in final_combined_data_concordance with the rows in progress so we can pick up where we left off
+                    final_combined_data_concordance = final_combined_data_concordance.drop(index=index_row)
+                    final_combined_data_concordance = pd.concat([final_combined_data_concordance, progress.loc[index_row]])
 
-    #reset index
-    final_combined_data_concordance = final_combined_data_concordance.reset_index()
-    print('Time taken so far: {}'.format(datetime.datetime.now() - start_time))
-    print('Previous progress loaded, interpolation will now start')
-    ########################################################
+        #reset index
+        final_combined_data_concordance = final_combined_data_concordance.reset_index()
+        print('Time taken so far: {}'.format(datetime.datetime.now() - start_time))
+        print('Previous progress loaded, interpolation will now start')
+        ########################################################
     
     #chekc for dsuplicates in final_combined_data_concordance
     #if there are then we should return them asnd ask the user to remove them
@@ -1318,7 +1322,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                     print('there are values where interpolated_value is nan as well as Value')
                     print(current_data_interpolation.loc[current_data_interpolation['Value'].isna() & current_data_interpolation['interpolated_value'].isna()])
                     #throw error
-                    raise ValueError('there are values where interpolated_value is nan as well as Value')
+                    raise ValueError('there are values where interpolated_value is nan as well as Value')#this did happen once when i was loading in progress not realted to the new data i was interpolating
             elif Final_dataset_selection_method == 'interpolation skipped':
                 pass
             else:

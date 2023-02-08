@@ -1,5 +1,8 @@
-#use this to plot a similar plot to 'plot_data_coverage' but it only plots the data that was finalised in 3_select_best_data.py or 4_interpolate...(based on what the user chooses). So it gives the user an idea of what data has been selected as the 'best data' from the data system as well as what datapoints are still missing. 
+#use this to plot a similar plot to 'plot_whole_dataset_coverage' but it only plots the data that was finalised in 3_select_best_data.py or 4_interpolate...(based on what the user chooses). So it gives the user an idea of what data has been selected as the 'best data' from the data system as well as what datapoints are still missing. 
 
+# PLEASE NOTE THAT THIS WILL TAKE A LONG TIME TO RUN. IT PLOTS A LOT OF DATA AND GRAPHS SINCE IT WILL LOOP THROUGH ALL OF THE DATA AND POSSIBLE DATA POINNTS THAT ARE MISSING.
+
+#This is different to 'plot_finalised_data' because it only plots whether or not each value is available or not, not the actual value of it. This has the benefit of allowing for the info about the medium/vtype/drive to be plotted on the y axis rather than the value.
 #%%
 import datetime
 import pandas as pd
@@ -13,7 +16,7 @@ import pickle
 import sys
 import matplotlib
 import matplotlib.pyplot as plt
-# %matplotlib notebook
+%matplotlib notebook
 # #somehow setting it to notebook will make it so nothing is plotted when using vscode (:
 # %matplotlib qt
 # #if using jupyter notebook then set the backend to inline so that the graphs are displayed in the notebook instead of in a new window
@@ -25,26 +28,41 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_sys
 
 PRINT_GRAPHS_AND_STATS = False
 USE_INTERPOLATED_DATA = True
+use_9th_dataset = False
 #%%
 #laod in data that has been interpolated and data that hasnt been (since we may at times want to plot the data before it has been interpolated). They are both the same structure:
-file_date = datetime.datetime.now().strftime("%Y%m%d")
-import utility_functions as utility_functions
-file_date = utility_functions.get_latest_date_for_data_file('./output_data/', '_interpolated_combined_data_condordance.csv')
-FILE_DATE_ID = 'DATE{}'.format(file_date)
-interpolated_data = pd.read_csv('output_data/{}_interpolated_combined_data_condordance.csv'.format(FILE_DATE_ID))
+if not use_9th_dataset:
+    file_date = datetime.datetime.now().strftime("%Y%m%d")
+    import utility_functions as utility_functions
+    file_date = utility_functions.get_latest_date_for_data_file('./output_data/', 'combined_dataset_concordance_')
+    FILE_DATE_ID = 'DATE{}'.format(file_date)
+    interpolated_data = pd.read_csv('output_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
 
-file_date = utility_functions.get_latest_date_for_data_file('./output_data/', '_final_combined_data_concordance.csv')
-FILE_DATE_ID = 'DATE{}'.format(file_date)
-non_interpolated_data = pd.read_csv('output_data/{}_final_combined_data_concordance.csv'.format(FILE_DATE_ID))
+    subfolder = 'all_data'
+else:
+    file_date = datetime.datetime.now().strftime("%Y%m%d")
+    import utility_functions as utility_functions
+    file_date = utility_functions.get_latest_date_for_data_file('./output_data/9th_dataset/', 'combined_dataset_concordance_')
+    FILE_DATE_ID = 'DATE{}'.format(file_date)
+    interpolated_data = pd.read_csv('output_data/9th_dataset/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
+    subfolder='9th_dataset'
 
-#if we dont want to plot interpoalted data then set interpolated_data to non_interpolated_data now
-if not USE_INTERPOLATED_DATA:
-    interpolated_data = non_interpolated_data
+
 
 #%%
 #preapre data
 #replace all dataset values with the string version of the dataset to make plotting easier and so nan values can be plotted
 interpolated_data['Dataset'] = interpolated_data['Dataset'].apply(lambda x: str(x))
+
+#where Final_dataset_selection_method is 'interpolation' then set Dataset to the string 'interpolated'
+interpolated_data.loc[interpolated_data['Final_dataset_selection_method'] == 'interpolation', 'Dataset'] = 'interpolated'
+
+#drop 'nan' values from the dataset column now
+interpolated_data = interpolated_data[interpolated_data['Dataset'] != 'nan']
+
+#convert dates to years. remove anything thats frequncy is not 'yearly'
+interpolated_data['Date'] = interpolated_data['Date'].apply(lambda x: int(x.split('-')[0]))
+interpolated_data = interpolated_data[interpolated_data['Frequency'] == 'Yearly']
 #%%
 #create a column which states whther the dataset value is na or not
 # interpolated_data[''] = interpolated_data['Value'].notnull()
@@ -54,6 +72,7 @@ interpolated_data['Dataset'] = interpolated_data['Dataset'].apply(lambda x: str(
 #we are going to want to keep the label colors constant across all subplots. So we will set them now based on the unique index rows in the data
 #get unique index rows
 unique_index_rows = interpolated_data.Dataset.unique()
+
 #set the colors to use using a color map
 colors = plt.get_cmap('tab10')
 #set the number of colors to use
@@ -74,115 +93,146 @@ if plot_colors_to_use:
 #assign each color to a unique index row
 color_dict = dict(zip(unique_index_rows, colors_to_use))
 
+
+
 #%%
 
 
-for measure in interpolated_data['Measure'].unique():
-    for transport_type in interpolated_data['Transport Type'].unique():
-        if interpolated_data.loc[(interpolated_data['Measure'] == measure) & (interpolated_data['Transport Type'] == transport_type)].Value.isnull().all():
-            print('There are no values for the measure {} and transport type {} so skipping the plotting of it'.format(measure, transport_type))
+
+def plot_data_coverage_for_measure_and_transport_type(measure, transport_type, plotting_df,interpolated_data,FILE_DATE_ID,color_dict,subfolder,option=None):
+    #######################
+    # Create a figure with 7 rows and 3 columns
+    fig, ax = plt.subplots(7, 3,figsize=(40, 40))
+    plt.subplots_adjust(wspace=0.2, hspace=0.2)
+
+    #make backgrounbd white
+    fig.patch.set_facecolor('white')
+
+    handles_list = []
+    labels_list = []
+
+    row = 0
+    col = 0
+
+    for i,economy in enumerate(sorted(interpolated_data['Economy'].unique())):
+        #Calculate the row and column index for the subplot
+        row = i // 3
+        col = i % 3
+        #subset the data for the current economy and measure
+        current_economy_measure_data = plotting_df.loc[interpolated_data['Economy'] == economy]
+
+        #we will be plotting the y axis as the combination of index cols 'Medium','Vehicle Type', 'Drive'. So comboine them with _'s
+        current_economy_measure_data['index_col'] = current_economy_measure_data['Medium'].fillna('') + '_' + current_economy_measure_data['Vehicle Type'].fillna('') + '_' + current_economy_measure_data['Drive'].fillna('')
+        #sort
+        current_economy_measure_data = current_economy_measure_data.sort_values(by=['index_col'])
+        #make the index_col the index
+        current_economy_measure_data = current_economy_measure_data.set_index('index_col')
+        #check if there are any duplicates
+        current_economy_measure_data = current_economy_measure_data.drop_duplicates()
+
+        # #make x axis ticks every year
+        # ax[row, col].set_xticks(range(interpolated_data.Date.min()-1, interpolated_data.Date.max()+1, 1))
+
+        num_economy_datapoints = len(current_economy_measure_data.Value.dropna())
+        ax[row,col].set_title('{} - {} data points'.format(economy, num_economy_datapoints))
+        if num_economy_datapoints == 0:
+            #if there are no datapoints then skip the rest of the plotting
             continue
-        #######################
-        # Create a figure with 7 rows and 3 columns
-        fig, ax = plt.subplots(7, 3,figsize=(40, 40))
-        plt.subplots_adjust(wspace=0.2, hspace=0.2)
+        # if row != 6:
+        #     #make x labels invisible if not the bottom row
+        #     ax[row,col].set_xticklabels([])
+        if col == 0:
+            #create unit label if on the left column
+            ax[row,col].set_ylabel('(Medium, Vehicle Type, Drive)')
 
-        #make backgrounbd white
-        fig.patch.set_facecolor('white')
+        #to create an ordered x axis we will set it now using the dates in the data
+        #first ordser the dates
+        dates = sorted(current_economy_measure_data.Date.unique())
+        ax[row,col].set_xticks(dates)
+        ax[row,col].set_xticklabels(dates, rotation=90)
 
-        handles_list = []
-        labels_list = []
+        #loop through the different datasets in the data and plot the scatter marks for that dataset
+        for dataset in current_economy_measure_data.Dataset.unique():#rows are based on vehicle type medium and drive
+            #define the marker based on if there is a value or not
+            if dataset == 'nan':
+                marker = 'x'
+            else:
+                marker = 'o'
+            #get the data for the current row
+            current_row_data = current_economy_measure_data.loc[current_economy_measure_data.Dataset == dataset,:]
 
-        row = 0
-        col = 0
+            ax[row, col].scatter(current_row_data.Date, current_row_data.index,label=current_row_data.Dataset,color=color_dict[dataset], marker=marker, s=10)
 
-        for i,economy in enumerate(sorted(interpolated_data['Economy'].unique())):
-            #Calculate the row and column index for the subplot
-            row = i // 3
-            col = i % 3
-            #subset the data for the current economy and measure
-            current_economy_measure_data = interpolated_data.loc[(interpolated_data['Economy'] == economy) & (interpolated_data['Measure'] == measure) & (interpolated_data['Transport Type'] == transport_type)]
+            #create a grid in the chart with lines between each tick on each axis
+            ax[row, col].grid(True, which='both', axis='both', color='grey', linestyle='-', linewidth=0.5, alpha=0.5)
 
-            #we will be plotting the y axis as the combination of index cols 'Medium','Vehicle Type', 'Drive'. So comboine them with _'s
-            current_economy_measure_data['index_col'] = current_economy_measure_data['Medium'].fillna('') + '_' + current_economy_measure_data['Vehicle Type'].fillna('') + '_' + current_economy_measure_data['Drive'].fillna('')
-            #sort
-            current_economy_measure_data = current_economy_measure_data.sort_values(by=['index_col'])
-            #make the index_col the index
-            current_economy_measure_data = current_economy_measure_data.reset_index().set_index('index_col')
-            #check if there are any duplicates
-            current_economy_measure_data = current_economy_measure_data.drop_duplicates()
+            #get legend handles and labels
+            handles, labels = ax[row, col].get_legend_handles_labels()
+            #add the handles and labels to the list
+            handles_list.extend(handles)
+            labels_list.extend(labels)
 
-            # #make x axis ticks every year
-            # ax[row, col].set_xticks(range(interpolated_data.Date.min()-1, interpolated_data.Date.max()+1, 1))
+    #get number of actual values in the data
+    number_of_values = len(plotting_df.Value.dropna())   
 
-            num_economy_datapoints = len(current_economy_measure_data.Value.dropna())
-            ax[row,col].set_title('{} - {} data points'.format(economy, num_economy_datapoints))
-            if num_economy_datapoints == 0:
-                #if there are no datapoints then skip the rest of the plotting
-                continue
-            # if row != 6:
-            #     #make x labels invisible if not the bottom row
-            #     ax[row,col].set_xticklabels([])
-            if col == 0:
-                #create unit label if on the left column
-                ax[row,col].set_ylabel('(Medium, Vehicle Type, Drive)')
+    #Set the title of the figure
+    fig.suptitle('{}_{} \nNumber of datapoints: {}'.format(measure,transport_type,number_of_values), fontsize=matplotlib.rcParams['font.size']*2)
 
-            #loop through the different datasets in the data and plot the scatter marks for that dataset
-            for dataset in current_economy_measure_data.Dataset.unique():#rows are based on vehicle type medium and drive
-                #define the marker based on if there is a value or not
-                if dataset == 'nan':
-                    marker = 'x'
-                else:
-                    marker = 'o'
-                #get the data for the current row
-                current_row_data = current_economy_measure_data.loc[current_economy_measure_data.Dataset == dataset,:]
+    #Create custom legend based on the markers and color_dict and not handles or labels
+    #create a list of markers
+    markers = ['o','x']
+    #create a list of labels
+    labels = ['Actual data','No data']
+    #create a list of colors
+    colors = [color for color in color_dict.values()]
+    colors_datasets = [dataset for dataset in color_dict.keys()]
+    #create a patch which matches up labels[0] with markers[0] and all the colors
+    patches = [matplotlib.lines.Line2D([0], [0], color=colors[i], label=colors_datasets[i], marker='o') for i in range(len(colors))]
+    #add the patches to the legend
+    plt.legend(handles=patches, loc='upper right')#, fancybox=True, shadow=True, ncol=5)
+    
+    #make sure there is minmmal white space on either side of the plot
+    plt.tight_layout()
 
-                ax[row, col].scatter(current_row_data.Date, current_row_data.index,label=current_row_data.Dataset,color=color_dict[dataset], marker=marker, s=10)
-
-                #create a grid in the chart with lines between each tick on each axis
-                ax[row, col].grid(True, which='both', axis='both', color='grey', linestyle='-', linewidth=0.5, alpha=0.5)
-
-                #get legend handles and labels
-                handles, labels = ax[row, col].get_legend_handles_labels()
-                #add the handles and labels to the list
-                handles_list.extend(handles)
-                labels_list.extend(labels)
-
-        #get number of actual values in the data
-        number_of_values = len(interpolated_data.loc[(interpolated_data['Measure'] == measure) & (interpolated_data['Transport Type'] == transport_type), 'Value'].dropna())   
-
-        #Set the title of the figure
-        fig.suptitle('{}_{} \nNumber of datapoints: {}'.format(measure,transport_type,number_of_values), fontsize=matplotlib.rcParams['font.size']*2)
-
-        #Create custom legend based on the markers and color_dict and not handles or labels
-        #create a list of markers
-        markers = ['o','x']
-        #create a list of labels
-        labels = ['Actual data','No data']
-        #create a list of colors
-        colors = [color for color in color_dict.values()]
-        colors_datasets = [dataset for dataset in color_dict.keys()]
-        #create a patch which matches up labels[0] with markers[0] and all the colors
-        patches = [matplotlib.lines.Line2D([0], [0], color=colors[i], label=colors_datasets[i], marker='o') for i in range(len(colors))]
-        #add the patches to the legend
-        plt.legend(handles=patches, loc='upper right')#, fancybox=True, shadow=True, ncol=5)
-        
-        #make sure there is minmmal white space on either side of the plot
-        plt.tight_layout()
-
+    if option != None:
         #save the plot with id for the date and the measure. Make the plot really high resolution so that it can be zoomed in on
         if number_of_values == 0:
-            plt.savefig('plotting_output/plot_data_coverage/finalised_data/NOVALUES_{}_{}_{}_plot.png'.format(FILE_DATE_ID, measure, transport_type))
+            plt.savefig('plotting_output/plot_data_coverage/finalised_data/{}/NOVALUES_{}_{}_{}_{}_plot.png'.format(subfolder,FILE_DATE_ID, measure, transport_type,option))
         else:
-            plt.savefig('plotting_output/plot_data_coverage/finalised_data/{}_{}_{}_plot.png'.format(FILE_DATE_ID, measure, transport_type))
+            plt.savefig('plotting_output/plot_data_coverage/finalised_data/{}/{}_{}_{}_{}_plot.png'.format(subfolder,FILE_DATE_ID, measure, transport_type, option))
+    else:
+        if number_of_values == 0:
+            plt.savefig('plotting_output/plot_data_coverage/finalised_data/{}/NOVALUES_{}_{}_{}_plot.png'.format(subfolder,FILE_DATE_ID, measure, transport_type))
+        else:
+            plt.savefig('plotting_output/plot_data_coverage/finalised_data/{}/{}_{}_{}_{}_plot.png'.format(subfolder,FILE_DATE_ID, measure, transport_type, option))
 
-#ABOVE THE ISSUE IS:
-#if 0 data points then x axis is creating all years at end of axis.
-#if there are some datapoints then our legend becomes too big and wwe sometimes have too many unique index rows for a single y axis to hold
-#nan and non spec values being weird
-#legend getting stuffed up by duplicates?
-#perhaps name file so itis autommatically recogniosable that the file doesnt have any data in it eg. bny including data points in the name
-#^seems like legend can be made to just show the dataset associated with the color, not all the unqiue rows too.
+
+#%%
+
+for measure in interpolated_data['Measure'].unique():
+    for transport_type in interpolated_data['Transport Type'].unique():
+        plotting_df = interpolated_data.loc[(interpolated_data['Measure'] == measure) & (interpolated_data['Transport Type'] == transport_type)]
+        
+        if plotting_df.Value.isnull().all():
+            print('There are no values for the measure {} and transport type {} so skipping the plotting of it'.format(measure, transport_type))
+            continue        
+        if len(plotting_df) > 1000:
+            #we have too many data points to plot so we will split it into road and non road
+            old_df = plotting_df.copy()
+            for option in ['road', 'non-road']:
+                if option == 'non-road':
+                    plotting_df = old_df.loc[old_df['Transport Type'] != 'road']
+                    if len(plotting_df) == 0:
+                        continue
+                    plot_data_coverage_for_measure_and_transport_type(measure, transport_type, plotting_df,interpolated_data, FILE_DATE_ID,color_dict,subfolder,option)
+                else:
+                    plotting_df = old_df.loc[old_df['Transport Type'] == 'road']
+                    if len(plotting_df) == 0:
+                        continue
+                    plot_data_coverage_for_measure_and_transport_type(measure, transport_type, plotting_df,interpolated_data, FILE_DATE_ID,color_dict,subfolder,option)
+        else:
+            plot_data_coverage_for_measure_and_transport_type(measure, transport_type, plotting_df,interpolated_data, FILE_DATE_ID,color_dict, subfolder)
+   
         
 #%%
 #it looks like weve got some weird things happening in passenger_km for 10_MAS, 21_VN, 08_JPN and 19_THA

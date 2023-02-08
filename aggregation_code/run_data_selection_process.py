@@ -58,10 +58,7 @@ if run_automatic:
     combined_data_concordance_automatic, rows_to_select_manually_df = data_selection_functions.automatic_selection(combined_data_concordance_automatic,combined_data_automatic,duplicates_auto,duplicates_auto_with_year_index,INDEX_COLS, datasets_to_always_choose=[])
 
 #%%
-#load combined_data_concordance_manual now so we can use it later if we need to
-previous_combined_data_concordance_manual = pd.read_csv('intermediate_data/data_selection/{}_data_selection_manual.csv'.format(FILE_DATE_ID))
-previous_duplicates_manual = pd.read_csv('intermediate_data/data_selection/{}_duplicates_manual.csv'.format(FILE_DATE_ID))
-progress_csv = pd.read_csv('intermediate_data/data_selection/{}_progress.csv'.format(FILE_DATE_ID))
+
 #%%
 duplicates_manual = duplicates_manual.reset_index()
 combined_data_concordance_manual = combined_data_concordance_manual.reset_index()
@@ -69,14 +66,23 @@ combined_data_concordance_manual = combined_data_concordance_manual.reset_index(
 
 #########################SET ME TO SET VARIABLES FOR FUNCTION
 pick_up_where_left_off=False
-import_previous_selection=False
+import_previous_selection=True
 run_only_on_rows_to_select_manually=True
 manually_chosen_rows_to_select=None
-user_edited_combined_data_conc1ordance_iterator=None
-previous_combined_data_concordance_manual= None#previous_combined_data_concordance_manual
+user_edited_combined_data_concordance_iterator=None
+previous_combined_data_concordance_manual= True#previous_combined_data_concordance_manual
 duplicates_manual=duplicates_manual
-previous_duplicates_manual=None#previous_duplicates_manual
+previous_duplicates_manual=True#previous_duplicates_manual
 progress_csv=None#progress_csv
+
+if previous_combined_data_concordance_manual != None:
+    #load combined_data_concordance_manual now so we can use it later if we need to
+    previous_combined_data_concordance_manual = pd.read_csv('intermediate_data/data_selection/{}_data_selection_manual.csv'.format(FILE_DATE_ID))
+if previous_duplicates_manual != None:
+    #load duplicates_manual now so we can use it later if we need to
+    previous_duplicates_manual = pd.read_csv('intermediate_data/data_selection/{}_duplicates_manual.csv'.format(FILE_DATE_ID))
+if progress_csv != None:
+    progress_csv = pd.read_csv('intermediate_data/data_selection/{}_progress.csv'.format(FILE_DATE_ID))
 #########################
 #%%
 iterator, combined_data_concordance_manual = data_selection_functions.create_manual_data_iterator(combined_data_concordance_iterator,
@@ -96,7 +102,8 @@ combined_data_concordance_manual, duplicates_manual, bad_index_rows, num_bad_ind
 final_combined_data_concordance = data_selection_functions.combine_manual_and_automatic_output(combined_data_concordance_automatic,combined_data_concordance_manual,INDEX_COLS)
 #%%
 #do interpolation:
-new_final_combined_data,final_combined_data_concordance = data_selection_functions.interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True,FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7)
+
+new_final_combined_data,final_combined_data_concordance = data_selection_functions.interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automatic_interpolation_method = 'linear', automatic_interpolation = True,FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7, load_progress=True)
 
 if use_all_data:
     final_combined_data_concordance.to_csv('output_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID), index=False)
@@ -106,3 +113,4 @@ elif use_9th_edition_set:
     new_final_combined_data.to_csv('output_data/9th_dataset/combined_dataset_{}.csv'.format(FILE_DATE_ID), index=False)
 #%%
 
+#%%

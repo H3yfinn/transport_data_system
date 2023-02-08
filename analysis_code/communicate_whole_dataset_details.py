@@ -1,6 +1,6 @@
 #communicate_whole_dataset_details.py
 #%%
-#This script will go through the dataset we have aggregated in 1_aggregate_cleaned_datasets.py and communicate the details of the dataset and datasets within it to the user.
+#This script will go through the dataset we have aggregated in 1_aggregate_cleaned_datasets.py and communicate the details of the dataset and datasets within it to the user. It will do this using text rather than graphs.
 #It will use the categories in the columns, like the datset column, to specify useful information so that the user can quickly identify what is in the dataset and what is not. This is in a style that can also be repurposed to be used in the documentation of the dataset.
 #We can also use this script to identify any problems with the dataset, like missing data, or data that is in a category that we werent expecting to see in the dataset. This would be done with a sense check of the outputs by the user.
 

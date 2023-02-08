@@ -28,9 +28,9 @@ USE_INTERPOLATED_DATA = True
 #%%
 #laod in data
 file_date = datetime.datetime.now().strftime("%Y%m%d")
+import utility_functions as utility_functions
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/ATO_data/', 'ATO_data_cleaned_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-# FILE_DATE_ID = 'DATE20230111'#'DATE{}'.format(file_date)
-#load in the data
 ATO_data = pd.read_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID))
 
 #%%
@@ -244,3 +244,8 @@ for measure in ATO_data_concordance_new['Measure'].unique():
 
 
 # %%
+
+
+
+
+

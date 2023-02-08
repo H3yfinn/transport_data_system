@@ -39,9 +39,9 @@ PRINT_GRAPHS_AND_STATS = False
 #load in the cleaned datasets here and then deal with them in a cell each
 import utility_functions as utility_functions
 
-file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_')
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_final_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID))
+eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID))
 
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
@@ -71,6 +71,31 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/i
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 item_data_apec_tall = pd.read_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv')
 
+# {}_turnover_rate_3pct.csv'.format(FILE_DATE_ID)
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_turnover_rate_3pct.csv')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+turnover_rate_3pct = pd.read_csv('./intermediate_data/estimated/{}_turnover_rate_3pct.csv'.format(FILE_DATE_ID))
+
+#load egeda data
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/EGEDA/', 'EGEDA_transport_output')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+EGEDA_transport_output = pd.read_csv('intermediate_data/EGEDA/EGEDA_transport_output' + FILE_DATE_ID + '.csv')
+
+#load estimates using egeda data
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'EGEDA_merged')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+EGEDA_transport_output_estimates = pd.read_csv('intermediate_data/estimated/EGEDA_merged' + FILE_DATE_ID + '.csv')
+
+#load revenue passenger km estimates for air
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'ATO_revenue_pkm')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+ATO_revenue_pkm = pd.read_csv('intermediate_data/estimated/ATO_revenue_pkm' + FILE_DATE_ID + '.csv')
+
+#Get data which contains data from nearest available date, where data is misssing
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'nearest_available_date')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+nearest_available_date = pd.read_csv('./intermediate_data/estimated/nearest_available_date{}.csv'.format(FILE_DATE_ID))
+
 ############################################################
 
 #HANDLE SPECIFIC DATASETS
@@ -97,7 +122,7 @@ item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
 ############################################################
 #%%
 #join data together using concat
-combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall], ignore_index=True)
+combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall,turnover_rate_3pct,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date], ignore_index=True)
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 

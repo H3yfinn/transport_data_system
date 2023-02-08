@@ -84,6 +84,10 @@ eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, temp])
 ####################################################################################################################################
 
 #%%
+#now where medium is air, rail, ship or nonspecified we will set vehicle type to nan, as well as drive
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Medium'].isin(['air', 'rail', 'ship', 'nonspecified']), 'Vehicle Type'] = np.nan
+eigth_edition_transport_data.loc[eigth_edition_transport_data['Medium'].isin(['air', 'rail', 'ship', 'nonspecified']), 'Drive'] = np.nan
+#%%
 #because we have a lot of totals in our data and it would be good to compare this data agisnt them, we will calcualte some totals, for example:
 #total passenger km for road
 #total freight km for road
@@ -262,19 +266,22 @@ missing_rows_df['Value'] = 0
 missing_rows_df['Dataset'] = '8th edition transport model'
 missing_rows_df['Source'] = 'Reference'
 #now concat this to the new_eigth_edition_transport_data
-new_eigth_edition_transport_data = pd.concat([new_eigth_edition_transport_data, missing_rows_df])
+concatted_eigth_edition_transport_data = pd.concat([new_eigth_edition_transport_data, missing_rows_df])
 #%%
 #now we will also remove data that isnt in the 9th edition concordance
-extra_rows = new_eigth_edition_transport_data.index.difference(model_concordances_measures.index)
-new_eigth_edition_transport_data = new_eigth_edition_transport_data.drop(extra_rows)
+extra_rows = concatted_eigth_edition_transport_data.index.difference(model_concordances_measures.index)
+new_eigth_edition_transport_data = concatted_eigth_edition_transport_data.drop(extra_rows)
 new_eigth_edition_transport_data.reset_index(inplace=True)
 ############################################################
 ############################################################
 #%%
 new_eigth_edition_transport_data['Date'] = new_eigth_edition_transport_data['Date'].astype(str) + '-12-31'
+
+#drop turmover rrate from new_eigth_edition_transport_data Measuree col
+new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_edition_transport_data['Measure']!='Turnover_rate']
 #%%
 #
 #save data to same file
-new_eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID), index = False)
-eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/non_filtered_eigth_edition_transport_data_{}.csv'.format(FILE_DATE_ID), index = False)
+new_eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID), index = False)
+eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/non_filtered_eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID), index = False)
 #%%

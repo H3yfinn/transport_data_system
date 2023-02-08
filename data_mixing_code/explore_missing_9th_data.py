@@ -1,3 +1,239 @@
+
+#set working directory as one folder back
+import os
+import re
+import pandas as pd
+import numpy as np
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+
+# %%
+import pandas as pd
+import plotly.express as px
+
+columns_to_plot =['Measure','Transport Type', 'Medium', 'Vehicle Type','Drive', 'Economy']#, 'Economy']
+#dsrop turnover_rate form measure
+
+
+
+#%%
+############################################################################
+############################################################################
+
+
+#%%
+#also want to find out what rows we are missing data in all years for. To do this, drop the Date col, then group by the index and then count the number of rows in each group. If the count is less than 23 then we are missing data for that row
+
+#read in the data we are missing
+missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
+#drop Date col and then
+missing = missing.drop(columns=['Date'])
+#group by the index and then count the number of rows in each group. If the count is less than 23 then we are missing data for that row
+#set index to ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
+
+# missing = missing.set_index(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Economy','Frequency', 'Measure', 'Unit'])
+#%%
+#create count col
+missing['Count'] = 1
+#group by index and count the number of rows in each group
+missing = missing.groupby(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Economy','Frequency', 'Measure', 'Unit']).count()
+#drop all rows where count is not 13 (or thereabouts)
+missing = missing[missing['Count'] == 13]
+#reset index
+missing = missing.reset_index()
+
+missing = missing[missing.Measure != 'Turnover_rate']
+missing = missing[missing.Measure != 'Occupancy']
+missing = missing[missing.Measure != 'Load']
+#drop new_vehicle_efficiency measure for now
+# missing = missing[missing.Measure != 'New_vehicle_efficiency']
+
+#and ignore any drive = fcev, lpg, cng or phevg or phevd
+# missing = missing[~missing.Drive.isin(['fcev', 'lpg', 'cng', 'phevg', 'phevd'])]
+
+#removce any rows where a value in any col is 'nonspecified'
+missing = missing[~missing.isin(['nonspecified']).any(axis=1)]
+
+#drop Date col and then 
+#%%
+#create a count of the number of isntances for every group, going forward in columns to plot. eg if we are plotting transport type, medium, vehicle type, drive, we will add a count of the number of instances of each transport type then each transport type and medium, then each transport type, medium and vehicle type, then each transport type, medium, vehicle type and drive
+#first make any NAs into 'nan' so that we can count them
+missing = missing.fillna('nan')
+for i in range(3,len(columns_to_plot)+1):
+    #make a new column with the name of the column we are counting
+    new_col_name = 'Count of ' + columns_to_plot[i-1]
+    #make a new column with the count of the number of instances of each group
+    #missing.groupby(columns_to_plot[:i])[columns_to_plot[i-1]].count()
+    missing[new_col_name] = missing.groupby(columns_to_plot[:i])[columns_to_plot[i-1]].transform('count')
+    #attach this to drive
+    missing[columns_to_plot[i-1]] = missing[columns_to_plot[i-1]] + ' ' + missing[new_col_name].astype(str)
+#to make the treemap easier to read we will try inserting the name of the column at the beginning of the name of the value (unless its 'nan')
+for col in columns_to_plot:
+    missing[col] = missing[col].apply(lambda x: col + ': ' + str(x) if str(x) != 'nan' else str(x))
+#%%
+
+#and make one that can fit on my home screen which will be 1.3 times taller and 3 times wider
+fig = px.treemap(missing, path=columns_to_plot)
+#make it bigger
+fig.update_layout(width=2500, height=1300)
+#make title
+# fig.update_layout(title_text=measure)
+#show it in browser rather than in the notebook
+fig.write_html("plotting_output/estimations/data_coverage_trees/missing_data_tree_multidate_no_zeros_economys.html", auto_open=True)
+#NOTE THAT THIS SEEMS LIKE THE BEST GRAPH TO LOOK AT TO SEE WHAT WE ARE MISSING DATA FOR SINCE 
+
+
+############################################################################
+############################################################################
+
+
+#%%
+import os
+import re
+import pandas as pd
+import numpy as np
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+
+import data_estimation_functions as data_estimation_functions
+import utility_functions as utility_functions
+file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+combined_data = pd.read_csv('./intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
+#%%
+#anaylse the data we ahve and see if we can find the data we are msising:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%%
+#read in the data we are missing
+missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows.csv')
+#%%
+missing.head()
+#%%
+missing.Measure.unique()
+missing = missing[missing.Measure != 'Turnover_rate']
+
+#drop Date col and then 
+#%%
+#create a count of the number of isntances for every group, going forward in columns to plot. eg if we are plotting transport type, medium, vehicle type, drive, we will add a count of the number of instances of each transport type then each transport type and medium, then each transport type, medium and vehicle type, then each transport type, medium, vehicle type and drive
+#first make any NAs into 'nan' so that we can count them
+missing = missing.fillna('nan')
+for i in range(3,len(columns_to_plot)+1):
+    #make a new column with the name of the column we are counting
+    new_col_name = 'Count of ' + columns_to_plot[i-1]
+    #make a new column with the count of the number of instances of each group
+    #missing.groupby(columns_to_plot[:i])[columns_to_plot[i-1]].count()
+    missing[new_col_name] = missing.groupby(columns_to_plot[:i])[columns_to_plot[i-1]].transform('count')
+    #attach this to drive
+    missing[columns_to_plot[i-1]] = missing[columns_to_plot[i-1]] + ' ' + missing[new_col_name].astype(str)
+#to make the treemap easier to read we will try inserting the name of the column at the beginning of the name of the value (unless its 'nan')
+for col in columns_to_plot:
+    missing[col] = missing[col].apply(lambda x: col + ': ' + str(x) if str(x) != 'nan' else str(x))
+#%%
+
+#and make one that can fit on my home screen which will be 1.3 times taller and 3 times wider
+fig = px.treemap(missing, path=columns_to_plot)
+#make it bigger
+fig.update_layout(width=2500, height=1300)
+#make title
+# fig.update_layout(title_text=measure)
+#show it in browser rather than in the notebook
+fig.write_html("plotting_output/estimations/data_coverage_trees/missing_data_tree.html", auto_open=True)
+
+
+#####################################################
+############################################################################
+
+#%%
+#also want to find out what rows we are missing data in all years for. To do this, drop the Date col, then group by the index and then count the number of rows in each group. If the count is less than 23 then we are missing data for that row
+
+#read in the data we are missing
+missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows.csv')
+#drop Date col and then
+missing = missing.drop(columns=['Date'])
+#group by the index and then count the number of rows in each group. If the count is less than 23 then we are missing data for that row
+#set index to ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
+
+# missing = missing.set_index(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Economy','Frequency', 'Measure', 'Unit'])
+
+#create count col
+missing['Count'] = 1
+#group by index and count the number of rows in each group
+missing = missing.groupby(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Economy','Frequency', 'Measure', 'Unit']).count()
+#drop all rows where count is not 13 (or thereabouts)
+missing = missing[missing['Count'] >= 12]
+#reset index
+missing = missing.reset_index()
+
+missing = missing[missing.Measure != 'Turnover_rate']
+
+#drop Date col and then 
+#%%
+#create a count of the number of isntances for every group, going forward in columns to plot. eg if we are plotting transport type, medium, vehicle type, drive, we will add a count of the number of instances of each transport type then each transport type and medium, then each transport type, medium and vehicle type, then each transport type, medium, vehicle type and drive
+#first make any NAs into 'nan' so that we can count them
+missing = missing.fillna('nan')
+for i in range(3,len(columns_to_plot)+1):
+    #make a new column with the name of the column we are counting
+    new_col_name = 'Count of ' + columns_to_plot[i-1]
+    #make a new column with the count of the number of instances of each group
+    #missing.groupby(columns_to_plot[:i])[columns_to_plot[i-1]].count()
+    missing[new_col_name] = missing.groupby(columns_to_plot[:i])[columns_to_plot[i-1]].transform('count')
+    #attach this to drive
+    missing[columns_to_plot[i-1]] = missing[columns_to_plot[i-1]] + ' ' + missing[new_col_name].astype(str)
+#to make the treemap easier to read we will try inserting the name of the column at the beginning of the name of the value (unless its 'nan')
+for col in columns_to_plot:
+    missing[col] = missing[col].apply(lambda x: col + ': ' + str(x) if str(x) != 'nan' else str(x))
+#%%
+
+#and make one that can fit on my home screen which will be 1.3 times taller and 3 times wider
+fig = px.treemap(missing, path=columns_to_plot)
+#make it bigger
+fig.update_layout(width=2500, height=1300)
+#make title
+# fig.update_layout(title_text=measure)
+#show it in browser rather than in the notebook
+fig.write_html("plotting_output/estimations/data_coverage_trees/missing_data_tree_multidate.html", auto_open=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Use this to plot scatterplots with a discrete categorical axis on y axis and the date on x axis, showing what datappoints are available from what datasets forevery datapoint in the transport datasystem. The charts are split into many based on the datas transport type and measure. 
 #the chart is basically the same as the one in plot_final_dataset_coverage.py but this one plots all the data points, not just the final ones. 
 #To combat having two datapoints for a single date and index row, the chart will plot each datapoint consecutively with a decreasing size so that you can see the different data poitns colors as rings if they arent the top one.
@@ -249,170 +485,3 @@ for measure in data_coverage['Measure'].unique():
                     plot_data_coverage_for_measure_and_transport_type(measure, transport_type, plotting_df, FILE_DATE_ID,color_dict,subfolder,option)
         else:
             plot_data_coverage_for_measure_and_transport_type(measure, transport_type, plotting_df, FILE_DATE_ID,color_dict,subfolder)
-
-    # if measure == 'energy_use_tonnes' and transport_type == 'combined':
-    #     break
-#ABOVE THE ISSUE IS:
-#if 0 data points then x axis is creating all years at end of axis.
-#if there are some datapoints then our legend becomes too big and wwe sometimes have too many unique index rows for a single y axis to hold
-#nan and non spec values being weird
-#legend getting stuffed up by duplicates?
-#perhaps name file so itis autommatically recogniosable that the file doesnt have any data in it eg. bny including data points in the name
-#^seems like legend can be made to just show the dataset associated with the color, not all the unqiue rows too.
-        
-#%%
-#it looks like weve got some weird things happening in passenger_km for 10_MAS, 21_VN, 08_JPN and 19_THA
-#also check that the values in PRC are mostly rail like the legend implies
-
-# mas = data_coverage.loc[(data_coverage['Economy'] == '10_MAS') & (data_coverage['Measure'] == 'passenger_km') & (data_coverage['Transport Type'] == 'passenger')]
-
-#             #it looks like weve got some weird things happening in passenger_km for 10_MAS, 21_VN, 08_JPN and 19_THA
-# #             #also check that the values in PRC are mostly rail like the legend implies
-# if (economy == '10_MAS') & (measure == 'passenger_km'):
-#     saved_economy_measure_data1 = current_economy_measure_data
-# elif (economy == '21_VN') & (measure == 'passenger_km'):
-#     saved_economy_measure_data2 = current_economy_measure_data
-# elif (economy == '08_JPN') & (measure == 'passenger_km'):
-#     saved_economy_measure_data3 = current_economy_measure_data
-# elif (economy == '19_THA') & (measure == 'passenger_km'):
-#     saved_economy_measure_data4 = current_economy_measure_data
-# elif (economy == '13_PRC') & (measure == 'passenger_km'):
-#     saved_economy_measure_data5 = current_economy_measure_data
-# else:
-#     pass
-
-#double check what happens to the labels and if they are not being changed between subplots
-
-#%%
-#although it seems like the above needs the use of plotly to provide better detail i think it would be better to focus on getting this right because of the issues with losing data in plotly. so we will focus on filling in details, creating more graphs so there are only a few lines per graph and so on:
-
-#fix y axis values so they dont overflow into the next subplot (can always use k's and m's to indicate millions and thousands)
-#or make graphs u
-#add a legend to the whole plot so that similar categories in different subplots can be compared (and they will have the same colour)
-
-#add a title to each subplot
-
-#have the y axis go negative so that the data can be compared to the zero line
-#provide supplementary graphs that show what data on what categories anbd years is missing so that plots that look empty can be explained
-
-#rem,ove warning messages
-
-#see if chat gpt has advicve for improving the colors and vibe. also once done ask if there are better libraries itn recommends or even better strategies for '?plotting a summary of what data is and is not available and the summary of that data we do have available
-
-#OTHER CONCERNS
-#the markers for different datasets should be different but the legend should just be for the different colors (not sep by marker)
-#there should be multiple eyars of data for 01_aus freight_tonne_km, is currently only showing data for 2017
-#if we get more data then the graphs will work well still. 
-#%%
-
-
-
-
-
-
-
-
-
-#%%
-# #create a multi facet grid plot, with a facet for each measure, with y axis = economy, x = year which will show a green square if data_available is false for that year and economy, and a red square if data_available is true for that year and economy
-# #bvut we will do this in a for loop on each index row
-# for alt_measure in ATO_data_transport_checking_concordance_check['alt_measure'].unique():
-#     #create a dataframe that only has the alt_measure we are looking at
-#     alt_measure_df = ATO_data_transport_checking_concordance_check[ATO_data_transport_checking_concordance_check['alt_measure'] == alt_measure]
-#     #because of the addition of the sheet column we will have to create a col for measure + sheet
-#     alt_measure_df['measure_sheet'] = alt_measure_df['measure'] + ' ' + alt_measure_df['sheet']
-#     title = 'ATO Economy Year NA Count'
-#     #make sure that if data_available is true, the color is green, and red if false
-#     fig = px.scatter(alt_measure_df, x='year', y='economy', color='data_available', facet_col='measure_sheet', facet_col_wrap=7, title=title, color_discrete_map={True: 'green', False: 'red'})
-#     fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))#remove 'Economy=X' from titles
-#     #fig.show()
-#     #save graph as html in plotting_output/exploration_archive
-#     fig.write_html('plotting_output/exploration_archive/' + title + ' ' + alt_measure + '.html')
-
-
-#%%
-# #%%
-# INDEX_COLS = ['Date', 'Economy', 'Measure', 'Vehicle Type', 'Medium',
-#        'Transport Type','Drive']
-# #Remove year from the current cols without removing it from original list, and set it as a new list
-# INDEX_COLS_no_year = INDEX_COLS.copy()
-# INDEX_COLS_no_year.remove('Date')
-
-# INDEX_COLS_no_year_no_measure_no_economy_no_type = INDEX_COLS_no_year.copy()
-# INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Measure')
-# INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Economy')
-# INDEX_COLS_no_year_no_measure_no_economy_no_type.remove('Transport Type')
-
-
-# #%%
-# #since we have twenty one economys then fvor each measure we will plot a single line graph for each economy, for all the variations of data wihtin that measure. We may find that we need to create more suplots still, such as a graph fro each transport type and so on. We will see how it goes
-# #since there are 21 economies then we will need 21 subplots
-# number_of_economies = len(data_coverage['Economy'].unique())
-
-# #%%
-# #create indexes in the data so we can loop through it
-# data_coverage.set_index(INDEX_COLS_no_year_no_measure_no_economy_no_type, inplace=True)
-
-# #%%
-
-
-# #%%
-# # Loop through the data and plot each time series on its own subplot
-# #loop through the unique measures, plot a figure for each measure, then loop through the economies and plot a subplot for each economy, then for each unique row in the data, plot a line for that row, for the years in the data
-# if len(data_coverage['Economy'].unique()) != 21:
-#     raise ValueError(' There are not 21 economies in the data')
-
-# # Set the font size of text in the figure to 8 points
-# matplotlib.rcParams['font.size'] = 18
-
-# handles_labels_dict = {}
-
-# #SET COLORS AND MARKERS
-# #COLORS
-# #we are going to want to keep the label colors constant across all subplots. So we will set them now based on the unique index rows in the data
-# #get unique index rows
-# unique_index_rows = data_coverage.index.unique()
-# #set the colors to use using a color map
-# colors = plt.get_cmap('hsv')#.colors
-# #set the number of colors to use
-# num_colors = len(unique_index_rows)
-# #set the colors to use, making sure that the colors are as different as possible
-# colors_to_use = [colors(i) for i in np.linspace(0, 1, num_colors)]
-
-# #plot the colors in case we want to see them
-# plot_colors_to_use = True
-# if plot_colors_to_use:
-#     plt.figure()
-#     plt.title('Colors to use')
-#     for i, color in enumerate(colors_to_use):
-#         plt.plot([i], [i], 'o', color=color)
-#     plt.savefig('plotting_output/plot_finalised_data/{}_colors_to_use.png'.format(FILE_DATE_ID))
-#     plt.close()
-
-# #assign each color to a unique index row
-# color_dict = dict(zip(unique_index_rows, colors_to_use))
-# #MARKERS
-# # Get a list of all available markers
-# marker_names = list(matplotlib.markers.MarkerStyle.markers.keys())
-# #keep the first 25 because the others are less useful and sometimes dont work
-# marker_names = marker_names[:25]
-
-# # Generate a list of equally space markers and create one for each unique dataset
-# num_categories = len(data_coverage.Dataset.unique())
-# markers = [marker_names[i] for i in np.linspace(0, len(marker_names)-1, num_categories).astype(int)]
-# #now assign each marker to a unique dataset
-# marker_dict = dict(zip(data_coverage.Dataset.unique(), markers))
-
-# #plot the markers in case we want to see them
-# plot_markers_to_use = True
-# if plot_markers_to_use: 
-#     plt.figure()
-#     plt.title('Markers to use')
-#     for i, marker in enumerate(markers):
-#         plt.plot([i], [i], marker, color='black')
-#     plt.savefig('plotting_output/plot_finalised_data/{}_markers_to_use.png'.format(FILE_DATE_ID))
-#     plt.close()
-
-# #%%
-# #take a look at where dataset is 'ATO'
-# data_coverage.loc[data_coverage['Dataset'] == 'ATO']
