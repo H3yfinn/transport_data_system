@@ -25,8 +25,10 @@ columns_to_plot =['Measure','Transport Type', 'Medium', 'Vehicle Type','Drive', 
 
 #read in the data we are missing
 missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
+
 #drop Date col and then
 missing = missing.drop(columns=['Date'])
+
 #group by the index and then count the number of rows in each group. If the count is less than 23 then we are missing data for that row
 #set index to ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
 
@@ -72,7 +74,7 @@ for col in columns_to_plot:
 #%%
 
 #and make one that can fit on my home screen which will be 1.3 times taller and 3 times wider
-fig = px.treemap(missing, path=columns_to_plot)
+fig = px.treemap(, path=columns_to_plot)
 #make it bigger
 fig.update_layout(width=2500, height=1300)
 #make title
@@ -86,6 +88,16 @@ fig.write_html("plotting_output/estimations/data_coverage_trees/missing_data_tre
 ############################################################################
 
 
+
+#IF WE ONLY WANT TO TAKE A LOOK AT ONE YEAR:
+
+############################################################################
+
+
+
+
+
+
 #%%
 import os
 import re
@@ -93,42 +105,25 @@ import pandas as pd
 import numpy as np
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
-import data_estimation_functions as data_estimation_functions
+# import data_estimation_functions as data_estimation_functions
 import utility_functions as utility_functions
 file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 combined_data = pd.read_csv('./intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
 #%%
 #anaylse the data we ahve and see if we can find the data we are msising:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #%%
 #read in the data we are missing
-missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows.csv')
+missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
 #%%
 missing.head()
 #%%
+# filter for just one year:
+missing = missing[missing.Date == '2017-12-31']
+#%%
 missing.Measure.unique()
 missing = missing[missing.Measure != 'Turnover_rate']
-
-#drop Date col and then 
+ 
 #%%
 #create a count of the number of isntances for every group, going forward in columns to plot. eg if we are plotting transport type, medium, vehicle type, drive, we will add a count of the number of instances of each transport type then each transport type and medium, then each transport type, medium and vehicle type, then each transport type, medium, vehicle type and drive
 #first make any NAs into 'nan' so that we can count them
@@ -154,6 +149,16 @@ fig.update_layout(width=2500, height=1300)
 # fig.update_layout(title_text=measure)
 #show it in browser rather than in the notebook
 fig.write_html("plotting_output/estimations/data_coverage_trees/missing_data_tree.html", auto_open=True)
+#%%
+
+
+
+
+
+
+
+
+
 
 
 #####################################################
@@ -161,6 +166,11 @@ fig.write_html("plotting_output/estimations/data_coverage_trees/missing_data_tre
 
 #%%
 #also want to find out what rows we are missing data in all years for. To do this, drop the Date col, then group by the index and then count the number of rows in each group. If the count is less than 23 then we are missing data for that row
+
+
+
+############################################################################
+
 
 #read in the data we are missing
 missing = pd.read_csv('./intermediate_data/9th_dataset/missing_rows.csv')
@@ -181,8 +191,16 @@ missing = missing[missing['Count'] >= 12]
 missing = missing.reset_index()
 
 missing = missing[missing.Measure != 'Turnover_rate']
+missing = missing[missing.Measure != 'Occupancy']
+missing = missing[missing.Measure != 'Load']
+#drop new_vehicle_efficiency measure for now
+missing = missing[missing.Measure != 'New_vehicle_efficiency']
 
-#drop Date col and then 
+#and ignore any drive = fcev, lpg, cng or phevg or phevd
+missing = missing[~missing.Drive.isin(['fcev', 'lpg', 'cng', 'phevg', 'phevd'])]
+
+#removce any rows where a value in any col is 'nonspecified'
+missing = missing[~missing.isin(['nonspecified']).any(axis=1)] 
 #%%
 #create a count of the number of isntances for every group, going forward in columns to plot. eg if we are plotting transport type, medium, vehicle type, drive, we will add a count of the number of instances of each transport type then each transport type and medium, then each transport type, medium and vehicle type, then each transport type, medium, vehicle type and drive
 #first make any NAs into 'nan' so that we can count them

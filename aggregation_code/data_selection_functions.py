@@ -49,7 +49,7 @@ def automatic_method(combined_data_automatic, combined_data_concordance_automati
 
                 for row in rows.itertuples():
                         #get the number of datapoints
-                        num_datapoints = row.Count
+                        num_datapoints = row.Num_datapoints
                         #get the datasets from the lists inside the Datasets column
                         datasets = row.Datasets
                         #extract year from the index
@@ -220,7 +220,78 @@ def automatic_method(combined_data_automatic, combined_data_concordance_automati
         return combined_data_concordance_automatic, rows_to_select_manually
 
 
-########################################################################################################################################################
+################################################################################
+# 
+
+
+#%%
+def automatic_selection(combined_data_concordance_automatic,combined_data_automatic,duplicates_auto,duplicates_auto_with_year_index,INDEX_COLS, datasets_to_always_choose=[],FILE_DATE_ID=''):
+
+    INDEX_COLS_no_year = INDEX_COLS.copy()
+    INDEX_COLS_no_year.remove('Date')
+
+    #AUTOMATIC METHOD
+
+    # datasets_to_always_choose #I DONT THINK THIS IS WORKING TBH
+    checkpoints_1 = []
+    checkpoints_2 = []
+
+    #start a timer to see how long it takes to run the automatic method
+    start_time = time.time()
+
+    #run the automatic method, one measure at a time
+    for measure in combined_data_concordance_automatic.index.get_level_values('Measure').unique():
+        #filter the combined_data_concordance_automatic df to only include the current measure
+        combined_data_concordance_automatic_measure = combined_data_concordance_automatic[combined_data_concordance_automatic.index.get_level_values('Measure')==measure]
+        combined_data_automatic_measure = combined_data_automatic [combined_data_automatic.index.get_level_values('Measure')==measure]
+        duplicates_auto_measure = duplicates_auto[duplicates_auto.index.get_level_values('Measure')==measure]
+        duplicates_auto_with_year_index_measure = duplicates_auto_with_year_index[duplicates_auto_with_year_index.index.get_level_values('Measure')==measure]
+
+        print('Measure: {}'.format(measure))
+        print('Number of rows: {}'.format(len(combined_data_concordance_automatic_measure)))
+        print('Time taken so far: {} seconds'.format(time.time()-start_time))
+        print('\n\n')
+        
+        #RUN THE AUTOMATIC METHOD
+        combined_data_concordance_automatic_measure, rows_to_select_manually_measure = automatic_method(combined_data_automatic_measure, combined_data_concordance_automatic_measure,duplicates_auto_measure,duplicates_auto_with_year_index_measure,datasets_to_always_choose,std_out_file = 'intermediate_data/data_selection/{}automatic_method.txt'.format(FILE_DATE_ID))
+
+        #save the data to a csv as checkpoint
+        filename = 'intermediate_data/data_selection/checkpoints/{}{}_combined_data_concordance_automatic.csv'.format(measure,FILE_DATE_ID)
+        combined_data_concordance_automatic_measure.to_csv(filename, index=True)
+        checkpoints_1.append(filename)
+        filename = 'intermediate_data/data_selection/checkpoints/{}rows_to_select_manually_{}.csv'.format(measure,FILE_DATE_ID)
+        rows_to_select_manually_measure_df = pd.DataFrame(rows_to_select_manually_measure, columns=INDEX_COLS_no_year)
+
+        #remove duplicates from rows_to_select_manually_measure_df
+        rows_to_select_manually_measure_df = rows_to_select_manually_measure_df.drop_duplicates()
+        rows_to_select_manually_measure_df.to_csv(filename, index=False)
+        checkpoints_2.append(filename)
+
+    #take in all the checkpoints and combine them into one df
+    combined_data_concordance_automatic = pd.concat([pd.read_csv(checkpoint, index_col=INDEX_COLS) for checkpoint in checkpoints_1])
+    rows_to_select_manually_df = pd.concat([pd.read_csv(checkpoint) for checkpoint in checkpoints_2])
+
+    return combined_data_concordance_automatic, rows_to_select_manually_df
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################################################################
 # 
 #    
 def graph_manual_data(data_for_plotting, index_row):
@@ -231,6 +302,7 @@ def graph_manual_data(data_for_plotting, index_row):
         fig, ax = plt.subplots()
         plt.ion()
         plt.show()
+        ax.get_yaxis().get_major_formatter().set_useOffset(False)
         #join 'Comments' columns to 'Dataset' column if they're  not nan
         data_for_plotting['Dataset'] = data_for_plotting['Dataset'].astype(str)
         data_for_plotting['Comments'] = data_for_plotting['Comments'].astype(str)
@@ -263,7 +335,9 @@ def graph_manual_data(data_for_plotting, index_row):
                 thickness_start -= thickness_step
                 ax.lines[-1].set_markersize(thickness_start)
 
-
+        #create a 0 line so its clear if the value is 0 or not
+        ax.axhline(y=0, color='black', linestyle='--')
+        
         #finalise the plot by adding a legend, titles and subtitles and showing it in advance of user input
         ax.legend()
         ax.set_title('{}: {}\n - {}: {}, {}, {}, {}'.format(index_row[0], index_row[1], index_row[2], index_row[3], index_row[4], index_row[5], index_row[6]))
@@ -274,10 +348,18 @@ def graph_manual_data(data_for_plotting, index_row):
         # fig.savefig('./plotting_output/manual_data_selection/{}_{}.png'.format(FILE_DATE_ID, row.name))#what is row.name i wonder
         # plt.close(fig)
         plt.draw()#show(block=True)#False)
-        plt.pause(3)#needed to give the script time to show the plot before asking for user input
+        plt.pause(1)#needed to give the script time to show the plot before asking for user input
         return fig
+
+
+
+
+
 ########################################################################################################################################################
 #%%
+
+
+
 
 def manual_user_input_function(data_for_plotting, index_row,  combined_data_concordance_manual, INDEX_COLS):       
         #ask the user what they want to choose by looping through the options list and the dataset list and asking the user to choose a number
@@ -330,6 +412,14 @@ def manual_user_input_function(data_for_plotting, index_row,  combined_data_conc
 
         return combined_data_concordance_manual, user_input
 
+
+
+########################################################################################################################################################
+
+
+
+
+
 def manual_ask_and_parse_user_input(year, choice_dict,user_input_question):
         """If the user enters an invalid number, the function will print an error message and prompt the user to try again. If the user enters the same invalid number twice, the function will exit and save the user's progress. If the user enters a valid number, the function will check if the number is in a dictionary of choices, and if it is, the function will return True. If the number is not in the dictionary, the function will return False."""
         input_correct = False
@@ -370,6 +460,17 @@ def manual_ask_and_parse_user_input(year, choice_dict,user_input_question):
                         print('You entered an invalid number. Please enter a valid number from the options above')
                         input_correct = False
         return user_input
+
+
+
+
+
+########################################################################################################################################################
+
+
+
+
+
 
 def manual_apply_user_input_to_data(user_input, choice_dict, options, combined_data_concordance_manual, years_to_ignore, data_for_plotting, year_data, INDEX_COLS):
 
@@ -448,8 +549,8 @@ def manual_apply_user_input_to_data(user_input, choice_dict, options, combined_d
                 combined_data_concordance_manual.loc[rows_to_change,'Value'] = data_to_change.loc[rows_to_change, 'Value']
                 combined_data_concordance_manual.loc[rows_to_change,'Comments'] = data_to_change.loc[rows_to_change, 'Comments']
                 
-                #set number of Num_datapoints to the same value as Count in data_to_change
-                combined_data_concordance_manual.loc[rows_to_change, 'Num_datapoints'] = data_to_change.loc[rows_to_change, 'Count']
+                # #set number of Num_datapoints to the same value as Num_datapoints in data_to_change
+                # combined_data_concordance_manual.loc[rows_to_change, 'Num_datapoints'] = data_to_change.loc[rows_to_change, 'Count']
                 
         #reset the index so that Date is a column again
         combined_data_concordance_manual = combined_data_concordance_manual.reset_index(level=['Date'])
@@ -462,47 +563,8 @@ def manual_apply_user_input_to_data(user_input, choice_dict, options, combined_d
         return combined_data_concordance_manual, years_to_ignore
 #%%
 
-def remove_duplicate_transport_8th_data(combined_data, duplicates):
-       #prepare a copy of our dataframes so we can check that output from follkowing is what we expect
-       #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
-       #we should be able to do this by filtering for Dataset == '8th edition transport model $ Reference' and '8th edition transport model $ Carbon neutrality' and then filtering for rows where all other columns have the same values. Then remove the Reference data from those duplicates. We will then remove that data from the combined data and combined data concordance as well.
-       duplicates_8th_edition_transport_model = combined_data[combined_data['Dataset'].isin(['8th edition transport model $ Carbon neutrality', '8th edition transport model $ Reference'])]
-       #find duplicates
-       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model[duplicates_8th_edition_transport_model.duplicated(subset = ['Measure', 'Medium', 'Value', 'Unit', 'Economy', 'Transport Type', 'Vehicle Type', 'Fuel_Type', 'Comments', 'Scope', 'Frequency', 'Date', 'Drive'], keep=False)]
-       #grab only rows we want to remove
-       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model[duplicates_8th_edition_transport_model['Dataset'] != '8th edition transport model $ Reference']
-       #now remove that data from the combined data and duplicates (for duplicates will need to rmeove the carbon neutral dataset from the datasets list and reduce count by 1)
-       #First remove from combined data:
-       #set all cols to indexes
-       combined_data = combined_data.set_index(combined_data.columns.tolist())
-       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.set_index(duplicates_8th_edition_transport_model.columns.tolist())
-       #now remove the data where the rows are the same
-       combined_data = combined_data.drop(duplicates_8th_edition_transport_model.index)
-       combined_data = combined_data.reset_index()
-       #Now for duplicates:
-       #and for the duplicates df, make the index = all cols indexes except: count, datasets. Then we will do a left join with indicator = True
-       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.reset_index()
-       index_list = duplicates.columns.tolist()
-       index_list.remove('Count')
-       index_list.remove('Datasets')
-       #drop any cols not in duplicates
-       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.drop([i for i in duplicates_8th_edition_transport_model.columns.tolist() if i not in index_list], axis=1)
-       duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.set_index(index_list)
-       duplicates = duplicates.set_index(index_list)
-       duplicates_new = duplicates.merge(duplicates_8th_edition_transport_model, how='left', indicator=True, on=index_list)
-       #NOW WHERE _merge is both, we will remove "8th edition transport model $ Carbon neutrality" from the datasets list and reduce count by 1
-       duplicates_new = duplicates_new.reset_index()
-       duplicates_new1 = duplicates_new[duplicates_new['_merge'] == 'both']
-       duplicates_new2 = duplicates_new[duplicates_new['_merge'] != 'both']
-       duplicates_new1['Datasets'] = duplicates_new1['Datasets'].apply(lambda x: [i for i in x if i != '8th edition transport model $ Carbon neutrality'])
-       duplicates_new1['Count'] = duplicates_new1['Count'] - 1
-       #now remove the _merge column
-       duplicates_new1 = duplicates_new1.drop(columns=['_merge'])
-       duplicates_new2 = duplicates_new2.drop(columns=['_merge'])
-       #concat
-       duplicates = pd.concat([duplicates_new1, duplicates_new2])
-       return combined_data, duplicates
-       #WOULD like to double check the above worked but mind is blanking on how to do this. Will come back to it later.
+
+
 
 #%%
 
@@ -511,192 +573,12 @@ def remove_duplicate_transport_8th_data(combined_data, duplicates):
 
 
 
-def identify_duplicates(combined_dataset, INDEX_COLS):
-    #first chekc for duplicated rows when we ignore the vlaue column
-    duplicates = combined_dataset.copy()
-    duplicates = duplicates.drop(columns=['Value'])
-    duplicates = duplicates[duplicates.duplicated(keep=False)]
-    if len(duplicates) > 0:
-       print('There are duplicate rows in the dataset with different Values. Please fix them before continuing. You will probably want to split them into different datasets. The duplicates are: ')
-       print(duplicates)
-
-       #extrasct the rows with duplicates and sabve them to a csv so we can import them into a spreadsheet to look at them
-       duplicates = combined_dataset.copy()
-       col_no_value = [col for col in duplicates.columns if col != 'Value']
-       duplicates = duplicates[duplicates.duplicated(subset=col_no_value,keep=False)]
-       duplicates.to_csv('intermediate_data/testing/erroneus_duplicates.csv', index=False)
-
-       raise Exception('There are duplicate rows in the dataset. Please fix them before continuing')
-
-    ###########################################################
-    #now recreate duplicates but this time with the value column
-    duplicates = combined_dataset.copy()
-    duplicates =  duplicates.groupby(INDEX_COLS,dropna=False).agg({'Dataset': lambda x: list(x)}).reset_index()
-    #make sure the lists are sorted so that the order is consistent
-    duplicates['Dataset'] = duplicates['Dataset'].apply(lambda x: sorted(x))
-    #create count column
-    duplicates['Count'] = duplicates['Dataset'].apply(lambda x: len(x))
-    #rename dataset to datasets
-    duplicates.rename(columns={'Dataset':'Datasets'}, inplace=True)
-
-    return duplicates
 
 ##############################################################################
 
-def prepare_data_for_selection(combined_data_concordance,combined_data,duplicates,INDEX_COLS,EARLIEST_YEAR = "2010-01-01", LATEST_YEAR = '2020-01-01'):
-    INDEX_COLS_no_year = INDEX_COLS.copy()
-    INDEX_COLS_no_year.remove('Date')
-    
-    #filter data where year is less than our earliest year
-    combined_data = combined_data[combined_data['Date'] >= EARLIEST_YEAR]
-    combined_data_concordance = combined_data_concordance[combined_data_concordance['Date'] >= EARLIEST_YEAR]
-    duplicates = duplicates[duplicates['Date'] >= EARLIEST_YEAR]
-    #and also only data where year is less than the latest year
-    combined_data = combined_data[combined_data['Date'] < LATEST_YEAR]
-    combined_data_concordance = combined_data_concordance[combined_data_concordance['Date'] < LATEST_YEAR]
-    duplicates = duplicates[duplicates['Date'] < LATEST_YEAR]
 
-    #######################################################################
-    #STARTING SPECIFIC FIX, FEEL FREE TO IGNORE IT
-    #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
-    #Unfortunately the code to do this is a bit long and messy so i removed it from this function and put it in data_selection_functions.py
-    combined_data, duplicates = remove_duplicate_transport_8th_data(combined_data, duplicates)
-    do_it_other_way = False
-    if do_it_other_way:
-        #just remove any data for the Carbon neutrality scenario since it is just another scenario and we dont want to have to deal with it
-        combined_data = combined_data[combined_data['Dataset'] != '8th edition transport model $ Carbon neutrality']
-        #to remove it fromduplicates we need to remove it from the datasets lists column and reduce count by 1
-        duplicates['Datasets'] = duplicates['Datasets'].apply(lambda x: [i for i in x if i != '8th edition transport model $ Carbon neutrality'])
-        #double check count is correct
-        duplicates['Count'] = duplicates['Datasets'].apply(lambda x: len(x))
-    #######################################################################
-    
-    #we need a dataframe which replicates the final dataframe but with no values in the dataset, value and duplicate columns (This dataframe is created in aggregation_code\1_aggregate_cleaned_datasets.py so we can just import that as combined_data_concordance)
-    #In the folowing scripts we will fill that df with the dataset that we choose to use for each row. Any rows where we dont have the dataset to use we will leave blank and that will end up as an NA
-    combined_data_concordance['Dataset'] = None
-    combined_data_concordance['Num_datapoints'] = None
-    combined_data_concordance['Value'] = None
-    combined_data_concordance['Dataset_selection_method'] = None
-    combined_data_concordance['Comments'] = None
 
-    #add Datasets and Count columns from duplicates_manual to combined_data for use in setting values
-    combined_data = combined_data.merge(duplicates.reset_index().set_index(INDEX_COLS)[['Datasets', 'Count']], how='left', left_on=INDEX_COLS, right_on=INDEX_COLS)
 
-    #set index of all the dfs we will use MANUAL METHODS, using the INDEX_COLs:
-
-    #AUTOMATIC data prep
-    combined_data_concordance_automatic = combined_data_concordance.set_index(INDEX_COLS)
-    duplicates_auto = duplicates.set_index(INDEX_COLS_no_year)
-    duplicates_auto_with_year_index = duplicates.set_index(INDEX_COLS)
-    combined_data_automatic = combined_data.set_index(INDEX_COLS+['Dataset'])
-
-    #MANUAL data prep
-    combined_data_concordance_iterator = combined_data_concordance[INDEX_COLS_no_year].drop_duplicates().set_index(INDEX_COLS_no_year)#TODO i think this is correct
-    combined_data_concordance_manual = combined_data_concordance.set_index(INDEX_COLS_no_year)
-    duplicates_manual = duplicates.set_index(INDEX_COLS_no_year)
-    combined_data = combined_data.set_index(INDEX_COLS_no_year)
-
-    return combined_data_concordance_automatic,combined_data_concordance_manual,combined_data_concordance_iterator,duplicates_auto,duplicates_auto_with_year_index,combined_data_automatic,duplicates_manual,combined_data
-
-##############################################################################
-#%%
-def automatic_selection(combined_data_concordance_automatic,combined_data_automatic,duplicates_auto,duplicates_auto_with_year_index,INDEX_COLS, datasets_to_always_choose=[],FILE_DATE_ID=''):
-
-    INDEX_COLS_no_year = INDEX_COLS.copy()
-    INDEX_COLS_no_year.remove('Date')
-
-    #AUTOMATIC METHOD
-
-    # datasets_to_always_choose #I DONT THINK THIS IS WORKING TBH
-    checkpoints_1 = []
-    checkpoints_2 = []
-
-    #start a timer to see how long it takes to run the automatic method
-    start_time = time.time()
-
-    #run the automatic method, one measure at a time
-    for measure in combined_data_concordance_automatic.index.get_level_values('Measure').unique():
-        #filter the combined_data_concordance_automatic df to only include the current measure
-        combined_data_concordance_automatic_measure = combined_data_concordance_automatic[combined_data_concordance_automatic.index.get_level_values('Measure')==measure]
-        combined_data_automatic_measure = combined_data_automatic [combined_data_automatic.index.get_level_values('Measure')==measure]
-        duplicates_auto_measure = duplicates_auto[duplicates_auto.index.get_level_values('Measure')==measure]
-        duplicates_auto_with_year_index_measure = duplicates_auto_with_year_index[duplicates_auto_with_year_index.index.get_level_values('Measure')==measure]
-
-        print('Measure: {}'.format(measure))
-        print('Number of rows: {}'.format(len(combined_data_concordance_automatic_measure)))
-        print('Time taken so far: {} seconds'.format(time.time()-start_time))
-        print('\n\n')
-        
-        #RUN THE AUTOMATIC METHOD
-        combined_data_concordance_automatic_measure, rows_to_select_manually_measure = automatic_method(combined_data_automatic_measure, combined_data_concordance_automatic_measure,duplicates_auto_measure,duplicates_auto_with_year_index_measure,datasets_to_always_choose,std_out_file = 'intermediate_data/data_selection/{}automatic_method.txt'.format(FILE_DATE_ID))
-
-        #save the data to a csv as checkpoint
-        filename = 'intermediate_data/data_selection/checkpoints/{}{}_combined_data_concordance_automatic.csv'.format(measure,FILE_DATE_ID)
-        combined_data_concordance_automatic_measure.to_csv(filename, index=True)
-        checkpoints_1.append(filename)
-        filename = 'intermediate_data/data_selection/checkpoints/{}rows_to_select_manually_{}.csv'.format(measure,FILE_DATE_ID)
-        rows_to_select_manually_measure_df = pd.DataFrame(rows_to_select_manually_measure, columns=INDEX_COLS_no_year)
-
-        #remove duplicates from rows_to_select_manually_measure_df
-        rows_to_select_manually_measure_df = rows_to_select_manually_measure_df.drop_duplicates()
-        rows_to_select_manually_measure_df.to_csv(filename, index=False)
-        checkpoints_2.append(filename)
-
-    #take in all the checkpoints and combine them into one df
-    combined_data_concordance_automatic = pd.concat([pd.read_csv(checkpoint, index_col=INDEX_COLS) for checkpoint in checkpoints_1])
-    rows_to_select_manually_df = pd.concat([pd.read_csv(checkpoint) for checkpoint in checkpoints_2])
-
-    return combined_data_concordance_automatic, rows_to_select_manually_df
-
-##############################################################################
-
-def create_manual_data_iterator(combined_data_concordance_iterator,INDEX_COLS,combined_data_concordance_manual,rows_to_select_manually_df=None, pick_up_where_left_off=False, import_previous_selection=False,run_only_on_rows_to_select_manually=False,manually_chosen_rows_to_select=None,user_edited_combined_data_concordance_iterator=None,previous_combined_data_concordance_manual=None, duplicates_manual=None, previous_duplicates_manual=None, progress_csv=None):
-    """
-    manually_chosen_rows_to_select: set to true if you want to manually choose the rows to select using user_edited_combined_data_concordance_iterator
-    user_edited_combined_data_concordance_iterator: a manually chosen dataframe with the rows to select. This allows user to define what they want to select manually (eg. all stocks)
-    
-    duplicates_manual & previous_duplicates_manual need to be available if you want to use either pick_up_where_left_off or import_previous_selection. progress_csv should also be available if you want to use pick_up_where_left_off
-    """
-    #Remove year from the current cols without removing it from original list, and set it as a new list
-    INDEX_COLS_no_year = INDEX_COLS.copy()
-    INDEX_COLS_no_year.remove('Date')
-
-    #CREATE ITERATOR 
-    #if we want to add to the rows_to_select_manually_df to check specific rows then set the below to True
-    if run_only_on_rows_to_select_manually:
-        #if this, only run the manual process on index rows where we couldnt find a dataset to use automatically for some year
-        #since the automatic method is relatively strict there should be a large amount of rows to select manually
-        #note that if any one year cannot be chosen automatically then we will have to choose the dataset manually for all years of that row
-        iterator = rows_to_select_manually_df.copy()
-        iterator.set_index(INDEX_COLS_no_year, inplace=True)
-        iterator.drop_duplicates(inplace=True)#TEMP get rid of this later
-    elif manually_chosen_rows_to_select:
-        #we can add rows form the combined_data_concordance_iterator as edited by the user themselves. 
-        iterator = user_edited_combined_data_concordance_iterator.copy()
-        #since user changed the data we will jsut reset index and set again
-        iterator.reset_index(inplace=True)
-        iterator.set_index(INDEX_COLS_no_year, inplace=True)
-
-        #for this example we will add all Stocks data (for the purpoose of betterunderstanding our stocks data!) and remove all the other data. But this is just an example of what the user could do to select specific rows
-        use_example = False
-        if use_example:
-            iterator.reset_index(inplace=True)
-            iterator = iterator[iterator['Measure']=='Stocks']
-            #set the index to the index cols
-            iterator.set_index(INDEX_COLS_no_year, inplace=True)
-    else:
-        iterator = combined_data_concordance_iterator.copy()
-
-    #now determine whether we want to import previous progress or not:
-    if import_previous_selection:
-        iterator, combined_data_concordance_manual = import_previous_runs_progress_to_manual(previous_combined_data_concordance_manual, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,INDEX_COLS)
-    
-    if pick_up_where_left_off:
-        iterator, combined_data_concordance_manual = pickup_incomplete_manual_progress(progress_csv, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,INDEX_COLS)
-
-    return iterator, combined_data_concordance_manual
-
-##############################################################################
 
 
 def select_best_data_manual(combined_data_concordance_iterator,iterator,combined_data_concordance_manual,combined_data,duplicates_manual,INDEX_COLS,FILE_DATE_ID=''):
@@ -750,9 +632,9 @@ def select_best_data_manual(combined_data_concordance_iterator,iterator,combined
                         #if the row is not in the duplicates_manual dataset then continue to the next row
                         continue
                 
-                #identify how many datasets there are for each year by looking at the Count column
+                #identify how many datasets there are for each year by looking at the Num_datapoints column
                 #if there are rows where count is greater than 1 then we will plot and ask user to choose which dataset to use
-                if (current_row_filter.Count.max() > 1):# | (add_to_rows_to_select_manually_df):#if we ware adding to the rows to select manually df then we want to plot all of them because its important to check them even if none of them are duplicates
+                if (current_row_filter.Num_datapoints.max() > 1):# | (add_to_rows_to_select_manually_df):#if we ware adding to the rows to select manually df then we want to plot all of them because its important to check them even if none of them are duplicates
                         #grab the data for this unique combination of columns from the combined_data df
                         data_for_plotting = combined_data.loc[index_row]
 
@@ -792,230 +674,6 @@ def select_best_data_manual(combined_data_concordance_iterator,iterator,combined
 
 
     
-#%%
-##############################################################################
-#%%
-
-
-def import_previous_runs_progress_to_manual(previous_combined_data_concordance_manual, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,INDEX_COLS):
-    #IMPORT PREVIOUS RUNS PROGRESS
-    #create option to import manual data selection from perveious runs to avoid having to do it again (can replace any rows where the Final_dataset_selection_method is na with where they are Manual in the imported csv)
-    INDEX_COLS_no_year = INDEX_COLS.copy()
-    INDEX_COLS_no_year.remove('Date')
-    ##########################################################
-    #We will make sure there are no index rows in the previous dataframes that are not in the current dataframes
-    #first the duplicates
-    previous_duplicates_manual.set_index(INDEX_COLS, inplace=True)
-    duplicates_manual.set_index(INDEX_COLS, inplace=True)
-    #remove the rows that are in the previous duplicates but not in the current duplicates
-    index_diff = previous_duplicates_manual.index.difference(duplicates_manual.index)
-    previous_duplicates_manual.drop(index_diff, inplace=True)
-    #reset the index
-    previous_duplicates_manual.reset_index(inplace=True)
-    duplicates_manual.reset_index(inplace=True)
-
-    #now for previous_combined_data_concordance_manual and combined_data_concordance_manual
-    previous_combined_data_concordance_manual.set_index(INDEX_COLS, inplace=True)
-    combined_data_concordance_manual.set_index(INDEX_COLS, inplace=True)
-    #remove the rows that are in the previous duplicates but not in the current duplicates
-    index_diff = previous_combined_data_concordance_manual.index.difference(combined_data_concordance_manual.index)
-    previous_combined_data_concordance_manual.drop(index_diff, inplace=True)
-    #reset the index
-    previous_combined_data_concordance_manual.reset_index(inplace=True)
-    combined_data_concordance_manual.reset_index(inplace=True)
-    ##########################################################
-
-    ##There is a chance that some index_rows have had new data added to them, so we will compare the previous duplicates index_rows to the current duplicates and see where thier values are different, make sure that we iterate over them in the manual data selection process
-    #so find different rows in the duplicates:
-    #first make the Datasets col a string so it can be compared
-    a = previous_duplicates_manual.copy()
-    a.Datasets = a.Datasets.astype(str)
-    b = duplicates_manual.copy()
-    b.Datasets = b.Datasets.astype(str)
-    a.set_index(INDEX_COLS_no_year,inplace=True)
-    b.set_index(INDEX_COLS_no_year,inplace=True)
-    duplicates_diff = pd.concat([b, a]).drop_duplicates(keep=False)
-
-    ##First update the iterator:
-    #get the rows where the Dataselection method is manual
-    manual_index_rows = previous_combined_data_concordance_manual.copy()
-
-    #create a version where we rmeove Date
-    manual_index_rows_no_date = manual_index_rows.copy()
-    manual_index_rows_no_date.drop('Date', axis=1, inplace=True)
-    #remove duplicates
-    manual_index_rows_no_date.drop_duplicates(inplace=True)
-    #now we want to remove any rows where the Dataselection method is manual so we dont overwrite them in selection process
-    manual_index_rows_no_date_no_manual = manual_index_rows_no_date[manual_index_rows_no_date.Dataset_selection_method!='Manual']
-    #but note that there are some rows where because we are missing any data for certain years then their index will be added to the iterator as well, so we need to remove these rows by searching for them:
-    manual_index_rows_no_date_manual = manual_index_rows_no_date[manual_index_rows_no_date.Dataset_selection_method=='Manual']
-    #now set index to same as iterator, so there is no Date col. 
-    manual_index_rows_no_date_manual.set_index(INDEX_COLS_no_year, inplace=True)
-    manual_index_rows_no_date_no_manual.set_index(INDEX_COLS_no_year, inplace=True)
-
-    #remove rows that have changed in teh duplcuicates dfs from manual_index_rows_no_date_manual so they dont get removed from the iterator:
-    manual_index_rows_no_date_manual = manual_index_rows_no_date_manual[~manual_index_rows_no_date_manual.index.isin(duplicates_diff.index)]
-
-    #make sure theres no rows in no_manual that are in manual (this will remove all rows, regardless of date where one of teh rows has been selected manually)
-    manual_index_rows_no_date_no_manual = manual_index_rows_no_date_no_manual[~manual_index_rows_no_date_no_manual.index.isin(manual_index_rows_no_date_manual.index)]
-
-    #KEEP only these rows in the iterator by finding the index rows in both dfs 
-    iterator = iterator[iterator.index.isin(manual_index_rows_no_date_no_manual.index)]
-
-    ##And now update the combined_data_concordance_manual that we were orignially using:
-    #find the index_rows that we have already set in previous_combined_data_concordance_manual and remove them from combined_data_concordance_manual, then replace them with the rows from previous_combined_data_concordance_manual.
-    previous_combined_data_concordance_manual.set_index(INDEX_COLS_no_year,inplace=True)
-    combined_data_concordance_manual.set_index(INDEX_COLS_no_year,inplace=True)
-
-    #remove the different rows in the duplicates from the index_rows we are about to remove from combined_data_concordance_manual, so we dont miss them and instead go over any index_rows we have new data for
-    previous_combined_data_concordance_manual = previous_combined_data_concordance_manual[~previous_combined_data_concordance_manual.index.isin(duplicates_diff.index)]
-
-    #now remove these index_rows from combined_data_concordance_manual
-    combined_data_concordance_manual = combined_data_concordance_manual[~combined_data_concordance_manual.index.isin(previous_combined_data_concordance_manual.index)]
-
-    #replace these rows in combined_data_concordance_manual by using concat
-    combined_data_concordance_manual = pd.concat([combined_data_concordance_manual, previous_combined_data_concordance_manual])
-
-    #reset index
-    combined_data_concordance_manual.reset_index(inplace=True)
-
-    return iterator, combined_data_concordance_manual
-
-
-##########################################################################################
-
-
-def pickup_incomplete_manual_progress(progress_csv, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,INDEX_COLS):
-    ##PICKUP LATEST PROGRESS
-    #we want to save the state the user was last at so they can pick up on where they last left off. So load in the data from progress_csv, see what values have had their Dataselection method set to manual and remove them from the iterator.
-    #we will then replace those rows in combined_data_concordance_manual
-    #there is one subtle part to this, in that an index row will only be removed from the iterator if all the years of that index row have been set to manual. So if the user has set some years to manual but not all, for example by quitting halfway through choosing all the values for a chart, then we will not remove that index row from the iterator and the user should redo it. BUT if during the selection process the user skips rows then this will save that (they can be identified as rows where the dataselection method is manual but the value and num datapoints are NaN - they will be interpolated later)
-    INDEX_COLS_no_year = INDEX_COLS.copy()
-    INDEX_COLS_no_year.remove('Date')
-    #make the date column a datetime object
-    progress_csv.Date = progress_csv.Date.apply(lambda x: str(x) + '-12-31')
-    
-    ##########################################################
-    #We will make sure there are no index rows in the previous dataframes that are not in the current dataframes
-    #first the duplicates
-    previous_duplicates_manual.set_index(INDEX_COLS, inplace=True)
-    duplicates_manual.set_index(INDEX_COLS, inplace=True)
-    #remove the rows that are in the previous duplicates but not in the current duplicates
-    index_diff = previous_duplicates_manual.index.difference(duplicates_manual.index)
-    previous_duplicates_manual.drop(index_diff, inplace=True)
-    #reset the index
-    previous_duplicates_manual.reset_index(inplace=True)
-    duplicates_manual.reset_index(inplace=True)
-
-    #now for previous_combined_data_concordance_manual and combined_data_concordance_manual
-    progress_csv.set_index(INDEX_COLS, inplace=True)
-    combined_data_concordance_manual.set_index(INDEX_COLS, inplace=True)
-    #remove the rows that are in the previous duplicates but not in the current duplicates
-    index_diff = progress_csv.index.difference(combined_data_concordance_manual.index)
-    progress_csv.drop(index_diff, inplace=True)
-    #reset the index
-    progress_csv.reset_index(inplace=True)
-    combined_data_concordance_manual.reset_index(inplace=True)
-    ##########################################################
-
-    progress_csv.set_index(INDEX_COLS, inplace=True)
-
-    ##There is a chance that some index_rows have had new data added to them, so we will compare the previous duplicates index_rows to the current duplicates and see where thier values are different, make sure that we iterate over them in the manual data selection process
-    #so find different rows in the duplicates:
-    #first make the Datasets col a string so it can be compared
-    a = previous_duplicates_manual.copy()
-    a.Datasets = a.Datasets.astype(str)
-    b = duplicates_manual.copy()
-    b.Datasets = b.Datasets.astype(str)
-    a.set_index(INDEX_COLS_no_year,inplace=True)
-    b.set_index(INDEX_COLS_no_year,inplace=True)
-    duplicates_diff = pd.concat([b, a]).drop_duplicates(keep=False)
-    
-    #First update the iterator:
-    #get the rows where the Dataselection method is manual
-    manual_index_rows = progress_csv.copy()
-    #create a version where we rmeove Date
-    manual_index_rows_no_date = manual_index_rows.copy()
-    manual_index_rows_no_date.reset_index(inplace=True)
-    manual_index_rows_no_date.drop('Date', axis=1, inplace=True)
-    #remove duplicates
-    manual_index_rows_no_date.drop_duplicates(inplace=True)
-    #now we want to remove any rows where the Dataselection method is manual 
-    manual_index_rows_no_date_no_manual = manual_index_rows_no_date[manual_index_rows_no_date.Dataset_selection_method!='Manual']
-    #but note that there are some rows where because we are missing any data for certain years then their index will be added to the iterator as well, so we need to remove these rows by searching for them:
-    manual_index_rows_no_date_manual = manual_index_rows_no_date[manual_index_rows_no_date.Dataset_selection_method=='Manual']
-    #now set index to same as iterator
-    manual_index_rows_no_date_manual.set_index(INDEX_COLS_no_year, inplace=True)
-    manual_index_rows_no_date_no_manual.set_index(INDEX_COLS_no_year, inplace=True)
-    
-    #remove rows that have changed in teh duplcuicates dfs from manual_index_rows_no_date_manual so they dont get removed from the iterator:
-    manual_index_rows_no_date_manual = manual_index_rows_no_date_manual[~manual_index_rows_no_date_manual.index.isin(duplicates_diff.index)]
-
-    #make sure theres no rows in no_manual that are in manual
-    manual_index_rows_no_date_no_manual = manual_index_rows_no_date_no_manual[~manual_index_rows_no_date_no_manual.index.isin(manual_index_rows_no_date_manual.index)]
-    #KEEP only these rows in the iterator by finding the index rows in both dfs 
-    iterator = iterator[iterator.index.isin(manual_index_rows_no_date_no_manual.index)]
-
-    ##And now update the combined_data_concordance_manual:
-    #find the rows that we have already set in combined_data_concordance_manual and remove them, then replace them with the new rows
-    manual_index_rows = manual_index_rows[manual_index_rows.Dataset_selection_method=='Manual']
-
-    #remove the different rows in the duplicates from the index_rows we are about to remove from combined_data_concordance_manual, so we dont miss them and instead go over any index_rows we have new data for
-    #set index to index_cols_no_year
-    manual_index_rows.reset_index(inplace=True)
-    manual_index_rows.set_index(INDEX_COLS_no_year, inplace=True)
-    manual_index_rows = manual_index_rows[~manual_index_rows.index.isin(duplicates_diff.index)]
-    manual_index_rows.reset_index(inplace=True)
-    #make date a part of the index in combined_data_concordance_manual
-    combined_data_concordance_manual.set_index(INDEX_COLS,inplace=True)
-    manual_index_rows.set_index(INDEX_COLS,inplace=True)
-
-    #now remove these rows from combined_data_concordance_manual
-    combined_data_concordance_manual = combined_data_concordance_manual[~combined_data_concordance_manual.index.isin(manual_index_rows.index)]
-    #replace these rows in combined_data_concordance_manual by using concat
-    combined_data_concordance_manual = pd.concat([combined_data_concordance_manual, manual_index_rows])
-    #remove Date from index
-    combined_data_concordance_manual.reset_index(inplace=True)
-
-    return iterator, combined_data_concordance_manual
-
-##########################################################################################
-
-def combine_manual_and_automatic_output(combined_data_concordance_automatic,combined_data_concordance_manual,INDEX_COLS):
-
-    INDEX_COLS_no_year = INDEX_COLS.copy()
-    INDEX_COLS_no_year.remove('Date')
-
-    #COMBINE MANUAL AND AUTOMATIC DATA SELECTION OUTPUT DFs
-    #join the automatic and manual datasets so we can compare the dataset  columns from both the manual dataset automatic dataset
-    #create a final_dataset column. This will be filled with the dataset in the automatic column, except where the values in the manual and automatic dataset columns are different, for which we will use the value in the manual dataset.
-
-    #reset and set index of both dfs to INDEX_COLS
-    combined_data_concordance_manual = combined_data_concordance_manual.set_index(INDEX_COLS)
-    combined_data_concordance_automatic = combined_data_concordance_automatic.reset_index().set_index(INDEX_COLS)
-
-    #join manual and automatic data selection dfs
-    final_combined_data_concordance = combined_data_concordance_manual.merge(combined_data_concordance_automatic, how='outer', left_index=True, right_index=True, suffixes=('_manual', '_auto'))
-
-    #we will either have dataset names or nan values in the manual and automatic dataset columns. We want to use the manual dataset column if it is not nan, otherwise use the automatic dataset column:
-    #first set the dataset_selection_method column based on that criteria, and then use that to set other columns
-    final_combined_data_concordance.loc[final_combined_data_concordance['Dataset_auto'].notnull(), 'Final_dataset_selection_method'] = 'Automatic'
-    #if the manual dataset column is not nan then use that instead
-    final_combined_data_concordance.loc[final_combined_data_concordance['Dataset_manual'].notnull(), 'Final_dataset_selection_method'] = 'Manual'
-
-    #Now depending on the value of the final_dataset_selection_method column, we can set final_value and final_dataset columns
-    #if the final_dataset_selection_method is manual then use the manual dataset column
-    final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Manual', 'Value'] = final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Manual','Value_manual']
-    final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Manual', 'Dataset'] = final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Manual','Dataset_manual']
-    #if the final_dataset_selection_method is automatic then use the automatic dataset column
-    final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Automatic', 'Dataset'] = final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Automatic','Dataset_auto']
-    final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Automatic', 'Value'] = final_combined_data_concordance.loc[final_combined_data_concordance['Final_dataset_selection_method'] == 'Automatic','Value_auto']
-
-    #drop cols ending in _manual and _auto
-    final_combined_data_concordance.drop(columns=[col for col in final_combined_data_concordance.columns if col.endswith('_manual') or col.endswith('_auto')], inplace=True)
-
-    return final_combined_data_concordance
-
 
 
 ############################################
@@ -1051,9 +709,9 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
         progress = progress.loc[:, ~progress.columns.str.contains('Unnamed')]
         print('Unnamed cols removed from progress dataframe in interpolation')
         # in case the user wants to stop the code running and come back to it later, we will save the data after each measure is done. This will allow the user to pick up where they left off. So here we will load in the data from the last saved file and update the final_combined_data_concordance df so any of the users changes are kept. This will also identify if the data currently set in combined data concordance for that index row has changed since last time. If it has then we will not overwrite it an the user will ahve to inrerpolate it again.
-        #so first identify where there are either 'interpolation' or 'interpolation skipped' in the final_dataselection_method column:
-        previous_progress = progress.loc[progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
-        previous_progress_no_interpolation = progress.loc[~progress.Final_dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
+        #so first identify where there are either 'interpolation' or 'interpolation skipped' in the Dataset_selection_method column:
+        previous_progress = progress.loc[progress.Dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
+        previous_progress_no_interpolation = progress.loc[~progress.Dataset_selection_method.isin(['interpolation', 'interpolation skipped'])]
         #for each index row in previous_progress, check if teh sum of Value col in previous_progress_no_interpolation, matches that for final_combined_data_concordance. If not then some data point has changed and we will need to reinterpolate the data, otherwiose we can just replace the data in final_combined_data_concordance with the data in previous_progress
         for index_row in previous_progress_no_interpolation.index.unique():
             if index_row in final_combined_data_concordance.index.unique():
@@ -1080,11 +738,15 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
     
     #chekc for dsuplicates in final_combined_data_concordance
     #if there are then we should return them asnd ask the user to remove them
-    duplicates = final_combined_data_concordance[final_combined_data_concordance.duplicated()]
+    copy_x = final_combined_data_concordance.copy()
+    duplicates = copy_x[copy_x.duplicated()]
     if duplicates.shape[0] > 0:
         print('Duplicates found in final_combined_data_concordance. Please remove them and try again. Returning them now.')
         return duplicates, final_combined_data_concordance
 
+    #make Vlaue column a float(.astype(float)) so we can interpolate it
+    final_combined_data_concordance.Value = final_combined_data_concordance.Value.astype(float)
+    
     #split the data into measures to make the dataset smaller and so faster to work on
     skipped_rows = []
     import matplotlib
@@ -1115,11 +777,11 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
             
             #if data is only one row long then we can't interpolate so we will skip it
             if (len(current_data.shape) == 1):
-                #if value is NaN then we can just set Final_dataset_selection_method to 'not enough values to interpolate' in final_combined_data_concordance_measure, else we will leave it as it is
+                #if value is NaN then we can just set Dataset_selection_method to 'not enough values to interpolate' in final_combined_data_concordance_measure, else we will leave it as it is
                 skipped_rows.append(index_row)
                 temp = final_combined_data_concordance_measure.loc[index_row]
                 if np.isnan(temp.Value):
-                    temp.Final_dataset_selection_method ='not enough values to interpolate'
+                    temp.Dataset_selection_method ='not enough values to interpolate'
                 final_combined_data_concordance_measure.loc[index_row] = temp
                 continue
 
@@ -1128,8 +790,8 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                 skipped_rows.append(index_row)
                 temp = final_combined_data_concordance_measure.loc[index_row]
                 if np.isnan(temp.Value[0]):
-                    temp.Final_dataset_selection_method ='not enough values to interpolate'
-                #set final_combined_data_concordance_measure to temp (this will only change the Final_dataset_selection_method column where the Value is NA to indicate that we skipped it)
+                    temp.Dataset_selection_method ='not enough values to interpolate'
+                #set final_combined_data_concordance_measure to temp (this will only change the Dataset_selection_method column where the Value is NA to indicate that we skipped it)
                 final_combined_data_concordance_measure.loc[index_row] = temp
                 continue
 
@@ -1142,15 +804,15 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
             #reset index and sort by year
             current_data_interpolation = current_data_interpolation.reset_index().sort_values(by='Date')
         
-            #if tehre are no na values in the Values column where Final_dataset_selection_method is not == 'interpolation skipped' then we will not interpolate because there is no data to interpolate
-            if current_data_interpolation.loc[current_data_interpolation.Final_dataset_selection_method != 'interpolation skipped', 'Value'].isnull().sum() == 0:
+            #if tehre are no na values in the Values column where Dataset_selection_method is not == 'interpolation skipped' then we will not interpolate because there is no data to interpolate
+            if current_data_interpolation.loc[current_data_interpolation.Dataset_selection_method != 'interpolation skipped', 'Value'].isnull().sum() == 0:
                 continue
             #doulbe check that less than 70% of the data is missing. If not then we will not interpolate
             if current_data_interpolation['Value'].isnull().sum() / len(current_data_interpolation) > percent_of_values_needed_to_interpolate:
                 skipped_rows.append(index_row)#we can check on this later to see if we should have interpolated these rows
-                #also set Final_dataset_selection_method where it is NA to 'not enough values to interpolate'
-                current_data_interpolation.loc[current_data_interpolation['Value'].isnull(), 'Final_dataset_selection_method'] = 'not enough values to interpolate'
-                #set final_combined_data_concordance_measure to the current data df (this will only change the Final_dataset_selection_method column where the Value is NA to indicate that we skipped it)
+                #also set Dataset_selection_method where it is NA to 'not enough values to interpolate'
+                current_data_interpolation.loc[current_data_interpolation['Value'].isnull(), 'Dataset_selection_method'] = 'not enough values to interpolate'
+                #set final_combined_data_concordance_measure to the current data df (this will only change the Dataset_selection_method column where the Value is NA to indicate that we skipped it)
                 current_data_interpolation = current_data_interpolation.set_index(INDEX_COLS_no_year)
                 #drop the index row from final_combined_data_concordance_measure
                 final_combined_data_concordance_measure = final_combined_data_concordance_measure.drop(index_row)
@@ -1217,7 +879,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                 #set background as white
                 ax.set_facecolor('white')
                 plt.draw()#show(block=True)#False)
-                plt.pause(3)#needed to give the script time to show the plot before asking for user input # plt.show(block=False)
+                plt.pause(1)#needed to give the script time to show the plot before asking for user input # plt.show(block=False)
 
                 #ask the user to choose which method to use
                 print('{}: {}'.format('0', 'Skip this row'))
@@ -1237,7 +899,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                         interpolation_method = interpolation_methods_current[int(user_input)-1]
                         #set interpolated value to that column and remove all interpoaltion columns
                         current_data_interpolation['interpolated_value'] = current_data_interpolation[interpolation_method]
-                        Final_dataset_selection_method = 'interpolation'
+                        Dataset_selection_method = 'interpolation'
                         current_data_interpolation = current_data_interpolation.drop(columns=interpolation_methods_current)
                         user_input_correct = True
                     except:
@@ -1251,10 +913,10 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                             print('Invalid input. Try again, if you input the same incorrect value again we will quit the program')
                             wrong_user_input = user_input
                 if user_input == '0':
-                    #if this happens then we will set the Final_dataset_selection_method col to 'interpolation skipped'
-                    Final_dataset_selection_method = 'interpolation skipped'
+                    #if this happens then we will set the Dataset_selection_method col to 'interpolation skipped'
+                    Dataset_selection_method = 'interpolation skipped'
                     #double check that that worked #TODO
-                    print('Final_dataset_selection_method for {} is {}'.format(index_row, final_combined_data_concordance_measure.loc[index_row, 'Final_dataset_selection_method']))
+                    print('Dataset_selection_method for {} is {}'.format(index_row, final_combined_data_concordance_measure.loc[index_row, 'Dataset_selection_method']))
                 if break_loop:
                     plt.close('all')
                     break#this occurs if the user inputs the same incorrect value twice, which will probvably occur if they want to quit current process.
@@ -1272,7 +934,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                     try:
                         #interpolate the values for the interpolation method
                         current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both', limit=INTERPOLATION_LIMIT)
-                        Final_dataset_selection_method = 'interpolation'
+                        Dataset_selection_method = 'interpolation'
                     except:
                         #spline method order is too high, try lower order and if that fails then try linear method
                         interpolated = False
@@ -1281,7 +943,7 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                                 #interpolate the values for the interpolation method
                                 current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, order=order, limit_direction='both', limit=INTERPOLATION_LIMIT)
                                 interpolated = True
-                                Final_dataset_selection_method = 'interpolation'
+                                Dataset_selection_method = 'interpolation'
                                 break
                             except:
                                 continue
@@ -1292,10 +954,10 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                                 interpolation_method_string = 'linear'
                                 #interpolate the values for the interpolation method
                                 current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, limit_direction='both', limit=INTERPOLATION_LIMIT)
-                                Final_dataset_selection_method = 'interpolation'
+                                Dataset_selection_method = 'interpolation'
                             except:
-                                #if the linear method fails then set the Final_dataset_selection_method to 'interpolation skipped'
-                                Final_dataset_selection_method = 'interpolation skipped'
+                                #if the linear method fails then set the Dataset_selection_method to 'interpolation skipped'
+                                Dataset_selection_method = 'interpolation skipped'
                                 print('interpolation failed for {}, so it has been recorded as "interpolation skipped"'.format(index_row))
                 else:   
                     #interpolate the values for the interpolation method that doesnt    require an order
@@ -1303,32 +965,34 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
                         interpolation_method_string = interpolation_method
                         #interpolate the values for the interpolation method
                         current_data_interpolation['interpolated_value'] = current_data_interpolation['Value'].interpolate(method=interpolation_method_string, limit_direction='both', limit=INTERPOLATION_LIMIT)
-                        Final_dataset_selection_method = 'interpolation'
+                        Dataset_selection_method = 'interpolation'
                     except:
-                        #if the linear method fails then set the Final_dataset_selection_method to 'interpolation skipped'
-                        Final_dataset_selection_method = 'interpolation skipped'
+                        #if the linear method fails then set the Dataset_selection_method to 'interpolation skipped'
+                        Dataset_selection_method = 'interpolation skipped'
                         print('interpolation failed for {}, so it has been recorded as "interpolation skipped"'.format(index_row))
 
             ########################################################################################################################################################
             ##FINALIZE INTERPOLATION
-            #where Value is NaN set Value to the interpolation value and set Final_dataset_selection_method to 'interpolated'
-            current_data_interpolation.loc[current_data_interpolation['Value'].isna(), 'Final_dataset_selection_method'] = Final_dataset_selection_method
+            #where Value is NaN set Value to the interpolation value and set Dataset_selection_method to 'interpolated'
+            current_data_interpolation.loc[current_data_interpolation['Value'].isna(), 'Dataset_selection_method'] = Dataset_selection_method
 
-            if Final_dataset_selection_method == 'interpolation':
+            if Dataset_selection_method == 'interpolation':
                 current_data_interpolation.loc[current_data_interpolation['Value'].isna() & current_data_interpolation['interpolated_value'].notna(), 'Value'] = current_data_interpolation['interpolated_value']
                 #testing 
                 #check if there are any values where interpolated_value is nan as well as Value. this doesnt seem to occur but best to be safe
                 if current_data_interpolation.loc[current_data_interpolation['Value'].isna() & current_data_interpolation['interpolated_value'].isna()].shape[0] > 0:
                     print('there are values where interpolated_value is nan as well as Value')
                     print(current_data_interpolation.loc[current_data_interpolation['Value'].isna() & current_data_interpolation['interpolated_value'].isna()])
+                    #set the Dataset_selection_method to 'interpolation skipped' for this specific row:
+                    current_data_interpolation.loc[current_data_interpolation['Value'].isna() & current_data_interpolation['interpolated_value'].isna(), 'Dataset_selection_method'] = 'interpolation skipped'
                     #throw error
-                    raise ValueError('there are values where interpolated_value is nan as well as Value')#this did happen once when i was loading in progress not realted to the new data i was interpolating
-            elif Final_dataset_selection_method == 'interpolation skipped':
+                    # raise ValueError('there are values where interpolated_value is nan as well as Value')#this did happen once when i was loading in progress not realted to the new data i was interpolating
+            elif Dataset_selection_method == 'interpolation skipped':
                 pass
             else:
-                print('something is wrong with the Final_dataset_selection_method for {}'.format(index_row))
+                print('something is wrong with the Dataset_selection_method for {}'.format(index_row))
                 #throw error
-                raise ValueError('something is wrong with the Final_dataset_selection_method for {}'.format(index_row))
+                raise ValueError('something is wrong with the Dataset_selection_method for {}'.format(index_row))
 
             #set the index to the original index#.reset_index()
             current_data_interpolation = current_data_interpolation.set_index(INDEX_COLS_no_year)
@@ -1377,3 +1041,49 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,automa
 
 
 
+
+
+
+# def remove_duplicate_transport_8th_data(combined_data, duplicates):
+#        #NOTE PLEASE DONT USE THIS UNTIL YOUVE WORKED OUT HOW TO APPLY THE VLAUE COLUMN IN THE DUPLICATES COL WHICH WAS NEWLY INTRODUCED IN 2/10/2023
+#        #prepare a copy of our dataframes so we can check that output from follkowing is what we expect
+#        #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
+#        #we should be able to do this by filtering for Dataset == '8th edition transport model $ Reference' and '8th edition transport model $ Carbon neutrality' and then filtering for rows where all other columns have the same values. Then remove the Reference data from those duplicates. We will then remove that data from the combined data and combined data concordance as well.
+#        duplicates_8th_edition_transport_model = combined_data[combined_data['Dataset'].isin(['8th edition transport model $ Carbon neutrality', '8th edition transport model $ Reference'])]
+#        #find duplicates
+#        duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model[duplicates_8th_edition_transport_model.duplicated(subset = ['Measure', 'Medium', 'Value', 'Unit', 'Economy', 'Transport Type', 'Vehicle Type', 'Fuel_Type', 'Comments', 'Scope', 'Frequency', 'Date', 'Drive'], keep=False)]
+#        #grab only rows we want to remove
+#        duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model[duplicates_8th_edition_transport_model['Dataset'] != '8th edition transport model $ Reference']
+#        #now remove that data from the combined data and duplicates (for duplicates will need to rmeove the carbon neutral dataset from the datasets list and reduce count by 1)
+#        #First remove from combined data:
+#        #set all cols to indexes
+#        combined_data = combined_data.set_index(combined_data.columns.tolist())
+#        duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.set_index(duplicates_8th_edition_transport_model.columns.tolist())
+#        #now remove the data where the rows are the same
+#        combined_data = combined_data.drop(duplicates_8th_edition_transport_model.index)
+#        combined_data = combined_data.reset_index()
+#        #Now for duplicates:
+#        #and for the duplicates df, make the index = all cols indexes except: count, datasets. Then we will do a left join with indicator = True
+#        duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.reset_index()
+#        index_list = duplicates.columns.tolist()
+#        index_list.remove('Count')
+#        index_list.remove('Datasets')
+#        index_list.remove('Value')
+#        #drop any cols not in duplicates
+#        duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.drop([i for i in duplicates_8th_edition_transport_model.columns.tolist() if i not in index_list], axis=1)
+#        duplicates_8th_edition_transport_model = duplicates_8th_edition_transport_model.set_index(index_list)
+#        duplicates = duplicates.set_index(index_list)
+#        duplicates_new = duplicates.merge(duplicates_8th_edition_transport_model, how='left', indicator=True, on=index_list)
+#        #NOW WHERE _merge is both, we will remove "8th edition transport model $ Carbon neutrality" from the datasets list and reduce count by 1
+#        duplicates_new = duplicates_new.reset_index()
+#        duplicates_new1 = duplicates_new[duplicates_new['_merge'] == 'both']
+#        duplicates_new2 = duplicates_new[duplicates_new['_merge'] != 'both']
+#        duplicates_new1['Datasets'] = duplicates_new1['Datasets'].apply(lambda x: [i for i in x if i != '8th edition transport model $ Carbon neutrality'])
+#        duplicates_new1['Count'] = duplicates_new1['Count'] - 1
+#        #now remove the _merge column
+#        duplicates_new1 = duplicates_new1.drop(columns=['_merge'])
+#        duplicates_new2 = duplicates_new2.drop(columns=['_merge'])
+#        #concat
+#        duplicates = pd.concat([duplicates_new1, duplicates_new2])
+#        return combined_data, duplicates
+#        #WOULD like to double check the above worked but mind is blanking on how to do this. Will come back to it later.

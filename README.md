@@ -15,6 +15,8 @@ conda activate ./env_jupyter
 
 Note that installing those libraries in the yml files will result in a few other dependencies also being installed.
 
+# To do
+The jupyter environment needs to be renamed to specify that it is for the transport data system. This is because it is not the same as the jupyter environment for the transport model and when running things using vs code it doesnt specify the root folder. Use this i think: conda rename ./env_jupyter ./data_system_env_jupyter
 
 ## About
 This system is intended for handling all data that is needed in the transport model and other APERC transport related systems/analysis.

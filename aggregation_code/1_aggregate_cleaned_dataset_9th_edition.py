@@ -96,6 +96,26 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/e
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 nearest_available_date = pd.read_csv('./intermediate_data/estimated/nearest_available_date{}.csv'.format(FILE_DATE_ID))
 
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/IEA/', '_iea_fuel_economy.csv')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+iea_fuel_economy = pd.read_csv('intermediate_data/IEA/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/IEA/', '_evs.csv')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+iea_evs = pd.read_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+missing_drive_values = pd.read_csv('intermediate_data/estimated/filled_missing_values/missing_drive_values_{}.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'occ_load_guesses')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+occ_load = pd.read_csv('intermediate_data/estimated/occ_load_guesses{}.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'new_vehicle_efficiency_estimates_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+vehicle_eff = pd.read_csv('intermediate_data/estimated/new_vehicle_efficiency_estimates_{}.csv'.format(FILE_DATE_ID))
+
 ############################################################
 
 #HANDLE SPECIFIC DATASETS
@@ -122,7 +142,7 @@ item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
 ############################################################
 #%%
 #join data together using concat
-combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall,turnover_rate_3pct,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date], ignore_index=True)
+combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall,turnover_rate_3pct,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date,missing_drive_values,occ_load,vehicle_eff], ignore_index=True)
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 
@@ -137,6 +157,10 @@ combined_data['Scope'] = combined_data['Scope'].fillna('National')
 #%%
 #remove all na values in value column
 combined_data = combined_data[combined_data['Value'].notna()]
+
+#%%
+#To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
+combined_data = combined_data[combined_data['Source'] != 'Carbon neutrality']
 
 #%%
 #check the index rows for duplicates and then remove the ones we dont want
@@ -233,7 +257,7 @@ filtered_combined_data.reset_index(inplace=True)
 #import snapshot of 9th concordance
 model_concordances_base_year_measures_file_name = 'model_concordances_measures.csv'
 model_concordances_measures = pd.read_csv('./intermediate_data/9th_dataset/{}'.format(model_concordances_base_year_measures_file_name))
-
+#%%
 #In the concordance, let's include all data we can between 2000 and 2022, because it will be easier to filter out the data we don't want later and this may allow for interpolation of data
 #so create a copy, set the date to 2000-12-31 and then append it to the original dataset. Do this for every year between 2000 and 2022, except for the year that is already in the dataset
 original_years = model_concordances_measures['Date'].unique()

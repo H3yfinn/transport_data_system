@@ -32,10 +32,6 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/i
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 item_data_apec_tall = pd.read_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv')
 
-file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/iea/', '_evs.csv')
-FILE_DATE_ID = 'DATE{}'.format(file_date)
-iea_evs = pd.read_csv('intermediate_data/iea/{}_evs.csv'.format(FILE_DATE_ID))
-
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 passenger_road_updates = pd.read_csv('./intermediate_data/estimated/{}_8th_ATO_passenger_road_updates.csv'.format(FILE_DATE_ID))
@@ -75,6 +71,22 @@ ATO_revenue_pkm = pd.read_csv('intermediate_data/estimated/ATO_revenue_pkm' + FI
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'nearest_available_date')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 nearest_available_date = pd.read_csv('./intermediate_data/estimated/nearest_available_date{}.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/IEA/', '_iea_fuel_economy.csv')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+iea_fuel_economy = pd.read_csv('intermediate_data/IEA/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/IEA/', '_evs.csv')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+iea_evs = pd.read_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+missing_drive_values = pd.read_csv('intermediate_data/estimated/filled_missing_values/missing_drive_values_{}.csv'.format(FILE_DATE_ID))
+
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/estimated/', 'occ_load_guesses')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+occ_load = pd.read_csv('intermediate_data/estimated/occ_load_guesses{}.csv'.format(FILE_DATE_ID))
 ############################################################
 
 #HANDLE SPECIFIC DATASETS
@@ -114,7 +126,7 @@ iea_evs = iea_evs.drop(columns=['Year'])
 
 #%%
 #handle iea fuel economy dataset
-iea_fuel_economy = pd.read_csv('intermediate_data/iea/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID))
+
 iea_fuel_economy['Dataset'] = 'IEA Fuel Economy'
 #make the first letter of words in columns uppercase
 iea_fuel_economy.columns = iea_fuel_economy.columns.str.title()
@@ -136,7 +148,7 @@ iea_fuel_economy = iea_fuel_economy.drop(columns=['Year'])
 ############################################################
 #%%
 #join data together using concat
-combined_data = pd.concat([ATO_dataset_clean, eigth_edition_transport_data, item_data_apec_tall, iea_evs, iea_fuel_economy,  bus_passengerkm_updates, passenger_road_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date], ignore_index=True)
+combined_data = pd.concat([ATO_dataset_clean, eigth_edition_transport_data, item_data_apec_tall, iea_evs, iea_fuel_economy,  bus_passengerkm_updates, passenger_road_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date,missing_drive_values], ignore_index=True)
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 
@@ -152,6 +164,13 @@ combined_data['Scope'] = combined_data['Scope'].fillna('National')
 #remove all na values in value column
 combined_data = combined_data[combined_data['Value'].notna()]
 
+#%%
+
+#To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
+combined_data = combined_data[combined_data['Source'] != 'Carbon neutrality']
+# #set any na's to strs
+# combined_data = combined_data.fillna('nan')
+# combined_data[combined_data.duplicated()]
 ############################################################
 
 #CHECK FOR ERRORS AND HANDLE THEM

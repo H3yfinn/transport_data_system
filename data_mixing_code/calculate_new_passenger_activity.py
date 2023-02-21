@@ -63,6 +63,7 @@ bus_road = ato_bus_data.merge(ato_road_passenger_km_data, on=non_level_index_col
 
 #calcualte the proportion of bus passenger km to total road passenger km for each economy in the ATO 'Country official statistics' dataset
 bus_road['Vehicle Type_proportion'] = bus_road['Value_bus']/bus_road['Value_road']
+#%%
 bus_road = bus_road.drop(columns=['Value_bus','Value_road', 'Drive'])
 
 #%%

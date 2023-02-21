@@ -114,5 +114,5 @@ evs['Medium'] = 'road'
 #great looks pretty clean from here!
 
 #saeve the data
-evs.to_csv('intermediate_data/iea/{}_evs.csv'.format(FILE_DATE_ID), index=False)
+evs.to_csv('input_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
 # %%

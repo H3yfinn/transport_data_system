@@ -22,7 +22,7 @@ import plotly.graph_objects as go
 import plotly
 import itertools
 import datetime
-
+import pickle
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
@@ -34,8 +34,19 @@ import utility_functions as utility_functions
 file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/ATO_data/', 'ATO_extracted_data_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
-#load in the data
-ATO_data = pd.read_csv('intermediate_data/ATO_data/ATO_extracted_data_'+FILE_DATE_ID+'.csv', engine="python")#load with python so as avoid warning about mixed dtypes
+#first, to skip some of the data cleaning, see if there is a pickle file for the FILE_DATE_ID available, if so we can use that:
+try:
+    with open('intermediate_data/ATO_data/ATO_data_cleaned_'+FILE_DATE_ID+'.pickle', 'rb') as handle:
+        ATO_data = pickle.load(handle)
+        pickle_file_available = True
+    print('loaded pickle file for ATO_data_cleaned_'+FILE_DATE_ID+'.pickle')
+except FileNotFoundError:
+    print('no pickle file found for ATO_data_cleaned_'+FILE_DATE_ID+'.pickle')
+    pickle_file_available = False
+
+    #load in the data
+    ATO_data = pd.read_csv('intermediate_data/ATO_data/ATO_extracted_data_'+FILE_DATE_ID+'.csv', engine="python")#load with python so as avoid warning about mixed dtypes
+
 country_codes = pd.read_csv('config/economy_code_to_name.csv') 
 
 #%%
@@ -46,44 +57,56 @@ if PRINT_GRAPHS_AND_STATS:
 
 
 #%%
-#DEALING WITH VALUE COLUMN
-#there are some values in vlaue col that have weird formatting. eg. commas or \t. Remove and convert to float
-ATO_data_copy = ATO_data.copy()
-strings_to_remove = ['\t',' ','n/a','na','n.a.', '-',',',  '_']#, '55.0g']#'...',
-for string in strings_to_remove:
-    ATO_data['value'] = ATO_data['value'].str.replace(string, '')
-#replace '' with nan
-ATO_data['value'] = ATO_data['value'].replace('', np.nan)
-#and then if any match these exactly then set them to nan
-strings_to_remove = ['.','...','55.0g', 'N/Appl.']#somehow '...' removes long numbers unless you remove ewxactly that
-for string in strings_to_remove:
-    ATO_data['value'] = ATO_data['value'].replace(string, np.nan)
+if not pickle_file_available:
+    #DEALING WITH VALUE COLUMN
+    #there are some values in vlaue col that have weird formatting. eg. commas or \t. Remove and convert to float
+    ATO_data_copy = ATO_data.copy()
+    strings_to_remove = ['\t',' ','n/a','na','n.a.', '-',',',  '_']#, '55.0g']#'...',
+    for string in strings_to_remove:
+        ATO_data['value'] = ATO_data['value'].str.replace(string, '')
+    #replace '' with nan
+    ATO_data['value'] = ATO_data['value'].replace('', np.nan)
+    #and then if any match these exactly then set them to nan
+    strings_to_remove = ['.','...','55.0g', 'N/Appl.']#somehow '...' removes long numbers unless you remove ewxactly that
+    for string in strings_to_remove:
+        ATO_data['value'] = ATO_data['value'].replace(string, np.nan)
 
-#remove these sheets since its too hard to utilise their categorical data just yet
-sheets_to_remove = ['MIS-SUM-006',
- 'MIS-SUM-007',
- 'MIS-SUM-008',
- 'MIS-SUM-005',
- 'MIS-SUM-004',
- 'SEC-SEG-009',
- 'MIS-SUM-003',
- 'MIS-SUM-002']
-#if there are still any values cannot be converted to float, show the user the rows that have them
-unique_sheets = set()
-for row in ATO_data.itertuples():
-    value = row.value
-    try:
-        float(value)
-    except ValueError:
-        if row.Sheet not in sheets_to_remove:
-            print(value, row.Sheet)
-            unique_sheets = unique_sheets.union({row.Sheet})
-        else:
-            ATO_data = ATO_data.loc[ATO_data['Sheet'] != row.Sheet]
-#make the value column a float
-ATO_data['value'] = ATO_data['value'].astype(float)
+    #remove these sheets since its too hard to utilise their categorical data just yet
+    sheets_to_remove = ['MIS-SUM-006',
+    'MIS-SUM-007',
+    'MIS-SUM-008',
+    'MIS-SUM-005',
+    'MIS-SUM-004',
+    'SEC-SEG-009',
+    'MIS-SUM-003',
+    'MIS-SUM-002']
+    #if there are still any values cannot be converted to float, show the user the rows that have them
+    unique_sheets = set()
+    for row in ATO_data.itertuples():
+        value = row.value
+        try:
+            float(value)
+        except ValueError:
+            if row.Sheet not in sheets_to_remove:
+                print(value, row.Sheet)
+                unique_sheets = unique_sheets.union({row.Sheet})
+            else:
+                ATO_data = ATO_data.loc[ATO_data['Sheet'] != row.Sheet]
+    #make the value column a float
+    ATO_data['value'] = ATO_data['value'].astype(float)
+
+    #save as pickle file
+    with open('intermediate_data/ATO_data/ATO_data_cleaned_'+FILE_DATE_ID+'.pickle', 'wb') as handle:
+        pickle.dump(ATO_data, handle, protocol=pickle.HIGHEST_PROTOCOL)
+else:
+    print('skipping some data cleaning as pickle file available')
 #%%
+#COPY THE DATAFRAME
+# ATO_data = ATO_data_copy.copy()
+#filter onlyt for data in sheet = CLC-VRE-013
+# ATO_data = ATO_data.loc[ATO_data['Sheet'] == 'CLC-VRE-013']
 
+#%%
 #extract only APEC economys and map to the country codes df
 ATO_data = ATO_data.merge(country_codes[['Economy', 'Economy_name', 'iso_code']], how='right', right_on='iso_code', left_on='Economy Code')
 
@@ -279,8 +302,7 @@ ATO_data.loc[(ATO_data['original_measure'] == 'Aviation Total Passenger Kilomete
 # ATO_data.loc[ATO_data['scope'].isin(['National, International', 'Regional']), 'medium'] = ATO_data.loc[ATO_data['scope'].isin(['National, International', 'Regional']), 'medium'] + '_international'
 
 #%%
-#to make things easier lets remove the 'others' measure
-ATO_data = ATO_data[ATO_data['measure'] != 'others']
+
 
 #%%
 #sort out the measures that have different units
@@ -514,7 +536,11 @@ ATO_data.loc[ATO_data['original_measure'].isin(original_measures_to_change), 'or
 
 #%%
 ################################################################################################################################################################################
-
+#to make things easier lets remove the 'others' measure, SAVING OTEHRS FOR LATER
+others = ATO_data.copy()
+others = others[others['measure'] == 'others']
+ATO_data = ATO_data[ATO_data['measure'] != 'others']#TODOOOO
+#%%
 
 
 #NOW REMOVE UNESSECARY COLUMNS
@@ -644,10 +670,25 @@ dupes = dupes.sort_values(by=ATO_dataset_clean.drop(columns=['Value', 'Sheet']).
 dupes = dupes[~dupes['Sheet'].isin(['CLC-VRE-081', 'CLC-VRE-004(2)', 'CLC-VRE-027','CLC-VRE-026','CLC-VRE-048(1)'])]
 #now check if there are any dupes left:
 dupes = dupes.loc[dupes.drop(columns=['Value', 'Sheet']).duplicated(keep=False)]
-#%%
+
+
 if len(dupes) > 0:
     #throw an error
     raise ValueError('There are still dupes in the ATO dataset')
+#%%
+#and remove the values for Japan Road passenger km from sheet TAS-PAG-005(3) where vehiclke type is nan and source is Country Official Statistics as the total looks to be the same as the public transpoort total, not road. Have let ATO know about this. If the value for 2018 is higher than 70101000000 then throw an error to let user know the value has changed.
+#filter for sheet
+rows_to_remove = ATO_dataset_clean.loc[ATO_dataset_clean['Sheet'] == 'TAS-PAG-005(3)']
+#filter for economy
+rows_to_remove = rows_to_remove.loc[rows_to_remove['Economy'] == '08_JPN']
+
+#grb value for 2018 to check if it is higher than 70101000000
+value_2018 = rows_to_remove.loc[rows_to_remove['Date'] == '2018-12-31']['Value'].values[0]
+if value_2018 != 70101000000:
+    raise ValueError('The value for Japan Road passenger km in sheet TAS-PAG-005(3) has changed. Please check the ATO dataset and update the code if necessary.')
+else:
+    #remove the rows from the original dataset
+    ATO_dataset_clean = ATO_dataset_clean.drop(rows_to_remove.index)
 
 #%%
 #lets see if we can remove the orginal_measure col and instead keep the sheet col
@@ -676,6 +717,8 @@ if visualise:
 #save data
 ATO_dataset_clean.to_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
 
+#SAVE others as well in casse it can be of use (its not as welll formatted as the above)
+others.to_csv('intermediate_data/ATO_data/ATO_data_others_{}.csv'.format(FILE_DATE_ID), index=False)
 #%%
 
 #%%

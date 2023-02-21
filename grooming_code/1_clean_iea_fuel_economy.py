@@ -78,5 +78,5 @@ eff['Medium'] = 'road'
 
 #%%
 #now we can save the data
-eff.to_csv('intermediate_data/iea/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID), index=False)
+eff.to_csv('input_data/IEA/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID), index=False)
 #%%

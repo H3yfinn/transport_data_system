@@ -36,19 +36,7 @@ new_vehicle_efficiency = pd.concat([new_vehicle_efficiency_not_2017, new_vehicle
 eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Measure'] == 'new_vehicle_efficiency') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model')),:]
 eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, new_vehicle_efficiency])
 
-###################################################################
 
-#%%
-
-#WE ONLY HAVE PRE-2017 DATA FOR OCC_LOAD.
-occupance_load = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'occupancy_or_load') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model'),:]
-#we will set all values for BASE_YEAR to the values for 2016 in occupance_load.
-occupance_load = occupance_load.loc[occupance_load.Date == 2016,:]
-occupance_load['Date'] = 2017
-
-#add data back to eigth_edition_transport_data
-eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Measure'] == 'occupancy_or_load') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model')),:]
-eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, occupance_load])
 ####################################################################################################################################
 #%%
 #Replace million_stocks with stocks
@@ -81,7 +69,112 @@ temp.loc[temp['Medium'].isnull(), 'Medium'] = 'road'
 #add data back to eigth_edition_transport_data
 eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Vehicle Type'].notnull()) & (eigth_edition_transport_data['Medium'].isnull())),:]
 eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, temp])
-####################################################################################################################################
+##########################################################################
+#%%
+
+############################################################
+#calcaulte ldv data now instead of in the data_mixing_code folder. 
+############################################################
+
+#%%
+INDEX_COLS = ['Date',
+ 'Economy',
+ 'Medium',
+ 'Measure',
+ 'Transport Type',
+ 'Drive',
+ 'Dataset',
+ 'Unit']
+
+#%%
+#we want to add up the data for lv's and lt's in energy, activity and stocks
+measures = ['freight_tonne_km','passenger_km','Energy', 'Stocks']#, 'Sales']
+vtypes = ['lv', 'lt']
+
+ldv_data = eigth_edition_transport_data[eigth_edition_transport_data['Vehicle Type'].isin(vtypes)]
+ldv_data = ldv_data[ldv_data['Measure'].isin(measures)]
+
+#%%
+#now pivot so we have lv and lt as columns
+ldv_data_wide = ldv_data.pivot(index=INDEX_COLS, columns='Vehicle Type', values='Value')
+
+#TAKE A LOOK at rows where one of lt or lv is na
+ldv_data_wide_na = ldv_data_wide.reset_index()
+ldv_data_wide_na = ldv_data_wide_na[ldv_data_wide_na['lv'].isna() | ldv_data_wide_na['lt'].isna()]
+#there are a couple of instances where this could be an issue but mostly it looks like an oversight in the data. Perhaps we should plot the sum of lv and lt and see if it matches the ldv data we do have
+ldv_data_wide = ldv_data_wide.reset_index()
+#add so that NA values are 0
+ldv_data_wide['ldv'] = ldv_data_wide['lv'].fillna(0) + ldv_data_wide['lt'].fillna(0)
+
+#%%
+#DATA TO SAVE
+ldv_data_new = ldv_data_wide.drop(['lv', 'lt'], axis=1)
+#make vehicle type ldv
+ldv_data_new['Vehicle Type'] = 'ldv'
+#make ldv into value
+ldv_data_new = ldv_data_new.rename(columns={'ldv':'Value'})
+#drop na from vlaue col
+ldv_data_new = ldv_data_new[ldv_data_new['Value'].notna()]
+
+#join back to main
+eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, ldv_data_new])
+
+#
+###################################################################
+#
+#%%
+
+#WE ONLY HAVE PRE-2017 DATA FOR OCC_LOAD. We also want to create it for lt/lvs = ldv
+occupance_load = eigth_edition_transport_data.loc[(eigth_edition_transport_data['Measure'] == 'occupancy_or_load') & (eigth_edition_transport_data['Dataset'] == '8th edition transport model'),:]
+#we will set all values for BASE_YEAR to the values for 2016 in occupance_load.
+occupance_load = occupance_load.loc[occupance_load.Date == 2016,:]
+occupance_load['Date'] = 2017
+#and also where transport type is passenger, set Measure to occupancy and where transport type is freight, set Measure to load
+occupance_load.loc[occupance_load['Transport Type'] == 'passenger', 'Measure'] = 'Occupancy'
+occupance_load.loc[occupance_load['Transport Type'] == 'freight', 'Measure'] = 'Load'
+#set units to Passengers and Tonnes
+occupance_load.loc[occupance_load['Transport Type'] == 'passenger', 'Unit'] = 'Passengers'
+occupance_load.loc[occupance_load['Transport Type'] == 'freight', 'Unit'] = 'Tonnes'
+#%%
+#create ldv data
+ldv_occ_load = occupance_load.loc[occupance_load['Vehicle Type'].isin(['lv','lt'])]
+ldv_occ_load['Vehicle Type'] = 'ldv'
+#group by all cols except vlaue and calcualte mean
+cols = ldv_occ_load.columns.tolist()
+cols.remove('Value')
+cols.remove('Drive')
+ldv_occ_load = ldv_occ_load.groupby(cols)['Value'].mean().reset_index()
+#add ldv data back to occupance_load
+occupance_load = pd.concat([occupance_load, ldv_occ_load])
+#we also want this data for every drive type in the vehicle types, so we will join on drive types from eigth_edition_transport_data
+#drop drive
+occupance_load = occupance_load.drop(columns = ['Drive'])
+drive_types = eigth_edition_transport_data[['Drive', 'Vehicle Type','Transport Type', 'Medium']].drop_duplicates()
+#keep only Medium = Road
+drive_types = drive_types.loc[drive_types['Medium'] == 'road',:]
+occupance_load = pd.merge(occupance_load, drive_types, how = 'outer', on = ['Vehicle Type','Transport Type','Medium'])
+#theres also no 2w freight drive types. Since these are constants we will jsut create them (for bev and g)
+two_w = occupance_load.loc[(occupance_load['Vehicle Type'] == '2w') & (occupance_load['Transport Type'] == 'freight'),:]
+two_w['Drive'] = 'bev'
+occupance_load.loc[(occupance_load['Vehicle Type'] == '2w') & (occupance_load['Transport Type'] == 'freight'),'Drive'] = 'g'
+occupance_load = pd.concat([occupance_load, two_w])
+#add data back to eigth_edition_transport_data
+eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Measure'] == 'occupancy_or_load')),:]
+eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, occupance_load])
+###################################################################
+#%%
+
+
+############################################################
+############################################################
+############################################################
+
+
+
+
+
+
+# ##########################################################
 
 #%%
 #now where medium is air, rail, ship or nonspecified we will set vehicle type to nan, as well as drive
@@ -141,90 +234,51 @@ eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th
 eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted reference scenario)', 'Source'] = 'Reference'
 eigth_edition_transport_data.loc[eigth_edition_transport_data['Dataset'] == '8th edition transport model (forecasted reference scenario)', 'Dataset'] = '8th edition transport model'
 
+
 #%%
-#one issue is that the data for stocks is much more spoecific than the publicly available data. So we  will aggregate the stocks data to the same level as the publicly available data so it can be directly compared when we merge the two datasets
+#######################
+
+
+#%%
+#one issue is that the 8th data for road stocks is much more spoecific than the publicly available data. So we  will create aggregates of the stocks data to the same level as the publicly available data (no drive) so it can be directly compared when we merge the two datasets
 #first we need to get the stocks data
-stocks_data = eigth_edition_transport_data.loc[eigth_edition_transport_data['Measure'] == 'Stocks',:]
+stocks_data = eigth_edition_transport_data.copy()
+stocks_data = stocks_data.loc[stocks_data['Measure'] == 'Stocks',:]
 #print the unique vehicle types
 print(stocks_data['Vehicle Type'].unique())
-#we want to sum up lt and ldv to get ldv's
-ldv_stocks_data = stocks_data.loc[stocks_data['Vehicle Type'].isin(['lt','lv'])]
-ldv_stocks_data['Vehicle Type'] = 'ldv'
-#set drive to nan for all of these
-ldv_stocks_data['Drive'] = np.nan
-#sum up the datas
-cols  = ldv_stocks_data.columns.to_list()
+# #we want to sum up lt and ldv to get ldv's
+# ldv_stocks_data = stocks_data.loc[stocks_data['Vehicle Type'].isin(['lt','lv'])]
+no_drive_stocks_data = stocks_data.copy()
+cols  = no_drive_stocks_data.columns.to_list()
 cols.remove('Value')
-ldv_stocks_data = ldv_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
+#we'll remove drive as we want to sum up all drives
+cols.remove('Drive')
+no_drive_stocks_data = no_drive_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
+#set drive to nan for all of these
+no_drive_stocks_data['Drive'] = np.nan
 
+#%%
 #and also do one for 'road' where we set all vehicle types to nan where medium is road
 road_stocks_data = stocks_data.loc[stocks_data['Medium'] == 'road',:]
+cols = road_stocks_data.columns.to_list()
+cols.remove('Value')
+cols.remove('Vehicle Type')
+cols.remove('Drive')
+road_stocks_data = road_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
+#add the vehicle type col and drive as nan
 road_stocks_data['Vehicle Type'] = np.nan
 road_stocks_data['Drive'] = np.nan
-road_stocks_data = road_stocks_data.groupby(cols, as_index = False).sum(numeric_only=True)
 
 #and just concat the two together
-stocks_data = pd.concat([ldv_stocks_data, road_stocks_data])
+stocks_data = pd.concat([no_drive_stocks_data, road_stocks_data])
 #%%
 #and concat to main
 eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, stocks_data])
 
 
 #%%
-############################################################
-#calcaulte ldv data now instead of in the data_mixing_code folder. 
-############################################################
-
-#%%
-INDEX_COLS = ['Date',
- 'Economy',
- 'Medium',
- 'Measure',
- 'Transport Type',
- 'Drive',
- 'Dataset',
- 'Source',
- 'Unit']
-
-#%%
-#we want to add up the data for lv's and lt's in energy, activity and stocks
-measures = ['freight_tonne_km','passenger_km','Energy', 'Stocks']#, 'Sales']
-vtypes = ['lv', 'lt']
-
-ldv_data = eigth_edition_transport_data[eigth_edition_transport_data['Vehicle Type'].isin(vtypes)]
-ldv_data = ldv_data[ldv_data['Measure'].isin(measures)]
-
-#%%
-#now pivot so we have lv and lt as columns
-ldv_data_wide = ldv_data.pivot(index=INDEX_COLS, columns='Vehicle Type', values='Value')
-
-#TAKE A LOOK at rows where one of lt or lv is na
-ldv_data_wide_na = ldv_data_wide.reset_index()
-ldv_data_wide_na = ldv_data_wide_na[ldv_data_wide_na['lv'].isna() | ldv_data_wide_na['lt'].isna()]
-#there are a couple of instances where this could be an issue but mostly it looks like an oversight in the data. Perhaps we should plot the sum of lv and lt and see if it matches the ldv data we do have
-ldv_data_wide = ldv_data_wide.reset_index()
-#add so that NA values are 0
-ldv_data_wide['ldv'] = ldv_data_wide['lv'].fillna(0) + ldv_data_wide['lt'].fillna(0)
-
-#%%
-#DATA TO SAVE
-ldv_data_new = ldv_data_wide.drop(['lv', 'lt'], axis=1)
-#make vehicle type ldv
-ldv_data_new['Vehicle Type'] = 'ldv'
-#make ldv into value
-ldv_data_new = ldv_data_new.rename(columns={'ldv':'Value'})
-#drop na from vlaue col
-ldv_data_new = ldv_data_new[ldv_data_new['Value'].notna()]
-
-#join back to main
-eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, ldv_data_new])
-
 #make filtered_eigth_edition_transport_data['Frequency']=='Yearly'
 eigth_edition_transport_data['Frequency']='Yearly'
-############################################################
-############################################################
-############################################################
-
 
 #%%
 ############################################################
@@ -276,9 +330,10 @@ new_eigth_edition_transport_data.reset_index(inplace=True)
 ############################################################
 #%%
 new_eigth_edition_transport_data['Date'] = new_eigth_edition_transport_data['Date'].astype(str) + '-12-31'
-
-#drop turmover rrate from new_eigth_edition_transport_data Measuree col
+eigth_edition_transport_data['Date'] = eigth_edition_transport_data['Date'].astype(str) + '-12-31'
+#drop turmover rrate and New_vehicle_efficiency from new_eigth_edition_transport_data Measuree col
 new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_edition_transport_data['Measure']!='Turnover_rate']
+new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_edition_transport_data['Measure']!='New_vehicle_efficiency']
 #%%
 #
 #save data to same file
