@@ -116,6 +116,11 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/e
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 vehicle_eff = pd.read_csv('intermediate_data/estimated/new_vehicle_efficiency_estimates_{}.csv'.format(FILE_DATE_ID))
 
+#load macro data
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/Macro/', 'all_macro_data_')
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+all_macro_data = pd.read_csv('intermediate_data/Macro/all_macro_data_{}.csv'.format(FILE_DATE_ID))
+
 ############################################################
 
 #HANDLE SPECIFIC DATASETS
@@ -142,7 +147,7 @@ item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
 ############################################################
 #%%
 #join data together using concat
-combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall,turnover_rate_3pct,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date,missing_drive_values,occ_load,vehicle_eff], ignore_index=True)
+combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall,turnover_rate_3pct,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date,missing_drive_values,occ_load,vehicle_eff,all_macro_data], ignore_index=True)
 #if scope col is na then set it to 'national'
 combined_data['Scope'] = combined_data['Scope'].fillna('National')
 
