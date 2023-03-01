@@ -30,8 +30,7 @@ GDP_forecast_OECD = pd.read_csv('input_data\\Macro\\OECD\\GDPLTFORECAST.csv')
 real_gdp_growth_short_term_forecast = pd.read_csv('input_data\\Macro\\OECD\\real_gdp_growth_short_term_forecast.csv')
 nominal_gdp_growth_short_term_forecast = pd.read_csv('input_data\\Macro\\OECD\\nominal_gdp_growth_short_term_forecast.csv')
 #UN data
-POP_UN = pd.read_excel('input_data\\Macro\\UN\\UN_PPP2022_Output_PopTot.xlsx')
-
+POP_UN = pd.read_csv('input_data\\Macro\\UN\\WPP2022_TotalPopulationBySex.csv')
 # World Bank data
 dec_conversion_rate = pd.read_csv('input_data\\Macro\\WORLD_BANK\\dec_alternative_LCU_to_USD_conversion_factor.csv')
 exchange_rate = pd.read_csv('input_data\\Macro\\WORLD_BANK\\LCU_to_USD_exchange_rate.csv')
@@ -162,55 +161,32 @@ oecd['Source'] = oecd['Measure']
 ##############################################################################
 #UN DATA
 ##############################################################################
-
-#go to the first non nan row in first col, if any values are 4 digit year values then set it to the header
-POP_UN_edit = POP_UN.iloc[POP_UN.iloc[:,0].first_valid_index():]
-header_found = False
-for col in POP_UN_edit.iloc[0,:]:
-    if str(col).isnumeric() and len(str(col)) == 4:
-        #we ahve found the header row so set it to the header
-        POP_UN_edit.columns = POP_UN_edit.iloc[0,:]
-        #drop the header row
-        POP_UN_edit.drop(POP_UN_edit.index[0], inplace=True)
-        header_found = True
-        break
-if header_found == False:
-    print('Could not find header row in UN data, please check it manually')
-
 #%%
-# POP_UN_edit.columns#Index([                               'Index',
-#                                 'Variant',
-#    'Region, subregion, country or area *',
-#                                   'Notes',
-#                           'Location code',
-#                         'ISO3 Alpha-code',
-#                         'ISO2 Alpha-code',
-#                             'SDMX code**',
-#                                    'Type',
-#                             'Parent code',
 
-#connect the economy code to name to the UN data using the ISO3 Alpha-code and iso_code cols
-POP_UN_edit = POP_UN_edit.merge(economy_code_to_name[['iso_code', 'Economy']], how='outer', left_on='ISO3 Alpha-code', right_on='iso_code')
+#this large csv contains historic and forecasted data. It is a clean file so just need to rename/map cols
+POP_UN_edit = POP_UN.copy()
+#map ISO3_code to economy_code_to_name iso_code
+POP_UN_edit = POP_UN_edit.merge(economy_code_to_name[['iso_code', 'Economy']], how='outer', left_on='ISO3_code', right_on='iso_code')
 #we will get some rows where both the iso_code and ISO3 Alpha-code are na. THese are expeted to be regions and not countries so we will drop them
-z = POP_UN_edit[POP_UN_edit['iso_code'].isna() & POP_UN_edit['ISO3 Alpha-code'].isna()]
-POP_UN_edit.dropna(subset=['iso_code', 'ISO3 Alpha-code'], how='all', inplace=True)
+z = POP_UN_edit[POP_UN_edit['iso_code'].isna() & POP_UN_edit['ISO3_code'].isna()]
+POP_UN_edit.dropna(subset=['iso_code', 'ISO3_code'], how='all', inplace=True)
 
-x = POP_UN_edit[POP_UN_edit['ISO3 Alpha-code'].isna()]['iso_code'].unique()
+x = POP_UN_edit[POP_UN_edit['ISO3_code'].isna()]['iso_code'].unique()
 if len(x) == 0:
     print('Good. All economy codes in UN data are in economy_code_to_name.csv')
 else:
     print('Bad. The following economy codes are in APERC but not included in the UN data: {}'.format(x))
-y = POP_UN_edit[POP_UN_edit['iso_code'].isna()]['Region, subregion, country or area *'].unique()
-
+y = POP_UN_edit[POP_UN_edit['iso_code'].isna()]['Location'].unique()
 #drop nas
 POP_UN_edit.dropna(subset=['iso_code'], inplace=True)
-POP_UN_edit.dropna(subset=['ISO3 Alpha-code'], inplace=True)
-
+POP_UN_edit.dropna(subset=['ISO3_code'], inplace=True)
 #%%
 #Make variant into 'Source' col since this is best way to specify where the data came from
 POP_UN_edit.rename(columns={'Variant':'Source'}, inplace=True)
-#add 'Population forecast ' to the start of the source col
-POP_UN_edit['Source'] = 'Population forecast ' + POP_UN_edit['Source']
+#if time is greater than 2022, add 'Population forecast ' to the start of the source col, else make it 'Population estimate'
+POP_UN_edit['Source'] = POP_UN_edit.apply(lambda x: 'Population forecast ' + x['Source'] if x['Time'] > 2022 else 'Population estimate', axis=1)
+#make Time into date col
+POP_UN_edit['Date'] = POP_UN_edit['Time'].apply(lambda x: str(x)+'-12-31')
 #make Unit col as Thousands
 POP_UN_edit['Unit'] = 'Thousands'
 #make Frequency col as Yearly
@@ -218,16 +194,13 @@ POP_UN_edit['Frequency'] = 'Yearly'
 #make Measure col as Population
 POP_UN_edit['Measure'] = 'Population'
 #drop cols that are not needed
-POP_UN_edit.drop(columns=['iso_code','Region, subregion, country or area *','Notes','Location code','ISO3 Alpha-code','ISO2 Alpha-code','SDMX code**','Type','Parent code','Index'], inplace=True)
+POP_UN_edit.drop(columns=['SortOrder', 'LocID', 'Notes', 'ISO3_code', 'ISO2_code', 'SDMX_code',
+       'LocTypeID', 'LocTypeName', 'ParentID', 'Location', 'VarID', 
+       'Time', 'MidPeriod', 'PopMale', 'PopFemale', 'PopDensity',
+       'iso_code'], inplace=True)
 #make dataset col
 POP_UN_edit['Dataset'] = 'UN'
-
-#%%
-#melt the year cols into a single col
-POP_UN_edit = pd.melt(POP_UN_edit, id_vars=['Economy','Source','Unit','Frequency','Measure','Dataset'], var_name='Date', value_name='Value')
-#make the date col into yyyy-mm-dd format
-POP_UN_edit['Date'] = POP_UN_edit['Date'].apply(lambda x: str(int(x))+'-12-31')
-#%%
+#########
 
 ##############################################################################
 # World Bank Data
@@ -327,3 +300,70 @@ fig.show()
 
 
 # %%
+# UN_PPP2022_Output_PopTot.xlsx - https://population.un.org/wpp/Download/ - for this make sure to download from 'Probabilistic Projections(PPP scenarios)' and download the 'Population Both Sexes' file. > Note this has been archived as the file below contains all the data in this, and more, in a cleaner format.
+# POP_UN = pd.read_excel('input_data\\Macro\\UN\\UN_PPP2022_Output_PopTot.xlsx')
+# #for old un pop data:
+# #go to the first non nan row in first col, if any values are 4 digit year values then set it to the header
+# POP_UN_edit = POP_UN.iloc[POP_UN.iloc[:,0].first_valid_index():]
+# header_found = False
+# for col in POP_UN_edit.iloc[0,:]:
+#     if str(col).isnumeric() and len(str(col)) == 4:
+#         #we ahve found the header row so set it to the header
+#         POP_UN_edit.columns = POP_UN_edit.iloc[0,:]
+#         #drop the header row
+#         POP_UN_edit.drop(POP_UN_edit.index[0], inplace=True)
+#         header_found = True
+#         break
+# if header_found == False:
+#     print('Could not find header row in UN data, please check it manually')
+# #%%
+# # POP_UN_edit.columns#Index([                               'Index',
+# #                                 'Variant',
+# #    'Region, subregion, country or area *',
+# #                                   'Notes',
+# #                           'Location code',
+# #                         'ISO3 Alpha-code',
+# #                         'ISO2 Alpha-code',
+# #                             'SDMX code**',
+# #                                    'Type',
+# #                             'Parent code',
+
+# #connect the economy code to name to the UN data using the ISO3 Alpha-code and iso_code cols
+# POP_UN_edit = POP_UN_edit.merge(economy_code_to_name[['iso_code', 'Economy']], how='outer', left_on='ISO3 Alpha-code', right_on='iso_code')
+# #we will get some rows where both the iso_code and ISO3 Alpha-code are na. THese are expeted to be regions and not countries so we will drop them
+# z = POP_UN_edit[POP_UN_edit['iso_code'].isna() & POP_UN_edit['ISO3 Alpha-code'].isna()]
+# POP_UN_edit.dropna(subset=['iso_code', 'ISO3 Alpha-code'], how='all', inplace=True)
+
+# x = POP_UN_edit[POP_UN_edit['ISO3 Alpha-code'].isna()]['iso_code'].unique()
+# if len(x) == 0:
+#     print('Good. All economy codes in UN data are in economy_code_to_name.csv')
+# else:
+#     print('Bad. The following economy codes are in APERC but not included in the UN data: {}'.format(x))
+# y = POP_UN_edit[POP_UN_edit['iso_code'].isna()]['Region, subregion, country or area *'].unique()
+
+# #drop nas
+# POP_UN_edit.dropna(subset=['iso_code'], inplace=True)
+# POP_UN_edit.dropna(subset=['ISO3 Alpha-code'], inplace=True)
+
+# #%%
+# #Make variant into 'Source' col since this is best way to specify where the data came from
+# POP_UN_edit.rename(columns={'Variant':'Source'}, inplace=True)
+# #add 'Population forecast ' to the start of the source col
+# POP_UN_edit['Source'] = 'Population forecast ' + POP_UN_edit['Source']
+# #make Unit col as Thousands
+# POP_UN_edit['Unit'] = 'Thousands'
+# #make Frequency col as Yearly
+# POP_UN_edit['Frequency'] = 'Yearly'
+# #make Measure col as Population
+# POP_UN_edit['Measure'] = 'Population'
+# #drop cols that are not needed
+# POP_UN_edit.drop(columns=['iso_code','Region, subregion, country or area *','Notes','Location code','ISO3 Alpha-code','ISO2 Alpha-code','SDMX code**','Type','Parent code','Index'], inplace=True)
+# #make dataset col
+# POP_UN_edit['Dataset'] = 'UN'
+
+# #%%
+# #melt the year cols into a single col
+# POP_UN_edit = pd.melt(POP_UN_edit, id_vars=['Economy','Source','Unit','Frequency','Measure','Dataset'], var_name='Date', value_name='Value')
+# #make the date col into yyyy-mm-dd format
+# POP_UN_edit['Date'] = POP_UN_edit['Date'].apply(lambda x: str(int(x))+'-12-31')
+# #%%
