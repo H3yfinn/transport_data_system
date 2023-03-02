@@ -15,7 +15,7 @@ file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 
 #load macro data
-FILE_DATE_ID = 'DATE20230221'
+FILE_DATE_ID = 'DATE20230301'
 all_data = pd.read_csv('intermediate_data/Macro/all_macro_data_{}.csv'.format(FILE_DATE_ID))
 #%%
 
@@ -169,4 +169,31 @@ if plot:
     plotly.offline.plot(fig, filename=f'./plotting_output/estimations' + title + '.html', auto_open=AUTO_OPEN_PLOTLY_GRAPHS)
 
 #this is a very useful graph. Will have  a think about what else we can do without data but for now seems great
+# %%
+#plot un pop data:
+pop = all_data[(all_data['Dataset'] == 'UN')]
+#plot plotly with a line for each source and a facet col for each economy
+plot = True
+if plot:
+    title = 'UN pop comparison'
+    AUTO_OPEN_PLOTLY_GRAPHS = True
+    fig = px.line(pop, x="Date", y='Value',color='Source', facet_col="Economy", facet_col_wrap=7)
+    fig.update_layout(height=2000, width=2000)
+    #plot it in the browser
+    plotly.offline.plot(fig, filename=f'./plotting_output/estimations' + title + '.html', auto_open=AUTO_OPEN_PLOTLY_GRAPHS)
+
+# #first grab only the IMF current and PPP data then calculate gdp_current * ppp and plot it against gdp_ppp
+# imf_ppp_gdp = all_data[(all_data['Dataset'] == 'IMF')]
+# # pivot the data so that the measure values are sep cols
+# imf_ppp_gdp = imf_ppp_gdp.pivot(index=['Economy','Date'], columns='Measure', values='Value').reset_index()
+# #convert to 
+# #calc 'estimated gdp ppp' col
+# imf_ppp_gdp['estimated_gdp_ppp'] = imf_ppp_gdp['GDP_current'] * imf_ppp_gdp['PPP']
+# #plot using plotly with a facet col for each economy and a line for each measure
+# #melt the data so we have one value col of GDP_PPP and estimated_gdp_ppp
+# imf_ppp_gdp = pd.melt(imf_ppp_gdp[['Economy','Date','GDP_PPP','estimated_gdp_ppp']], id_vars=['Economy','Date'], var_name='Measure', value_name='Value')
+# #%%
+# import plotly.express as px
+# fig = px.line(imf_ppp_gdp, x="Date", y='Value',color='Measure', facet_col="Economy", facet_col_wrap=7)
+# fig.show()
 # %%

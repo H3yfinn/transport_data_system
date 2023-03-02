@@ -182,7 +182,7 @@ POP_UN_edit.dropna(subset=['iso_code'], inplace=True)
 POP_UN_edit.dropna(subset=['ISO3_code'], inplace=True)
 #%%
 #Make variant into 'Source' col since this is best way to specify where the data came from
-POP_UN_edit.rename(columns={'Variant':'Source'}, inplace=True)
+POP_UN_edit.rename(columns={'Variant':'Source','PopTotal':'Value'}, inplace=True)
 #if time is greater than 2022, add 'Population forecast ' to the start of the source col, else make it 'Population estimate'
 POP_UN_edit['Source'] = POP_UN_edit.apply(lambda x: 'Population forecast ' + x['Source'] if x['Time'] > 2022 else 'Population estimate', axis=1)
 #make Time into date col
@@ -281,21 +281,6 @@ all_data.to_csv('intermediate_data/Macro/all_macro_data_{}.csv'.format(FILE_DATE
 
 
 
-
-#first grab only the IMF current and PPP data then calculate gdp_current * ppp and plot it against gdp_ppp
-imf_ppp_gdp = all_data[(all_data['Dataset'] == 'IMF')]
-# pivot the data so that the measure values are sep cols
-imf_ppp_gdp = imf_ppp_gdp.pivot(index=['Economy','Date'], columns='Measure', values='Value').reset_index()
-#convert to 
-#calc 'estimated gdp ppp' col
-imf_ppp_gdp['estimated_gdp_ppp'] = imf_ppp_gdp['GDP_current'] * imf_ppp_gdp['PPP']
-#plot using plotly with a facet col for each economy and a line for each measure
-#melt the data so we have one value col of GDP_PPP and estimated_gdp_ppp
-imf_ppp_gdp = pd.melt(imf_ppp_gdp[['Economy','Date','GDP_PPP','estimated_gdp_ppp']], id_vars=['Economy','Date'], var_name='Measure', value_name='Value')
-#%%
-import plotly.express as px
-fig = px.line(imf_ppp_gdp, x="Date", y='Value',color='Measure', facet_col="Economy", facet_col_wrap=7)
-fig.show()
 
 
 
