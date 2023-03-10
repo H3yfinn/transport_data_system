@@ -143,10 +143,12 @@ dict_unit_to_measure['Vehicles per 1000 inhabitants'] = 'Vehicles per 1000 inhab
 for unit in item_data_apec_tall['Unit'].unique():
     if unit not in dict_unit_to_measure.keys():
         #double check theres only one unique measure, else throw error
+        #
         if len(item_data_apec_tall.loc[item_data_apec_tall['Unit'] == unit, 'Measure'].unique()) != 1:
             raise ValueError(f'There is more than one unique measure for unit {unit}')
         dict_unit_to_measure[unit] = item_data_apec_tall.loc[item_data_apec_tall['Unit'] == unit, 'Measure'].unique()[0]
 
+#%%
 dict_unit_magnitudes = {}
 dict_unit_magnitudes['10^9 passenger-km / yr'] = 10**9
 dict_unit_magnitudes['10^9 tonne-km / yr'] = 10**9
