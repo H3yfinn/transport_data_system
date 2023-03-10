@@ -1,12 +1,9 @@
 #we will import data from imf un and oecd for gdp and population. 
 #%%
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 import datetime
 import re
 import os
-import common_functions as cf
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
@@ -66,7 +63,15 @@ imf_data = imf_data.melt(id_vars=['IMF Economy name', 'Measure'], var_name='Year
 imf_data.dropna(subset=['IMF Economy name'], inplace=True)
 #%%
 #join on the economy code to name using outer so we can check where we are missing data
-economy_code_to_name_tall = cf.make_economy_code_to_name_tall(economy_code_to_name)
+#format economy code to name to name to be tall so we can access all possible econmoy names.
+#stack the Economy name, and any columns that begin with Alt_name into a single column
+alt_name_cols = [col for col in economy_code_to_name.columns if col.startswith('Alt_name')]
+economy_code_to_name_tall = economy_code_to_name.copy()
+economy_code_to_name_tall = economy_code_to_name.melt(id_vars=['Economy'], value_vars=['Economy_name']+alt_name_cols, var_name='column_name', value_name='Economy name').drop(columns=['column_name'])
+
+#drop na values from economy name
+economy_code_to_name_tall = economy_code_to_name_tall.dropna(subset=['Economy name'])
+#%%
 imf_data = imf_data.merge(economy_code_to_name_tall, how='outer', left_on='IMF Economy name', right_on='Economy name')
 
 #%%
@@ -219,6 +224,8 @@ def find_and_set_first_row_with_header(df, first_col_name):
             return df
     if header_found == False:
         print('Could not find header row in World Bank data, please check it manually')
+        return df
+    else:
         return df
 
 dec_conversion_rate = find_and_set_first_row_with_header(dec_conversion_rate, 'Country Name')

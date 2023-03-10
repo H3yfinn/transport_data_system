@@ -9,6 +9,7 @@ dependencies:
   # - xlrd #needed for importing xls files from imf # actually no it doidnt work. keeping this here in case want to pursue further
   - pip
   - jupyter
+  - ipykernel #for the #%% things
   - xlwings
   - scipy
   - pip:

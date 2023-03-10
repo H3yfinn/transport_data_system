@@ -45,6 +45,7 @@ if this:
     exec(open("./grooming_code/1_clean_item_data.py").read())
     exec(open("./grooming_code/1_clean_other_8th_edition_input_data.py").read())
     exec(open("./grooming_code/1_extract_ATO_dataset.py").read())
+    exec(open("./grooming_code/1_clean_macro_data.py").read())
     exec(open("./grooming_code/2_aggregate_8th_edition_data.py").read())
     exec(open("./grooming_code/2_clean_ATO_data.3py").read())
     exec(open("./grooming_code/3_make_extra_changes_to_8th_data.py").read())
