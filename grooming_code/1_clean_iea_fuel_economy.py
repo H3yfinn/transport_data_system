@@ -77,6 +77,19 @@ eff['Drive'] = 'ice'
 eff['Medium'] = 'road'
 
 #%%
+
+eff['Dataset'] = 'IEA Fuel Economy'
+#make the first letter of words in columns uppercase
+eff.columns = eff.columns.str.title()
+#remove na values in value column
+eff = eff[eff['Value'].notna()]
+#create a date column with month and day set to 12-31
+eff['Date'] = eff['Year'].astype(str) + '-12-31'
+#make frequency column and set to yearly
+eff['Frequency'] = 'Yearly'
+#remove Year column
+eff = eff.drop(columns=['Year'])
+#%%
 #now we can save the data
-eff.to_csv('input_data/IEA/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID), index=False)
+eff.to_csv('intermediate_data/IEA/{}_iea_fuel_economy.csv'.format(FILE_DATE_ID), index=False)
 #%%

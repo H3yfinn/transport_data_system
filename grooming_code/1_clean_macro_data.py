@@ -161,6 +161,9 @@ oecd['Date'] = oecd.apply(lambda x: str(int(x['Date'].split('-')[0]))+'-'+str(in
 oecd['Dataset'] = 'OECD'
 #make source col the same as the measure as this is where the data came from
 oecd['Source'] = oecd['Measure']
+
+#where measure is PPP and unit is NATUSD, then change PPP to PPP_NATUSD so that we can distinguish between PPP and PPP_NATUSD
+oecd.loc[(oecd['Measure'] == 'PPP') & (oecd['Unit'] == 'NATUSD'), 'Measure'] = 'PPP_NATUSD'
 #%%
 
 ##############################################################################
@@ -189,7 +192,7 @@ POP_UN_edit.dropna(subset=['ISO3_code'], inplace=True)
 #Make variant into 'Source' col since this is best way to specify where the data came from
 POP_UN_edit.rename(columns={'Variant':'Source','PopTotal':'Value'}, inplace=True)
 #if time is greater than 2022, add 'Population forecast ' to the start of the source col, else make it 'Population estimate'
-POP_UN_edit['Source'] = POP_UN_edit.apply(lambda x: 'Population forecast ' + x['Source'] if x['Time'] > 2022 else 'Population estimate', axis=1)
+POP_UN_edit['Source'] = POP_UN_edit.apply(lambda x: 'Population forecast ' + x['Source'] if x['Time'] > 2022 else 'Population estimate' + x['Source'], axis=1)
 #make Time into date col
 POP_UN_edit['Date'] = POP_UN_edit['Time'].apply(lambda x: str(x)+'-12-31')
 #make Unit col as Thousands
@@ -205,8 +208,15 @@ POP_UN_edit.drop(columns=['SortOrder', 'LocID', 'Notes', 'ISO3_code', 'ISO2_code
        'iso_code'], inplace=True)
 #make dataset col
 POP_UN_edit['Dataset'] = 'UN'
-#########
 
+#drop duplicates, but also inform user of what was dropped
+print('Dropping {} duplicates from UN data'.format(len(POP_UN_edit[POP_UN_edit.duplicated()])))
+duplicates = POP_UN_edit[POP_UN_edit.duplicated()]
+print(duplicates)
+POP_UN_edit.drop_duplicates(inplace=True)
+
+#########
+#%%
 ##############################################################################
 # World Bank Data
 ##############################################################################

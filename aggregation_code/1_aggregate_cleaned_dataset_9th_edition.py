@@ -63,9 +63,9 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/e
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 eighth_ATO_vehicle_type_update = pd.read_csv('./intermediate_data/estimated/{}_8th_ATO_vehicle_type_update.csv'.format(FILE_DATE_ID))
 
-file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/ATO_data/', 'ATO_data_cleaned_')
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/ATO/', 'ATO_data_cleaned_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-ATO_dataset_clean = pd.read_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID))
+ATO_dataset_clean = pd.read_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID))
 
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/item_data/', 'item_dataset_clean_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
@@ -121,24 +121,13 @@ file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/M
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 all_macro_data = pd.read_csv('intermediate_data/Macro/all_macro_data_{}.csv'.format(FILE_DATE_ID))
 
-############################################################
-
-#HANDLE SPECIFIC DATASETS
-
-############################################################
-#%%
-ATO_dataset_clean = ATO_dataset_clean.drop(columns=['Sheet'])
-#now drop duplicates since they are only the ones where the saemw vlaue is in multiple sheets
-ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
-#%%
-#remove na values in value column
-item_data_apec_tall = item_data_apec_tall[item_data_apec_tall['Value'].notna()]
-#create a date column with month and day set to 1
-item_data_apec_tall['Date'] = item_data_apec_tall['Year'].astype(str) + '-12-31'
-#make frequency column and set to yearly
-item_data_apec_tall['Frequency'] = 'Yearly'
-#remove Year column
-item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
+#recreate datasets so it matches all the datasets loaded above. for example, parse the following into a three element tuple:
+#file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_final_')
+#FILE_DATE_ID = 'DATE{}'.format(file_date)
+#eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID))
+#so it looks like this:
+#('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_final_', 'intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_FILE_DATE_ID.csv')
+#now do it for all:
 
 ############################################################
 
@@ -146,6 +135,7 @@ item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
 
 ############################################################
 #%%
+
 #join data together using concat
 combined_data = pd.concat([eigth_edition_transport_data, bus_passengerkm_updates, passenger_road_updates, freight_tonne_km_updates, iea_ev_all_stock_updates,eighth_ATO_vehicle_type_update,ATO_dataset_clean,item_data_apec_tall,turnover_rate_3pct,EGEDA_transport_output,EGEDA_transport_output_estimates,ATO_revenue_pkm,nearest_available_date,missing_drive_values,occ_load,vehicle_eff,all_macro_data], ignore_index=True)
 #if scope col is na then set it to 'national'
@@ -192,135 +182,6 @@ if len(combined_data[combined_data.duplicated()]) > 0:
 combined_data['Dataset'] = combined_data.apply(lambda row: row['Dataset'] if pd.isna(row['Source']) else row['Dataset'] + ' $ ' + row['Source'], axis=1)
 #then drop source column
 combined_data = combined_data.drop(columns=['Source'])
-
-############################################################
-
-#FILTER FOR 9th data only
-
-############################################################
-#%%
-
-#import snapshot of 9th concordance
-model_concordances_base_year_measures_file_name = 'model_concordances_measures.csv'
-model_concordances_measures = pd.read_csv('./intermediate_data/9th_dataset/{}'.format(model_concordances_base_year_measures_file_name))
-
-#In the concordance, let's include all data we can between 2000 and 2022, because it will be easier to filter out the data we don't want later and this may allow for interpolation of data
-#so create a copy, set the date to 2000-12-31 and then append it to the original dataset. Do this for every year between 2000 and 2022, except for the year that is already in the dataset
-original_years = model_concordances_measures['Date'].unique()
-for year in range(2010, 2023):
-    if year not in original_years:
-        temp = model_concordances_measures.copy()
-        temp['Date'] = year
-        model_concordances_measures = pd.concat([model_concordances_measures,temp])
-
-#set Date
-model_concordances_measures['Date'] = model_concordances_measures['Date'].astype(str) + '-12-31'
-#%%
-new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
-
-#%%
-# #filter for rail ship and air data for energy freight and passenger activiy
-# x = x.reset_index()
-# x = x[x['Medium'].isin(['rail', 'ship', 'air'])]
-# x = x[x['Measure'].isin(['Energy', 'passenger_km', 'freight_tonne_km'])]
-# y = filtered_combined_data.reset_index()
-# y = y[y['Medium'].isin(['rail', 'ship', 'air'])]
-# y = y[y['Measure'].isin(['Energy', 'passenger_km', 'freight_tonne_km'])]
-#%%
-#Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
-INDEX_COLS_no_scope_no_fuel_type = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy','Frequency', 'Measure', 'Unit']
-
-#%%
-#set index
-model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS_no_scope_no_fuel_type)
-combined_data = combined_data.set_index(INDEX_COLS_no_scope_no_fuel_type)
-
-#%%
-#Use diff to remove data that isnt in the 9th edition concordance
-extra_rows = combined_data.index.difference(model_concordances_measures.index)
-filtered_combined_data = combined_data.drop(extra_rows)
-
-#%%
-#now see what we are missing:
-missing_rows = model_concordances_measures.index.difference(filtered_combined_data.index)
-#create a new dataframe with the missing rows
-missing_rows_df = pd.DataFrame(index=missing_rows)
-# save them to a csv
-print('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv')
-missing_rows_df.to_csv('./intermediate_data/9th_dataset/missing_rows.csv')
-
-filtered_combined_data.reset_index(inplace=True)
-#%%
-
-############################################################
-
-#CREATE ANOTHER DATAFRAME AND REMOVE THE 0'S, TO SEE WHAT IS MISSING IF WE DO THAT
-
-############################################################
-#%%
-
-#import snapshot of 9th concordance
-model_concordances_base_year_measures_file_name = 'model_concordances_measures.csv'
-model_concordances_measures = pd.read_csv('./intermediate_data/9th_dataset/{}'.format(model_concordances_base_year_measures_file_name))
-#%%
-#In the concordance, let's include all data we can between 2000 and 2022, because it will be easier to filter out the data we don't want later and this may allow for interpolation of data
-#so create a copy, set the date to 2000-12-31 and then append it to the original dataset. Do this for every year between 2000 and 2022, except for the year that is already in the dataset
-original_years = model_concordances_measures['Date'].unique()
-for year in range(2010, 2023):
-    if year not in original_years:
-        temp = model_concordances_measures.copy()
-        temp['Date'] = year
-        model_concordances_measures = pd.concat([model_concordances_measures,temp])
-
-#set Date
-model_concordances_measures['Date'] = model_concordances_measures['Date'].astype(str) + '-12-31'
-#%%
-new_eigth_edition_transport_data = eigth_edition_transport_data.copy()
-
-#%%
-#set index
-model_concordances_measures = model_concordances_measures.set_index(INDEX_COLS_no_scope_no_fuel_type)
-# combined_data = combined_data.set_index(INDEX_COLS_no_scope_no_fuel_type)
-#DROP THE 0's
-combined_data_no_zeros = combined_data[combined_data['Value'] != 0]
-#%%
-#Use diff to remove data that isnt in the 9th edition concordance
-extra_rows = combined_data_no_zeros.index.difference(model_concordances_measures.index)
-filtered_combined_data_no_zeros = combined_data_no_zeros.drop(extra_rows)
-
-#%%
-#now see what we are missing:
-missing_rows = model_concordances_measures.index.difference(filtered_combined_data_no_zeros.index)
-#create a new dataframe with the missing rows
-missing_rows_df = pd.DataFrame(index=missing_rows)
-# save them to a csv
-print('Saving missing rows to /intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
-missing_rows_df.to_csv('./intermediate_data/9th_dataset/missing_rows_no_zeros.csv')
-
-filtered_combined_data_no_zeros.reset_index(inplace=True)
-#%%
-
-############################################################
-
-#CREATE CONCORDANCE
-
-############################################################
-#%%
-#CREATE CONCORDANCE
-#create a concordance which contains all the unique rows in the combined data df, when you remove the Dataset source and value columns.
-combined_data_concordance = filtered_combined_data.drop(columns=['Dataset','Comments', 'Value']).drop_duplicates()
-#we will also have to split the frequency column by its type: Yearly, Quarterly, Monthly, Daily
-#YEARLY
-yearly = combined_data_concordance[combined_data_concordance['Frequency'] == 'Yearly']
-#YEARS:
-MAX = yearly['Date'].max()
-MIN = yearly['Date'].min()
-#using datetime creates a range of dates, separated by year with the first year being the MIN and the last year being the MAX
-years = pd.date_range(start=MIN, end=MAX, freq='Y')
-#drop date from ATO_data_years
-yearly = yearly.drop(columns=['Date']).drop_duplicates()
-#now do a cross join between the concordance and the years array
-combined_data_concordance_new = yearly.merge(pd.DataFrame(years, columns=['Date']), how='cross')
 
 ############################################################
  

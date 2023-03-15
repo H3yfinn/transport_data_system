@@ -127,17 +127,6 @@ iea_evs = iea_evs.drop(columns=['Year'])
 #%%
 #handle iea fuel economy dataset
 
-iea_fuel_economy['Dataset'] = 'IEA Fuel Economy'
-#make the first letter of words in columns uppercase
-iea_fuel_economy.columns = iea_fuel_economy.columns.str.title()
-#remove na values in value column
-iea_fuel_economy = iea_fuel_economy[iea_fuel_economy['Value'].notna()]
-#create a date column with month and day set to 12-31
-iea_fuel_economy['Date'] = iea_fuel_economy['Year'].astype(str) + '-12-31'
-#make frequency column and set to yearly
-iea_fuel_economy['Frequency'] = 'Yearly'
-#remove Year column
-iea_fuel_economy = iea_fuel_economy.drop(columns=['Year'])
 #%%
 #HANDLE ESTIMATES
 #nothing to do here yet as they are clean
@@ -193,41 +182,6 @@ if len(combined_data[combined_data.duplicated()]) > 0:
 combined_data['Dataset'] = combined_data.apply(lambda row: row['Dataset'] if pd.isna(row['Source']) else row['Dataset'] + ' $ ' + row['Source'], axis=1)
 #then drop source column
 combined_data = combined_data.drop(columns=['Source'])
-
-############################################################
-
-#CREATE CONCORDANCE
-
-############################################################
-#%%
-#CREATE CONCORDANCE
-#create a concordance which contains all the unique rows in the combined data df, when you remove the Dataset source and value columns.
-combined_data_concordance = combined_data.drop(columns=['Dataset','Comments', 'Value']).drop_duplicates()
-#we will also have to split the frequency column by its type: Yearly, Quarterly, Monthly, Daily
-#YEARLY
-yearly = combined_data_concordance[combined_data_concordance['Frequency'] == 'Yearly']
-#YEARS:
-MAX = yearly['Date'].max()
-MIN = yearly['Date'].min()
-#using datetime creates a range of dates, separated by year with the first year being the MIN and the last year being the MAX
-years = pd.date_range(start=MIN, end=MAX, freq='Y')
-#drop date from ATO_data_years
-yearly = yearly.drop(columns=['Date']).drop_duplicates()
-#now do a cross join between the concordance and the years array
-combined_data_concordance_new = yearly.merge(pd.DataFrame(years, columns=['Date']), how='cross')
-#MONTHS:
-monthly = combined_data_concordance[combined_data_concordance['Frequency'] == 'Monthly']
-MAX = monthly['Date'].max()
-MIN = monthly['Date'].min()
-#using datetime creates a range of dates, separated by month with the first month being the MIN and the last month being the MAX
-months = pd.date_range(start=MIN, end=MAX, freq='M')
-#drop date from ATO_data_months
-monthly = monthly.drop(columns=['Date']).drop_duplicates()
-monthly = monthly.merge(pd.DataFrame(months, columns=['Date']), how='cross')
-
-#%%
-#concat the months and years concordances together
-combined_data_concordance_new = pd.concat([combined_data_concordance_new, monthly], axis=0)
 
 ############################################################
  

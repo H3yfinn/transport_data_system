@@ -3,6 +3,7 @@
 import os
 import re
 import datetime
+import sys
 #%%
 def get_latest_date_for_data_file(data_folder_path, file_name):
     #get list of all files in the data folder
@@ -16,7 +17,11 @@ def get_latest_date_for_data_file(data_folder_path, file_name):
     #convert the dates to datetime objects
     all_files = [datetime.datetime.strptime(date, '%Y%m%d') for date in all_files]
     #get the latest date
-    latest_date = max(all_files)
+    try:
+        latest_date = max(all_files)
+    except ValueError:
+        print('No files found for ' + file_name)
+        sys.exit()
     #convert the latest date to a string
     latest_date = latest_date.strftime('%Y%m%d')
     return latest_date

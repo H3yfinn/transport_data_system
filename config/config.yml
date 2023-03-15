@@ -1,0 +1,108 @@
+INDEX_COLS:
+- Date
+- Economy
+- Measure
+- Vehicle Type
+- Unit
+- Medium
+- Transport Type
+- Drive
+- Fuel_Type
+- Frequency
+- Scope
+datasets:
+  ATO_data_cleaned_:
+    file_path: intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv
+    folder: intermediate_data/ATO/
+    script: TBA
+    type: transport
+  ATO_revenue_pkm:
+    file_path: intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  EGEDA_merged:
+    file_path: intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  _8th_ATO_bus_update.csv:
+    file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  _8th_ATO_passenger_road_updates.csv:
+    file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  _8th_ATO_road_freight_tonne_km.csv:
+    file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  _8th_ATO_vehicle_type_update.csv:
+    file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  _8th_iea_ev_all_stock_updates.csv:
+    file_path: intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  _evs.csv:
+    file_path: intermediate_data/IEA/FILE_DATE_ID_evs.csv
+    folder: intermediate_data/IEA/
+    script: TBA
+    type: transport
+  _iea_fuel_economy.csv:
+    file_path: intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv
+    folder: intermediate_data/IEA/
+    script: TBA
+    type: transport
+  _turnover_rate_3pct:
+    file_path: intermediate_data/estimated/FILE_DATE_ID_turnover_rate_3pct.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  all_macro_data_:
+    file_path: intermediate_data/Macro/all_macro_data_FILE_DATE_ID.csv
+    folder: intermediate_data/Macro/
+    script: TBA
+    type: other
+  eigth_edition_transport_data_final_:
+    file_path: intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_FILE_DATE_ID.csv
+    folder: intermediate_data/8th_edition_transport_model/
+    script: TBA
+    type: transport
+  ATO_data_cleaned_others_:
+    file_path: intermediate_data/ATO/ATO_data_cleaned_others_FILE_DATE_ID.csv
+    folder: intermediate_data/ATO/
+    script: TBA
+    type: other
+  item_dataset_clean_:
+    file_path: intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv
+    folder: intermediate_data/item_data/
+    script: TBA
+    type: transport
+  missing_drive_values_:
+    file_path: intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv
+    folder: intermediate_data/estimated/filled_missing_values/
+    script: TBA
+    type: transport
+  nearest_available_date:
+    file_path: intermediate_data/estimated/nearest_available_dateFILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  new_vehicle_efficiency_estimates_:
+    file_path: intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport
+  occ_load_guesses:
+    file_path: intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: TBA
+    type: transport

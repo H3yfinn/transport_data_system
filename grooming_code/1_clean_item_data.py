@@ -250,6 +250,21 @@ if len(item_data_apec_tall_dropped[item_data_apec_tall_dropped.duplicated()]) > 
 #%%
 #handle item data
 item_data_apec_tall['Dataset'] = 'ITEM'
+#%%
+#%%
+#remove na values in value column
+item_data_apec_tall = item_data_apec_tall[item_data_apec_tall['Value'].notna()]
+#create a date column with month and day set to 1
+item_data_apec_tall['Date'] = item_data_apec_tall['Year'].astype(str) + '-12-31'
+#make frequency column and set to yearly
+item_data_apec_tall['Frequency'] = 'Yearly'
+#remove Year column
+item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
+#%%
+#separate data based on if it is for actual transport statistics or things like google mobility or macro data
+
+
+#%%
 #and now we can save the data with FILE_DATE_ID
 item_data_apec_tall.to_csv('intermediate_data/item_data/item_dataset_clean_' + FILE_DATE_ID + '.csv', index=False)
 

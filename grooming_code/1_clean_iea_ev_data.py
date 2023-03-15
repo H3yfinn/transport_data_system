@@ -110,6 +110,10 @@ evs = evs[~((evs['Economy']=='04_CHL') & (evs['year']==2011) & (evs['source']=='
 evs[evs.duplicated()]
 
 evs['Medium'] = 'road' 
+
+#%%
+#set dataset to 'IEA_ev_explorer'
+evs['dataset'] = 'IEA_ev_explorer'
 #%%
 #great looks pretty clean from here!
 

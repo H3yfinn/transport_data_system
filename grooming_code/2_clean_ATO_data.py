@@ -31,12 +31,12 @@ PRINT_GRAPHS_AND_STATS = False
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 import utility_functions as utility_functions
-file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/ATO_data/', 'ATO_extracted_data_')
+file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/ATO/', 'ATO_extracted_data_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 #first, to skip some of the data cleaning, see if there is a pickle file for the FILE_DATE_ID available, if so we can use that:
 try:
-    with open('intermediate_data/ATO_data/ATO_data_cleaned_'+FILE_DATE_ID+'.pickle', 'rb') as handle:
+    with open('intermediate_data/ATO/ATO_data_cleaned_'+FILE_DATE_ID+'.pickle', 'rb') as handle:
         ATO_data = pickle.load(handle)
         pickle_file_available = True
     print('loaded pickle file for ATO_data_cleaned_'+FILE_DATE_ID+'.pickle')
@@ -45,7 +45,7 @@ except FileNotFoundError:
     pickle_file_available = False
 
     #load in the data
-    ATO_data = pd.read_csv('intermediate_data/ATO_data/ATO_extracted_data_'+FILE_DATE_ID+'.csv', engine="python")#load with python so as avoid warning about mixed dtypes
+    ATO_data = pd.read_csv('intermediate_data/ATO/ATO_extracted_data_'+FILE_DATE_ID+'.csv', engine="python")#load with python so as avoid warning about mixed dtypes
 
 country_codes = pd.read_csv('config/economy_code_to_name.csv') 
 
@@ -96,7 +96,7 @@ if not pickle_file_available:
     ATO_data['value'] = ATO_data['value'].astype(float)
 
     #save as pickle file
-    with open('intermediate_data/ATO_data/ATO_data_cleaned_'+FILE_DATE_ID+'.pickle', 'wb') as handle:
+    with open('intermediate_data/ATO/ATO_data_cleaned_'+FILE_DATE_ID+'.pickle', 'wb') as handle:
         pickle.dump(ATO_data, handle, protocol=pickle.HIGHEST_PROTOCOL)
 else:
     print('skipping some data cleaning as pickle file available')
@@ -689,7 +689,10 @@ if value_2018 != 70101000000:
 else:
     #remove the rows from the original dataset
     ATO_dataset_clean = ATO_dataset_clean.drop(rows_to_remove.index)
-
+#%%
+#some of the covid data is for passenger transport type but really it should be set to nan. So find where Measure contains COVID:
+ATO_dataset_clean.loc[ATO_dataset_clean['Measure'].str.contains('COVID'), 'Transport Type'] = np.nan
+ATO_dataset_clean.loc[ATO_dataset_clean['Measure'].str.contains('COVID'), 'Medium'] = np.nan
 #%%
 #lets see if we can remove the orginal_measure col and instead keep the sheet col
 visualise = False
@@ -714,11 +717,29 @@ if visualise:
     fig.write_html("plotting_output/ATO analysis/all_data_tree_big.html")
 
 #%%
-#save data
-ATO_dataset_clean.to_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
+ATO_dataset_clean_with_sheet = ATO_dataset_clean.copy()
+ATO_dataset_clean = ATO_dataset_clean.drop(columns=['Sheet'])
+#now drop duplicates since they are only the ones where the saemw vlaue is in multiple sheets
+ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
+#%%
+#separate data based on if it is for actual transport statistics or things like google mobility or macro data
+#find where Medium is nan
+others = ATO_dataset_clean[ATO_dataset_clean['Medium'].isna()]
+#remove those rows from the original dataset
+ATO_dataset_clean = ATO_dataset_clean[ATO_dataset_clean['Medium'].notna()]
+#remove Medium, fuel type ,vehicle type and transport type  cols if they are all nan, else let user know that there are some rows that have some of these cols filled in
+if others['Medium'].isna().all() and others['Fuel_Type'].isna().all() and others['Vehicle Type'].isna().all() and others['Transport Type'].isna().all():
+    others = others.drop(columns=['Medium', 'Fuel_Type', 'Vehicle Type', 'Transport Type'])
+else:
+    raise ValueError('There are some rows in the ATO dataset that have some of the Medium, Fuel Type, Vehicle Type and Transport Type cols filled in but no Medium. Please check the ATO dataset and update the code if necessary.')
 
+#%%
+#save data
+ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
+others.to_csv('intermediate_data/ATO/ATO_data_cleaned_others_{}.csv'.format(FILE_DATE_ID), index=False)
+ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_{}.csv'.format(FILE_DATE_ID), index=False)
 #SAVE others as well in casse it can be of use (its not as welll formatted as the above)
-others.to_csv('intermediate_data/ATO_data/ATO_data_others_{}.csv'.format(FILE_DATE_ID), index=False)
+others.to_csv('intermediate_data/ATO/ATO_data_others_{}.csv'.format(FILE_DATE_ID), index=False)
 #%%
 
 #%%
