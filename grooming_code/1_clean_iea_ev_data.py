@@ -53,7 +53,7 @@ evs[evs['Economy'].isna()].region.unique()
 evs = evs[~evs['Economy'].isna()]
 #%%
 #we will change 'category' to 'source', 'parameter' to 'measure', 'mode' to 'vehicle type', powertrain to 'drive'
-evs.rename(columns={'category':'source', 'parameter':'measure', 'mode':'vehicle type', 'powertrain': 'drive'}, inplace=True)
+evs.rename(columns={'category':'source', 'parameter':'measure', 'mode':'vehicle type', 'powertrain': 'drive', 'year':'date'}, inplace=True)
 #drop region and economy name
 evs.drop(columns=['region', 'Economy name'], inplace=True)
 #%%
@@ -105,18 +105,28 @@ evs.loc[evs['unit']=='PJ', 'value'] = evs.loc[evs['unit']=='PJ', 'value'] * 0.00
 #%%
 
 #remove specific duplciate for 04_CHL 2011 EV Charging points
-evs = evs[~((evs['Economy']=='04_CHL') & (evs['year']==2011) & (evs['source']=='Historical') & (evs['measure']=='EV Charging points'))]
+evs = evs[~((evs['Economy']=='04_CHL') & (evs['date']==2011) & (evs['source']=='Historical') & (evs['measure']=='EV Charging points'))]
 #check for duplicates
 evs[evs.duplicated()]
 
 evs['Medium'] = 'road' 
 
+#where measure is EV Charging points then set transport type to 'combined'
+evs.loc[evs['measure']=='EV Charging points', 'transport type'] = 'combined'
+
+#where vehicle type is np.nan then set 'vehicle type' to 'combined'
+evs.loc[evs['vehicle type'].isna(), 'vehicle type'] = 'combined'
 #%%
 #set dataset to 'IEA_ev_explorer'
 evs['dataset'] = 'IEA_ev_explorer'
+
+#make date have the format YYYY-MM-DD, with mm=12, dd=31
+evs['date'] = evs['date'].astype(str) + '-12-31'
+
+evs['frequency'] = 'Yearly'
 #%%
 #great looks pretty clean from here!
 
 #saeve the data
-evs.to_csv('input_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
+evs.to_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
 # %%

@@ -689,10 +689,41 @@ if value_2018 != 70101000000:
 else:
     #remove the rows from the original dataset
     ATO_dataset_clean = ATO_dataset_clean.drop(rows_to_remove.index)
+
 #%%
-#some of the covid data is for passenger transport type but really it should be set to nan. So find where Measure contains COVID:
-ATO_dataset_clean.loc[ATO_dataset_clean['Measure'].str.contains('COVID'), 'Transport Type'] = np.nan
-ATO_dataset_clean.loc[ATO_dataset_clean['Measure'].str.contains('COVID'), 'Medium'] = np.nan
+#Where measure is one of the following, and medium is road and vehicle type is na, then set the vehicle type to 'all'
+# 'passenger_km', 'freight_tonne_km', 'Sales', 'Stocks', 'Energy',
+#        'energy_use_tonnes', 'co2_emissions'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(['passenger_km', 'freight_tonne_km', 'Sales', 'Stocks', 'Energy', 'energy_use_tonnes', 'co2_emissions'])) & (ATO_dataset_clean['Medium'] == 'road') & (ATO_dataset_clean['Vehicle Type'].isna()), 'Vehicle Type'] = 'all'
+#%%
+#where measure is COVID Google Mobility Data - Grocery and pharmacy, then set mediumn to road, and vehicle type to all and transport type to passenger
+road_passenger_covid_measures = [
+       'COVID Google Mobility Data - Grocery and pharmacy',
+       'COVID Google Mobility Data - Retail and recreation',
+       'COVID Google Mobility Data - Parks',
+       'COVID Google Mobility Data - Public transport stations',
+       'COVID Google Mobility Data - Workplaces',
+       'COVID Google Mobility Data - Residential',
+       'COVID Apple Mobility Data - Driving',
+       'COVID Apple Mobility Data - Walking',
+       'COVID Apple Mobility Data - Public transport',
+       'COVID Restrictions - Public Transport'
+]
+
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(road_passenger_covid_measures), 'Medium')] = 'road'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(road_passenger_covid_measures), 'Vehicle Type')] = 'all'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(road_passenger_covid_measures), 'Transport Type')] = 'passenger'
+
+#then set medium to all, vehicle type to all and transport type to passenger for the following measures:
+#  'COVID Restrictions - International Transport',
+#        'COVID Restrictions - Domestic Transport'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(['COVID Restrictions - International Transport', 'COVID Restrictions - Domestic Transport'])), 'Medium'] = 'all'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(['COVID Restrictions - International Transport', 'COVID Restrictions - Domestic Transport'])), 'Vehicle Type'] = 'all'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Measure'].isin(['COVID Restrictions - International Transport', 'COVID Restrictions - Domestic Transport'])), 'Transport Type'] = 'passenger'
+       
+#where medium is road then set drive to all, otherwise set it to the same value as medium
+ATO_dataset_clean.loc[(ATO_dataset_clean['Medium'] == 'road'), 'Drive'] = 'all'
+ATO_dataset_clean.loc[(ATO_dataset_clean['Medium'] != 'road'), 'Drive'] = ATO_dataset_clean['Medium']
 #%%
 #lets see if we can remove the orginal_measure col and instead keep the sheet col
 visualise = False
@@ -721,25 +752,12 @@ ATO_dataset_clean_with_sheet = ATO_dataset_clean.copy()
 ATO_dataset_clean = ATO_dataset_clean.drop(columns=['Sheet'])
 #now drop duplicates since they are only the ones where the saemw vlaue is in multiple sheets
 ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
-#%%
-#separate data based on if it is for actual transport statistics or things like google mobility or macro data
-#find where Medium is nan
-others = ATO_dataset_clean[ATO_dataset_clean['Medium'].isna()]
-#remove those rows from the original dataset
-ATO_dataset_clean = ATO_dataset_clean[ATO_dataset_clean['Medium'].notna()]
-#remove Medium, fuel type ,vehicle type and transport type  cols if they are all nan, else let user know that there are some rows that have some of these cols filled in
-if others['Medium'].isna().all() and others['Fuel_Type'].isna().all() and others['Vehicle Type'].isna().all() and others['Transport Type'].isna().all():
-    others = others.drop(columns=['Medium', 'Fuel_Type', 'Vehicle Type', 'Transport Type'])
-else:
-    raise ValueError('There are some rows in the ATO dataset that have some of the Medium, Fuel Type, Vehicle Type and Transport Type cols filled in but no Medium. Please check the ATO dataset and update the code if necessary.')
 
 #%%
 #save data
 ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
-others.to_csv('intermediate_data/ATO/ATO_data_cleaned_others_{}.csv'.format(FILE_DATE_ID), index=False)
 ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_{}.csv'.format(FILE_DATE_ID), index=False)
-#SAVE others as well in casse it can be of use (its not as welll formatted as the above)
-others.to_csv('intermediate_data/ATO/ATO_data_others_{}.csv'.format(FILE_DATE_ID), index=False)
+
 #%%
 
 #%%

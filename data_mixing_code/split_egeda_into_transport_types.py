@@ -128,6 +128,11 @@ EGEDA_merged_clean['Measure'] = 'Energy'
 EGEDA_merged_clean['Unit'] = 'PJ'
 
 #%%
+#where vehicle type is na and the medium is road then set it to all, and same for drive
+EGEDA_merged_clean.loc[(EGEDA_merged_clean['Medium']=='road') & (EGEDA_merged_clean['Vehicle Type'].isna()), 'Vehicle Type'] = 'All'
+EGEDA_merged_clean.loc[(EGEDA_merged_clean['Medium']=='road') & (EGEDA_merged_clean['Drive'].isna()), 'Drive'] = 'All'
+
+#%%
 #save
 EGEDA_merged_clean.to_csv('./intermediate_data/estimated/EGEDA_merged{}.csv'.format(FILE_DATE_ID), index=False)
 #%%

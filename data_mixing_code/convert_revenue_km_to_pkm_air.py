@@ -8,9 +8,9 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_sys
 import utility_functions as utility_functions
 
 
-file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/ATO_data/', 'ATO_data_cleaned_')
+file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/ATO/', 'ATO_data_cleaned_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-ATO_dataset_clean = pd.read_csv('intermediate_data/ATO_data/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID))
+ATO_dataset_clean = pd.read_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID))
 
 #%%
 #grab revenue km data
@@ -24,8 +24,8 @@ a.Unit = 'passenger_km'
 #change dataset to 'Rev_pass_km' and source to 'ICCT'
 a.Dataset = 'Rev_pass_km'
 a.Source = 'ICCT'
-#drop sheet col
-a = a.drop(columns = ['Sheet'])
+
+
 
 #save to csv
 a.to_csv('intermediate_data/estimated/ATO_revenue_pkm{}.csv'.format(FILE_DATE_ID), index = False)

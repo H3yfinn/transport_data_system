@@ -39,23 +39,13 @@ LATEST_DATE='2023-01-01'
 paths_dict = data_formatting_functions.setup_dataselection_process(FILE_DATE_ID,INDEX_COLS, EARLIEST_DATE, LATEST_DATE)
 
 datasets_transport, datasets_other = data_formatting_functions.extract_latest_groomed_data()
+#for now wont do anmything with datasets_other
 #%%
 combined_data = data_formatting_functions.combine_datasets(datasets_transport, FILE_DATE_ID,paths_dict)
-#%%
-
-
-#UPTO here
-#print unique datasets where one of the index cols is nan
-for col in INDEX_COLS:
-    print(col)
-    print(combined_data[combined_data[col].isna()]
-    ['dataset'].unique())
-    
-
     
 #%%
 combined_data_concordance = data_formatting_functions.create_concordance(combined_data, frequency = 'Yearly')
-combined_data_concordance, combined_data = data_formatting_functions.change_column_names(combined_data_concordance, combined_data)
+# combined_data_concordance, combined_data = data_formatting_functions.change_column_names(combined_data_concordance, combined_data)
 
 #%%
 if create_9th_model_dataset:

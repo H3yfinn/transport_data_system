@@ -89,6 +89,9 @@ load = load.drop_duplicates()
 #concat the data and then save
 occ_load = pd.concat([occupancy, load])
 
+#if theres Fuel_Type and Fuel columns then keep only the Fuel column
+if 'Fuel_Type' in occ_load.columns and 'Fuel' in occ_load.columns:
+    occ_load = occ_load.drop(columns=['Fuel_Type'])
 #%%
 occ_load.to_csv('./intermediate_data/estimated/occ_load_guesses{}.csv'.format(FILE_DATE_ID), index=False)
 #%%

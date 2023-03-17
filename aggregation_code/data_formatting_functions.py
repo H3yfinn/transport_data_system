@@ -55,13 +55,9 @@ def convert_string_to_snake_case(string):
     string = re.sub('([a-z0-9])([A-Z])', r'\1_\2', string).lower()
     #repalce spaces with underscores
     string = string.replace(' ', '_')
+    #replace any double underscores with single underscores
+    string = string.replace('__', '_')
     return string
-
-def change_column_names(combined_data_concordance, combined_data):
-    # #change fuel to fuel 
-    # combined_data_concordance.rename(columns={'fuel':'fuel'}, inplace=True)
-    # combined_data.rename(columns={'fuel':'fuel'}, inplace=True)
-    return combined_data_concordance, combined_data
 
 def setup_dataselection_process(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date):
     #PERHAPS COULD GET ALL THIS STUFF FROM CONFIG.YML?
@@ -99,41 +95,59 @@ def extract_latest_groomed_data():
     datasets_transport = []
     datasets_other = []
     for dataset in cfg['datasets']:
-        if cfg['datasets'][dataset]['type'] == 'transport':
-            datasets_transport.append([cfg['datasets'][dataset]['folder'], dataset, cfg['datasets'][dataset]['file_path']])
-        else:
-            datasets_other.append([cfg['datasets'][dataset]['folder'], dataset, cfg['datasets'][dataset]['file_path']])
+        if cfg['datasets'][dataset]['included']:
+            if cfg['datasets'][dataset]['type'] == 'transport':
+                datasets_transport.append([cfg['datasets'][dataset]['folder'], dataset, cfg['datasets'][dataset]['file_path']])
+            else:
+                datasets_other.append([cfg['datasets'][dataset]['folder'], dataset, cfg['datasets'][dataset]['file_path']])
     #now replace the FILE_DATE_ID with the latest date available for each file:
     for dataset in datasets_transport:
         #get the latest file
         latest_file = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
         #add date to the start of latest_file
-        latest_file = 'date'+latest_file
+        latest_file = 'DATE'+latest_file
         #replace the FILE_DATE_ID with the latest file date
         dataset[2] = dataset[2].replace('FILE_DATE_ID', latest_file)
     for dataset in datasets_other:
         #get the latest file
         latest_file = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
         #add date to the start of latest_file
-        latest_file = 'date'+latest_file
+        latest_file = 'DATE'+latest_file
         #replace the FILE_DATE_ID with the latest file date
         dataset[2] = dataset[2].replace('FILE_DATE_ID', latest_file)
     return datasets_transport, datasets_other
 
-def make_quick_fixes_to_datasets(combined_data, INDEX_COLS):
+def make_quick_fixes_to_datasets(combined_data):
 
-    #quite often accidentally call fuel the fuel type, jsut change it to fuel since that is clearest:
-    combined_data.rename(columns={'fuel_type':'fuel'}, inplace=True)
+    #and where fuel is na, set it to 'All'
+    combined_data['fuel'] = combined_data['fuel'].fillna('all')
     #if scope col is na then set it to 'national'
-    combined_data['scope'] = combined_data['scope'].fillna('National')
+    combined_data['scope'] = combined_data['scope'].fillna('national')
+    #if comment is NA then set it to 'No comment'
+    combined_data['comment'] = combined_data['comment'].fillna('no_comment')
     #remove all na values in value column
     combined_data = combined_data[combined_data['value'].notna()]
-    #where medium is not 'road', then set vehicle type and drive to the medium. This is because the medium is the only thing that is relevant for non-road, currently.
-    combined_data.loc[combined_data['medium'] != 'Road', 'vehicle_type'] = combined_data.loc[combined_data['medium'] != 'Road', 'medium']
-    combined_data.loc[combined_data['medium'] != 'Road', 'drive'] = combined_data.loc[combined_data['medium'] != 'Road', 'medium']
-        
+    #where medium is not 'road' or 'Road', then set vehicle type and drive to the medium. This is because the medium is the only thing that is relevant for non-road, currently.
+    combined_data.loc[combined_data['medium'].str.lower() != 'road', 'vehicle_type'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
+    combined_data.loc[combined_data['medium'].str.lower() != 'road', 'drive'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
+
+    #convert all values in all columns to snakecase, except economy and value
+    for col in combined_data.columns:
+        if col not in ['economy', 'value']:
+            #if type of col is not string then tell the user
+            if combined_data[col].dtype != 'object':
+                print('WARNING: column {} is not a string. It is a {}'.format(col, combined_data[col].dtype))
+                # print its non string values:
+                print('Unique values in column {} are:'.format(combined_data[col].unique()))
+            else:
+                #make any nan values into strings. we will fix them later.
+                combined_data[col] = combined_data[col].fillna('nan')
+                combined_data[col] = combined_data[col].apply(convert_string_to_snake_case)
+                #reutrn nas to nan
+                combined_data[col] = combined_data[col].replace('nan', np.nan)
+
     #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
-    combined_data = combined_data[combined_data['source'] != 'Carbon neutrality']
+    combined_data = combined_data[combined_data['source'] != 'carbon_neutrality']
 
     return combined_data
 
@@ -157,31 +171,36 @@ def check_dataset_for_issues(combined_data, INDEX_COLS):
             print(measure)
             print(combined_data[combined_data['measure'] == measure]['unit'].unique())
             raise Exception('There are multiple units for this measure. This is not allowed. Please fix this before continuing.')
-        
     #check for any duplicates
     if len(combined_data[combined_data.duplicated()]) > 0:
         raise Exception('There are {} duplicates in the combined data. Please fix this before continuing.'.format(len(combined_data[combined_data.duplicated()])))
     
     return combined_data
 
+def replace_bad_col_names(col):
+    col = convert_string_to_snake_case(col)
+    if col == 'fuel_type':
+        col = 'fuel'  
+    if col == 'comments':
+        col = 'comment'
+    return col
+
 def combine_datasets(datasets, FILE_DATE_ID, paths_dict):
 
     #loop through each dataset and load it into a dataframe, then concatenate the dataframes together
     combined_data = pd.DataFrame()
     for dataset in datasets:
-        #get the latest date for the dataset
-        file_date = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
-        #create the file date id
-        FILE_DATE_ID = 'date{}'.format(file_date)
-        #load the dataset into a dataframe
-        new_dataset = pd.read_csv(dataset[2].format(FILE_DATE_ID))
+        # #get the latest date for the dataset
+        # file_date = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
+        # #create the file date id
+        # FILE_DATE_ID = 'date{}'.format(file_date)
+        # #load the dataset into a dataframe
+        new_dataset = pd.read_csv(dataset[2])#.format(FILE_DATE_ID)
         #convert cols to snake case
-        new_dataset.columns = [convert_string_to_snake_case(col) for col in new_dataset.columns]
+        new_dataset.columns = [replace_bad_col_names(col) for col in new_dataset.columns]
         #concatenate the dataset to the combined data
         combined_data = pd.concat([combined_data, new_dataset], ignore_index=True)
-
-    make_quick_fixes_to_datasets(combined_data, paths_dict['INDEX_COLS'])
-    return combined_data
+    combined_data = make_quick_fixes_to_datasets(combined_data)
     check_dataset_for_issues(combined_data, paths_dict['INDEX_COLS'])
 
     #A make thigns easier in this process, we will concatenate the source and dataset columns into one column called dataset. But if source is na then we will just use the dataset column
@@ -211,7 +230,7 @@ def create_concordance(combined_data, frequency = 'Yearly'):
     ############################################################
     #CREATE CONCORDANCE
     #create a concordance which contains all the unique rows in the combined data df, when you remove the dataset source and value columns.
-    combined_data_concordance = combined_data.drop(columns=['dataset','comments', 'value']).drop_duplicates()#todo is this the ebst way to handle the cols
+    combined_data_concordance = combined_data.drop(columns=['dataset','comment', 'value']).drop_duplicates()#todo is this the ebst way to handle the cols
     #we will also have to split the frequency column by its type: Yearly, Quarterly, Monthly, Daily
     #YEARLY
     yearly = combined_data_concordance[combined_data_concordance['frequency'] == frequency]
@@ -408,7 +427,7 @@ def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dic
     combined_data_concordance['dataset'] = None
     combined_data_concordance['value'] = None
     combined_data_concordance['dataset_selection_method'] = None
-    combined_data_concordance['comments'] = None
+    combined_data_concordance['comment'] = None
 
     return combined_data_concordance, combined_data
 
