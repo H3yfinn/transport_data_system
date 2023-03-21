@@ -528,7 +528,12 @@ for key, value in fuel_type_dict.items():
     ATO_data.loc[ATO_data['original_measure'].isin(value), 'fuel_type'] = key
     ATO_data.loc[ATO_data['original_measure'].isin(value), 'original_measure'] = ATO_data.loc[ATO_data['original_measure'].isin(value), 'measure']
 
-
+#%%
+#some changes i made quickly:
+#now rename any fuel types = Natural Gas to natural_gas
+ATO_data.loc[ATO_data['fuel_type'] == 'Natural Gas', 'fuel_type'] = 'natural_gas'
+#and any fuel types from Electricity to electricity
+ATO_data.loc[ATO_data['fuel_type'] == 'Electricity', 'fuel_type'] = 'electricity'
 #%%
 #and finally there are some original measures for which we now have enough detail in their other cols to set them to their measure col
 original_measures_to_change = ['Total Passenger Kilometer Travel (Domestic+International)', 'Freight Transport - Tonne-km (Total) (Domestic+International)','Freight tonne-km/GDP (Domestic+International)', 'Freight tonne-km/capita (Domestic+International)','Land Transport Freight Kilometers Travel']
@@ -756,7 +761,7 @@ ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
 #%%
 #save data
 ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
-ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_{}.csv'.format(FILE_DATE_ID), index=False)
+ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_{}.csv'.format(FILE_DATE_ID), index=False)#this file is just for reference to where the data came from
 
 #%%
 

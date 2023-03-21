@@ -42,177 +42,380 @@ datasets_transport, datasets_other = data_formatting_functions.extract_latest_gr
 #for now wont do anmything with datasets_other
 #%%
 combined_data = data_formatting_functions.combine_datasets(datasets_transport, FILE_DATE_ID,paths_dict)
-    
-#%%
-combined_data_concordance = data_formatting_functions.create_concordance(combined_data, frequency = 'Yearly')
-# combined_data_concordance, combined_data = data_formatting_functions.change_column_names(combined_data_concordance, combined_data)
 
 #%%
 if create_9th_model_dataset:
     #import snapshot of 9th concordance
     model_concordances_base_year_measures_file_name = './intermediate_data/9th_dataset/{}'.format('model_concordances_measures.csv')
-    data_formatting_functions.filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict)
-
+    combined_data = data_formatting_functions.filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict)
 
 #since we dont expect to run the data selection process that often we will just save the data in a dated folder in intermediate_data/data_selection_process/FILE_DATE_ID/
 
+#%%
+combined_data_concordance = data_formatting_functions.create_whole_dataset_concordance(combined_data, frequency = 'yearly')
+# combined_data_concordance, combined_data = data_formatting_functions.change_column_names(combined_data_concordance, combined_data)
 
 #%%
-combined_data, combined_data_concordance = data_formatting_functions.prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict)#todo reaplce everything that is combined_dataset with combined_data
+#save data to pickle so we dont have to do this again
+combined_data_concordance.to_pickle('combined_data_concordance.pkl')
+combined_data.to_pickle('combined_data.pkl')
+#%%
+#laod data from pickle
+combined_data_concordance = pd.read_pickle('combined_data_concordance.pkl')
+combined_data = pd.read_pickle('combined_data.pkl')
+
+#%%
+sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
+combined_data_concordance, combined_data = data_formatting_functions.prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict, sorting_cols)#todo reaplce everything that is combined_dataset with combined_data
+#%%
+passsenger_road_measures_selection_dict = {'measure': 
+    ['efficiency', 'occupancy', 'mileage', 'stocks'],
+ 'medium': ['road'],
+ 'transport_type': ['passenger']}
+
+combined_data,combined_data_concordance = data_formatting_functions.filter_for_specifc_data(passsenger_road_measures_selection_dict,combined_data_concordance, combined_data)
+
+#%%
+grouping_cols = ['economy','vehicle_type','drive']
+# save groups selections to tmp folder
+# close dashboard
+combined_data_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+combined_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)#todo is there some way to not have to do this? 
+def TEMP_FIX_change_date_col_to_year(df):
+    # %matplotlib qt
+    #TEMP FIX START
+    #NOTE MAKING THIS ONLY WORK FOR YEARLY DATA, AS IT WOULD BE COMPLICATED TO DO IT OTEHRWISE. lATER ON WE CAN TO IT COMPLETELY BY CHANGING LINES THAT ADD 1 TO THE DATE IN THE DATA SLECTION FUNCTIONS TO ADD ONE UNIT OF WHATEVER THE FREQUENCY IS. 
+    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
+    df.date = df.date.apply(lambda x: x[:4]).astype(int)
+    return df
+
+combined_data_concordance = TEMP_FIX_change_date_col_to_year(combined_data_concordance)
+combined_data = TEMP_FIX_change_date_col_to_year(combined_data)
+#TEMP FIX END
+
+#order data by date
+combined_data = combined_data.sort_values(by='date')
+combined_data = combined_data.sort_values(by='date')
+
+#create progresss pickle which will be updated after every selection
+progress = pd.DataFrame(columns=paths_dict['INDEX_COLS_no_year'])
+progress.to_pickle('progress.pkl')#TODO set location if this is needed
+#%%
+
+
+
+#%%
+grouping_cols = ['economy','vehicle_type','drive']
+def manual_data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict):
+    
+    ########PREPAREATION########
+    # combined_data_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+    # combined_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)#todo is there some way to not have to do this? 
+    
+    combined_data_concordance = TEMP_FIX_change_date_col_to_year(combined_data_concordance)
+    combined_data = TEMP_FIX_change_date_col_to_year(combined_data)
+    #TEMP FIX END
+
+    #order data by date
+    combined_data = combined_data.sort_values(by='date')
+    combined_data = combined_data.sort_values(by='date')
+
+    options_dict = prepare_user_selection_options()
+
+    groups_concordance_names_files, groups_data_names_files = save_groups_to_tmp_folder(combined_data_concordance, combined_data, paths_dict,grouping_cols)
+    
+    #remove combined_data and combined_data_concordance from memory
+    del combined_data_concordance
+    del combined_data
+    
+    ########SELECTION BEGINS########
+    # iterate through every group
+    for group_concordance_name_file, group_data_name_file in zip(groups_concordance_names_files, groups_data_names_files):
+        #load the data
+        group_concordance = pd.read_pickle(group_concordance_name_file)
+        group_data = pd.read_pickle(group_data_name_file)
+
+        #open dashboard
+        handle_group_dashbaord(group_concordance, group_data, paths_dict)
+
+        #set index to INDEX_COLS_no_year
+        group_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+        group_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+
+        # iterate through each index col
+        for index_row_no_year in group_concordance.index:
+            current_index_row_no_year = group_concordance.loc[index_row_no_year]
+
+            if current_index_row_no_year.Num_datapoints <= 1:
+                continue
+            
+            data_for_plotting = group_data.loc[index_row_no_year]
+            #plot data
+            plot_timeseries(data_for_plotting, paths_dict)
+
+            ##CREATE USER INPUT TEXT NOW
+            unique_datasets = data_for_plotting.Dataset.unique()
+            user_input_options, choice_dict = print_user_input_text(unique_datasets, options_dict)
+
+            combined_data_concordance_manual, user_input = manual_user_input_function(data_for_plotting, index_row, combined_data_concordance_manual, INDEX_COLS,choice_dict,options_dict)
+
+
+
+
+###########UPTO HERE###########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # create_group_dashboard()
+    # Make it easy for the user to create custom code for the dashbaord so that it can suit their groupings.
+
+def print_user_input_text(unique_datasets, options_dict):
+    #print to console
+    user_input_options = []
+    choice_dict = dict()
+    return user_input_options, choice_dict
+def plot_timeseries(data_for_plotting, paths_dict):
+    return
+def handle_group_dashbaord(group_concordance, group_data, paths_dict):
+    # open and close dashboard created for this group. 
+    return
+
+
+def prepare_user_selection_options():
+    #create a list of options
+    options = ['Keep the dataset "{}" for all years that the chosen dataset is available', 'Keep the dataset "{}" for all consecutive years that the same combination of datasets is available','Keep the dataset "{}" only for that year', 'Delete the value for dataset "{}" for this year']
+    #create an options dictwith keys rather than indexes to return the correct option. This will allow us to include more info in the options dict as well.
+    options_dict = dict()
+    options_dict['Keep_for_all_years'] = options[0]
+    options_dict['Keep_for_all_consecutive_years'] = options[1]
+    options_dict['Keep_for_this_year'] = options[2]
+    options_dict['Delete'] = options[3]
+    return options_dict
+
+def TEMP_FIX_change_date_col_to_year(df):
+    # %matplotlib qt
+    #TEMP FIX START
+    #NOTE MAKING THIS ONLY WORK FOR YEARLY DATA, AS IT WOULD BE COMPLICATED TO DO IT OTEHRWISE. lATER ON WE CAN TO IT COMPLETELY BY CHANGING LINES THAT ADD 1 TO THE DATE IN THE DATA SLECTION FUNCTIONS TO ADD ONE UNIT OF WHATEVER THE FREQUENCY IS. 
+    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
+    df.date = df.date.apply(lambda x: x[:4]).astype(int)
+    return df
+def save_groups_to_tmp_folder(combined_data_concordance, combined_data, paths_dict,grouping_cols):
+    # user can specify columns for which to group the data that will be input. Although only a single INDEX_ROW will be selected for at a time, the grouping will allow for a dashboard to be made for that group so the user can observe the selections in context of other datapoints in the same group
+    # It is also generally useful because it will allow the suer to work on a group at a time.
+
+    #split data into the groups and save them to a tmp folder paths_dict['tmp_selection_groups_folder']  in pickle form
+    groups_concordance = combined_data_concordance.groupby(grouping_cols)
+    groups_concordance_names_files = []
+
+    groups_data = combined_data.groupby(grouping_cols)
+    groups_data_names_files = []
+
+    for group_name, group_concordance in groups_concordance:
+        #concat group name to single string
+        group_name = '_'.join(group_name)
+        #save group concordance to tmp folder
+        group_concordance.to_pickle(os.path.join(paths_dict['tmp_selection_groups_folder'],'group_concordance_{}.pkl'.format(group_name)))
+        #add groupname to lsit
+        groups_concordance_names_files.append(group_name)
+
+    for group_name, group_data in groups_data:
+        #concat group name to single string
+        group_name = '_'.join(group_name)
+        #save group concordance to tmp folder
+        group_data.to_pickle(os.path.join(paths_dict['tmp_selection_groups_folder'],'group_data_{}.pkl'.format(group_name)))
+        #add groupname to lsit
+        groups_data_names_files.append(group_name)
+
+    return groups_concordance_names_files, groups_data_names_files
+
+
+
+
+def load_and_merge_groups_from_tmp_folder(groups_concordance_names_files, groups_data_names_files, paths_dict):
+        
+    #load groups from tmp folder
+    groups_concordance = {}
+    groups_data = {}
+    for group_name in groups_concordance_names_files:
+        groups_concordance[group_name] = pd.read_pickle(os.path.join(paths_dict['tmp_selection_groups_folder'],'group_concordance_{}.pkl'.format(group_name)))
+    for group_name in groups_data_names_files:
+        groups_data[group_name] = pd.read_pickle(os.path.join(paths_dict['tmp_selection_groups_folder'],'group_data_{}.pkl'.format(group_name)))
+
+    #concat all groups concordance into one dataframe
+    groups_concordance = pd.concat(groups_concordance)
+    groups_data = pd.concat(groups_data)
+
+    return groups_concordance, groups_data
+
 
 #%%
 
-#todo, since we are importing deleted datasets later, we should consider wehther that will rem,ove any dupclaites?
-###########################################################
-#create dataframe of duplicates with list of datasets and count of datasets
-duplicates = combined_data.copy()
-#make Potential_datapoints a copy of the dataset column
-duplicates['Potential_datapoints'] = duplicates['Dataset']
-# add source and dataset to the INDEX_COLS
-INDEX_COLS_source_dataset = INDEX_COLS + ['Dataset', 'Source']
-#group by the index columns and sum the values
-duplicates =  duplicates.groupby(INDEX_COLS_source_dataset,dropna=False).agg({'Potential_datapoints': lambda x: list(x), 'Value': lambda x: sum(x.dropna())}).reset_index()
+def select_best_data_manual_by_group(combined_data_concordance_iterator,iterator,combined_data_concordance_manual,combined_data,duplicates_manual,INDEX_COLS,selection_set,sorting_cols,FILE_DATE_ID=''):
+    
 
-#make sure the lists are sorted so that the order is consistent
-duplicates['Potential_datapoints'] = duplicates['Potential_datapoints'].apply(lambda x: sorted(x))
-#create count column
-duplicates['Num_datapoints'] = duplicates['Potential_datapoints'].apply(lambda x: len(x))
+    ##################################
 
-#join onto combined_data_concordance
-new_combined_data_concordance = duplicates.merge(combined_data_concordance, on=INDEX_COLS_source_dataset, how='left')#todo does this result in what we'd like? are there any issues with not using .copy)( on anythiing
-new_combined_data = duplicates.merge(combined_data, on=INDEX_COLS_source_dataset, how='left')#todo, do we need to use [['Datasets', 'Num_datapoints']] here?
+    #START MANUAL DATA SELECTION
 
-# test_identify_duplicated_datapoints_to_select_for(combined_dataset,combined_data_concordance,new_combined_data_concordance,INDEX_COLS)
+    ##################################
+    INDEX_COLS_no_year = INDEX_COLS.copy()#todo move these out of functions
+    INDEX_COLS_no_year.remove('Date')
+    #if Date is in sorting_cols then remove it
+    if 'Date' in sorting_cols:
+        sorting_cols.remove('Date')
+    #loop through the unique combinations, plot a timeseries for each one and then ask the user what dataset they want to choose for that instance and then update the dataset column in combined_data for that row to be the chosen dataset
+    # %matplotlib qt 
+    import matplotlib
+    matplotlib.use('TkAgg')#todo is this needed? espec if we save anbd load as png
+
+    combined_data_concordance_manual.set_index(INDEX_COLS_no_year, inplace=True)
+    duplicates_manual.set_index(INDEX_COLS_no_year, inplace=True)#todo is there some way to not have to do this? 
+
+    # %matplotlib qt
+    #TEMP FIX START
+    #NOTE MAKING THIS ONLY WORK FOR YEARLY DATA, AS IT WOULD BE COMPLICATED TO DO IT OTEHRWISE. lATER ON WE CAN TO IT COMPLETELY BY CHANGING LINES THAT ADD 1 TO THE DATE IN THE DATA SLECTION FUNCTIONS TO ADD ONE UNIT OF WHATEVER THE FREQUENCY IS. 
+    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
+    combined_data_concordance_manual.Date = combined_data_concordance_manual.Date.apply(lambda x: x[:4]).astype(int)
+    combined_data.Date = combined_data.Date.apply(lambda x: x[:4]).astype(int)
+    duplicates_manual.Date = duplicates_manual.Date.apply(lambda x: x[:4]).astype(int)#todo CHECK WHY WE ARE GETTING FLOAT YEARS
+
+    #order data by date
+    combined_data_concordance_manual = combined_data_concordance_manual.sort_values(by='Date')
+    combined_data = combined_data.sort_values(by='Date')
+    duplicates_manual = duplicates_manual.sort_values(by='Date')
+    #TEMP FIX END
+    #Create bad_index_rows as a empty df with the same columns as index_rows
+    bad_index_rows = pd.DataFrame(columns=combined_data_concordance_iterator.columns)
+    num_bad_index_rows = 0
+    #create progresss csv so we can add lines to it as we go
+    progress_csv = 'intermediate_data/data_selection/{}_progress.csv'.format(FILE_DATE_ID)
+
+    ####################################
+    #split data into groups based on the selection set so that the data selection process can be done for each group separately
+    options = ['Keep the dataset "{}" for all years that the chosen dataset is available', 'Keep the dataset "{}" for all consecutive years that the same combination of datasets is available','Keep the dataset "{}" only for that year', 'Delete the value for dataset "{}" for this year']
+    #create an options dictwith keys rather than indexes to return the correct option. This will allow us to include more info in the options dict as well.
+    options_dict = dict()
+    options_dict['Keep_for_all_years'] = options[0]
+    options_dict['Keep_for_all_consecutive_years'] = options[1]
+    options_dict['Keep_for_this_year'] = options[2]
+    options_dict['Delete'] = options[3]
+
+    #make a var called iterator_group and repalce nas with 'nan' so that we can group by it
+    iterator_group = iterator.reset_index().copy()
+    iterator_group = iterator_group.fillna('nan')
+    iterator_group = iterator_group.groupby(selection_set)
+
+    #create set of 2 one for plotting the current row and one for plotting the user options in text. 
+    fig_row, ax_row = plt.subplots()
+    fig_text, ax_text = plt.subplots()
+
+    # combined_data_concordance_manual_group = combined_data_concordance_manual.groupby(selection_set)
+    # combined_data_group = combined_data.groupby(selection_set)
+    # duplicates_manual_group = duplicates_manual.groupby(selection_set)
+    for group in iterator_group.groups:
+        iterator_for_group = iterator_group.get_group(group)
+        #now replace any 'nan' values with np.nan so that we can use the isna() function
+        iterator_for_group = iterator_for_group.replace('nan',np.nan)
+        #sort iterator_for_group by set of index columns so the way the data comes in is easy to understand
+        iterator_for_group = iterator_for_group.sort_values(by=sorting_cols)
+        #set index of iterator_for_group to be the index columns
+        iterator_for_group.set_index(INDEX_COLS_no_year, inplace=True)
+
+        #extract the data in iterator for group from combined data using the index
+        combined_data_group = combined_data.loc[iterator_for_group.index].reset_index()
+
+        plotly_dashboard(combined_data_group,group)
+
+        user_input = ''
+        for index_row in iterator_for_group.index:
+            
+            if 'Yearly' not in index_row:
+                print('Skipping row {} as it is not yearly data'.format(index_row))
+                continue
+
+            #filter for only the current row in our duplicates_manual dataset by using the row as an index
+            try:
+                current_row_filter = duplicates_manual.loc[index_row]
+            except KeyError:
+                num_bad_index_rows += 1
+                print('Bad unique combination {}: {}. Please check it to find out what the error was'.format(num_bad_index_rows,index_row))
+                bad_index_rows = bad_index_rows.append(combined_data_concordance_iterator.loc[index_row])
+                #if the row is not in the duplicates_manual dataset then continue to the next row
+                continue
+            
+            #identify how many datasets there are for each year by looking at the Num_datapoints column
+            #if there are rows where count is greater than 1 then we will plot and ask user to choose which dataset to use
+            if (current_row_filter.Num_datapoints.max() > 1):# | (add_to_rows_to_select_manually_df):#if we ware adding to the rows to select manually df then we want to plot all of them because its important to check them even if none of them are duplicates
+                #grab the data for this unique combination of columns from the combined_data df
+                data_for_plotting = combined_data.loc[index_row]
+
+                ##CREATE USER INPUT TEXT NOW
+                unique_datasets = data_for_plotting.Dataset.unique()
+                user_input_options, choice_dict = create_user_input_text(unique_datasets, options_dict)
 
 
-#%%
-##############################################################################
 
-#todo do these
-def import_previous_data_concordance():
-    #load in concordance and then use merge_previous_data_concordance() to change any rows that the same.
-    #todo, take a look at the previous selctions fucntion and see if we can just use a merge to udpate it. I guess it is jsut the concordance that needs updating?
-    def merge_previous_data_concordance():
-    pass
-    pass
-def import_previous_combined_dataset():
-    #whats the point in this one? todo
-    pass
-def merge_previous_combined_dataset():
-    pass
+                ##PLOT            
+                # #plot the user input options in text on fig_text
+                # fig_text = graph_user_input_options(user_input_options, fig_text, ax_text)
 
-#%%
-
-#create list of tuples of these datasets where the first element is the Fuel_Typefolder of the dataset (eg. 'intermediate_data/Macro/') and the second element is the filename to identify the dataset (eg. 'all_macro_data_') and the third element is the full path to the dataset (eg. 'intermediate_data/Macro/all_macro_data_{}.csv'.format(FILE_DATE_ID))
-
-
+                # #plot the current row on fig_row
+                # fig_row = graph_current_row(data_for_plotting, index_row, fig_row, ax_row)
+                #WHY DONT WE PRINT THESE THINGS OUT,. ITS NOT WORKING. WE SHOULD THEN RUN THE CODE IN CMD SO THE TEXT OUTPUT IS CLEAR
+                fig_row = graph_current_row_and_input_options(data_for_plotting, user_input_options,index_row, fig_row, ax_row)
+                plt.ion()
+                plt.draw()
+                plt.pause(4)
+                ##USER INPUT
+                #ask user what dataset they want to choose for each year where a decision needs to be made, and then based on what they choose, update combined_data_concordance_manual 
+                combined_data_concordance_manual, user_input = manual_user_input_function(data_for_plotting, index_row, combined_data_concordance_manual, INDEX_COLS,choice_dict,options_dict)
+                #clear the figures so we can plot the next row
+                fig_row.clf()
+                fig_text.clf()
+                # plt.pause(4)
 
 
+                if user_input == 'quit':
+                    break
+                else:
+                    print('Finished with unique combination: {}'.format(index_row))
+            else:
+                pass#print('Unique combination: {} did not have more than 1 dataset available so no manual decision was needed'.format(index_row))
+            #save the progress to csv in case anything goes wrong. If you need to access it it should be formatted just like the combined_data_concordance_manual df at the end of this script
+            combined_data_concordance_manual.to_csv(progress_csv, index=True)
+        if user_input == 'quit':
+            print('User input was quit on unique combination {}, so quitting the script and saving the progress to a csv'.format(index_row))
+            break
+        print('Finished with group: {}'.format(group))
+    print('Finished with manual selection of datasets')
 
+    #close all the figures
+    plt.close('all')
 
-
-
-
-# %%
-
-
-def import_previous_selections(previous_selections, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,paths_dict,update_skipped_rows=False):
-    """
-    #todo we should make this way way more ismple by changing the inhernet way we do it
-    Please note this is quite a complicated process. 
-    #WARNING THERES POTENTIALLY AN ISSUE WHEN YOU UPDATE THE INPUT DATA SO IT INCLUDES ANOTHER DATAPOINT AND YOU LOAD THIS IN, THE MANUAL CONCORDANCE WILL END UP AHVING TWO ROWS FOR THE SAME DATAPOINT? #cHECK IT LATER
-    """
-    #IMPORT PREVIOUS SELECTIONS
-    #Previous_selections can be the previous_combined_data_concordance_manual or the progress_csv depending on if the user wants to import completed manual selections or the progress of some manual selections
-   
-    #This allows the user to import manual data selections from perveious runs to avoid having to do it again (can replace any rows where the Dataset_selection_method is na with where they are Manual in the imported csv)
-    ##########################################################
-    #We will make sure there are no index rows in the previous dataframes that are not in the current dataframes
-    #first the duplicates
-    previous_duplicates_manual.set_index(paths_dict['INDEX_COLS'], inplace=True)
-    duplicates_manual.set_index(paths_dict['INDEX_COLS'], inplace=True)
-    #remove the rows that are in the previous duplicates but not in the current duplicates
-    index_diff = previous_duplicates_manual.index.difference(duplicates_manual.index)
-    previous_duplicates_manual.drop(index_diff, inplace=True)
-    #reset the index
-    previous_duplicates_manual.reset_index(inplace=True)
-    duplicates_manual.reset_index(inplace=True)
-
-    #now for previous_selections and combined_data_concordance_manual
-    previous_selections.set_index(paths_dict['INDEX_COLS'], inplace=True)
-    combined_data_concordance_manual.set_index(paths_dict['INDEX_COLS'], inplace=True)
-    #remove the rows that are in the previous duplicates but not in the current duplicates
-    index_diff = previous_selections.index.difference(combined_data_concordance_manual.index)
-    previous_selections.drop(index_diff, inplace=True)
-    #reset the index
-    previous_selections.reset_index(inplace=True)
+    #TEMP FIX START #todo make this and the above one into a shorter bit or at least a function
+    #convert date back to the last day of the year instead of year integer
     combined_data_concordance_manual.reset_index(inplace=True)
-    ##########################################################
-
-    ##There is a chance that some index_rows have had new data added to them, so we will compare the previous duplicates index_rows to the current duplicates and see where thier values are different, make sure that we iterate over them in the manual data selection process
-    #so find different rows in the duplicates:
-    #first make the Datasets col a string so it can be compared
-    a = previous_duplicates_manual.copy()
-    a.Datasets = a.Datasets.astype(str)
-    b = duplicates_manual.copy()
-    b.Datasets = b.Datasets.astype(str)
-    # a.set_index(INDEX_COLS_no_year,inplace=True)
-    # b.set_index(INDEX_COLS_no_year,inplace=True)
-    duplicates_diff = pd.concat([b, a])
-    #set Vlaue to int, because we want to see if the value is the same or not and if float there might be floating point errors (computer science thing)
-    duplicates_diff.Value = duplicates_diff.Value.astype(int)
-    #drop duplicates
-    duplicates_diff = duplicates_diff.drop_duplicates(keep=False)
-    ##########################################################
-
-    ##Update the iterator: We will remove rows where the user doesnt need to select a dataset. This will be done using the previous combined_data_concordance_manual.
-    rows_to_skip = previous_selections.copy()
-    rows_to_skip.set_index(paths_dict['INDEX_COLS_no_year'], inplace=True)
-    #we have to state wat rows we want to remove rather than keep because there will be some in the iterator that are not in the previous_selections df, and we will want to keep them.
-
-    #First remove rows that are in duplicates diff as we want to make sure the user selects for them since they have some detail which is different to what it was before. We do this using index_no_year to cover all the rows that have the same index but different years
-    duplicates_diff.set_index(paths_dict['INDEX_COLS_no_year'], inplace=True)
-    rows_to_skip = rows_to_skip[~rows_to_skip.index.isin(duplicates_diff.index)]
-
-    #In case we are using the progress csv we will only remove rows where all years data has been selected for that index row. This will cover the way prvious_combined_data_concordance_manual df is formatted as well 
-    #first remove where num_datapoints is na or 0. 
-    rows_to_skip = rows_to_skip[~((rows_to_skip.Num_datapoints.isna()) | (rows_to_skip.Num_datapoints==0))]
-    #now find rows where there is data but the user hasnt selected a dataset for it. We will remove these rows from rows_to_skip, as we want to make sure the user selects for them (in the future this may cuase issues if we add more selection methods to the previous selections) #note this currently only occurs in the case where an error occurs during sleection
-    rows_to_remove_from_rows_to_skip = rows_to_skip[rows_to_skip.Dataset_selection_method.isna()]
-
-    if update_skipped_rows:
-        #if we are updating the skipped rows then we will also remove from rows to skip the rows where the Value and Dataset is NaN where the selection method is manual. This will be the case where the user has skipped selection so the selection emthod is manual but there are no values or datasets selected
-        rows_to_remove_from_rows_to_skip2 = rows_to_skip[(rows_to_skip.Value.isna()) & (rows_to_skip.Dataset.isna()) & (rows_to_skip.Dataset_selection_method=='Manual')]
-
-    #now remove those rows from rows_to_skip using index_no_year. This will remove any cases where an index row has one or two datapoints that werent chosen, but the rest were.
-    rows_to_skip = rows_to_skip[~rows_to_skip.index.isin(rows_to_remove_from_rows_to_skip.index)]
-
-    if update_skipped_rows:
-        rows_to_skip = rows_to_skip[~rows_to_skip.index.isin(rows_to_remove_from_rows_to_skip2.index)]
-
-    #KEEP only rows we dont want to skip in the iterator by finding the index rows in both dfs 
-    iterator = iterator[~iterator.index.isin(rows_to_skip.index)]
-
-    ###############
-    ##And now update the combined_data_concordance_manual:
-    #we can just add in rows from rows_to_skip to combined_data_concordance_manual, as well as the rows from duplicates_diff, as these are the rows that are different between old and new. But make sure to remove those rows from combined_data_concordance_manual first, as we dont want to have duplicates.
-    #first set indexes to Index_col (with year)
-    rows_to_skip.reset_index(inplace=True)
-    rows_to_skip.set_index(paths_dict['INDEX_COLS'], inplace=True)
-    combined_data_concordance_manual.set_index(paths_dict['INDEX_COLS'], inplace=True)
-    duplicates_diff.reset_index(inplace=True)
-    duplicates_diff.set_index(paths_dict['INDEX_COLS'], inplace=True)
-
-    #remove the rows from combined_data_concordance_manual
-    combined_data_concordance_manual = combined_data_concordance_manual[~combined_data_concordance_manual.index.isin(rows_to_skip.index)]
-    combined_data_concordance_manual = combined_data_concordance_manual[~combined_data_concordance_manual.index.isin(duplicates_diff.index)]
-
-    #now add in the rows from rows_to_skip and duplicates_diff
-    combined_data_concordance_manual = pd.concat([combined_data_concordance_manual, rows_to_skip, duplicates_diff])
-
-    #remove Date from index
-    combined_data_concordance_manual.reset_index(inplace=True)
-
-    return combined_data_concordance_manual, iterator
-
-
+    combined_data_concordance_manual.Date = combined_data_concordance_manual.Date.apply(lambda x: str(x)+'-12-31')#TODO somehow Date becomes an index.Would be good to fix this or double check that it doesnt cause any problems
+    combined_data.Date = combined_data.Date.apply(lambda x: str(x)+'-12-31')
+    duplicates_manual.Date = duplicates_manual.Date.apply(lambda x: str(x)+'-12-31')
+    #TEMP FIX END
+    #save combined_data_concordance_manual now so we can use it later if we need to#todo make into pickle!
+    combined_data_concordance_manual.to_csv('intermediate_data/data_selection/{}_data_selection_manual_backup.csv'.format(FILE_DATE_ID), index=False)
+    duplicates_manual.to_csv('intermediate_data/data_selection/{}_duplicates_manual_backup.csv'.format(FILE_DATE_ID), index=True)
+    #= pd.read_csv('intermediate_data/data_selection/{}_data_selection_manual_duplicates.csv'.format(FILE_DATE_ID))
+    # return combined_data_concordance_manual, duplicates_manual, bad_index_rows, num_bad_index_rows

@@ -59,6 +59,21 @@ def convert_string_to_snake_case(string):
     string = string.replace('__', '_')
     return string
 
+def convert_all_cols_to_snake_case(df):
+    for col in df.columns:
+        if col not in ['economy', 'value', 'date']:
+            #if type of col is not string then tell the user
+            if df[col].dtype != 'object':
+                print('WARNING: column {} is not a string. It is a {}'.format(col, df[col].dtype))
+                # print its non string values:
+                print('Unique values in column {} are:'.format(df[col].unique()))
+            else:
+                #make any nan values into strings. 
+                df[col] = df[col].fillna('nan')
+                df[col] = df[col].apply(convert_string_to_snake_case)
+                #reutrn nas to nan
+                df[col] = df[col].replace('nan', np.nan)
+    return df
 def setup_dataselection_process(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date):
     #PERHAPS COULD GET ALL THIS STUFF FROM CONFIG.YML?
     #create folders to store the data, set paths, aggregate data and create the data concordance:
@@ -86,6 +101,10 @@ def setup_dataselection_process(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_d
     paths_dict['EARLIEST_YEAR'] = EARLIEST_YEAR
     paths_dict['LATEST_YEAR'] = LATEST_YEAR
     paths_dict['INDEX_COLS_no_scope_no_fuel'] = INDEX_COLS_no_scope_no_fuel
+
+    paths_dict['tmp_selection_groups_folder'] = os.path.join(intermediate_folder, f'tmp/{FILE_DATE_ID}/groups/')
+    if not os.path.exists(paths_dict['tmp_selection_groups_folder']):
+        os.makedirs(paths_dict['tmp_selection_groups_folder'])
     return paths_dict
 
 def extract_latest_groomed_data():
@@ -132,30 +151,19 @@ def make_quick_fixes_to_datasets(combined_data):
     combined_data.loc[combined_data['medium'].str.lower() != 'road', 'drive'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
 
     #convert all values in all columns to snakecase, except economy and value
-    for col in combined_data.columns:
-        if col not in ['economy', 'value']:
-            #if type of col is not string then tell the user
-            if combined_data[col].dtype != 'object':
-                print('WARNING: column {} is not a string. It is a {}'.format(col, combined_data[col].dtype))
-                # print its non string values:
-                print('Unique values in column {} are:'.format(combined_data[col].unique()))
-            else:
-                #make any nan values into strings. we will fix them later.
-                combined_data[col] = combined_data[col].fillna('nan')
-                combined_data[col] = combined_data[col].apply(convert_string_to_snake_case)
-                #reutrn nas to nan
-                combined_data[col] = combined_data[col].replace('nan', np.nan)
+    combined_data = convert_all_cols_to_snake_case(combined_data)
 
     #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
     combined_data = combined_data[combined_data['source'] != 'carbon_neutrality']
 
     return combined_data
 
-def check_dataset_for_issues(combined_data, INDEX_COLS):
+def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
 
     #if there are any nans in the index columns (EXCEPT FUEL) then throw an error and let the user know: 
     INDEX_COLS_no_fuel = INDEX_COLS.copy()
     INDEX_COLS_no_fuel.remove('fuel')
+    error_file_path = os.path.join(paths_dict['intermediate_folder'], 'combined_data_error.pkl')
     if combined_data[INDEX_COLS_no_fuel].isna().any().any():
         #find the columns with nans
         cols_with_nans = combined_data[INDEX_COLS_no_fuel].isna().any()
@@ -163,19 +171,28 @@ def check_dataset_for_issues(combined_data, INDEX_COLS):
         print('The following columns have nans: ')
         for col in cols_with_nans[cols_with_nans].index:
             print('{}: {}'.format(col, combined_data[col].isna().sum()))
-        raise Exception('There are nans in the index columns. Please fix this before continuing.')
+            #save the data to a pickle file so that the user can see what the nans are
+        combined_data.to_pickle(error_file_path)
+        raise Exception('There are nans in the index columns. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
     #Important step: make sure that units are the same for each measure so that they can be compared. If they are not then the measure should be different.
     #For example, if one measure is in tonnes and another is in kg then they should just be converted. But if one is in tonnes and another is in number of vehicles then they should be different measures.
     for measure in combined_data['measure'].unique():
         if len(combined_data[combined_data['measure'] == measure]['unit'].unique()) > 1:
             print(measure)
             print(combined_data[combined_data['measure'] == measure]['unit'].unique())
-            raise Exception('There are multiple units for this measure. This is not allowed. Please fix this before continuing.')
+            # save data to pickle file for viewing
+            combined_data.to_pickle(error_file_path)
+            raise Exception('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
+        
     #check for any duplicates
     if len(combined_data[combined_data.duplicated()]) > 0:
-        raise Exception('There are {} duplicates in the combined data. Please fix this before continuing.'.format(len(combined_data[combined_data.duplicated()])))
+        print(combined_data[combined_data.duplicated()])
+        # save data to pickle file for viewing
+        
+        combined_data.to_pickle(error_file_path)
+                                                            
+        raise Exception('There are {} duplicates in the combined data. Please fix this before continuing. Data saved to {}'.format(len(combined_data[combined_data.duplicated()]), error_file_path))
     
-    return combined_data
 
 def replace_bad_col_names(col):
     col = convert_string_to_snake_case(col)
@@ -201,7 +218,8 @@ def combine_datasets(datasets, FILE_DATE_ID, paths_dict):
         #concatenate the dataset to the combined data
         combined_data = pd.concat([combined_data, new_dataset], ignore_index=True)
     combined_data = make_quick_fixes_to_datasets(combined_data)
-    check_dataset_for_issues(combined_data, paths_dict['INDEX_COLS'])
+
+    check_dataset_for_issues(combined_data, paths_dict['INDEX_COLS'],paths_dict)
 
     #A make thigns easier in this process, we will concatenate the source and dataset columns into one column called dataset. But if source is na then we will just use the dataset column
     combined_data['dataset'] = combined_data.apply(lambda row: row['dataset'] if pd.isna(row['source']) else row['dataset'] + ' $ ' + row['source'], axis=1)
@@ -221,7 +239,7 @@ def combine_datasets(datasets, FILE_DATE_ID, paths_dict):
     return combined_data
 
 
-def create_concordance(combined_data, frequency = 'Yearly'):
+def create_whole_dataset_concordance(combined_data, frequency = 'yearly'):
     
     ############################################################
 
@@ -238,9 +256,9 @@ def create_concordance(combined_data, frequency = 'Yearly'):
     MAX = yearly['date'].max()
     MIN = yearly['date'].min()
     #using datetime creates a range of dates, separated by year with the first year being the MIN and the last year being the MAX
-    if frequency == 'Yearly':
+    if frequency == 'yearly':
         years = pd.date_range(start=MIN, end=MAX, freq='Y')
-    elif frequency == 'Monthly':#todo this means that you can ruin data selection on only one frequency at a time, whiich means the way we name files and folders needs to be changed. maybe recondier this
+    elif frequency == 'monthly':#todo this means that you can ruin data selection on only one frequency at a time, whiich means the way we name files and folders needs to be changed. maybe recondier this
         #using datetime creates a range of dates, separated by month with the first month being the MIN and the last month being the MAX
         years = pd.date_range(start=MIN, end=MAX, freq='M')
     else:
@@ -251,6 +269,9 @@ def create_concordance(combined_data, frequency = 'Yearly'):
     yearly = yearly.drop(columns=['date']).drop_duplicates()
     #now do a cross join between the concordance and the years array
     combined_data_concordance_new = yearly.merge(pd.DataFrame(years, columns=['date']), how='cross')
+
+    #make the date col an object (aka string)
+    combined_data_concordance_new['date'] = combined_data_concordance_new['date'].astype('object')
 
     return combined_data_concordance_new
 
@@ -263,7 +284,10 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
 
     ############################################################
     model_concordances_measures = pd.read_csv(model_concordances_base_year_measures_file_name)
-
+    #make sure the columns are snake case
+    model_concordances_measures.columns = [convert_string_to_snake_case(col) for col in model_concordances_measures.columns]
+    #convert all values in cols to snake case
+    model_concordances_measures = convert_all_cols_to_snake_case(model_concordances_measures)
 
     #Make sure that the model condordance has all the years in the input date range
     original_years = model_concordances_measures['date'].unique()
@@ -377,12 +401,16 @@ def identify_duplicated_datapoints_to_select_for(combined_data,combined_data_con
     duplicates['potential_datapoints'] = duplicates['dataset'].apply(lambda x: sorted(x))
     #create count column
     duplicates['num_datapoints'] = duplicates['dataset'].apply(lambda x: len(x))
-
+    
+    #drop dataset column and value column
+    duplicates.drop(columns=['dataset','value'],    inplace=True)
+    
     #join onto combined_data_concordance
     new_combined_data_concordance = duplicates.merge(combined_data_concordance, on=INDEX_COLS, how='left')#todo does this result in what we'd like? are there any issues with not using .copy)( on anythiing
     new_combined_data = duplicates.merge(combined_data, on=INDEX_COLS, how='left')#todo, do we need to use [['datasets', 'num_datapoints']] here?
 
-    test_identify_duplicated_datapoints_to_select_for(combined_data,combined_data_concordance,new_combined_data_concordance,INDEX_COLS)
+    #TODO this below didnt seem useful, but maybe it is?
+    # test_identify_duplicated_datapoints_to_select_for(combined_data,combined_data_concordance,new_combined_data_concordance,INDEX_COLS)
 
     return new_combined_data_concordance, new_combined_data
 
@@ -403,18 +431,20 @@ def identify_duplicated_datapoints_to_select_for(combined_data,combined_data_con
 #     pass
 
 def filter_for_years_of_interest(combined_data_concordance,combined_data,paths_dict):
-   
+
+    earliest_year = str(paths_dict['EARLIEST_YEAR']) + '-12-31'
+    latest_year = str(paths_dict['LATEST_YEAR']) + '-12-31'
     #filter data where year is less than our earliest year
-    combined_data = combined_data[combined_data['date'] >= paths_dict['EARLIEST_YEAR']]
-    combined_data_concordance = combined_data_concordance[combined_data_concordance['date'] >= paths_dict['EARLIEST_YEAR']]
+    combined_data = combined_data[combined_data['date'] >= earliest_year]
+    combined_data_concordance = combined_data_concordance[combined_data_concordance['date'] >= earliest_year]
     
     #and also only data where year is less than the latest year
-    combined_data = combined_data[combined_data['date'] < paths_dict['LATEST_YEAR']]
-    combined_data_concordance = combined_data_concordance[combined_data_concordance['date'] < paths_dict['LATEST_YEAR']]
+    combined_data = combined_data[combined_data['date'] < latest_year]
+    combined_data_concordance = combined_data_concordance[combined_data_concordance['date'] < latest_year]
 
     return combined_data_concordance,combined_data
 
-def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict):
+def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict,sorting_cols):
     """This function will take in the combined data and combined data concordance dataframes and prepare them for the manual selection process. It will filter the data to only include data from the years we are interested in. 
     #TODO this previously would' remove any duplicate data for the 8th edition transport model carbon neutrality scenario.'. Need to replace that. somewhere else"""#TODO double check that that is true, it came from ai
 
@@ -429,9 +459,38 @@ def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dic
     combined_data_concordance['dataset_selection_method'] = None
     combined_data_concordance['comment'] = None
 
+    #sort data
+    combined_data_concordance = combined_data_concordance.sort_values(sorting_cols)
+    combined_data = combined_data.sort_values(sorting_cols)
+
     return combined_data_concordance, combined_data
 
+def filter_for_specifc_data(selection_dict, combined_data_concordance, combined_data):
+    #filter for jsut the data we want to select for in the combined_data_concordance and combined_data datasets
 
+    #use the keys of the selection dict as the columns to filter on and the values as the values to filter on
+    for key, value in selection_dict.items():
+        combined_data_concordance = combined_data_concordance[combined_data_concordance[key].isin(value)]
+        combined_data = combined_data[combined_data[key].isin(value)]
+    
+    # combined_data_concordance = combined_data_concordance[combined_data_concordance['measure'].isin(specific_measures)]
+    # combined_data = combined_data[combined_data['measure'].isin(specific_measures)]
+
+   #TEMPORARY: 
+    #copy the occupancy rows from both dataframes, cahnge their measure to 'mielage', unit to 'km_per_year' and value to 1. Then append them to the combined_data_concordance and combined_data datasets
+    combined_data_concordance_occupancy = combined_data_concordance[combined_data_concordance['measure']=='occupancy'].copy()
+    combined_data_concordance_occupancy['measure'] = 'mileage'
+    combined_data_concordance_occupancy['unit'] = 'km_per_year'
+    combined_data_concordance_occupancy['Value'] = 1
+    combined_data_concordance = pd.concat([combined_data_concordance, combined_data_concordance_occupancy])
+
+    combined_data_occupancy = combined_data[combined_data['measure']=='occupancy'].copy()
+    combined_data_occupancy['measure'] = 'mileage'
+    combined_data_occupancy['unit'] = 'km_per_year'
+    combined_data_occupancy['Value'] = 1
+    combined_data = pd.concat([combined_data, combined_data_occupancy])
+
+    return combined_data,combined_data_concordance
 #%%
 def import_previous_selections(previous_selections, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,paths_dict,update_skipped_rows=False):
     """
