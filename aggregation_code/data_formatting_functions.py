@@ -105,6 +105,8 @@ def setup_dataselection_process(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_d
     paths_dict['tmp_selection_groups_folder'] = os.path.join(intermediate_folder, f'tmp/{FILE_DATE_ID}/groups/')
     if not os.path.exists(paths_dict['tmp_selection_groups_folder']):
         os.makedirs(paths_dict['tmp_selection_groups_folder'])
+
+    paths_dict['selection_progress_pkl'] = os.path.join(intermediate_folder, f'selection_progress.pkl')
     return paths_dict
 
 def extract_latest_groomed_data():
@@ -481,7 +483,6 @@ def filter_for_specifc_data(selection_dict, combined_data_concordance, combined_
     combined_data_concordance_occupancy = combined_data_concordance[combined_data_concordance['measure']=='occupancy'].copy()
     combined_data_concordance_occupancy['measure'] = 'mileage'
     combined_data_concordance_occupancy['unit'] = 'km_per_year'
-    combined_data_concordance_occupancy['Value'] = 1
     combined_data_concordance = pd.concat([combined_data_concordance, combined_data_concordance_occupancy])
 
     combined_data_occupancy = combined_data[combined_data['measure']=='occupancy'].copy()

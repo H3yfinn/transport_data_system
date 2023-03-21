@@ -57,12 +57,12 @@ combined_data_concordance = data_formatting_functions.create_whole_dataset_conco
 
 #%%
 #save data to pickle so we dont have to do this again
-combined_data_concordance.to_pickle('combined_data_concordance.pkl')
-combined_data.to_pickle('combined_data.pkl')
-#%%
-#laod data from pickle
-combined_data_concordance = pd.read_pickle('combined_data_concordance.pkl')
-combined_data = pd.read_pickle('combined_data.pkl')
+# combined_data_concordance.to_pickle('combined_data_concordance.pkl')
+# # combined_data.to_pickle('combined_data.pkl')
+# #%%
+# #laod data from pickle
+# combined_data_concordance = pd.read_pickle('combined_data_concordance.pkl')
+# combined_data = pd.read_pickle('combined_data.pkl')
 
 #%%
 sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
@@ -74,115 +74,8 @@ passsenger_road_measures_selection_dict = {'measure':
  'transport_type': ['passenger']}
 
 combined_data,combined_data_concordance = data_formatting_functions.filter_for_specifc_data(passsenger_road_measures_selection_dict,combined_data_concordance, combined_data)
-
-#%%
-grouping_cols = ['economy','vehicle_type','drive']
-# save groups selections to tmp folder
-# close dashboard
-combined_data_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
-combined_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)#todo is there some way to not have to do this? 
-def TEMP_FIX_change_date_col_to_year(df):
-    # %matplotlib qt
-    #TEMP FIX START
-    #NOTE MAKING THIS ONLY WORK FOR YEARLY DATA, AS IT WOULD BE COMPLICATED TO DO IT OTEHRWISE. lATER ON WE CAN TO IT COMPLETELY BY CHANGING LINES THAT ADD 1 TO THE DATE IN THE DATA SLECTION FUNCTIONS TO ADD ONE UNIT OF WHATEVER THE FREQUENCY IS. 
-    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
-    df.date = df.date.apply(lambda x: x[:4]).astype(int)
-    return df
-
-combined_data_concordance = TEMP_FIX_change_date_col_to_year(combined_data_concordance)
-combined_data = TEMP_FIX_change_date_col_to_year(combined_data)
-#TEMP FIX END
-
-#order data by date
-combined_data = combined_data.sort_values(by='date')
-combined_data = combined_data.sort_values(by='date')
-
-#create progresss pickle which will be updated after every selection
-progress = pd.DataFrame(columns=paths_dict['INDEX_COLS_no_year'])
-progress.to_pickle('progress.pkl')#TODO set location if this is needed
 #%%
 
-
-
-#%%
-grouping_cols = ['economy','vehicle_type','drive']
-def manual_data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict):
-    
-    ########PREPAREATION########
-    # combined_data_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
-    # combined_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)#todo is there some way to not have to do this? 
-    
-    combined_data_concordance = TEMP_FIX_change_date_col_to_year(combined_data_concordance)
-    combined_data = TEMP_FIX_change_date_col_to_year(combined_data)
-    #TEMP FIX END
-
-    #order data by date
-    combined_data = combined_data.sort_values(by='date')
-    combined_data = combined_data.sort_values(by='date')
-
-    options_dict = prepare_user_selection_options()
-
-    groups_concordance_names_files, groups_data_names_files = save_groups_to_tmp_folder(combined_data_concordance, combined_data, paths_dict,grouping_cols)
-    
-    #remove combined_data and combined_data_concordance from memory
-    del combined_data_concordance
-    del combined_data
-    
-    ########SELECTION BEGINS########
-    # iterate through every group
-    for group_concordance_name_file, group_data_name_file in zip(groups_concordance_names_files, groups_data_names_files):
-        #load the data
-        group_concordance = pd.read_pickle(group_concordance_name_file)
-        group_data = pd.read_pickle(group_data_name_file)
-
-        #open dashboard
-        handle_group_dashbaord(group_concordance, group_data, paths_dict)
-
-        #set index to INDEX_COLS_no_year
-        group_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
-        group_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
-
-        # iterate through each index col
-        for index_row_no_year in group_concordance.index:
-            current_index_row_no_year = group_concordance.loc[index_row_no_year]
-
-            if current_index_row_no_year.Num_datapoints <= 1:
-                continue
-            
-            data_for_plotting = group_data.loc[index_row_no_year]
-            #plot data
-            plot_timeseries(data_for_plotting, paths_dict)
-
-            ##CREATE USER INPUT TEXT NOW
-            unique_datasets = data_for_plotting.Dataset.unique()
-            user_input_options, choice_dict = print_user_input_text(unique_datasets, options_dict)
-
-            combined_data_concordance_manual, user_input = manual_user_input_function(data_for_plotting, index_row, combined_data_concordance_manual, INDEX_COLS,choice_dict,options_dict)
-
-
-
-
-###########UPTO HERE###########
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # create_group_dashboard()
-    # Make it easy for the user to create custom code for the dashbaord so that it can suit their groupings.
 
 def print_user_input_text(unique_datasets, options_dict):
     #print to console
@@ -227,23 +120,145 @@ def save_groups_to_tmp_folder(combined_data_concordance, combined_data, paths_di
 
     for group_name, group_concordance in groups_concordance:
         #concat group name to single string
-        group_name = '_'.join(group_name)
+        group_name = os.path.join(paths_dict['tmp_selection_groups_folder'],'group_concordance_{}.pkl'.format('_'.join(group_name)))
         #save group concordance to tmp folder
-        group_concordance.to_pickle(os.path.join(paths_dict['tmp_selection_groups_folder'],'group_concordance_{}.pkl'.format(group_name)))
+        group_concordance.to_pickle(group_name)
         #add groupname to lsit
         groups_concordance_names_files.append(group_name)
 
     for group_name, group_data in groups_data:
-        #concat group name to single string
-        group_name = '_'.join(group_name)
+        group_name = os.path.join(paths_dict['tmp_selection_groups_folder'],'group_data_{}.pkl'.format('_'.join(group_name)))
         #save group concordance to tmp folder
-        group_data.to_pickle(os.path.join(paths_dict['tmp_selection_groups_folder'],'group_data_{}.pkl'.format(group_name)))
+        group_data.to_pickle(group_name)
         #add groupname to lsit
         groups_data_names_files.append(group_name)
 
     return groups_concordance_names_files, groups_data_names_files
 
 
+def close_timeseries():
+    return
+
+
+
+
+
+
+
+
+
+
+# combined_data_concordance.to_pickle('combined_data_concordance.pkl')
+# combined_data.to_pickle('combined_data.pkl')
+#%%
+#laod data from pickle
+combined_data_concordance = pd.read_pickle('combined_data_concordance.pkl')
+combined_data = pd.read_pickle('combined_data.pkl')  
+grouping_cols = ['economy','vehicle_type','drive']
+# def manual_data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict):
+
+########PREPAREATION########
+# combined_data_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+# combined_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)#todo is there some way to not have to do this? 
+
+combined_data_concordance = TEMP_FIX_change_date_col_to_year(combined_data_concordance)
+combined_data = TEMP_FIX_change_date_col_to_year(combined_data)
+#TEMP FIX END
+
+#order data by date
+combined_data = combined_data.sort_values(by='date')
+combined_data = combined_data.sort_values(by='date')
+
+options_dict = prepare_user_selection_options()
+user_input = ''
+
+groups_concordance_names_files, groups_data_names_files = save_groups_to_tmp_folder(combined_data_concordance, combined_data, paths_dict,grouping_cols)
+
+#remove combined_data and combined_data_concordance from memory
+del combined_data_concordance
+del combined_data
+#%%
+########SELECTION BEGINS########
+# iterate through every group
+for group_concordance_name_file, group_data_name_file in zip(groups_concordance_names_files, groups_data_names_files):
+    #load the data
+    group_concordance = pd.read_pickle(group_concordance_name_file)
+    group_data = pd.read_pickle(group_data_name_file)
+
+    #open dashboard
+    handle_group_dashbaord(group_concordance, group_data, paths_dict)
+
+    #set index to INDEX_COLS_no_year
+    group_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+    group_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
+
+    # iterate through each index col
+    for index_row_no_year in group_concordance.index:
+        current_index_row_no_year = group_concordance.loc[index_row_no_year]
+
+        if current_index_row_no_year.num_datapoints <= 1:
+            continue
+        
+        data_for_plotting = group_data.loc[index_row_no_year]
+        #plot data
+        plot_timeseries(data_for_plotting, paths_dict)
+
+        ##CREATE USER INPUT TEXT NOW
+        unique_datasets = data_for_plotting.dataset.unique()
+        user_input_options, choice_dict = print_user_input_text(unique_datasets, options_dict)
+
+        # combined_data_concordance_manual, user_input = manual_user_input_function(data_for_plotting, index_row, combined_data_concordance_manual, INDEX_COLS,choice_dict,options_dict)
+        if user_input == 'quit':
+            break
+        else:
+            print('Finished with unique combination: {}'.format(index_row_no_year))  
+            #close timeseries
+            close_timeseries()
+
+    #load in progress pickle and add this group to it
+    progress = pd.read_pickle(paths_dict['selection_progress_pkl'])
+    progress = pd.concat([progress, pd.DataFrame([group_concordance_name_file])])
+    progress.to_pickle(paths_dict['selection_progress_pkl'])
+    #remove progress from memory
+    del progress
+
+    if user_input == 'quit':
+        print('User input was quit on group {}, so quitting the script and saving the progress to a csv'.format(group_concordance_name_file))
+        break
+    else:
+        print('Finished with group: {}'.format(group_concordance_name_file))
+
+print('Finished with manual selection of datasets')
+
+#todo:
+# fill in functions
+# test and fix manual_user_input_function()
+#close dashboard somehow.
+#read in all group pickles to recreate combined_data_concordance and combined_data
+#%%
+
+
+###########UPTO HERE###########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # create_group_dashboard()
+    # Make it easy for the user to create custom code for the dashbaord so that it can suit their groupings.
 
 
 def load_and_merge_groups_from_tmp_folder(groups_concordance_names_files, groups_data_names_files, paths_dict):
