@@ -101,12 +101,13 @@ def setup_dataselection_process(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_d
     paths_dict['EARLIEST_YEAR'] = EARLIEST_YEAR
     paths_dict['LATEST_YEAR'] = LATEST_YEAR
     paths_dict['INDEX_COLS_no_scope_no_fuel'] = INDEX_COLS_no_scope_no_fuel
-
-    paths_dict['tmp_selection_groups_folder'] = os.path.join(intermediate_folder, f'tmp/{FILE_DATE_ID}/groups/')
+    paths_dict['FILE_DATE_ID'] = FILE_DATE_ID
+    paths_dict['tmp_selection_groups_folder'] = os.path.join(intermediate_folder, f'tmp/groups/')
     if not os.path.exists(paths_dict['tmp_selection_groups_folder']):
         os.makedirs(paths_dict['tmp_selection_groups_folder'])
 
     paths_dict['selection_progress_pkl'] = os.path.join(intermediate_folder, f'selection_progress.pkl')
+    paths_dict['timeseries_png'] = './plotting_output/manual_data_selection/{}.png'.format(paths_dict['FILE_DATE_ID'])
     return paths_dict
 
 def extract_latest_groomed_data():

@@ -90,7 +90,7 @@ def create_user_input_text(unique_datasets, options_dict):
     return user_input_options, choice_dict
     
 
-def keep_for_all_consecutive_years(dataset, data_for_plotting, year_data, INDEX_COLS):
+def user_input_keep_for_all_consecutive_years(dataset, data_for_plotting, year_data, INDEX_COLS):
     #'Keep the dataset {} for all consecutive years that the same combination of datasets is available'
     
     #use datasets column to find all years with the same set of datasets. 
@@ -129,7 +129,7 @@ def keep_for_all_consecutive_years(dataset, data_for_plotting, year_data, INDEX_
 
     return data_to_change
 
-def keep_for_all_years(dataset, data_for_plotting, year_data, INDEX_COLS):
+def user_input_keep_for_all_years(dataset, data_for_plotting, year_data, INDEX_COLS):
     #find the rows in data_for_plotting where the datasets are the same as for the chosen dataset
     data_to_change = data_for_plotting[data_for_plotting.Dataset == dataset]
 
@@ -139,7 +139,7 @@ def keep_for_all_years(dataset, data_for_plotting, year_data, INDEX_COLS):
     data_to_change = data_to_change.reset_index().set_index(INDEX_COLS)
     return data_to_change
 
-def keep_for_this_year(dataset, data_for_plotting, year_data, INDEX_COLS):
+def user_input_keep_for_this_year(dataset, data_for_plotting, year_data, INDEX_COLS):
     #we can just use year_data here
     data_to_change = year_data[year_data.Dataset == dataset]
     
@@ -147,10 +147,10 @@ def keep_for_this_year(dataset, data_for_plotting, year_data, INDEX_COLS):
     data_to_change = data_to_change.reset_index().set_index(INDEX_COLS)
     return data_to_change
 
-def remove_value_from_selections_permanently(dataset, data_for_plotting, year_data, INDEX_COLS):
+def user_input_remove_value_from_selections_permanently(dataset, data_for_plotting, year_data, INDEX_COLS):
     pass
 
-def apply_selection_to_combined_data_concordance_manual(data_to_change, dataset, combined_data_concordance_manual, years_to_ignore,INDEX_COLS):
+def apply_selection_to_concordance(data_to_change, dataset, combined_data_concordance_manual, years_to_ignore,INDEX_COLS):
     #make Date a part of the index
     combined_data_concordance_manual = combined_data_concordance_manual.reset_index().set_index(INDEX_COLS)
 
@@ -188,22 +188,22 @@ def apply_user_input_to_data(user_input, choice_dict, options_dict, combined_dat
     
     #which matches what the user wants to change. Then by using that as an index, find the matching rows in our concordance datyaset, set the dataset, data_selection method and value columns.
     if option_key == 'Keep_for_all_consecutive_years':
-        data_to_change = keep_for_all_consecutive_years( dataset, data_for_plotting, year_data, INDEX_COLS)
+        data_to_change = user_input_keep_for_all_consecutive_years( dataset, data_for_plotting, year_data, INDEX_COLS)
         apply_selection_to_combined_data_concordance_manual(data_to_change, dataset, combined_data_concordance_manual, years_to_ignore,INDEX_COLS)
 
     elif option_key == 'Keep_for_all_years':
         # 'Keep the dataset "{}" for all years that the chosen dataset is available'
-        data_to_change = keep_for_all_years(dataset, data_for_plotting, year_data, INDEX_COLS)
+        data_to_change = user_input_keep_for_all_years(dataset, data_for_plotting, year_data, INDEX_COLS)
         apply_selection_to_combined_data_concordance_manual(data_to_change, dataset, combined_data_concordance_manual, years_to_ignore,INDEX_COLS)
 
     elif option_key == 'Keep_for_this_year':
         #'Keep the dataset "{}" only for that year']
-        data_to_change = keep_for_this_year(dataset, data_for_plotting, year_data, INDEX_COLS)
+        data_to_change = user_input_keep_for_this_year(dataset, data_for_plotting, year_data, INDEX_COLS)
         apply_selection_to_combined_data_concordance_manual(data_to_change, dataset, combined_data_concordance_manual,years_to_ignore, INDEX_COLS)
 
     elif option_key == 'Delete':
         #set Dataset_selection_method to 'Delete' in ?combined dsata ?#TODO
-        remove_value_from_selections_permanently(dataset, data_for_plotting, year_data, INDEX_COLS)
+        user_input_remove_value_from_selections_permanently(dataset, data_for_plotting, year_data, INDEX_COLS)
         pass
     else:
         print("ERROR: option_key not found, please check the code")
@@ -247,11 +247,9 @@ def manual_user_input_function(data_for_plotting, index_row,  combined_data_conc
         elif user_input == 'back':#intend to find a way to go back to the previous year or index row. #todo probably just need to sort everything useing the order the index is provided in. Then we can just go back to the previous index row. Probably will then need to make the for loop a while loop and retrieve rows via a numbered index system??
             pass
         else:
-            combined_data_concordance_manual, years_to_ignore = manual_apply_user_input_to_data(user_input, valid_choice_dict, options_dict, combined_data_concordance_manual, years_to_ignore,data_for_plotting, year_data, INDEX_COLS)
+            combined_data_concordance_manual, years_to_ignore = apply_user_input_to_data(user_input, valid_choice_dict, options_dict, combined_data_concordance_manual, years_to_ignore,data_for_plotting, year_data, INDEX_COLS)
 
     return combined_data_concordance_manual, user_input
-
-
 
 
 
