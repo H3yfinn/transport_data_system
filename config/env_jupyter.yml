@@ -1,16 +1,15 @@
-name: aperc_model_finn
+name: env_jupyter
 dependencies:
   - plotly
   - pandas
   - numpy
-  - plotly
   - matplotlib
   - openpyxl
-  # - xlrd #needed for importing xls files from imf # actually no it doidnt work. keeping this here in case want to pursue further
   - pip
   - jupyter
-  - ipykernel #for the #%% things
+  - ipykernel
   - xlwings
   - scipy
+  - pyyaml #yaml doesnt work.
   - pip:
     - kaleido
