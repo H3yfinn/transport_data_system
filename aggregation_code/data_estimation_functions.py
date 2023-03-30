@@ -67,11 +67,94 @@ def calculate_energy_and_passenger_km(stocks_mileage_occupancy_efficiency_combin
     return data
 
 def estimate_fake_values(data):
-    #where we have na in mileage, occupancy or new_vehicle_efficiency we will replace it with a fake value of 1. this is so that we can still calculate the other values to test this program.
+    #where we have na in mileage, occupancy or new_vehicle_efficiency we will replace it with some temporary values, based on means, which will probably be constant for every year. this is so that we can still calculate the other values to test this program.
+
+    mileage_replacement = TEMP_retrieve_estimated_fake_mileage()
+    occupancy_replacement = TEMP_retrieve_estimated_fake_occupancy()
+    efficiency_replacement = TEMP_retrieve_estimated_fake_efficiency()
+    #merge the new data into the data
+
+    #
     data['mileage'] = data['mileage'].fillna(1)
     data['occupancy'] = data['occupancy'].fillna(1)
     data['new_vehicle_efficiency'] = data['new_vehicle_efficiency'].fillna(1)
     return data
+
+def TEMP_retrieve_estimated_mileage():
+    #grab mean mileage data from previous work done in the transport data system:
+    mileage = pd.read_csv('intermediate_data/estimated/travel_km_per_stock_estimates_DATE20230216.csv')
+    #convert all cols to snake case
+    mileage.columns = [utility_functions.convert_string_to_snake_case(col) for col in mileage.columns]
+    #convert all values in cols to snake case
+    mileage = utility_functions.convert_all_cols_to_snake_case(mileage)
+    #convert date to yyyy format
+    mileage = data_formatting_functions.TEMP_FIX_ensure_date_col_is_year(mileage)
+    #convert from billions to ones
+    mileage['mileage'] = mileage['value'] * 1000000000
+    #filter for road passenger only
+    mileage = mileage[mileage['transport_type'] == 'passenger']
+    #roda
+    mileage = mileage[mileage['medium'] == 'road']
+    #keep only the cols we need: economy, mileage, vehicle_type, drive
+    mileage = mileage[['economy','mileage','vehicle_type','drive']]
+    #make measure = mileage
+    mileage['measure'] = 'mileage'
+    #check for duplicates
+    if mileage.duplicated().any():
+        print('duplicates in mileage')
+        print(mileage[mileage.duplicated()])
+    return mileage
+
+def TEMP_retrieve_estimated_efficiency():
+    #grab mean efficiency data from previous work done in the transport data system:
+    efficiency = pd.read_csv('intermediate_data/estimated/new_vehicle_efficiency_estimates_DATE20230216.csv')
+    #convert all cols to snake case
+    efficiency.columns = [utility_functions.convert_string_to_snake_case(col) for col in efficiency.columns]
+    #convert all values in cols to snake case
+    efficiency = utility_functions.convert_all_cols_to_snake_case(efficiency)
+    #convert date to yyyy format
+    efficiency = data_formatting_functions.TEMP_FIX_ensure_date_col_is_year(efficiency)
+    efficiency['efficiency'] = efficiency['value']
+    #filter for road passenger only
+    efficiency = efficiency[efficiency['transport_type'] == 'passenger']
+    #roda
+    efficiency = efficiency[efficiency['medium'] == 'road']
+    #keep only the cols we need: economy, efficiency, vehicle_type, drive
+    efficiency = efficiency[['economy','efficiency','vehicle_type','drive']]
+    #make measure = efficiency
+    efficiency['measure'] = 'efficiency'
+    #check for duplicates
+    if efficiency.duplicated().any():
+        print('duplicates in efficiency')
+        print(efficiency[efficiency.duplicated()])
+    return efficiency
+
+
+def TEMP_retrieve_estimated_occupancy():
+    #grab mean mileage data from previous work done in the transport data system:
+    occupancy = pd.read_csv('intermediate_data/estimated/occ_load_guessesDATE20230310.csv')
+    #convert all cols to snake case
+    occupancy.columns = [utility_functions.convert_string_to_snake_case(col) for col in occupancy.columns]
+    #convert all values in cols to snake case
+    occupancy = utility_functions.convert_all_cols_to_snake_case(occupancy)
+    #convert date to yyyy format
+    occupancy = data_formatting_functions.TEMP_FIX_ensure_date_col_is_year(occupancy)
+    #filter for occupancy only 
+    occupancy = occupancy[occupancy['measure'] == 'occupancy']
+    occupancy['occupancy'] = occupancy['value']
+    #filter for road passenger only
+    occupancy = occupancy[occupancy['transport_type'] == 'passenger']
+    #roda
+    occupancy = occupancy[occupancy['medium'] == 'road']
+    #keep only the cols we need: economy, occupancy, vehicle_type, drive
+    occupancy = occupancy[['economy','occupancy','vehicle_type','drive']]
+    #make measure = occupancy
+    occupancy['measure'] = 'occupancy'
+    #check for duplicates
+    if occupancy.duplicated().any():
+        print('duplicates in occupancy')
+        print(occupancy[occupancy.duplicated()])
+    return occupancy
 
 
 
@@ -166,22 +249,6 @@ def clean_energy_and_passenger_km(unfiltered_combined_data,egeda_energy_road_com
         print(egeda_energy_road_combined_data.columns.difference(unfiltered_combined_data.columns))
         raise ValueError('columns in egeda_energy_road_combined_data are different to columns in unfiltered_combined_data')
     return egeda_energy_road_combined_data
-
-# def estimate_freight_activity(egeda_energy_road_combined_data):
-    
-    
-#     # Estimate_freight_activity()
-#     # Its so hard to know what freight activity is. But for some economys we do have estimates. So for now, using the data we have we could esimate intensity and then estiamte activity for everyone using a weighted average from that
-#     #lets jsut set it o 1 fr now. Then later on we can base this on real data
-#     freight_activity_road_combined_data = egeda_energy_road_combined_data.copy()
-#     freight_activity_road_combined_data['value'] = 1
-#     freight_activity_road_combined_data['measure'] = 'activity'
-#     freight_activity_road_combined_data['unit'] = 'tonne_km'
-#     return freight_activity_road_combined_data
-
-
-
-
 
 def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, road_combined_data):
     #prep:
@@ -412,41 +479,36 @@ def import_previous_draft_selections():
     return previous_draft_transport_data_system_df
 
 
-
-def prepare_previous_non_road_energy_activity_data(previous_draft_transport_data_system_df):
+def prepare_previous_energy_activity_data(previous_draft_transport_data_system_df):
     #grab the activity an energy data for non road
-    non_road = previous_draft_transport_data_system_df.loc[previous_draft_transport_data_system_df['medium']!='road']
-    non_road_energy_activity = non_road.loc[non_road['measure'].isin(['energy','freight_tonne_km', 'passenger_km'])]
+    energy_activity = previous_draft_transport_data_system_df.loc[previous_draft_transport_data_system_df['measure'].isin(['energy','freight_tonne_km', 'passenger_km'])]
     #drop nonspecified transport type an medium
-    non_road_energy_activity = non_road_energy_activity.loc[non_road_energy_activity['transport_type']!='nonspecified']
-    non_road_energy_activity = non_road_energy_activity.loc[non_road_energy_activity['medium']!='nonspecified']
+    energy_activity = energy_activity.loc[energy_activity['transport_type']!='nonspecified']
+    energy_activity = energy_activity.loc[energy_activity['medium']!='nonspecified']
     #rename freight_tonne and passenger_km to activity
-    non_road_energy_activity = non_road_energy_activity.replace({'freight_tonne_km':'activity','passenger_km':'activity'})
+    energy_activity = energy_activity.replace({'freight_tonne_km':'activity','passenger_km':'activity'})
     #drop wehre scope is not national
-    non_road_energy_activity = non_road_energy_activity.loc[non_road_energy_activity['scope']=='national']
+    energy_activity = energy_activity.loc[energy_activity['scope']=='national']
     #keep only: date	economy	medium	transport_type energy	freight_tonne_km	passenger_km
-    non_road_energy_activity = non_road_energy_activity[['date','economy','medium','transport_type','measure','value']]
-    #identify duplicates
-    if non_road_energy_activity.duplicated().sum()>0:
-        duplicate_rows = non_road_energy_activity.loc[non_road_energy_activity.duplicated()]
-        logger.warning('duplicates found in non_road_energy_activity.')
-        non_road_energy_activity = non_road_energy_activity.drop_duplicates()
+    energy_activity = energy_activity[['date','economy','medium','transport_type','measure','value']]
+    #sum energy and activity by date, economy, medium and transport type
+    energy_activity = energy_activity.groupby(['date','economy','medium','transport_type','measure']).sum().reset_index()
 
     #pivot so energy and activity are in the same row. 
-    cols = non_road_energy_activity.columns.tolist()
+    cols = energy_activity.columns.tolist()
     cols.remove('value')
     cols.remove('measure')
-    non_road_energy_activity_wide = non_road_energy_activity.pivot(index=cols, columns='measure', values='value').reset_index()
+    energy_activity_wide = energy_activity.pivot(index=cols, columns='measure', values='value').reset_index()
 
-    return non_road_energy_activity_wide
+    return energy_activity_wide
 
-def calcualte_non_road_intensity_from_previous_data(non_road_energy_activity_wide):
+def calcualte_intensity_from_previous_data(energy_activity_wide):
     #calvc intensity
-    non_road_energy_activity_wide['intensity'] = non_road_energy_activity_wide['energy']/non_road_energy_activity_wide['activity']
+    energy_activity_wide['intensity'] = energy_activity_wide['energy']/energy_activity_wide['activity']
 
     #we will really only have intensity for 2017 because we lack energy data for the other years. But we can just use the 2017 intensity for all years if needed. Also some economys will have really weird intensity values. So we will calcualte the avergae intensity for each transport type/medium combination and use that for the other economys.
     #so lets group by transport type and medium, filter out outliers and then calcualte the average intensity for each group
-    intensity_average = non_road_energy_activity_wide.dropna(subset=['intensity'])
+    intensity_average = energy_activity_wide.dropna(subset=['intensity'])
     #join medium and transport type
     intensity_average['medium$transport_type'] = intensity_average['medium'] + '$' + intensity_average['transport_type']
     unique_medium_transport_type = intensity_average['medium$transport_type'].unique()
@@ -480,42 +542,74 @@ def calcualte_non_road_intensity_from_previous_data(non_road_energy_activity_wid
     intensity_average['transport_type'] = intensity_average['medium$transport_type'].str.split('$').str[1]
     #drop medium$transport_type
     intensity_average = intensity_average.drop(columns=['medium$transport_type'])
-    non_road_intensity = intensity_average
+    intensity = intensity_average
 
-    return non_road_intensity
+    return intensity
 
-def clean_non_road_activity(non_road_energy_activity):
-    non_road_activity = non_road_energy_activity.drop(columns=['value','intensity'])
+def clean_activity(energy_activity):
+    activity = energy_activity.drop(columns=['value','intensity'])
     #for a few economys we have no data because we have no energy data. So we will drop activty = na
-    logging.info('dropping na values from non_road_activity, for the following rows: {}'.format(non_road_activity[non_road_activity['activity'].isna()]))
-    non_road_activity = non_road_activity.dropna(subset=['activity'])
+    logging.info('dropping na values from activity, for the following rows: {}'.format(activity[activity['activity'].isna()]))
+    activity = activity.dropna(subset=['activity'])
     #rename measure to either freight_tonne_km or passenger_km depending on the transport type
-    non_road_activity.loc[non_road_activity['transport_type']=='freight','measure'] = 'freight_tonne_km'
-    non_road_activity.loc[non_road_activity['transport_type']=='passenger','measure'] = 'passenger_km'
+    activity.loc[activity['transport_type']=='freight','measure'] = 'freight_tonne_km'
+    activity.loc[activity['transport_type']=='passenger','measure'] = 'passenger_km'
     #for unit make it equal to the measure
-    non_road_activity['unit'] = non_road_activity['measure']
+    activity['unit'] = activity['measure']
     #rename actitvity to vlaue
-    non_road_activity = non_road_activity.rename(columns={'activity':'value'})
+    activity = activity.rename(columns={'activity':'value'})
     #make source to previous_data_system
-    non_road_activity['source'] = 'previous_data_system'
-    #dataset to non_road_activity_est
-    non_road_activity['dataset'] = 'non_road_activity_est $ previous_data_system'
-    return non_road_activity
+    activity['source'] = 'previous_data_system'
+    #dataset to activity_est
+    activity['dataset'] = 'activity_est $ previous_data_system'
+    #and set these:	fuel	comment	scope	frequency	drive	vehicle_type
+    activity['fuel'] = 'all'
+    activity['comment'] = 'no_comment'
+    activity['scope'] = 'national'
+    activity['frequency'] = 'yearly'
+    activity['drive'] = 'all'
+    activity['vehicle_type'] = 'all'
+    return activity
 
-def estimate_non_road_activity(non_road_energy):
+def extract_calculated_road_energy_passenger_km(road_combined_data):
+    #extract raod energy and passenger_km
+    road_energy_passenger_km = road_combined_data.loc[road_combined_data['measure'].isin(['energy', 'passenger_km'])]
+    #sum up road activiy adn energy so we only ahve one row per date, economy, medium, transport type, measure
+    road_energy_passenger_km = road_energy_passenger_km.groupby(['date','economy','medium','transport_type','measure'])['value'].sum().reset_index()
+    #sepreate road energy and passenger_km
+    road_energy = road_energy_passenger_km.loc[road_energy_passenger_km['measure']=='energy']
+    road_passenger_km = road_energy_passenger_km.loc[road_energy_passenger_km['measure']=='passenger_km']
+    #drop measure
+    road_energy = road_energy.drop(columns=['measure'])
+    road_passenger_km = road_passenger_km.drop(columns=['measure'])
+    return road_energy, road_passenger_km
+
+def estimate_activity_non_passenger_road(non_road_energy,road_combined_data):
+    #NOTE THAT THE PASSENGER ACTICVITY ESTIAMTE HERE IS JUST FOR ANALYSIS AND NOT THE FINAL ESTIAMTE AS WE HAVE A MUCH MORE DETAILED WAY OF ESTIMATING PASSENGER ACTIVITY
+    calculated_road_energy, calculated_road_passenger_km = extract_calculated_road_energy_passenger_km(road_combined_data)
+    #combined non road and road energy. 
+    energy = pd.concat([non_road_energy,calculated_road_energy])
+
     previous_draft_transport_data_system_df = import_previous_draft_selections()
-    previous_non_road_energy_activity_wide = prepare_previous_non_road_energy_activity_data(previous_draft_transport_data_system_df)
-    previous_non_road_intensity = calcualte_non_road_intensity_from_previous_data(previous_non_road_energy_activity_wide)
+    previous_energy_activity_wide = prepare_previous_energy_activity_data(previous_draft_transport_data_system_df)
+    previous_intensity = calcualte_intensity_from_previous_data(previous_energy_activity_wide)
 
     #now times the intenstiy by the energy values weve calcualted to get the activity
-    non_road_energy_activity = non_road_energy.merge(previous_non_road_intensity,how='outer',on=['date',	'economy',	'medium', 'transport_type'])
-    non_road_energy_activity['activity'] = non_road_energy_activity['value']/non_road_energy_activity['intensity']
-    non_road_activity = clean_non_road_activity(non_road_energy_activity)
+    energy_activity = energy.merge(previous_intensity,how='outer',on=['date',	'economy',	'medium', 'transport_type'])
+    energy_activity['activity'] = energy_activity['value']/energy_activity['intensity']
+
+    activity = clean_activity(energy_activity)
+
     plot=False
     if plot:
-        analysis_and_plotting_functions.plot_non_road_activity(non_road_activity,previous_non_road_energy_activity_wide)
 
-    return non_road_activity
+        analysis_and_plotting_functions.plot_activity(activity,previous_energy_activity_wide, calculated_road_passenger_km)#analysis_and_plotting_functions.
+
+    #drop rows where measure = passenger_km and medium = road
+    activity_non_passenger_road = activity.copy()
+    activity_non_passenger_road = activity_non_passenger_road.loc[~((activity_non_passenger_road['measure']=='passenger_km')&(activity_non_passenger_road['medium']=='road'))]
+    return activity_non_passenger_road
+
 
 
 #     # Non road:

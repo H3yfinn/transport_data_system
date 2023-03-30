@@ -212,28 +212,19 @@ def main():
     road_combined_data.to_pickle(paths_dict['intermediate_folder']+'/road_combined_data_TEST.pkl')
     #save to csv
     road_combined_data.to_csv(paths_dict['intermediate_folder']+'/road_combined_data_TEST.csv')
-    dothis = False
+    dothis = True
     if dothis:
         non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,road_combined_data)
         non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data)
-        #non_road_activity, freight_activity = data_estimation_functions.estimate_activity(non_road_energy,road_combined_data)
-        #concatenate all the non road data together
-        #non_road_combined_data = pd.concat([non_road_energy,non_road_activity],axis=0)
-        # data_estimation_functions.estimate_non_road_activity(unfiltered_combined_data,road_combined_data)
+        activity_non_passenger_road = data_estimation_functions.estimate_activity_non_passenger_road(non_road_energy,road_combined_data)
+        #concatenate all the data together
+        all_new_combined_data = pd.concat([non_road_energy,road_combined_data,activity_non_passenger_road],axis=0)
         #save to pickle
-        #non_road_combined_data.to_pickle(paths_dict['intermediate_folder']+'/non_road_combined_data.pkl')
+        all_new_combined_data.to_pickle(paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.pkl')
         #save to csv
-        #non_road_combined_data.to_csv(paths_dict['intermediate_folder']+'/non_road_combined_data.csv')
-    # Freight:
-    # As it is a lot harder to estimate load, mileage and efficiency because of the various sizes of vehicles, we will just leave it as leftover road energy use after calculating total passenger energy use.
-    # Later on, depending on what data is available we could start looking into brfeaking trucks into weight classes. This will allow us to better estimate the laod, mileage and efficiency vlaues we need.
+        all_new_combined_data.to_csv(paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.csv')
 
-    # Non road transport:
-    # We will just use energy values for now, but later on we can start looking at what activity data there is and so on.
-
-    # Public transport:
-    # especially buses.
-
+    #TODO INTERPOLATE AND MAYBE SELECT
 
 
 

@@ -102,28 +102,37 @@ def plot_non_road_energy_use_by_transport_type(non_road_energy):
         # save the figure
         fig.write_html('plotting_output/data_selection/analysis/by_economy/'+'/non_road_energy_use_by_transport_type_'+economy+'.html')
 
-# def plot_activity(energy_activity,previous_energy_activity_wide):
-#     #plot the new activity against the activity in previous_energy_activity_wide to see how it looks
-#     #merge the new activity with the previous activity
-#     previous_energy_activity_wide = previous_energy_activity_wide.merge(energy_activity,how='outer',on=['date',	'economy',	'medium', 'transport_type'])
-#     #rename the columns
-#     previous_energy_activity_wide = previous_energy_activity_wide.rename(columns={'activity':'previous_activity','value':'new_activity'})
-#     #drop energy and intensity
-#     previous_energy_activity_wide = previous_energy_activity_wide.drop(columns=['energy','intensity'])
-#     #make them into long format
-#     previous_energy_activity_long = pd.melt(previous_energy_activity_wide,id_vars=['date',	'economy',	'medium', 'transport_type'],value_vars=['previous_activity','new_activity'],var_name='activity_type',value_name='activity')
-#     #join transport type and medium
-#     previous_energy_activity_long['transport_type'] = previous_energy_activity_long['transport_type']+'_'+previous_energy_activity_long['medium']
-#     #
+def plot_activity(activity,calculated_road_passenger_km,previous_energy_activity_wide):
+    #plot the new activity against the activity in previous_energy_activity_wide to see how it looks
+    #merge the new activity with the previous activity
 
+    #join road_passenger_km to previous_energy_activity_wide. But firstrename medium to 'road_calcualted'
+    calculated_road_passenger_km['medium'] = 'road_calculated'
+    calculated_road_passenger_km.rename(columns={'value':'activity'}, inplace=True)
+    #drop energy and intensity
+    previous_energy_activity_wide = previous_energy_activity_wide.drop(columns=['energy','intensity'])
+    #concat
+    previous_energy_activity_wide = pd.concat([previous_energy_activity_wide,calculated_road_passenger_km])
 
+    previous_energy_activity_wide = previous_energy_activity_wide.merge(activity,how='outer',on=['date',	'economy',	'medium', 'transport_type'])
+    #rename the columns
+    previous_energy_activity_wide = previous_energy_activity_wide.rename(columns={'activity':'previous_activity','value':'new_activity'})
 
+    #make them into long format
+    previous_energy_activity_long = pd.melt(previous_energy_activity_wide,id_vars=['date',	'economy',	'medium', 'transport_type'],value_vars=['previous_activity','new_activity'],var_name='activity_type',value_name='activity')
+    #join transport type and medium
+    previous_energy_activity_long['transport_type'] = previous_energy_activity_long['transport_type']+'_'+previous_energy_activity_long['medium']
 
-#     #now plot a line graph of the activity over time for each economy using plotly. make the marker for new activity twice as big as the previous activity
-#     import plotly.express as px
-#     for economy in previous_energy_activity_long['economy'].unique():
-#         fig = px.line(previous_energy_activity_long[previous_energy_activity_long['economy']==economy], x="date", y="activity",facet_col='transport_type',facet_col_wrap=2, color='activity_type',title='non road activity for {}'.format(economy), markers=True)
-#         #make the marker for new activity twice as big as the previous activity
-#         fig.for_each_trace(lambda t: t.update(marker=dict(size=10 if t.name=='previous_activity' else 20)))
-#         #save as html]
-#         fig.write_html('plotting_output/data_selection/analysis/by_economy_plotly/activity_comparison_{}.html'.format(economy))
+    #where activity type is previous_activity and transport type is passenger_road_calculated, set activity type to calculated_activity
+    previous_energy_activity_long.loc[(previous_energy_activity_long['activity_type']=='previous_activity') & (previous_energy_activity_long['transport_type']=='passenger_road_calculated'),'activity_type'] = 'calculated_activity'
+    #then change passenger_road_calculated to passenger_road
+    previous_energy_activity_long.loc[previous_energy_activity_long['transport_type']=='passenger_road_calculated','transport_type'] = 'passenger_road'
+
+    #now plot a line graph of the activity over time for each economy using plotly. make the marker for new activity twice as big as the previous activity
+    import plotly.express as px
+    for economy in previous_energy_activity_long['economy'].unique():
+        fig = px.line(previous_energy_activity_long[previous_energy_activity_long['economy']==economy], x="date", y="activity",facet_col='transport_type',facet_col_wrap=2, color='activity_type',title='activity for {}'.format(economy), markers=True)
+        #make the marker for new activity twice as big as the previous activity
+        fig.for_each_trace(lambda t: t.update(marker=dict(size=10 if t.name=='previous_activity' else 20)))
+        #save as html]
+        fig.write_html('plotting_output/data_selection/analysis/by_economy_plotly/activity_comparison_{}.html'.format(economy))
