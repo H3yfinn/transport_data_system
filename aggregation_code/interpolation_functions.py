@@ -135,12 +135,9 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,paths_
     logging.info('Time taken to run program: {}'.format(datetime.datetime.now() - start_time))
     
     #separate the dataset and source columns
-    separate_dataset_and_source(final_combined_data_concordance)
+    final_combined_data_concordance = separate_dataset_and_source(final_combined_data_concordance)
 
-    #and make new_final_combined_data by removing any NA values
-    new_final_combined_data = final_combined_data_concordance.dropna(subset=['value'])
-
-    return new_final_combined_data,final_combined_data_concordance
+    return final_combined_data_concordance
 
 def plot_and_test_interpolation_methods(interpolation_methods,interpolation_methods_current, current_data, ax, fig, index_row_no_year,INTERPOLATION_LIMIT):
     #create a new column for each interpolation method

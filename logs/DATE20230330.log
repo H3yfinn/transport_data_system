@@ -1,0 +1,356 @@
+03/30/2023 10:22:34 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:27:07 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:27:07 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:27:07 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:27:07 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:27:07 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:27:07 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:29:34 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:29:35 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:29:35 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:29:35 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:29:35 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:29:35 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:29:35 AM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 10:29:35 AM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 10:29:59 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:29:59 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:29:59 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:29:59 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:29:59 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:29:59 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:30:00 AM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 10:30:00 AM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 10:30:00 AM 
+missing_total_road_energy_use:
+
+03/30/2023 10:30:00 AM     economy  date  freight  passenger  egeda_total_road_energy_use  \
+21   01_AUS  2011      NaN        NaN                          NaN   
+22   01_AUS  2012      NaN        NaN                          NaN   
+23   01_AUS  2013      NaN        NaN                          NaN   
+24   01_AUS  2014      NaN        NaN                          NaN   
+25   01_AUS  2015      NaN        NaN                          NaN   
+..      ...   ...      ...        ...                          ...   
+111  20_USA  2016      NaN        NaN                          NaN   
+112  20_USA  2018      NaN        NaN                          NaN   
+113  20_USA  2019      NaN        NaN                          NaN   
+114  20_USA  2020      NaN        NaN                          NaN   
+115  20_USA  2021      NaN        NaN                          NaN   
+
+     calculated_passenger_road_energy_use  
+21                                   49.0  
+22                                  222.0  
+23                                  413.0  
+24                                  784.0  
+25                                 1543.0  
+..                                    ...  
+111                              297059.0  
+112                              640369.0  
+113                              882281.0  
+114                             1138654.0  
+115                             1343370.0  
+
+[95 rows x 6 columns]
+03/30/2023 10:30:00 AM 
+missing_passenger_road_energy_use:
+
+03/30/2023 10:30:00 AM Empty DataFrame
+Columns: [economy, date, freight, passenger, egeda_total_road_energy_use, calculated_passenger_road_energy_use]
+Index: []
+03/30/2023 10:30:22 AM Option chosen is scaled
+03/30/2023 10:30:22 AM 
+
+
+
+COMMITTING TO SCALED
+
+
+
+
+03/30/2023 10:31:14 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:31:14 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:31:14 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:31:14 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:31:14 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:31:14 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:31:15 AM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 10:31:15 AM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 10:31:15 AM 
+missing_total_road_energy_use:
+
+03/30/2023 10:31:15 AM     economy  date  freight  passenger  egeda_total_road_energy_use  \
+21   01_AUS  2011      NaN        NaN                          NaN   
+22   01_AUS  2012      NaN        NaN                          NaN   
+23   01_AUS  2013      NaN        NaN                          NaN   
+24   01_AUS  2014      NaN        NaN                          NaN   
+25   01_AUS  2015      NaN        NaN                          NaN   
+..      ...   ...      ...        ...                          ...   
+111  20_USA  2016      NaN        NaN                          NaN   
+112  20_USA  2018      NaN        NaN                          NaN   
+113  20_USA  2019      NaN        NaN                          NaN   
+114  20_USA  2020      NaN        NaN                          NaN   
+115  20_USA  2021      NaN        NaN                          NaN   
+
+     calculated_passenger_road_energy_use  
+21                                   49.0  
+22                                  222.0  
+23                                  413.0  
+24                                  784.0  
+25                                 1543.0  
+..                                    ...  
+111                              297059.0  
+112                              640369.0  
+113                              882281.0  
+114                             1138654.0  
+115                             1343370.0  
+
+[95 rows x 6 columns]
+03/30/2023 10:31:15 AM 
+missing_passenger_road_energy_use:
+
+03/30/2023 10:31:15 AM Empty DataFrame
+Columns: [economy, date, freight, passenger, egeda_total_road_energy_use, calculated_passenger_road_energy_use]
+Index: []
+03/30/2023 10:31:20 AM Option chosen is scaled
+03/30/2023 10:31:20 AM 
+
+
+
+COMMITTING TO SCALED
+
+
+
+
+03/30/2023 10:31:57 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:31:58 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:31:58 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:31:58 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:31:58 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:32:05 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:32:08 AM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 10:32:08 AM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 10:32:08 AM 
+missing_total_road_energy_use:
+
+03/30/2023 10:32:08 AM     economy  date  freight  passenger  egeda_total_road_energy_use  calculated_passenger_road_energy_use
+21   01_AUS  2011      NaN        NaN                          NaN                                  49.0
+22   01_AUS  2012      NaN        NaN                          NaN                                 222.0
+23   01_AUS  2013      NaN        NaN                          NaN                                 413.0
+24   01_AUS  2014      NaN        NaN                          NaN                                 784.0
+25   01_AUS  2015      NaN        NaN                          NaN                                1543.0
+..      ...   ...      ...        ...                          ...                                   ...
+111  20_USA  2016      NaN        NaN                          NaN                              297059.0
+112  20_USA  2018      NaN        NaN                          NaN                              640369.0
+113  20_USA  2019      NaN        NaN                          NaN                              882281.0
+114  20_USA  2020      NaN        NaN                          NaN                             1138654.0
+115  20_USA  2021      NaN        NaN                          NaN                             1343370.0
+
+[95 rows x 6 columns]
+03/30/2023 10:32:08 AM 
+missing_passenger_road_energy_use:
+
+03/30/2023 10:32:08 AM Empty DataFrame
+Columns: [economy, date, freight, passenger, egeda_total_road_energy_use, calculated_passenger_road_energy_use]
+Index: []
+03/30/2023 10:32:55 AM Option chosen is scaled
+03/30/2023 10:32:55 AM 
+
+
+
+COMMITTING TO SCALED
+
+
+
+
+03/30/2023 10:34:42 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:34:42 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:34:42 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:34:42 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:34:42 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:34:43 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:34:45 AM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 10:34:45 AM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 10:34:45 AM 
+missing_total_road_energy_use:
+
+03/30/2023 10:34:45 AM     economy  date  freight  passenger  egeda_total_road_energy_use  calculated_passenger_road_energy_use
+21   01_AUS  2011      NaN        NaN                          NaN                                  49.0
+22   01_AUS  2012      NaN        NaN                          NaN                                 222.0
+23   01_AUS  2013      NaN        NaN                          NaN                                 413.0
+24   01_AUS  2014      NaN        NaN                          NaN                                 784.0
+25   01_AUS  2015      NaN        NaN                          NaN                                1543.0
+..      ...   ...      ...        ...                          ...                                   ...
+111  20_USA  2016      NaN        NaN                          NaN                              297059.0
+112  20_USA  2018      NaN        NaN                          NaN                              640369.0
+113  20_USA  2019      NaN        NaN                          NaN                              882281.0
+114  20_USA  2020      NaN        NaN                          NaN                             1138654.0
+115  20_USA  2021      NaN        NaN                          NaN                             1343370.0
+
+[95 rows x 6 columns]
+03/30/2023 10:34:45 AM 
+missing_passenger_road_energy_use:
+
+03/30/2023 10:34:45 AM Empty DataFrame
+Columns: [economy, date, freight, passenger, egeda_total_road_energy_use, calculated_passenger_road_energy_use]
+Index: []
+03/30/2023 10:34:48 AM Option chosen is scaled
+03/30/2023 10:34:48 AM 
+
+
+
+COMMITTING TO SCALED
+
+
+
+
+03/30/2023 10:37:29 AM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 10:37:30 AM Saving combined_data_concordance and combined_data
+03/30/2023 10:37:30 AM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:37:30 AM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 10:37:30 AM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 10:37:30 AM Saving calculated_passenger_energy_combined_data
+03/30/2023 10:37:31 AM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 10:37:31 AM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 10:37:31 AM 
+missing_total_road_energy_use:
+
+03/30/2023 10:37:31 AM     economy  date  freight  passenger  egeda_total_road_energy_use  calculated_passenger_road_energy_use
+21   01_AUS  2011      NaN        NaN                          NaN                                  49.0
+22   01_AUS  2012      NaN        NaN                          NaN                                 222.0
+23   01_AUS  2013      NaN        NaN                          NaN                                 413.0
+24   01_AUS  2014      NaN        NaN                          NaN                                 784.0
+25   01_AUS  2015      NaN        NaN                          NaN                                1543.0
+..      ...   ...      ...        ...                          ...                                   ...
+111  20_USA  2016      NaN        NaN                          NaN                              297059.0
+112  20_USA  2018      NaN        NaN                          NaN                              640369.0
+113  20_USA  2019      NaN        NaN                          NaN                              882281.0
+114  20_USA  2020      NaN        NaN                          NaN                             1138654.0
+115  20_USA  2021      NaN        NaN                          NaN                             1343370.0
+
+[95 rows x 6 columns]
+03/30/2023 10:37:32 AM 
+missing_passenger_road_energy_use:
+
+03/30/2023 10:37:32 AM Empty DataFrame
+Columns: [economy, date, freight, passenger, egeda_total_road_energy_use, calculated_passenger_road_energy_use]
+Index: []
+03/30/2023 10:37:34 AM Option chosen is scaled
+03/30/2023 10:37:34 AM 
+
+
+
+COMMITTING TO SCALED
+
+
+
+
+03/30/2023 12:25:19 PM LOGGING STARTED: DATE20230330, being saved to logs/DATE20230330.log and outputted to console
+03/30/2023 12:25:19 PM Saving combined_data_concordance and combined_data
+03/30/2023 12:25:19 PM Saving stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 12:25:19 PM Saving interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance
+03/30/2023 12:25:19 PM 
+
+
+data=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA
+
+
+
+
+03/30/2023 12:25:19 PM Saving calculated_passenger_energy_combined_data
+03/30/2023 12:25:22 PM Saving energy_passenger_km_combined_data_concordance
+03/30/2023 12:25:22 PM Saving interpolated_energy_passenger_km_combined_data_concordance
+03/30/2023 12:25:22 PM 
+missing_total_road_energy_use:
+
+03/30/2023 12:25:22 PM     economy  date  freight  passenger  egeda_total_road_energy_use  calculated_passenger_road_energy_use
+21   01_AUS  2011      NaN        NaN                          NaN                                  49.0
+22   01_AUS  2012      NaN        NaN                          NaN                                 222.0
+23   01_AUS  2013      NaN        NaN                          NaN                                 413.0
+24   01_AUS  2014      NaN        NaN                          NaN                                 784.0
+25   01_AUS  2015      NaN        NaN                          NaN                                1543.0
+..      ...   ...      ...        ...                          ...                                   ...
+111  20_USA  2016      NaN        NaN                          NaN                              297059.0
+112  20_USA  2018      NaN        NaN                          NaN                              640369.0
+113  20_USA  2019      NaN        NaN                          NaN                              882281.0
+114  20_USA  2020      NaN        NaN                          NaN                             1138654.0
+115  20_USA  2021      NaN        NaN                          NaN                             1343370.0
+
+[95 rows x 6 columns]
+03/30/2023 12:25:22 PM 
+missing_passenger_road_energy_use:
+
+03/30/2023 12:25:22 PM Empty DataFrame
+Columns: [economy, date, freight, passenger, egeda_total_road_energy_use, calculated_passenger_road_energy_use]
+Index: []
+03/30/2023 12:25:26 PM Option chosen is scaled
+03/30/2023 12:25:26 PM 
+
+
+
+COMMITTING TO SCALED
+
+
+
+
+03/30/2023 12:25:33 PM WARNING: column fuel_type is not a string. It is a float64
+03/30/2023 12:25:33 PM Unique values in column [nan] are:
+03/30/2023 12:25:34 PM dropping na values from non_road_activity, for the following rows:     economy  date medium measure dataset source unit fuel comment scope frequency drive vehicle_type transport_type  activity
+116   02_BD  2017    air     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN        freight       NaN
+117  17_SIN  2017    air     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN        freight       NaN
+118   02_BD  2017    air     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN      passenger       NaN
+119  17_SIN  2017    air     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN      passenger       NaN
+120   02_BD  2017   rail     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN        freight       NaN
+121  13_PNG  2017   rail     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN        freight       NaN
+122   02_BD  2017   rail     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN      passenger       NaN
+123  13_PNG  2017   rail     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN      passenger       NaN
+124   02_BD  2017   ship     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN        freight       NaN
+125   02_BD  2017   ship     NaN     NaN    NaN  NaN  NaN     NaN   NaN       NaN   NaN          NaN      passenger       NaN

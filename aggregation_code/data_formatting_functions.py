@@ -76,6 +76,13 @@ def extract_latest_groomed_data():
         dataset[2] = dataset[2].replace('FILE_DATE_ID', latest_file)
     return datasets_transport, datasets_other
 
+def convert_concordance_to_combined_data(concordance, old_combined_data):
+    new_combined_data = concordance.dropna(subset=['value'])
+    #get cols not in combined_data but in concordance
+    cols_to_drop = [col for col in concordance.columns if col not in old_combined_data.columns]
+    new_combined_data = new_combined_data.drop(cols_to_drop, axis=1)
+    return new_combined_data
+
 def make_quick_fixes_to_datasets(combined_data):
 
     #and where fuel is na, set it to 'All'
@@ -179,8 +186,30 @@ def combine_datasets(datasets, FILE_DATE_ID, paths_dict):
 
     return combined_data
 
+def determine_date_format(df):
+    #identify if date is in yyyy or yyyy-mm-dd format
+    if len(str(df['date'].max())) == 4:
+        return 'yyyy'
+    elif len(str(df['date'].max())) == 10:
+        return 'yyyy-mm-dd'
+    else:
+        raise Exception('Date format not recognised')
+def TEMP_FIX_ensure_date_col_is_year(df):
 
-def create_whole_dataset_concordance(combined_data, frequency = 'yearly'):
+    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
+    #frist check the date format is yyyy-mm-dd or yyyy
+    date_format = determine_date_format(df)
+    if date_format == 'yyyy':
+        #if the date is just yyyy then we just need to make sure it is an int
+        df.date = df.date.astype(int)
+    else:
+        #first makje date a object
+        df.date = df.date.astype(str)
+        #then slice the string to get the year
+        df.date = df.date.apply(lambda x: x[:4]).astype(int)
+    return df
+
+def create_concordance_from_combined_data(combined_data, frequency = 'yearly'):
     
     ############################################################
 
@@ -188,34 +217,62 @@ def create_whole_dataset_concordance(combined_data, frequency = 'yearly'):
 
     ############################################################
     #CREATE CONCORDANCE
-    #create a concordance which contains all the unique rows in the combined data df, when you remove the dataset source and value columns.
-    combined_data_concordance = combined_data.drop(columns=['dataset','comment', 'value']).drop_duplicates()#todo is this the ebst way to handle the cols
+    #create a concordance which contains all the unique rows in the combined data df, when you remove the dataset source and value and economy columns.
+    combined_data_concordance = combined_data.drop(columns=['dataset','comment', 'value', 'economy']).drop_duplicates()#todo is this the ebst way to handle the cols
     #we will also have to split the frequency column by its type: Yearly, Quarterly, Monthly, Daily
     #YEARLY
+    economys = combined_data['economy'].unique()
     yearly = combined_data_concordance[combined_data_concordance['frequency'] == frequency]
     #YEARS:
     MAX = yearly['date'].max()
     MIN = yearly['date'].min()
+        
+    date_format = determine_date_format(yearly)
     #using datetime creates a range of dates, separated by year with the first year being the MIN and the last year being the MAX
     if frequency == 'yearly':
-        years = pd.date_range(start=MIN, end=MAX, freq='Y')
+        if date_format == 'yyyy':
+            years = [str(year) for year in range(MIN, MAX+1)]
+        else:
+            years = pd.date_range(start=MIN, end=MAX, freq='Y')
+
     elif frequency == 'monthly':#todo this means that you can ruin data selection on only one frequency at a time, whiich means the way we name files and folders needs to be changed. maybe recondier this
         #using datetime creates a range of dates, separated by month with the first month being the MIN and the last month being the MAX
+        if date_format == 'yyyy':
+            logging.error("ERROR: you have selected monthly data but the date format is yyyy. Please change the date format to yyyy-mm-dd")
+            raise Exception('ERROR: you have selected monthly data but the date format is yyyy. Please change the date format to yyyy-mm-dd')
         years = pd.date_range(start=MIN, end=MAX, freq='M')
     else:
         logging.error("ERROR: frequency not recognised. You might have to update the code to include this frequency.")
-        sys.exit()
+        raise Exception('ERROR: frequency not recognised. You might have to update the code to include this frequency.')
 
     #drop date from ATO_data_years
     yearly = yearly.drop(columns=['date']).drop_duplicates()
     #now do a cross join between the concordance and the years array
     combined_data_concordance_new = yearly.merge(pd.DataFrame(years, columns=['date']), how='cross')
+    #and cross join with the economies
+    combined_data_concordance_new = combined_data_concordance_new.merge(pd.DataFrame(economys, columns=['economy']), how='cross')
 
-    #make the date col an object (aka string)
-    combined_data_concordance_new['date'] = combined_data_concordance_new['date'].astype('object')
+    #if date_format = 'yyyy' make the date col an int64
+    if date_format == 'yyyy':
+        combined_data_concordance_new['date'] = combined_data_concordance_new['date'].astype('int64')
+    else:
+        #set it to object
+        combined_data_concordance_new['date'] = combined_data_concordance_new['date'].astype('object')
 
     return combined_data_concordance_new
 
+def ensure_column_types_are_correct(df): 
+    #we know that the date columns can either be yyyy or yyyy-mm-dd. if they are yyyy then make sure they are ints and then if they are yyyy-mm-dd then make sure they are datetimes.
+    if 'date' in df.columns:
+        date_format = determine_date_format(df)
+        if date_format == 'yyyy-mm-dd':
+            df['date'] = pd.to_datetime(df['date'])
+        else:
+            df['date'] = df['date'].astype(int)
+    #and if value is in the columns then make sure it is a float
+    if 'value' in df.columns:
+        df['value'] = df['value'].astype(float)
+    return df
 
 def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict):
 
@@ -238,8 +295,16 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
             temp['date'] = year
             model_concordances_measures = pd.concat([model_concordances_measures,temp])
 
-    #set date
-    model_concordances_measures['date'] = model_concordances_measures['date'].astype(str) + '-12-31'
+    #depending on format of date, make sure it is in the correct format
+    date_format = determine_date_format(model_concordances_measures)
+    if date_format == 'yyyy':
+        model_concordances_measures['date'] = model_concordances_measures['date'].astype(int)
+    else:
+        #convert date to yyyy
+        model_concordances_measures = TEMP_FIX_ensure_date_col_is_year(model_concordances_measures)
+        
+    # #set date #TEMP FIX TODO WE ARE CURRENTLY ASSUMING THAT THE DATE IS ALWAYS yyyy BUT THE CODE HAS BEEN MADE FLEXIBLE ENOUGH TO HANDLE yyyy-mm-dd
+    # model_concordances_measures['date'] = model_concordances_measures['date'].astype(str) + '-12-31'
 
     #Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
     INDEX_COLS_no_scope_no_fuel=paths_dict['INDEX_COLS_no_scope_no_fuel']
@@ -328,9 +393,10 @@ def test_identify_erroneous_duplicates(combined_data, paths_dict):
 #     pass
 
 def filter_for_years_of_interest(combined_data_concordance,combined_data,paths_dict):
+    #based on format of date column we will filter for years of interest differently:
+    earliest_year = paths_dict['EARLIEST_YEAR']
+    latest_year = paths_dict['LATEST_YEAR']
 
-    earliest_year = str(paths_dict['EARLIEST_YEAR']) + '-12-31'
-    latest_year = str(paths_dict['LATEST_YEAR']) + '-12-31'
     #filter data where year is less than our earliest year
     combined_data = combined_data[combined_data['date'] >= earliest_year]
     combined_data_concordance = combined_data_concordance[combined_data_concordance['date'] >= earliest_year]
@@ -362,7 +428,7 @@ def TEMP_create_new_values(combined_data_concordance, combined_data):
     combined_data_occupancy = combined_data[combined_data['measure']=='occupancy'].copy()
     combined_data_occupancy['measure'] = 'mileage'
     combined_data_occupancy['unit'] = 'km_per_year'
-    combined_data_occupancy['Value'] = 1
+    combined_data_occupancy['value'] = 1
     combined_data = pd.concat([combined_data, combined_data_occupancy])
 
     return combined_data_concordance, combined_data

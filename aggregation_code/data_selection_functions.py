@@ -55,15 +55,13 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
         # iterate through each index col
         for index_row_no_year in group_concordance.index.unique():
             current_index_row_no_year = group_concordance.loc[index_row_no_year]
-            #if all num_datapoints are 1 then skip
-            try:
-                if all(current_index_row_no_year.num_datapoints == 1):
-                        continue
-            except:
-                logging.warning(f'POTENTIAL ERROR: {current_index_row_no_year}')
-                pass
             #data_to_select_from will be used as the data from which the user will select the preferred data
             data_to_select_from = group_data.loc[index_row_no_year]
+
+            if not check_for_multiple_datapoints(current_index_row_no_year):
+                #this means there must be only one datapoint for all years. So we should just use that datapoint.
+                group_concordance = set_concordance_for_single_datapoint(current_index_row_no_year, index_row_no_year,data_to_select_from, group_concordance,paths_dict)
+                continue           
 
             #plot data and save plot as png to tmp folder
             plot_timeseries(data_to_select_from, paths_dict,index_row_no_year,highlighted_datasets)
@@ -129,13 +127,53 @@ def open_plotly_group_dashboard(group_data_name_file, group_data, paths_dict):
     fig_dash.write_html(paths_dict['selection_dashboard'] , auto_open=True)
     return
 
-def TEMP_FIX_change_date_col_to_year(df):
-    # %matplotlib qt
-    #TEMP FIX START
-    #NOTE MAKING THIS ONLY WORK FOR YEARLY DATA, AS IT WOULD BE COMPLICATED TO DO IT OTEHRWISE. lATER ON WE CAN TO IT COMPLETELY BY CHANGING LINES THAT ADD 1 TO THE DATE IN THE DATA SLECTION FUNCTIONS TO ADD ONE UNIT OF WHATEVER THE FREQUENCY IS. 
-    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
-    df.date = df.date.apply(lambda x: x[:4]).astype(int)
-    return df
+def check_for_multiple_datapoints(current_index_row_no_year):
+#check if there are multiple datapoints for this index row
+    if type(current_index_row_no_year) == pd.core.series.Series:#can also be identifyed by len(shape) == 1
+        #occurs if there is only one row in the df
+        return False 
+    elif all(current_index_row_no_year.num_datapoints == 1):
+        #if all num_datapoints are 1 then skip
+        return False
+    else:
+       return True
+
+def set_concordance_for_single_datapoint(current_index_row_no_year, index_row_no_year,data_to_select_from, group_concordance,paths_dict):
+    #for every year in the the current index row, set the concordances dataset, comment and value to the dataset and value for that year in data_to_select_from
+
+    if type(current_index_row_no_year) == pd.core.series.Series:#can also be identifyed by len(shape) == 1 
+        #occurs if there is only one row in the df, aka it is formatted as a series
+        if type(data_to_select_from) == pd.core.series.Series:
+            #this one is weird. We will get data_to_select_from as a series or a df. If it is a series then its len(shape) == 1 and we need to get the vlaue using .values, if it is a df then we need to use .values[0]
+            group_concordance.loc[index_row_no_year, 'value'] = data_to_select_from.value
+            group_concordance.loc[index_row_no_year, 'dataset'] = data_to_select_from.dataset
+            group_concordance.loc[index_row_no_year, 'comment'] = data_to_select_from.comment
+            group_concordance.loc[index_row_no_year, 'dataset_selection_method'] = 'single_datapoint'
+        elif type(data_to_select_from) == pd.core.frame.DataFrame:
+            group_concordance.loc[index_row_no_year, 'value'] = data_to_select_from.value[0]
+            group_concordance.loc[index_row_no_year, 'dataset'] = data_to_select_from.dataset[0]
+            group_concordance.loc[index_row_no_year, 'comment'] = data_to_select_from.comment[0]
+            group_concordance.loc[index_row_no_year, 'dataset_selection_method'] = 'single_datapoint'
+        else:
+            logging.error(f'ERROR: not a series or df: {data_to_select_from}')
+            raise ValueError
+        
+    elif type(data_to_select_from) == pd.core.frame.DataFrame:
+        #if all num_datapoints are 1 but there are multiple years of data we will have a df
+        group_concordance = group_concordance.reset_index().set_index(paths_dict['INDEX_COLS'])
+        data_to_select_from = data_to_select_from.reset_index().set_index(paths_dict['INDEX_COLS'])
+        for rows_to_change in data_to_select_from.index:
+            group_concordance.loc[rows_to_change, 'value'] = data_to_select_from.loc[rows_to_change,'value']
+            group_concordance.loc[rows_to_change, 'dataset'] = data_to_select_from.loc[rows_to_change,'dataset']
+            group_concordance.loc[rows_to_change, 'comment'] = data_to_select_from.loc[rows_to_change,'comment']
+            group_concordance.loc[rows_to_change, 'dataset_selection_method'] = 'single_datapoint'
+    else:
+        logging.error(f'ERROR: not a series or df: {data_to_select_from}')
+        raise ValueError
+
+    group_concordance = group_concordance.reset_index().set_index(paths_dict['INDEX_COLS_no_year'])
+
+    return group_concordance
 
 def save_groups_to_tmp_folder(combined_data_concordance, combined_data, paths_dict,grouping_cols):
     # user can specify columns for which to group the data that will be input. Although only a single INDEX_ROW will be selected for at a time, the grouping will allow for a dashboard to be made for that group so the user can observe the selections in context of other datapoints in the same group
@@ -571,9 +609,12 @@ def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dic
     """This function will take in the combined data and combined data concordance dataframes and prepare them for the manual selection process. It will filter the data to only include data from the years we are interested in. 
     #TODO this previously would' remove any duplicate data for the 8th edition transport model carbon neutrality scenario.'. Need to replace that. somewhere else"""#TODO double check that that is true, it came from ai
 
+    combined_data_concordance = data_formatting_functions.ensure_column_types_are_correct(combined_data_concordance)
+    combined_data = data_formatting_functions.ensure_column_types_are_correct(combined_data)
+
     data_formatting_functions.test_identify_erroneous_duplicates(combined_data,paths_dict)
 
-    combined_data_concordance,combined_data = identify_duplicated_datapoints_to_select_for(combined_data,combined_data_concordance, paths_dict['INDEX_COLS'])
+    combined_data_concordance = identify_duplicated_datapoints_to_select_for(combined_data,combined_data_concordance, paths_dict['INDEX_COLS'])
 
     combined_data_concordance,combined_data = data_formatting_functions.filter_for_years_of_interest(combined_data_concordance,combined_data,paths_dict)
 
@@ -585,9 +626,6 @@ def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dic
     #sort data
     combined_data_concordance = combined_data_concordance.sort_values(sorting_cols)
     combined_data = combined_data.sort_values(sorting_cols)
-
-    combined_data_concordance = TEMP_FIX_change_date_col_to_year(combined_data_concordance)
-    combined_data = TEMP_FIX_change_date_col_to_year(combined_data)
     
     return combined_data_concordance, combined_data
 
@@ -632,12 +670,12 @@ def identify_duplicated_datapoints_to_select_for(combined_data,combined_data_con
     
     #join onto combined_data_concordance
     new_combined_data_concordance = duplicates.merge(combined_data_concordance, on=INDEX_COLS, how='left')#todo does this result in what we'd like? are there any issues with not using .copy)( on anythiing
-    new_combined_data = duplicates.merge(combined_data, on=INDEX_COLS, how='left')#todo, do we need to use [['datasets', 'num_datapoints']] here?
+    # new_combined_data = duplicates.merge(combined_data, on=INDEX_COLS, how='left')#todo, do we need to use [['datasets', 'num_datapoints']] here?
 
     #TODO this below didnt seem useful, but maybe it is?
     # test_identify_duplicated_datapoints_to_select_for(combined_data,combined_data_concordance,new_combined_data_concordance,INDEX_COLS)
 
-    return new_combined_data_concordance, new_combined_data
+    return new_combined_data_concordance#, new_combined_data
 
 
 # def import_previous_selections(previous_selections, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,paths_dict,update_skipped_rows=False):

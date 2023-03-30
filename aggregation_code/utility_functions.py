@@ -7,7 +7,7 @@ import sys
 import logging
 import numpy as np
 import pandas as pd
-
+import shutil
 #set cwd to the root of the project
 # os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 logger = logging.getLogger(__name__)
@@ -21,6 +21,16 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     paths_dict['selection_groups_folder'] = os.path.join(intermediate_folder, '/groups/')
     if not os.path.exists(intermediate_folder):
         os.makedirs(intermediate_folder)
+    else:
+        #make copy of all data to a folder with the current time so they can be recovered if needed.
+        backup_dir = os.path.join(intermediate_folder, 'backup_'+datetime.datetime.now().strftime("%H_%M_%S"))  
+        os.makedirs(backup_dir)
+        for file in os.listdir(intermediate_folder):
+            #if folder then ignore
+            if os.path.isdir(os.path.join(intermediate_folder, file)):
+                continue
+            shutil.copy(os.path.join(intermediate_folder, file), backup_dir)
+            
     if not os.path.exists(paths_dict['selection_groups_folder']):
         os.makedirs(paths_dict['selection_groups_folder'])
 
@@ -45,24 +55,26 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     paths_dict['INDEX_COLS_no_scope_no_fuel'] = INDEX_COLS_no_scope_no_fuel
     paths_dict['FILE_DATE_ID'] = FILE_DATE_ID
 
-    if previous_FILE_DATE_ID is not None:
-        #we will load data from the previous file date id, althoguh we will save the data to the current file date id
-        paths_dict['previous_intermediate_folder'] = 'intermediate_data/selection_process/{}/'.format(previous_FILE_DATE_ID)
-        paths_dict['previous_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data.pkl')
-        paths_dict['previous_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data_concordance.pkl')
-        paths_dict['previous_selection_progress_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'selection_progress.pkl')
-        paths_dict['previous_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
-        paths_dict['previous_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'energy_passenger_km_combined_data_concordance.pkl')
-    
+    #initial dfs:
+    paths_dict['unfiltered_combined_data'] = os.path.join(paths_dict['intermediate_folder'], f'unfiltered_combined_data.pkl')
     paths_dict['combined_data'] = os.path.join(paths_dict['intermediate_folder'], f'combined_data.pkl')
     paths_dict['combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'], f'combined_data_concordance.pkl')
 
-    paths_dict['selection_progress_pkl'] = os.path.join(intermediate_folder, f'selection_progress.pkl')
-
+    #stocks_mileage_occupancy_efficiency dfs:
+    #selection:
     paths_dict['stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
-
-    paths_dict['energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'energy_passenger_km_combined_data_concordance.pkl')
+    #interp:
+    paths_dict['interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
     
+    #energy_passenger_km dfs:
+    #preparation/calcualtion:
+    paths_dict['calculated_passenger_energy_combined_data'] = os.path.join(paths_dict['intermediate_folder'],'calculated_passenger_energy_combined_data.pkl')
+    #selection:
+    paths_dict['energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'energy_passenger_km_combined_data_concordance.pkl')
+    #interpolation:
+    paths_dict['interpolated_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_energy_passenger_km_combined_data_concordance.pkl')
+
+    #final all data dfs:
 
     ####
     #set up plotting paths dict:
@@ -77,15 +89,33 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     paths_dict['combined_data_error.pkl'] = os.path.join(paths_dict['intermediate_folder'], 'combined_data_error.pkl')
     paths_dict['unselected_combined_data'] = f"{paths_dict['intermediate_folder']}/unselected_combined_data.pkl"
 
+    #selection
+    paths_dict['selection_progress_pkl'] = os.path.join(intermediate_folder, f'selection_progress.pkl')
     #interpoaltion
-    paths_dict['interpolated_stocks_mileage_occupancy_efficiency_combined_data'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data.pkl')
-    paths_dict['interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
-    paths_dict['interpolated_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_energy_passenger_km_combined_data_concordance.pkl')
-    paths_dict['interpolated_energy_passenger_km_combined_data'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_energy_passenger_km_combined_data.pkl')
+
+    #previous data
     if previous_FILE_DATE_ID is not None:
-        paths_dict['previous_interpolated_stocks_mileage_occupancy_efficiency_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data.pkl')
-        paths_dict['previous_interpolated_energy_passenger_km_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_energy_passenger_km_combined_data.pkl')
+        #we will load data from the previous file date id, althoguh we will save the data to the current file date id. This will only be created for those files that take a while to create
+        paths_dict['previous_intermediate_folder'] = 'intermediate_data/selection_process/{}/'.format(previous_FILE_DATE_ID)
+        #initial dfs:
+        paths_dict['previous_unfiltered_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'unfiltered_combined_data.pkl')
+        paths_dict['previous_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data.pkl')
+        paths_dict['previous_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data_concordance.pkl')
+        #stocks_mileage_occupancy_efficiency
+        #selection
+        paths_dict['previous_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
+        #interpolation
         paths_dict['previous_interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
+
+        #energy_passenger_km dfs:
+        #preparation/calcualtion:
+
+        #selection:
+        paths_dict['previous_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'energy_passenger_km_combined_data_concordance.pkl')
+        #interpolation:
+        paths_dict['previous_interpolated_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_energy_passenger_km_combined_data_concordance.pkl')
+
+        paths_dict['previous_selection_progress_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'selection_progress.pkl')
     return paths_dict
 
 def setup_logging(FILE_DATE_ID,paths_dict,testing=True):
@@ -116,6 +146,7 @@ def convert_string_to_snake_case(string):
     return string
 
 def convert_all_cols_to_snake_case(df):
+    #will convert all vlaues in cols to snake case
     for col in df.columns:
         if col not in ['economy', 'value', 'date']:
             #if type of col is not string then tell the user
