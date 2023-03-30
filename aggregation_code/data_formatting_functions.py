@@ -417,23 +417,6 @@ def filter_for_specifc_data(selection_dict, df):
 
 ##############################################################################
 
-def TEMP_create_new_values(combined_data_concordance, combined_data):
-    #TEMPORARY: 
-    #copy the occupancy rows from both dataframes, cahnge their measure to 'mielage', unit to 'km_per_year' and value to 1. Then append them to the combined_data_concordance and combined_data datasets
-    combined_data_concordance_occupancy = combined_data_concordance[combined_data_concordance['measure']=='occupancy'].copy()
-    combined_data_concordance_occupancy['measure'] = 'mileage'
-    combined_data_concordance_occupancy['unit'] = 'km_per_year'
-    combined_data_concordance = pd.concat([combined_data_concordance, combined_data_concordance_occupancy])
-
-    combined_data_occupancy = combined_data[combined_data['measure']=='occupancy'].copy()
-    combined_data_occupancy['measure'] = 'mileage'
-    combined_data_occupancy['unit'] = 'km_per_year'
-    combined_data_occupancy['value'] = 1
-    combined_data = pd.concat([combined_data, combined_data_occupancy])
-
-    return combined_data_concordance, combined_data
-
-
 
 
 def create_config_yml_file(paths_dict):

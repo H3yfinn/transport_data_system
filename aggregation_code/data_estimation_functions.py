@@ -14,7 +14,7 @@ import logging
 import analysis_and_plotting_functions
 import utility_functions
 logger = logging.getLogger(__name__)
-
+plotting = True#change to false to stop plots from appearing
 #eg from
 #  Estimate Energy and passenger km using stocks:
 # vkm = mileage * stocks
@@ -36,8 +36,8 @@ def calculate_energy_and_passenger_km(stocks_mileage_occupancy_efficiency_combin
 
 
     #TODO REMOVE THIS WHEN WE HAVE REAL DATA
-    logger.info('\n\n\ndata=estimate_fake_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA\n\n\n\n')
-    data=estimate_fake_values(data)
+    logger.info('\n\n\ndata=TEMP_use_estimated_mileage_occupancy_eff_values(data) TODO REMOVE THIS WHEN WE HAVE REAL DATA\n\n\n\n')
+    data=TEMP_use_estimated_mileage_occupancy_eff_values(data)
     #TODO REMOVE THIS WHEN WE HAVE REAL DATA
 
 
@@ -66,18 +66,59 @@ def calculate_energy_and_passenger_km(stocks_mileage_occupancy_efficiency_combin
     #todo: add in the range options
     return data
 
-def estimate_fake_values(data):
+
+def TEMP_create_new_values(combined_data_concordance, combined_data):
+    #TEMPORARY: 
+    #copy the occupancy rows from both dataframes, cahnge their measure to 'mielage', unit to 'km_per_year' and value to 1. Then append them to the combined_data_concordance and combined_data datasets
+    combined_data_concordance_occupancy = combined_data_concordance[combined_data_concordance['measure']=='occupancy'].copy()
+    combined_data_concordance_occupancy['measure'] = 'mileage'
+    combined_data_concordance_occupancy['unit'] = 'km_per_year'
+    combined_data_concordance = pd.concat([combined_data_concordance, combined_data_concordance_occupancy])
+
+    combined_data_occupancy = combined_data[combined_data['measure']=='occupancy'].copy()
+    combined_data_occupancy['measure'] = 'mileage'
+    combined_data_occupancy['unit'] = 'km_per_year'
+    combined_data_occupancy['value'] = 1
+    combined_data = pd.concat([combined_data, combined_data_occupancy])
+
+    #now introduce some new values for mileage, occupancy and efficiency:
+    #first make it wide by measure
+    cols = combined_data.columns.tolist()
+    cols.remove('measure')
+    cols.remove('value')
+    combined_data_wide = combined_data.pivot(index =cols, columns = 'measure', values = 'value').reset_index()
+    combined_data = TEMP_use_estimated_mileage_occupancy_eff_values(combined_data_wide)
+    combined_data = combined_data.melt(id_vars = cols, var_name = 'measure', value_name = 'value')
+    return combined_data_concordance, combined_data
+
+
+def TEMP_use_estimated_mileage_occupancy_eff_values(data):
     #where we have na in mileage, occupancy or new_vehicle_efficiency we will replace it with some temporary values, based on means, which will probably be constant for every year. this is so that we can still calculate the other values to test this program.
 
-    mileage_replacement = TEMP_retrieve_estimated_fake_mileage()
-    occupancy_replacement = TEMP_retrieve_estimated_fake_occupancy()
-    efficiency_replacement = TEMP_retrieve_estimated_fake_efficiency()
-    #merge the new data into the data
+    mileage_replacement = TEMP_retrieve_estimated_mileage()
+    occupancy_replacement = TEMP_retrieve_estimated_occupancy()
+    efficiency_replacement = TEMP_retrieve_estimated_efficiency()
+    #concat the dataframes
+    replacement_data = pd.merge(mileage_replacement, occupancy_replacement, how = 'outer', on = ['economy','vehicle_type','drive'])
+    replacement_data = pd.merge(replacement_data, efficiency_replacement, how = 'outer', on = ['economy','vehicle_type','drive'])
 
-    #
-    data['mileage'] = data['mileage'].fillna(1)
-    data['occupancy'] = data['occupancy'].fillna(1)
-    data['new_vehicle_efficiency'] = data['new_vehicle_efficiency'].fillna(1)
+    #merge the new data into the data
+    data = pd.merge(data, replacement_data, how = 'left', on = ['economy','vehicle_type','drive'])
+    
+    #todo there are mielages being set to 1 but i dont know where. for now lets just set them to na and to be safe replace all 0's and 1s in mileage, occupancy and new_vehicle_efficiency with nans
+    data['mileage'] = data['mileage'].replace(0,np.nan)
+    data['mileage'] = data['mileage'].replace(1,np.nan)
+    data['occupancy'] = data['occupancy'].replace(0,np.nan)
+    data['occupancy'] = data['occupancy'].replace(1,np.nan)
+    data['new_vehicle_efficiency'] = data['new_vehicle_efficiency'].replace(0,np.nan)
+    data['new_vehicle_efficiency'] = data['new_vehicle_efficiency'].replace(1,np.nan)
+
+    #where we dont have data then fill with the replacement data
+    data['mileage'] = data['mileage'].fillna(data['mileage_replacement'])
+    data['occupancy'] = data['occupancy'].fillna(data['occupancy_replacement'])
+    data['new_vehicle_efficiency'] = data['new_vehicle_efficiency'].fillna(data['new_vehicle_efficiency_replacement'])
+    #drop the replacement cols
+    data = data.drop(columns = ['mileage_replacement','occupancy_replacement','new_vehicle_efficiency_replacement'])
     return data
 
 def TEMP_retrieve_estimated_mileage():
@@ -90,15 +131,13 @@ def TEMP_retrieve_estimated_mileage():
     #convert date to yyyy format
     mileage = data_formatting_functions.TEMP_FIX_ensure_date_col_is_year(mileage)
     #convert from billions to ones
-    mileage['mileage'] = mileage['value'] * 1000000000
+    mileage['mileage_replacement'] = mileage['value'] * 1000000000
     #filter for road passenger only
     mileage = mileage[mileage['transport_type'] == 'passenger']
     #roda
     mileage = mileage[mileage['medium'] == 'road']
     #keep only the cols we need: economy, mileage, vehicle_type, drive
-    mileage = mileage[['economy','mileage','vehicle_type','drive']]
-    #make measure = mileage
-    mileage['measure'] = 'mileage'
+    mileage = mileage[['economy','mileage_replacement','vehicle_type','drive']]
     #check for duplicates
     if mileage.duplicated().any():
         print('duplicates in mileage')
@@ -114,15 +153,13 @@ def TEMP_retrieve_estimated_efficiency():
     efficiency = utility_functions.convert_all_cols_to_snake_case(efficiency)
     #convert date to yyyy format
     efficiency = data_formatting_functions.TEMP_FIX_ensure_date_col_is_year(efficiency)
-    efficiency['efficiency'] = efficiency['value']
+    efficiency['new_vehicle_efficiency_replacement'] = efficiency['value']
     #filter for road passenger only
     efficiency = efficiency[efficiency['transport_type'] == 'passenger']
     #roda
     efficiency = efficiency[efficiency['medium'] == 'road']
     #keep only the cols we need: economy, efficiency, vehicle_type, drive
-    efficiency = efficiency[['economy','efficiency','vehicle_type','drive']]
-    #make measure = efficiency
-    efficiency['measure'] = 'efficiency'
+    efficiency = efficiency[['economy','new_vehicle_efficiency_replacement','vehicle_type','drive']]
     #check for duplicates
     if efficiency.duplicated().any():
         print('duplicates in efficiency')
@@ -141,15 +178,13 @@ def TEMP_retrieve_estimated_occupancy():
     occupancy = data_formatting_functions.TEMP_FIX_ensure_date_col_is_year(occupancy)
     #filter for occupancy only 
     occupancy = occupancy[occupancy['measure'] == 'occupancy']
-    occupancy['occupancy'] = occupancy['value']
+    occupancy['occupancy_replacement'] = occupancy['value']
     #filter for road passenger only
     occupancy = occupancy[occupancy['transport_type'] == 'passenger']
     #roda
     occupancy = occupancy[occupancy['medium'] == 'road']
     #keep only the cols we need: economy, occupancy, vehicle_type, drive
-    occupancy = occupancy[['economy','occupancy','vehicle_type','drive']]
-    #make measure = occupancy
-    occupancy['measure'] = 'occupancy'
+    occupancy = occupancy[['economy','occupancy_replacement','vehicle_type','drive']]
     #check for duplicates
     if occupancy.duplicated().any():
         print('duplicates in occupancy')
@@ -157,10 +192,8 @@ def TEMP_retrieve_estimated_occupancy():
     return occupancy
 
 
-
-
 #%%
-def estimate_road_freight_energy_use(unfiltered_combined_data,passenger_road_combined_data, set_negative_to_one = True):
+def estimate_road_freight_energy_use(unfiltered_combined_data,passenger_road_combined_data, set_negative_to_one = False):
     #load in the combined_data from paths_dict['combined_data']
     egeda_energy_road_selection_dict = {'measure': 
         ['energy'],
@@ -188,10 +221,16 @@ def estimate_road_freight_energy_use(unfiltered_combined_data,passenger_road_com
     passenger_road_combined_data = passenger_road_combined_data.rename(columns = {'value': 'calculated_passenger_road_energy_use'})
     egeda_energy_road_combined_data = egeda_energy_road_combined_data.merge(passenger_road_combined_data, on = ['economy','date'], how = 'outer')
 
-    analysis_and_plotting_functions.analyse_missing_energy_road_data(egeda_energy_road_combined_data)   
+    if plotting:#global variable in main() 
+        analysis_and_plotting_functions.analyse_missing_energy_road_data(egeda_energy_road_combined_data)   
 
-    #calcualte the remaining freight energy use as total_road_energy_use - calculated_passenger_road_energy_use
-    egeda_energy_road_combined_data['calculated_remaining_freight_energy_use'] = egeda_energy_road_combined_data['egeda_total_road_energy_use'] - egeda_energy_road_combined_data['calculated_passenger_road_energy_use']
+    scale = True
+    if scale:
+        #calcualte the remaining freight energy use as (calculated_passenger_road_energy_use/passenger) * freight
+        egeda_energy_road_combined_data['calculated_remaining_freight_energy_use'] = (egeda_energy_road_combined_data['calculated_passenger_road_energy_use']/egeda_energy_road_combined_data['passenger']) * egeda_energy_road_combined_data['freight']
+    else:
+        #calcualte the remaining freight energy use as total_road_energy_use - calculated_passenger_road_energy_use
+        egeda_energy_road_combined_data['calculated_remaining_freight_energy_use'] = egeda_energy_road_combined_data['egeda_total_road_energy_use'] - egeda_energy_road_combined_data['calculated_passenger_road_energy_use']
         
     #check if any values in calculated_remaining_freight_energy_use are negative, if so throw error
     if any(egeda_energy_road_combined_data['calculated_remaining_freight_energy_use'] < 0):
@@ -205,7 +244,9 @@ def estimate_road_freight_energy_use(unfiltered_combined_data,passenger_road_com
     egeda_energy_road_combined_data = egeda_energy_road_combined_data.rename(columns = {'freight': 'egeda_freight', 'passenger': 'egeda_passenger'})
     egeda_energy_road_combined_data = pd.melt(egeda_energy_road_combined_data, id_vars = ['economy','date'], var_name = 'type', value_name = 'value')
 
-    analysis_and_plotting_functions.graph_egeda_road_energy_use_vs_calculated(egeda_energy_road_combined_data)
+    if plotting:#global variable in main() 
+        analysis_and_plotting_functions.graph_egeda_road_energy_use_vs_calculated(egeda_energy_road_combined_data)
+
     do_prompt = False
     if do_prompt:
         prompt = 'Does the graph show that the calculated remaining road energy use matches the egeda energy use for freight? y/n'
@@ -401,7 +442,8 @@ def estimate_non_road_energy(unfiltered_combined_data,road_combined_data):
     ###########
     #analysis:   
     logger.info('\n\n\n\nCOMMITTING TO SCALED\n\n\n\n')
-    egeda_energy_combined_data_merged_tall = analysis_and_plotting_functions.plot_scaled_and_remainder(egeda_energy_combined_data_merged_tall)#NOTE THAT BY CHOOSING OPTION CHOSEN WE ARE FILTERING FOR THAT OPTION ONLY SO THE OUTPUT DATAFRAME WILL ONLY HAVE ONE OPTION
+    if plotting:#global variable in main() 
+        analysis_and_plotting_functions.plot_scaled_and_remainder(egeda_energy_combined_data_merged_tall)#NOTE THAT BY CHOOSING OPTION CHOSEN WE ARE FILTERING FOR THAT OPTION ONLY SO THE OUTPUT DATAFRAME WILL ONLY HAVE ONE OPTION
     ###########
     non_road_egeda_energy_combined_data = clean_up_finalised_non_road_energy_df(egeda_energy_combined_data_merged_tall)
 
@@ -428,7 +470,8 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
     cols.remove('passenger')
     non_road_energy = non_road_energy.melt(id_vars=cols, value_vars=['freight','passenger'], var_name='transport_type', value_name='value')
 
-    analysis_and_plotting_functions.plot_non_road_energy_use_by_transport_type(non_road_energy)
+    if plotting:#global variable in main() 
+        analysis_and_plotting_functions.plot_non_road_energy_use_by_transport_type(non_road_energy)
 
     return non_road_energy
 
@@ -536,6 +579,9 @@ def calcualte_intensity_from_previous_data(energy_activity_wide):
     del stats
     #melt back to long format
     intensity_average = intensity_average_wide.melt(id_vars=['date','economy'], var_name='medium$transport_type', value_name='intensity')
+    
+    if plotting:
+        analysis_and_plotting_functions.plot_intensity(intensity_average)
 
     #separate medium and transport type
     intensity_average['medium'] = intensity_average['medium$transport_type'].str.split('$').str[0]
@@ -600,10 +646,8 @@ def estimate_activity_non_passenger_road(non_road_energy,road_combined_data):
 
     activity = clean_activity(energy_activity)
 
-    plot=False
-    if plot:
-
-        analysis_and_plotting_functions.plot_activity(activity,previous_energy_activity_wide, calculated_road_passenger_km)#analysis_and_plotting_functions.
+    if plotting:#global variable in main()
+        analysis_and_plotting_functions.plot_activity(activity,calculated_road_passenger_km,previous_energy_activity_wide)
 
     #drop rows where measure = passenger_km and medium = road
     activity_non_passenger_road = activity.copy()

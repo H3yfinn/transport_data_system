@@ -15,6 +15,7 @@ import data_selection_functions
 import interpolation_functions
 import data_estimation_functions
 import logging
+import analysis_and_plotting_functions
 create_9th_model_dataset = True
 
 file_date = datetime.datetime.now().strftime("%Y%m%d")
@@ -35,8 +36,7 @@ INDEX_COLS = ['date',
 EARLIEST_DATE="2010-01-01"
 LATEST_DATE='2023-01-01'
 
-
-previous_FILE_DATE_ID ='DATE20230329'
+previous_FILE_DATE_ID =None#'DATE20230329'
 if previous_FILE_DATE_ID is not None:#you can set some of these to false if you want to do some of the steps manually
     load_data_creation_progress = True
     load_stocks_mileage_occupancy_efficiency_selection_progress = True
@@ -111,7 +111,7 @@ def main():
 
         stocks_mileage_occupancy_efficiency_combined_data_concordance = data_formatting_functions.filter_for_specifc_data(passsenger_road_measures_selection_dict, combined_data_concordance)
 
-        stocks_mileage_occupancy_efficiency_combined_data_concordance, stocks_mileage_occupancy_efficiency_combined_data = data_formatting_functions.TEMP_create_new_values(stocks_mileage_occupancy_efficiency_combined_data_concordance, stocks_mileage_occupancy_efficiency_combined_data)
+        stocks_mileage_occupancy_efficiency_combined_data_concordance, stocks_mileage_occupancy_efficiency_combined_data = data_estimation_functions.TEMP_create_new_values(stocks_mileage_occupancy_efficiency_combined_data_concordance, stocks_mileage_occupancy_efficiency_combined_data)
 
         stocks_mileage_occupancy_efficiency_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, stocks_mileage_occupancy_efficiency_combined_data_concordance, stocks_mileage_occupancy_efficiency_combined_data, paths_dict,datasets_to_always_use,default_user_input=1)
     else:
@@ -203,29 +203,27 @@ def main():
     passenger_road_combined_data_concordance.to_pickle(paths_dict['intermediate_folder']+'/passenger_road_combined_data_concordance_TEST.pkl')
         
     road_freight_energy_combined_data = data_estimation_functions.estimate_road_freight_energy_use(unfiltered_combined_data,passenger_road_combined_data)
-    # freight_activity_road_combined_data =data_estimation_functions.estimate_freight_activity(road_freight_energy_combined_data)
 
-    #combine all so we have one big road dataset:
-    road_combined_data = pd.concat([passenger_road_combined_data,road_freight_energy_combined_data],axis=0)#freight_activity_road_combined_data
+    #combine all
+    road_combined_data = pd.concat([passenger_road_combined_data,road_freight_energy_combined_data],axis=0)
 
     #save to pickle
     road_combined_data.to_pickle(paths_dict['intermediate_folder']+'/road_combined_data_TEST.pkl')
     #save to csv
     road_combined_data.to_csv(paths_dict['intermediate_folder']+'/road_combined_data_TEST.csv')
-    dothis = True
-    if dothis:
-        non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,road_combined_data)
-        non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data)
-        activity_non_passenger_road = data_estimation_functions.estimate_activity_non_passenger_road(non_road_energy,road_combined_data)
-        #concatenate all the data together
-        all_new_combined_data = pd.concat([non_road_energy,road_combined_data,activity_non_passenger_road],axis=0)
-        #save to pickle
-        all_new_combined_data.to_pickle(paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.pkl')
-        #save to csv
-        all_new_combined_data.to_csv(paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.csv')
 
+    non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,road_combined_data)
+    non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data)
+    activity_non_passenger_road = data_estimation_functions.estimate_activity_non_passenger_road(non_road_energy,road_combined_data)
+    #concatenate all the data together
+    all_new_combined_data = pd.concat([non_road_energy,road_combined_data,activity_non_passenger_road],axis=0)
+    #save to pickle
+    all_new_combined_data.to_pickle(paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.pkl')
+    #save to csv
+    all_new_combined_data.to_csv(paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.csv')
+
+    analysis_and_plotting_functions.plot_final_data_energy_activity(all_new_combined_data)
     #TODO INTERPOLATE AND MAYBE SELECT
-
 
 
 ################################################
