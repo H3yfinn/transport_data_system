@@ -15,24 +15,42 @@ conda activate ./env_jupyter
 
 Note that installing those libraries in the yml files will result in a few other dependencies also being installed.
 
-# To do
-The jupyter environment needs to be renamed to specify that it is for the transport data system. This is because it is not the same as the jupyter environment for the transport model and when running things using vs code it doesnt specify the root folder. Use this i think: conda rename ./env_jupyter ./data_system_env_jupyter
-
 ## About
 This system is intended for handling all data that is needed in the transport model and other APERC transport related systems/analysis.
 
-So the system will extract data from csv's/xlsx's/databases, groom the data so that it is all in the correct format and then concatenate everything into one large dataframe.
+The code is organised into folders based on the purpose of the code. The main folders are:
 
-The structure of the dataframe will be for these columns (but this might change as we add new cols):
+# Data:
 
-year | economy | transport_type | vehicle_type | drive | medium | measure | unit | fuel_type
----|---|----|----|----|----|----|----|----
-2017 | 01_AUS | freight | ht | bev | road | energy | PJ | coal
+ - input_data: where all the input data is stored
+ - output_data: where all the output data is stored
 
-There is the possibility that this may include a lot of different data sources, and then the grooming for those will inevitably be a bit messy/complicated so it could get out of hand over time. However the hope is that by then there will be a much more centralised repositry of transport data so the importing/grooming process will be a lot nicer.
+# Scripts:
 
-### Intention to integrate with iTEM database
-Eventually, if we can, it would be good to design the files so they can be used in iTEM's transport database for extracting data and putting it into the format they have in their database.
+ - grooming_code: extract data from csv's/xlsx's/databases, groom the data so that it is all in the correct format
+ - mixing_code: use the data extracted in grooming_code to create new data which can also be selected for. Sometimes uses outputs from other folders too.
+ - analysis_code: for analysing the data and creating visualisations. This needs a lot fo work and is not currently used.
+ - exploratory_code: for testing out new ideas and seeing if they work. This is not currently used.
+
+# Functions/modular code:
+
+ - aggregation_code: This is the folder which will sort through all the data and create the best dataset from it. The code is organised into different files based on the major prupose, such as 'data_selection_fucntions.py' which contains all the functions for selecting data from the dataset. It will also do it's own form of data_mixing to create new datapoints the user can choose to use. There will be a section below which explains the code here
+
+# Other folders:
+
+ - config: where all the config files are stored
+ - etc
+
+So generally the system will extract data from csv's/xlsx's/databases in groomign_code, groom the data so that it is all in the correct format in grooming_code, craete some extra data in data_mixiong code and then concatenate everything into one large dataframe in aggregation_code. Then aggregation code will also remove duplicate datapoints (eg. if you have two different values for bus stocks in one timeframe, it will need to choose the best one of those two) by choosing the best data via a very streamlined manual selection process. It will also calcualte some data based on input data (eg. if you have the number of vehicles, average km travelled by car and the average fuel efficiency, it can calculate the total fuel consumption). This is done in aggregation_code and is it's own form of the data_mixing folder. The final dataframe can then be analysed in analysis_code.
+
+The structure of the final dataframe will be for these columns (but this might change as we add new cols):
+
+year | economy | transport_type | vehicle_type | drive | medium | measure | unit | fuel_type | dataset | value | source | comments
+---|---|----|----|----|----|----|----|---- | ---- | ---- | ---- | ----
+2017 | 01_AUS | freight | ht | bev | road | energy | pj | electricity | ato | 0.1 | ato_country_estimates | this_is_a_comment
+
+## Intention to integrate with iTEM database
+Eventually, if we can, it would be good to design the files so they can be used in iTEM's transport database for extracting data and putting it into the format they have in their database. They might also be looking to integrate with the UN so we could watch that too.
 
 ## Data sources
 Please note that the following will be quite messy. It is a work in progress and will be updated as we go along.
@@ -45,7 +63,7 @@ The code to interact with this data goes through the excel file, extracts everyt
 Its been noted that the data is not always consistent and accurate, although this is not ATO's fault. some economys have supplied them data for certain categories where there should obviously be no data in that category. This is something that we will have to deal with eventually perhaps with the help of ATO because it is quite difficult for one person to go through all the data and make sure it is correct.
 
 # IEA data:
-None yet but intended we get something!
+EV data explorer is a great source of info.
 
 # APERC trasport model 8th edition:
 This data is what was used in the 8th edition of the APERC transport model. The major issue with this data is that it has no sources or methods. However it is complete so it can make a good starting point for testing out any analysis. The dataset includes data that was projected as part of the 8th edition. this projected data is from around 2019 onwards, but that isn't specified in the dataset anywhere.
@@ -56,7 +74,10 @@ From item's database which is hosted here https://zenodo.org/record/4121180
 
 # weird terminology in the work i do:
 Sometimes i probably use words like 'concordance' in the wrong contexts. Here are some examples in case it helps:
+
 Concordance table: used to describe a data table used to state certain rules within the data i'm using. for example it can be used to create a mapping between sets of categories (eg. drive types to fuel types) or to state what categories of data are allowed or are present in the data i'm using.
+
+INDEX_COLS: these are used for interacting with pandas indexing functions, which suit having a constant set of columns which are treated as the index. This is used in the aggregation code to make sure that the data is always in the same format and can be easily compared to other data.
 
 ## Github LFS (Large File Storage)
 So that someone who clones this repo can see the files I input into the system i have implemeented LFS. You may notice that some csv and xlsx files are only 1kb large. This is because they are pointers to the actual files which are stored in the LFS. This is because the files are too large to be stored in the repo. If you want to see the files you can download them from the LFS. To do this you need to install LFS and run the following command in the terminal:
@@ -74,6 +95,3 @@ This is done by using the commands:
 
 This means that as you add files to input_data and output_data push them to github remote, they will be replaced with pointers on the remote server, which point to the files which are stored in the LFS. If you were then to clone or pull from the github remote you will be pulling the pointers. To download the actual files from the LFS, just run the command which will transform the 1kb pointer files into their actual sized files:
 > git lfs pull
-
-# How to handle estimated data:
-After realising that most datasets were missing a lot of data i decided that estimated data using the other input data can be input into the data system and chosen next to the other data. But to do this it's especially impoortant to be transparent about the methods used to estimate the data. This is so that if someone else wants to use the data they can see how it was estimated and if they want to use it they can use the same methods. It's also important to design the estimations so that if the input data were to change the estiamtions wouldnt continue until the suer changed it. 

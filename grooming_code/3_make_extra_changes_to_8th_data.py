@@ -7,7 +7,7 @@ import os
 import re
 import datetime
 #set cwd to the root of the project
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 # file_date = datetime.datetime.now().strftime("%Y%m%d")
@@ -71,7 +71,9 @@ eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition
 eigth_edition_transport_data = pd.concat([eigth_edition_transport_data, temp])
 ##########################################################################
 #%%
-
+#%%
+#where nonspecified is equal to 0 just remove it
+eigth_edition_transport_data = eigth_edition_transport_data.loc[~((eigth_edition_transport_data['Vehicle Type'] == 'nonspecified') & (eigth_edition_transport_data['Value'] == 0)),:]
 ############################################################
 #calcaulte ldv data now instead of in the data_mixing_code folder. 
 ############################################################
@@ -334,8 +336,11 @@ eigth_edition_transport_data['Date'] = eigth_edition_transport_data['Date'].asty
 #drop turmover rrate and New_vehicle_efficiency from new_eigth_edition_transport_data Measuree col
 new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_edition_transport_data['Measure']!='Turnover_rate']
 new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_edition_transport_data['Measure']!='New_vehicle_efficiency']
+
+new_eigth_edition_transport_data = new_eigth_edition_transport_data.loc[~((new_eigth_edition_transport_data['Vehicle Type'] == 'nonspecified') & (new_eigth_edition_transport_data['Value'] == 0)),:]
 #%%
-#
+new_eigth_edition_transport_data['fuel'] = 'all'
+new_eigth_edition_transport_data['scope'] = 'national'
 #save data to same file
 new_eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID), index = False)
 eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/non_filtered_eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID), index = False)

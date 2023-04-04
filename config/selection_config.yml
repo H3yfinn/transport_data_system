@@ -23,52 +23,52 @@ datasets:
     script: TBA
     included: True
     type: transport
-  EGEDA_merged:
-    file_path: intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv
+  EGEDA_split_into_transport_types:
+    file_path: intermediate_data/estimated/EGEDA_split_into_transport_typesFILE_DATE_ID.csv
     folder: intermediate_data/estimated/
-    script: TBA
+    script: split_egeda_into_transport_types.py
     included: True
     type: transport
   _8th_ATO_bus_update.csv:
     file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv
     folder: intermediate_data/estimated/
     script: TBA
-    included: True
+    included: False #removed because not unique enough
     type: transport
   _8th_ATO_passenger_road_updates.csv:
     file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv
     folder: intermediate_data/estimated/
     script: TBA
-    included: True
+    included: False #removed because not unique enough
     type: transport
   _8th_ATO_road_freight_tonne_km.csv:
     file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv
     folder: intermediate_data/estimated/
     script: TBA
-    included: True
+    included: False #removed because not unique enough
     type: transport
   _8th_ATO_vehicle_type_update.csv:
     file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv
     folder: intermediate_data/estimated/
     script: TBA
-    included: True
+    included: False #removed because not unique enough
     type: transport
   _8th_iea_ev_all_stock_updates.csv:
     file_path: intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv
     folder: intermediate_data/estimated/
     script: TBA
-    included: True
+    included: False #removed because not unique enough
     type: transport
   _evs.csv:
     file_path: intermediate_data/IEA/FILE_DATE_ID_evs.csv
     folder: intermediate_data/IEA/
-    script: TBA
+    script: 1_clean_iea_ev_data.py 
     included: True
     type: transport
   _iea_fuel_economy.csv:
     file_path: intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv
     folder: intermediate_data/IEA/
-    script: TBA
+    script: 1_clean_iea_fuel_economy.py
     included: True
     type: transport
   _turnover_rate_3pct:
@@ -86,19 +86,19 @@ datasets:
   eigth_edition_transport_data_final_:
     file_path: intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_FILE_DATE_ID.csv
     folder: intermediate_data/8th_edition_transport_model/
-    script: TBA
+    script: 3_make_extra_changes_to_8th_data.py
     included: True
     type: transport
   item_dataset_clean_:
     file_path: intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv
     folder: intermediate_data/item_data/
-    script: TBA
+    script: 1_clean_item_data.py
     included: True
     type: transport
   missing_drive_values_:
     file_path: intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv
     folder: intermediate_data/estimated/filled_missing_values/
-    script: TBA
+    script: fill_missing_drive_values.py
     included: True
     type: transport
   nearest_available_date:
@@ -107,15 +107,9 @@ datasets:
     script: TBA
     included: False
     type: transport
-  new_vehicle_efficiency_estimates_:
-    file_path: intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv
+  mileage_occupancy_load_efficiency_data_:
+    file_path: intermediate_data/estimated/mileage_occupancy_load_efficiency_data_FILE_DATE_ID.csv
     folder: intermediate_data/estimated/
-    script: TBA
-    included: True
-    type: transport
-  occ_load_guesses:
-    file_path: intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv
-    folder: intermediate_data/estimated/
-    script: TBA
+    script: aggregate_best_estimate_efficiency_occupancy_load_mileage.py
     included: True
     type: transport

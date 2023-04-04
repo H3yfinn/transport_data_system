@@ -258,6 +258,8 @@ item_data_apec_tall = item_data_apec_tall[item_data_apec_tall['Value'].notna()]
 item_data_apec_tall['Date'] = item_data_apec_tall['Year'].astype(str) + '-12-31'
 #make frequency column and set to yearly
 item_data_apec_tall['Frequency'] = 'Yearly'
+item_data_apec_tall['Fuel'] = 'all'
+item_data_apec_tall['Scope'] = 'national'
 #remove Year column
 item_data_apec_tall = item_data_apec_tall.drop(columns=['Year'])
 #%%

@@ -10,7 +10,7 @@
 *.png
 *.jpg
 *.html
-
+*.log
 #anything in archive folders doesnt nee to be tracked
 **/archive
 #anything in the intermediate_data folder doesnt need to be tracked

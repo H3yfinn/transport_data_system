@@ -105,7 +105,7 @@ EGEDA_merged['passenger'] = EGEDA_merged['Value']*EGEDA_merged['passenger_to_fre
 EGEDA_merged['freight'] = EGEDA_merged['Value']-EGEDA_merged['passenger']
 #%%
 #create dataset and source columns as Energy_non_road, EGEDA/8th_ref 
-EGEDA_merged['Dataset'] = 'Energy_non_road_est'
+EGEDA_merged['Dataset'] = 'EGEDA_split_into_transport_types'
 EGEDA_merged['Source'] = 'EGEDA/8th_ref'
 
 #freq = annual
@@ -126,7 +126,8 @@ EGEDA_merged_clean.reset_index(inplace=True, drop=True)
 EGEDA_merged_clean['Measure'] = 'Energy'
 
 EGEDA_merged_clean['Unit'] = 'PJ'
-
+EGEDA_merged_clean['Fuel'] = 'all'
+EGEDA_merged_clean['Scope'] = 'national'
 #%%
 #where vehicle type is na and the medium is road then set it to all, and same for drive
 EGEDA_merged_clean.loc[(EGEDA_merged_clean['Medium']=='road') & (EGEDA_merged_clean['Vehicle Type'].isna()), 'Vehicle Type'] = 'All'
@@ -134,7 +135,7 @@ EGEDA_merged_clean.loc[(EGEDA_merged_clean['Medium']=='road') & (EGEDA_merged_cl
 
 #%%
 #save
-EGEDA_merged_clean.to_csv('./intermediate_data/estimated/EGEDA_merged{}.csv'.format(FILE_DATE_ID), index=False)
+EGEDA_merged_clean.to_csv('./intermediate_data/estimated/EGEDA_split_into_transport_types{}.csv'.format(FILE_DATE_ID), index=False)
 #%%
 analyse = False
 if analyse:

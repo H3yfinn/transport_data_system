@@ -37,6 +37,7 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
     del combined_data_concordance
     del combined_data
 
+    rows_to_ignore = []# pd.read_pickle(paths_dict['rows_to_ignore_pkl'])
     ########SELECTION BEGINS########
     # iterate through every group
     for group_concordance_name_file, group_data_name_file in zip(groups_concordance_names_files, groups_data_names_files):
@@ -124,7 +125,7 @@ def open_plotly_group_dashboard(group_data_name_file, group_data, paths_dict):
     group_name = group_data_name_file.split('/')[-1].split('.')[0]
     fig_dash.update_layout(title_text=group_name)
     #save the figure as temp html file and open it in the user's default browser
-    fig_dash.write_html(paths_dict['selection_dashboard'] , auto_open=True)
+    fig_dash.write_html(paths_dict['plotting_paths']['selection_dashboard'] + '/{}.png'.format(paths_dict['FILE_DATE_ID']), auto_open=True)
     return
 
 def check_for_multiple_datapoints(current_index_row_no_year):
@@ -315,13 +316,12 @@ def create_user_choice_dict(unique_datasets):
 
     """create options for the user to choose by looping through the options list and the dataset list"""
 
-    options = ['Keep the dataset "{}" for all years that the chosen dataset is available', 'Keep the dataset "{}" for all consecutive years that the same combination of datasets is available','Keep the dataset "{}" only for that year', 'Delete the value for dataset "{}" for this year']
+    options = ['Keep the dataset "{}" for all years that the chosen dataset is available', 'Keep the dataset "{}" for all consecutive years that the same combination of datasets is available','Keep the dataset "{}" only for that year']
     #create an options dictwith keys rather than indexes to return the correct option. This will allow us to include more info in the options dict as well.
     options_dict = dict()
     options_dict['Keep_for_all_years'] = options[0]
     options_dict['Keep_for_all_consecutive_years'] = options[1]
     options_dict['Keep_for_this_year'] = options[2]
-    options_dict['Delete'] = options[3]
 
     ###############################################################
 
@@ -368,7 +368,8 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
         if year in years_to_ignore:
             year_index_i += 1
             continue
-        
+
+
         #filter for only the current year 
         data_to_select_from_for_this_year = data_to_select_from[data_to_select_from.date == year]
 
@@ -394,8 +395,9 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
                 #if not already, open time series plot for this unique combination
                 #open the timeseries png in separate window
                 if timeseries_png is None:
-                    timeseries_png = Image.open(paths_dict['selection_timeseries'])
-                    timeseries_png.show()
+                    timeseries_png = Image.open(os.path.join(paths_dict['plotting_paths']['selection_timeseries'], paths_dict['FILE_DATE_ID'] + '.png'))
+                    # timeseries_png.show()
+                    timeseries_png#think this will allow it to open in linux
                     
                 user_input = ask_and_parse_user_input(year, choice_dict)
                 
@@ -469,11 +471,6 @@ def apply_user_input_to_data(user_input, choice_dict, group_concordance, data_to
         #'Keep the dataset "{}" only for that year']
         data_to_change = user_input_keep_for_this_year(selected_dataset, data_to_select_from, data_to_select_from_for_this_year, paths_dict)
         group_concordance,years_to_ignore = apply_selection_to_concordance(data_to_change, selected_dataset, group_concordance, paths_dict,years_to_ignore)
-
-    # elif option_key == 'Delete':
-    #     #set dataset_selection_method to 'Delete' in ?combined dsata ?#TODO
-    #     user_input_remove_value_from_selections_permanently(selected_dataset, data_to_select_from, data_to_select_from_for_this_year, INDEX_COLS)
-    #     pass
     else:
         logging.error("ERROR: option_key not found, please check the code")
         sys.exit()
@@ -595,7 +592,7 @@ def plot_timeseries(data_to_select_from, paths_dict,index_row_no_year, highlight
         #make the graph fig a bit bigger 
         fig.set_size_inches(10, 10)
         
-        fig.savefig(paths_dict['selection_timeseries'])
+        fig.savefig(paths_dict['plotting_paths']['selection_timeseries'] + '/{}.png'.format(paths_dict['FILE_DATE_ID']))
         plt.close()#although we arent opening any plots, it seems we need to close them, at least when using jupytyer interactive
         
 

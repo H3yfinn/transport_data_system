@@ -97,11 +97,17 @@ def make_quick_fixes_to_datasets(combined_data):
     combined_data.loc[combined_data['medium'].str.lower() != 'road', 'vehicle_type'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
     combined_data.loc[combined_data['medium'].str.lower() != 'road', 'drive'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
 
-    #convert all values in all columns to snakecase, except economy and value
-    combined_data = utility_functions.convert_all_cols_to_snake_case(combined_data)
-
     #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
     combined_data = combined_data[combined_data['source'] != 'carbon_neutrality']
+
+    #where we have measures = either occupancy or load then name them to occupancy_or_load. We know that the transport type will inidcate if it is occupancy or load.
+    combined_data.loc[combined_data['measure'].str.lower().isin(['occupancy', 'load']), 'measure'] = 'occupancy_or_load'
+    #and set unit to passengers_or_tonnes
+    combined_data.loc[combined_data['measure'].isin(['occupancy_or_load']), 'unit'] = 'passengers_or_tonnes'
+    
+    #do same for freight tonne km and pasenger km
+    combined_data.loc[combined_data['measure'].str.lower().isin(['freight_tonne_km', 'passenger_km']), 'measure'] = 'activity'
+    combined_data.loc[combined_data['measure'].isin(['activity']), 'unit'] = 'passenger_km_or_freight_tonne_km'
 
     return combined_data
 
@@ -149,23 +155,42 @@ def replace_bad_col_names(col):
         col = 'fuel'  
     if col == 'comments':
         col = 'comment'
+    if col == 'units':
+        col = 'unit'
     return col
 
-def combine_datasets(datasets, FILE_DATE_ID, paths_dict):
 
+def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
+    if dataset_frequency != 'yearly':
+        raise Exception('The frequency for this dataset is not annual. This library is not ready for anything other than annual data, yet.')
     #loop through each dataset and load it into a dataframe, then concatenate the dataframes together
     combined_data = pd.DataFrame()
+    logging.info('\nCombining datasets:\n')
     for dataset in datasets:
-        # #get the latest date for the dataset
-        # file_date = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
-        # #create the file date id
-        # FILE_DATE_ID = 'date{}'.format(file_date)
-        # #load the dataset into a dataframe
-        new_dataset = pd.read_csv(dataset[2])#.format(FILE_DATE_ID)
+        new_dataset = pd.read_csv(dataset[2])
+
         #convert cols to snake case
         new_dataset.columns = [replace_bad_col_names(col) for col in new_dataset.columns]
+        
+        #check that all the cols in index cols are in the dataset
+        for col in paths_dict['INDEX_COLS']:
+            if col not in new_dataset.columns:
+                raise Exception('The column {} is not in the dataset {}'.format(col, dataset[1]))
+            
+        #convert all values in all columns to snakecase, except economy date and value
+        new_dataset = utility_functions.convert_all_cols_to_snake_case(new_dataset)
+
+        #filter for dataset freuqncy in frequency column
+        new_dataset = new_dataset[new_dataset['frequency'] == dataset_frequency]
+        if len(new_dataset) == 0:
+            logging.info('No data for this dataset {} in this frequency {}. Skipping...'.format(dataset[1], dataset_frequency))
+            continue
+
+        new_dataset = utility_functions.ensure_date_col_is_year(new_dataset)
+
         #concatenate the dataset to the combined data
         combined_data = pd.concat([combined_data, new_dataset], ignore_index=True)
+
     combined_data = make_quick_fixes_to_datasets(combined_data)
 
     check_dataset_for_issues(combined_data, paths_dict['INDEX_COLS'],paths_dict)
@@ -183,31 +208,8 @@ def combine_datasets(datasets, FILE_DATE_ID, paths_dict):
 
     #save data to pickle file in intermediate data. If we want to use this fot other reasons we can alwasys load it from here
     combined_data.to_pickle(paths_dict['unselected_combined_data'])
-
+    logging.info('\nFinished combining datasets:\n')
     return combined_data
-
-def determine_date_format(df):
-    #identify if date is in yyyy or yyyy-mm-dd format
-    if len(str(df['date'].max())) == 4:
-        return 'yyyy'
-    elif len(str(df['date'].max())) == 10:
-        return 'yyyy-mm-dd'
-    else:
-        raise Exception('Date format not recognised')
-def TEMP_FIX_ensure_date_col_is_year(df):
-
-    #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
-    #frist check the date format is yyyy-mm-dd or yyyy
-    date_format = determine_date_format(df)
-    if date_format == 'yyyy':
-        #if the date is just yyyy then we just need to make sure it is an int
-        df.date = df.date.astype(int)
-    else:
-        #first makje date a object
-        df.date = df.date.astype(str)
-        #then slice the string to get the year
-        df.date = df.date.apply(lambda x: x[:4]).astype(int)
-    return df
 
 def create_concordance_from_combined_data(combined_data, frequency = 'yearly'):
     
@@ -227,7 +229,7 @@ def create_concordance_from_combined_data(combined_data, frequency = 'yearly'):
     MAX = yearly['date'].max()
     MIN = yearly['date'].min()
         
-    date_format = determine_date_format(yearly)
+    date_format = utility_functions.determine_date_format(yearly)
     #using datetime creates a range of dates, separated by year with the first year being the MIN and the last year being the MAX
     if frequency == 'yearly':
         if date_format == 'yyyy':
@@ -264,17 +266,57 @@ def create_concordance_from_combined_data(combined_data, frequency = 'yearly'):
 def ensure_column_types_are_correct(df): 
     #we know that the date columns can either be yyyy or yyyy-mm-dd. if they are yyyy then make sure they are ints and then if they are yyyy-mm-dd then make sure they are datetimes.
     if 'date' in df.columns:
-        date_format = determine_date_format(df)
-        if date_format == 'yyyy-mm-dd':
-            df['date'] = pd.to_datetime(df['date'])
-        else:
-            df['date'] = df['date'].astype(int)
+        utility_functions.ensure_date_col_is_year(df)
     #and if value is in the columns then make sure it is a float
     if 'value' in df.columns:
         df['value'] = df['value'].astype(float)
     return df
 
-def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict):
+def TEMP_add_mileage_to_concordance(model_concordances_measures):
+    #we will copy the occupancy rows and then change the measure to mileage
+    occupancy_rows = model_concordances_measures[model_concordances_measures['measure'] == 'occupancy_or_load']
+    occupancy_rows['measure'] = 'mileage'
+    occupancy_rows['unit'] = 'km_per_stock'
+    model_concordances_measures = pd.concat([model_concordances_measures, occupancy_rows], ignore_index=True)
+    return model_concordances_measures
+
+def TEMP_add_drive_all_to_concordance(model_concordances_measures):
+    logging.info("TEMP: adding drive_all to concordance for all road measures")
+    #we will copy the rows where medium is road and then change the drive to all. Then drop duplicates. 
+    drive_all_rows = model_concordances_measures[(model_concordances_measures['medium'] == 'road')]
+    drive_all_rows['drive'] = 'all'
+    # #remove the rows from the model_concordances_measures df
+    # model_concordances_measures = model_concordances_measures[~model_concordances_measures.medium.isin(['road'])]
+    model_concordances_measures = pd.concat([model_concordances_measures, drive_all_rows], ignore_index=True)
+    model_concordances_measures = model_concordances_measures.drop_duplicates()
+    return model_concordances_measures
+
+def TEMP_convert_occupancy_and_load_to_occupancy_or_load(df):
+    #take in the data for occupan and laod and combine them into one measure
+    occ_load = df[df['measure'].isin(['occupancy', 'load'])]
+    occ_load['measure'] = 'occupancy_or_load'
+    #repalce unit with passengers_or_tonnes
+    occ_load['unit'] = 'passengers_or_tonnes'
+    df = pd.concat([df, occ_load], ignore_index=True)
+    return df
+
+def TEMP_convert_freight_passenger_activity_to_activity(df):
+    #take in passenger_km and freight_tonne_km and rename to activity then set unit to passenger_km_or_freight_tonne_km
+    freight_passenger_activity = df[df['measure'].isin(['passenger_km', 'freight_tonne_km'])]
+    freight_passenger_activity['measure'] = 'activity'
+    #repalce unit with passengers_or_tonnes
+    freight_passenger_activity['unit'] = 'passenger_km_or_freight_tonne_km'
+    # #remove the rows from the df df
+    # df = df[~df.measure.isin(['passenger_km', 'freight_tonne_km'])]
+    df = pd.concat([df, freight_passenger_activity], ignore_index=True)
+    return df
+
+def TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures):
+    #remove freight_ldvs from the concordance
+    model_concordances_measures = model_concordances_measures.loc[~((model_concordances_measures.vehicle_type == 'ldv') & (model_concordances_measures.transport_type=='freight'))]
+    return model_concordances_measures
+
+def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict,include_drive_all):
 
     ############################################################
 
@@ -287,22 +329,31 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     #convert all values in cols to snake case
     model_concordances_measures = utility_functions.convert_all_cols_to_snake_case(model_concordances_measures)
 
+    model_concordances_measures = utility_functions.ensure_date_col_is_year(model_concordances_measures)
+
+    #TEMP. add more to the concordance. hjowever it is important to not remove anything from the concordance yet as we'll be creating the intended data later from pieces within (eg. adding up all drive types to all)
+    logging.info("TEMP: adding mileage to concordance")
+    model_concordances_measures = TEMP_convert_occupancy_and_load_to_occupancy_or_load(model_concordances_measures)
+
+    model_concordances_measures = TEMP_add_mileage_to_concordance(model_concordances_measures)
+
+    model_concordances_measures = TEMP_convert_freight_passenger_activity_to_activity(model_concordances_measures)
+
+    model_concordances_measures = TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures)
+
+    if include_drive_all:
+        model_concordances_measures = TEMP_add_drive_all_to_concordance(model_concordances_measures)
+    #TEMP
+
     #Make sure that the model condordance has all the years in the input date range
+    model_concordances_measures_dummy = model_concordances_measures.copy()
     original_years = model_concordances_measures['date'].unique()
     for year in range(paths_dict['EARLIEST_YEAR'],paths_dict['LATEST_YEAR']):
         if year not in original_years:
-            temp = model_concordances_measures.copy()
-            temp['date'] = year
-            model_concordances_measures = pd.concat([model_concordances_measures,temp])
+            model_concordances_measures_dummy2 = model_concordances_measures_dummy.copy()
+            model_concordances_measures_dummy2['date'] = year
+            model_concordances_measures = pd.concat([model_concordances_measures,model_concordances_measures_dummy2])
 
-    #depending on format of date, make sure it is in the correct format
-    date_format = determine_date_format(model_concordances_measures)
-    if date_format == 'yyyy':
-        model_concordances_measures['date'] = model_concordances_measures['date'].astype(int)
-    else:
-        #convert date to yyyy
-        model_concordances_measures = TEMP_FIX_ensure_date_col_is_year(model_concordances_measures)
-        
     # #set date #TEMP FIX TODO WE ARE CURRENTLY ASSUMING THAT THE DATE IS ALWAYS yyyy BUT THE CODE HAS BEEN MADE FLEXIBLE ENOUGH TO HANDLE yyyy-mm-dd
     # model_concordances_measures['date'] = model_concordances_measures['date'].astype(str) + '-12-31'
 
@@ -325,7 +376,6 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv. There are {} missing rows'.format(len(missing_rows)))
     missing_rows_df.to_csv(paths_dict['missing_rows'])
     filtered_combined_data.reset_index(inplace=True)
-
     ############################################################
 
     #CREATE ANOTHER DATAFRAME AND REMOVE THE 0'S, TO SEE WHAT IS MISSING IF WE DO THAT
@@ -421,7 +471,7 @@ def filter_for_specifc_data(selection_dict, df):
 
 def create_config_yml_file(paths_dict):
         
-    datasets = [('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_final_', 'intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_bus_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv'), ('intermediate_data/estimated/', '_8th_ATO_road_freight_tonne_km.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv'), ('intermediate_data/estimated/', '_8th_iea_ev_all_stock_updates.csv', 'intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv'), ('intermediate_data/ATO/', 'ATO_data_cleaned_', 'intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv'), ('intermediate_data/item_data/', 'item_dataset_clean_', 'intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_turnover_rate_3pct', 'intermediate_data/estimated/FILE_DATE_ID_turnover_rate_3pct.csv'),  ('intermediate_data/estimated/', 'EGEDA_merged', 'intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'ATO_revenue_pkm', 'intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'nearest_available_date', 'intermediate_data/estimated/nearest_available_dateFILE_DATE_ID.csv'), ('intermediate_data/IEA/', '_iea_fuel_economy.csv', 'intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv'), ('intermediate_data/IEA/', '_evs.csv', 'intermediate_data/IEA/FILE_DATE_ID_evs.csv'), ('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_', 'intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'occ_load_guesses', 'intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'new_vehicle_efficiency_estimates_', 'intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv'), ('intermediate_data/Macro/', 'all_macro_data_', 'intermediate_data/Macro/all_macro_data_FILE_DATE_ID.csv')]
+    datasets = [('intermediate_data/8th_edition_transport_typel/', 'eigth_edition_transport_data_final_', 'intermediate_data/8th_edition_transport_typel/eigth_edition_transport_data_final_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_bus_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv'), ('intermediate_data/estimated/', '_8th_ATO_road_freight_tonne_km.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv'), ('intermediate_data/estimated/', '_8th_iea_ev_all_stock_updates.csv', 'intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv'), ('intermediate_data/ATO/', 'ATO_data_cleaned_', 'intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv'), ('intermediate_data/item_data/', 'item_dataset_clean_', 'intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_turnover_rate_3pct', 'intermediate_data/estimated/FILE_DATE_ID_turnover_rate_3pct.csv'),  ('intermediate_data/estimated/', 'EGEDA_merged', 'intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'ATO_revenue_pkm', 'intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'nearest_available_date', 'intermediate_data/estimated/nearest_available_dateFILE_DATE_ID.csv'), ('intermediate_data/IEA/', '_iea_fuel_economy.csv', 'intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv'), ('intermediate_data/IEA/', '_evs.csv', 'intermediate_data/IEA/FILE_DATE_ID_evs.csv'), ('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_', 'intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'occ_load_guesses', 'intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'new_vehicle_efficiency_estimates_', 'intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv'), ('intermediate_data/Macro/', 'all_macro_data_', 'intermediate_data/Macro/all_macro_data_FILE_DATE_ID.csv')]
 
 
     #saVE THESE TO config.YML 

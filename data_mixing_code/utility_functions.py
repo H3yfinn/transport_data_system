@@ -9,10 +9,10 @@ import numpy as np
 import pandas as pd
 import shutil
 #set cwd to the root of the project
-# os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+# os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 logger = logging.getLogger(__name__)
 #%%
-def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,save_plotting_backups=True):
+def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None):
     paths_dict = dict()
     paths_dict['log_file_path'] = 'logs/{}.log'.format(FILE_DATE_ID)
     #PERHAPS COULD GET ALL THIS STUFF FROM CONFIG.YML?
@@ -55,35 +55,32 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     paths_dict['INDEX_COLS_no_scope_no_fuel'] = INDEX_COLS_no_scope_no_fuel
     paths_dict['FILE_DATE_ID'] = FILE_DATE_ID
 
-    paths_dict['measure_to_units_dict'] = {'vehicle_km': 'km', 'activity': 'passenger_km_or_freight_tonne_km', 'energy': 'pj', 'mileage': 'km_per_stock', 'stocks': 'stocks', 'occupancy_or_load': 'passengers_or_tonnes', 'new_vehicle_efficiency': 'pj_per_km'}
-
-    paths_dict['rows_to_ignore_pkl'] = os.path.join('./config/rows_to_ignore.pkl')
-    # #get egeda data for calcualting enegry totals for non road passsenger
-    # egeda_date_id = get_latest_date_for_data_file(data_folder_path='./intermediate_data/estimated/', file_name='EGEDA_merged')
-    # paths_dict['egeda_data_file'] = './intermediate_data/estimated/EGEDA_merged{}.csv'.format(egeda_date_id)
-
     #initial dfs:
     paths_dict['unfiltered_combined_data'] = os.path.join(paths_dict['intermediate_folder'], f'unfiltered_combined_data.pkl')
     paths_dict['combined_data'] = os.path.join(paths_dict['intermediate_folder'], f'combined_data.pkl')
     paths_dict['combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'], f'combined_data_concordance.pkl')
 
-    #stocks_mileage_occupancy_load_efficiency dfs:
+    #stocks_mileage_occupancy_efficiency dfs:
     #selection:
-    paths_dict['stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+    paths_dict['stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
     #interp:
-    paths_dict['interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+    paths_dict['interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
     
-    #energy_activitydfs:
+    #energy_passenger_km dfs:
     #preparation/calcualtion:
-    paths_dict['calculated_activity_energy_combined_data'] = os.path.join(paths_dict['intermediate_folder'],'calculated_activity_energy_combined_data.pkl')
+    paths_dict['calculated_passenger_energy_combined_data'] = os.path.join(paths_dict['intermediate_folder'],'calculated_passenger_energy_combined_data.pkl')
     #selection:
-    paths_dict['energy_activity_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'energy_activity_combined_data_concordance.pkl')
+    paths_dict['energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'energy_passenger_km_combined_data_concordance.pkl')
     #interpolation:
-    paths_dict['interpolated_energy_activity_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_energy_activity_combined_data_concordance.pkl')
+    paths_dict['interpolated_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_energy_passenger_km_combined_data_concordance.pkl')
 
     #final all data dfs:
 
     ####
+    #set up plotting paths dict:
+    paths_dict['interpolation_timeseries'] = './plotting_output/data_selection/interpolation/{}.png'.format(paths_dict['FILE_DATE_ID'])
+    paths_dict['selection_dashboard'] = './plotting_output/data_selection/dashboards/{}.png'.format(paths_dict['FILE_DATE_ID'])
+    paths_dict['selection_timeseries'] = './plotting_output/data_selection/timeseries/{}.png'.format(paths_dict['FILE_DATE_ID'])
 
     #infrequenty used data formatting paths
     paths_dict['erroneus_duplicates'] =  os.path.join(paths_dict['intermediate_folder'],'erroneus_duplicates.csv')
@@ -104,82 +101,22 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
         paths_dict['previous_unfiltered_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'unfiltered_combined_data.pkl')
         paths_dict['previous_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data.pkl')
         paths_dict['previous_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data_concordance.pkl')
-        #stocks_mileage_occupancy_load_efficiency
+        #stocks_mileage_occupancy_efficiency
         #selection
-        paths_dict['previous_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+        paths_dict['previous_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
         #interpolation
-        paths_dict['previous_interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+        paths_dict['previous_interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance.pkl')
 
-        #energy_activity dfs:
+        #energy_passenger_km dfs:
         #preparation/calcualtion:
 
         #selection:
-        paths_dict['previous_energy_activity_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'energy_activity_combined_data_concordance.pkl')
+        paths_dict['previous_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'energy_passenger_km_combined_data_concordance.pkl')
         #interpolation:
-        paths_dict['previous_interpolated_energy_activity_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_energy_activity_combined_data_concordance.pkl')
+        paths_dict['previous_interpolated_energy_passenger_km_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_energy_passenger_km_combined_data_concordance.pkl')
 
         paths_dict['previous_selection_progress_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'selection_progress.pkl')
-
-    paths_dict = add_plot_paths_to_paths_dict(paths_dict, save_plotting_backups)
-
     return paths_dict
-
-
-
-def add_plot_paths_to_paths_dict(paths_dict, save_plotting_backups):
-    #add all the paths used for plotting to the paths dict
-    paths_dict['plotting_dir'] = 'plotting_output/data_selection/{}'.format(paths_dict['FILE_DATE_ID'])
-
-    if not os.path.exists(paths_dict['plotting_dir']):
-        os.makedirs(paths_dict['plotting_dir'])
-    elif save_plotting_backups:
-        #make copy of all data to a folder with the current time so they can be recovered if needed.
-        backup_dir = os.path.join(paths_dict['plotting_dir'], 'backup_'+datetime.datetime.now().strftime("%H_%M_%S"))  
-        os.makedirs(backup_dir)
-        for file in os.listdir(paths_dict['plotting_dir']):
-            #if folder then ignore
-            if os.path.isdir(os.path.join(paths_dict['plotting_dir'], file)):
-                continue
-            shutil.copy(os.path.join(paths_dict['plotting_dir'], file), backup_dir)
-    else:
-        #delete all files in the folder
-        for file in os.listdir(paths_dict['plotting_dir']):
-            #if folder then ignore
-            if os.path.isdir(os.path.join(paths_dict['plotting_dir'], file)):
-                continue
-            os.remove(os.path.join(paths_dict['plotting_dir'], file))
-    
-    #add paths for the plots. we will just use the name of the function which creates the plots.
-    paths_dict['plotting_paths'] = {}
-    paths_dict['plotting_paths']['plot_new_and_old_road_measures'] = os.path.join(paths_dict['plotting_dir'], 'plot_new_and_old_road_measures')
-    paths_dict['plotting_paths']['plot_egeda_comparison'] = os.path.join(paths_dict['plotting_dir'], 'plot_egeda_comparison')
-    paths_dict['plotting_paths']['plot_egeda_comparison_medium_proportions'] = os.path.join(paths_dict['plotting_dir'], 'plot_egeda_comparison_medium_proportions')
-    paths_dict['plotting_paths']['plot_egeda_comparison_total_energy_use'] = os.path.join(paths_dict['plotting_dir'], 'plot_egeda_comparison_total_energy_use')
-    paths_dict['plotting_paths']['plot_egeda_comparison_total_energy_use_diff'] = os.path.join(paths_dict['plotting_dir'], 'plot_egeda_comparison_total_energy_use_diff')
-    paths_dict['plotting_paths']['plot_egeda_comparison_total_energy_use_diff_medium_proportions'] = os.path.join(paths_dict['plotting_dir'], 'plot_egeda_comparison_total_energy_use_diff_medium_proportions')
-    paths_dict['plotting_paths']['plot_plotly_non_road_energy_estimations_by_economy'] = os.path.join(paths_dict['plotting_dir'], 'plot_plotly_non_road_energy_estimations_by_economy')
-    paths_dict['plotting_paths']['graph_egeda_road_energy_use_vs_calculated'] = os.path.join(paths_dict['plotting_dir'], 'graph_egeda_road_energy_use_vs_calculated')
-    paths_dict['plotting_paths']['plot_plotly_non_road_energy_estimations'] = os.path.join(paths_dict['plotting_dir'], 'plot_plotly_non_road_energy_estimations')
-    paths_dict['plotting_paths']['plot_non_road_energy_use_by_transport_type'] = os.path.join(paths_dict['plotting_dir'], 'plot_non_road_energy_use_by_transport_type')
-    paths_dict['plotting_paths']['plot_intensity'] = os.path.join(paths_dict['plotting_dir'], 'plot_intensity')
-    paths_dict['plotting_paths']['plot_activity'] = os.path.join(paths_dict['plotting_dir'], 'plot_activity')
-    paths_dict['plotting_paths']['plot_final_data_energy_activity'] = os.path.join(paths_dict['plotting_dir'], 'plot_final_data_energy_activity')
-
-    #for selection processes
-    paths_dict['plotting_paths']['interpolation_timeseries'] = os.path.join(paths_dict['plotting_dir'], 'interpolation')
-    paths_dict['plotting_paths']['selection_dashboard'] = os.path.join(paths_dict['plotting_dir'], 'dashboards')
-    paths_dict['plotting_paths']['selection_timeseries'] = os.path.join(paths_dict['plotting_dir'], 'timeseries')
-
-    #now create the folders
-    for path in paths_dict['plotting_paths'].values():
-        if not os.path.exists(path):
-            os.makedirs(path)
-    
- 
-    
-    return paths_dict
-
-
 
 def determine_date_format(df):
     #identify if date is in yyyy or yyyy-mm-dd format
@@ -237,9 +174,9 @@ def convert_all_cols_to_snake_case(df):
         if col not in ['economy', 'value', 'date']:
             #if type of col is not string then tell the user
             if df[col].dtype != 'object':
-                logging.info('Column {} is not a string. It is a {}'.format(col, df[col].dtype))
+                logging.warning('WARNING: column {} is not a string. It is a {}'.format(col, df[col].dtype))
                 # print its non string values:
-                logging.info('Unique values in column {} are: {}'.format(col, df[col].unique()))
+                logging.warning('Unique values in column {} are:'.format(df[col].unique()))
             else:
                 #make any nan values into strings. 
                 df[col] = df[col].fillna('nan')

@@ -75,7 +75,8 @@ eff['Vehicle Type'] = 'ldv'
 eff['Transport Type'] = 'combined'
 eff['Drive'] = 'ice'
 eff['Medium'] = 'road'
-
+eff['Fuel'] = 'all'
+eff['Scope'] = 'national'
 #%%
 
 eff['Dataset'] = 'IEA Fuel Economy'

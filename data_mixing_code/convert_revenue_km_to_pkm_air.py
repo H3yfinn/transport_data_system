@@ -2,6 +2,7 @@
 #%%
 import pandas as pd
 import re
+import numpy as np
 #set cwd to the root of the project
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
 
@@ -24,7 +25,7 @@ a.Unit = 'passenger_km'
 #change dataset to 'Rev_pass_km' and source to 'ICCT'
 a.Dataset = 'Rev_pass_km'
 a.Source = 'ICCT'
-
+a.drive = np.nan
 
 
 #save to csv

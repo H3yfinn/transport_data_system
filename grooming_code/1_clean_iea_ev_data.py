@@ -22,7 +22,7 @@ import plotly
 import datetime
 
 #set cwd to the root of the project
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 
 PRINT_GRAPHS_AND_STATS = False
 
@@ -72,11 +72,13 @@ evs['vehicle type'].unique()#'Cars', 'EV', 'Vans', 'Buses', 'Trucks'
  #Bit confused about 'EV' so take a look:
 evs[evs['vehicle type']=='EV']#it's for charging points so make it NA
 # so change all to: ldv, np.nan, van, bus, ht
-evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'ldv', 'EV':np.nan, 'Vans':'hdv', 'Buses':'bus', 'Trucks':'ht'})
+evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'ldv', 'EV':np.nan, 'Vans':'vans', 'Buses':'bus', 'Trucks':'ht'})
 #set ldv's to have transport type = 'passenger'
 evs.loc[evs['vehicle type']=='ldv', 'transport type'] = 'passenger'
-#set hdv's to have transport type = 'combined'
-evs.loc[evs['vehicle type']=='hdv', 'transport type'] = 'combined'
+#set lcv's to have transport type = 'combined'
+
+evs.loc[evs['vehicle type']=='vans', 'transport type'] = 'freight'
+
 #set bus's to have transport type = 'passenger'
 evs.loc[evs['vehicle type']=='bus', 'transport type'] = 'passenger'
 #set ht's to have transport type = 'freight'
@@ -124,9 +126,65 @@ evs['dataset'] = 'IEA_ev_explorer'
 evs['date'] = evs['date'].astype(str) + '-12-31'
 
 evs['frequency'] = 'Yearly'
+
+evs['fuel'] = 'all'
+
+evs['scope'] = 'National'
 #%%
 #great looks pretty clean from here!
 
-#saeve the data
-evs.to_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
+#saeve the dat
+#we will ncorporate the ev and phev stock shares for ldv (passenger), bus (passenger), hdv and ht (freight) from iea and calculate the bev and phev stock shares for ldv (passenger), bus (passenger), hdv (combined transport type) and ht (freight) from iea. This si because stock shares are for 'bev and phev' in iea data explorer
+
+#grab stock share data
+evs_stock_share = evs[evs['measure'] == 'Stock share']
+#convert stock share to a proportion by dividing by 100
+evs_stock_share['value'] = evs_stock_share['value']/100
+#grab stock data
+evs_stock = evs[evs['measure'] == 'Stocks']
+cols = evs.columns.tolist()
+cols.remove('value')
+cols.remove('drive')
+#pivot so we have bev and phev in a column
+evs_stock_wide = evs_stock.pivot(index=cols, columns='drive', values='value').reset_index()
+#%%
+#set nas to 0 in bev and phev cols
+evs_stock_wide['bev'] = evs_stock_wide['bev'].fillna(0)
+evs_stock_wide['phev'] = evs_stock_wide['phev'].fillna(0)
+#claculate shares of total stocks of phev to bev
+evs_stock_wide['phev_share'] = evs_stock_wide['phev']/(evs_stock_wide['bev']+evs_stock_wide['phev'])
+evs_stock_wide['bev_share'] = evs_stock_wide['bev']/(evs_stock_wide['bev']+evs_stock_wide['phev'])
+#drop bev and phev cols
+evs_stock_wide = evs_stock_wide.drop(columns=['bev', 'phev'])
+#%%
+#merge with stock share data
+cols.remove('measure')
+cols.remove('unit')
+evs_stock_share = evs_stock_share.merge(evs_stock_wide, on = cols, how='left', suffixes=('', '_y'))
+
+#times Value by shares to get new stock share for phev and bev
+evs_stock_share['phev'] = evs_stock_share['value']*evs_stock_share['phev_share']
+evs_stock_share['bev'] = evs_stock_share['value']*evs_stock_share['bev_share']
+
+#drop cols
+evs_stock_share_new = evs_stock_share.drop(columns=['phev_share','bev_share', 'value',  'unit_y', 'measure_y', 'drive'])
+#%%
+#melt so we have bev and phev in a column called drive 
+cols = evs_stock_share_new.columns.tolist()
+cols.remove('bev')
+cols.remove('phev')
+evs_stock_share_new = evs_stock_share_new.melt(id_vars=cols, value_vars=['bev', 'phev'], var_name='Drive', value_name='value')
+
+#%%
+# concat to ev new
+#first set all cols to lower case in btoh dfs
+evs_stock_share_new.columns = evs_stock_share_new.columns.str.lower()
+evs.columns = evs.columns.str.lower()
+
+evs_new = pd.concat([evs, evs_stock_share_new], axis=0, ignore_index=True)
+
+
+#%%
+#save the data
+evs_new.to_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
 # %%

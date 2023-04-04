@@ -30,7 +30,8 @@ missing_drive_values['Dataset'] = 'missing_drive_values'
 missing_drive_values['Source'] = '9th_transport_model'
 #set date to the Date plus '-12-31'
 missing_drive_values['Date'] = missing_drive_values['Date'].astype(str)+'-12-31'
-
+missing_drive_values['Fuel'] = 'all'
+missing_drive_values['Scope'] = 'National'
 # %%
 #save to csv
 missing_drive_values.to_csv(f'intermediate_data/estimated/filled_missing_values/missing_drive_values_{FILE_DATE_ID}.csv', index=False)

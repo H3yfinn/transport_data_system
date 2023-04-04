@@ -1,8 +1,0 @@
-#intention is to take in the data and double check that there are no major anomalies or that if certain dfata is a factor of another, that the factor is correct. eg. if we have stocks, passenger km and energy for cars then using international benchmarlks (or vlaues from those economiees) we can check that the energy per passenger km is correct.
-#i want this to work evben if we dont use the data seelction fcuntions, and we jsut have a dtaset we want to check is ok.
-#but also if it is being used with the data selection funcitons then it should run when there are duplicate datapoints and when there are not. So if we ahve 2 passenger km datapoints for 2010, but onyl one stocks value it should run the data selection functions using a supplied vehicle mileage value and check if either or both of the passenger km values are correct. It will then be labelled based on the result.
-
-
-#todo, enable the manual process to present more info on the graphs, that way we can remove all the info from the prompts and make it easier to use. Can also then make it easier to include more info in the graphs. For example we could plot graphs of related data points eg. stocks. We could write whether/how the data is correct absed on other data points.
-#could also make it so the user slects data for one set of datapoints at a time, with a set of data points being, say, all the stats for passenger ldvs in tha. then we would plot all the datapoints on a separate graph for every stat and then highlight the graph the user is selecting for . so it would end up being kind of like a dashboard. 
-#but to do this i think its iomportant to make the code a bit more modular and easier to read so changes can be made more easily.

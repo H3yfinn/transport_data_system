@@ -181,11 +181,12 @@ def show_timeseries(paths_dict,fig,use_plt_gui=False):
         fig.pause(1)#needed to give the script time to show the plot before asking for user input # plt.show(block=False)
         return None
     else:
+        plot_path = paths_dict['plotting_paths']['interpolation_timeseries'] + '/{}.png'.format(paths_dict['FILE_DATE_ID'])
         #save the plot then open it with PIL
-        fig.savefig(paths_dict['interpolation_timeseries'])
-        logging.debug('Saving plot at %s', paths_dict['interpolation_timeseries'])
+        fig.savefig(plot_path)
+        logging.debug('Saving plot at %s', plot_path)
         #open the plot
-        im = Image.open(paths_dict['interpolation_timeseries'])
+        im = Image.open(plot_path)
         im.show()
         return im                
         
