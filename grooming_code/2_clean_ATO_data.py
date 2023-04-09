@@ -24,13 +24,17 @@ import itertools
 import datetime
 import pickle
 #set cwd to the root of the project
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+import re
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+import sys
+folder_path = './aggregation_code'  # Replace with the actual path of the folder you want to add
+sys.path.append(folder_path)
+import utility_functions 
 
 PRINT_GRAPHS_AND_STATS = False
 
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
-import utility_functions as utility_functions
 file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/ATO/', 'ATO_extracted_data_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
@@ -508,9 +512,9 @@ medium_dict['road_measures'] = ['Passengers Kilometer Travel - Roads', 'Freight 
 medium_dict['water_measures'] = ['Passengers Kilometer Travel - Waterways/shipping', 'Freight Transport - Tonne-km for Waterways/shipping (Domestic)', 'Freight Transport - Tonne-km for Waterways/shipping (Domestic+International)', 'Domestic Navigation Energy Consumption', 'Shipping/Inland Waterways Transport CO2 Emissions']
 medium_dict['aviation_measures'] = ['Passengers Kilometer Travel - Domestic Aviation', 'Aviation International Passenger Kilometers', 'Aviation Total Passenger Kilometers', 'Freight Transport - Tonne-km for Aviation (Domestic)', 'Freight Transport - Tonne-km for Aviation (Domestic+International)', 'Domestic Aviation Energy Consumption', 'Domestic Aviation Transport CO2 Emissions']
 
-#first where original measure is Passengers Kilometer Travel - HSR then set 'comments' to 'High Speed Rail'
-ATO_data.loc[ATO_data['original_measure'] == 'Passengers Kilometer Travel - HSR', 'comments'] = 'High Speed Rail'
-
+# #first where original measure is Passengers Kilometer Travel - HSR then set 'comments' to 'High Speed Rail'
+#ATO_data.loc[ATO_data['original_measure'] == 'Passengers Kilometer Travel - HSR', 'comments'] = 'High Speed Rail'
+ATO_data.loc[ATO_data['original_measure'] == 'Passengers Kilometer Travel - HSR', 'vehicle type'] = 'High Speed Rail'
 #where original_measure is one of the values in the lists above, then just change the original_measure to the measure (ignore changing the medium)
 for key, value in medium_dict.items():
     ATO_data.loc[ATO_data['original_measure'].isin(value), 'original_measure'] = ATO_data.loc[ATO_data['original_measure'].isin(value), 'measure']
@@ -586,6 +590,8 @@ else:
 
 #%%
 #remove other non necessary cols and say what we're removing by comapring cols_to_keep against the cols in the df
+if 'comments' not in ATO_data.columns:
+    ATO_data['comments'] = np.nan
 cols_to_keep = ['measure', 'medium', 'value', 'unit', 'year','month','economy', 'sheet', 'transport type', 'vehicle type', 'fuel_type', 'source', 'comments','scope']
 print('removing cols: ', [col for col in ATO_data.columns if col not in cols_to_keep])
 ATO_data = ATO_data[cols_to_keep]

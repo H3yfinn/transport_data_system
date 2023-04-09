@@ -33,30 +33,32 @@ LATEST_DATE='2023-01-01'
 
 
 previous_FILE_DATE_ID =None
-FILE_DATE_ID = 'DATE20230403'#'DATE20230331'
+FILE_DATE_ID = 'DATE20230408'#'DATE20230331'
 
 paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID)
 
-unfiltered_combined_data = pd.read_pickle(paths_dict['unfiltered_combined_data'])
-
-road_combined_data = pd.read_pickle(paths_dict['intermediate_folder']+'/road_combined_data_TEST.pkl')
-
-all_new_combined_data = pd.read_pickle('./intermediate_data/selection_process/DATE20230331/all_new_combined_data_TEST.pkl')#paths_dict['intermediate_folder']+'/all_new_combined_data_TEST.pkl'
-
-stocks_mileage_occupancy_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['stocks_mileage_occupancy_efficiency_combined_data_concordance'])
-stocks_mileage_occupancy_efficiency_combined_data_concordance_int = pd.read_pickle(paths_dict['interpolated_stocks_mileage_occupancy_efficiency_combined_data_concordance'])
-
-stocks_mileage_occupancy_efficiency_passenger_energy_combined_data = pd.read_pickle(paths_dict['calculated_passenger_energy_combined_data'])
-
-
+df = pd.read_pickle(paths_dict['final_combined_data_not_rescaled'])
 plotting=False
 #%%
 import logging
 logger = logging.getLogger(__name__)
 
 #%%s
+#USE THIS FOR TESTING DURING DEBUGGPING BY LOADING IN SAVED PICKLES
+# all_combined_data.to_pickle('x.pkl')
+#load x.pkl
+x = pd.read_pickle('x.pkl')
 
-a = pd.read_pickle(paths_dict['energy_passenger_km_combined_data_concordance'])
-a = a.loc[a.measure == 'energy']
-a.date.unique()
+#find na's
+x.isna().sum()
+#find nones
+x.isnull().sum()
 
+
+
+#UNIT COL IS NA. SEE WHAT IS GOING ON
+x[x['unit'].isna()]
+# %%
+
+combined_data_concordance = pd.read_pickle(paths_dict['previous_combined_data_concordance'])
+combined_data = pd.read_pickle(paths_dict['previous_combined_data'])

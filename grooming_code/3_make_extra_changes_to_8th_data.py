@@ -6,12 +6,15 @@ pd.options.mode.chained_assignment = None
 import os
 import re
 import datetime
-#set cwd to the root of the project
+import re
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
-
+import sys
+folder_path = './aggregation_code'  # Replace with the actual path of the folder you want to add
+sys.path.append(folder_path)
+import utility_functions 
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 # file_date = datetime.datetime.now().strftime("%Y%m%d")
-import utility_functions as utility_functions
+
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_aggregated_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = 'DATE20221214'
@@ -338,6 +341,22 @@ new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_ed
 new_eigth_edition_transport_data = new_eigth_edition_transport_data[new_eigth_edition_transport_data['Measure']!='New_vehicle_efficiency']
 
 new_eigth_edition_transport_data = new_eigth_edition_transport_data.loc[~((new_eigth_edition_transport_data['Vehicle Type'] == 'nonspecified') & (new_eigth_edition_transport_data['Value'] == 0)),:]
+#%%
+
+
+#create aggregated set where drive = all in this dataset . then concat it back onto df.    
+
+# #grab 8th edition energy, stocks and passneger km for passenger road
+drive_all = new_eigth_edition_transport_data.loc[ (new_eigth_edition_transport_data['Medium'] == 'road') & (new_eigth_edition_transport_data['Measure'].isin(['Stocks','Energy','Activity']))].copy()
+drive_all['Drive'] = 'all'
+#sum
+cols = new_eigth_edition_transport_data.columns.tolist()
+cols.remove('Value')
+drive_all = drive_all.groupby(cols).sum().reset_index()
+#concat
+new_eigth_edition_transport_data = pd.concat([new_eigth_edition_transport_data, drive_all])
+
+
 #%%
 new_eigth_edition_transport_data['fuel'] = 'all'
 new_eigth_edition_transport_data['scope'] = 'national'

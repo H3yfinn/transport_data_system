@@ -12,7 +12,32 @@ import shutil
 # os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 logger = logging.getLogger(__name__)
 #%%
-def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,save_plotting_backups=True):
+def compare_data_to_previous_version_of_data_in_csv(df,prev_file_path):
+    #compare data to the msot recent previoous version of the data, and if it is not the ssame, save it
+    if os.path.exists(prev_file_path):
+        df_prev = pd.read_csv(prev_file_path)
+        if df.equals(df_prev):
+            print('The data has not changed since the last time it was saved, not saving it again')
+            return False
+        else:
+            return True
+    else:
+        return True
+
+def make_economy_code_to_name_tall(economy_code_to_name):
+    """Make the economy code to name data wide. 
+    """
+    #format economy code to name to name to be tall so we can access all possible econmoy names.
+    #stack the Economy name, and any columns that begin with Alt_name into a single column
+    alt_name_cols = [col for col in economy_code_to_name.columns if col.startswith('Alt_name')]
+
+    economy_code_to_name = economy_code_to_name.melt(id_vars=['Economy'], value_vars=['Economy_name']+alt_name_cols, var_name='column_name', value_name='Economy name').drop(columns=['column_name'])
+
+    #drop na values from economy name
+    economy_code_to_name = economy_code_to_name.dropna(subset=['Economy name'])
+    return economy_code_to_name
+
+def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,save_plotting_backups=True,previous_selections_file_path=None):
     paths_dict = dict()
     paths_dict['log_file_path'] = 'logs/{}.log'.format(FILE_DATE_ID)
     #PERHAPS COULD GET ALL THIS STUFF FROM CONFIG.YML?
@@ -46,6 +71,7 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     LATEST_YEAR = int(LATEST_date[:4])
 
     paths_dict['intermediate_folder'] = intermediate_folder
+    paths_dict['output_data_folder'] = 'output_data/'
     paths_dict['INDEX_COLS_no_year'] = INDEX_COLS_no_year
     paths_dict['INDEX_COLS'] = INDEX_COLS
     paths_dict['EARLIEST_date'] = EARLIEST_date
@@ -55,9 +81,40 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     paths_dict['INDEX_COLS_no_scope_no_fuel'] = INDEX_COLS_no_scope_no_fuel
     paths_dict['FILE_DATE_ID'] = FILE_DATE_ID
 
-    paths_dict['measure_to_units_dict'] = {'vehicle_km': 'km', 'activity': 'passenger_km_or_freight_tonne_km', 'energy': 'pj', 'mileage': 'km_per_stock', 'stocks': 'stocks', 'occupancy_or_load': 'passengers_or_tonnes', 'new_vehicle_efficiency': 'pj_per_km'}
+    #check previous_selections_file_path exists
+    if previous_selections_file_path is not None:
+        if os.path.exists(previous_selections_file_path):
+            paths_dict['previous_selections_file_path'] = previous_selections_file_path
+        else:
+            raise ValueError('The previous selections file path you provided does not exist')
+    else:
+        paths_dict['previous_selections_file_path'] = previous_selections_file_path
+    #serach for previous_selections_file_name in intermediate_data/selection_process/
+    #if it exists, then use the path as previous_selections_file_path
+    #if it does not exist, then notify user and set it to noone
+    # if previous_selections_file_name is not None:
+    #     #walk through all files in intermediate_data/selection_process/ and find the file with the name previous_selections_file_name
+    #     for root, dirs, files in os.walk('intermediate_data/selection_process/'):
+    #         for file in files:
+    #             if file == previous_selections_file_name:
+    #                 paths_dict['previous_selections_file_path'] = os.path.join(root, file)
+    #                 break
+    #         else:
+    #             continue
+    #     if 'previous_selections_file_path' not in paths_dict.keys():
+    #         raise ValueError('The previous selections file name you provided does not exist in the intermediate_data/selection_process/ folder')
 
-    paths_dict['rows_to_ignore_pkl'] = os.path.join('./config/rows_to_ignore.pkl')
+    # paths_dict['measure_to_units_dict'] = {'vehicle_km': 'km', 'activity': 'passenger_km_or_freight_tonne_km', 'energy': 'pj', 'mileage': 'km_per_stock', 'stocks': 'stocks', 'occupancy_or_load': 'passengers_or_tonnes', 'new_vehicle_efficiency': 'pj_per_km'}
+    #base units off the 9th edition concordance:
+    measures_to_units = pd.read_csv('input_data/concordances/9th/measure_to_unit_concordance.csv')
+    #make sure the columns are snake case
+    measures_to_units.columns = [convert_string_to_snake_case(col) for col in measures_to_units.columns]
+    #convert all values in cols to snake case
+    measures_to_units = convert_all_cols_to_snake_case(measures_to_units)
+    #convert to dict
+    paths_dict['measure_to_units_dict'] = measures_to_units.set_index('measure').to_dict()['unit']
+    
+
     # #get egeda data for calcualting enegry totals for non road passsenger
     # egeda_date_id = get_latest_date_for_data_file(data_folder_path='./intermediate_data/estimated/', file_name='EGEDA_merged')
     # paths_dict['egeda_data_file'] = './intermediate_data/estimated/EGEDA_merged{}.csv'.format(egeda_date_id)
@@ -77,12 +134,16 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     #preparation/calcualtion:
     paths_dict['calculated_activity_energy_combined_data'] = os.path.join(paths_dict['intermediate_folder'],'calculated_activity_energy_combined_data.pkl')
     #selection:
-    paths_dict['energy_activity_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'energy_activity_combined_data_concordance.pkl')
+    paths_dict['all_other_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'all_other_combined_data_concordance.pkl')
     #interpolation:
-    paths_dict['interpolated_energy_activity_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_energy_activity_combined_data_concordance.pkl')
-
+    paths_dict['interpolated_all_other_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_all_other_combined_data_concordance.pkl')
+    #final bnefore calcualting anthing new for non road:
+    paths_dict['all_selections_done_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],f'all_selections_done_combined_data_concordance_{FILE_DATE_ID}.pkl')
+    paths_dict['all_selections_done_combined_data'] = os.path.join(paths_dict['intermediate_folder'],f'all_selections_done_combined_data_{FILE_DATE_ID}.pkl')
     #final all data dfs:
-
+    paths_dict['final_combined_data_not_rescaled'] = os.path.join(paths_dict['intermediate_folder'],'final_combined_data_not_rescaled.pkl')
+    paths_dict['final_combined_rescaled_data'] = os.path.join(paths_dict['intermediate_folder'],'final_combined_rescaled_data.pkl')
+    paths_dict['final_data_csv'] = paths_dict['output_data_folder']+ 'combined_data_{}.csv'.format(paths_dict['FILE_DATE_ID'])
     ####
 
     #infrequenty used data formatting paths
@@ -114,9 +175,9 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
         #preparation/calcualtion:
 
         #selection:
-        paths_dict['previous_energy_activity_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'energy_activity_combined_data_concordance.pkl')
+        paths_dict['previous_all_other_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'all_other_combined_data_concordance.pkl')
         #interpolation:
-        paths_dict['previous_interpolated_energy_activity_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_energy_activity_combined_data_concordance.pkl')
+        paths_dict['previous_interpolated_all_other_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_all_other_combined_data_concordance.pkl')
 
         paths_dict['previous_selection_progress_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'selection_progress.pkl')
 
@@ -189,6 +250,7 @@ def determine_date_format(df):
         return 'yyyy-mm-dd'
     else:
         raise Exception('Date format not recognised')
+        
 def ensure_date_col_is_year(df):
 
     #change dataframes date col to be just the year in that date eg. 2022-12-31 = 2022 by using string slicing
@@ -202,6 +264,20 @@ def ensure_date_col_is_year(df):
         df.date = df.date.astype(str)
         #then slice the string to get the year
         df.date = df.date.apply(lambda x: x[:4]).astype(int)
+    return df
+
+def ensure_date_col_is_yyyy_mm_dd(df):
+
+    #change dataframes date col to be the final day of the year in that date eg. 2022-12-31 = 2022 by using string slicing
+    #frist check the date format is yyyy-mm-dd or yyyy
+    date_format = determine_date_format(df)
+    if date_format == 'yyyy-mm-dd':
+        #if the date is just yyyy-mm-dd then great!
+        pass
+    else:
+        #given that the other date format is yyyy, we need to convert it to yyyy-mm-dd by adding -12-31 to the end of the string
+        df.date = df.date.astype(str)
+        df.date = df.date.apply(lambda x: x + '-12-31')
     return df
 
 def setup_logging(FILE_DATE_ID,paths_dict,testing=True):
@@ -266,7 +342,7 @@ def get_latest_date_for_data_file(data_folder_path, file_name):
         latest_date = max(all_files)
     except ValueError:
         print('No files found for ' + file_name)
-        sys.exit()
+        return None
     #convert the latest date to a string
     latest_date = latest_date.strftime('%Y%m%d')
     return latest_date

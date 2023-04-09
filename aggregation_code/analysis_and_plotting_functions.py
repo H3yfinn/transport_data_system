@@ -222,7 +222,7 @@ def compare_egeda_and_new_energy_totals(egeda_energy_combined_data,all_new_combi
 
     #if everything is 0 then tell the user and dont plot
     if egeda_plot['diff'].sum() == 0:
-        print('no differences between egeda and new data')
+        print('no differences between egeda and new data so not plotting comparison between them')
     else:
         #create plotly with each economy as a facet
         fig = px.line(egeda_plot, x="date", y="diff", color='medium', facet_col='economy', facet_col_wrap=7, markers=True)
@@ -250,7 +250,7 @@ def compare_egeda_and_new_energy_totals(egeda_energy_combined_data,all_new_combi
     
     #if everything is 0 then tell the user and dont plot
     if egeda_plot_total['diff_percent'].sum() == 0:
-        print('no differences between egeda and new data')
+        print('no differences between egeda and new data so not plotting comparison between them')
     else:
         #put diff and diff percent on one column
         egeda_plot_total = pd.melt(egeda_plot_total, id_vars=['economy','date'], value_vars=['diff','diff_percent'], var_name='diff_type', value_name='value')

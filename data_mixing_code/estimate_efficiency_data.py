@@ -1,5 +1,7 @@
 
 #%%
+#FRO NOW USING DATA FROM PREVIOUS SELECTIONS HOWEVER IT WOULD BE GOOD TO BASE IT OFF DATA FOUND ONLINE ID SAY.
+#NOTE THAT THE OUTPUT DATA FROM THIS SCRIPT WAS MOVED TO input_data/manually_inputted_data.xlsx, manually. IT WILL BE REPLACED BY MANULLY FOUND DATA EVENTUALLY
 
 #we will use the data from 1_aggregate...
 import pandas as pd
@@ -7,20 +9,17 @@ import numpy as np
 import os
 import datetime
 import re
-
-#set cwd to the root of the project
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
-
-#%%
-
-import utility_functions as utility_functions
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+import sys
+folder_path = './aggregation_code'  # Replace with the actual path of the folder you want to add
+sys.path.append(folder_path)
+import utility_functions 
 # file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_concordance_')
 # FILE_DATE_ID = 'DATE{}'.format(file_date)
 # concord = pd.read_csv('./intermediate_data/combined_dataset_concordance_{}.csv'.format(FILE_DATE_ID))
-
-file_date = utility_functions.get_latest_date_for_data_file('./output_data/9th_dataset/', 'combined_dataset')
+file_date = utility_functions.get_latest_date_for_data_file('./input_data/previous_selections/9th_dataset', 'combined_dataset')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-combined_data_9th = pd.read_csv('./output_data/9th_dataset/combined_dataset_{}.csv'.format(FILE_DATE_ID))
+combined_data_9th = pd.read_csv('./input_data/previous_selections/9th_dataset/combined_dataset_{}.csv'.format(FILE_DATE_ID))
 
 #%%
 analyse = True

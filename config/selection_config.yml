@@ -111,5 +111,21 @@ datasets:
     file_path: intermediate_data/estimated/mileage_occupancy_load_efficiency_data_FILE_DATE_ID.csv
     folder: intermediate_data/estimated/
     script: aggregate_best_estimate_efficiency_occupancy_load_mileage.py
+    included: False
+    type: transport
+  manually_inputted_data_cleaned_road:
+    file_path: intermediate_data/estimated/manually_inputted_data_cleaned_roadFILE_DATE_ID.csv
+    folder: intermediate_data/estimated
+    script: grooming_code/1_groom_manually_inputted_data.py
     included: True
     type: transport
+  manually_inputted_data_cleaned_other:
+    file_path: intermediate_data/estimated/manually_inputted_data_cleaned_otherFILE_DATE_ID.csv
+    folder: intermediate_data/estimated
+    script: grooming_code/1_groom_manually_inputted_data.py
+    included: True
+    type: transport
+
+
+
+  

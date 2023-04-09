@@ -14,23 +14,24 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 import numpy as np
 import os
-import re
+
 import plotly.express as px
 pd.options.plotting.backend = "plotly"#set pandas backend to plotly plotting instead of matplotlib
 import plotly.io as pio
 pio.renderers.default = "browser"#allow plotting of graphs in the interactive notebook in vscode #or set to notebook
 import plotly.graph_objects as go
 import plotly
-
-#set cwd to the root of the project
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
-
+import re
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+import sys
+folder_path = './aggregation_code'  # Replace with the actual path of the folder you want to add
+sys.path.append(folder_path)
+import utility_functions 
 PRINT_GRAPHS_AND_STATS = False
 
 #%%
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
-import utility_functions as utility_functions
 file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = ''

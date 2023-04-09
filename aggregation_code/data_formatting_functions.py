@@ -93,20 +93,32 @@ def make_quick_fixes_to_datasets(combined_data):
     combined_data['comment'] = combined_data['comment'].fillna('no_comment')
     #remove all na values in value column
     combined_data = combined_data[combined_data['value'].notna()]
-    #where medium is not 'road' or 'Road', then set vehicle type and drive to the medium. This is because the medium is the only thing that is relevant for non-road, currently.
-    combined_data.loc[combined_data['medium'].str.lower() != 'road', 'vehicle_type'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
-    combined_data.loc[combined_data['medium'].str.lower() != 'road', 'drive'] = combined_data.loc[combined_data['medium'].str.lower() != 'road', 'medium']
+
+    ##########
+    #where medium is not 'road' or 'Road', and the vehicle_type is either 'all', np.nan, None or the same value as medium, then set vehicle type and drive to 'all'. This is because the medium is the only thing that is relevant for non-road, currently.
+    #Note this is a temp fix and we really should jsut fix tyhe input data methods
+
+    combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['vehicle_type'] == combined_data['medium']), 'vehicle_type'] = 'all'
+    combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['vehicle_type'].isna()), 'vehicle_type'] = 'all'
+    combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['vehicle_type'] == None), 'vehicle_type'] = 'all'
+
+    # combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['vehicle_type'] == 'all'), 'drive'] = 'all'
+    combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['drive'] == combined_data['medium']), 'drive'] = 'all'
+    combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['drive'].isna()), 'drive'] = 'all'
+    combined_data.loc[(combined_data['medium'] != 'road') & (combined_data['drive'] == None), 'drive'] = 'all'
+
+    ##########
 
     #To make things faster in the manual dataseelection process, for any rows in the eighth edition dataset where the data for both the carbon neutral and reference scenarios (in source column) is the same, we will remove the carbon neutral scenario data, as we would always choose the reference data anyways.
     combined_data = combined_data[combined_data['source'] != 'carbon_neutrality']
 
     #where we have measures = either occupancy or load then name them to occupancy_or_load. We know that the transport type will inidcate if it is occupancy or load.
-    combined_data.loc[combined_data['measure'].str.lower().isin(['occupancy', 'load']), 'measure'] = 'occupancy_or_load'
+    combined_data.loc[combined_data['measure'].isin(['occupancy', 'load']), 'measure'] = 'occupancy_or_load'
     #and set unit to passengers_or_tonnes
     combined_data.loc[combined_data['measure'].isin(['occupancy_or_load']), 'unit'] = 'passengers_or_tonnes'
     
     #do same for freight tonne km and pasenger km
-    combined_data.loc[combined_data['measure'].str.lower().isin(['freight_tonne_km', 'passenger_km']), 'measure'] = 'activity'
+    combined_data.loc[combined_data['measure'].isin(['freight_tonne_km', 'passenger_km']), 'measure'] = 'activity'
     combined_data.loc[combined_data['measure'].isin(['activity']), 'unit'] = 'passenger_km_or_freight_tonne_km'
 
     return combined_data
@@ -282,7 +294,8 @@ def TEMP_add_mileage_to_concordance(model_concordances_measures):
 
 def TEMP_add_drive_all_to_concordance(model_concordances_measures):
     logging.info("TEMP: adding drive_all to concordance for all road measures")
-    #we will copy the rows where medium is road and then change the drive to all. Then drop duplicates. 
+    #we will copy the rows where medium is road and then change the drive to all. Then add that on top of what is already there. Then drop duplicates.
+    # #this allows us to use some of the road data for drive=all 
     drive_all_rows = model_concordances_measures[(model_concordances_measures['medium'] == 'road')]
     drive_all_rows['drive'] = 'all'
     # #remove the rows from the model_concordances_measures df
@@ -291,30 +304,44 @@ def TEMP_add_drive_all_to_concordance(model_concordances_measures):
     model_concordances_measures = model_concordances_measures.drop_duplicates()
     return model_concordances_measures
 
-def TEMP_convert_occupancy_and_load_to_occupancy_or_load(df):
-    #take in the data for occupan and laod and combine them into one measure
-    occ_load = df[df['measure'].isin(['occupancy', 'load'])]
-    occ_load['measure'] = 'occupancy_or_load'
-    #repalce unit with passengers_or_tonnes
-    occ_load['unit'] = 'passengers_or_tonnes'
-    df = pd.concat([df, occ_load], ignore_index=True)
-    return df
-
-def TEMP_convert_freight_passenger_activity_to_activity(df):
-    #take in passenger_km and freight_tonne_km and rename to activity then set unit to passenger_km_or_freight_tonne_km
-    freight_passenger_activity = df[df['measure'].isin(['passenger_km', 'freight_tonne_km'])]
-    freight_passenger_activity['measure'] = 'activity'
-    #repalce unit with passengers_or_tonnes
-    freight_passenger_activity['unit'] = 'passenger_km_or_freight_tonne_km'
-    # #remove the rows from the df df
-    # df = df[~df.measure.isin(['passenger_km', 'freight_tonne_km'])]
-    df = pd.concat([df, freight_passenger_activity], ignore_index=True)
-    return df
 
 def TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures):
     #remove freight_ldvs from the concordance
     model_concordances_measures = model_concordances_measures.loc[~((model_concordances_measures.vehicle_type == 'ldv') & (model_concordances_measures.transport_type=='freight'))]
     return model_concordances_measures
+
+def TEMP_replace_drive_types(df):
+    # concordance = pd.read_csv('input_data/concordances/model_concordances_measures_old.csv')
+    old_transport_categories = pd.read_csv('input_data/concordances/9th/manually_defined_transport_categories_OLD.csv')
+        
+    #make sure the columns are snake case
+    old_transport_categories.columns = [utility_functions.convert_string_to_snake_case(col) for col in old_transport_categories.columns]
+    #convert all values in cols to snake case
+    old_transport_categories = utility_functions.convert_all_cols_to_snake_case(old_transport_categories)
+
+    #we are going to replace the drive types we expect with new ones
+
+    #take in the categories and do an outer join on medium, transport type and vehicle type. then we can see which rows are missing on the left or right. For the matching rows we will replace the drive type with the new one. 
+    
+    df = pd.merge(df, old_transport_categories, how='outer', on=['medium', 'transport_type', 'vehicle_type'], suffixes=('', '_y'))
+    #find missing rows on the left
+    missing_rowsl = df[df['drive'].isnull()]
+    #find missing rows on the right
+    missing_rowsr = df[df['drive_y'].isnull()]
+
+    # print the missing rows 
+    if len(missing_rowsl) > 0:
+        logging.info("TEMP: the following rows are missing from the concordance on left")
+        logging.info(missing_rowsl)
+    if len(missing_rowsr) > 0:
+        logging.info("TEMP: the following rows are missing from the concordance on right")
+        logging.info(missing_rowsr)
+
+    #replace the drive type with the new one
+    df['drive'] = df['drive_y']
+    df = df.drop(columns=['drive_y'])
+
+    return df
 
 def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict,include_drive_all):
 
@@ -331,19 +358,22 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
 
     model_concordances_measures = utility_functions.ensure_date_col_is_year(model_concordances_measures)
 
-    #TEMP. add more to the concordance. hjowever it is important to not remove anything from the concordance yet as we'll be creating the intended data later from pieces within (eg. adding up all drive types to all)
-    logging.info("TEMP: adding mileage to concordance")
-    model_concordances_measures = TEMP_convert_occupancy_and_load_to_occupancy_or_load(model_concordances_measures)
+    # #TEMP. add more to the concordance. hjowever it is important to not remove anything from the concordance yet as we'll be creating the intended data later from pieces within (eg. adding up all drive types to all)
+    # logging.info("TEMP: making temproary changes to concordance")
+    # #change concordance to suit the data we have groomed, rather than the data we want to have. We will slowly adjsut the groomed data to be the same as the concordance
+    # # model_concordances_measures = TEMP_replace_drive_types(model_concordances_measures)
+    
+    # # model_concordances_measures = TEMP_convert_occupancy_and_load_to_occupancy_or_load(model_concordances_measures)
 
-    model_concordances_measures = TEMP_add_mileage_to_concordance(model_concordances_measures)
+    # # model_concordances_measures = TEMP_add_mileage_to_concordance(model_concordances_measures)
 
-    model_concordances_measures = TEMP_convert_freight_passenger_activity_to_activity(model_concordances_measures)
+    # model_concordances_measures = TEMP_convert_freight_passenger_activity_to_activity(model_concordances_measures)
 
-    model_concordances_measures = TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures)
+    # # model_concordances_measures = TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures)
 
-    if include_drive_all:
-        model_concordances_measures = TEMP_add_drive_all_to_concordance(model_concordances_measures)
-    #TEMP
+    # if include_drive_all:
+    #     model_concordances_measures = TEMP_add_drive_all_to_concordance(model_concordances_measures)
+    # #TEMP
 
     #Make sure that the model condordance has all the years in the input date range
     model_concordances_measures_dummy = model_concordances_measures.copy()
@@ -371,7 +401,7 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     #now see what we are missing:
     missing_rows = model_concordances_measures.index.difference(filtered_combined_data.index)
     #create a new dataframe with the missing rows
-    missing_rows_df = pd.DataFrame(index=missing_rows)
+    missing_rows_df = pd.DataFrame(index=missing_rows).reset_index()
     # save them to a csv
     logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv. There are {} missing rows'.format(len(missing_rows)))
     missing_rows_df.to_csv(paths_dict['missing_rows'])
@@ -457,11 +487,25 @@ def filter_for_years_of_interest(combined_data_concordance,combined_data,paths_d
 
     return combined_data_concordance,combined_data
 
-def filter_for_specifc_data(selection_dict, df):
+def filter_for_specifc_data(selection_dict, df, filter_for_all_other_data=False):
     #use the keys of the selection dict as the columns to filter on and the values as the values to filter on
-    for key, value in selection_dict.items():
-        df = df[df[key].isin(value)]
-
+    if not filter_for_all_other_data:
+        for key, value in selection_dict.items():
+            df = df[df[key].isin(value)]
+    else:
+        #we have to find all data where the key is not in the value list. But we ahve to do this for the confluence of all keys. This can be done by getting the union of all rows that are not in the value list for the first key, of all rows that are not in the value list for the second key, and so on. Then filter for duplicates.
+        confluence = pd.DataFrame()
+        for key, value in selection_dict.items():
+            df = df[~df[key].isin(value)]
+            confluence = pd.concat([confluence,df])
+        #now filter out duplicates (but if we ahve the col potential_datapointsthen we will need to ignore it, because it is a list and you cannot compare lists)
+        if 'potential_datapoints' in confluence.columns:
+            cols = confluence.columns.tolist()
+            cols.remove('potential_datapoints')
+            confluence = confluence.drop_duplicates(subset=cols)
+        else:
+            confluence = confluence.drop_duplicates()
+        df = confluence
     return df
 #%%
 

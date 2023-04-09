@@ -103,10 +103,14 @@ import os
 import re
 import pandas as pd
 import numpy as np
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+import re
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+import sys
+folder_path = './aggregation_code'  # Replace with the actual path of the folder you want to add
+sys.path.append(folder_path)
+import utility_functions 
 
 # import data_estimation_functions as data_estimation_functions
-import utility_functions as utility_functions
 file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 combined_data = pd.read_csv('./intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
@@ -276,7 +280,12 @@ import matplotlib.pyplot as plt
 # %matplotlib inline
 
 #set cwd to the root of the project
-os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_system')
+import re
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+import sys
+folder_path = './aggregation_code'  # Replace with the actual path of the folder you want to add
+sys.path.append(folder_path)
+import utility_functions 
 
 PRINT_GRAPHS_AND_STATS = False
 use_9th_dataset = False
@@ -285,7 +294,6 @@ use_9th_dataset = False
 if not use_9th_dataset:
     #load data
     file_date = datetime.datetime.now().strftime("%Y%m%d")
-    import utility_functions as utility_functions
     file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/', 'combined_dataset_')
     FILE_DATE_ID = 'DATE{}'.format(file_date)
     combined_dataset = pd.read_csv('intermediate_data/combined_dataset_{}.csv'.format(FILE_DATE_ID))
@@ -295,7 +303,6 @@ else:
     subfolder = '9th_dataset'
     #load data
     file_date = datetime.datetime.now().strftime("%Y%m%d")
-    import utility_functions as utility_functions
     file_date = utility_functions.get_latest_date_for_data_file('./intermediate_data/9th_dataset', 'combined_dataset_')
     FILE_DATE_ID = 'DATE{}'.format(file_date)
     combined_dataset = pd.read_csv('intermediate_data/9th_dataset/combined_dataset_{}.csv'.format(FILE_DATE_ID))

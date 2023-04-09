@@ -69,7 +69,7 @@ eff['Value'] = eff['Value'] * 3.42e-8
 eff['Value'] = eff['Value'] / 100
 #%%
 eff['Measure'] ='Efficiency'
-eff['Unit'] = 'PJ per km'
+eff['Unit'] = 'km_per_pj'
 eff['Source'] = 'GFEI'
 eff['Vehicle Type'] = 'ldv'
 eff['Transport Type'] = 'combined'

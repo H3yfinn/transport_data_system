@@ -24,9 +24,11 @@ plotting = True#change to false to stop plots from appearing
 #put it all thorugh calculate_new_data() which will:
 # Using mileage, eff, occ and stocks we can estimate passenger km and energy. Where we are missing data eg. stocks, we will leave an na. 
 # enable adjusting the mileage, occ and eff data by specified ranges to get a range of options
-def split_all_into_bev_phev_and_ice(combined_data,unfiltered_combined_data):
-    #using the iea ev data explorer data we will split all estimates for stocks into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
+def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data):
+    #using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
     #for any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
+    combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all']
+
     iea_ev_explorer_selection_dict = {'measure': 
         ['stock_share'],
     'medium': ['road'],
@@ -45,7 +47,7 @@ def split_all_into_bev_phev_and_ice(combined_data,unfiltered_combined_data):
     stock_shares['unit'] = 'stocks'
 
     #join stock shares to combined data's stocks 
-    combined_data_stocks = combined_data[(combined_data['measure'] == 'stocks')]
+    combined_data_stocks = combined_data_all_drive[(combined_data_all_drive['measure'] == 'stocks')]
     cols.remove('dataset')
     combined_data_stocks = combined_data_stocks.merge(stock_shares, on = cols, how = 'left')
 
@@ -75,75 +77,48 @@ def split_all_into_bev_phev_and_ice(combined_data,unfiltered_combined_data):
     #melt
     combined_data_stocks_tall = combined_data_stocks.melt(id_vars = cols, value_vars = ['bev','phev','ice'], var_name = 'drive', value_name = 'value')
     
-    #drop stocks from combined data
-    combined_data = combined_data[~(combined_data['measure'] == 'stocks')]
-    #add bev, phev and ice to combined data
-    combined_data = pd.concat([combined_data,combined_data_stocks_tall])
-    
-    return combined_data
+    unfiltered_combined_data = pd.concat([combined_data_stocks_tall,unfiltered_combined_data])
+
+    #rop any duplicates that may have occured because of the same aggregations done for individual datasets(eg. 8th data)
+    unfiltered_combined_data = unfiltered_combined_data.drop_duplicates()
+
+    return unfiltered_combined_data
 
 
-def extract_bev_phev_ice_occ_mileage_efficiency_data(combined_data,unfiltered_combined_data):
-    #because we previously set drive to all for the combined data we need to extract the ev phev and ice data for occ_mileage_efficiency from the unfiltered combined data. we will have to assume that ice data is just for 'g' driv
-    #we will also have to assume that the phev data is for 'phevg' drive
 
-    #first extrac the data we want. to do this we will grab the data from combined data for these measures and unfiltered data for these measures and the required drive types then do an outer merge, exluding the drive and value cols, then repalce drive and vlaue with the correct values
-    unfiltered_new = unfiltered_combined_data[unfiltered_combined_data['measure'].isin(['occupancy_or_load','mileage','new_vehicle_efficiency'])]
-    unfiltered_new = unfiltered_new[unfiltered_new['drive'].isin(['bev', 'g','phevg'])]#NOTE THAT IF WE INCLUDE FREIGHT WE WILL NEED TO ADD NEW DRIVE TYPES HERE.
-    #rename the drive types, g to ice, phevg to phev
-    unfiltered_new['drive'] = unfiltered_new['drive'].replace({'g':'ice','phevg':'phev'})
-    combined_new = combined_data[combined_data['measure'].isin(['occupancy_or_load','mileage','new_vehicle_efficiency'])]
-    #merge
-    cols = combined_new.columns.tolist()
-    cols.remove('drive')
-    cols.remove('value')
-    combined_new = pd.merge(combined_new,unfiltered_new,how='left',on=cols)
-    
-    #replace the drive and value cols from y to x
-    combined_new['drive'] = combined_new['drive_y']
-    combined_new['value'] = combined_new['value_y']
-    #drop the y and x
-    combined_new = combined_new.drop(['drive_x','drive_y','value_x','value_y'],axis=1)
-    
-    #concat to combined data after dropping the old data
-    combined_data = combined_data[~combined_data['measure'].isin(['occupancy_or_load','mileage','new_vehicle_efficiency'])]
-    combined_data = pd.concat([combined_data,combined_new])
+# def TEMP_make_drive_equal_all(combined_data, paths_dict):
+#     #NOTE IT WOULD BE GOOD TO SOMEHOW SEPARATE EVS FROM THIS. ONE DAY
+#     #because we dont have much data split by drive we will sum up all road passenger data by vehicel type in 8th editiona so it can be compared to the data for which we have drive = 'all'. We will also set efficiency to the same value as for drive = 'g' since the majority of stocks are g anyway.
+#     #also need to sum up passenger km and energy by vehjicle type, and avergae occupancy and mileage by vehicle type. but why?
 
-    return combined_data
+#     #grab 8th edition energy, stocks and passneger km for passenger road
+#     combined_data_8th_edition = combined_data.loc[(combined_data['dataset'] == '8th_edition_transport_model $ reference') & (combined_data['medium'] == 'road') & (combined_data['measure'].isin(['stocks','energy','activity']))].copy()
+#     combined_data_8th_edition['drive'] = 'all'
+#     #sum
+#     combined_data_8th_edition = combined_data_8th_edition.groupby(paths_dict['INDEX_COLS']+['dataset']).sum().reset_index()
 
-def TEMP_make_drive_equal_all(combined_data, paths_dict):
-    #NOTE IT WOULD BE GOOD TO SOMEHOW SEPARATE EVS FROM THIS. ONE DAY
-    #because we dont have much data split by drive we will sum up all road passenger data by vehicel type in 8th editiona so it can be compared to the data for which we have drive = 'all'. We will also set new_vehicle_efficiency to the same value as for drive = 'g' since the majority of stocks are g anyway.
-    #also need to sum up passenger km and energy by vehjicle type, and avergae occupancy and mileage by vehicle type
+#     # #grab the occupancy_or_load and mileage for 'g' and set it to 'all'?
+#     # combined_data_means = combined_data.loc[(combined_data['medium'] == 'road') & (combined_data['measure'].isin(['occupancy_or_load','mileage']))].copy()
+#     # combined_data_means['drive'] = 'all'
+#     # combined_data_means = combined_data_means.groupby(paths_dict['INDEX_COLS']+['dataset']).mean().reset_index()
 
-    #grab 8th edition energy, stocks and passneger km for passenger road
-    combined_data_8th_edition = combined_data.loc[(combined_data['dataset'] == '8th_edition_transport_model $ reference') & (combined_data['medium'] == 'road') & (combined_data['measure'].isin(['stocks','energy','activity']))].copy()
-    combined_data_8th_edition['drive'] = 'all'
-    #sum
-    combined_data_8th_edition = combined_data_8th_edition.groupby(paths_dict['INDEX_COLS']+['dataset']).sum().reset_index()
+#     # #grab efficiency for g and set it to the efficiency for all. This is temporary until we understand the efficiency of ice vs g better
+#     # combined_data_efficiency = combined_data.loc[(combined_data['medium'] == 'road')& (combined_data['measure'] == 'efficiency') & (combined_data['drive'] == 'g')].copy()
+#     # combined_data_efficiency['drive'] = 'all'
 
-    #do the means of occupancy_or_load and mileage
-    combined_data_means = combined_data.loc[(combined_data['medium'] == 'road') & (combined_data['measure'].isin(['occupancy_or_load','mileage']))].copy()
-    combined_data_means['drive'] = 'all'
-    combined_data_means = combined_data_means.groupby(paths_dict['INDEX_COLS']+['dataset']).mean().reset_index()
-
-    #grab new vehicle efficiency for g
-    combined_data_new_vehicle_efficiency = combined_data.loc[(combined_data['medium'] == 'road')& (combined_data['measure'] == 'new_vehicle_efficiency') & (combined_data['drive'] == 'g')].copy()
-    combined_data_new_vehicle_efficiency['drive'] = 'all'
-
-    #combine with a road version of combined data 
-    combined_data_road = combined_data.loc[(combined_data['medium'] == 'road')].copy()
-    #drop those from combined data
-    combined_data = combined_data.loc[~((combined_data['medium'] == 'road'))].copy()
-    combined_data_road = pd.concat([combined_data_road,combined_data_8th_edition,combined_data_means,combined_data_new_vehicle_efficiency],sort=False)
-    #drop drive != all
-    combined_data_road = combined_data_road.loc[combined_data_road['drive'] == 'all'].copy()
-    #drop duplicates
-    combined_data_road = combined_data_road.drop_duplicates().copy()
-    #set comment to 'no_comment'
-    combined_data_road['comment'] = 'no_comment'
-    #concat with combined data
-    combined_data = pd.concat([combined_data,combined_data_road],sort=False)
+#     #combine with a road version of combined data 
+#     combined_data_road = combined_data.loc[(combined_data['medium'] == 'road')].copy()
+#     #drop those from combined data
+#     combined_data = combined_data.loc[~((combined_data['medium'] == 'road'))].copy()
+#     combined_data_road = pd.concat([combined_data_road,combined_data_8th_edition],sort=False)#,combined_data_means,combined_data_efficiency
+#     #drop drive != all
+#     combined_data_road = combined_data_road.loc[combined_data_road['drive'] == 'all'].copy()
+#     #drop duplicates
+#     combined_data_road = combined_data_road.drop_duplicates().copy()
+#     #set comment to 'no_comment'
+#     combined_data_road['comment'] = 'no_comment'
+#     #concat with combined data
+#     combined_data = pd.concat([combined_data,combined_data_road],sort=False)
 
     return combined_data
 
@@ -158,9 +133,9 @@ def calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combi
     #to prevent any issues with div by 0 we will replace all 0s with nans. then any nans timesed by anything will be nan
     data = data.replace(0,np.nan)
 
-    data['vehicle_km'] = data['mileage'] * data['stocks']
-    data['activity'] = data['vehicle_km'] * data['occupancy_or_load']
-    data['energy'] = data['vehicle_km'] * data['new_vehicle_efficiency']
+    data['travel_km'] = data['mileage'] * data['stocks']
+    data['activity'] = data['travel_km'] * data['occupancy_or_load']
+    data['energy'] = data['travel_km'] / data['efficiency']
     
     #make long again
     data = data.melt(id_vars = INDEX_COLS_no_measure, var_name = 'measure', value_name = 'value')#todo i dont know how this will interact with the other possible columns we'll have. maybrwe should have id vars = data.columns
@@ -182,7 +157,7 @@ def calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combi
     return data
 
 
-def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, road_combined_data):
+def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data):
     #prep:
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
@@ -205,7 +180,7 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     egeda_energy_combined_data['road_proportion'] = egeda_energy_combined_data['road'] / egeda_energy_combined_data['total_energy_use']
 
     #get road enegry that has been calcualted:
-    road_energy = road_combined_data[road_combined_data['measure'] == 'energy']
+    road_energy = all_combined_data[all_combined_data['measure'] == 'energy']
     #set transport type to all and sum up road energy
     road_energy['transport_type'] = 'all'
     road_energy = road_energy.groupby(['economy','date']).sum().reset_index()
@@ -322,9 +297,9 @@ def aggregate_non_road_energy_estimates(egeda_energy_combined_data_scaled,egeda_
     egeda_energy_combined_data_merged_tall = egeda_energy_combined_data_merged_tall.pivot_table(index=['economy', 'date', 'option', 'medium'], columns='proportion', values='value').reset_index()
     return egeda_energy_combined_data_merged_tall
 
-def estimate_non_road_energy(unfiltered_combined_data,road_combined_data,paths_dict):
+def estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict):
 
-    egeda_energy_combined_data = prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, road_combined_data) 
+    egeda_energy_combined_data = prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data) 
     egeda_energy_combined_data_scaled = scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined_data)
     egeda_energy_combined_data_remainder = scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combined_data)    
     #we will commit to scaled for now, but we can change this later. So filter for remainder only and then drop proportion and option. then rename absolute to value. Then lastly create a whole lot of new cols.
@@ -436,6 +411,8 @@ def prepare_previous_energy_activity_data(previous_draft_transport_data_system_d
     return energy_activity_wide
 
 def calcualte_intensity_from_previous_data(energy_activity_wide,paths_dict):
+
+
     #calvc intensity
     energy_activity_wide['intensity'] = energy_activity_wide['energy']/energy_activity_wide['activity']
 
@@ -506,9 +483,9 @@ def clean_activity(energy_activity):
     activity['vehicle_type'] = 'all'
     return activity
 
-def extract_calculated_road_energy_activity(road_combined_data):
+def extract_calculated_road_energy_activity(all_combined_data):
     #extract raod energy and activity
-    road_energy_activity = road_combined_data.loc[road_combined_data['measure'].isin(['energy', 'activity'])]
+    road_energy_activity = all_combined_data.loc[(all_combined_data['measure'].isin(['energy', 'activity'])) & (all_combined_data['medium']=='road')]
     #sum up road activiy adn energy so we only ahve one row per date, economy, medium, transport type, measure
     road_energy_activity = road_energy_activity.groupby(['date','economy','medium','transport_type','unit','measure'])['value'].sum().reset_index()
     #sepreate road energy and activity
@@ -519,17 +496,28 @@ def extract_calculated_road_energy_activity(road_combined_data):
     road_activity = road_activity.drop(columns=['measure'])
     return road_energy, road_activity
 
-def estimate_activity_non_road(non_road_energy,road_combined_data,paths_dict):
-    calculated_road_energy, calculated_road_activity = extract_calculated_road_energy_activity(road_combined_data)
+
+def extract_intensity_non_road(all_combined_data):
+    #get intensity data from all_combined_data for non road
+    intensity = all_combined_data.loc[(all_combined_data['measure']=='intensity') & (all_combined_data['medium']!='road')]
+    #drop measure
+    intensity = intensity.drop(columns=['measure'])
+    intensity.rename(columns={'value':'intensity'}, inplace=True)
+    return intensity
+
+def estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict):
+    calculated_road_energy, calculated_road_activity = extract_calculated_road_energy_activity(all_combined_data)
     #combined non road and road energy. 
     energy = pd.concat([non_road_energy,calculated_road_energy])
 
-    previous_draft_transport_data_system_df = import_previous_draft_selections()
-    previous_energy_activity_wide = prepare_previous_energy_activity_data(previous_draft_transport_data_system_df)
-    previous_intensity = calcualte_intensity_from_previous_data(previous_energy_activity_wide,paths_dict)
+    
+    # previous_draft_transport_data_system_df = import_previous_draft_selections()
+    # previous_energy_activity_wide = prepare_previous_energy_activity_data(previous_draft_transport_data_system_df)
+    # previous_intensity = calcualte_intensity_from_previous_data(previous_energy_activity_wide,paths_dict)
+    intensity = extract_intensity_non_road(all_combined_data)
 
     #now times the intenstiy by the energy values weve calcualted to get the activity
-    energy_activity = energy.merge(previous_intensity,how='outer',on=['date',	'economy',	'medium', 'transport_type'])
+    energy_activity = energy.merge(intensity,how='left',on=['date',	'economy',	'medium', 'transport_type'])
     energy_activity['activity'] = energy_activity['value']/energy_activity['intensity']
 
     activity = clean_activity(energy_activity)
@@ -540,6 +528,7 @@ def estimate_activity_non_road(non_road_energy,road_combined_data,paths_dict):
     #drop rows where measure = activity and medium = road
     activity_non_passenger_road = activity.copy()
     activity_non_passenger_road = activity_non_passenger_road.loc[~((activity_non_passenger_road['measure']=='activity')&(activity_non_passenger_road['medium']=='road'))]
+
     return activity_non_passenger_road
 
 def find_percent_diff_for_missing_years_in_egeda(merged_data):
@@ -556,7 +545,7 @@ def find_percent_diff_for_missing_years_in_egeda(merged_data):
     return merged_data
 
 def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict):
-    #     #take in new data and compare the total energy for each medium to the total energy in egeda. If it is not the same, then we need to rescale the data. Given that the proportions of all the mediums to each other are the same as in the egeda data, we should decrease all by the % needed. However to decrease passenger road we should choose on one of either mileage or efficiency. We can do this by doing data['energy'] = data['mileage'] * data['stocks'] * data['new_vehicle_efficiency'] > mileage = data['energy'] / data['stocks'] * data['new_vehicle_efficiency'] where energy is the new energy we need.
+    #     #take in new data and compare the total energy for each medium to the total energy in egeda. If it is not the same, then we need to rescale the data. Given that the proportions of all the mediums to each other are the same as in the egeda data, we should decrease all by the % needed. However to decrease passenger road we should choose on one of either mileage or efficiency. We can do this by doing data['energy'] = data['mileage'] * data['stocks'] * data['efficiency'] > mileage = data['energy'] / data['stocks'] * data['efficiency'] where energy is the new energy we need.
     #     #we can then do the same for efficiency. We can then compare the two and choose the one that seems right.
 
     #FIRST GET THE DATA IN
@@ -589,13 +578,13 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     road_combined['NEW_energy'] = road_combined['energy'] * road_combined['%_diff']
 
     #if we want to reclaculate mileage then we will need to do it using the efficiency and stocks data, and vice versa for efficiency and stocks
-    road_combined['NEW_mileage'] = road_combined['NEW_energy'] / (road_combined['stocks'] * road_combined['new_vehicle_efficiency'])
+    road_combined['NEW_mileage'] = road_combined['NEW_energy'] / (road_combined['stocks'] * road_combined['efficiency'])
 
-    road_combined['NEW_new_vehicle_efficiency'] = road_combined['NEW_energy'] / (road_combined['stocks'] * road_combined['mileage'])
+    road_combined['NEW_efficiency'] = road_combined['NEW_energy'] / (road_combined['stocks'] * road_combined['mileage'])
 
-    road_combined['NEW_stocks'] = road_combined['NEW_energy'] / (road_combined['new_vehicle_efficiency'] * road_combined['mileage'])
+    road_combined['NEW_stocks'] = road_combined['NEW_energy'] / (road_combined['efficiency'] * road_combined['mileage'])
     
-    measures = ['mileage','new_vehicle_efficiency','stocks']
+    measures = ['mileage','efficiency','stocks']
     new_measures = ['NEW_' + measure for measure in measures]
 
     if plotting:
