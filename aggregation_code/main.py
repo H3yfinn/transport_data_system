@@ -123,8 +123,6 @@ def main():
         # stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data = data_estimation_functions.TEMP_create_new_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data)
         # 
         stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict,datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list)
-        if stocks_mileage_occupancy_load_efficiency_combined_data_concordance == 'quit':
-            return
     else:
         stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
     
@@ -184,8 +182,6 @@ def main():
         highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
         datasets_to_always_use  = ['iea_ev_explorer $ historical']
         all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1)#todo Need some way to only select for specified measures. as we want to include occupancy and stuff in the dashboard. will also need to filter for only energy and passenger km in the output.
-        if all_other_combined_data_concordance == 'quit':
-            return
     else:
         all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_all_other_combined_data_concordance'])
 

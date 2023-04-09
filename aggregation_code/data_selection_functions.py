@@ -104,6 +104,8 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
     else:
         combined_data_concordance = 'quit'
         logging.info('User quit')
+        raise Exception('User quit') 
+        
     remove_groups_from_tmp_folder(groups_concordance_names_files, groups_data_names_files)
 
     return combined_data_concordance
