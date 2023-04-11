@@ -6,5 +6,10 @@
 		{
 			"path": "../transport_model_9th_edition"
 		}
-	]
+    ],
+    "extensions": {
+        "recommendations": [
+            "ms-toolsai.jupyter"
+        ]
+    }
 }

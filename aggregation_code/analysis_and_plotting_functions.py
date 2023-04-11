@@ -13,6 +13,87 @@ import data_formatting_functions
 import logging
 logger = logging.getLogger(__name__)
 
+
+def plot_new_and_old_road_measures(road_combined,measures,new_measures,paths_dict):
+    #plot the old and new data for each measure using plotly. We will do this on a different plot for each measure, faceting by economy:
+    #drop non useufl cols
+    road_combined_plot = road_combined.copy()
+    # road_combined_plot = road_combined_plot[['economy','date','drive','vehicle_type', 'transport_type'] + measures + new_measures]
+    #now melt measures
+    cols = road_combined_plot.columns.tolist()
+    #drop  + measures + new_measures from cols
+    cols = [col for col in cols if col not in measures + new_measures]
+    road_combined_plot = road_combined_plot.melt(id_vars=cols, value_vars=measures + new_measures, var_name='measure', value_name='value')
+    #now plot
+    for measure in measures:
+        for transport_type in road_combined_plot['transport_type'].unique():
+            for economy in road_combined_plot['economy'].unique():
+                plot_data = road_combined_plot[road_combined_plot['measure'].isin([measure,'NEW_' + measure]) & (road_combined_plot['economy'] == economy) & (road_combined_plot['transport_type'] == transport_type)].copy()
+
+                fig = px.line(plot_data, x="date", y='value', facet_col="vehicle_type", color='drive', line_dash='measure', facet_col_wrap=7, markers=True, hover_data=['dataset'])
+                #make the new values have different shaped markers so we can see them even if there is no line
+                fig.for_each_trace(lambda t: t.update(marker_symbol=t.marker_symbol + 4) if t.name == 'NEW_' + measure else ())
+                #save
+                fig.write_html(paths_dict['plotting_paths']['plot_new_and_old_road_measures'] + '/'+ transport_type+'_'+measure + '_' +economy+'.html', auto_open=False)
+
+
+def plot_final_data_energy_activity(all_new_combined_data,paths_dict):
+    #PREP
+    #drop any 0s or any nas in the value col
+    all_new_combined_data = all_new_combined_data[all_new_combined_data['value']!=0]
+    all_new_combined_data = all_new_combined_data.dropna(subset=['value'])
+
+    #plot the data's activity and energy use using plotly
+    all_new_combined_data_summary = all_new_combined_data.copy()
+
+    #set all road datasets  to road
+    all_new_combined_data_summary.loc[all_new_combined_data_summary['medium']=='road','dataset'] = 'road'
+
+    #drop cols taht arent: date, economy, medium, transport_type, measure, value
+    all_new_combined_data_summary = all_new_combined_data_summary[['date', 'economy', 'medium', 'transport_type', 'measure', 'value', 'dataset','comment']]
+
+    cols = all_new_combined_data_summary.columns.tolist()
+    cols.remove('value')
+    #sum up duplicate rows
+    all_new_combined_data_summary = all_new_combined_data_summary.groupby(cols).sum().reset_index()
+
+    #pivot dat so we have a col for each masure
+    cols.remove('measure')
+
+    all_new_combined_data_summary = all_new_combined_data_summary.pivot_table(index=cols, columns='measure', values='value').reset_index()
+    
+    #PLOT
+    for economy in all_new_combined_data_summary['economy'].unique():
+        fig = px.line(all_new_combined_data_summary[all_new_combined_data_summary['economy']==economy], x="date", y="energy",facet_col='transport_type',facet_col_wrap=2, color='medium',title='energy for {}'.format(economy), markers=True, hover_data=['dataset'])
+        #save as html]
+        fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/enegy_comparison_{}.html'.format(economy), auto_open=False)
+
+        #times activity by 1billion with lines and dots
+        all_new_combined_data_summary['activity_billion'] = all_new_combined_data_summary['activity']*1000000000
+        fig = px.line(all_new_combined_data_summary[all_new_combined_data_summary['economy']==economy], x="date", y="activity_billion",facet_col='transport_type',facet_col_wrap=2, color='medium',title='activity for {}'.format(economy), markers=True, hover_data=['dataset'])
+        #save as html]
+        # fig.write_html('plotting_output/data_selection/analysis/finalised_by_economy_plotly/activity_comparison_{}.html'.format(economy), auto_open=False)
+        fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/activity_comparison_{}.html'.format(economy), auto_open=False)
+
+        #calculate intensity suig activity buillion
+        all_new_combined_data_summary['intensity'] = all_new_combined_data_summary['energy']/all_new_combined_data_summary['activity_billion']
+        fig = px.line(all_new_combined_data_summary[all_new_combined_data_summary['economy']==economy], x="date", y="intensity",facet_col='transport_type',facet_col_wrap=2, color='medium',title='intensity for {} (pj/billion unit km)'.format(economy), markers=True, hover_data=['dataset'])
+        #save as html
+        fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/intensity_comparison_{}.html'.format(economy), auto_open=False)
+
+    #now plot every unique measure for road. We will plot a plot for each economy, and then facet cols by vehicle type. then color will be the drive.
+    #first get the data
+    road = all_new_combined_data[(all_new_combined_data['medium']=='road')].copy()
+
+    for measure in road.measure.unique():
+        for transport_type in road.transport_type.unique():
+            for economy in road.economy.unique():
+                fig = px.line(road[(road['economy']==economy) & (road['measure']==measure) &(road.transport_type == transport_type)], x="date", y="value",facet_col='vehicle_type',facet_col_wrap=2, color='drive',title='{} for {}'.format(measure,economy), markers=True, hover_data=['dataset'])
+                #save as html
+                fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/{}_{}_{}_road.html'.format(measure,transport_type,economy), auto_open=False)
+
+
+
 def plot_plotly_non_road_energy_estimations_by_economy(egeda_energy_combined_data_merged_tall, paths_dict):
     #plot a plotly graph for each economy, with the absolute and proportion as facets. so first we will melt the data. But also plot it as a scatter plot so the data is not lost
     egeda_energy_combined_data_merged_tall_new= egeda_energy_combined_data_merged_tall.copy()
@@ -138,61 +219,6 @@ def plot_intensity(intensity,paths_dict):
     plot = px.box(intensity,x='intensity',y='medium$transport_type',color='medium$transport_type', hover_data=['economy'], title='intensity by medium and transport type (PJ / km))')
     plot.write_html(paths_dict['plotting_paths']['plot_intensity']+'/intensity_boxes.html', auto_open=False)
 
-def plot_final_data_energy_activity(all_new_combined_data,paths_dict):
-    #PREP
-    #drop any 0s or any nas in the value col
-    all_new_combined_data = all_new_combined_data[all_new_combined_data['value']!=0]
-    all_new_combined_data = all_new_combined_data.dropna(subset=['value'])
-
-    #plot the data's activity and energy use using plotly
-    all_new_combined_data_summary = all_new_combined_data.copy()
-    # #rename passengerkm and freightkm to activity
-    # all_new_combined_data_summary.loc[all_new_combined_data_summary['measure']=='passenger_km','measure'] = 'activity'
-    # all_new_combined_data_summary.loc[all_new_combined_data_summary['measure']=='freight_tonne_km','measure'] = 'activity'
-
-    #drop cols taht arent: date, economy, medium, transport_type, measure, value
-    all_new_combined_data_summary = all_new_combined_data_summary[['date', 'economy', 'medium', 'transport_type', 'measure', 'value']]
-
-    #sum up duplicate rows
-    all_new_combined_data_summary = all_new_combined_data_summary.groupby(['date', 'economy', 'medium', 'transport_type', 'measure']).sum().reset_index()
-
-    #pivot dat so we have a col for each masure
-    cols = all_new_combined_data_summary.columns.tolist()
-    cols.remove('value')
-    cols.remove('measure')
-
-    all_new_combined_data_summary = all_new_combined_data_summary.pivot_table(index=cols, columns='measure', values='value').reset_index()
-    
-    #PLOT
-    for economy in all_new_combined_data_summary['economy'].unique():
-        fig = px.line(all_new_combined_data_summary[all_new_combined_data_summary['economy']==economy], x="date", y="energy",facet_col='transport_type',facet_col_wrap=2, color='medium',title='energy for {}'.format(economy), markers=True)
-        #save as html]
-        fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/enegy_comparison_{}.html'.format(economy), auto_open=False)
-
-        #times activity by 1billion 
-        all_new_combined_data_summary['activity_billion'] = all_new_combined_data_summary['activity']*1000000000
-        fig = px.line(all_new_combined_data_summary[all_new_combined_data_summary['economy']==economy], x="date", y="activity_billion",facet_col='transport_type',facet_col_wrap=2, color='medium',title='activity for {}'.format(economy), markers=True)
-        #save as html]
-        # fig.write_html('plotting_output/data_selection/analysis/finalised_by_economy_plotly/activity_comparison_{}.html'.format(economy), auto_open=False)
-        fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/activity_comparison_{}.html'.format(economy), auto_open=False)
-
-        #calculate intensity suig activity buillion
-        all_new_combined_data_summary['intensity'] = all_new_combined_data_summary['energy']/all_new_combined_data_summary['activity_billion']
-        fig = px.line(all_new_combined_data_summary[all_new_combined_data_summary['economy']==economy], x="date", y="intensity",facet_col='transport_type',facet_col_wrap=2, color='medium',title='intensity for {} (pj/km)'.format(economy), markers=True)
-        #save as html
-        fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/intensity_comparison_{}.html'.format(economy), auto_open=False)
-
-    #now plot every unique measure for road. We will plot a plot for each economy, and then facet cols by vehicle type. then color will be the drive.
-    #first get the data
-    road = all_new_combined_data[(all_new_combined_data['medium']=='road')].copy()
-
-    for measure in road.measure.unique():
-        for transport_type in road.transport_type.unique():
-            for economy in road.economy.unique():
-                fig = px.line(road[(road['economy']==economy) & (road['measure']==measure) &(road.transport_type == transport_type)], x="date", y="value",facet_col='vehicle_type',facet_col_wrap=2, color='drive',title='{} for {}'.format(measure,economy), markers=True, hover_data=['dataset'])
-                #save as html
-                fig.write_html(paths_dict['plotting_paths']['plot_final_data_energy_activity']+'/{}_{}_{}_road.html'.format(measure,transport_type,economy), auto_open=False)
-
 def compare_egeda_and_new_energy_totals(egeda_energy_combined_data,all_new_combined_data,plotting_folder,paths_dict):
     #double check we ahve the required directories:
     if not os.path.exists(paths_dict['plotting_paths']['plot_egeda_comparison']+'{}'.format(plotting_folder)):
@@ -261,23 +287,3 @@ def compare_egeda_and_new_energy_totals(egeda_energy_combined_data,all_new_combi
         fig.update_yaxes(matches=None, showticklabels=True)
         #save as html
         fig.write_html(paths_dict['plotting_paths']['plot_egeda_comparison']+'{}/total_energy_use_diff.html'.format(plotting_folder), auto_open=False)
-
-def plot_new_and_old_road_measures(road_combined,measures,new_measures,paths_dict):
-    #plot the old and new data for each measure using plotly. We will do this on a different plot for each measure, faceting by economy:
-    #drop non useufl cols
-    road_combined_plot = road_combined.copy()
-    road_combined_plot = road_combined_plot[['economy','date','drive','vehicle_type', 'transport_type'] + measures + new_measures]
-    #now melt measures
-    road_combined_plot = road_combined_plot.melt(id_vars=['economy','date','drive','vehicle_type','transport_type'], value_vars=measures + new_measures, var_name='measure', value_name='value')
-    #now plot
-    for measure in measures:
-        for transport_type in road_combined_plot['transport_type'].unique():
-            for economy in road_combined_plot['economy'].unique():
-                plot_data = road_combined_plot[road_combined_plot['measure'].isin([measure,'NEW_' + measure]) & (road_combined_plot['economy'] == economy) & (road_combined_plot['transport_type'] == transport_type)].copy()
-
-                fig = px.line(plot_data, x="date", y='value', facet_col="vehicle_type", color='drive', line_dash='measure', facet_col_wrap=7, markers=True)
-                #make the new values have different shaped markers so we can see them even if there is no line
-                fig.for_each_trace(lambda t: t.update(marker_symbol=t.marker_symbol + 4) if t.name == 'NEW_' + measure else ())
-                #save
-                fig.write_html(paths_dict['plotting_paths']['plot_new_and_old_road_measures'] + '/'+ transport_type+'_'+measure + '_' +economy+'.html', auto_open=False)
-

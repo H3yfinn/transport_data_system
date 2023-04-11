@@ -32,33 +32,31 @@ EARLIEST_DATE="2010-01-01"
 LATEST_DATE='2023-01-01'
 
 
-previous_FILE_DATE_ID =None
-FILE_DATE_ID = 'DATE20230408'#'DATE20230331'
+previous_FILE_DATE_ID ='DATE20230410'#None
+FILE_DATE_ID = 'DATE20230410'#'DATE20230331'
 
 paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID)
 
-df = pd.read_pickle(paths_dict['final_combined_data_not_rescaled'])
-plotting=False
+# df = pd.read_pickle(paths_dict['final_combined_data_not_rescaled'])
+plotting=True
 #%%
 import logging
 logger = logging.getLogger(__name__)
 
-#%%s
-#USE THIS FOR TESTING DURING DEBUGGPING BY LOADING IN SAVED PICKLES
-# all_combined_data.to_pickle('x.pkl')
-#load x.pkl
-x = pd.read_pickle('x.pkl')
 
-#find na's
-x.isna().sum()
-#find nones
-x.isnull().sum()
+combined_data_concordance = pd.read_pickle(paths_dict['final_data_csv'])
+# #%%
+# #find duplicates when you subset for 'date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium',
+# #    'transport_type', 'drive', 'fuel', 'frequency', 'scope'
+# duplicate_rows_df = combined_data_concordance[combined_data_concordance.duplicated(subset=['date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium', 'transport_type', 'drive', 'fuel', 'frequency', 'scope'], keep=False)]
+# #%%
+# #and order so we can see the duplicates
+# duplicate_rows_df = duplicate_rows_df.sort_values(by=['date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium', 'transport_type', 'drive', 'fuel', 'frequency', 'scope'])
+# # %%
+# if duplicate_rows_df.shape[0] > 0:
+#     print('There are {} duplicate rows in the combined data concordance'.format(duplicate_rows_df.shape[0]))
+#     print(duplicate_rows_df)
+# # %%
 
-
-
-#UNIT COL IS NA. SEE WHAT IS GOING ON
-x[x['unit'].isna()]
-# %%
-
-combined_data_concordance = pd.read_pickle(paths_dict['previous_combined_data_concordance'])
-combined_data = pd.read_pickle(paths_dict['previous_combined_data'])
+#sav as csv
+combined_data_concordance.to_csv(paths_dict['final_data_csv'])

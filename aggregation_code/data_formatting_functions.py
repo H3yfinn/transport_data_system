@@ -397,14 +397,19 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     #Use diff to remove data that isnt in the 9th edition concordance
     extra_rows = combined_data.index.difference(model_concordances_measures.index)
     filtered_combined_data = combined_data.drop(extra_rows)
+    #make extra rows into a dataframe
+    extra_rows_df = pd.DataFrame(index=extra_rows).reset_index()
+    # #compare extra rows where measure is intensity to the rows in missing_rows where measure is intensity
+    # extra_rows_df_intensity = extra_rows_df[extra_rows_df['measure'] == 'intensity']
+    # missing_rows_intensity = missing_rows_df[missing_rows_df['measure'] == 'intensity']
 
     #now see what we are missing:
     missing_rows = model_concordances_measures.index.difference(filtered_combined_data.index)
     #create a new dataframe with the missing rows
     missing_rows_df = pd.DataFrame(index=missing_rows).reset_index()
-    # save them to a csv
-    logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv. There are {} missing rows'.format(len(missing_rows)))
-    missing_rows_df.to_csv(paths_dict['missing_rows'])
+    # # save them to a csv
+    # logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv. There are {} missing rows'.format(len(missing_rows)))
+    # missing_rows_df.to_csv(paths_dict['missing_rows'])
     filtered_combined_data.reset_index(inplace=True)
     ############################################################
 
@@ -493,9 +498,11 @@ def filter_for_specifc_data(selection_dict, df, filter_for_all_other_data=False)
         for key, value in selection_dict.items():
             df = df[df[key].isin(value)]
     else:
-        #we have to find all data where the key is not in the value list. But we ahve to do this for the confluence of all keys. This can be done by getting the union of all rows that are not in the value list for the first key, of all rows that are not in the value list for the second key, and so on. Then filter for duplicates.
+        #we have to find all data where the key is not in the value list. But we ahve to do this for the confluence of all keys. This can be done by getting the union of all rows that are not in the value list for the first key, of all rows that are not in the value list for the second key, and so on. Then filter for duplicates. This is the equivalent to the oppostie of the intersection of all rows that are in the slection dict! 
         confluence = pd.DataFrame()
+        copy_df = df.copy()
         for key, value in selection_dict.items():
+            df = copy_df.copy()
             df = df[~df[key].isin(value)]
             confluence = pd.concat([confluence,df])
         #now filter out duplicates (but if we ahve the col potential_datapointsthen we will need to ignore it, because it is a list and you cannot compare lists)

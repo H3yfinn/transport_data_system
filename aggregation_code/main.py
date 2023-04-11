@@ -37,13 +37,14 @@ EARLIEST_DATE="2010-01-01"
 LATEST_DATE='2023-01-01'
 
 previous_selections_file_path = None#'input_data/previous_selections/combined_data_concordance (1).pkl'
-previous_FILE_DATE_ID =None#'DATE20230407'
+previous_FILE_DATE_ID ='DATE20230410'
+
 if previous_FILE_DATE_ID is not None:#you can set some of these to false if you want to do some of the steps manually
     load_data_creation_progress = True
     load_stocks_mileage_occupancy_load_efficiency_selection_progress = True
     load_stocks_mileage_occupancy_load_efficiency_interpolation_progress = True
-    load_energy_activity_selection_progress = True
-    load_energy_activity_interpolation_progress = True
+    load_energy_activity_selection_progress = False
+    load_energy_activity_interpolation_progress = False
     
 else:  
     load_data_creation_progress = False
@@ -167,10 +168,17 @@ def main():
     ####################################################
     #BEGIN DATA SELECTION PROCESS FOR ALL REMAINING DATA
     ####################################################
-        
+    
+    #set filter_for_all_other_data to True to find all other data that is not in the road measures selection dict
     all_other_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data, filter_for_all_other_data=True)
     all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data_concordance, filter_for_all_other_data=True)
 
+
+    #now drop all energy and activity for air, rail and ship, as well as for
+    non_road_measures_exclusion_dict  = {'medium':['air','rail','ship'],
+                                         'measure':['energy','activity']}
+    all_other_combined_data = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data, filter_for_all_other_data=True)
+    all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data_concordance, filter_for_all_other_data=True)
     ####################################################
     #BEGIN DATA SELECTION PROCESS FOR ENERGY AND PASSENGER KM
     ####################################################
@@ -208,7 +216,7 @@ def main():
     #join the two datasets together
     all_combined_data = pd.concat([stocks_mileage_occupancy_load_efficiency_combined_data,all_other_combined_data],axis=0)
 
-    all_combined_data_concordance = pd.concat([new_combined_data_concordance,all_other_combined_data_concordance],axis=0)
+    all_combined_data_concordance = pd.concat([stocks_mileage_occupancy_load_efficiency_combined_data_concordance,all_other_combined_data_concordance],axis=0)
 
     all_combined_data_concordance.to_pickle(paths_dict['all_selections_done_combined_data_concordance'])
     all_combined_data.to_pickle(paths_dict['all_selections_done_combined_data'])
@@ -216,14 +224,11 @@ def main():
     #CALCUALTE NON ROAD ENERGY AND ACTIVITY DATA
     ####################################################
 
-    
-    #todo nas in below
     non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict)
     non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, paths_dict)
     activity_non_road = data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
-
     #concatenate all the data together
-    all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity_non_road],axis=0)
+    all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity_non_road],axis=0)#todo check for anything unexpected here
     #save to pickle
     all_new_combined_data.to_pickle(paths_dict['final_combined_data_not_rescaled'])
 
@@ -242,7 +247,7 @@ def main():
     combined_rescaled_data.to_pickle(paths_dict['final_combined_rescaled_data'])
 
     #save to output_data
-    combined_rescaled_data.to_pickle(paths_dict['final_data_csv'])
+    combined_rescaled_data.to_csv(paths_dict['final_data_csv'], index=False)
 
     ####################################################
     #FINALISE DATA

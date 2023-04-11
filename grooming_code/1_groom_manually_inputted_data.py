@@ -33,6 +33,12 @@ for sheet in wb.sheet_names:
     else:
         concordance_other = df.copy()
 
+#drop 'Value_MJ' col if it exists
+if 'Value_MJ' in concat_df_road.columns:
+    concat_df_road = concat_df_road.drop('Value_MJ',axis=1)
+if 'Value_MJ' in concat_df_other.columns:
+    concat_df_other = concat_df_other.drop('Value_MJ',axis=1)
+
 
 def extend_df_for_missing_dates(df):
     #now we want to fill in with as many dates as we need. For now we will assume that is between 2010 and the current year
@@ -61,7 +67,7 @@ def extend_df_for_missing_dates(df):
 
 concat_df_road = extend_df_for_missing_dates(concat_df_road)
 concat_df_other = extend_df_for_missing_dates(concat_df_other)
-
+#%%
 def convert_occupancy_and_load_to_occupancy_or_load(df):
     #take in the data for occupan and laod and combine them into one measure
     #note that this is likely to be use for some time.
@@ -105,15 +111,15 @@ def save_df_to_csv(df,save_path, file_name_start):
     if prev_file_date == None:
         #save the data
         FILE_DATE_ID = 'DATE{}'.format(datetime.datetime.now().strftime('%Y%m%d'))
-        df.to_csv(f'./intermediate_data/{file_name_start}{FILE_DATE_ID}.csv',index=False)
+        df.to_csv(f'{save_path}/{file_name_start}{FILE_DATE_ID}.csv',index=False)
     else:
         FILE_DATE_ID_prev = 'DATE{}'.format(prev_file_date)
-        prev_file_path = f'./intermediate_data/{file_name_start}{FILE_DATE_ID_prev}.csv'
+        prev_file_path = f'{save_path}/{file_name_start}{FILE_DATE_ID_prev}.csv'
 
         if utility_functions.compare_data_to_previous_version_of_data_in_csv(df,prev_file_path):
             #save the data
             FILE_DATE_ID = 'DATE{}'.format(datetime.datetime.now().strftime('%Y%m%d'))
-            df.to_csv(f'./intermediate_data/{file_name_start}{FILE_DATE_ID}.csv',index=False)
+            df.to_csv(f'{save_path}/{file_name_start}{FILE_DATE_ID}.csv',index=False)
 
 #%%
 save_df_to_csv(concat_df_road,'./intermediate_data/estimated','manually_inputted_data_cleaned_road')

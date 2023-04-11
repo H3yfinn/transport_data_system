@@ -120,7 +120,7 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
 #     #concat with combined data
 #     combined_data = pd.concat([combined_data,combined_data_road],sort=False)
 
-    return combined_data
+    # return combined_data
 
 
 def calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, paths_dict):
@@ -149,7 +149,6 @@ def calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combi
     
     #set dataset to 'estimated'
     data['dataset'] = 'estimated $ calculate_energy_and_activity()'
-    #set source
 
     #set comment to 'no_comment'
     data['comment'] = 'no_comment'
@@ -249,7 +248,6 @@ def clean_up_finalised_non_road_energy_df(new_egeda_energy_data):
 
     new_egeda_energy_data['measure'] = 'energy'
     new_egeda_energy_data['dataset'] = 'egeda_split_into_transport_types $ egeda/8th_ref'
-    new_egeda_energy_data['source'] = 'egeda'
     new_egeda_energy_data['unit'] = 'pj'
     new_egeda_energy_data['transport_type'] = 'all'
     new_egeda_energy_data['fuel'] = 'all'
@@ -410,54 +408,54 @@ def prepare_previous_energy_activity_data(previous_draft_transport_data_system_d
 
     return energy_activity_wide
 
-def calcualte_intensity_from_previous_data(energy_activity_wide,paths_dict):
+# def calcualte_intensity_from_previous_data(energy_activity_wide,paths_dict):
 
 
-    #calvc intensity
-    energy_activity_wide['intensity'] = energy_activity_wide['energy']/energy_activity_wide['activity']
+#     #calvc intensity
+#     energy_activity_wide['intensity'] = energy_activity_wide['energy']/energy_activity_wide['activity']
 
-    #we will really only have intensity for 2017 because we lack energy data for the other years. But we can just use the 2017 intensity for all years if needed. Also some economys will have really weird intensity values. So we will calcualte the avergae intensity for each transport type/medium combination and use that for the other economys.
-    #so lets group by transport type and medium, filter out outliers and then calcualte the average intensity for each group
-    intensity_average = energy_activity_wide.dropna(subset=['intensity'])
-    #join medium and transport type
-    intensity_average['medium$transport_type'] = intensity_average['medium'] + '$' + intensity_average['transport_type']
-    unique_medium_transport_type = intensity_average['medium$transport_type'].unique()
-    #drop activity and energy
-    intensity_average = intensity_average.drop(columns=['activity','energy'])
-    #pivot so we ahve a col for each unique medium$transport_type
-    intensity_average_wide = intensity_average.pivot(index=['date','economy'], columns='medium$transport_type', values='intensity').reset_index()
+#     #we will really only have intensity for 2017 because we lack energy data for the other years. But we can just use the 2017 intensity for all years if needed. Also some economys will have really weird intensity values. So we will calcualte the avergae intensity for each transport type/medium combination and use that for the other economys.
+#     #so lets group by transport type and medium, filter out outliers and then calcualte the average intensity for each group
+#     intensity_average = energy_activity_wide.dropna(subset=['intensity'])
+#     #join medium and transport type
+#     intensity_average['medium$transport_type'] = intensity_average['medium'] + '$' + intensity_average['transport_type']
+#     unique_medium_transport_type = intensity_average['medium$transport_type'].unique()
+#     #drop activity and energy
+#     intensity_average = intensity_average.drop(columns=['activity','energy'])
+#     #pivot so we ahve a col for each unique medium$transport_type
+#     intensity_average_wide = intensity_average.pivot(index=['date','economy'], columns='medium$transport_type', values='intensity').reset_index()
 
-    #do some stats magic to remove outliers and then fill then wth the mean of the rest of the values
-    import scipy.stats as stats
-    for col in unique_medium_transport_type:
-        #get z score for this col and set any values to na where z score is > 2
-        #make col int
-        intensity_average_wide[col] = intensity_average_wide[col].astype(float)
-        #replace 0's with nan
-        intensity_average_wide.loc[intensity_average_wide[col]==0, col] = np.nan
-        intensity_average_wide[col+'_z'] = np.abs(stats.zscore(intensity_average_wide[col], nan_policy='omit'))
-        intensity_average_wide.loc[intensity_average_wide[col+'_z']>2, col] = np.nan
-        #calcualte mean for this col excluding na
-        mean = intensity_average_wide[col].mean()
-        #replace na with mean
-        intensity_average_wide[col] = intensity_average_wide[col].fillna(mean)
-        #drop z score col
-        intensity_average_wide = intensity_average_wide.drop(columns=[col+'_z'])
-    del stats
-    #melt back to long format
-    intensity_average = intensity_average_wide.melt(id_vars=['date','economy'], var_name='medium$transport_type', value_name='intensity')
+#     #do some stats magic to remove outliers and then fill then wth the mean of the rest of the values
+#     import scipy.stats as stats
+#     for col in unique_medium_transport_type:
+#         #get z score for this col and set any values to na where z score is > 2
+#         #make col int
+#         intensity_average_wide[col] = intensity_average_wide[col].astype(float)
+#         #replace 0's with nan
+#         intensity_average_wide.loc[intensity_average_wide[col]==0, col] = np.nan
+#         intensity_average_wide[col+'_z'] = np.abs(stats.zscore(intensity_average_wide[col], nan_policy='omit'))
+#         intensity_average_wide.loc[intensity_average_wide[col+'_z']>2, col] = np.nan
+#         #calcualte mean for this col excluding na
+#         mean = intensity_average_wide[col].mean()
+#         #replace na with mean
+#         intensity_average_wide[col] = intensity_average_wide[col].fillna(mean)
+#         #drop z score col
+#         intensity_average_wide = intensity_average_wide.drop(columns=[col+'_z'])
+#     del stats
+#     #melt back to long format
+#     intensity_average = intensity_average_wide.melt(id_vars=['date','economy'], var_name='medium$transport_type', value_name='intensity')
     
-    if plotting:
-        analysis_and_plotting_functions.plot_intensity(intensity_average, paths_dict)
+#     if plotting:
+#         analysis_and_plotting_functions.plot_intensity(intensity_average, paths_dict)
 
-    #separate medium and transport type
-    intensity_average['medium'] = intensity_average['medium$transport_type'].str.split('$').str[0]
-    intensity_average['transport_type'] = intensity_average['medium$transport_type'].str.split('$').str[1]
-    #drop medium$transport_type
-    intensity_average = intensity_average.drop(columns=['medium$transport_type'])
-    intensity = intensity_average
+#     #separate medium and transport type
+#     intensity_average['medium'] = intensity_average['medium$transport_type'].str.split('$').str[0]
+#     intensity_average['transport_type'] = intensity_average['medium$transport_type'].str.split('$').str[1]
+#     #drop medium$transport_type
+#     intensity_average = intensity_average.drop(columns=['medium$transport_type'])
+#     intensity = intensity_average
 
-    return intensity
+#     return intensity
 
 def clean_activity(energy_activity):
     activity = energy_activity.drop(columns=['value','intensity'])
@@ -470,10 +468,8 @@ def clean_activity(energy_activity):
     activity['unit'] = 'passenger_km_or_freight_tonne_km'
     #rename actitvity to vlaue
     activity = activity.rename(columns={'activity':'value'})
-    #make source to previous_data_system
-    activity['source'] = 'previous_data_system'
     #dataset to activity_est
-    activity['dataset'] = 'activity_est $ previous_data_system'
+    activity['dataset'] = 'activity_est $ intensity_times_energy'
     #and set these:	fuel	comment	scope	frequency	drive	vehicle_type
     activity['fuel'] = 'all'
     activity['comment'] = 'no_comment'
@@ -506,30 +502,19 @@ def extract_intensity_non_road(all_combined_data):
     return intensity
 
 def estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict):
-    calculated_road_energy, calculated_road_activity = extract_calculated_road_energy_activity(all_combined_data)
-    #combined non road and road energy. 
-    energy = pd.concat([non_road_energy,calculated_road_energy])
 
-    
-    # previous_draft_transport_data_system_df = import_previous_draft_selections()
-    # previous_energy_activity_wide = prepare_previous_energy_activity_data(previous_draft_transport_data_system_df)
-    # previous_intensity = calcualte_intensity_from_previous_data(previous_energy_activity_wide,paths_dict)
     intensity = extract_intensity_non_road(all_combined_data)
 
     #now times the intenstiy by the energy values weve calcualted to get the activity
-    energy_activity = energy.merge(intensity,how='left',on=['date',	'economy',	'medium', 'transport_type'])
+    energy_activity = non_road_energy.merge(intensity,how='left',on=['date',	'economy',	'medium', 'transport_type'], suffixes=('', '_intensity'))
+    #drop any cols ending in _intensity
+    energy_activity = energy_activity.drop(columns=[col for col in energy_activity.columns if col.endswith('_intensity')]) 
+    
     energy_activity['activity'] = energy_activity['value']/energy_activity['intensity']
 
     activity = clean_activity(energy_activity)
 
-    # if plotting:#global variable in main()
-    #     analysis_and_plotting_functions.plot_activity(activity,calculated_road_activity,previous_energy_activity_wide,paths_dict)
-
-    #drop rows where measure = activity and medium = road
-    activity_non_passenger_road = activity.copy()
-    activity_non_passenger_road = activity_non_passenger_road.loc[~((activity_non_passenger_road['measure']=='activity')&(activity_non_passenger_road['medium']=='road'))]
-
-    return activity_non_passenger_road
+    return activity
 
 def find_percent_diff_for_missing_years_in_egeda(merged_data):
     #since we mayu be missing some years in the dataset we use to rescale total energy use we will need to find the % diff for the years we are missing. We will do this by finding the average % diff for the years we have and then applying this to the years we are missing
@@ -545,8 +530,7 @@ def find_percent_diff_for_missing_years_in_egeda(merged_data):
     return merged_data
 
 def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict):
-    #     #take in new data and compare the total energy for each medium to the total energy in egeda. If it is not the same, then we need to rescale the data. Given that the proportions of all the mediums to each other are the same as in the egeda data, we should decrease all by the % needed. However to decrease passenger road we should choose on one of either mileage or efficiency. We can do this by doing data['energy'] = data['mileage'] * data['stocks'] * data['efficiency'] > mileage = data['energy'] / data['stocks'] * data['efficiency'] where energy is the new energy we need.
-    #     #we can then do the same for efficiency. We can then compare the two and choose the one that seems right.
+    #     #take in new data and compare the total energy for each medium to the total energy in egeda. If it is not the same, then we need to rescale the data. Given that the proportions of all the mediums to each other are the same as in the egeda data, we should decrease all by the % needed. However to decrease passenger road we should choose on one of either mileage, stocks, load/occ or efficiency. We can do this by doing data['energy'] = data['mileage'] * data['stocks'] * data['efficiency'] > mileage = data['energy'] / data['stocks'] * data['efficiency'] where energy is the new energy we need.
 
     #FIRST GET THE DATA IN
     egeda_energy_combined_data, new_energy = compare_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict)
@@ -566,8 +550,8 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     #now we will grab the road data to recalcualte either mileage or efficiency
     road_energy = all_new_combined_data[(all_new_combined_data['medium'] == 'road')]
 
-    #pivot so the measure col is wide. first have to drop unit dataset	source 
-    road_energy = road_energy.drop(columns=['unit','dataset','source'])
+    #pivot so the measure col is wide. first have to drop unit col 
+    road_energy = road_energy.drop(columns=['unit','dataset'])
     cols = road_energy.columns.tolist()
     cols.remove('value')
     cols.remove('measure')
@@ -578,15 +562,17 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     road_combined['NEW_energy'] = road_combined['energy'] * road_combined['%_diff']
 
     #if we want to reclaculate mileage then we will need to do it using the efficiency and stocks data, and vice versa for efficiency and stocks
-    road_combined['NEW_mileage'] = road_combined['NEW_energy'] / (road_combined['stocks'] * road_combined['efficiency'])
+    road_combined['NEW_mileage'] = (road_combined['NEW_energy'] * road_combined['efficiency']) / (road_combined['stocks'] )
 
-    road_combined['NEW_efficiency'] = road_combined['NEW_energy'] / (road_combined['stocks'] * road_combined['mileage'])
+    road_combined['NEW_efficiency'] =(road_combined['stocks'] * road_combined['mileage']) / road_combined['NEW_energy'] 
 
-    road_combined['NEW_stocks'] = road_combined['NEW_energy'] / (road_combined['efficiency'] * road_combined['mileage'])
+    road_combined['NEW_stocks'] = (road_combined['efficiency'] *road_combined['NEW_energy']) / ( road_combined['mileage'])
     
     measures = ['mileage','efficiency','stocks']
     new_measures = ['NEW_' + measure for measure in measures]
 
+    #create new dataset col called 'rescaled'
+    road_combined['dataset'] = 'rescaled'
     if plotting:
         analysis_and_plotting_functions.plot_new_and_old_road_measures(road_combined,measures,new_measures,paths_dict)
 
@@ -596,8 +582,25 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     #And it might be nice to find an effective way of splitting the effect between mileage and eff and stocks. #TODO later. i guess it would be by finding new_mileage_eff = new_mileage*new_eff=energy/stocks. Then we can find the % diff between new_mileage_eff and old_mileage_eff. Then split that difference between the two somehow.
 
     #todo. finding that thius causes nas in years we dont hav e egeda datya. need to probs find avg % diff and use that for those years.
-    mileage=True
-    if mileage:
+    stocks=True
+    mileage=False
+    if stocks:
+        logging.info('rescaling road stocks by an average of {} to decrease energy by an average of {} across all economys. See graphs in plotting_output/data_selection/analysis/egeda_scaling/ +measure + _ +economy+.html for more'.format(round(road_combined['NEW_stocks'].sum() / road_combined['stocks'].sum(),2),round(merged_data['%_diff'].mean(),2)))
+
+        #change the mileage col to the new mileage col        
+        road_combined['stocks'] = road_combined['NEW_stocks']
+        road_combined['energy'] = road_combined['NEW_energy']
+
+        #keep only INDEX cols and the stocks and energy cols
+        index_cols_in_df = [col for col in road_combined.columns.tolist() if col in paths_dict['INDEX_COLS']]
+        road_combined = road_combined[['stocks','energy']+index_cols_in_df]
+        #double check for duplicates
+        if road_combined.duplicated().any():
+            raise Exception('duplicates in road_combined')
+        #melt back to long format
+        road_combined = road_combined.melt(id_vars=index_cols_in_df, value_vars=['stocks','energy'], var_name='measure', value_name='value')
+    
+    elif mileage:
         logging.info('rescaling road mileage by an average of {} to decrease energy by an average of {} across all economys. See graphs in plotting_output/data_selection/analysis/egeda_scaling/ +measure + _ +economy+.html for more'.format(round(road_combined['NEW_mileage'].mean() / road_combined['mileage'].mean(),2),round(merged_data['%_diff'].mean(),2)))
 
         #change the mileage col to the new mileage col        
@@ -607,7 +610,7 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
         #keep only INDEX cols and the mileage and energy cols
         index_cols_in_df = [col for col in road_combined.columns.tolist() if col in paths_dict['INDEX_COLS']]
         #drop dataset and source cols
-        index_cols_in_df = [col for col in index_cols_in_df if col not in ['dataset','source']]
+        index_cols_in_df = [col for col in index_cols_in_df if col not in ['dataset']]
         road_combined = road_combined[['mileage','energy']+index_cols_in_df]
         #double check for duplicates
         if road_combined.duplicated().any():
@@ -624,7 +627,7 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     #change the value to the new value where its not nan
     new_road.loc[new_road['value_new'].notnull(),'value'] = new_road.loc[new_road['value_new'].notnull(),'value_new']
     #change source so it is dataset+source
-    new_road.loc[new_road['value_new'].notnull(),'source'] = new_road.loc[new_road['value_new'].notnull(),'dataset'] + '_' + new_road.loc[new_road['value_new'].notnull(),'source']
+    # new_road.loc[new_road['value_new'].notnull(),'source'] = new_road.loc[new_road['value_new'].notnull(),'dataset'] + '_' + new_road.loc[new_road['value_new'].notnull(),'source']
     #change dataset to 'egeda_scaling'
     new_road.loc[new_road['value_new'].notnull(),'dataset'] = 'egeda_scaling'
     #drop the value_new col
@@ -636,8 +639,8 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     combined = pd.merge(non_road_energy, merged_data[['economy','date','%_diff']], on=['economy','date'], how='left')
     #where measure is energy times %_diff
     combined.loc[combined['measure'] == 'energy','value'] = combined.loc[combined['measure'] == 'energy','value'] * combined.loc[combined['measure'] == 'energy','%_diff']
-    #and change source to dataset+source
-    combined.loc[combined['measure'] == 'energy','source'] = combined.loc[combined['measure'] == 'energy','dataset'] + '_' + combined.loc[combined['measure'] == 'energy','source']
+    # #and change source to dataset+source
+    # combined.loc[combined['measure'] == 'energy','source'] = combined.loc[combined['measure'] == 'energy','dataset'] + '_' + combined.loc[combined['measure'] == 'energy','source']
     #and change dataset to 'egeda_scaling'
     combined.loc[combined['measure'] == 'energy','dataset'] = 'egeda_scaling'
     #put pass road in
