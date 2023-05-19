@@ -58,6 +58,10 @@ else:
 #2. Combine the data into a single dataframe
 #3. OPTIONAL Filter the data to only include the combinations of columns categories that are required for the 9th edition of the aperc transport model, via the model_concordances_measures.csv file.
 #4. OPTIONAL do some temporary data cleaning to make the data more consistent with the 9th edition of the aperc transport model. This is due to the difficulty of committing to one form of input data
+
+"""Reasoning:
+wide range of datapoints
+tracking of """
 #%%
 def main():
     ################################################################
@@ -85,6 +89,15 @@ def main():
         else:
             combined_data = unfiltered_combined_data.copy()
         #since we dont expect to run the data selection process that often we will just save the data in a dated folder in intermediate_data/data_selection_process/FILE_DATE_ID/
+
+        #TEMP MANUAL ADJUSTMENT FUNCTION
+        combined_data = data_formatting_functions.filter_for_most_detailed_stocks_breakdown(combined_data)
+        # def filter_for_most_detailed_drive_breakdown(combined_data):
+        #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
+        #     """
+        #TEMP
+
+
 
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
 

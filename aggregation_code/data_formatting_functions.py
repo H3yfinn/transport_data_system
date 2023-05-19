@@ -47,6 +47,16 @@ Functions we need:
 
 """
 
+def filter_for_most_detailed_stocks_breakdown(combined_data):
+    """this will run through each economys data and identify if there is any datasets with data on lcv's and ldv's or only datasets with only ldv's. if there is a dataset with data on both then it will remove the dataset with only ldv's. This is because we want to use the most detailed breakdown of stocks as possible. 
+    This will make the assumption that the data on lcv's and ldv's is more accurate than the data on ldv's only."""
+    for economy in combined_data['economy'].unique():
+        economy_data = combined_data[combined_data['economy']==economy]
+        if 'lcv' in economy_data['vehicle_type'].unique() and 'ldv' in economy_data['vehicle_type'].unique():
+            logger.info('removing ldv data for economy: '+economy)
+            combined_data = combined_data[~((combined_data['economy']==economy)&(combined_data['vehicle_type']=='ldv'))]
+    return combined_data
+
 def extract_latest_groomed_data():
     #open the yml and extract the datasets:
     with open('config/selection_config.yml', 'r') as ymlfile:
