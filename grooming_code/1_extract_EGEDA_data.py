@@ -148,7 +148,7 @@ mediums_to_sectors['rail'] = ['15.3 Rail']
 mediums_to_sectors['ship'] = ['15.4 Domestic navigation']
 mediums_to_sectors['pipeline'] = ['15.5 Pipeline transport']
 mediums_to_sectors['nonspecified'] = ['15.6 Non-specified transport']
-mediums_to_sectors[np.nan] = ['15. Transport sector']
+mediums_to_sectors[np.nan] = ['15. Transport sector']#if the sector is 15. Transport sector then the medium is nan, and the value is the total
 #%%
 a = egeda_transport.dropna(subset=['value'])
 
@@ -240,3 +240,34 @@ egeda_transport_total.style.applymap(lambda x: 'background-color: red' if x == F
 # #now plot bar chart with economy on x, grouped by medium, and value on why
 
 # %%
+
+#Because we are interested in how transport and industry interact we will also extract industry energy use:
+egeda_industry = egeda[egeda['Sector'] == '14. Industry sector']
+
+a = egeda_industry.dropna(subset=['value'])
+
+#rename sheet name to economy
+egeda_industry.rename(columns={'sheet_name':'Economy', 'year':'Date','value':'Value', 'Fuel_Type': 'Fuel_Type'}, inplace=True)
+
+#create yyyy-mm-dd date so the date s the 31 of december of the year
+egeda_industry['Date'] = egeda_industry['Date'] +'-12-31'
+
+#%%
+#there are a lot of nan in the value col so we will drop them
+egeda_industry.dropna(subset=['Value'], inplace=True)
+#and remove 0's
+egeda_industry = egeda_industry[egeda_industry['Value'] != 0]
+#%%
+# Remove the Sector column
+egeda_industry.drop(columns=['Sector'], inplace=True)
+
+#save the data
+egeda_industry.to_csv('intermediate_data/EGEDA/egeda_industry_output{}.csv'.format(FILE_DATE_ID), index=False)
+
+# # %%
+# #now extract certain fuel uses if they are only used for one thing: 
+# air = ['7.02 Aviation gasoline','7.04 Gasoline type jet fuel', '7.05 Kerosene type jet fuel']
+# #extract air
+# egeda_air = egeda[egeda['Fuel_Type'].isin(air)]
+
+#%%
