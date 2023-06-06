@@ -62,7 +62,7 @@ else:
 """Reasoning:
 wide range of datapoints
 tracking of """
-#%%
+#%% 
 def main():
     ################################################################
     #SETUP
@@ -84,6 +84,7 @@ def main():
 
         if create_9th_model_dataset:
             #import snapshot of 9th concordance
+            #however, this doesnt include the years in the model_concordances_measures.csv file. They are determined by EARLIEST_DATE and LATEST_DATE
             model_concordances_base_year_measures_file_name = './input_data/concordances/9th/{}'.format('model_concordances_measures.csv')
             combined_data = data_formatting_functions.filter_for_9th_edition_data(unfiltered_combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all = True)
         else:
@@ -96,8 +97,6 @@ def main():
         #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
         #     """
         #TEMP
-
-
 
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
 

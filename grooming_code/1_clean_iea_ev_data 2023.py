@@ -30,7 +30,7 @@ PRINT_GRAPHS_AND_STATS = False
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 
-evs = pd.read_csv('input_data/IEA/IEA-EV-data.csv')
+evs = pd.read_csv('input_data/IEA/IEA GEVO 2023 data.csv')
 #%%
 #convert region to economy code where possible
 #first import the economy code to region mapping
@@ -59,16 +59,21 @@ evs.drop(columns=['region', 'Economy name'], inplace=True)
 #%%
 #now within the measure names, rename them to be consistent with the other data sources. First print the unique values
 evs.measure.unique()
+#2022 data measures:
 # 'EV sales', 'EV stock', 'EV sales share', 'EV stock share',
 #        'EV charging points', 'Oil displacement Mbd',
 #        'Oil displacement Mlge', 'Electricity demand'
+#2023 data measures:
+# ['EV sales', 'EV stock', 'EV sales share', 'EV stock share',
+#        'EV charging points', 'Electricity demand', 'Oil displacement Mbd',
+#        'Oil displacement, million lge']
 #rename the above to:
 # 'Sales', 'Stocks', 'Sales share', 'Stock share', 'EV Charging points','Oil displacement Mbd', 'Oil displacement Mlge', 'Energy'
-evs['measure'] = evs['measure'].replace({'EV sales':'Sales', 'EV stock':'Stocks', 'EV sales share':'Sales share', 'EV stock share':'Stock share', 'EV charging points':'EV Charging points', 'Oil displacement Mbd':'Oil displacement Mbd', 'Oil displacement Mlge':'Oil displacement Mlge', 'Electricity demand':'Energy'})
+evs['measure'] = evs['measure'].replace({'EV sales':'Sales', 'EV stock':'Stocks', 'EV sales share':'Sales share', 'EV stock share':'Stock share', 'EV charging points':'EV Charging points', 'Oil displacement Mbd':'Oil displacement Mbd', 'Oil displacement, million lge':'Oil displacement Mlge', 'Electricity demand':'Energy'})
 
 #%%
 #and change v type
-evs['vehicle type'].unique()#'Cars', 'EV', 'Vans', 'Buses', 'Trucks'
+evs['vehicle type'].unique()#'Cars', 'EV', 'Trucks', 'Vans', 'Buses'
  #Bit confused about 'EV' so take a look:
 evs[evs['vehicle type']=='EV']#it's for charging points so make it NA
 # so change all to: ldv, np.nan, van, bus, ht
@@ -98,19 +103,16 @@ evs[evs['drive']=='EV']#sales share and oil displacement is for 'EV's whjich ref
 #change to 'bev', 'EV' (for now), 'phev', np.nan, np.nan
 evs['drive'] = evs['drive'].replace({'BEV':'bev', 'EV':'bev and phev', 'PHEV':'phev'})
 evs['unit'].unique()#'sales', 'stock', 'percent', 'charging points',
-    #    'Milion barrels per day', 'Milion litres gasoline equivalent',
-    #    'GWh']
+#    'Vehicles', 'percent', 'charging points', 'GWh',
+#    'Milion barrels per day', 'Oil displacement, million lge'
 #keep all the same but we are going to change gwh to pj
 evs['unit'] = evs['unit'].replace({'GWh':'PJ', 'stock':'Stocks'})
 #and convert the values to PJ
 evs.loc[evs['unit']=='PJ', 'value'] = evs.loc[evs['unit']=='PJ', 'value'] * 0.0036
 #%%
 
-#remove specific duplciate for 04_CHL 2011 EV Charging points
-evs = evs[~((evs['Economy']=='04_CHL') & (evs['date']==2011) & (evs['source']=='Historical') & (evs['measure']=='EV Charging points'))]
-#check for duplicates
-evs[evs.duplicated()]
 
+#%%
 evs['Medium'] = 'road' 
 
 #where measure is EV Charging points then set transport type to 'combined'

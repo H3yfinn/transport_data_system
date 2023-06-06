@@ -155,7 +155,7 @@ def calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combi
     #todo: add in the range options
     return data
 
-
+ 
 def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data):
     #prep:
     #get egeda data
@@ -629,7 +629,7 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     #change source so it is dataset+source
     # new_road.loc[new_road['value_new'].notnull(),'source'] = new_road.loc[new_road['value_new'].notnull(),'dataset'] + '_' + new_road.loc[new_road['value_new'].notnull(),'source']
     #change dataset to 'egeda_scaling'
-    new_road.loc[new_road['value_new'].notnull(),'dataset'] = 'egeda_scaling'
+    new_road.loc[new_road['value_new'].notnull(),'dataset'] = 'egeda_scaling' + '_' + new_road.loc[new_road['value_new'].notnull(),'dataset']
     #drop the value_new col
     new_road = new_road.drop(columns=['value_new'])
 
@@ -642,7 +642,7 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     # #and change source to dataset+source
     # combined.loc[combined['measure'] == 'energy','source'] = combined.loc[combined['measure'] == 'energy','dataset'] + '_' + combined.loc[combined['measure'] == 'energy','source']
     #and change dataset to 'egeda_scaling'
-    combined.loc[combined['measure'] == 'energy','dataset'] = 'egeda_scaling'
+    combined.loc[combined['measure'] == 'energy','dataset'] = 'egeda_scaling' + '_' + combined.loc[combined['measure'] == 'energy','dataset']
     #put pass road in
     combined_rescaled_data = pd.concat([combined,new_road], axis=0)
     
