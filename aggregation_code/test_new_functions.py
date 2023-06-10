@@ -44,19 +44,35 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-combined_data_concordance = pd.read_pickle(paths_dict['final_data_csv'])
-# #%%
-# #find duplicates when you subset for 'date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium',
-# #    'transport_type', 'drive', 'fuel', 'frequency', 'scope'
-# duplicate_rows_df = combined_data_concordance[combined_data_concordance.duplicated(subset=['date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium', 'transport_type', 'drive', 'fuel', 'frequency', 'scope'], keep=False)]
-# #%%
-# #and order so we can see the duplicates
-# duplicate_rows_df = duplicate_rows_df.sort_values(by=['date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium', 'transport_type', 'drive', 'fuel', 'frequency', 'scope'])
-# # %%
-# if duplicate_rows_df.shape[0] > 0:
-#     print('There are {} duplicate rows in the combined data concordance'.format(duplicate_rows_df.shape[0]))
-#     print(duplicate_rows_df)
-# # %%
+# combined_data_concordance = pd.read_pickle(paths_dict['final_data_csv'])
+# # #%%
+# # #find duplicates when you subset for 'date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium',
+# # #    'transport_type', 'drive', 'fuel', 'frequency', 'scope'
+# # duplicate_rows_df = combined_data_concordance[combined_data_concordance.duplicated(subset=['date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium', 'transport_type', 'drive', 'fuel', 'frequency', 'scope'], keep=False)]
+# # #%%
+# # #and order so we can see the duplicates
+# # duplicate_rows_df = duplicate_rows_df.sort_values(by=['date', 'economy', 'measure', 'vehicle_type', 'unit', 'medium', 'transport_type', 'drive', 'fuel', 'frequency', 'scope'])
+# # # %%
+# # if duplicate_rows_df.shape[0] > 0:
+# #     print('There are {} duplicate rows in the combined data concordance'.format(duplicate_rows_df.shape[0]))
+# #     print(duplicate_rows_df)
+# # # %%
 
-#sav as csv
-combined_data_concordance.to_csv(paths_dict['final_data_csv'])
+# #sav as csv
+# combined_data_concordance.to_csv(paths_dict['final_data_csv'])
+#%%
+#intermediate_data/selection_process/DATE20230608/combined_data_error.pkl
+a = pd.read_pickle('intermediate_data/selection_process/DATE20230608/combined_data_error.pkl')
+# %%
+#loop though unique measures and print unique units
+for measure in a.measure.unique():
+    print(measure)
+    print(a[a.measure==measure].unit.unique())
+    print('-------------------')
+
+# sales
+# ['sales' 'vehicles']
+# -------------------
+# stocks
+# ['stocks' 'vehicles']
+# %%

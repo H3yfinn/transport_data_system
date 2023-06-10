@@ -103,6 +103,28 @@ def create_phev_and_ice_versions_of_values(df):
 
 concat_df_road = create_phev_and_ice_versions_of_values(concat_df_road)  
 #%%
+#dont think we need te below as i think we already have this data anyway
+# def create_cng_lpg_versions_of_values(df):
+#     #for now, use ice data to fill in the cng and lpg data. This is not ideal but it will do for now
+#     cng = df[df['Drive'].isin(['ice'])]
+#     cng['Drive'] = 'cng'
+#     cols = cng.columns.tolist()
+#     cols.remove('Value')
+#     cng = cng.groupby(cols).mean().reset_index()
+
+#     lpg = df[df['Drive'].isin(['ice'])]
+#     lpg['Drive'] = 'lpg'
+#     cols = lpg.columns.tolist()
+#     cols.remove('Value')
+#     lpg = lpg.groupby(cols).mean().reset_index()
+
+#     #drop lpg and cng from df
+#     df = pd.concat([df, lpg, ice], ignore_index=True)
+
+#     return df
+
+# concat_df_roadd = create_cng_lpg_versions_of_values(concat_df_road)
+#%%
 def save_df_to_csv(df,save_path, file_name_start):
     #now we want to save the data to csv. but make sure this data si different from the previous version of the data
     #get the date of the previous version of the data

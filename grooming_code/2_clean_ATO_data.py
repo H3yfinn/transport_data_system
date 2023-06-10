@@ -638,8 +638,8 @@ ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('Total Trans
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('vehicle_registration', 'Stocks')
 ATO_dataset_clean['Measure'] = ATO_dataset_clean['Measure'].replace('Total Transport CO2 emissions', 'co2_emissions')
 
-#where measure is Sales, make unit 'sales'
-ATO_dataset_clean.loc[ATO_dataset_clean['Measure'] == 'Sales', 'Unit'] = 'sales'
+#where measure is Sales, make unit 'Stocks'
+ATO_dataset_clean.loc[ATO_dataset_clean['Measure'] == 'Sales', 'Unit'] = 'Stocks'
 ATO_dataset_clean.loc[ATO_dataset_clean['Measure'] == 'Stocks', 'Unit'] = 'Stocks'
 ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('passenger kilometers', 'passenger_km')
 ATO_dataset_clean['Unit'] = ATO_dataset_clean['Unit'].replace('tonne kilometers', 'freight_tonne_km')

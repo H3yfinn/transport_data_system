@@ -25,6 +25,7 @@ INDEX_COLS = ['date',
  'economy',
  'measure',
  'vehicle_type',
+ 'vehicle_sub_type',
  'unit',
  'medium',
  'transport_type',
@@ -100,7 +101,8 @@ def main():
 
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
 
-        sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
+        sorting_cols = INDEX_COLS
+        sorting_cols.remove('unit')
 
         combined_data_concordance, combined_data = data_selection_functions.prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict, sorting_cols)
         
@@ -121,7 +123,7 @@ def main():
     #BEGIN DATA SELECTION PROCESS FOR STOCKS MILEAGE OCCUPANCY EFFICIENCY
     ####################################################
 
-    grouping_cols = ['economy','vehicle_type','drive']
+    grouping_cols = ['economy','vehicle_type','vehicle_sub_type','drive']
     road_measures_selection_dict = {'measure': 
         ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
     'medium': ['road']}

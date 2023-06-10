@@ -102,11 +102,11 @@ evs[evs['drive']=='EV']#sales share and oil displacement is for 'EV's whjich ref
 
 #change to 'bev', 'EV' (for now), 'phev', np.nan, np.nan
 evs['drive'] = evs['drive'].replace({'BEV':'bev', 'EV':'bev and phev', 'PHEV':'phev'})
-evs['unit'].unique()#'sales', 'stock', 'percent', 'charging points',
-#    'Vehicles', 'percent', 'charging points', 'GWh',
-#    'Milion barrels per day', 'Oil displacement, million lge'
+evs['unit'].unique()#array(['Vehicles', 'percent', 'charging points', 'PJ',
+    #    'Milion barrels per day', 'Oil displacement, million lge'],
+    #   dtype=object)
 #keep all the same but we are going to change gwh to pj
-evs['unit'] = evs['unit'].replace({'GWh':'PJ', 'stock':'Stocks'})
+evs['unit'] = evs['unit'].replace({'GWh':'PJ', 'Vehicles':'Stocks'})
 #and convert the values to PJ
 evs.loc[evs['unit']=='PJ', 'value'] = evs.loc[evs['unit']=='PJ', 'value'] * 0.0036
 #%%
