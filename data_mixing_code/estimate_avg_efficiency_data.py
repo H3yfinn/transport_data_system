@@ -23,7 +23,7 @@ combined_data_9th = pd.read_csv('./input_data/previous_selections/9th_dataset/co
 
 #%%
 analyse = True
-if analyse:
+if analyse: 
     #lets also load in passengerkm, freight tonne km and energy use data from the transport data system.
     # combined_data_9th = pd.read_csv('{}/output_data/9th_dataset/combined_dataset_{}.csv'.format(transport_data_system_folder,FILE_DATE_ID2))
     combined_data_9th = combined_data_9th[combined_data_9th.Measure.isin(['passenger_km','freight_tonne_km','Energy','Occupancy', 'Load'])]

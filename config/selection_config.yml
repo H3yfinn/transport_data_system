@@ -125,7 +125,11 @@ datasets:
     script: grooming_code/1_groom_manually_inputted_data.py
     included: True
     type: transport
-
-
-
+  USA_based_vehicle_efficiency_estimates:
+    file_path: intermediate_data/estimated/USA_based_vehicle_efficiency_estimates_FILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: insert_gathered_efficiency_data.py
+    included: True
+    type: transport
   
+ 

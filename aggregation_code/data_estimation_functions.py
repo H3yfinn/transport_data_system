@@ -25,6 +25,7 @@ plotting = True#change to false to stop plots from appearing
 # Using mileage, eff, occ and stocks we can estimate passenger km and energy. Where we are missing data eg. stocks, we will leave an na. 
 # enable adjusting the mileage, occ and eff data by specified ranges to get a range of options
 def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data):
+    """PLEASE NOTE THAT THIS IGNORES THE CNG OR LPG STOCKS THAT COULD BE IN THAT ECONOMY. SO THEY THEN WONT BE"""
     #using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
     #for any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
     combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all']

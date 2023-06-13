@@ -25,14 +25,14 @@ column_names_row = 1
 file_title_row = 0
 dfs_dict = {}
 #load in those files and print their structures:
-for f in  ['10302_buses_9-7-21.xlsx',
+for f in  [
  '10309_vmt_by_vehicle_type_3-26-20.xlsx',
  '10310_fuel_economy_by_vehicle_type_3-26-20.xlsx',
  '10311_passenger_mpg_5-18-23.xlsx']:
     #  '10661_Fuel_Use_by_Mode_and_Fuel_Type_5-17-23.xlsx',
     #  '10963_EV_range_efficiency_4-4-23.xlsx']:
     print(f)
-    dfs_dict[f] = pd.read_excel(r'E:\APERC\transport_data_system\input_data\USA\alternative_fuels_data_center\{}'.format(f))
+    dfs_dict[f] = pd.read_excel(r'.\input_data\USA\alternative_fuels_data_center\{}'.format(f))
     #make a measure col with the non na value in file title row
     measure = dfs_dict[f].iloc[file_title_row,:].dropna().values[0]
     #now make next row the column names
@@ -258,12 +258,15 @@ fuel_economy_by_vehicle_type = fuel_economy_by_vehicle_type.melt(id_vars=['Vehic
 #set the measure to fuel economy
 fuel_economy_by_vehicle_type['measure'] = 'Efficiency'
 #set the unit to mpg
-fuel_economy_by_vehicle_type['unit'] = 'Km_per_MJ'
-#we want our uhnit to be in terms of 'PJ per km' so do the conversion from Avg. Fuel Economy (mpg) to PJ per km: https://chat.openai.com/share/c81f01e1-8192-4681-8e8d-d2e1db9032c0
+fuel_economy_by_vehicle_type['unit'] = 'Km_per_PJ'#'Km_per_MJ'
+#we want our uhnit to be in terms of 'PJ per km' so do the conversion from Avg. Fuel Economy (mpg) to PJ per km: https://chat.openai.com/share/c81f01e1-8192-4681-8e8d-d2e1db9032c0 #note that it hallucinated a little bit in htere.
 # # The energy per distance for a vehicle with a fuel economy of 1 mile per gallon (mpg) is approximately 
 # #7.4088*10^-8 petajoules per kilometer (PJ/km).
 # # Please note that this conversion assumes the energy content of gasoline to be approximately 31.5 MJ/L. The actual energy content can vary depending on the specific formulation of the gasoline.
-fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value'] * 74.088#7.4088*10**-8
+#%%
+#since the vlaues will be so small, convert to scientific notation
+mpg_per_km_to_km_per_PJ =1.3497462477054316*10**7
+fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value']* mpg_per_km_to_km_per_PJ
 # hmm it might be good to convert values to a larger vlaue so its easier to remember.. eg.  74.088 MJ/km to one mile per gallon (mpg) .. just thinking about how to make this easier to remember\
 
 #set the medium to road
@@ -274,19 +277,27 @@ fuel_economy_by_vehicle_type['scope'] = 'national'
 fuel_economy_by_vehicle_type['date'] = '2019-12-31'
 #set the economy to 20_USA
 fuel_economy_by_vehicle_type['economy'] = '20_USA'
-#set the transport type to passenger
-fuel_economy_by_vehicle_type['transport_type'] = 'passenger'
 #set the vehicle sub type:
 fuel_economy_by_vehicle_type['Vehicle Type'].unique()
 #array(['Refuse Truck', 'Transit Bus', 'Class 8 Truck', 'School Bus',
 #    'Delivery Truck', 'Paratransit Shuttle', 'Light Truck/Van', 'Car',
 #    'Ridesourcing Vehicle', 'Motorcycle'], dtype=object)
-fuel_economy_by_vehicle_type['vehicle_sub_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'light truck','Transit Bus':'transit','Refuse Truck':'urban','Class 8 Truck':'heavy truck','Delivery Truck':'urban','School Bus':'urban','Paratransit Shuttle':'transit','Ridesourcing Vehicle':'ridesource'})
+fuel_economy_by_vehicle_type['vehicle_sub_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'light truck','Transit Bus':'transit','Refuse Truck':'urban','Class 8 Truck':'Class 8','Delivery Truck':'urban','School Bus':'urban','Paratransit Shuttle':'transit','Ridesourcing Vehicle':'ridesource'})
 #map vehicle type to better vehicle type
 fuel_economy_by_vehicle_type['vehicle_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'ldv','Motorcycle':'2w','Light Truck/Van':'ldv','Transit Bus':'bus','Refuse Truck':'ht','Class 8 Truck':'ht','Delivery Truck':'ht','School Bus':'bus','Paratransit Shuttle':'bus','Ridesourcing Vehicle':'ridesource'})
 #drop the vehicle type col
 fuel_economy_by_vehicle_type.drop('Vehicle Type',axis=1,inplace=True)
 
+#now depdning on the vehicle sub type, map the  transport type to passenger or freight
+fuel_economy_by_vehicle_type['transport_type'] = fuel_economy_by_vehicle_type['vehicle_sub_type'].map({
+    'car': 'passenger',
+    '2w': 'passenger',
+    'light truck': 'freight',
+    'transit': 'passenger',
+    'urban': 'freight',
+    'Class 8': 'freight',
+    'ridesource': 'passenger'
+})
 #avg
 fuel_economy_by_vehicle_type = fuel_economy_by_vehicle_type.groupby(['transport_type','vehicle_sub_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
 

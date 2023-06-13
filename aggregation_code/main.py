@@ -126,7 +126,8 @@ def main():
         ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
     'medium': ['road']}
     highlight_list = highlight_list+[]
-    datasets_to_always_use =['iea_ev_explorer $ historical']#['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
+    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center']#will this work? i dont know if historical is the right one to use here.
+    #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
 
     if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
         stocks_mileage_occupancy_load_efficiency_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
@@ -307,7 +308,7 @@ def main():
 
 #%%
 
-
+ 
 ################################################################################
 #FOR RUNNING THROUGH JUPYTER INTERACTIVE NOTEBOOK (FINNS SETUP, allows for running the function outside of the command line through jupyter interactive)
 ################################################################################
