@@ -49,16 +49,19 @@ Functions we need:
 
 def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
     """Note this is for stocks only
-    this will run through each economys data and identify if there is any datasets with data that specifies more than jsut the simplified vehicle types or less (cars, motorbikes, buses, lcv's, ht's). The other vehicle types are: ldv's, minibus, hdv, heavy duty vehicles. It will work like:
+    this will run through each economys data and identify if there is any datasets with data that specifies more than jsut the simplified vehicle types or less (lpv, 2w, buses, all(all is for freight where we dont split into different freight types) or isntead of all: lcv, ht).
+    Currently the vehicel types we split into are:
+    vehicle_types['passenger'] = ['car', '2w', 'bus', 'lt','suv']
+    vehicle_types['freight'] =  ['lcv', 'mt', 'ht']
 
-    If there is a dataset with data on all of the vehicle types for one transport type (i.e. for passenger that is cars, motorbikes, buses, ldv's, minibuses) and another dataset with data on only the simplified vehicle types or less (eg cars, motorbikes, buses, lcv's, ht's) then this will default to using the dataset with the more detailed breakdown of vehicle types. This is because we want to use the most detailed breakdown of vehicle types as possible. 
+    If there is a dataset with data on all of the vehicle types for one transport type (i.e. for passenger that is cars, motorbikes, buses, lpv's, minibuses) and another dataset with data on only the simplified vehicle types or less (eg cars, motorbikes, buses, lcv's, ht's) then this will default to using the dataset with the more detailed breakdown of vehicle types. This is because we want to use the most detailed breakdown of vehicle types as possible. 
     Then it will also remove the dataset with only the simplified vehicle types.
 
     This is especially important so tha tthe user doesnt accidentally select a dataset with less detailed vehicle types than they intended. As those less detailed datasets may be aggregated from the more detailed datasets, so the user may be selecting a dataset that has already been aggregated from another dataset.
     """
     vehicle_types = {}
-    vehicle_types['passenger'] = ['car', '2w', 'bus', 'ldv', 'minibus']
-    vehicle_types['freight'] =  ['lcv', 'mdv', 'hdv']
+    vehicle_types['passenger'] = ['car', '2w', 'bus', 'lt','suv']
+    vehicle_types['freight'] =  ['lcv', 'mt', 'ht']
     combined_data_stocks = combined_data[combined_data['measure']=='stocks']
     for economy in combined_data_stocks['economy'].unique():
         economy_data = combined_data_stocks[combined_data_stocks['economy']==economy]
@@ -76,19 +79,24 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
                 combined_data = combined_data[~((combined_data['measure']=='stocks')&(combined_data['economy']==economy)&(combined_data['transport_type']==transport_type)&(combined_data['dataset'].isin(datasets_to_remove)))]
 
                 print('removing datasets: '+str(datasets_to_remove)+' for economy: '+economy+' and transport type: '+transport_type + 'for stocks data only')
+            else:#tell the user that there is no dataset with all the vehicle types for this transport type, and show what datasets there are with what vehicle types are availbel
+                print('no dataset with all vehicle types for economy: '+economy+' and transport type: '+transport_type + 'for stocks data only')
+                print('datasets available for this transport type with their available vehicle types are as follows:')
+                for dataset in economy_data['dataset'].unique():
+                    print(dataset+': '+str(economy_data[(economy_data['dataset']==dataset)&(economy_data['transport_type']==transport_type)]['vehicle_type'].unique()))
 
     return combined_data
 
     
-def filter_for_most_detailed_stocks_breakdown(combined_data):
-    """this will run through each economys data and identify if there is any datasets with data on lcv's and ldv's or only datasets with only ldv's. if there is a dataset with data on both then it will remove the dataset with only ldv's. This is because we want to use the most detailed breakdown of stocks as possible. 
-    This will make the assumption that the data on lcv's and ldv's is more accurate than the data on ldv's only."""
-    for economy in combined_data['economy'].unique():
-        economy_data = combined_data[combined_data['economy']==economy]
-        if 'lcv' in economy_data['vehicle_type'].unique() and 'ldv' in economy_data['vehicle_type'].unique():
-            logger.info('removing ldv data for economy: '+economy)
-            combined_data = combined_data[~((combined_data['economy']==economy)&(combined_data['vehicle_type']=='ldv'))]
-    return combined_data
+# def filter_for_most_detailed_stocks_breakdown(combined_data):
+#     """this will run through each economys data and identify if there is any datasets with data on lcv's and ldv's or only datasets with only ldv's. if there is a dataset with data on both then it will remove the dataset with only ldv's. This is because we want to use the most detailed breakdown of stocks as possible. 
+#     This will make the assumption that the data on lcv's and ldv's is more accurate than the data on ldv's only."""
+#     for economy in combined_data['economy'].unique():
+#         economy_data = combined_data[combined_data['economy']==economy]
+#         if 'lcv' in economy_data['vehicle_type'].unique() and 'ldv' in economy_data['vehicle_type'].unique():
+#             logger.info('removing ldv data for economy: '+economy)
+#             combined_data = combined_data[~((combined_data['economy']==economy)&(combined_data['vehicle_type']=='ldv'))]
+#     return combined_data
 
 def extract_latest_groomed_data():
     #open the yml and extract the datasets:
@@ -343,10 +351,10 @@ def TEMP_add_drive_all_to_concordance(model_concordances_measures):
     return model_concordances_measures
 
 
-def TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures):
-    #remove freight_ldvs from the concordance
-    model_concordances_measures = model_concordances_measures.loc[~((model_concordances_measures.vehicle_type == 'ldv') & (model_concordances_measures.transport_type=='freight'))]
-    return model_concordances_measures
+# def TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures):
+#     #remove freight_ldvs from the concordance
+#     model_concordances_measures = model_concordances_measures.loc[~((model_concordances_measures.vehicle_type == 'ldv') & (model_concordances_measures.transport_type=='freight'))]
+#     return model_concordances_measures
 
 def TEMP_replace_drive_types(df):
     # concordance = pd.read_csv('input_data/concordances/model_concordances_measures_old.csv')

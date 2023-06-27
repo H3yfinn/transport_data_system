@@ -77,7 +77,7 @@ evs['vehicle type'].unique()#'Cars', 'EV', 'Trucks', 'Vans', 'Buses'
  #Bit confused about 'EV' so take a look:
 evs[evs['vehicle type']=='EV']#it's for charging points so make it NA
 # so change all to: ldv, np.nan, van, bus, ht
-evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'car', 'EV':np.nan, 'Vans':'lcv', 'Buses':'bus', 'Trucks':'ht'})
+evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'lpv', 'EV':np.nan, 'Vans':'lcv', 'Buses':'bus', 'Trucks':'ht'})
 #set ldv's to have transport type = 'passenger'
 evs.loc[evs['vehicle type']=='car', 'transport type'] = 'passenger'
 #set lcv's to have transport type = 'combined'

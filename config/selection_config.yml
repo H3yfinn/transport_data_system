@@ -16,13 +16,13 @@ datasets:
     file_path: intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv
     folder: intermediate_data/ATO/
     script: 2_clean_ATO_data.py
-    included: False
+    included: True
     type: transport
   ATO_data_cleaned_car_not_ldv_:
     file_path: intermediate_data/ATO/ATO_data_cleaned_car_not_ldv_FILE_DATE_ID.csv
     folder: intermediate_data/ATO/
     script: 2_clean_ATO_data.py
-    included: True
+    included: False
     type: transport
   ATO_revenue_pkm:
     file_path: intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv

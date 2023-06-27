@@ -51,6 +51,8 @@
 # ]
 
 #BUT NOTE THAT WE DROPPED MINIBUS AND ALSO ADDED suv as a caterogry between car and ldv and freight ldv to lcv
+
+#ahh forgwet it. jsut changed it to lcv and lpv, which are aggregations of lt and lv in previous edition. then we convert that to lt/car/suv in passenger data later in sleection process using outside dataset. Everything else is fine enough.
 #%%
 import pandas as pd
 import numpy as np
@@ -88,9 +90,9 @@ new_eigth_edition_transport_data=pd.read_csv('intermediate_data/8th_edition_tran
 # new_eigth_edition_transport_data['Vehicle Type'].unique()
 #array(['ht', '2w', 'bus', nan, 'ldv'], dtype=object)
 
-#so in that, we will convert ldv in passenger transport type to car and ldv in freight transport type to light-commercial vehicle (lcv)
+#so in that, we will  ldv in freight transport type to light-commercial vehicle (lcv)
 #then since we dont knwo how to split ht we will leave it as is
-new_eigth_edition_transport_data.loc[(new_eigth_edition_transport_data['Vehicle Type']=='ldv') & (new_eigth_edition_transport_data['Transport Type']=='passenger'), 'Vehicle Type']='car'
+new_eigth_edition_transport_data.loc[(new_eigth_edition_transport_data['Vehicle Type']=='ldv') & (new_eigth_edition_transport_data['Transport Type']=='passenger'), 'Vehicle Type']='lpv'
 new_eigth_edition_transport_data.loc[(new_eigth_edition_transport_data['Vehicle Type']=='ldv') & (new_eigth_edition_transport_data['Transport Type']=='freight'), 'Vehicle Type']='lcv'
 
 #and also might as well convert the drive types to the ones we are now using, that is, ice_g, ice_d, phev_g, phev_d, bev, fcev, cng, lpg

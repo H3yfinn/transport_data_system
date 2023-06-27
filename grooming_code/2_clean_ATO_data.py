@@ -494,10 +494,10 @@ vehicle_type_dict = {}
 vehicle_type_dict['2w'] = ['Motorised Two Wheeler Sales', 'Vehicle registration  (Motorised 2W)']
 vehicle_type_dict['3w'] = ['Motorised Three Wheeler Sales', 'Vehicle registration  (Motorised 3W)']
 vehicle_type_dict['bus'] = ['Vehicle registration  (Bus)','Passengers Kilometer Travel - Bus']
-vehicle_type_dict['ldv'] = ['LDV Sales', 'Vehicle registration  (LDV)']
+vehicle_type_dict['lpv'] = ['LDV Sales', 'Vehicle registration  (LDV)']
 vehicle_type_dict['others'] = ['Vehicle registration (Others)']
-# vehicle_type_dict['freight'] = ['Freight Vehicle registration']#chose not to keep this because we alrewady know it is freight ebcause of transport type col
-vehicle_type_dict['commercial'] = ['Commercial Vehicle Sales (motorised)']
+vehicle_type_dict['all'] = ['Freight Vehicle registration']#this is all because it is all freight vehicles. we will split this into the different types using data fromoutside the ato data
+vehicle_type_dict['all'] = ['Commercial Vehicle Sales (motorised)']
 #where original_measure is one of the values in the lists above, change the vehicle type to the key anbd then change the original_measure to the measure
 for key, value in vehicle_type_dict.items():
     ATO_data.loc[ATO_data['original_measure'].isin(value), 'vehicle type'] = key
@@ -770,15 +770,15 @@ ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
 ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
 ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_{}.csv'.format(FILE_DATE_ID), index=False)#this file is just for reference to where the data came from
 #%%
-#convert all 'ldv' to 'car' abecvause we are now moving to the new naming convention
-ATO_dataset_clean.loc[(ATO_dataset_clean['Vehicle Type'] == 'ldv'), 'Vehicle Type'] = 'car'
-ATO_dataset_clean_with_sheet.loc[(ATO_dataset_clean_with_sheet['Vehicle Type'] == 'ldv'), 'Vehicle Type'] = 'car'
-#set dataset to ato_car
-ATO_dataset_clean['Dataset'] = 'ato_car'
-ATO_dataset_clean_with_sheet['Dataset'] = 'ato_car'
+#convert all 'ldv' to 'lpv' abecvause we are now moving to the new naming convention
+# ATO_dataset_clean.loc[(ATO_dataset_clean['Vehicle Type'] == 'lpv'), 'Vehicle Type'] = 'car'
+# ATO_dataset_clean_with_sheet.loc[(ATO_dataset_clean_with_sheet['Vehicle Type'] == 'lpv'), 'Vehicle Type'] = 'car'
+# #set dataset to ato_car
+# ATO_dataset_clean['Dataset'] = 'ato_car'
+# ATO_dataset_clean_with_sheet['Dataset'] = 'ato_car'
 #save 
-ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_car_not_ldv_{}.csv'.format(FILE_DATE_ID), index=False)
-ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_car_not_ldv_{}.csv'.format(FILE_DATE_ID), index=False)#this file is just for reference to where the data came from
+# ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_car_not_lpv_{}.csv'.format(FILE_DATE_ID), index=False)
+# ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_car_not_lpv_{}.csv'.format(FILE_DATE_ID), index=False)#this file is just for reference to where the data came from
 #%%
 
 #%%

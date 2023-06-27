@@ -21,6 +21,16 @@ df = pd.read_excel(r'.\input_data\Australia\aus_vehicle_census_simplified.xlsx',
 # we will be calcualting the avg age, ice_g, ice_d splits and splitting vehicle sub types into the vehicle types we use.
 
 #%%
+CAR_TO_SUV_RATIO = 0.15#TODO MAKE THIS LESS ARBITRARY
+
+#where Vehicle Type is car, we wil times it by x TO GET THE NUMBER OF SUV'S (ESTIAMTE, COULD CHANGE) THEN SUBTRACT THAT FROM THE CAR VALUE TO GET THE NUMBER OF CARS
+cars = df[df['Vehicle Type']=='car']
+suvs = cars.copy()
+suvs['Vehicle Type'] = 'suv'
+suvs['Value'] = suvs['Value']*CAR_TO_SUV_RATIO
+cars['Value'] = cars['Value'] - suvs['Value']
+df = pd.concat([df,cars,suvs])
+#%%
 #first grab the data with Weights in it (data that doesnt have nas in that col)
 df_weights = df[df['Weight'].notna()]
 #calcualte percent of vehicles in each vehicle type for each Vehicle sub type, for each Date
