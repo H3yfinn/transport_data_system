@@ -77,12 +77,12 @@ evs['vehicle type'].unique()#'Cars', 'EV', 'Trucks', 'Vans', 'Buses'
  #Bit confused about 'EV' so take a look:
 evs[evs['vehicle type']=='EV']#it's for charging points so make it NA
 # so change all to: ldv, np.nan, van, bus, ht
-evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'ldv', 'EV':np.nan, 'Vans':'vans', 'Buses':'bus', 'Trucks':'ht'})
+evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'car', 'EV':np.nan, 'Vans':'lcv', 'Buses':'bus', 'Trucks':'ht'})
 #set ldv's to have transport type = 'passenger'
-evs.loc[evs['vehicle type']=='ldv', 'transport type'] = 'passenger'
+evs.loc[evs['vehicle type']=='car', 'transport type'] = 'passenger'
 #set lcv's to have transport type = 'combined'
 
-evs.loc[evs['vehicle type']=='vans', 'transport type'] = 'freight'
+evs.loc[evs['vehicle type']=='lcv', 'transport type'] = 'freight'
 
 #set bus's to have transport type = 'passenger'
 evs.loc[evs['vehicle type']=='bus', 'transport type'] = 'passenger'
@@ -185,8 +185,11 @@ evs.columns = evs.columns.str.lower()
 
 evs_new = pd.concat([evs, evs_stock_share_new], axis=0, ignore_index=True)
 
-
 #%%
 #save the data
 evs_new.to_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
 # %%
+
+
+#lpot USA sales share, with facet by vehicle type and transport type and color by source
+

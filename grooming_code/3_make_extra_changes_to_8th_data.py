@@ -364,3 +364,4 @@ new_eigth_edition_transport_data['scope'] = 'national'
 new_eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID), index = False)
 eigth_edition_transport_data.to_csv('intermediate_data/8th_edition_transport_model/non_filtered_eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID), index = False)
 #%%
+

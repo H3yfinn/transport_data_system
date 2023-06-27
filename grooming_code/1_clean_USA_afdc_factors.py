@@ -151,19 +151,26 @@ vmt_by_vehicle_type = dfs_dict['10309_vmt_by_vehicle_type_3-26-20.xlsx']
 #    'Car', 'Motorcycle'
 #set the measure to vmt
 vmt_by_vehicle_type['measure'] = 'Mileage'
-#set the transport type to passenger for car, motorcycle, light truck/van, school bus, paratransit shuttle, and transit bus, and freight for class 8 truck, refuse truck, and delivery truck
-vmt_by_vehicle_type['transport_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'passenger', 'Motorcycle': 'passenger', 'Light Truck/Van': 'passenger', 'School Bus': 'passenger', 'Paratransit Shuttle': 'passenger', 'Transit Bus': 'passenger', 'Class 8 Truck': 'freight', 'Refuse Truck': 'freight', 'Delivery Truck': 'freight'})
+
+
 #set the vehicle sub type to transit for transit bus, school bus, and paratransit shuttle, medium for class 8 truck, refuse truck, and delivery truck, light for light truck/van, and car for car and motorcycle
-vmt_by_vehicle_type['vehicle_sub_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'car', 'Motorcycle': '2w', 'Light Truck/Van': 'light truck', 'School Bus': 'urban', 'Paratransit Shuttle': 'transit', 'Transit Bus': 'transit', 'Class 8 Truck': 'heavy truck', 'Refuse Truck': 'urban', 'Delivery Truck': 'urban'})
+# vmt_by_vehicle_type['vehicle_sub_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'car', 'Motorcycle': '2w', 'Light Truck/Van': 'light truck', 'School Bus': 'urban', 'Paratransit Shuttle': 'transit', 'Transit Bus': 'transit', 'Class 8 Truck': 'heavy truck', 'Refuse Truck': 'urban', 'Delivery Truck': 'urban'})
+#now change vehicled types. we wnat to have ldv, 2w, ht, bus
+vmt_by_vehicle_type['vehicle_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'car', 'Motorcycle': '2w', 'Light Truck/Van': 'ldv', 'School Bus': 'bus', 'Paratransit Shuttle': 'bus', 'Transit Bus': 'bus', 'Class 8 Truck': 'ht', 'Refuse Truck': 'ht', 'Delivery Truck': 'mt'})
+
 #copy the row for light truck and change the vehicle type to van
 new_row = vmt_by_vehicle_type.loc[vmt_by_vehicle_type['Vehicle Type'] == 'Light Truck/Van'].copy()
-new_row['vehicle_sub_type'] = 'Van'
-#make transport type freight
-new_row['transport_type'] = 'freight'
+new_row['vehicle_type'] = 'lcv'
 #append the new row
-vmt_by_vehicle_type = vmt_by_vehicle_type.append(new_row)
-#now change vehicled types. we wnat to have ldv, 2w, ht, bus
-vmt_by_vehicle_type['vehicle_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'ldv', 'Motorcycle': '2w', 'Light Truck/Van': 'ldv', 'School Bus': 'bus', 'Paratransit Shuttle': 'bus', 'Transit Bus': 'bus', 'Class 8 Truck': 'ht', 'Refuse Truck': 'ht', 'Delivery Truck': 'ht'})
+vmt_by_vehicle_type = pd.concat([vmt_by_vehicle_type,new_row])
+#do same for suv
+new_row = vmt_by_vehicle_type.loc[vmt_by_vehicle_type['Vehicle Type'] == 'Car'].copy()
+new_row['vehicle_type'] = 'suv'
+vmt_by_vehicle_type = pd.concat([vmt_by_vehicle_type,new_row])
+
+#set the transport type to passenger for car, motorcycle, light truck/van, school bus, paratransit shuttle, and transit bus, and freight for class 8 truck, refuse truck, and delivery truck
+# vmt_by_vehicle_type['transport_type'] = vmt_by_vehicle_type['vehicle_type'].map({'Car': 'passenger', 'Motorcycle': 'passenger', 'Light Truck/Van': 'passenger', 'School Bus': 'passenger', 'Paratransit Shuttle': 'passenger', 'Transit Bus': 'passenger', 'Class 8 Truck': 'freight', 'Refuse Truck': 'freight', 'Delivery Truck': 'freight'})
+vmt_by_vehicle_type['transport_type'] = vmt_by_vehicle_type['vehicle_type'].map({'car': 'passenger', '2w': 'passenger', 'ldv': 'passenger', 'bus': 'passenger', 'ht': 'freight', 'mt': 'freight', 'lcv': 'freight', 'suv': 'passenger'})
 vmt_by_vehicle_type['drive'] = 'all'
 #set the unit to vmt
 vmt_by_vehicle_type['unit'] = 'mileage'
@@ -183,7 +190,7 @@ vmt_by_vehicle_type.drop('Source',axis=1,inplace=True)
 vmt_by_vehicle_type.rename({'VMT per Vehicle':'value'},axis=1,inplace=True)
 
 #average out any duplicated rowsl. for example transit shuttles/buses are the same thing essentially.. or at least with how we are CURRENTLY breaking our data into vehicle sub types. we migth change this later.
-vmt_by_vehicle_type = vmt_by_vehicle_type.groupby(['transport_type','vehicle_sub_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
+vmt_by_vehicle_type = vmt_by_vehicle_type.groupby(['transport_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
 
 #%%
 
@@ -218,9 +225,16 @@ passenger_mpg['transport_type'] = 'passenger'
 #    'Demand Response***']
 #drop Demand Response***
 passenger_mpg = passenger_mpg[passenger_mpg['Vehicle Type'] != 'Demand Response***']
-passenger_mpg['vehicle_sub_type'] = passenger_mpg['Vehicle Type'].map({'Cars': 'car', 'Motorcycles': '2w', 'Light Trucks': 'light truck', 'Transit Buses': 'transit', 'Transit Rail': 'transit', 'Intercity Rail': 'intercity', 'Commuter Rail': 'commuter', 'Airlines**': 'air'})
+# passenger_mpg['vehicle_sub_type'] = passenger_mpg['Vehicle Type'].map({'Cars': 'car', 'Motorcycles': '2w', 'Light Trucks': 'light truck', 'Transit Buses': 'transit', 'Transit Rail': 'transit', 'Intercity Rail': 'intercity', 'Commuter Rail': 'commuter', 'Airlines**': 'air'})
 #map vehicle type to better vehicle type
-passenger_mpg['vehicle_type'] = passenger_mpg['Vehicle Type'].map({'Cars': 'ldv', 'Motorcycles': '2w', 'Light Trucks': 'ldv', 'Transit Buses': 'bus', 'Transit Rail': 'rail', 'Intercity Rail': 'rail', 'Commuter Rail': 'rail', 'Airlines**': 'air'})
+passenger_mpg['vehicle_type'] = passenger_mpg['Vehicle Type'].map({'Cars': 'car', 'Motorcycles': '2w', 'Light Trucks': 'ldv', 'Transit Buses': 'bus', 'Transit Rail': 'rail', 'Intercity Rail': 'rail', 'Commuter Rail': 'rail', 'Airlines**': 'air'})
+
+#create copy of car and set it to suv
+car= passenger_mpg[passenger_mpg['vehicle_type'] == 'car'].copy()
+car['vehicle_type'] = 'suv'
+#concat car to passenger_mpg
+passenger_mpg = pd.concat([passenger_mpg,car])
+
 #where vehicle type is iar change medium to air, then vehicle type, vehicle sub type and drive to all
 passenger_mpg.loc[passenger_mpg['Vehicle Type'] == 'Airlines**','medium'] = 'air'
 passenger_mpg.loc[passenger_mpg['Vehicle Type'] == 'Airlines**','vehicle_type'] = 'all'
@@ -238,8 +252,8 @@ passenger_mpg['drive'] = 'all'
 passenger_mpg.drop('Vehicle Type',axis=1,inplace=True)
 
 #avg
-passenger_mpg = passenger_mpg.groupby(['transport_type','vehicle_sub_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
-
+passenger_mpg = passenger_mpg.groupby(['transport_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
+#'vehicle_sub_type',
 
 #%%
 # 10310_fuel_economy_by_vehicle_type_3-26-20.xlsx
@@ -282,24 +296,34 @@ fuel_economy_by_vehicle_type['Vehicle Type'].unique()
 #array(['Refuse Truck', 'Transit Bus', 'Class 8 Truck', 'School Bus',
 #    'Delivery Truck', 'Paratransit Shuttle', 'Light Truck/Van', 'Car',
 #    'Ridesourcing Vehicle', 'Motorcycle'], dtype=object)
-fuel_economy_by_vehicle_type['vehicle_sub_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'light truck','Transit Bus':'transit','Refuse Truck':'urban','Class 8 Truck':'Class 8','Delivery Truck':'urban','School Bus':'urban','Paratransit Shuttle':'transit','Ridesourcing Vehicle':'ridesource'})
+# fuel_economy_by_vehicle_type['vehicle_sub_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'light truck/van','Transit Bus':'transit','Refuse Truck':'urban','Class 8 Truck':'Class 8','Delivery Truck':'urban','School Bus':'urban','Paratransit Shuttle':'transit','Ridesourcing Vehicle':'ridesource'})
 #map vehicle type to better vehicle type
-fuel_economy_by_vehicle_type['vehicle_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'ldv','Motorcycle':'2w','Light Truck/Van':'ldv','Transit Bus':'bus','Refuse Truck':'ht','Class 8 Truck':'ht','Delivery Truck':'ht','School Bus':'bus','Paratransit Shuttle':'bus','Ridesourcing Vehicle':'ridesource'})
+fuel_economy_by_vehicle_type['vehicle_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'lcv','Transit Bus':'bus','Refuse Truck':'ht','Class 8 Truck':'ht','Delivery Truck':'mt','School Bus':'bus','Paratransit Shuttle':'bus','Ridesourcing Vehicle':'ridesource'})
+#replicate lcv and call it ldv
+ldv = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['vehicle_type']=='lcv'].copy()
+ldv['vehicle_type'] = 'ldv'
+fuel_economy_by_vehicle_type = pd.concat([fuel_economy_by_vehicle_type,ldv],axis=0)
+#do same for suvs
+suv = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['vehicle_type']=='car'].copy()
+suv['vehicle_type'] = 'suv'
+fuel_economy_by_vehicle_type = pd.concat([fuel_economy_by_vehicle_type,suv],axis=0)
 #drop the vehicle type col
 fuel_economy_by_vehicle_type.drop('Vehicle Type',axis=1,inplace=True)
 
 #now depdning on the vehicle sub type, map the  transport type to passenger or freight
-fuel_economy_by_vehicle_type['transport_type'] = fuel_economy_by_vehicle_type['vehicle_sub_type'].map({
+fuel_economy_by_vehicle_type['transport_type'] = fuel_economy_by_vehicle_type['vehicle_type'].map({
     'car': 'passenger',
     '2w': 'passenger',
-    'light truck': 'freight',
-    'transit': 'passenger',
-    'urban': 'freight',
-    'Class 8': 'freight',
+    'suv': 'passenger',
+    'ldv': 'passenger',
+    'lcv': 'freight',
+    'bus': 'passenger',
+    'ht': 'freight',
+    'mt': 'freight',
     'ridesource': 'passenger'
 })
 #avg
-fuel_economy_by_vehicle_type = fuel_economy_by_vehicle_type.groupby(['transport_type','vehicle_sub_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
+fuel_economy_by_vehicle_type = fuel_economy_by_vehicle_type.groupby(['transport_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()#,'vehicle_sub_type'
 
 #%%
 
@@ -322,44 +346,42 @@ vmt_by_vehicle_type.to_csv('intermediate_data/USA/{}_vmt_by_vehicle_type.csv'.fo
 #plot all the above data using plotly. 
 #we will plot the values using bars. they will be faceted by transport type, x will be the medium+vehicletype, color will b subvehicletype+drive, y will be the value
 fuel_economy_by_vehicle_type['medium+vehicle_type'] = fuel_economy_by_vehicle_type['medium'] + ' ' + fuel_economy_by_vehicle_type['vehicle_type']
-fuel_economy_by_vehicle_type['sub_vehicle_type+drive'] = fuel_economy_by_vehicle_type['vehicle_sub_type'] + ' ' + fuel_economy_by_vehicle_type['drive']
+# fuel_economy_by_vehicle_type['drive'] = fuel_economy_by_vehicle_type['vehicle_sub_type'] + ' ' + fuel_economy_by_vehicle_type['drive']
 title = 'Fuel economy by vehicle type'
-fig = px.bar(fuel_economy_by_vehicle_type, x="medium+vehicle_type", y="value", color="sub_vehicle_type+drive", facet_col="transport_type", facet_col_wrap=2, labels={'value':'Fuel economy (MJ/km)','medium+vehicle_type':'Medium + Vehicle type','sub_vehicle_type+drive':'Sub vehicle type + drive'}, title=title)
+fig = px.bar(fuel_economy_by_vehicle_type, x="medium+vehicle_type", y="value", color="drive", facet_col="transport_type", facet_col_wrap=2, labels={'value':'Fuel economy (MJ/km)','medium+vehicle_type':'Medium + Vehicle type'}, title=title)
 #save to plotting_output\analysis as html
 fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
 
 vmt_by_vehicle_type['medium+vehicle_type'] = vmt_by_vehicle_type['medium'] + ' ' + vmt_by_vehicle_type['vehicle_type']
-vmt_by_vehicle_type['sub_vehicle_type+drive'] = vmt_by_vehicle_type['vehicle_sub_type'] + ' ' + vmt_by_vehicle_type['drive']
 title = 'VMT by vehicle type'
-fig = px.bar(vmt_by_vehicle_type, x="medium+vehicle_type", y="value", color="sub_vehicle_type+drive", facet_col="transport_type", facet_col_wrap=2,  labels={'value':'VMT (km)','medium+vehicle_type':'Medium + Vehicle type','sub_vehicle_type+drive':'Sub vehicle type + drive'}, title=title)
+fig = px.bar(vmt_by_vehicle_type, x="medium+vehicle_type", y="value", color="drive", facet_col="transport_type", facet_col_wrap=2,  labels={'value':'VMT (km)','medium+vehicle_type':'Medium + Vehicle type'}, title=title)
 #save to plotting_output\analysis as html
 fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
 
 passenger_mpg['medium+vehicle_type'] = passenger_mpg['medium'] + ' ' + passenger_mpg['vehicle_type']
-passenger_mpg['sub_vehicle_type+drive'] = passenger_mpg['vehicle_sub_type'] + ' ' + passenger_mpg['drive']
 title = 'Passenger occupancy by vehicle type'
-fig = px.bar(passenger_mpg, x="medium+vehicle_type", y="value", color="sub_vehicle_type+drive", facet_col="transport_type", facet_col_wrap=2,  labels={'value':'Passenger occupancy','medium+vehicle_type':'Medium + Vehicle type','sub_vehicle_type+drive':'Sub vehicle type + drive'}, title=title)
+fig = px.bar(passenger_mpg, x="medium+vehicle_type", y="value", color="drive", facet_col="transport_type", facet_col_wrap=2,  labels={'value':'Passenger occupancy','medium+vehicle_type':'Medium + Vehicle type'}, title=title)
 #save to plotting_output\analysis as html
 fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
 
 # buses_fuels['medium+vehicle_type'] = buses_fuels['medium'] + ' ' + buses_fuels['vehicle_type']
-# buses_fuels['sub_vehicle_type+drive'] = buses_fuels['vehicle_sub_type'] + ' ' + buses_fuels['drive']
+# buses_fuels['drive'] = buses_fuels['vehicle_sub_type'] + ' ' + buses_fuels['drive']
 # title = 'Buses fuels by vehicle type'
-# fig = px.line(buses_fuels, x="date", y="value", color="sub_vehicle_type+drive", title=title)
+# fig = px.line(buses_fuels, x="date", y="value", color="drive", title=title)
 # #save to plotting_output\analysis as html
 # fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
 # #%%
 
 #%%
-#drop medium+vehicle_type and sub_vehicle_type+drive
-fuel_economy_by_vehicle_type.drop(['medium+vehicle_type','sub_vehicle_type+drive'],axis=1,inplace=True)
-vmt_by_vehicle_type.drop(['medium+vehicle_type','sub_vehicle_type+drive'],axis=1,inplace=True)
-passenger_mpg.drop(['medium+vehicle_type','sub_vehicle_type+drive'],axis=1,inplace=True)
+#drop medium+vehicle_type and drive
+fuel_economy_by_vehicle_type.drop(['medium+vehicle_type'],axis=1,inplace=True)
+vmt_by_vehicle_type.drop(['medium+vehicle_type'],axis=1,inplace=True)
+passenger_mpg.drop(['medium+vehicle_type'],axis=1,inplace=True)
 #%%
 #we will now make the factors available for use for other economys. just do this by appending a copy of the data for each eocnomy.
 # #also could incorporate all drive types here. to do that we can load in the concordances file from E:\APERC\transport_data_system\input_data\concordances\9th\model_concordances_measures.csv
 
-concordances = pd.read_csv('input_data/concordances/9th/model_concordances_measures.csv')
+concordances = pd.read_csv('input_data/concordances/9th/model_concordances_measures_20230615.csv')
 #make all cols snake case
 concordances.columns = concordances.columns.str.lower().str.replace(' ','_')
 
@@ -376,6 +398,9 @@ fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type.drop(['economy']
 
 passenger_mpg_new = passenger_mpg.drop(['drive', 'economy'],axis=1).drop_duplicates().merge(concordances,how='inner',on=['transport_type','vehicle_type','medium','measure'])
 #%%
+
+
+
 #GREAT!
 #save these in same folder as the other files
 vmt_by_vehicle_type_new.to_csv('intermediate_data/USA/all_economys_vmt_by_vehicle_type_{}.csv'.format(FILE_DATE_ID),index=False)

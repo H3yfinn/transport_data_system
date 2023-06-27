@@ -80,7 +80,7 @@ def main():
         unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict)
 
         #TEMP #do here because it is easier to do this process to all combined data at once tan to do it to each dataset individually
-        unfiltered_combined_data = data_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
+        unfiltered_combined_data = pre_selection_data_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
         #TEMP
 
         if create_9th_model_dataset:
@@ -162,7 +162,7 @@ def main():
     #INCORPORATE NEW STOCKS MILAGE OCCUPANCY EFFICIENCY DATA TO CREATE NEW PASSANGER KM AND ENERGY DATA, THEN INCORPORATE INTO COMBINED DATA
     ####################################################
 
-    stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data = data_estimation_functions.calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict)
+    stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data = pre_selection_data_estimation_functions.calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict)
 
     stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data.to_pickle(paths_dict['calculated_activity_energy_combined_data'])
     logging.info('Saving calculated_activity_energy_combined_data')

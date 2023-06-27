@@ -764,11 +764,21 @@ ATO_dataset_clean = ATO_dataset_clean.drop(columns=['Sheet'])
 #now drop duplicates since they are only the ones where the saemw vlaue is in multiple sheets
 ATO_dataset_clean = ATO_dataset_clean.drop_duplicates()
 
+
 #%%
 #save data
 ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_{}.csv'.format(FILE_DATE_ID), index=False)
 ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_{}.csv'.format(FILE_DATE_ID), index=False)#this file is just for reference to where the data came from
-
+#%%
+#convert all 'ldv' to 'car' abecvause we are now moving to the new naming convention
+ATO_dataset_clean.loc[(ATO_dataset_clean['Vehicle Type'] == 'ldv'), 'Vehicle Type'] = 'car'
+ATO_dataset_clean_with_sheet.loc[(ATO_dataset_clean_with_sheet['Vehicle Type'] == 'ldv'), 'Vehicle Type'] = 'car'
+#set dataset to ato_car
+ATO_dataset_clean['Dataset'] = 'ato_car'
+ATO_dataset_clean_with_sheet['Dataset'] = 'ato_car'
+#save 
+ATO_dataset_clean.to_csv('intermediate_data/ATO/ATO_data_cleaned_car_not_ldv_{}.csv'.format(FILE_DATE_ID), index=False)
+ATO_dataset_clean_with_sheet.to_csv('intermediate_data/ATO/ATO_data_sheet_col_car_not_ldv_{}.csv'.format(FILE_DATE_ID), index=False)#this file is just for reference to where the data came from
 #%%
 
 #%%

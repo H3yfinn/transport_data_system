@@ -8,6 +8,7 @@ import logging
 import numpy as np
 import pandas as pd
 import shutil
+import yaml
 #set cwd to the root of the project
 # os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 logger = logging.getLogger(__name__)
@@ -37,7 +38,7 @@ def make_economy_code_to_name_tall(economy_code_to_name):
     economy_code_to_name = economy_code_to_name.dropna(subset=['Economy name'])
     return economy_code_to_name
 
-def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,save_plotting_backups=True,previous_selections_file_path=None):
+def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID=None,save_plotting_backups=True,previous_selections_file_path=None):
     paths_dict = dict()
     paths_dict['log_file_path'] = 'logs/{}.log'.format(FILE_DATE_ID)
     #PERHAPS COULD GET ALL THIS STUFF FROM CONFIG.YML?
@@ -59,6 +60,11 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     if not os.path.exists(paths_dict['selection_groups_folder']):
         os.makedirs(paths_dict['selection_groups_folder'])
 
+    with open('config/selection_config.yml', 'r') as ymlfile:
+        cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
+    INDEX_COLS = cfg['INDEX_COLS']
+    paths_dict['INDEX_COLS'] = INDEX_COLS
+    paths_dict['concordances_file_path'] = cfg['concordances_file_path']
     #TODO remove this.
     INDEX_COLS_no_year = INDEX_COLS.copy()
     INDEX_COLS_no_year.remove('date')
@@ -143,6 +149,7 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
     #final all data dfs:
     paths_dict['final_combined_data_not_rescaled'] = os.path.join(paths_dict['intermediate_folder'],'final_combined_data_not_rescaled.pkl')
     paths_dict['final_combined_rescaled_data'] = os.path.join(paths_dict['intermediate_folder'],'final_combined_rescaled_data.pkl')
+    paths_dict['final_combined_data_pkl'] = os.path.join(paths_dict['output_data_folder'], 'combined_data_{}.pkl'.format(paths_dict['FILE_DATE_ID']))
     paths_dict['final_data_csv'] = paths_dict['output_data_folder']+ 'combined_data_{}.csv'.format(paths_dict['FILE_DATE_ID'])
     ####
 
@@ -180,6 +187,9 @@ def setup_paths_dict(FILE_DATE_ID,INDEX_COLS, EARLIEST_date, LATEST_date, previo
         paths_dict['previous_interpolated_all_other_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_all_other_combined_data_concordance.pkl')
 
         paths_dict['previous_selection_progress_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'selection_progress.pkl')
+
+    if SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID is not None:
+        paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format(SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID)
 
     paths_dict = add_plot_paths_to_paths_dict(paths_dict, save_plotting_backups)
 
@@ -324,7 +334,15 @@ def convert_all_cols_to_snake_case(df):
                 df[col] = df[col].replace('nan', np.nan)
     return df
 
-
+def replace_bad_col_names(col):
+    col = convert_string_to_snake_case(col)
+    if col == 'fuel_type':
+        col = 'fuel'  
+    if col == 'comments':
+        col = 'comment'
+    if col == 'units':
+        col = 'unit'
+    return col
 #%%
 def get_latest_date_for_data_file(data_folder_path, file_name):
     #get list of all files in the data folder

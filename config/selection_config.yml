@@ -10,17 +10,24 @@ INDEX_COLS:
 - Fuel_Type
 - Frequency
 - Scope
+concordances_file_path: './input_data/concordances/9th/model_concordances_measures_20230615.csv'
 datasets:
   ATO_data_cleaned_:
     file_path: intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv
     folder: intermediate_data/ATO/
-    script: TBA
+    script: 2_clean_ATO_data.py
+    included: False
+    type: transport
+  ATO_data_cleaned_car_not_ldv_:
+    file_path: intermediate_data/ATO/ATO_data_cleaned_car_not_ldv_FILE_DATE_ID.csv
+    folder: intermediate_data/ATO/
+    script: 2_clean_ATO_data.py
     included: True
     type: transport
   ATO_revenue_pkm:
     file_path: intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv
     folder: intermediate_data/estimated/
-    script: TBA
+    script: 2_clean_ATO_data.py
     included: True
     type: transport
   EGEDA_split_into_transport_types:
@@ -89,6 +96,12 @@ datasets:
     script: 3_make_extra_changes_to_8th_data.py
     included: True
     type: transport
+  eigth_edition_transport_data_final_new_vtypes_drives_:
+    file_path: intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_new_vtypes_drives_FILE_DATE_ID.csv
+    folder: intermediate_data/8th_edition_transport_model/
+    script: 4_make_8th_data_for_new_vtypes.py
+    included: True
+    type: transport
   item_dataset_clean_:
     file_path: intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv
     folder: intermediate_data/item_data/
@@ -132,4 +145,3 @@ datasets:
     included: True
     type: transport
   
- 

@@ -47,6 +47,39 @@ Functions we need:
 
 """
 
+def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
+    """Note this is for stocks only
+    this will run through each economys data and identify if there is any datasets with data that specifies more than jsut the simplified vehicle types or less (cars, motorbikes, buses, lcv's, ht's). The other vehicle types are: ldv's, minibus, hdv, heavy duty vehicles. It will work like:
+
+    If there is a dataset with data on all of the vehicle types for one transport type (i.e. for passenger that is cars, motorbikes, buses, ldv's, minibuses) and another dataset with data on only the simplified vehicle types or less (eg cars, motorbikes, buses, lcv's, ht's) then this will default to using the dataset with the more detailed breakdown of vehicle types. This is because we want to use the most detailed breakdown of vehicle types as possible. 
+    Then it will also remove the dataset with only the simplified vehicle types.
+
+    This is especially important so tha tthe user doesnt accidentally select a dataset with less detailed vehicle types than they intended. As those less detailed datasets may be aggregated from the more detailed datasets, so the user may be selecting a dataset that has already been aggregated from another dataset.
+    """
+    vehicle_types = {}
+    vehicle_types['passenger'] = ['car', '2w', 'bus', 'ldv', 'minibus']
+    vehicle_types['freight'] =  ['lcv', 'mdv', 'hdv']
+    combined_data_stocks = combined_data[combined_data['measure']=='stocks']
+    for economy in combined_data_stocks['economy'].unique():
+        economy_data = combined_data_stocks[combined_data_stocks['economy']==economy]
+        #filter through unique datasets for each transport type:
+        for transport_type in economy_data['transport_type'].unique():
+            datasets_with_all_vehicle_types = []
+            for dataset in economy_data['dataset'].unique():
+                #if this data contains data on all the vehicle types for this transport type then add it 
+                if set(vehicle_types[transport_type]).issubset(set(economy_data[(economy_data['dataset']==dataset)&(economy_data['transport_type']==transport_type)]['vehicle_type'].unique())):
+                    datasets_with_all_vehicle_types.append(dataset)
+            #if there is a dataset with all the vehicle types for this transport type then remove the datasets that arent in this list
+            if len(datasets_with_all_vehicle_types)>0:
+                datasets_to_remove = [dataset for dataset in economy_data['dataset'].unique() if dataset not in datasets_with_all_vehicle_types]
+                #drop the rows with these datasets for that economy and transport type
+                combined_data = combined_data[~((combined_data['measure']=='stocks')&(combined_data['economy']==economy)&(combined_data['transport_type']==transport_type)&(combined_data['dataset'].isin(datasets_to_remove)))]
+
+                print('removing datasets: '+str(datasets_to_remove)+' for economy: '+economy+' and transport type: '+transport_type + 'for stocks data only')
+
+    return combined_data
+
+    
 def filter_for_most_detailed_stocks_breakdown(combined_data):
     """this will run through each economys data and identify if there is any datasets with data on lcv's and ldv's or only datasets with only ldv's. if there is a dataset with data on both then it will remove the dataset with only ldv's. This is because we want to use the most detailed breakdown of stocks as possible. 
     This will make the assumption that the data on lcv's and ldv's is more accurate than the data on ldv's only."""
@@ -169,18 +202,12 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
         combined_data.to_pickle(error_file_path)
                                                             
         raise Exception('There are {} duplicates in the combined data. Please fix this before continuing. Data saved to {}'.format(len(combined_data[combined_data.duplicated()]), error_file_path))
-    
 
-def replace_bad_col_names(col):
-    col = utility_functions.convert_string_to_snake_case(col)
-    if col == 'fuel_type':
-        col = 'fuel'  
-    if col == 'comments':
-        col = 'comment'
-    if col == 'units':
-        col = 'unit'
-    return col
-
+def combine_dataset_source_col(combined_data):
+    #A make thigns easier in this process, we will concatenate the source and dataset columns into one column called dataset. But if source is na then we will just use the dataset column
+    combined_data['dataset'] = combined_data.apply(lambda row: row['dataset'] if pd.isna(row['source']) else row['dataset'] + ' $ ' + row['source'], axis=1)
+    #then drop source column
+    combined_data = combined_data.drop(columns=['source'])
 
 def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     if dataset_frequency != 'yearly':
@@ -189,10 +216,14 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     combined_data = pd.DataFrame()
     logging.info('\nCombining datasets:\n')
     for dataset in datasets:
+        # #check if dataset[2] contains eigth_edition_transport_data_final_new_vtypes_drives
+        # if 'eigth_edition_transport_data_final_new_vtypes_drives' in dataset[2]:
+
+        #     breakpoint()
         new_dataset = pd.read_csv(dataset[2])
 
         #convert cols to snake case
-        new_dataset.columns = [replace_bad_col_names(col) for col in new_dataset.columns]
+        new_dataset.columns = [utility_functions.replace_bad_col_names(col) for col in new_dataset.columns]
         
         #check that all the cols in index cols are in the dataset
         for col in paths_dict['INDEX_COLS']:
@@ -217,10 +248,7 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
 
     check_dataset_for_issues(combined_data, paths_dict['INDEX_COLS'],paths_dict)
 
-    #A make thigns easier in this process, we will concatenate the source and dataset columns into one column called dataset. But if source is na then we will just use the dataset column
-    combined_data['dataset'] = combined_data.apply(lambda row: row['dataset'] if pd.isna(row['source']) else row['dataset'] + ' $ ' + row['source'], axis=1)
-    #then drop source column
-    combined_data = combined_data.drop(columns=['source'])
+    combined_data = combine_dataset_source_col(combined_data)
 
     ############################################################
 
@@ -465,8 +493,8 @@ def test_identify_erroneous_duplicates(combined_data, paths_dict):
         col_no_value = [col for col in duplicates.columns if col != 'value']
         duplicates = duplicates[duplicates.duplicated(subset=col_no_value,keep=False)]
         duplicates.to_csv(paths_dict['erroneus_duplicates'], index=False)
-        logging.error('There are duplicate rows in the dataset with different values. Please fix them before continuing.')
-        raise Exception('There are duplicate rows in the dataset. Please fix them before continuing')
+        logging.error('There are duplicate rows in the dataset with different values. Please fix them before continuing. they are saved to {}'.format(paths_dict['erroneus_duplicates']))
+        raise Exception('There are duplicate rows in the dataset. Please fix them before continuing. they are saved to {}'.format(paths_dict['erroneus_duplicates']))
     
     return
 
@@ -530,29 +558,29 @@ def filter_for_specifc_data(selection_dict, df, filter_for_all_other_data=False)
 
 
 
-def create_config_yml_file(paths_dict):
+# def create_config_yml_file(paths_dict):
         
-    datasets = [('intermediate_data/8th_edition_transport_typel/', 'eigth_edition_transport_data_final_', 'intermediate_data/8th_edition_transport_typel/eigth_edition_transport_data_final_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_bus_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv'), ('intermediate_data/estimated/', '_8th_ATO_road_freight_tonne_km.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv'), ('intermediate_data/estimated/', '_8th_iea_ev_all_stock_updates.csv', 'intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv'), ('intermediate_data/ATO/', 'ATO_data_cleaned_', 'intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv'), ('intermediate_data/item_data/', 'item_dataset_clean_', 'intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_turnover_rate_3pct', 'intermediate_data/estimated/FILE_DATE_ID_turnover_rate_3pct.csv'),  ('intermediate_data/estimated/', 'EGEDA_merged', 'intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'ATO_revenue_pkm', 'intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'nearest_available_date', 'intermediate_data/estimated/nearest_available_dateFILE_DATE_ID.csv'), ('intermediate_data/IEA/', '_iea_fuel_economy.csv', 'intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv'), ('intermediate_data/IEA/', '_evs.csv', 'intermediate_data/IEA/FILE_DATE_ID_evs.csv'), ('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_', 'intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'occ_load_guesses', 'intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'new_vehicle_efficiency_estimates_', 'intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv'), ('intermediate_data/Macro/', 'all_macro_data_', 'intermediate_data/Macro/all_macro_data_FILE_DATE_ID.csv')]
+#     datasets = [('intermediate_data/8th_edition_transport_typel/', 'eigth_edition_transport_data_final_', 'intermediate_data/8th_edition_transport_typel/eigth_edition_transport_data_final_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_bus_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv'), ('intermediate_data/estimated/', '_8th_ATO_road_freight_tonne_km.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv'), ('intermediate_data/estimated/', '_8th_iea_ev_all_stock_updates.csv', 'intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv'), ('intermediate_data/ATO/', 'ATO_data_cleaned_', 'intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv'), ('intermediate_data/item_data/', 'item_dataset_clean_', 'intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_turnover_rate_3pct', 'intermediate_data/estimated/FILE_DATE_ID_turnover_rate_3pct.csv'),  ('intermediate_data/estimated/', 'EGEDA_merged', 'intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'ATO_revenue_pkm', 'intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'nearest_available_date', 'intermediate_data/estimated/nearest_available_dateFILE_DATE_ID.csv'), ('intermediate_data/IEA/', '_iea_fuel_economy.csv', 'intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv'), ('intermediate_data/IEA/', '_evs.csv', 'intermediate_data/IEA/FILE_DATE_ID_evs.csv'), ('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_', 'intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'occ_load_guesses', 'intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'new_vehicle_efficiency_estimates_', 'intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv'), ('intermediate_data/Macro/', 'all_macro_data_', 'intermediate_data/Macro/all_macro_data_FILE_DATE_ID.csv')]
 
 
-    #saVE THESE TO config.YML 
-    # #open yml
-    # import yaml
-    # with open('config/config.yml', 'r') as ymlfile:
-    #     cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
-    #create a key called datassets then set it so the key is the second element of the tuple, then folder: is the first element of the tuple and file_path: is the third element of the tuple. Then we will also have a script: value which will be set to TBA
-    cfg = dict()
-    cfg['datasets'] = dict()
-    for dataset in datasets:
+#     #saVE THESE TO config.YML 
+#     # #open yml
+#     # import yaml
+#     # with open('config/config.yml', 'r') as ymlfile:
+#     #     cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
+#     #create a key called datassets then set it so the key is the second element of the tuple, then folder: is the first element of the tuple and file_path: is the third element of the tuple. Then we will also have a script: value which will be set to TBA
+#     cfg = dict()
+#     cfg['datasets'] = dict()
+#     for dataset in datasets:
         
-        cfg['datasets'][dataset[1]] = {'folder': dataset[0], 'file_path': dataset[2], 'script': 'TBA'}
+#         cfg['datasets'][dataset[1]] = {'folder': dataset[0], 'file_path': dataset[2], 'script': 'TBA'}
 
-    #save INDEX_COLS to the yml under the key 'INDEX_COLS'
-    cfg['INDEX_COLS'] = paths_dict['INDEX_COLS']
-    #save yml
-    with open('config/config.yml', 'w') as ymlfile:
-        yaml.dump(cfg, ymlfile)
-    return
+#     #save INDEX_COLS to the yml under the key 'INDEX_COLS'
+#     cfg['INDEX_COLS'] = paths_dict['INDEX_COLS']
+#     #save yml
+#     with open('config/config.yml', 'w') as ymlfile:
+#         yaml.dump(cfg, ymlfile)
+#     return
 
 
 
