@@ -1,4 +1,4 @@
-#take in data from aus census. This data has good information on stocks for a variety of sub types and even fuels. However no actual EVs data so might have to deal with that by importing IEA stock shares.
+#take in data from aus census. This data has good information on stocks for a variety of sub types and even fuels. However no actual df_final data so might have to deal with that by importing IEA stock shares.
 
 
 #%%
@@ -9,26 +9,91 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import re
+import datetime
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 #%%
 #load simplifeid aus vehicle censusx data. 
-file = pd.read_excel(r'.\input_data\Australia\aus_vehicle_census_simplified.xlsx',sheet_name='vehicle_census_simplified')
+df = pd.read_excel(r'.\input_data\Australia\aus_vehicle_census_simplified.xlsx',sheet_name='vehicle_census_simplified')
 # cols Date	Vehicle Type	Transport Type	Value	Vehicle_sub_type	Measure	Drive	Weight	Comment
 
 #now do some manipulation on the data. 
 
 # we will be calcualting the avg age, ice_g, ice_d splits and splitting vehicle sub types into the vehicle types we use.
 
-
+#%%
 #first grab the data with Weights in it (data that doesnt have nas in that col)
+df_weights = df[df['Weight'].notna()]
+#calcualte percent of vehicles in each vehicle type for each Vehicle sub type, for each Date
+df_weights['percent_of_vehicle_type'] = df_weights.groupby(['Date','Vehicle_sub_type'])['Value'].transform(lambda x: x/x.sum())
+#sum up by Vehicle sub type and Vehicle Type and date so we know the total percent of each vehicle sub type for each Date
+df_weights_percents = df_weights.groupby(['Date','Vehicle Type','Vehicle_sub_type'])['percent_of_vehicle_type'].sum().reset_index()
 
+
+#and gcreate a sum of the non percentage data too, since ti will be used later
+df_weights = df_weights.groupby(['Date','Vehicle Type'])['Value'].sum().reset_index()
+#set some cols
+df_weights['Drive'] = 'all'
+df_weights['Transport Type'] = 'freight'
+df_weights['Measure'] = 'stocks'
+#%%
+#use percents to calcualte the number of ice_g and ice_d vehicles in each vehicle type for each Date:
+#first grab data where Drive isnt all
+df_weights_fuel = df[df['Drive']!='all']
+#drop vehicle type
+df_weights_fuel = df_weights_fuel.drop(columns=['Vehicle Type'])
+#join the weights on date and vehicle sub type using an innner, then calcualte the number of ice_g and ice_d vehicles in each vehicle type for each Date
+df_weights_fuel = df_weights_fuel.merge(df_weights_percents,on=['Date','Vehicle_sub_type'],how='inner')
+
+#now calcualte the number of ice_g and ice_d vehicles in each vehicle type for each Date
+df_weights_fuel['Value'] = df_weights_fuel['Value']*df_weights_fuel['percent_of_vehicle_type']
+
+#now sum value by date, vehicle type transport type, drive
+df_weights_fuel = df_weights_fuel.groupby(['Date','Vehicle Type','Transport Type','Drive'])['Value'].sum().reset_index()
+
+#set measre to stocks
+df_weights_fuel['Measure'] = 'stocks'
+#%%
+#do the same thing for vehicle age but use it to find the average age when summing ages of similar vehicle types. 
+# df_age = df[df['Measure']=='average_age']
+#IGNORING AGE FOR NOW BECAUSE WE DONT NEED IT YET
+
+#%%
+#now get the rest of the stocks. do this by grabbing data where drive is all and measur eis stocks
+df_stocks = df[(df['Drive']=='all' )& (df['Measure']=='stocks')& (df['Weight'].isna())]
+#drop the vtypes with double_up in their name as they are just duplicates
+df_stocks = df_stocks[~df_stocks['Vehicle Type'].str.contains('double_up')]
+#concat with df_weights to add on the data for rigid trucks
+df_stocks = pd.concat([df_stocks,df_weights])
+#concat with the fuel data to add on the data for ice_g and ice_d
+df_stocks = pd.concat([df_stocks,df_weights_fuel])
+#drop the vehicle sub type column
+df_stocks = df_stocks.drop(columns=['Vehicle_sub_type', 'Weight'])
+
+#sum by date, vehicle type, transport type, drive, measure
+df_stocks = df_stocks.groupby(['Date','Vehicle Type','Transport Type','Drive','Measure'])['Value'].sum().reset_index()
+
+#%%
+df_final = df_stocks.copy()
+#set comment to 
+df_final['Comment'] = 'no_comment' 
+#set dataset to 'AUS_census'
+df_final['Dataset'] = 'AUS_census'
+#make date have the format YYYY-MM-DD, with mm=12, dd=31
+df_final['Date'] = df_final['Date'].astype(str) + '-12-31'
+df_final['Frequency'] = 'Yearly'
+df_final['Fuel'] = 'all'
+df_final['Scope'] = 'National'
+
+#%%
+#save the data
+
+#create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
+file_date = datetime.datetime.now().strftime("%Y%m%d")
+FILE_DATE_ID = 'DATE{}'.format(file_date)
+df_final.to_csv('intermediate_data/AUS/{}_census.csv'.format(FILE_DATE_ID), index=False)
 
 
 #%%
-
-
-
-
 
 
 
