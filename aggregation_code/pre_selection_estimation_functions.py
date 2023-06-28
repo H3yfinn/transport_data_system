@@ -27,6 +27,7 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
     #take in the data from vehicle_type_distributions.csv and then split stocks into them. note that there will be certain cases where this cannot be done because the stocks are already split into the vehicle types.
     #file is './intermediate_data/estimated/vehicle_type_distributionsFILE_DATE_ID.csv so find the altest version of it:
     # currently its format is with the col nbames:  Source Dataset Comments Date Medium 	Economy Transport Type Vehicle Type 	Vehicle1	Vehicle2	Vehicle3	Vehicle1_name	Vehicle2_name	Vehicle3_name
+    
     date_id = utility_functions.get_latest_date_for_data_file('./intermediate_data/estimated/','vehicle_type_distributions')
     vehicle_type_distributions_file_path = './intermediate_data/estimated/vehicle_type_distributionsDATE{}.csv'.format(date_id)
     vehicle_type_distributions = pd.read_csv(vehicle_type_distributions_file_path)
@@ -42,14 +43,14 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
         original_vehicle_type = row['vehicle_type']
         #new vehicle types names will be in the cols with regex 'vehicle\d_name' and their vlaues iun the cols with regex 'vehicle\d'
         new_vehicle_type_names = [col for col in vehicle_type_distributions.columns if re.match('vehicle\d_name',col)]
-        new_vehicle_type_values = [col for col in vehicle_type_distributions.columns if re.match('vehicle\d',col)]
+        new_vehicle_type_values = [col for col in vehicle_type_distributions.columns if re.match('vehicle\d$',col)]
         new_vehicle_type_names = [row[col] for col in new_vehicle_type_names if not pd.isna(row[col])]
         new_vehicle_type_values = [row[col] for col in new_vehicle_type_values if not pd.isna(row[col])]
         economy = row['economy']
         transport_type = row['transport_type']
 
         #now we have the new vehicle types and their values. we will filter for rows in the unfiltered_combined_data that match the economy and transport type with measure = stocks, check each separate dataset/source combo (they should be concatednated alrady) for the vehicle type and then split the stocks into the new vehicle types
-        rows_to_edit = unfiltered_combined_data[(unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['transport_type'] == transport_type) & (unfiltered_combined_data['measure'] == 'stocks')]
+        rows_to_edit = unfiltered_combined_data[(unfiltered_combined_data['economy'] == economy)&(unfiltered_combined_data['medium'] == 'road') & (unfiltered_combined_data['transport_type'] == transport_type) & (unfiltered_combined_data['measure'] == 'stocks')]
         unique_datasets = rows_to_edit['dataset'].unique()
         #find unique vehicle types for each dataset. if they are already split into more than one of the new vehicle types then we will not edit them, else, grab the original vehicle type (if it is available) and split it into the new vehicle types
         for dataset in unique_datasets:
@@ -61,17 +62,18 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
             #now we know that the vehicle type is in the dataset and it is not split into more than one of the new vehicle types. we will split it into the new vehicle types
             #first we will get the original vehicle type data
             original_vehicle_type_data = rows_to_edit[(rows_to_edit['dataset'] == dataset) & (rows_to_edit['vehicle_type'] == original_vehicle_type)]
+            
+            #drop original vehicle type data because we want to aovid double counting it 
+            unfiltered_combined_data = unfiltered_combined_data.drop(original_vehicle_type_data.index)
             #now we will split it into the new vehicle types
             for new_vehicle_type_name, new_vehicle_type_value in zip(new_vehicle_type_names,new_vehicle_type_values):#todo check that this creates a kind of 2 column df or set of 2 lists, rather than keeping the originnal cols.
-                breakpoint()
+                # breakpoint()
                 new_vehicle_type_data = original_vehicle_type_data.copy()
                 new_vehicle_type_data['vehicle_type'] = new_vehicle_type_name
                 new_vehicle_type_data['value'] = new_vehicle_type_data['value'] * new_vehicle_type_value
                 #change datasset to include info about how it was split
                 new_vehicle_type_data['dataset'] = new_vehicle_type_data['dataset'] + ' vehicle_dist_split'
 
-                #drop original vehicle type data because we want to aovid double counting it 
-                unfiltered_combined_data = unfiltered_combined_data.drop(original_vehicle_type_data.index)#double check this works. i think the indexing works but not sure
                 #add new vehicle type data
                 unfiltered_combined_data = pd.concat([unfiltered_combined_data,new_vehicle_type_data])
 

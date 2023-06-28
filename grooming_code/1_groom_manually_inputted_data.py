@@ -25,6 +25,9 @@ wb = pd.ExcelFile('./input_data/Manually_inputted_data_road.xlsx')
 concat_df_road = pd.DataFrame()
 for sheet in wb.sheet_names:
     df = pd.read_excel(wb,sheet)
+    if sheet =='vehicle_type_distributions':
+        vehicle_type_distributions = df.copy()
+        continue
     concat_df_road = pd.concat([concat_df_road,df],ignore_index=True)
 
 #TAKE IN NON ROAD DATA
@@ -41,10 +44,49 @@ if 'Value_MJ' in concat_df_road.columns:
 if 'Value_MJ' in concat_df_other.columns:
     concat_df_other = concat_df_other.drop('Value_MJ',axis=1)
 
+#%%
+def prepare_vehicle_type_distributions(vehicle_type_distributions,concordances):
+    #note that this data is used separately to the other data as it has a different format. SO take in data from that sheet and separate it from the otehr data as it will jsut be timesed by stocks data based on the Vehicle Type column at the beginning of the selection process. This will be like the function split_stocks_where_drive_is_all_into_bev_phev_and_ice in pre_selection_data_estimation_functions.data_estimation_functions
+    # currently its format is with the col nbames:  Source Dataset Comments Date Medium 	Economy Transport Type Vehicle Type 	Vehicle1	Vehicle2	Vehicle3	Vehicle1_name	Vehicle2_name	Vehicle3_name 
+    #It dxoesnt need any cleaning, but does need to be hcecked to make sure that the vehicle types are the same as in the concordances file.
+    # # breakpoint()
+    breakpoint()
+    vehicle_types = concordances['Vehicle Type'].unique()
+    #add lpv tro the vehicle types as it is an aggreation of the passenger lt,suv and car categories
+    vehicle_types = np.append(vehicle_types,'lpv')
+    
+    #check that the values in vehicle_name and vehicle type cols are the same as in the concordances file, and also check that all values in the vehicle cols add to 1 for each row. 
+    #first check that the vehicle types are the same
+    vehicle_types_in_data = vehicle_type_distributions['Vehicle Type'].unique().tolist() + vehicle_type_distributions['Vehicle1_name'].unique().tolist() + vehicle_type_distributions['Vehicle2_name'].unique().tolist() + vehicle_type_distributions['Vehicle3_name'].unique().tolist()
+    #drop nan
+    vehicle_types_in_data = [vehicle_type for vehicle_type in vehicle_types_in_data if type(vehicle_type)==str]
+
+    if not all([vehicle_type in vehicle_types for vehicle_type in vehicle_types_in_data]):
+      raise ValueError('The vehicle types in the vehicle type distribution data are not the same as in the concordances file')
+
+    #check values add to 1. use regex to identify the vehicle cols so they sdont have anything after the digit
+
+    regex = re.compile(r'Vehicle\d$')
+    vehicle_cols = [col for col in vehicle_type_distributions.columns if regex.match(col)]
+    #check that the values in these cols add to 1. make sure ot ignore nas and use a method that 
+    if not any(abs(vehicle_type_distributions[vehicle_cols].fillna(0).sum(axis=1) - 1.0) < 1e-6):
+
+        raise ValueError('The values in the vehicle cols do not add to 1 for each row')
+    
+    # #drop any non nexessarey cols:'Drive',
+    # # 'Frequency',
+    # # 'Unit',
+    # # 'Scope',
+    # # 'Fuel'
+    # vehicle_type_distributions = vehicle_type_distributions.drop(['Drive', 'Frequency', 'Unit', 'Scope', 'Fuel'],axis=1)
+    
+    return vehicle_type_distributions
+
+vehicle_type_distributions = prepare_vehicle_type_distributions(vehicle_type_distributions, concordances)
+#%%
 
 def extend_df_for_missing_dates(df):
     #now we want to fill in with as many dates as we need. For now we will assume that is between 2010 and the current year
-    
     current_year = datetime.datetime.now().year
     years = np.arange(2010,current_year+1)
     #convert years to yyyy-mm-dd by adding 12-31 to end
@@ -55,24 +97,38 @@ def extend_df_for_missing_dates(df):
     else:
         df['Date'] = years[0]
 
+    cols=df.columns.tolist() 
+    #identify value cols as cols with numbers in them. they can be floats or ints
+    value_cols = [col for col in cols if df[col].dtype in ['int64','float64']]
+
     #now for every row in concat_df_road we want to add a row for each date in years. We'll use pd.repeat to do this.
     #first create version of df withno values col
-    df_no_values = df.drop('Value',axis=1)
+    df_no_values = df.drop(value_cols,axis=1)
     df_no_values = df_no_values.reindex(df_no_values.index.repeat(len(years)))
     df_no_values['Date'] = years * len(df)
     df_no_values.reset_index(drop=True, inplace=True)
     #add the values column back in using merge
     df = df_no_values.merge(df,how='left',on=df_no_values.columns.tolist())
+    #then we need to add values. the best way woudl be to ffill and bfill when sported by date and the otehr cols
 
-    cols=df.columns.tolist() 
     #drop ['Source', 'Comments', 'Value', 'Dataset', 'Date'] from cols
-    cols = [col for col in cols if col not in ['Source', 'Comments', 'Value', 'Dataset', 'Date']]
-    df['Value'] = df.groupby(cols)['Value'].apply(lambda x: x.ffill().bfill())
+    cols = [col for col in cols if col not in ['Source', 'Comments', 'Dataset', 'Date']+value_cols]
+    #sort then ffill and bfill
+    df = df.sort_values(by=cols)
+
+    # make sure groupby can handle nans by filling nans in cols with string 'nan'
+    df[cols] = df[cols].fillna('nan')
+    for col in value_cols:
+        df[col] = df.groupby(cols)[col].apply(lambda x: x.ffill().bfill())
+    #repalce nans with np.nan
+    df = df.replace('nan',np.nan)
+
     return df
 
 concat_df_road = extend_df_for_missing_dates(concat_df_road)
 concat_df_other = extend_df_for_missing_dates(concat_df_other)
-
+vehicle_type_distributions = extend_df_for_missing_dates(vehicle_type_distributions)
+#%%
 def fill_missing_drive_cols(df, concordances):
     #if the df is missing the drive col then just add it for every drive. this might cause issues where we want the measure to be drive non specific but it seems better this way.
     if 'Drive' not in df.columns:
@@ -87,36 +143,7 @@ def fill_missing_drive_cols(df, concordances):
         df = concat_df
     return df
 
-concat_df_road = fill_missing_drive_cols(concat_df_road, concordances)
-
-def separate_vehicle_type_distributions(df,concordances):
-    #note that this data is used separately to the other data as it has a different format. SO take in data from that sheet and separate it from the otehr data as it will jsut be timesed by stocks data based on the Vehicle Type column at the beginning of the selection process. This will be like the function split_stocks_where_drive_is_all_into_bev_phev_and_ice in pre_selection_data_estimation_functions.data_estimation_functions
-    # currently its format is with the col nbames:  Source Dataset Comments Date Medium 	Economy Transport Type Vehicle Type 	Vehicle1	Vehicle2	Vehicle3	Vehicle1_name	Vehicle2_name	Vehicle3_name 
-    #It dxoesnt need any cleaning, but does need to be hcecked to make sure that the vehicle types are the same as in the concordances file.
-
-    
-    vehicle_type_distributions = df.copy()
-    vehicle_type_distributions = vehicle_type_distributions[vehicle_type_distributions['Measure']=='Vehicle_type_distribution']
-    df = df[df['Measure']!='Vehicle_type_distribution']
-
-    vehicle_types = concordances['Vehicle_type'].unique()
-    
-    #check that the values in vehicle_name and vehicle type cols are the same as in the concordances file, and also check that all values in the vehicle cols add to 1 for each row. 
-    #first check that the vehicle types are the same
-    vehicle_types_in_data = vehicle_type_distributions['Vehicle Type'].unique() + vehicle_type_distributions['Vehicle1_name'].unique() + vehicle_type_distributions['Vehicle2_name'].unique() + vehicle_type_distributions['Vehicle3_name'].unique()
-    if not all([vehicle_type in vehicle_types for vehicle_type in vehicle_types_in_data]):
-        raise ValueError('The vehicle types in the vehicle type distribution data are not the same as in the concordances file')
-    
-    #check values add to 1. use regex to identify the vehicle cols
-    regex = re.compile(r'Vehicle\d')
-    vehicle_cols = [col for col in vehicle_type_distributions.columns if regex.match(col)]
-    #check that the values in these cols add to 1. make sure ot ignore nas
-    if not all(vehicle_type_distributions[vehicle_cols].fillna(0).sum(axis=1)==1):
-        raise ValueError('The values in the vehicle cols do not add to 1 for each row')
-    
-    return df, vehicle_type_distributions
-
-concat_df_road, vehicle_type_distributions = separate_vehicle_type_distributions(concat_df_road, concordances)
+vehicle_type_distributions = fill_missing_drive_cols(vehicle_type_distributions, concordances)
 
 #%%
 def convert_occupancy_and_load_to_occupancy_or_load(df):
@@ -134,6 +161,39 @@ def convert_occupancy_and_load_to_occupancy_or_load(df):
 
 concat_df_road = convert_occupancy_and_load_to_occupancy_or_load(concat_df_road)
 #%%
+def break_vehicle_types_into_more_specific_types(concat_df_road):
+    #break ht into mt and ht, break lpv into lt,suv and car.
+    #do this for the following sheets in concat_df_road:
+    sheets = ['Mileage','Turnover_rate',
+       'Occupancy_or_load']
+    #so for each sheet we want to break the vehicle types into more specific types
+    for sheet in sheets:
+        df = concat_df_road.copy()
+        df = df[df['Measure']==sheet]
+        lpv = df[df['Vehicle Type']=='lpv']
+        car = lpv.copy()
+        suv = lpv.copy()
+        lt = lpv.copy()
+        car['Vehicle Type'] = 'car'
+        suv['Vehicle Type'] = 'suv'
+        lt['Vehicle Type'] = 'lt'
+        df = df[df['Vehicle Type']!='lpv']
+        df = pd.concat([df,car,suv,lt],ignore_index=True)
+
+        ht = df[df['Vehicle Type']=='ht']
+        #times ht avg load by 1.5
+        ht['Value'] = ht['Value']*1.5#TEMPORARY
+        mt = ht.copy()
+        mt['Vehicle Type'] = 'mt'
+        df = df[df['Vehicle Type']!='ht']
+        df = pd.concat([df,mt,ht],ignore_index=True)
+
+        concat_df_road = concat_df_road[concat_df_road['Measure']!=sheet]
+        concat_df_road = pd.concat([concat_df_road,df],ignore_index=True)
+    return concat_df_road
+
+concat_df_road = break_vehicle_types_into_more_specific_types(concat_df_road)
+#%%
 # def create_phev_and_ice_versions_of_values(df):
 #     #because we are not sure if we will introduice these aggregations for good we will itnroduce these using code. Just extract the values for phevg/phevd and g/d drive types and set their drive to phev and ice respectively, then group by all cols except value and average. then add them back into the df
 #     # if 'Drive' in df.columns:
@@ -144,7 +204,7 @@ concat_df_road = convert_occupancy_and_load_to_occupancy_or_load(concat_df_road)
 #     phev = phev.groupby(cols).mean().reset_index()
 
 #     ice = df[df['Drive'].isin(['ice_g','ice_d'])]
-#     ice['Drive'] = 'ice'
+#     ice['Drive'] = 
 #     cols = ice.columns.tolist()
 #     cols.remove('Value')
 #     ice = ice.groupby(cols).mean().reset_index()

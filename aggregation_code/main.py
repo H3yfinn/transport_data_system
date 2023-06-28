@@ -14,7 +14,7 @@ import utility_functions
 import data_selection_functions
 import interpolation_functions
 import data_estimation_functions
-import pre_selection_data_estimation_functions
+import pre_selection_estimation_functions
 import logging
 import analysis_and_plotting_functions
 create_9th_model_dataset = True
@@ -42,11 +42,11 @@ else:
     load_energy_activity_selection_progress = False
     load_energy_activity_interpolation_progress = False
 
-RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = True
+RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-SINGULAR_ECONOMY_TO_RUN = None#'20_USA'# '08_JPN'#'05_PRC'
-SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID =None# 'DATE20230614'#make sure to update this to what you want to concat the new data to so you have a full dataset.
+SINGULAR_ECONOMY_TO_RUN = '08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID =None#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
 
 ################################################################
 
@@ -62,9 +62,12 @@ tracking of """
 #%% 
 def main():
     global FILE_DATE_ID
+    global SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
     ################################################################
     #SETUP
     if SINGULAR_ECONOMY_TO_RUN is not None:
+        if SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID is None:
+            SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID = FILE_DATE_ID
         FILE_DATE_ID = FILE_DATE_ID + '_{}'.format(SINGULAR_ECONOMY_TO_RUN)
 
     paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID,SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID, previous_selections_file_path=previous_selections_file_path)
@@ -83,11 +86,13 @@ def main():
             unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'] == SINGULAR_ECONOMY_TO_RUN]
 
         #EDIT ALL DATA BEFORE SELECTION
-        unfiltered_combined_data = pre_selection_data_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
-        splits_dict = pre_selection_data_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
+        unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
+        splits_dict = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
         #now we have to split the stocks where drive is all into bev and phev
-        unfiltered_combined_data = pre_selection_data_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict)
-        unfiltered_combined_data = pre_selection_data_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)
+        unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict)
+        breakpoint()
+        unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)
+        breakpoint()
         #would be good to split them into diesel and petrol as well, but this will take thought.
         #EDIT ALL DATA BEFORE SELECTION
 
@@ -102,6 +107,7 @@ def main():
 
         #TEMP MANUAL ADJUSTMENT FUNCTION
         # combined_data = data_formatting_functions.filter_for_most_detailed_stocks_breakdown(combined_data)
+        breakpoint()
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
         # def filter_for_most_detailed_drive_breakdown(combined_data):
         #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
@@ -156,7 +162,7 @@ def main():
     #interpolate missing values for STOCKS MILAGE OCCUPANCY EFFICIENCY DATA
     ####################################################
     if not load_stocks_mileage_occupancy_load_efficiency_interpolation_progress    :#when we design actual progress integration then we wont do it like this.  
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = interpolation_functions.interpolate_missing_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance,INDEX_COLS,paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.0000001, INTERPOLATION_LIMIT=10,load_progress=True)
+        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = interpolation_functions.interpolate_missing_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.0000001, INTERPOLATION_LIMIT=10,load_progress=True)
     else:
         stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
     #save to pickle
@@ -171,7 +177,7 @@ def main():
     #INCORPORATE NEW STOCKS MILAGE OCCUPANCY EFFICIENCY DATA TO CREATE NEW PASSANGER KM AND ENERGY DATA, THEN INCORPORATE INTO COMBINED DATA
     ####################################################
 
-    stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data = pre_selection_data_estimation_functions.calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict)
+    stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data = pre_selection_estimation_functions.calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict)
 
     stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data.to_pickle(paths_dict['calculated_activity_energy_combined_data'])
     logging.info('Saving calculated_activity_energy_combined_data')
@@ -221,7 +227,7 @@ def main():
     logging.info('Saving all_other_combined_data_concordance')
     if not load_energy_activity_interpolation_progress:
         #run interpolation
-        all_other_combined_data_concordance = interpolation_functions.interpolate_missing_values(all_other_combined_data_concordance,INDEX_COLS,paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True)
+        all_other_combined_data_concordance = interpolation_functions.interpolate_missing_values(all_other_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True)
     else:
         # all_other_combined_data = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
         all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
@@ -286,14 +292,15 @@ def main():
     if SINGULAR_ECONOMY_TO_RUN is not None:
         breakpoint()
         # grab data for SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
-        previous_combined_rescaled_data = pd.read_pickle(paths_dict['previous_final_combined_data_pkl'])
+        previous_final_data = pd.read_pickle(paths_dict['previous_final_combined_data_pkl'])
         #drop economy from previous data
-        previous_combined_rescaled_data = previous_combined_rescaled_data[previous_combined_rescaled_data['economy'] != SINGULAR_ECONOMY_TO_RUN]
+        previous_final_data = previous_final_data[previous_final_data['economy'] != SINGULAR_ECONOMY_TO_RUN]
         #cpocnat with new data
-        combined_rescaled_data = pd.concat([combined_rescaled_data,previous_combined_rescaled_data],axis=0)
+        final_data = pd.read_pickle(paths_dict['final_combined_data_pkl'])
+        final_data = pd.concat([final_data,previous_final_data],axis=0)
         #save to pickle
-        combined_rescaled_data.to_pickle(paths_dict['final_combined_rescaled_data'])
-        combined_rescaled_data.to_csv(paths_dict['final_data_csv'], index=False)
+        final_data.to_pickle(paths_dict['final_combined_data_pkl'])
+        final_data.to_csv(paths_dict['final_data_csv'], index=False)
 
     #TODO INTERPOLATE AND MAYBE SELECT
 

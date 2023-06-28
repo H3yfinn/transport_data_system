@@ -79,7 +79,7 @@ evs[evs['vehicle type']=='EV']#it's for charging points so make it NA
 # so change all to: ldv, np.nan, van, bus, ht
 evs['vehicle type'] = evs['vehicle type'].replace({'Cars':'lpv', 'EV':np.nan, 'Vans':'lcv', 'Buses':'bus', 'Trucks':'ht'})
 #set ldv's to have transport type = 'passenger'
-evs.loc[evs['vehicle type']=='car', 'transport type'] = 'passenger'
+evs.loc[evs['vehicle type']=='lpv', 'transport type'] = 'passenger'
 #set lcv's to have transport type = 'combined'
 
 evs.loc[evs['vehicle type']=='lcv', 'transport type'] = 'freight'

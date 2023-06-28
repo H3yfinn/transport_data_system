@@ -92,6 +92,12 @@ for year in range(2010+1, 2025):
     fuel_economy_by_vehicle_type_new_2010['date'] = str(year)+'-12-31'
     fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,fuel_economy_by_vehicle_type_new_2010])
 
+#and replicate the data again so we ahve a new df for new_vehicle_efficiency
+new_fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new.copy()
+new_fuel_economy_by_vehicle_type_new['measure']='new_vehicle_efficiency'
+
+#concatenate the two dataframes
+fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,new_fuel_economy_by_vehicle_type_new])
 #%%
 
 #make dataset col

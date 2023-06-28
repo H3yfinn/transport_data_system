@@ -59,18 +59,29 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
 
     This is especially important so tha tthe user doesnt accidentally select a dataset with less detailed vehicle types than they intended. As those less detailed datasets may be aggregated from the more detailed datasets, so the user may be selecting a dataset that has already been aggregated from another dataset.
     """
+    breakpoint()
+    #     combined_data_stocks.vehicle_type.unique()
+    # array(['bus', 'lcv', '2w', 'mt', 'lt'], dtype=object)
     vehicle_types = {}
     vehicle_types['passenger'] = ['car', '2w', 'bus', 'lt','suv']
     vehicle_types['freight'] =  ['lcv', 'mt', 'ht']
     combined_data_stocks = combined_data[combined_data['measure']=='stocks']
     for economy in combined_data_stocks['economy'].unique():
         economy_data = combined_data_stocks[combined_data_stocks['economy']==economy]
+
+        #however we also need to filter out 'vehicle_dist_split' from the dataset anme because it is splitting datasets by vehicle types essentially (i.e.[8th_-_new_vtypes_and_drives $ reference ice_split: ['2w' 'bus'] , 8th_-_new_vtypes_and_drives $ reference vehicle_dist_split: ['car' 'suv' 'lt']].
+        #so create copy of df with all dataset names that contain 'vehicle_dist_split', set to have vehicle_dist_split removed from the dataset name:
+        economy_data_copy = economy_data.copy()
+        economy_data_copy['dataset'] = economy_data_copy['dataset'].apply(lambda x: x.replace(' vehicle_dist_split', ''))
+
         #filter through unique datasets for each transport type:
         for transport_type in economy_data['transport_type'].unique():
             datasets_with_all_vehicle_types = []
             for dataset in economy_data['dataset'].unique():
+                non_dist_split_dataset = dataset.replace(' vehicle_dist_split', '')
                 #if this data contains data on all the vehicle types for this transport type then add it 
-                if set(vehicle_types[transport_type]).issubset(set(economy_data[(economy_data['dataset']==dataset)&(economy_data['transport_type']==transport_type)]['vehicle_type'].unique())):
+
+                if set(vehicle_types[transport_type]).issubset(set(economy_data_copy[(economy_data_copy['dataset']==non_dist_split_dataset)&(economy_data_copy['transport_type']==transport_type)]['vehicle_type'].unique())):
                     datasets_with_all_vehicle_types.append(dataset)
             #if there is a dataset with all the vehicle types for this transport type then remove the datasets that arent in this list
             if len(datasets_with_all_vehicle_types)>0:
@@ -78,7 +89,8 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
                 #drop the rows with these datasets for that economy and transport type
                 combined_data = combined_data[~((combined_data['measure']=='stocks')&(combined_data['economy']==economy)&(combined_data['transport_type']==transport_type)&(combined_data['dataset'].isin(datasets_to_remove)))]
 
-                print('removing datasets: '+str(datasets_to_remove)+' for economy: '+economy+' and transport type: '+transport_type + 'for stocks data only')
+                print('removing datasets: \n'+str(datasets_to_remove)+'\n For economy: '+economy+' and transport type: '+transport_type + 'for stocks data only')
+                print('\nThe datasets which were kept for this transport type with their available vehicle types are as follows:' + str(datasets_with_all_vehicle_types) + 'as they had the vehicle types: '+str(vehicle_types[transport_type]))
             else:#tell the user that there is no dataset with all the vehicle types for this transport type, and show what datasets there are with what vehicle types are availbel
                 print('no dataset with all vehicle types for economy: '+economy+' and transport type: '+transport_type + 'for stocks data only')
                 print('datasets available for this transport type with their available vehicle types are as follows:')
@@ -216,6 +228,7 @@ def combine_dataset_source_col(combined_data):
     combined_data['dataset'] = combined_data.apply(lambda row: row['dataset'] if pd.isna(row['source']) else row['dataset'] + ' $ ' + row['source'], axis=1)
     #then drop source column
     combined_data = combined_data.drop(columns=['source'])
+    return combined_data
 
 def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     if dataset_frequency != 'yearly':
@@ -251,7 +264,7 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
 
         #concatenate the dataset to the combined data
         combined_data = pd.concat([combined_data, new_dataset], ignore_index=True)
-
+        logging.info('Finished combining dataset: {}'.format(dataset[1]))
     combined_data = make_quick_fixes_to_datasets(combined_data)
 
     check_dataset_for_issues(combined_data, paths_dict['INDEX_COLS'],paths_dict)
@@ -263,7 +276,6 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     #SAVE DATA
 
     ############################################################
-
     #save data to pickle file in intermediate data. If we want to use this fot other reasons we can alwasys load it from here
     combined_data.to_pickle(paths_dict['unselected_combined_data'])
     logging.info('\nFinished combining datasets:\n')

@@ -190,6 +190,8 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
 
     if SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID is not None:
         paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format(SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID)
+    # else:
+    #     paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format(paths_dict['FILE_DATE_ID'])
 
     paths_dict = add_plot_paths_to_paths_dict(paths_dict, save_plotting_backups)
 
