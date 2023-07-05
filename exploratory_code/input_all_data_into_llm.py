@@ -1,0 +1,1 @@
+#going to try to put all the data into a single LLM and see if i can use it to categorize new data csvs.

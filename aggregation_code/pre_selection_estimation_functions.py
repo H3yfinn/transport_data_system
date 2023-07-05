@@ -52,6 +52,8 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
         #now we have the new vehicle types and their values. we will filter for rows in the unfiltered_combined_data that match the economy and transport type with measure = stocks, check each separate dataset/source combo (they should be concatednated alrady) for the vehicle type and then split the stocks into the new vehicle types
         rows_to_edit = unfiltered_combined_data[(unfiltered_combined_data['economy'] == economy)&(unfiltered_combined_data['medium'] == 'road') & (unfiltered_combined_data['transport_type'] == transport_type) & (unfiltered_combined_data['measure'] == 'stocks')]
         unique_datasets = rows_to_edit['dataset'].unique()
+        if economy == '10_MAS':
+            breakpoint()
         #find unique vehicle types for each dataset. if they are already split into more than one of the new vehicle types then we will not edit them, else, grab the original vehicle type (if it is available) and split it into the new vehicle types
         for dataset in unique_datasets:
             unique_vtypes = rows_to_edit[rows_to_edit['dataset'] == dataset]['vehicle_type'].unique()
@@ -63,8 +65,15 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
             #first we will get the original vehicle type data
             original_vehicle_type_data = rows_to_edit[(rows_to_edit['dataset'] == dataset) & (rows_to_edit['vehicle_type'] == original_vehicle_type)]
             
-            #drop original vehicle type data because we want to aovid double counting it 
+            #drop original vehicle type data because we want to aovid double counting it. to do this, set index as all cols except value and then drop the original vehicle type data:
+            temp_index_cols = [col for col in original_vehicle_type_data.columns if col != 'value']
+            original_vehicle_type_data = original_vehicle_type_data.set_index(temp_index_cols)
+            unfiltered_combined_data = unfiltered_combined_data.set_index(temp_index_cols)
             unfiltered_combined_data = unfiltered_combined_data.drop(original_vehicle_type_data.index)
+            #reset index
+            original_vehicle_type_data.reset_index(inplace=True)
+            unfiltered_combined_data.reset_index(inplace=True)
+            
             #now we will split it into the new vehicle types
             for new_vehicle_type_name, new_vehicle_type_value in zip(new_vehicle_type_names,new_vehicle_type_values):#todo check that this creates a kind of 2 column df or set of 2 lists, rather than keeping the originnal cols.
                 # breakpoint()
@@ -95,9 +104,13 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
         #gather vlaues to calculate the average split across all economys
         all_vehicle_type_values = []
         for economy in unfiltered_combined_data.economy.unique():
+            #TEMP
+            # #breakpoint if vehicle__type is 'car' or 'lpv' and economy is '19_THA'
+            # if vehicle_type in ['car','lpv'] and economy == '19_THA':
+            #     breakpoint()
             splits_dict[vehicle_type][economy] = {}
             #get the datasets where we have both ice_g and ice_d for this vehicle type and economy
-            datasets = unfiltered_combined_data[(unfiltered_combined_data['vehicle_type'] == vehicle_type) & (unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['drive'] == 'ice_g') | (unfiltered_combined_data['drive'] == 'ice_d')]['dataset'].unique()
+            datasets = unfiltered_combined_data[(unfiltered_combined_data['vehicle_type'] == vehicle_type) & (unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['measure'] == 'stocks') & ((unfiltered_combined_data['drive'] == 'ice_g') | (unfiltered_combined_data['drive'] == 'ice_d'))]['dataset'].unique()
             if len(datasets) > 0:
                 #get the average split for each dataset
                 for dataset in datasets:
@@ -132,6 +145,8 @@ def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict):
     #note that this wont replace the data for ice, isntead it will jsut add new data for ice_g and ice_d
     for vehicle_type in unfiltered_combined_data.vehicle_type.unique():
         for economy in unfiltered_combined_data.economy.unique():
+            if (vehicle_type=='ht') & (economy=='10_MAS'):
+                breakpoint()
             if splits_dict[vehicle_type][economy]['average'] == np.nan:
                 if splits_dict[vehicle_type]['average'] == np.nan:
                     print('no splits to use for splitting ice into p and d. vehicle type {} and economy {}'.format(vehicle_type, economy))

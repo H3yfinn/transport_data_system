@@ -42,10 +42,10 @@ else:
     load_energy_activity_selection_progress = False
     load_energy_activity_interpolation_progress = False
 
-RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False
+RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = True
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-SINGULAR_ECONOMY_TO_RUN = '08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+SINGULAR_ECONOMY_TO_RUN = None#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
 SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID =None#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
 
 ################################################################
@@ -65,6 +65,10 @@ def main():
     global SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
     ################################################################
     #SETUP
+    import time
+    start_time = time.time()#time taken =  3103.275397539139
+    print('Timing process')
+    
     if SINGULAR_ECONOMY_TO_RUN is not None:
         if SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID is None:
             SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID = FILE_DATE_ID
@@ -87,14 +91,15 @@ def main():
 
         #EDIT ALL DATA BEFORE SELECTION
         unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
-        splits_dict = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
+        splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
         #now we have to split the stocks where drive is all into bev and phev
-        unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict)
-        breakpoint()
-        unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)
-        breakpoint()
-        #would be good to split them into diesel and petrol as well, but this will take thought.
+        # breakpoint()
+        
+        unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
+        
+        unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict_petrol_to_diesel)
         #EDIT ALL DATA BEFORE SELECTION
+
 
         if create_9th_model_dataset:
             #import snapshot of 9th concordance
@@ -107,7 +112,7 @@ def main():
 
         #TEMP MANUAL ADJUSTMENT FUNCTION
         # combined_data = data_formatting_functions.filter_for_most_detailed_stocks_breakdown(combined_data)
-        breakpoint()
+        # breakpoint()
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
         # def filter_for_most_detailed_drive_breakdown(combined_data):
         #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
@@ -129,10 +134,14 @@ def main():
         combined_data = pd.read_pickle(paths_dict['previous_combined_data'])
 
     #save data to pickle
-    unfiltered_combined_data.to_pickle(paths_dict['unfiltered_combined_data'])
+    unfiltered_combined_data.to_pickle(paths_dict['unfiltered_combined_data_pkl'])
+    unfiltered_combined_data.to_csv(paths_dict['unfiltered_combined_data_csv'])
     combined_data_concordance.to_pickle(paths_dict['combined_data_concordance'])
     combined_data.to_pickle(paths_dict['combined_data'])
     logging.info('Saving combined_data_concordance and combined_data')
+    
+    midway_time = time.time()
+    print('Time taken to extract and combine data: ',midway_time-start_time,' seconds')
     ####################################################
     #BEGIN DATA SELECTION PROCESS FOR STOCKS MILEAGE OCCUPANCY EFFICIENCY
     ####################################################
@@ -270,7 +279,7 @@ def main():
     if RESCALE_DATA_TO_MATCH_EGEDA_TOTALS:
         combined_rescaled_data = data_estimation_functions.rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict)
 
-        analysis_and_plotting_functions.plot_final_data_energy_activity(combined_rescaled_data,paths_dict)
+        # analysis_and_plotting_functions.plot_final_data_energy_activity(combined_rescaled_data,paths_dict)
 
         #save to pickle
         combined_rescaled_data.to_pickle(paths_dict['final_combined_rescaled_data'])
@@ -302,6 +311,10 @@ def main():
         final_data.to_pickle(paths_dict['final_combined_data_pkl'])
         final_data.to_csv(paths_dict['final_data_csv'], index=False)
 
+    print('###################################\n\n')
+    #print time
+    end_time = time.time()
+    print('time taken = ',end_time-start_time)
     #TODO INTERPOLATE AND MAYBE SELECT
 
     #2 todo see if there is some way we can introudce more eyars quickly. why is everything for 2017 still anyway?
