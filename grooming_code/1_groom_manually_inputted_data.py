@@ -180,13 +180,13 @@ def break_vehicle_types_into_more_specific_types(concat_df_road):
         df = df[df['Vehicle Type']!='lpv']
         df = pd.concat([df,car,suv,lt],ignore_index=True)
 
-        ht = df[df['Vehicle Type']=='ht']
-        #times ht avg load by 1.5
-        ht['Value'] = ht['Value']*1.5#TEMPORARY
-        mt = ht.copy()
-        mt['Vehicle Type'] = 'mt'
-        df = df[df['Vehicle Type']!='ht']
-        df = pd.concat([df,mt,ht],ignore_index=True)
+        # ht = df[df['Vehicle Type']=='ht']
+        # # #times ht avg load by 1.5
+        # ht['Value'] = ht['Value']*1.5#TEMPORARY
+        # mt = ht.copy()
+        # mt['Vehicle Type'] = 'mt'
+        # df = df[df['Vehicle Type']!='ht']
+        # df = pd.concat([df,mt,ht],ignore_index=True)
 
         concat_df_road = concat_df_road[concat_df_road['Measure']!=sheet]
         concat_df_road = pd.concat([concat_df_road,df],ignore_index=True)

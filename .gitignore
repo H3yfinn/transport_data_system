@@ -6,6 +6,7 @@
 # *.xlsx
 # *.csv#these are now tracked using lfs for output_data/** and input_data/**
 *.pickle
+*.pkl
 #graphs
 *.png
 *.jpg
@@ -16,9 +17,8 @@
 #anything in the intermediate_data folder doesnt need to be tracked
 **/intermediate_data
 #####################
-item.sqlite
-env_jupyter/*
-env_no_jupyter/*
+env_jupyter_data_sys/*
+env_no_jupyter_data_sys/*
 #####################
 
 #except we want to track any files in these folders
