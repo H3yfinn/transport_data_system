@@ -17,8 +17,8 @@
 #anything in the intermediate_data folder doesnt need to be tracked
 **/intermediate_data
 #####################
-env_jupyter_data_sys/*
-env_no_jupyter_data_sys/*
+env_jupyter/*
+env_transport_data_system/*
 #####################
 
 #except we want to track any files in these folders

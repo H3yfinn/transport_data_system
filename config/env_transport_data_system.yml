@@ -1,4 +1,4 @@
-name: env_jupyter
+name: env_transport_data_system
 dependencies:
   - plotly
   - pandas
