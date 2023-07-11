@@ -3,15 +3,13 @@ Please view the Wiki here for contextual information:
 https://github.com/H3yfinn/transport_data_system/wiki
 
 ## SETUP
-There are two options for environments. They depend if you want to use jupyter or just the command line to run the model. I prefer to use jupyter but i know that it takes a lot of space/set-up-time.
- - config/env_jupyter.yml
- - config/env_no_jupyter.yml
 
+### Install Anaconda
 run:
-conda env create --prefix ./env_jupyter --file ./config/env_jupyter.yml
+conda env create --prefix ./env_transport_data_system --file ./config/env_transport_data_system.yml
 
 Then:
-conda activate ./env_jupyter
+conda activate ./env_transport_data_system
 
 Note that installing those libraries in the yml files will result in a few other dependencies also being installed.
 
@@ -31,17 +29,18 @@ The code is organised into folders based on the purpose of the code. The main fo
  - mixing_code: use the data extracted in grooming_code to create new data which can also be selected for. Sometimes uses outputs from other folders too.
  - analysis_code: for analysing the data and creating visualisations. This needs a lot fo work and is not currently used.
  - exploratory_code: for testing out new ideas and seeing if they work. This is not currently used.
-
+ 
 # Functions/modular code:
 
  - aggregation_code: This is the folder which will sort through all the data and create the best dataset from it. The code is organised into different files based on the major prupose, such as 'data_selection_fucntions.py' which contains all the functions for selecting data from the dataset. It will also do it's own form of data_mixing to create new datapoints the user can choose to use. There will be a section below which explains the code here
+    - note that due to time rpessures its gotten a bit unorganised and messy. I will try to clean it up after it's all done (like with the associated transport model repository)
 
 # Other folders:
 
  - config: where all the config files are stored
  - etc
 
-So generally the system will extract data from csv's/xlsx's/databases in groomign_code, groom the data so that it is all in the correct format in grooming_code, craete some extra data in data_mixiong code and then concatenate everything into one large dataframe in aggregation_code. Then aggregation code will also remove duplicate datapoints (eg. if you have two different values for bus stocks in one timeframe, it will need to choose the best one of those two) by choosing the best data via a very streamlined manual selection process. It will also calcualte some data based on input data (eg. if you have the number of vehicles, average km travelled by car and the average fuel efficiency, it can calculate the total fuel consumption). This is done in aggregation_code and is it's own form of the data_mixing folder. The final dataframe can then be analysed in analysis_code.
+So generally the system will extract data from csv's/xlsx's/databases in grooming_code, groom the data so that it is all in the correct format in grooming_code, craete some extra data in data_mixiong code and then concatenate everything into one large dataframe in aggregation_code. Then aggregation code will also remove duplicate datapoints (eg. if you have two different values for bus stocks in one timeframe, it will need to choose the best one of those two) by choosing the best data via a very streamlined manual selection process. It will also calcualte some data based on input data (eg. if you have the number of vehicles, average km travelled by car and the average fuel efficiency, it can calculate the total fuel consumption). This is done in aggregation_code and is it's own form of the data_mixing folder. The final dataframe can then be analysed in analysis_code.
 
 The structure of the final dataframe will be for these columns (but this might change as we add new cols):
 
