@@ -30,11 +30,23 @@ datasets:
     script: 2_clean_ATO_data.py
     included: True
     type: transport
+  EGEDA_9th_cleaned_:
+    file_path: intermediate_data/EGEDA/model_input_9th_cleanedFILE_DATE_ID.csv
+    folder: intermediate_data/EGEDA/
+    script: 1_extract_cleansed_EGEDA_data.py
+    included: False
+    type: transport
+  EGEDA_9th_cleaned_split_into_transport_types:
+    file_path: intermediate_data/estimated/EGEDA_9th_cleaned_split_into_transport_typesFILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: split_egeda_cleansed_into_transport_types.py
+    included: True
+    type: transport
   EGEDA_split_into_transport_types:
     file_path: intermediate_data/estimated/EGEDA_split_into_transport_typesFILE_DATE_ID.csv
     folder: intermediate_data/estimated/
     script: split_egeda_into_transport_types.py
-    included: True
+    included: False
     type: transport
   _8th_ATO_bus_update.csv:
     file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv

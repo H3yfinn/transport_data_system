@@ -32,7 +32,9 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types $ egeda/8th_ref']}
+    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']}
+    #make them all lower case:
+    unfiltered_combined_data['measure'] = unfiltered_combined_data['measure'].str.lower()
     egeda_energy_combined_data = data_formatting_functions.filter_for_specifc_data(egeda_energy_selection_dict, unfiltered_combined_data)
     #drop all cols except economy, date, medium and value
     egeda_energy_combined_data = egeda_energy_combined_data[['economy','date','medium','value']]
@@ -118,7 +120,7 @@ def clean_up_finalised_non_road_energy_df(new_egeda_energy_data):
     new_egeda_energy_data = new_egeda_energy_data.rename(columns={'absolute': 'value'})
 
     new_egeda_energy_data['measure'] = 'energy'
-    new_egeda_energy_data['dataset'] = 'egeda_split_into_transport_types $ egeda/8th_ref'
+    new_egeda_energy_data['dataset'] ='egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed'
     new_egeda_energy_data['unit'] = 'pj'
     new_egeda_energy_data['transport_type'] = 'all'
     new_egeda_energy_data['fuel'] = 'all'
@@ -188,7 +190,7 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
     #prep:
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types $ egeda/8th_ref']}
+    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']}
     egeda_transport_type_energy_proportions = calcualte_egeda_non_road_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict)
 
     #merge on economy and date
@@ -528,7 +530,7 @@ def compare_total_energy_to_egeda_totals(combined_data,unfiltered_combined_data,
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types $ egeda/8th_ref']}
+    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']}
     egeda_energy_combined_data = data_formatting_functions.filter_for_specifc_data(egeda_energy_selection_dict, unfiltered_combined_data)
     #drop all cols except economy, date, medium and value
     egeda_energy_combined_data = egeda_energy_combined_data[['economy','date','medium','transport_type','value']]
