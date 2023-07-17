@@ -1,4 +1,3 @@
-https://kosis.kr/eng/statisticsList/statisticsListIndex.do?parentId=M2.1&menuId=M_01_01&vwcd=MT_ETITLE&parmTabId=M_01_01#content-group
-All files are downlaoded from here. Missed only a few files that didnt seem useful, such as total cargo ship unloading capacities (because too difficult to estiamte km from that)
-
-Kudos to korean govt for such a good website.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c66d8040d45386a169d3914b4d694cf01d8c97d96a5f4024b900aad4ea5801c0
+size 360

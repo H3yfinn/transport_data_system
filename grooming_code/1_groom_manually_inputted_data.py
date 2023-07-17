@@ -129,11 +129,12 @@ concat_df_road = extend_df_for_missing_dates(concat_df_road)
 concat_df_other = extend_df_for_missing_dates(concat_df_other)
 vehicle_type_distributions = extend_df_for_missing_dates(vehicle_type_distributions)
 #%%
-def fill_missing_drive_cols(df, concordances):
+def fill_missing_drive_cols_in_vehicle_type_distributions(df, concordances, medium='road'):
     #if the df is missing the drive col then just add it for every drive. this might cause issues where we want the measure to be drive non specific but it seems better this way.
+    breakpoint()
     if 'Drive' not in df.columns:
-        concordances[concordances.Medium=='road']
-        unique_road_drives = concordances['Drive'].unique()
+        road_concordances = concordances[concordances.Medium==medium]
+        unique_road_drives = road_concordances['Drive'].unique()
         #create a df with all the unique drives
         concat_df = pd.DataFrame()
         df_copy = df.copy()
@@ -141,9 +142,10 @@ def fill_missing_drive_cols(df, concordances):
             df_copy['Drive'] = drive
             concat_df = pd.concat([concat_df,df_copy],ignore_index=True)
         df = concat_df
+    
     return df
 
-vehicle_type_distributions = fill_missing_drive_cols(vehicle_type_distributions, concordances)
+vehicle_type_distributions = fill_missing_drive_cols_in_vehicle_type_distributions(vehicle_type_distributions, concordances)
 
 #%%
 def convert_occupancy_and_load_to_occupancy_or_load(df):
@@ -165,7 +167,7 @@ def break_vehicle_types_into_more_specific_types(concat_df_road):
     #break ht into mt and ht, break lpv into lt,suv and car.
     #do this for the following sheets in concat_df_road:
     sheets = ['Mileage','Turnover_rate',
-       'Occupancy_or_load']
+       'Occupancy_or_load']#NOTE THAT OCCUPANCY LOAD CURRENTLY HAS LPV ONLY, WHEREAS THE OTHER TWO HAVE LPV, SUV, CAR AND LT! I THINK ITS SOURCE OF SOME DUPLICATES
     #so for each sheet we want to break the vehicle types into more specific types
     for sheet in sheets:
         df = concat_df_road.copy()
@@ -193,49 +195,94 @@ def break_vehicle_types_into_more_specific_types(concat_df_road):
     return concat_df_road
 
 concat_df_road = break_vehicle_types_into_more_specific_types(concat_df_road)
+
 #%%
-# def create_phev_and_ice_versions_of_values(df):
-#     #because we are not sure if we will introduice these aggregations for good we will itnroduce these using code. Just extract the values for phevg/phevd and g/d drive types and set their drive to phev and ice respectively, then group by all cols except value and average. then add them back into the df
-#     # if 'Drive' in df.columns:
-#     phev = df[df['Drive'].isin(['phev_g','phev_d'])]
-#     phev['Drive'] = 'phev'
-#     cols = phev.columns.tolist()
-#     cols.remove('Value')
-#     phev = phev.groupby(cols).mean().reset_index()
 
-#     ice = df[df['Drive'].isin(['ice_g','ice_d'])]
-#     ice['Drive'] = 
-#     cols = ice.columns.tolist()
-#     cols.remove('Value')
-#     ice = ice.groupby(cols).mean().reset_index()
+def identify_missing_vehicle_drive_medium_combinations(df, concordances):
+    #loop through all the data and identify where we are missing data. let the user know so they fix it
+    #jsut merge the df and concordances and check where indicator is either left or right:
+    breakpoint()
+    # for column in df.columns:
+    #     if df[column].dtype != concordances[column].dtype:
+    #         print(f"Column '{column}' has different data types: {df[column].dtype} vs {concordances[column].dtype}")
+    #set the concordances date to string then make it end with 12-31
+    new_concordances = concordances.copy()
+    new_concordances['Date'] = new_concordances['Date'].astype(str) + '-12-31'
+    #filter for same medium in df in new_concordances
+    new_concordances = new_concordances[new_concordances['Medium'].isin(df['Medium'].unique().tolist())]
+    #filter for same dates in both
+    new_concordances = new_concordances[new_concordances['Date'].isin(df['Date'].unique().tolist())]
+    #filter for same measures in both
+    new_concordances = new_concordances[new_concordances['Measure'].isin(df['Measure'].unique().tolist())]
+    
+    df_copy = df.copy()
+    df_copy = df_copy.loc[df_copy['Date'].isin(new_concordances['Date'].unique().tolist())]
+    df_copy = df_copy.loc[df_copy['Measure'].isin(new_concordances['Measure'].unique().tolist())]
+    df_copy = df_copy.merge(new_concordances,how='outer',on=['Medium','Vehicle Type','Drive','Measure','Date', 'Economy','Transport Type'], indicator=True, suffixes=('','_concordances'))
+    df_missing = df_copy[df_copy['_merge']!='both']
+    left_only = df_missing[df_missing['_merge']!='right_only']
+    right_only = df_missing[df_missing['_merge']!='left_only']
 
-#     df = pd.concat([df, phev, ice], ignore_index=True)
-
-#     return df
-
-# concat_df_road = create_phev_and_ice_versions_of_values(concat_df_road)  
+    df_missing1 = df_missing[['Medium','Vehicle Type','Drive','Measure','Transport Type']].drop_duplicates()
+    
+    #print them:
+    print('The following combinations of medium, vehicle type, drive and measure are not in the concordances file:')
+    print(left_only[['Vehicle Type','Drive','Measure']].drop_duplicates())
+    
+    #the right only data actually needs to be fixed. let the user know whats missing and then they can fix it
+    print('The following combinations of medium, vehicle type, drive and measure are not in the data:')
+    print(right_only[['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+    
+    #create the required data. First, if tehre are any Measuress otehr than Turnover_rate or Mileage, throw an error caise we ahvbent prepared for that:
+    if len(right_only)>0:
+        if not all(right_only['Measure'].isin(['Turnover_rate','Mileage'])): 
+            raise ValueError('The above combinations of medium, vehicle type, drive and measure are not rady to be hadnled in this code')
+        #     right_only.columns
+        # Index(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy', 'Measure', 'Dataset', 'Scope', 'Comments',
+        #        'Fuel', 'Source', 'Value',  '_merge'],
+        #turnover rate:
+        #just  get the avg of turnover rate and fill Value with it. and drop _merge col then save in intermediate_data\archive\turnover_rate_avg.csv
+        turnover_rate_avg = df[df['Measure']=='Turnover_rate'].Value.mean()
+        turnover_rate_avg_df = right_only.copy()
+        turnover_rate_avg_df = turnover_rate_avg_df[turnover_rate_avg_df.Measure=='Turnover_rate']
+        turnover_rate_avg_df['Value'] = turnover_rate_avg
+        turnover_rate_avg_df = turnover_rate_avg_df.drop('_merge',axis=1)
+        #order cols like so: Vehicle Type	Transport Type	Drive	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Fuel	Comments
+        turnover_rate_avg_df = turnover_rate_avg_df[['Vehicle Type','Transport Type','Drive','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Fuel','Comments']]
+        turnover_rate_avg_df.to_csv('./intermediate_data/archive/turnover_rate_avg.csv',index=False)
+        
+        #and for mileage, we need to get the avg of mileage for each vehicle type  and fill the values with that. then save in intermediate_data\archive\mileage_avg.csv
+        mileage_avg = df[df['Measure']=='Mileage'].groupby(['Vehicle Type','Transport Type']).Value.mean().reset_index()
+        mileage_avg_df = right_only.copy()
+        mileage_avg_df = mileage_avg_df[mileage_avg_df.Measure=='Mileage']
+        mileage_avg_df = mileage_avg_df.merge(mileage_avg,how='left',on=['Vehicle Type','Transport Type'], suffixes=('','_avg'))
+        #fill the values with the avg
+        mileage_avg_df['Value'] = mileage_avg_df['Value_avg']
+        #
+        #identify any nans. print them
+        if any(mileage_avg_df['Value'].isna()):
+            print('The following combinations of medium, vehicle type, drive and measure are missing from the data and cannot be filled with the average mileage:')
+            print(mileage_avg_df[mileage_avg_df['Value'].isna()][['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+        mileage_avg_df = mileage_avg_df.drop(['_merge','Value_avg'],axis=1)
+        #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
+        mileage_avg_df = mileage_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
+        mileage_avg_df.to_csv('./intermediate_data/archive/mileage_avg.csv',index=False)
+        breakpoint()
+        raise ValueError('The above combinations of medium, vehicle type, drive and measure are missing from the data. Please add them to the data and run this script again')
+    
+#%%    
+identify_missing_vehicle_drive_medium_combinations(concat_df_road, concordances)
+# identify_missing_vehicle_drive_medium_combinations(concat_df_other, concordances)#for now jsut keep drive to all for non road. we can change this later if we want
 #%%
-#dont think we need te below as i think we already have this data anyway
-# def create_cng_lpg_versions_of_values(df):
-#     #for now, use ice data to fill in the cng and lpg data. This is not ideal but it will do for now
-#     cng = df[df['Drive'].isin(['ice'])]
-#     cng['Drive'] = 'cng'
-#     cols = cng.columns.tolist()
-#     cols.remove('Value')
-#     cng = cng.groupby(cols).mean().reset_index()
-
-#     lpg = df[df['Drive'].isin(['ice'])]
-#     lpg['Drive'] = 'lpg'
-#     cols = lpg.columns.tolist()
-#     cols.remove('Value')
-#     lpg = lpg.groupby(cols).mean().reset_index()
-
-#     #drop lpg and cng from df
-#     df = pd.concat([df, lpg, ice], ignore_index=True)
-
-#     return df
-
-# concat_df_roadd = create_cng_lpg_versions_of_values(concat_df_road)
+#check for duplicates:
+# QUICK FIX
+concat_df_road = concat_df_road.drop_duplicates()
+if any(concat_df_road.duplicated()):
+    raise ValueError('There are duplicates in the road data')
+if any(concat_df_other.duplicated()):
+    raise ValueError('There are duplicates in the non road data')
+if any(vehicle_type_distributions.duplicated()):
+    raise ValueError('There are duplicates in the vehicle type distributions data')
 #%%
 def save_df_to_csv(df,save_path, file_name_start):
     #now we want to save the data to csv. but make sure this data si different from the previous version of the data
@@ -318,3 +365,95 @@ print('Done')
 # #     df.to_excel(writer, sheet_name='New Sheet', index=False)
 
 # %%
+
+
+
+# do_this=True
+# if do_this:
+#     # def replace_manually_inputted_efficiency_with_usa_datapoints()
+#     #pull in eff data from 
+#     # fuel_economy_by_vehicle_type_new.to_csv('intermediate_data/estimated/USA_based_vehicle_efficiency_estimates_{}.csv'.format(FILE_DATE_ID),index=False)
+#     fuel_economy_by_vehicle_type_new = pd.read_csv('intermediate_data/estimated/USA_based_vehicle_efficiency_estimates_DATE20230717.csv')
+#     #cols:['transport_type', 'vehicle_type', 'drive', 'unit', 'medium', 'scope',
+#     #    'date', 'measure', 'economy', 'frequency', 'value', 'dataset', 'Fuel']
+#     fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new.rename(columns={'transport_type':'Transport Type','vehicle_type':'Vehicle Type','drive':'Drive','unit':'Unit','medium':'Medium','scope':'Scope','date':'Date','measure':'Measure','economy':'Economy','frequency':'Frequency','value':'Value','dataset':'Dataset','Fuel':'Fuel'})
+#     #join to the data and  replace the vlaues with it
+#     a = concat_df_road.merge(fuel_economy_by_vehicle_type_new,how='outer',on=['Transport Type','Vehicle Type','Drive','Unit','Medium','Date','Measure','Economy','Frequency'])
+#     a = a.loc[a.Measure.isin(['Efficiency'])]
+
+#     #drop lpv
+#     a = a[a['Vehicle Type']!='lpv'] 
+
+#     #set Dataset to 'manually_inputted_data_cleaned_road'
+#     a['Dataset'] = 'manually_inputted_data_cleaned_road'
+#     #set Value to Value_y
+#     a['Value'] = a['Value_y']
+#     #set scope_x to 'National'
+#     a['Scope'] = 'National'
+#     #set Comments to 'USA data'
+#     a['Comments'] = 'USA data'
+#     #set Fuel_x to 'all'
+#     a['Fuel'] = 'all'
+#     #set source to 'USA_alternative_fuels_data_center'
+#     a['Source'] = 'USA_alternative_fuels_data_center'
+
+#     #drop any cols that end with _x or _y
+#     a = a.loc[:,~a.columns.str.endswith('_x')]
+#     a = a.loc[:,~a.columns.str.endswith('_y')]
+
+#     #now create replica and set measure to New_vehicle_efficiency
+#     b = a.copy()
+#     b['Measure'] = 'New_vehicle_efficiency'
+
+#     concat_df_road = concat_df_road.loc[concat_df_road.Measure!='Efficiency']
+#     concat_df_road = concat_df_road.loc[concat_df_road.Measure!='New_vehicle_efficiency']
+
+#     concat_df_road = pd.concat([concat_df_road,a,b],ignore_index=True)
+
+
+
+
+
+# def create_phev_and_ice_versions_of_values(df):
+#     #because we are not sure if we will introduice these aggregations for good we will itnroduce these using code. Just extract the values for phevg/phevd and g/d drive types and set their drive to phev and ice respectively, then group by all cols except value and average. then add them back into the df
+#     # if 'Drive' in df.columns:
+#     phev = df[df['Drive'].isin(['phev_g','phev_d'])]
+#     phev['Drive'] = 'phev'
+#     cols = phev.columns.tolist()
+#     cols.remove('Value')
+#     phev = phev.groupby(cols).mean().reset_index()
+
+#     ice = df[df['Drive'].isin(['ice_g','ice_d'])]
+#     ice['Drive'] = 
+#     cols = ice.columns.tolist()
+#     cols.remove('Value')
+#     ice = ice.groupby(cols).mean().reset_index()
+
+#     df = pd.concat([df, phev, ice], ignore_index=True)
+
+#     return df
+
+# concat_df_road = create_phev_and_ice_versions_of_values(concat_df_road)  
+#%%
+#dont think we need te below as i think we already have this data anyway
+# def create_cng_lpg_versions_of_values(df):
+#     #for now, use ice data to fill in the cng and lpg data. This is not ideal but it will do for now
+#     cng = df[df['Drive'].isin(['ice'])]
+#     cng['Drive'] = 'cng'
+#     cols = cng.columns.tolist()
+#     cols.remove('Value')
+#     cng = cng.groupby(cols).mean().reset_index()
+
+#     lpg = df[df['Drive'].isin(['ice'])]
+#     lpg['Drive'] = 'lpg'
+#     cols = lpg.columns.tolist()
+#     cols.remove('Value')
+#     lpg = lpg.groupby(cols).mean().reset_index()
+
+#     #drop lpg and cng from df
+#     df = pd.concat([df, lpg, ice], ignore_index=True)
+
+#     return df
+
+# concat_df_roadd = create_cng_lpg_versions_of_values(concat_df_road)
+#%%

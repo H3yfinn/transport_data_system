@@ -77,13 +77,20 @@ car = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle
 suv = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='suv']
 ht = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='ht']
 mt = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='mt']
-
+fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new[~fuel_economy_by_vehicle_type_new['vehicle_type'].isin(['car','suv','ht','mt'])]
 car['value'] = car['value']*1.1
 suv['value'] = suv['value']*0.9
-ht['value'] = ht['value']*1.1
-mt['value'] = mt['value']*0.9
+ht['value'] = ht['value']*0.9
+mt['value'] = mt['value']*1.1
 
+#%%
+#extract 2w vehicle type and replicate it for freight
+two_wheeler = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='2w']
+two_wheeler['transport_type'] = 'freight'
+fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,two_wheeler])
 
+#put thme back in:
+fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,car,suv,ht,mt])
 #%%
 #now replicate the df for every year between 2010 and 2025
 fuel_economy_by_vehicle_type_new['date'] = '2010-12-31'

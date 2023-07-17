@@ -10,7 +10,7 @@ INDEX_COLS:
 - fuel
 - frequency
 - scope
-concordances_file_path: './input_data/concordances/9th/model_concordances_measures_20230615.csv'
+concordances_file_path: './input_data/concordances/9th/model_concordances_measures_20230717.csv'
 datasets:
   ATO_data_cleaned_:
     file_path: intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv

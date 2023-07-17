@@ -1,2 +1,3 @@
-the data in here is fronm http://www.sectra.gob.cl/encuestas_movilidad/encuestas_movilidad.htm
-It is by regioon and quite difficult to aggregate so instead i am looking for a dataset abssed on thjis;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b367488f1e537a3d1ff8a379bceb7069fae8aff8960a948a723282770112d9e
+size 199
