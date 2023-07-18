@@ -203,7 +203,7 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
     #melt so the transport type is a column
     cols = non_road_energy.columns.tolist()
     cols.remove('freight')
-    cols.remove('passenger')
+    cols.remove('passenger')#does this need to ave other columns added to it, eg. comment?
     non_road_energy = non_road_energy.melt(id_vars=cols, value_vars=['freight','passenger'], var_name='transport_type', value_name='value')
 
     if plotting:#global variable in main() 
@@ -419,7 +419,6 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     merged_data['%_diff'] = merged_data['value_egeda'] / merged_data['value_new']
     
     merged_data = find_percent_diff_for_missing_years_in_egeda(merged_data)
-
     #now we will grab the road data to recalcualte either mileage or efficiency
     road_energy = all_new_combined_data[(all_new_combined_data['medium'] == 'road')]
 
@@ -428,6 +427,7 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     cols = road_energy.columns.tolist()
     cols.remove('value')
     cols.remove('measure')
+    cols.remove('comment')
     road_energy = road_energy.pivot(index=cols, columns='measure', values='value').reset_index()
     #join the two on economy	date	
     road_combined = pd.merge(road_energy, merged_data[['economy','date','%_diff']], on=['economy','date'], how='left')
@@ -446,6 +446,7 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
 
     #create new dataset col called 'rescaled'
     road_combined['dataset'] = 'rescaled'
+    plotting=False
     if plotting:
         analysis_and_plotting_functions.plot_new_and_old_road_measures(road_combined,measures,new_measures,paths_dict)
 
@@ -466,9 +467,11 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
 
         #keep only INDEX cols and the stocks and energy cols
         index_cols_in_df = [col for col in road_combined.columns.tolist() if col in paths_dict['INDEX_COLS']]
+        breakpoint()
         road_combined = road_combined[['stocks','energy']+index_cols_in_df]
         #double check for duplicates
         if road_combined.duplicated().any():
+            #road_combined.drop_duplicates(inplace=True)
             raise Exception('duplicates in road_combined')
         #melt back to long format
         road_combined = road_combined.melt(id_vars=index_cols_in_df, value_vars=['stocks','energy'], var_name='measure', value_name='value')
@@ -521,7 +524,6 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     
     #check the results using compare_total_energy_to_egeda_totals
     compare_total_energy_to_egeda_totals(combined_rescaled_data,unfiltered_combined_data, paths_dict,plotting_folder='rescaled')
-
     #drop the %_diff col
     combined_rescaled_data = combined_rescaled_data.drop(columns=['%_diff'])
     return combined_rescaled_data

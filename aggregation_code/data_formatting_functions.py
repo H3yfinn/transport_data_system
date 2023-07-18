@@ -59,7 +59,7 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
 
     This is especially important so tha tthe user doesnt accidentally select a dataset with less detailed vehicle types than they intended. As those less detailed datasets may be aggregated from the more detailed datasets, so the user may be selecting a dataset that has already been aggregated from another dataset.
     """
-    breakpoint()
+    #breakpoint()
     #     combined_data_stocks.vehicle_type.unique()
     # array(['bus', 'lcv', '2w', 'mt', 'lt'], dtype=object)
     vehicle_types = {}
@@ -240,7 +240,7 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
         # #check if dataset[2] contains eigth_edition_transport_data_final_new_vtypes_drives
         # if 'eigth_edition_transport_data_final_new_vtypes_drives' in dataset[2]:
 
-        #     breakpoint()
+        #     #breakpoint()
         new_dataset = pd.read_csv(dataset[2])
 
         #convert cols to snake case
@@ -574,6 +574,25 @@ def filter_for_specifc_data(selection_dict, df, filter_for_all_other_data=False)
     return df
 #%%
 
+def drop_detailed_drive_types_from_non_road_concordances(paths_dict):
+    #set drive to all, then drop duplciates then reconcat with road, then save again but in intermediate data and change the paths_dict to point to there.
+    #load concordacens:
+    model_concordances_measures = pd.read_csv(paths_dict['concordances_file_path'])
+    #split into road and non road:
+    road = model_concordances_measures[model_concordances_measures['Medium'] == 'road']
+    non_road = model_concordances_measures[model_concordances_measures['Medium'] != 'road']
+    #set drive to all then drop duplicates
+    non_road['Drive'] = 'all'
+    non_road = non_road.drop_duplicates()
+    
+    #concat road and non road
+    model_concordances_measures = pd.concat([road,non_road],axis=0)
+    
+    #set new path
+    paths_dict['concordances_file_path'] = paths_dict['intermediate_folder']+'/model_concordances_measures.csv'
+    #save to new path
+    model_concordances_measures.to_csv(paths_dict['concordances_file_path'],index=False)
+    return paths_dict
 ##############################################################################
 
 

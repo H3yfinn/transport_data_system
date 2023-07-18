@@ -10,7 +10,7 @@ import pandas as pd
 import yaml
 import shutil
 #set cwd to the root of the project
-# os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 logger = logging.getLogger(__name__)
 #%%
 

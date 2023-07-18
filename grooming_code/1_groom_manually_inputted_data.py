@@ -49,8 +49,8 @@ def prepare_vehicle_type_distributions(vehicle_type_distributions,concordances):
     #note that this data is used separately to the other data as it has a different format. SO take in data from that sheet and separate it from the otehr data as it will jsut be timesed by stocks data based on the Vehicle Type column at the beginning of the selection process. This will be like the function split_stocks_where_drive_is_all_into_bev_phev_and_ice in pre_selection_data_estimation_functions.data_estimation_functions
     # currently its format is with the col nbames:  Source Dataset Comments Date Medium 	Economy Transport Type Vehicle Type 	Vehicle1	Vehicle2	Vehicle3	Vehicle1_name	Vehicle2_name	Vehicle3_name 
     #It dxoesnt need any cleaning, but does need to be hcecked to make sure that the vehicle types are the same as in the concordances file.
-    # # breakpoint()
-    breakpoint()
+    # # #breakpoint()
+    #breakpoint()
     vehicle_types = concordances['Vehicle Type'].unique()
     #add lpv tro the vehicle types as it is an aggreation of the passenger lt,suv and car categories
     vehicle_types = np.append(vehicle_types,'lpv')
@@ -131,7 +131,7 @@ vehicle_type_distributions = extend_df_for_missing_dates(vehicle_type_distributi
 #%%
 def fill_missing_drive_cols_in_vehicle_type_distributions(df, concordances, medium='road'):
     #if the df is missing the drive col then just add it for every drive. this might cause issues where we want the measure to be drive non specific but it seems better this way.
-    breakpoint()
+    #breakpoint()
     if 'Drive' not in df.columns:
         road_concordances = concordances[concordances.Medium==medium]
         unique_road_drives = road_concordances['Drive'].unique()
@@ -201,7 +201,7 @@ concat_df_road = break_vehicle_types_into_more_specific_types(concat_df_road)
 def identify_missing_vehicle_drive_medium_combinations(df, concordances):
     #loop through all the data and identify where we are missing data. let the user know so they fix it
     #jsut merge the df and concordances and check where indicator is either left or right:
-    breakpoint()
+    #breakpoint()
     # for column in df.columns:
     #     if df[column].dtype != concordances[column].dtype:
     #         print(f"Column '{column}' has different data types: {df[column].dtype} vs {concordances[column].dtype}")
@@ -267,7 +267,7 @@ def identify_missing_vehicle_drive_medium_combinations(df, concordances):
         #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
         mileage_avg_df = mileage_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
         mileage_avg_df.to_csv('./intermediate_data/archive/mileage_avg.csv',index=False)
-        breakpoint()
+        #breakpoint()
         raise ValueError('The above combinations of medium, vehicle type, drive and measure are missing from the data. Please add them to the data and run this script again')
     
 #%%    
