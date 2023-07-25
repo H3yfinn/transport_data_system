@@ -24,7 +24,8 @@ plotting = True#change to false to stop plots from appearing
 
 def split_vehicle_types_using_distributions(unfiltered_combined_data):
     #please nmote it will drop original vehicle type data after splitting because we want to aovid double counting it 
-    #take in the data from vehicle_type_distributions.csv and then split stocks into them. note that there will be certain cases where this cannot be done because the stocks are already split into the vehicle types.
+    #take in the data from vehicle_type_distributions.csv and then split stocks into them. note that there will be certain cases where this cannot be done because the stocks are already split into the vehicle types. The function will recognise these cases and skip them.
+    #this splitting is only done on the more aggregated vehicle types like 'all', 'lpv', and 'ht' (since ht is really based off what most econmoies report as 'hts')
     #file is './intermediate_data/estimated/vehicle_type_distributionsFILE_DATE_ID.csv so find the altest version of it:
     # currently its format is with the col nbames:  Source Dataset Comments Date Medium 	Economy Transport Type Vehicle Type 	Vehicle1	Vehicle2	Vehicle3	Vehicle1_name	Vehicle2_name	Vehicle3_name
     
