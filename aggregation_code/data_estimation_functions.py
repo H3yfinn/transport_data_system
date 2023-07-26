@@ -456,8 +456,8 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
     #And it might be nice to find an effective way of splitting the effect between mileage and eff and stocks. #TODO later. i guess it would be by finding new_mileage_eff = new_mileage*new_eff=energy/stocks. Then we can find the % diff between new_mileage_eff and old_mileage_eff. Then split that difference between the two somehow.
 
     #todo. finding that thius causes nas in years we dont hav e egeda datya. need to probs find avg % diff and use that for those years.
-    stocks=True
-    mileage=False
+    stocks=False
+    mileage=True
     if stocks:
         logging.info('rescaling road stocks by an average of {} to decrease energy by an average of {} across all economys. See graphs in plotting_output/data_selection/analysis/egeda_scaling/ +measure + _ +economy+.html for more'.format(round(road_combined['NEW_stocks'].sum() / road_combined['stocks'].sum(),2),round(merged_data['%_diff'].mean(),2)))
 

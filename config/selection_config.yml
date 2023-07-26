@@ -11,7 +11,14 @@ INDEX_COLS:
 - frequency
 - scope
 concordances_file_path: './input_data/concordances/9th/model_concordances_measures_20230717.csv'
+#in the below, make sure to set the key to be as much of the file name as you can while excluding its date . this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
+  thailand_new_stocks_9th_model_first_iteration_:
+    file_path: intermediate_data/THA/thailand_new_stocks_9th_model_first_iteration_FILE_DATE_ID.csv
+    folder: intermediate_data/THA/
+    script: grooming_code\1_import_9th_modelled_data.py
+    included: True
+    type: transport
   ATO_data_cleaned_:
     file_path: intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv
     folder: intermediate_data/ATO/

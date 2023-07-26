@@ -127,7 +127,11 @@ def extract_latest_groomed_data():
         #get the latest file
         latest_file = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
         #add date to the start of latest_file
-        latest_file = 'DATE'+latest_file
+        try:
+            latest_file = 'DATE'+latest_file
+        except:
+            breakpoint()
+            raise Exception('The latest file for {} is not a date. Please make sure the file name is a date in the format DATEYYYMMDD'.format(dataset))
         #replace the FILE_DATE_ID with the latest file date
         dataset[2] = dataset[2].replace('FILE_DATE_ID', latest_file)
     for dataset in datasets_other:

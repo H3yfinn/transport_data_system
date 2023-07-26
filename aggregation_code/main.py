@@ -45,8 +45,8 @@ else:
 RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = True
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-SINGULAR_ECONOMY_TO_RUN = None#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID =None#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
+SINGULAR_ECONOMY_TO_RUN = '19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
 
 ################################################################
 
@@ -98,7 +98,7 @@ def main():
 
         if SINGULAR_ECONOMY_TO_RUN is not None:
             unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'] == SINGULAR_ECONOMY_TO_RUN]
-
+        breakpoint()
         #EDIT ALL DATA BEFORE SELECTION
         unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
         splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
@@ -163,7 +163,7 @@ def main():
         ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
     'medium': ['road']}
     highlight_list = highlight_list+[]
-    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center']#will this work? i dont know if historical is the right one to use here.
+    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center', '9th_model_first_iteration']#will this work? i dont know if historical is the right one to use here.
     #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
 
     if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 

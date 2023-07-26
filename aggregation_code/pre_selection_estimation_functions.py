@@ -194,6 +194,7 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     """PLEASE NOTE THAT THIS IGNORES THE CNG OR LPG STOCKS THAT COULD BE IN THAT ECONOMY. SO THEY THEN WONT BE included"""
     #using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
     #for any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
+    breakpoint()#KeyError: 'bev'
     combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all']
 
     iea_ev_explorer_selection_dict = {'measure': 
@@ -201,7 +202,9 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     'medium': ['road'],
     'dataset': ['iea_ev_explorer $ historical']}
     stock_shares = data_formatting_functions.filter_for_specifc_data(iea_ev_explorer_selection_dict, unfiltered_combined_data)
-
+    if stock_shares.empty:
+        #we may be only running this for a subset of the data so we will just return the unfiltered_combined_data. this leaves any drives that are 'all' as 'all'.
+        return unfiltered_combined_data
     #make stock shares wide on drive col
     cols = stock_shares.columns.tolist()
     cols.remove('drive')
