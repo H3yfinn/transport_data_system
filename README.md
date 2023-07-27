@@ -32,8 +32,8 @@ The code is organised into folders based on the purpose of the code. The main fo
  
 # Functions/modular code:
 
- - aggregation_code: This is the folder which will sort through all the data and create the best dataset from it. The code is organised into different files based on the major prupose, such as 'data_selection_fucntions.py' which contains all the functions for selecting data from the dataset. It will also do it's own form of data_mixing to create new datapoints the user can choose to use. There will be a section below which explains the code here
-    - note that due to time rpessures its gotten a bit unorganised and messy. I will try to clean it up after it's all done (like with the associated transport model repository)
+ - aggregation_code: There is a main.py file in here. it will only run files from this folder, but it pulls data created in grooming_code and mixing_code. This is the folder which will sort through all the data and create the best dataset from it. The code is organised into different files based on the major prupose, such as 'data_selection_fucntions.py' which contains all the functions for selecting data from the dataset. It will also do it's own form of data_mixing to create new datapoints the user can choose to use. There will be a section below which explains the code here. 
+    - uses the file selecton_config.yml to understand what index columns to use and more importantly, what datasets created in the grooming/mixing code to select from. THis allows you to remove datasets that arent likely to be selected from from the pool.
 
 # Other folders:
 
@@ -53,6 +53,15 @@ Eventually, if we can, it would be good to design the files so they can be used 
 
 ## Data sources
 Please note that the following will be quite messy. It is a work in progress and will be updated as we go along.
+
+# 9th_model_first_iteration 
+As i do the modelling, these will contain changes i make to the data that i used from this system. As such it will generally be used by default. They essentially are the most accurate data i have in this system.
+
+# EGEDA/ESTO data:
+Based on energy data collected by our colleageus in the ESTO team. Since the model needs to match the base year for this data, all data outputs from this system can be put through a method to make that so. 
+
+# usa_alternative_fuels_data_center
+Currently being used for mielage, efficiency and other factors for all economies (but not every single datapoint). Will slowly be replaced by other data sources as they become available. 
 
 # ATO data:
 This data is from the ATO and can be found here: https://asiantransportoutlook.com/snd/

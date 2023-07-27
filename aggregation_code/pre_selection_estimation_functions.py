@@ -23,6 +23,16 @@ plotting = True#change to false to stop plots from appearing
 # pkm = vkm * occupancy
 
 def split_vehicle_types_using_distributions(unfiltered_combined_data):
+    """
+    Splits the vehicle types using distributions.
+
+    Args:
+        unfiltered_combined_data (pandas.DataFrame): The input data.
+
+    Returns:
+        pandas.DataFrame: The modified data.
+    """
+
     #please nmote it will drop original vehicle type data after splitting because we want to aovid double counting it 
     #take in the data from vehicle_type_distributions.csv and then split stocks into them. note that there will be certain cases where this cannot be done because the stocks are already split into the vehicle types. The function will recognise these cases and skip them.
     #this splitting is only done on the more aggregated vehicle types like 'all', 'lpv', and 'ht' (since ht is really based off what most econmoies report as 'hts')
@@ -93,6 +103,15 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
 # Using mileage, eff, occ and stocks we can estimate passenger km and energy. Where we are missing data eg. stocks, we will leave an na. 
 # enable adjusting the mileage, occ and eff data by specified ranges to get a range of options
 def estimate_petrol_diesel_splits(unfiltered_combined_data):
+    """
+    Estimates the petrol and diesel splits for the input data.
+
+    Args:
+        unfiltered_combined_data (pandas.DataFrame): The input data.
+
+    Returns:
+        dict: A dictionary containing the petrol and diesel splits.
+    """
     # #breakpoint()
     #using the data we have we will find datasets where we have one of or both of ice_g and ice_d for each vehicle type and then where we do have them for a vehile type we'll use that to estimate the split between petrol and diesel. Then we can average out the splits for each vehicle type across all teh datasets and dates for each economy. This way  we can arrive at the most accurate estimate of the split between petrol and diesel for each economy.
     #where we dont have these splits, we will use the average of all otehr economys to estimate the split for that economy... this is a bit of a hack but it will have to do for now.
@@ -111,6 +130,11 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
             splits_dict[vehicle_type][economy] = {}
             #get the datasets where we have both ice_g and ice_d for this vehicle type and economy
             datasets = unfiltered_combined_data[(unfiltered_combined_data['vehicle_type'] == vehicle_type) & (unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['measure'] == 'stocks') & ((unfiltered_combined_data['drive'] == 'ice_g') | (unfiltered_combined_data['drive'] == 'ice_d'))]['dataset'].unique()
+            
+            #if we have more than just the 8th edition dataset, then drop that:
+            if len(datasets) > 1 and '8th_edition_transport_model $ reference' in datasets:
+                datasets = [d for d in datasets if d != '8th_edition_transport_model $ reference']
+                
             if len(datasets) > 0:
                 #get the average split for each dataset
                 for dataset in datasets:
@@ -139,7 +163,18 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
     #we can also times this split by phev to get phevd vs phevg since you can expect them to follow similar splits to iceg and iced
     return splits_dict
 
-def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict):
+
+def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data, splits_dict):
+    """
+    Splits the ICE and PHEV into petrol and diesel.
+
+    Args:
+        unfiltered_combined_data (pandas.DataFrame): The input data.
+        splits_dict (dict): A dictionary containing the petrol and diesel splits.
+
+    Returns:
+        pandas.DataFrame: The modified data.
+    """
     #split the ice stocks into petrol and diesel. This will use data from sources specific to each region or economy and can be used in association with the iea data to split ice into petrol and diesel. This is important because diesel and petrol have different energy intensities so it is usefl to estiamte their relative data. 
     #it will use the splits from estimate_petrol_diesel_splits
     #note that this wont replace the data for ice, isntead it will jsut add new data for ice_g and ice_d
@@ -191,10 +226,18 @@ def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict):
     return unfiltered_combined_data
 
 def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data):
-    """PLEASE NOTE THAT THIS IGNORES THE CNG OR LPG STOCKS THAT COULD BE IN THAT ECONOMY. SO THEY THEN WONT BE included"""
+    """
+    Splits the stocks where drive is all into BEV, PHEV, and ICE.
+
+    Args:
+        unfiltered_combined_data (pandas.DataFrame): The input data.
+
+    Returns:
+        pandas.DataFrame: The modified data.
+    """
+    #PLEASE NOTE THAT THIS IGNORES THE CNG OR LPG STOCKS THAT COULD BE IN THAT ECONOMY. SO THEY THEN WONT BE included
     #using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
     #for any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
-    breakpoint()#KeyError: 'bev'
     combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all']
 
     iea_ev_explorer_selection_dict = {'measure': 

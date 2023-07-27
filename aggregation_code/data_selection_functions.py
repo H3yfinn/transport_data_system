@@ -415,7 +415,7 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
         user_input = find_default_dataset(datasets_to_always_use, unique_datasets, choice_dict)
         if user_input is None:
             #TODO TEMP FIX:
-            #SET USER INPUT TO 1 FOR NOW
+            #SET USER INPUT TO 1 FOR NOW. IM NOT SURE IF THIS IS A VALID LONG TERM FIX TBH
             if default_user_input is not None:
                 user_input = default_user_input
             else:

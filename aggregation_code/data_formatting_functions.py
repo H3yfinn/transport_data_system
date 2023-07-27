@@ -405,8 +405,19 @@ def TEMP_replace_drive_types(df):
 
     return df
 
-def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict,include_drive_all):
+def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all):
+    """
+    Filters the input data for the 9th edition.
 
+    Args:
+        combined_data (pandas.DataFrame): The input data.
+        model_concordances_base_year_measures_file_name (str): The file name of the model concordances base year measures.
+        paths_dict (dict): A dictionary containing the paths to the input data files.
+        include_drive_all (bool): Whether to include drive all in the output.
+
+    Returns:
+        pandas.DataFrame: The filtered data.
+    """
     ############################################################
 
     #FILTER FOR 9th data only
@@ -481,7 +492,7 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
 
     model_concordances_measures_no_zeros = model_concordances_measures.copy()
 
-    combined_data_no_zeros = combined_data[combined_data['value'] != 0]
+    combined_data_no_zeros = combined_data.copy()#combined_data[combined_data['value'] != 0]#NOTE THAT I REMOVED THIS IN 7/27/23 BECAUSE I REALISED I WANTED 0S NOT SURE WHAT SIDE EFFECTS MAY BE
 
     #Use diff to remove data that isnt in the 9th edition concordance
     extra_rows = combined_data_no_zeros.index.difference(model_concordances_measures_no_zeros.index)

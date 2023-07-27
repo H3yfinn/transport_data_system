@@ -21,7 +21,7 @@ create_9th_model_dataset = True
 
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-
+# FILE_DATE_ID = 'DATE20230726'
 EARLIEST_DATE="2010-01-01"
 LATEST_DATE='2023-01-01'
 
@@ -42,11 +42,7 @@ else:
     load_energy_activity_selection_progress = False
     load_energy_activity_interpolation_progress = False
 
-RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = True
-
-#if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-SINGULAR_ECONOMY_TO_RUN = '19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
+RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False
 
 ################################################################
 
@@ -55,11 +51,17 @@ SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230717'#'DATE20230712'#'DATE2023062
 #2. Combine the data into a single dataframe
 #3. OPTIONAL Filter the data to only include the combinations of columns categories that are required for the 9th edition of the aperc transport model, via the model_concordances_measures.csv file.
 #4. OPTIONAL do some temporary data cleaning to make the data more consistent with the 9th edition of the aperc transport model. This is due to the difficulty of committing to one form of input data
-
+# paths_dict, highlight_list = setup_main()
 """Reasoning:
 wide range of datapoints
 tracking of """
 #%% 
+
+#if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
+SINGULAR_ECONOMY_TO_RUN = '19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
+
+
 def setup_main():
     global FILE_DATE_ID
     global SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
@@ -98,12 +100,11 @@ def main():
 
         if SINGULAR_ECONOMY_TO_RUN is not None:
             unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'] == SINGULAR_ECONOMY_TO_RUN]
-        breakpoint()
         #EDIT ALL DATA BEFORE SELECTION
         unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
         splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
         #now we have to split the stocks where drive is all into bev and phev
-        # #breakpoint()
+        # #
         
         unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
         
@@ -117,6 +118,7 @@ def main():
             #import snapshot of 9th concordance
             #however, this doesnt include the years in the model_concordances_measures.csv file. They are determined by EARLIEST_DATE and LATEST_DATE
             model_concordances_base_year_measures_file_name = paths_dict['concordances_file_path']
+            
             combined_data = data_formatting_functions.filter_for_9th_edition_data(unfiltered_combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all = True)
         else:
             combined_data = unfiltered_combined_data.copy()
@@ -124,15 +126,14 @@ def main():
 
         #TEMP MANUAL ADJUSTMENT FUNCTION
         # combined_data = data_formatting_functions.filter_for_most_detailed_stocks_breakdown(combined_data)
-        # #breakpoint()
+        # #
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
         # def filter_for_most_detailed_drive_breakdown(combined_data):
         #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
         #     """
         #TEMP
-
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
-
+        
         sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
         
         combined_data_concordance, combined_data = data_selection_functions.prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict, sorting_cols)
@@ -163,7 +164,7 @@ def main():
         ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
     'medium': ['road']}
     highlight_list = highlight_list+[]
-    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center', '9th_model_first_iteration']#will this work? i dont know if historical is the right one to use here.
+    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center', '9th_model_first_iteration $ thanan', '9th_model_first_iteration $ thanan vehicle_dist_split']#will this work? i dont know if historical is the right one to use here.
     #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
 
     if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
@@ -309,7 +310,7 @@ def main():
     ####################################################
 
     if SINGULAR_ECONOMY_TO_RUN is not None:
-        #breakpoint()
+        #
         # grab data for SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
         previous_final_data = pd.read_pickle(paths_dict['previous_final_combined_data_pkl'])
         #drop economy from previous data
@@ -398,10 +399,3 @@ elif __name__ == '__main__':
     #     input_data_sheet_file = sys.argv[1]
     #     main(input_data_sheet_file)
     main()
-#%%
-# paths_dict, highlight_list, start_time = setup_main()
-# all_new_combined_data = pd.read_pickle(paths_dict['final_combined_data_not_rescaled'])
-# unfiltered_combined_data = pd.read_pickle(paths_dict['unfiltered_combined_data_pkl'])
-# #%%
-# combined_rescaled_data = data_estimation_functions.rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict)
-# %%
