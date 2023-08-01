@@ -190,7 +190,7 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
     #prep:
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']}
+    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']} 
     egeda_transport_type_energy_proportions = calcualte_egeda_non_road_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict)
 
     #merge on economy and date

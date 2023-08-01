@@ -13,8 +13,7 @@ FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 ###########Thailand:####################### #based on https://chat.openai.com/share/bb174391-f64f-47b4-b502-84de77a829b2 and work that htanan and praw did in finding the values. they are heavily simplified from what they gave me
 # Load the data
-df = pd.read_excel("./input_data/Thailand/Vehicle stock analysis DEC 2022.xlsx", sheet_name="data_system_input (2017 assump)")
-
+df = pd.read_excel("./input_data/Thailand/Vehicle stock analysis DEC 2022.xlsx", sheet_name="data_system_input 2020")
 # Melt the data
 df_melted = df.melt(id_vars=df.columns[0], var_name='Vehicle Type', value_name='Value')
 
@@ -26,7 +25,7 @@ df_melted['transport_type'] = df_melted['Vehicle Type'].map(transport_type_map)
 
 # Set all columns to the specified values
 df_melted["economy"] = "19_THA"
-df_melted["date"] = 2017
+df_melted["date"] = 2020
 df_melted["medium"] = "road"
 df_melted["measure"] = "stocks"
 df_melted["dataset"] = "9th_model_first_iteration"

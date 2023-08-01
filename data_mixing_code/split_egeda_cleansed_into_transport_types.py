@@ -83,10 +83,10 @@ eigth_edition_transport_data_pivot = eigth_edition_transport_data_pivot[eigth_ed
 #filter for fuel = total in egeda
 model_input_9th_cleaned = model_input_9th_cleaned[model_input_9th_cleaned['Fuel_Type']=='19_total']
 model_input_9th_cleaned.drop(['Drive', 'Transport Type', 'Measure', 'Unit', 'Vehicle Type'], axis=1, inplace=True)
-
+eigth_edition_transport_data_pivot.drop(['Date'], axis=1, inplace=True)
 #%%
-#join on data from egeda
-EGEDA_merged = pd.merge(model_input_9th_cleaned, eigth_edition_transport_data_pivot, how='right', on=['Medium',  'Date', 'Economy'])
+#join on data from egeda. ignore the Date column so we can apply 2017 splits to all years in egeda
+EGEDA_merged = pd.merge(model_input_9th_cleaned, eigth_edition_transport_data_pivot, how='right', on=['Medium', 'Economy'])
 #%%
 #FILL MISSING DATA
 #we might find that some data is missing from egeda and will show up as nan in the vlaue col. show the user. where that data is available for a different date then see if we can use that
@@ -154,7 +154,7 @@ if analyse:
     # EGEDA_merged_no_road = EGEDA_merged.copy()
     # EGEDA_merged_no_road = EGEDA_merged_no_road[EGEDA_merged_no_road['Medium']!='road']
     #plot and make sure make each facets y axis scale according to the data in that facet
-    fig = px.bar(EGEDA_merged_clean, x='Medium', y='Value', facet_col='Economy', facet_col_wrap=3, barmode='group')
+    fig = px.line(EGEDA_merged_clean, x='Date', y='Value', facet_col='Economy', facet_col_wrap=3,  color='Medium')
     fig = fig.update_yaxes(matches=None)
     fig.for_each_yaxis(lambda yaxis: yaxis.update(showticklabels=True))
         
@@ -163,20 +163,6 @@ if analyse:
     fig.show()
     #save in html
     fig.write_html('./plotting_output/exploration_archive/EGEDA_merged{}.html'.format(FILE_DATE_ID))
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     

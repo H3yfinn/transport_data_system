@@ -238,7 +238,7 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     #PLEASE NOTE THAT THIS IGNORES THE CNG OR LPG STOCKS THAT COULD BE IN THAT ECONOMY. SO THEY THEN WONT BE included
     #using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
     #for any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
-    combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all']
+    combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all'].copy()
 
     iea_ev_explorer_selection_dict = {'measure': 
         ['stock_share'],
@@ -262,8 +262,12 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     #join stock shares to combined data's stocks 
     combined_data_stocks = combined_data_all_drive[(combined_data_all_drive['measure'] == 'stocks')]
     cols.remove('dataset')
-    combined_data_stocks = combined_data_stocks.merge(stock_shares, on = cols, how = 'left')
-
+    combined_data_stocks = combined_data_stocks.merge(stock_shares, on = cols, how = 'left', indicator = True)
+    #drop any right only
+    combined_data_stocks = combined_data_stocks[combined_data_stocks['_merge'] != 'right_only'].copy()
+    #for left only, set dataset_y to 'iea_ev_explorer_no_data' then drop _merge
+    combined_data_stocks.loc[combined_data_stocks['_merge'] == 'left_only','dataset_y'] = 'iea_ev_explorer_no_data'#this allows us to keep the information that there are perhaps no evs in this row, because teh iea didnt ahve data on it. 
+    
     #where ice bev and phev are na then set themn to 0 and ice to 1
     combined_data_stocks['bev'] = combined_data_stocks['bev'].fillna(0)
     combined_data_stocks['phev'] = combined_data_stocks['phev'].fillna(0)
@@ -281,8 +285,6 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     combined_data_stocks = combined_data_stocks.rename(columns = {'stocks_bev':'bev','stocks_phev':'phev','stocks_ice':'ice'})
     #where dataset_y si not nan: create dataset col which is dataset_x without the $ sign and then $ and dataset_y wihtout the $ sign
     combined_data_stocks['dataset'] = combined_data_stocks['dataset_x'].str.replace('$','') + ' $ ' + combined_data_stocks['dataset_y'].str.replace('$','')
-    #then where dataset_y is nan: create dataset col which is dataset_x 
-    combined_data_stocks['dataset'] = combined_data_stocks['dataset'].fillna(combined_data_stocks['dataset_x'])
     #remove dataset_x and dataset_y
     combined_data_stocks = combined_data_stocks.drop(columns = ['dataset_y','dataset_x'])
     #add dataset to cols

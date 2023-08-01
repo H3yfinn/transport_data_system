@@ -241,10 +241,8 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     combined_data = pd.DataFrame()
     logging.info('\nCombining datasets:\n')
     for dataset in datasets:
-        # #check if dataset[2] contains eigth_edition_transport_data_final_new_vtypes_drives
-        # if 'eigth_edition_transport_data_final_new_vtypes_drives' in dataset[2]:
+        #datasets can be broken into (folder, dataset name, file path)
 
-        #     #breakpoint()
         new_dataset = pd.read_csv(dataset[2])
 
         #convert cols to snake case
@@ -512,14 +510,26 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
 
 
 def test_identify_erroneous_duplicates(combined_data, paths_dict):
-    """check for duplicates in the combined dataset when you ignore the value column.
-        combined_data = 
+    """
+    Check for duplicates in the combined dataset when you ignore the value column.
+
+    Parameters:
+    -----------
+    combined_data : pandas.DataFrame
+        The combined dataset to check for duplicates.
+    paths_dict : dict
+        A dictionary containing the file paths for the input datasets.
+
+    Returns:
+    --------
+    None
     """
     
     duplicates = combined_data.copy()
     duplicates = duplicates.drop(columns=['value'])
     duplicates = duplicates[duplicates.duplicated(keep=False)]
     if len(duplicates) > 0:
+        breakpoint()
         logging.info('There are duplicate rows in the dataset with different values. Please fix them before continuing. You will probably want to split them into different datasets. The duplicates are: ')
         logging.info(duplicates)
 
