@@ -41,3 +41,5 @@ df_melted.to_csv('intermediate_data/THA/thailand_new_stocks_9th_model_first_iter
 #%%
 
 #######################:#######################
+#now do it for usa. based on https://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_statistics/html/table_01_11.html
+#%%
