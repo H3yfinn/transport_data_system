@@ -19,6 +19,12 @@ datasets:
     script: grooming_code\1_import_9th_modelled_data.py
     included: True
     type: transport
+  usa_new_stocks_9th_model_first_iteration_:
+    file_path: intermediate_data/USA/usa_new_stocks_9th_model_first_iteration_FILE_DATE_ID.csv
+    folder: intermediate_data/USA/
+    script: grooming_code\1_import_9th_modelled_data.py
+    included: True
+    type: transport
   ATO_data_cleaned_:
     file_path: intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv
     folder: intermediate_data/ATO/

@@ -41,5 +41,13 @@ df_melted.to_csv('intermediate_data/THA/thailand_new_stocks_9th_model_first_iter
 #%%
 
 #######################:#######################
-#now do it for usa. based on https://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_statistics/html/table_01_11.html
+#now do it for usa. currently jsut adjusting stocks with drive set to all. Hopefully the way it gets spat out by the model will reflect an accurate representation of drive distributions
+
+usa_stocks = pd.read_excel("./input_data/USA/9th_first_iteration_checking.xlsx", sheet_name="data_system_input_2020")
+# Save the transformed data to an Excel file
+usa_stocks.to_csv('intermediate_data/USA/usa_new_stocks_9th_model_first_iteration_{}.csv'.format(FILE_DATE_ID),index=False)
+
+
+
+
 #%%

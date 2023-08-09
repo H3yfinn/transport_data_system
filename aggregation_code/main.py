@@ -58,8 +58,8 @@ tracking of """
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-SINGULAR_ECONOMY_TO_RUN ='19_THA' #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230727'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset.
+SINGULAR_ECONOMY_TO_RUN ='20_USA' #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA
 
 
 def setup_main():
@@ -98,26 +98,18 @@ def main():
 
         unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict)
 
+        #EDIT ALL DATA BEFORE SELECTION
+        unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
+        splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
+        #now we have to split the stocks where drive is all into bev and phev      
+        unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
+        unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict_petrol_to_diesel)
+                
+        breakpoint()
         if SINGULAR_ECONOMY_TO_RUN is not None:
             unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'] == SINGULAR_ECONOMY_TO_RUN]
         
-        #EDIT ALL DATA BEFORE SELECTION
-
-        unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
-
-        splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
-        #now we have to split the stocks where drive is all into bev and phev
-            
-        unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
-            
-        unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict_petrol_to_diesel)
-        
-        aus_2w = unfiltered_combined_data[(unfiltered_combined_data['economy'] == '01_AUS') & (unfiltered_combined_data['vehicle_type'] == '2w') & (unfiltered_combined_data['drive'] == 'bev') & (unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['date'] == 2017)]
-        aus_2w_8th = aus_2w[aus_2w['dataset']=='8th_-_new_vtypes_and_drives $ reference']
-        if len(aus_2w_8th) > 1:
-            breakpoint()
-            
-        #TEMP EDIT CONCORDANCES FORNON ROAD:
+        #TEMP EDIT CONCORDANCES FOR NON ROAD:
         #we will set drive to all for non road so that the data we currently have as input data still works. the detail is handled in the model currently, although this is not a good way to do it.
         paths_dict = data_formatting_functions.drop_detailed_drive_types_from_non_road_concordances(paths_dict)
         #EDIT ALL DATA BEFORE SELECTION END
@@ -133,9 +125,16 @@ def main():
         #since we dont expect to run the data selection process that often we will just save the data in a dated folder in intermediate_data/data_selection_process/FILE_DATE_ID/
 
         #TEMP MANUAL ADJUSTMENT FUNCTION
-        # combined_data = data_formatting_functions.filter_for_most_detailed_stocks_breakdown(combined_data)
-        # #
+        # # combined_data = data_formatting_functions.filter_for_most_detailed_stocks_breakdown(combined_data)
+        # breakpoint()
+        # usa_lpv = combined_data[(combined_data['economy'] == '20_USA') &(combined_data['vehicle_type'] == 'car') & (combined_data['measure'] == 'stocks') & (combined_data['date'] == 2020)]
+        
+        
+        # usa_lpv2 = unfiltered_combined_data[(unfiltered_combined_data['economy'] == '20_USA') &(unfiltered_combined_data['vehicle_type'] == 'car') & (unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['date'] == 2020)]
+        
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
+        # usa_lpv = combined_data[(combined_data['economy'] == '20_USA') & (combined_data['measure'] == 'stocks') & (combined_data['date'] == 2020)]
+        
         # def filter_for_most_detailed_drive_breakdown(combined_data):
         #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
         #     """
@@ -172,7 +171,7 @@ def main():
         ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
     'medium': ['road']}
     highlight_list = highlight_list+[]
-    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center', '9th_model_first_iteration $ thanan', '9th_model_first_iteration $ thanan vehicle_dist_split']#will this work? i dont know if historical is the right one to use here.
+    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center', '9th_model_first_iteration $ thanan', '9th_model_first_iteration $ thanan vehicle_dist_split', '9th_model_first_iteration $ usa_fdha', '9th_model_first_iteration $ usa_fdha vehicle_dist_split']#will this work? i dont know if historical is the right one to use here.
     #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
 
     if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
@@ -407,3 +406,5 @@ elif __name__ == '__main__':
     #     input_data_sheet_file = sys.argv[1]
     #     main(input_data_sheet_file)
     main()
+
+# %%

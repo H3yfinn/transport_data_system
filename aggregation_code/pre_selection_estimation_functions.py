@@ -164,6 +164,45 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
     return splits_dict
 
 
+def check_for_other_vtype_splits(splits_dict, vehicle_type, economy):
+    #check that there are no splits for te more aggregated vesion of this vehicle type, eg. for cars,lt,suv check that there are no splits for 'lpv':
+    lpv_vehicles = ['car','lt','suv']
+    ht_vechicles = ['mt','ht']
+    freight_all_vehicles = ['lcv','ht','mt']
+    ice_g_split = np.nan
+    if vehicle_type in lpv_vehicles:
+        #grab the splits for lpv
+        if not np.isnan(splits_dict['lpv'][economy]['average']):
+            ice_g_split = splits_dict['lpv'][economy]['average']
+        elif not np.isnan(splits_dict['lpv']['average']):
+            ice_g_split = splits_dict['lpv']['average']
+        else:
+            print('no splits to use for splitting ice into p and d. vehicle type {} and economy {}'.format(vehicle_type, economy))
+    elif vehicle_type in ht_vechicles:
+        #grab the splits for ht
+        if not np.isnan(splits_dict['ht'][economy]['average']):
+            ice_g_split = splits_dict['ht'][economy]['average']
+        elif not np.isnan(splits_dict['ht']['average']):
+            ice_g_split = splits_dict['ht']['average']
+        elif not np.isnan(splits_dict['all'][economy]['average']):
+            ice_g_split = splits_dict['all'][economy]['average']
+        elif not np.isnan(splits_dict['all']['average']):
+            ice_g_split = splits_dict['all']['average']
+        else:
+            print('no splits to use for splitting ice into p and d. vehicle type {} and economy {}'.format(vehicle_type, economy))
+    elif vehicle_type in freight_all_vehicles:
+        #grab the splits for freight all
+        if not np.isnan(splits_dict['all'][economy]['average']):
+            ice_g_split = splits_dict['all'][economy]['average']
+        elif not np.isnan(splits_dict['all']['average']):
+            ice_g_split = splits_dict['all']['average']
+        else:
+            print('no splits to use for splitting ice into p and d. vehicle type {} and economy {}'.format(vehicle_type, economy))
+    else:
+        print('no splits to use for splitting ice into p and d. vehicle type {} and economy {}'.format(vehicle_type, economy))
+        
+    return ice_g_split
+
 def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data, splits_dict):
     """
     Splits the ICE and PHEV into petrol and diesel.
@@ -182,9 +221,9 @@ def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data, splits_dict)
         for economy in unfiltered_combined_data.economy.unique():
             # if (vehicle_type=='ht') & (economy=='10_MAS'):
             #     #breakpoint()
-            if splits_dict[vehicle_type][economy]['average'] == np.nan:
-                if splits_dict[vehicle_type]['average'] == np.nan:
-                    print('no splits to use for splitting ice into p and d. vehicle type {} and economy {}'.format(vehicle_type, economy))
+            if np.isnan(splits_dict[vehicle_type][economy]['average']):
+                if np.isnan(splits_dict[vehicle_type]['average']):
+                    ice_g_split = check_for_other_vtype_splits(splits_dict, vehicle_type, economy)                    
                 else:
                     ice_g_split = splits_dict[vehicle_type]['average']
             else:
