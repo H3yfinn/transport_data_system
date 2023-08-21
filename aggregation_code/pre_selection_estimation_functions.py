@@ -219,8 +219,8 @@ def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data, splits_dict)
     #note that this wont replace the data for ice, isntead it will jsut add new data for ice_g and ice_d
     for vehicle_type in unfiltered_combined_data.vehicle_type.unique():
         for economy in unfiltered_combined_data.economy.unique():
-            # if (vehicle_type=='ht') & (economy=='10_MAS'):
-            #     #breakpoint()
+            # if (vehicle_type=='car'):
+            #     breakpoint()
             if np.isnan(splits_dict[vehicle_type][economy]['average']):
                 if np.isnan(splits_dict[vehicle_type]['average']):
                     ice_g_split = check_for_other_vtype_splits(splits_dict, vehicle_type, economy)                    

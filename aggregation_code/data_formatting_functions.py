@@ -47,7 +47,7 @@ Functions we need:
 
 """
 
-def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
+def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, IGNORE_8TH_DATASETS=True):
     """Note this is for stocks only
     this will run through each economys data and identify if there is any datasets with data that specifies more than jsut the simplified vehicle types or less (lpv, 2w, buses, all(all is for freight where we dont split into different freight types) or isntead of all: lcv, ht).
     Currently the vehicel types we split into are:
@@ -69,7 +69,7 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
     for economy in combined_data_stocks['economy'].unique():
         economy_data = combined_data_stocks[combined_data_stocks['economy']==economy]
 
-        #however we also need to filter out 'vehicle_dist_split' from the dataset anme because it is splitting datasets by vehicle types essentially (i.e.[8th_-_new_vtypes_and_drives $ reference ice_split: ['2w' 'bus'] , 8th_-_new_vtypes_and_drives $ reference vehicle_dist_split: ['car' 'suv' 'lt']].
+        #however we also need to filter out 'vehicle_dist_split' from the dataset name because it is splitting datasets by vehicle types essentially (i.e.[8th_-_new_vtypes_and_drives $ reference ice_split: ['2w' 'bus'] , 8th_-_new_vtypes_and_drives $ reference vehicle_dist_split: ['car' 'suv' 'lt']].
         #so create copy of df with all dataset names that contain 'vehicle_dist_split', set to have vehicle_dist_split removed from the dataset name:
         economy_data_copy = economy_data.copy()
         economy_data_copy['dataset'] = economy_data_copy['dataset'].apply(lambda x: x.replace(' vehicle_dist_split', ''))
@@ -83,6 +83,9 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data):
 
                 if set(vehicle_types[transport_type]).issubset(set(economy_data_copy[(economy_data_copy['dataset']==non_dist_split_dataset)&(economy_data_copy['transport_type']==transport_type)]['vehicle_type'].unique())):
                     datasets_with_all_vehicle_types.append(dataset)
+            if IGNORE_8TH_DATASETS:
+                #drop any datasets that contain 8th from the list, these are our backup datasets, so probably better to go with other data
+                datasets_with_all_vehicle_types = [dataset for dataset in datasets_with_all_vehicle_types if '8th' not in dataset] 
             #if there is a dataset with all the vehicle types for this transport type then remove the datasets that arent in this list
             if len(datasets_with_all_vehicle_types)>0:
                 datasets_to_remove = [dataset for dataset in economy_data['dataset'].unique() if dataset not in datasets_with_all_vehicle_types]

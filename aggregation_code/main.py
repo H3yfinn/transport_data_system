@@ -17,6 +17,7 @@ import data_estimation_functions
 import pre_selection_estimation_functions
 import logging
 import analysis_and_plotting_functions
+import yaml
 create_9th_model_dataset = True
 
 file_date = datetime.datetime.now().strftime("%Y%m%d")
@@ -58,21 +59,21 @@ tracking of """
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-SINGULAR_ECONOMY_TO_RUN ='20_USA' #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID ='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA
+ECONOMIES_TO_RUN=None#['19_THA','20_USA'] #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN_PREV_DATE_ID =None#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 
 def setup_main():
     global FILE_DATE_ID
-    global SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
+    global ECONOMIES_TO_RUN_PREV_DATE_ID
     ################################################################
     
-    if SINGULAR_ECONOMY_TO_RUN is not None:
-        if SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID is None:
-            SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID = FILE_DATE_ID
-        FILE_DATE_ID = FILE_DATE_ID + '_{}'.format(SINGULAR_ECONOMY_TO_RUN)
+    if ECONOMIES_TO_RUN is not None:
+        if ECONOMIES_TO_RUN_PREV_DATE_ID is None:
+            ECONOMIES_TO_RUN_PREV_DATE_ID = FILE_DATE_ID
+        FILE_DATE_ID = FILE_DATE_ID + '_{}'.format("".join(ECONOMIES_TO_RUN_PREV_DATE_ID))
 
-    paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID,SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID, previous_selections_file_path=previous_selections_file_path)
+    paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID,ECONOMIES_TO_RUN_PREV_DATE_ID, previous_selections_file_path=previous_selections_file_path)
 
     utility_functions.setup_logging(FILE_DATE_ID,paths_dict,testing=False)
 
@@ -83,7 +84,7 @@ def setup_main():
     
 def main():
     global FILE_DATE_ID
-    global SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
+    global ECONOMIES_TO_RUN_PREV_DATE_ID
     # ################################################################
     #SETUP
     import time
@@ -98,16 +99,17 @@ def main():
 
         unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict)
 
+        if ECONOMIES_TO_RUN is not None:
+            unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'].isin(ECONOMIES_TO_RUN)]
+        
         #EDIT ALL DATA BEFORE SELECTION
         unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
         splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
         #now we have to split the stocks where drive is all into bev and phev      
         unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
         unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict_petrol_to_diesel)
-                
-        breakpoint()
-        if SINGULAR_ECONOMY_TO_RUN is not None:
-            unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'] == SINGULAR_ECONOMY_TO_RUN]
+        # if ECONOMIES_TO_RUN is not None:
+        #     unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'] == ECONOMIES_TO_RUN]
         
         #TEMP EDIT CONCORDANCES FOR NON ROAD:
         #we will set drive to all for non road so that the data we currently have as input data still works. the detail is handled in the model currently, although this is not a good way to do it.
@@ -131,13 +133,15 @@ def main():
         
         
         # usa_lpv2 = unfiltered_combined_data[(unfiltered_combined_data['economy'] == '20_USA') &(unfiltered_combined_data['vehicle_type'] == 'car') & (unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['date'] == 2020)]
-        
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
         # usa_lpv = combined_data[(combined_data['economy'] == '20_USA') & (combined_data['measure'] == 'stocks') & (combined_data['date'] == 2020)]
         
         # def filter_for_most_detailed_drive_breakdown(combined_data):
         #     """ this will run through each economys data and identify if there is any datasets with data on more specific drive types than ev/ice
-        #     """
+        # #     """
+        # breakpoint()
+        # #see what unique datasets we have fro 19_THA, sotcks in 2020
+        # s = combined_data.loc[(combined_data.economy=='19_THA')&(combined_data.measure=='stocks')&(combined_data.date==2020)]
         #TEMP
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
         
@@ -171,7 +175,7 @@ def main():
         ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
     'medium': ['road']}
     highlight_list = highlight_list+[]
-    datasets_to_always_use =['iea_ev_explorer $ historical','usa_alternative_fuels_data_center', '9th_model_first_iteration $ thanan', '9th_model_first_iteration $ thanan vehicle_dist_split', '9th_model_first_iteration $ usa_fdha', '9th_model_first_iteration $ usa_fdha vehicle_dist_split']#will this work? i dont know if historical is the right one to use here.
+    stocks_mileage_occupancy_load_efficiency_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['stocks_mileage_occupancy_load_efficiency_datasets_to_always_use']
     #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
 
     if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
@@ -181,7 +185,12 @@ def main():
 
         # stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data = data_estimation_functions.TEMP_create_new_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data)
         # 
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict,datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list)
+        # #filter for just 19_THA stocks so we can easily follow it through the process
+        # stocks_mileage_occupancy_load_efficiency_combined_data_concordance = stocks_mileage_occupancy_load_efficiency_combined_data_concordance.loc[(stocks_mileage_occupancy_load_efficiency_combined_data_concordance.economy=='19_THA')&(stocks_mileage_occupancy_load_efficiency_combined_data_concordance.measure=='stocks')]
+        # stocks_mileage_occupancy_load_efficiency_combined_data = stocks_mileage_occupancy_load_efficiency_combined_data.loc[(stocks_mileage_occupancy_load_efficiency_combined_data.economy=='19_THA')&(stocks_mileage_occupancy_load_efficiency_combined_data.measure=='stocks')]
+        # breakpoint()
+        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict,stocks_mileage_occupancy_load_efficiency_datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True)
+        
     else:
         stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
     
@@ -244,8 +253,9 @@ def main():
     
     if not load_energy_activity_selection_progress: 
         highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
-        datasets_to_always_use  = ['iea_ev_explorer $ historical']
-        all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1)#todo Need some way to only select for specified measures. as we want to include occupancy and stuff in the dashboard. will also need to filter for only energy and passenger km in the output.
+        
+        all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
+        all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1, PLOT_SELECTION_TIMESERIES=True)#todo Need some way to only select for specified measures. as we want to include occupancy and stuff in the dashboard. will also need to filter for only energy and passenger km in the output.
     else:
         all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_all_other_combined_data_concordance'])
 
@@ -316,12 +326,12 @@ def main():
     #FINALISE DATA
     ####################################################
 
-    if SINGULAR_ECONOMY_TO_RUN is not None:
+    if ECONOMIES_TO_RUN is not None:
         #
-        # grab data for SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID
+        # grab data for ECONOMIES_TO_RUN_PREV_DATE_ID
         previous_final_data = pd.read_pickle(paths_dict['previous_final_combined_data_pkl'])
         #drop economy from previous data
-        previous_final_data = previous_final_data[previous_final_data['economy'] != SINGULAR_ECONOMY_TO_RUN]
+        previous_final_data = previous_final_data[~previous_final_data['economy'].isin(ECONOMIES_TO_RUN)]
         #cpocnat with new data
         final_data = pd.read_pickle(paths_dict['final_combined_data_pkl'])
         final_data = pd.concat([final_data,previous_final_data],axis=0)

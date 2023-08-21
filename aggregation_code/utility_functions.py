@@ -14,7 +14,7 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_syst
 logger = logging.getLogger(__name__)
 #%%
 
-def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID=None,save_plotting_backups=True,previous_selections_file_path=None):
+def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,ECONOMIES_TO_RUN_PREV_DATE_ID=None,save_plotting_backups=True,previous_selections_file_path=None):
     paths_dict = dict()
     paths_dict['log_file_path'] = 'logs/{}.log'.format(FILE_DATE_ID)
     #PERHAPS COULD GET ALL THIS STUFF FROM CONFIG.YML?
@@ -167,8 +167,9 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
 
         paths_dict['previous_selection_progress_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'selection_progress.pkl')
 
-    if SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID is not None:
-        paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format(SINGULAR_ECONOMY_TO_RUN_PREV_DATE_ID)
+
+    if ECONOMIES_TO_RUN_PREV_DATE_ID is not None:
+        paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format("".join(ECONOMIES_TO_RUN_PREV_DATE_ID))
     # else:
     #     paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format(paths_dict['FILE_DATE_ID'])
 
@@ -220,7 +221,7 @@ def add_plot_paths_to_paths_dict(paths_dict, save_plotting_backups):
     #for selection processes
     paths_dict['plotting_paths']['interpolation_timeseries'] = os.path.join(paths_dict['plotting_dir'], 'interpolation')
     paths_dict['plotting_paths']['selection_dashboard'] = os.path.join(paths_dict['plotting_dir'], 'dashboards')
-    paths_dict['plotting_paths']['selection_timeseries'] = os.path.join(paths_dict['plotting_dir'], 'timeseries')
+    paths_dict['plotting_paths']['selection_timeseries'] = os.path.join(paths_dict['plotting_dir'], 'selection_timeseries')
 
     #now create the folders
     for path in paths_dict['plotting_paths'].values():

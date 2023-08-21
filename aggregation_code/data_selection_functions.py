@@ -15,7 +15,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 #%%
-def data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict,datasets_to_always_use=[],highlighted_datasets=[],open_dashboard=False,default_user_input=None):
+def data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict,datasets_to_always_use=[],highlighted_datasets=[],open_dashboard=False,default_user_input=None,PLOT_SELECTION_TIMESERIES=True):
 
 
     ########PREPAREATION########
@@ -24,7 +24,7 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
 
     #order data by date
     combined_data = combined_data.sort_values(by='date')
-    combined_data = combined_data.sort_values(by='date')
+    combined_data_concordance = combined_data_concordance.sort_values(by='date')
 
     user_input = ''
 
@@ -53,7 +53,7 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
         group_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
         group_data.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
 
-        # iterate through each index col
+        # iterate through each group in the group_concordance (defined by INDEX_COLS_no_year)
         for index_row_no_year in group_concordance.index.unique():
 
             #data_to_select_from will be used as the data from which the user will select the preferred data
@@ -71,7 +71,8 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
             else:
                 data_to_select_from = group_data.loc[index_row_no_year]
                 #plot data and save plot as png to tmp folder
-                plot_timeseries(data_to_select_from, paths_dict,index_row_no_year,highlighted_datasets)
+                if PLOT_SELECTION_TIMESERIES:
+                    plot_selection_timeseries(data_to_select_from, paths_dict,index_row_no_year,highlighted_datasets)
 
                 #now pass the group_concordance df to the user input handler which will run through each year and ask the user to select the preferred data. The preferred data will be recorded in the concordance df.
                 group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input)
@@ -348,8 +349,8 @@ def create_user_choice_dict(unique_datasets):
     options = ['Keep the dataset "{}" for all years that the chosen dataset is available', 'Keep the dataset "{}" for all consecutive years that the same combination of datasets is available','Keep the dataset "{}" only for that year']
     #create an options dictwith keys rather than indexes to return the correct option. This will allow us to include more info in the options dict as well.
     options_dict = dict()
-    options_dict['Keep_for_all_years'] = options[0]
-    options_dict['Keep_for_all_consecutive_years'] = options[1]
+    options_dict['Keep_for_all_consecutive_years'] = options[0]
+    options_dict['Keep_for_all_years'] = options[1]
     options_dict['Keep_for_this_year'] = options[2]
 
     ###############################################################
@@ -397,7 +398,6 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
         if year in years_to_ignore:
             year_index_i += 1
             continue
-
 
         #filter for only the current year 
         data_to_select_from_for_this_year = data_to_select_from[data_to_select_from.date == year]
@@ -524,7 +524,7 @@ def apply_selection_to_concordance(selected_data, group_concordance,paths_dict,y
 
 def apply_user_input_to_data(user_input, choice_dict, group_concordance, data_to_select_from, data_to_select_from_for_this_year, paths_dict,years_to_ignore):
 
-    """Find the input in the choiuces dictionary and then find the option and dataset that the user chose then apply it"""
+    """Find the input in the choices dictionary and then find the option and dataset that the user chose then apply it"""
 
     #find the option and dataset that the user chose
     option_key = choice_dict[user_input][0]
@@ -532,8 +532,10 @@ def apply_user_input_to_data(user_input, choice_dict, group_concordance, data_to
     
     #which matches what the user wants to change. Then by using that as an index, find the matching rows in our concordance datyaset, set the dataset, data_selection method and value columns.
     if option_key == 'Keep_for_all_consecutive_years':
-        selected_data = user_input_keep_for_all_consecutive_years(selected_dataset, data_to_select_from, data_to_select_from_for_this_year, paths_dict['INDEX_COLS'])
+        # 'Keep the dataset {} for all consecutive years that the same combination of datasets is available'
+        selected_data = user_input_keep_for_all_consecutive_years_that_same_datasets_are_available(selected_dataset, data_to_select_from, data_to_select_from_for_this_year, paths_dict)
         group_concordance,years_to_ignore = apply_selection_to_concordance(selected_data, group_concordance, paths_dict,years_to_ignore)
+        
 
     elif option_key == 'Keep_for_all_years':
         # 'Keep the dataset "{}" for all years that the chosen dataset is available'
@@ -550,20 +552,21 @@ def apply_user_input_to_data(user_input, choice_dict, group_concordance, data_to
     
     return group_concordance,years_to_ignore
 
-def user_input_keep_for_all_consecutive_years(selected_dataset, data_to_select_from, data_to_select_from_for_this_year, paths_dict):
+def user_input_keep_for_all_consecutive_years_that_same_datasets_are_available(selected_dataset, data_to_select_from, data_to_select_from_for_this_year, paths_dict):
     #'Keep the dataset {} for all consecutive years that the same combination of datasets is available'
     
-    #use datasets column to find all years with the same set of datasets. 
-    set_of_datasets_in_this_year = data_to_select_from_for_this_year.datasets[0]
+    #use dataset column to find all years with the same set of datasets. 
+    set_of_datasets_in_this_year = set(data_to_select_from_for_this_year.dataset.unique().tolist())
     selected_data = data_to_select_from.copy()
 
-    #filter for only the chosen dataset in the dataset column
-    selected_data = selected_data[selected_data.dataset == selected_dataset]
     #filter for years after the current year
     selected_data = selected_data[selected_data.date >= data_to_select_from_for_this_year.date[0]]
             
     #filter for only the rows where the set of datasets is the same as the set of datasets for the current year.
-    selected_data = selected_data[selected_data.datasets.isin([set_of_datasets_in_this_year])]
+    selected_data_old = selected_data.copy()
+    for year_i in selected_data_old.date.unique():
+        if set(selected_data_old[selected_data_old.date == year_i].dataset.unique().tolist()) != set_of_datasets_in_this_year:
+            selected_data = selected_data[selected_data.date != year_i]
             
     #keep only years that are consecutive from the current year
     #sort by year and reset the index
@@ -582,9 +585,12 @@ def user_input_keep_for_all_consecutive_years(selected_dataset, data_to_select_f
     selected_data = selected_data.loc[selected_data['date'] < min_year]
     # drop the columns we created
     selected_data = selected_data.drop(columns = ['Year_diff', 'Year_shifted'])
-
+    
+    #filter for only the chosen dataset in the dataset column
+    selected_data = selected_data[selected_data.dataset == selected_dataset]
+    
     #make Year a part of the index
-    selected_data = selected_data.set_index(paths_dict['INDEX_COLS'])
+    selected_data = selected_data.reset_index().set_index(paths_dict['INDEX_COLS'])
 
     return selected_data
 
@@ -607,7 +613,7 @@ def user_input_keep_for_this_year(selected_dataset, data_to_select_from, data_to
     return selected_data
 
 
-def plot_timeseries(data_to_select_from, paths_dict,index_row_no_year, highlighted_datasets):
+def plot_selection_timeseries(data_to_select_from, paths_dict,index_row_no_year, highlighted_datasets):
         #graph data in a line graph using the index from the unique comb ination to graph data out of the combined dataframe
         ##PLOT
         fig, ax = plt.subplots()
