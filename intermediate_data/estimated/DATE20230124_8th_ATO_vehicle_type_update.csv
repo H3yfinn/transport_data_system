@@ -1,0 +1,8 @@
+Transport Type,Medium,Vehicle Type,Economy,Date,Scope,Frequency,Drive,Value,Dataset,Source,Measure,Unit
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,bev,4356.488783442968,VTypeATO_est,8th/ATO,Stocks,Stocks
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,cng,85907.5951391396,VTypeATO_est,8th/ATO,Stocks,Stocks
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,d,6532007.241142543,VTypeATO_est,8th/ATO,Stocks,Stocks
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,lpg,17181.71889659889,VTypeATO_est,8th/ATO,Stocks,Stocks
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,fcev,0.0,VTypeATO_est,8th/ATO,Stocks,Stocks
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,g,0.0,VTypeATO_est,8th/ATO,Stocks,Stocks
+freight,road,ht,05_PRC,2017-12-31,National,Yearly,phevd,0.0,VTypeATO_est,8th/ATO,Stocks,Stocks

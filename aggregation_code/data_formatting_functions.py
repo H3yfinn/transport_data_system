@@ -245,7 +245,7 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     logging.info('\nCombining datasets:\n')
     for dataset in datasets:
         #datasets can be broken into (folder, dataset name, file path)
-
+        print('Combining dataset: {}'.format(dataset[1]))
         new_dataset = pd.read_csv(dataset[2])
 
         #convert cols to snake case
@@ -255,7 +255,6 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
         for col in paths_dict['INDEX_COLS']:
             if col not in new_dataset.columns:
                 raise Exception('The column {} is not in the dataset {}'.format(col, dataset[1]))
-            
         #convert all values in all columns to snakecase, except economy date and value
         new_dataset = utility_functions.convert_all_cols_to_snake_case(new_dataset)
 

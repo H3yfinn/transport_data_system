@@ -1,0 +1,1435 @@
+source,measure,vehicle type,drive,year,unit,Economy,value
+Historical,Energy,bus,bev,2015,PJ,05_PRC,6.174064599609375
+Historical,Energy,bus,bev,2016,PJ,05_PRC,11.8290111328125
+Historical,Energy,bus,bev,2017,PJ,05_PRC,17.478910546875
+Historical,Energy,bus,bev,2018,PJ,05_PRC,22.852705078125
+Historical,Energy,bus,bev,2019,PJ,05_PRC,27.0429029296875
+Historical,Energy,bus,bev,2020,PJ,05_PRC,30.631074609375
+Historical,Energy,bus,bev,2021,PJ,05_PRC,35.94261796875
+Historical,Energy,bus,phev,2015,PJ,05_PRC,3.833923974609375
+Historical,Energy,bus,phev,2016,PJ,05_PRC,5.4790013671875
+Historical,Energy,bus,phev,2017,PJ,05_PRC,5.521549658203125
+Historical,Energy,bus,phev,2018,PJ,05_PRC,6.333270117187499
+Historical,Energy,bus,phev,2019,PJ,05_PRC,6.80049931640625
+Historical,Energy,bus,phev,2020,PJ,05_PRC,7.11691962890625
+Historical,Energy,bus,phev,2021,PJ,05_PRC,7.26901611328125
+Historical,Energy,ht,bev,2015,PJ,05_PRC,0.39552245178222656
+Historical,Energy,ht,bev,2016,PJ,05_PRC,0.67777646484375
+Historical,Energy,ht,bev,2017,PJ,05_PRC,0.9163295288085936
+Historical,Energy,ht,bev,2018,PJ,05_PRC,1.0184671142578126
+Historical,Energy,ht,bev,2019,PJ,05_PRC,1.39495341796875
+Historical,Energy,ht,bev,2020,PJ,05_PRC,1.6823366455078126
+Historical,Energy,ht,bev,2021,PJ,05_PRC,2.4221724609375
+Historical,Energy,ht,phev,2018,PJ,05_PRC,0.060421728515624995
+Historical,Energy,ht,phev,2019,PJ,05_PRC,0.10130616760253906
+Historical,Energy,ht,phev,2020,PJ,05_PRC,0.10840952911376953
+Historical,Energy,ht,phev,2021,PJ,05_PRC,0.1254922668457031
+Historical,Energy,ldv,bev,2015,PJ,05_PRC,1.6835611541748046
+Historical,Energy,ldv,bev,2015,PJ,20_USA,3.65184931640625
+Historical,Energy,ldv,bev,2016,PJ,05_PRC,3.9948265502929687
+Historical,Energy,ldv,bev,2016,PJ,20_USA,5.157728613281249
+Historical,Energy,ldv,bev,2017,PJ,05_PRC,8.174554321289062
+Historical,Energy,ldv,bev,2017,PJ,20_USA,6.9718987792968745
+Historical,Energy,ldv,bev,2018,PJ,05_PRC,15.106865405273437
+Historical,Energy,ldv,bev,2018,PJ,20_USA,11.1184962890625
+Historical,Energy,ldv,bev,2019,PJ,05_PRC,21.72815178222656
+Historical,Energy,ldv,bev,2019,PJ,20_USA,15.318727734374999
+Historical,Energy,ldv,bev,2020,PJ,05_PRC,29.157373168945313
+Historical,Energy,ldv,bev,2020,PJ,20_USA,19.77003984375
+Historical,Energy,ldv,bev,2021,PJ,05_PRC,50.28146059570312
+Historical,Energy,ldv,bev,2021,PJ,20_USA,23.32444921875
+Historical,Energy,ldv,phev,2015,PJ,05_PRC,0.16393786039352418
+Historical,Energy,ldv,phev,2015,PJ,20_USA,0.870371630859375
+Historical,Energy,ldv,phev,2016,PJ,05_PRC,0.3134989336967468
+Historical,Energy,ldv,phev,2016,PJ,20_USA,1.1977632202148438
+Historical,Energy,ldv,phev,2017,PJ,05_PRC,0.5236417101860046
+Historical,Energy,ldv,phev,2017,PJ,20_USA,1.61938125
+Historical,Energy,ldv,phev,2018,PJ,05_PRC,1.0257538195610045
+Historical,Energy,ldv,phev,2018,PJ,20_USA,2.1696022705078124
+Historical,Energy,ldv,phev,2019,PJ,05_PRC,1.4538013781547545
+Historical,Energy,ldv,phev,2019,PJ,20_USA,2.550209326171875
+Historical,Energy,ldv,phev,2020,PJ,05_PRC,1.8861023754626511
+Historical,Energy,ldv,phev,2020,PJ,20_USA,2.8722601318359375
+Historical,Energy,ldv,phev,2021,PJ,05_PRC,3.02256220588088
+Historical,Energy,ldv,phev,2021,PJ,20_USA,3.2391173583984374
+Historical,Oil displacement Mbd,bus,bev and phev,2010,Milion barrels per day,05_PRC,0.0005370137514546
+Historical,Oil displacement Mbd,bus,bev and phev,2011,Milion barrels per day,05_PRC,0.0007925690733827
+Historical,Oil displacement Mbd,bus,bev and phev,2012,Milion barrels per day,05_PRC,0.0009769821772351
+Historical,Oil displacement Mbd,bus,bev and phev,2013,Milion barrels per day,05_PRC,0.0010430328547954
+Historical,Oil displacement Mbd,bus,bev and phev,2014,Milion barrels per day,05_PRC,0.0022068289108574
+Historical,Oil displacement Mbd,bus,bev and phev,2015,Milion barrels per day,05_PRC,0.0110422177240252
+Historical,Oil displacement Mbd,bus,bev and phev,2016,Milion barrels per day,05_PRC,0.0197845958173275
+Historical,Oil displacement Mbd,bus,bev and phev,2017,Milion barrels per day,05_PRC,0.029281698167324
+Historical,Oil displacement Mbd,bus,bev and phev,2018,Milion barrels per day,05_PRC,0.0417238883674144
+Historical,Oil displacement Mbd,bus,bev and phev,2019,Milion barrels per day,05_PRC,0.0391051955521106
+Historical,Oil displacement Mbd,bus,bev and phev,2020,Milion barrels per day,05_PRC,0.0349461771547794
+Historical,Oil displacement Mbd,bus,bev and phev,2021,Milion barrels per day,05_PRC,0.0409556850790977
+Historical,Oil displacement Mbd,ht,bev and phev,2010,Milion barrels per day,05_PRC,1.567412510894428e-07
+Historical,Oil displacement Mbd,ht,bev and phev,2011,Milion barrels per day,05_PRC,2.722634064866725e-07
+Historical,Oil displacement Mbd,ht,bev and phev,2012,Milion barrels per day,05_PRC,7.721648103142797e-07
+Historical,Oil displacement Mbd,ht,bev and phev,2013,Milion barrels per day,05_PRC,3.472776143e-06
+Historical,Oil displacement Mbd,ht,bev and phev,2014,Milion barrels per day,05_PRC,4.0383984014e-06
+Historical,Oil displacement Mbd,ht,bev and phev,2015,Milion barrels per day,05_PRC,5.21023139299e-05
+Historical,Oil displacement Mbd,ht,bev and phev,2016,Milion barrels per day,05_PRC,7.51875850255e-05
+Historical,Oil displacement Mbd,ht,bev and phev,2017,Milion barrels per day,05_PRC,0.0001051686049322
+Historical,Oil displacement Mbd,ht,bev and phev,2018,Milion barrels per day,05_PRC,0.0003758145903702
+Historical,Oil displacement Mbd,ht,bev and phev,2019,Milion barrels per day,05_PRC,0.0003989394463133
+Historical,Oil displacement Mbd,ht,bev and phev,2020,Milion barrels per day,05_PRC,0.0003560679324436
+Historical,Oil displacement Mbd,ht,bev and phev,2021,Milion barrels per day,05_PRC,0.0005241827457211
+Historical,Oil displacement Mbd,ldv,bev and phev,2010,Milion barrels per day,05_PRC,6.5896885644e-05
+Historical,Oil displacement Mbd,ldv,bev and phev,2010,Milion barrels per day,20_USA,0.0001536119525553
+Historical,Oil displacement Mbd,ldv,bev and phev,2011,Milion barrels per day,05_PRC,0.0001091432859538
+Historical,Oil displacement Mbd,ldv,bev and phev,2011,Milion barrels per day,20_USA,0.0006285606650635
+Historical,Oil displacement Mbd,ldv,bev and phev,2012,Milion barrels per day,05_PRC,0.0002628393849589
+Historical,Oil displacement Mbd,ldv,bev and phev,2012,Milion barrels per day,20_USA,0.0016038052272051
+Historical,Oil displacement Mbd,ldv,bev and phev,2013,Milion barrels per day,05_PRC,0.0005130382996867
+Historical,Oil displacement Mbd,ldv,bev and phev,2013,Milion barrels per day,20_USA,0.0045307781547307
+Historical,Oil displacement Mbd,ldv,bev and phev,2014,Milion barrels per day,05_PRC,0.0012477596246752
+Historical,Oil displacement Mbd,ldv,bev and phev,2014,Milion barrels per day,20_USA,0.0083725228905677
+Historical,Oil displacement Mbd,ldv,bev and phev,2015,Milion barrels per day,05_PRC,0.0041287281783297
+Historical,Oil displacement Mbd,ldv,bev and phev,2015,Milion barrels per day,20_USA,0.0109252603724598
+Historical,Oil displacement Mbd,ldv,bev and phev,2016,Milion barrels per day,05_PRC,0.0084078256040811
+Historical,Oil displacement Mbd,ldv,bev and phev,2016,Milion barrels per day,20_USA,0.0143475215882062
+Historical,Oil displacement Mbd,ldv,bev and phev,2017,Milion barrels per day,05_PRC,0.0163431228138505
+Historical,Oil displacement Mbd,ldv,bev and phev,2017,Milion barrels per day,20_USA,0.0190286431461572
+Historical,Oil displacement Mbd,ldv,bev and phev,2018,Milion barrels per day,05_PRC,0.0283290715888142
+Historical,Oil displacement Mbd,ldv,bev and phev,2018,Milion barrels per day,20_USA,0.0290312506258487
+Historical,Oil displacement Mbd,ldv,bev and phev,2019,Milion barrels per day,05_PRC,0.0392034733667969
+Historical,Oil displacement Mbd,ldv,bev and phev,2019,Milion barrels per day,20_USA,0.0391153842210769
+Historical,Oil displacement Mbd,ldv,bev and phev,2020,Milion barrels per day,05_PRC,0.0487172435969113
+Historical,Oil displacement Mbd,ldv,bev and phev,2020,Milion barrels per day,20_USA,0.0426752604544162
+Historical,Oil displacement Mbd,ldv,bev and phev,2021,Milion barrels per day,05_PRC,0.088801025878638
+Historical,Oil displacement Mbd,ldv,bev and phev,2021,Milion barrels per day,20_USA,0.0586058050394058
+Historical,Oil displacement Mlge,bus,bev and phev,2010,Milion litres gasoline equivalent,05_PRC,32.10080337524414
+Historical,Oil displacement Mlge,bus,bev and phev,2011,Milion litres gasoline equivalent,05_PRC,47.37700653076172
+Historical,Oil displacement Mlge,bus,bev and phev,2012,Milion litres gasoline equivalent,05_PRC,58.400577545166016
+Historical,Oil displacement Mlge,bus,bev and phev,2013,Milion litres gasoline equivalent,05_PRC,62.34885787963867
+Historical,Oil displacement Mlge,bus,bev and phev,2014,Milion litres gasoline equivalent,05_PRC,131.91651916503906
+Historical,Oil displacement Mlge,bus,bev and phev,2015,Milion litres gasoline equivalent,05_PRC,660.065185546875
+Historical,Oil displacement Mlge,bus,bev and phev,2016,Milion litres gasoline equivalent,05_PRC,1182.6539306640625
+Historical,Oil displacement Mlge,bus,bev and phev,2017,Milion litres gasoline equivalent,05_PRC,1750.357421875
+Historical,Oil displacement Mlge,bus,bev and phev,2018,Milion litres gasoline equivalent,05_PRC,2494.108154296875
+Historical,Oil displacement Mlge,bus,bev and phev,2019,Milion litres gasoline equivalent,05_PRC,2337.57177734375
+Historical,Oil displacement Mlge,bus,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,2088.960205078125
+Historical,Oil displacement Mlge,bus,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,2448.1875
+Historical,Oil displacement Mlge,ht,bev and phev,2010,Milion litres gasoline equivalent,05_PRC,0.0093694441020488
+Historical,Oil displacement Mlge,ht,bev and phev,2011,Milion litres gasoline equivalent,05_PRC,0.0162749532610178
+Historical,Oil displacement Mlge,ht,bev and phev,2012,Milion litres gasoline equivalent,05_PRC,0.0461573116481304
+Historical,Oil displacement Mlge,ht,bev and phev,2013,Milion litres gasoline equivalent,05_PRC,0.2075904160737991
+Historical,Oil displacement Mlge,ht,bev and phev,2014,Milion litres gasoline equivalent,05_PRC,0.2414013296365738
+Historical,Oil displacement Mlge,ht,bev and phev,2015,Milion litres gasoline equivalent,05_PRC,3.1144940853118896
+Historical,Oil displacement Mlge,ht,bev and phev,2016,Milion litres gasoline equivalent,05_PRC,4.49445104598999
+Historical,Oil displacement Mlge,ht,bev and phev,2017,Milion litres gasoline equivalent,05_PRC,6.286611080169678
+Historical,Oil displacement Mlge,ht,bev and phev,2018,Milion litres gasoline equivalent,05_PRC,22.464881896972656
+Historical,Oil displacement Mlge,ht,bev and phev,2019,Milion litres gasoline equivalent,05_PRC,23.847206115722656
+Historical,Oil displacement Mlge,ht,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,21.284496307373047
+Historical,Oil displacement Mlge,ht,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,31.333812713623047
+Historical,Oil displacement Mlge,ldv,bev and phev,2010,Milion litres gasoline equivalent,05_PRC,3.939085364341736
+Historical,Oil displacement Mlge,ldv,bev and phev,2010,Milion litres gasoline equivalent,20_USA,8.838865280151367
+Historical,Oil displacement Mlge,ldv,bev and phev,2011,Milion litres gasoline equivalent,05_PRC,6.524203896522522
+Historical,Oil displacement Mlge,ldv,bev and phev,2011,Milion litres gasoline equivalent,20_USA,36.16752243041992
+Historical,Oil displacement Mlge,ldv,bev and phev,2012,Milion litres gasoline equivalent,05_PRC,15.711618900299072
+Historical,Oil displacement Mlge,ldv,bev and phev,2012,Milion litres gasoline equivalent,20_USA,92.28330993652344
+Historical,Oil displacement Mlge,ldv,bev and phev,2013,Milion litres gasoline equivalent,05_PRC,30.667634487152103
+Historical,Oil displacement Mlge,ldv,bev and phev,2013,Milion litres gasoline equivalent,20_USA,260.7019958496094
+Historical,Oil displacement Mlge,ldv,bev and phev,2014,Milion litres gasoline equivalent,05_PRC,74.58670616149902
+Historical,Oil displacement Mlge,ldv,bev and phev,2014,Milion litres gasoline equivalent,20_USA,481.7568054199219
+Historical,Oil displacement Mlge,ldv,bev and phev,2015,Milion litres gasoline equivalent,05_PRC,246.80092620849607
+Historical,Oil displacement Mlge,ldv,bev and phev,2015,Milion litres gasoline equivalent,20_USA,628.6419067382812
+Historical,Oil displacement Mlge,ldv,bev and phev,2016,Milion litres gasoline equivalent,05_PRC,502.59041595458984
+Historical,Oil displacement Mlge,ldv,bev and phev,2016,Milion litres gasoline equivalent,20_USA,825.5595092773438
+Historical,Oil displacement Mlge,ldv,bev and phev,2017,Milion litres gasoline equivalent,05_PRC,976.9346771240234
+Historical,Oil displacement Mlge,ldv,bev and phev,2017,Milion litres gasoline equivalent,20_USA,1094.912353515625
+Historical,Oil displacement Mlge,ldv,bev and phev,2018,Milion litres gasoline equivalent,05_PRC,1693.412857055664
+Historical,Oil displacement Mlge,ldv,bev and phev,2018,Milion litres gasoline equivalent,20_USA,1670.4644775390625
+Historical,Oil displacement Mlge,ldv,bev and phev,2019,Milion litres gasoline equivalent,05_PRC,2343.4466247558594
+Historical,Oil displacement Mlge,ldv,bev and phev,2019,Milion litres gasoline equivalent,20_USA,2250.707763671875
+Historical,Oil displacement Mlge,ldv,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,2912.146484375
+Historical,Oil displacement Mlge,ldv,bev and phev,2020,Milion litres gasoline equivalent,20_USA,2455.5439453125
+Historical,Oil displacement Mlge,ldv,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,5308.214569091797
+Historical,Oil displacement Mlge,ldv,bev and phev,2021,Milion litres gasoline equivalent,20_USA,3372.19091796875
+Historical,Sales,bus,bev,2010,sales,05_PRC,1938.8699951171875
+Historical,Sales,bus,bev,2010,sales,09_ROK,5.0
+Historical,Sales,bus,bev,2011,sales,05_PRC,2121.340087890625
+Historical,Sales,bus,bev,2011,sales,08_JPN,2.0
+Historical,Sales,bus,bev,2011,sales,09_ROK,4.0
+Historical,Sales,bus,bev,2011,sales,12_NZ,2.0
+Historical,Sales,bus,bev,2012,sales,05_PRC,1792.0
+Historical,Sales,bus,bev,2012,sales,08_JPN,4.0
+Historical,Sales,bus,bev,2012,sales,09_ROK,2.0
+Historical,Sales,bus,bev,2012,sales,12_NZ,1.0
+Historical,Sales,bus,bev,2013,sales,05_PRC,1764.199951171875
+Historical,Sales,bus,bev,2013,sales,08_JPN,7.0
+Historical,Sales,bus,bev,2013,sales,09_ROK,6.0
+Historical,Sales,bus,bev,2014,sales,05_PRC,11220.0
+Historical,Sales,bus,bev,2014,sales,08_JPN,6.0
+Historical,Sales,bus,bev,2014,sales,09_ROK,3.0
+Historical,Sales,bus,bev,2015,sales,05_PRC,76151.15625
+Historical,Sales,bus,bev,2015,sales,08_JPN,2.0
+Historical,Sales,bus,bev,2015,sales,09_ROK,2.0
+Historical,Sales,bus,bev,2016,sales,03_CDA,5.0
+Historical,Sales,bus,bev,2016,sales,05_PRC,94403.0
+Historical,Sales,bus,bev,2016,sales,08_JPN,8.0
+Historical,Sales,bus,bev,2016,sales,09_ROK,30.0
+Historical,Sales,bus,bev,2017,sales,03_CDA,11.0
+Historical,Sales,bus,bev,2017,sales,05_PRC,121851.25
+Historical,Sales,bus,bev,2017,sales,08_JPN,10.0
+Historical,Sales,bus,bev,2017,sales,12_NZ,1.0
+Historical,Sales,bus,bev,2018,sales,03_CDA,19.0
+Historical,Sales,bus,bev,2018,sales,05_PRC,107340.28125
+Historical,Sales,bus,bev,2018,sales,08_JPN,10.0
+Historical,Sales,bus,bev,2018,sales,09_ROK,50.0
+Historical,Sales,bus,bev,2018,sales,12_NZ,11.0
+Historical,Sales,bus,bev,2019,sales,03_CDA,49.0
+Historical,Sales,bus,bev,2019,sales,05_PRC,97605.21875
+Historical,Sales,bus,bev,2019,sales,08_JPN,8.0
+Historical,Sales,bus,bev,2019,sales,09_ROK,114.0
+Historical,Sales,bus,bev,2019,sales,12_NZ,13.0
+Historical,Sales,bus,bev,2020,sales,03_CDA,63.0
+Historical,Sales,bus,bev,2020,sales,05_PRC,56869.421875
+Historical,Sales,bus,bev,2020,sales,08_JPN,10.0
+Historical,Sales,bus,bev,2020,sales,09_ROK,700.0
+Historical,Sales,bus,bev,2020,sales,12_NZ,17.0
+Historical,Sales,bus,bev,2021,sales,03_CDA,252.0
+Historical,Sales,bus,bev,2021,sales,05_PRC,84183.34375
+Historical,Sales,bus,bev,2021,sales,09_ROK,700.0
+Historical,Sales,bus,bev,2021,sales,12_NZ,75.0
+Historical,Sales,bus,phev,2011,sales,05_PRC,326.3599853515625
+Historical,Sales,bus,phev,2012,sales,05_PRC,1024.0
+Historical,Sales,bus,phev,2013,sales,05_PRC,3528.39990234375
+Historical,Sales,bus,phev,2014,sales,05_PRC,11968.0
+Historical,Sales,bus,phev,2015,sales,05_PRC,26487.359375
+Historical,Sales,bus,phev,2016,sales,05_PRC,18594.0
+Historical,Sales,bus,phev,2017,sales,05_PRC,480.916015625
+Historical,Sales,bus,phev,2018,sales,05_PRC,2397.1630859375
+Historical,Sales,bus,phev,2019,sales,05_PRC,2562.1357421875
+Historical,Sales,bus,phev,2020,sales,05_PRC,3576.439453125
+Historical,Sales,bus,phev,2021,sales,05_PRC,1719.1201171875
+Historical,Sales,ht,bev,2010,sales,05_PRC,4.92616605758667
+Historical,Sales,ht,bev,2011,sales,05_PRC,13.592893600463867
+Historical,Sales,ht,bev,2012,sales,05_PRC,51.0
+Historical,Sales,ht,bev,2013,sales,05_PRC,312.0
+Historical,Sales,ht,bev,2014,sales,05_PRC,131.0
+Historical,Sales,ht,bev,2015,sales,05_PRC,5760.0
+Historical,Sales,ht,bev,2016,sales,05_PRC,4467.0
+Historical,Sales,ht,bev,2017,sales,05_PRC,4466.0107421875
+Historical,Sales,ht,bev,2018,sales,05_PRC,35196.8125
+Historical,Sales,ht,bev,2019,sales,05_PRC,15960.1162109375
+Historical,Sales,ht,bev,2019,sales,12_NZ,34.0
+Historical,Sales,ht,bev,2020,sales,03_CDA,7.0
+Historical,Sales,ht,bev,2020,sales,05_PRC,4544.1025390625
+Historical,Sales,ht,bev,2020,sales,12_NZ,24.0
+Historical,Sales,ht,bev,2021,sales,05_PRC,11698.2841796875
+Historical,Sales,ht,bev,2021,sales,12_NZ,41.0
+Historical,Sales,ht,phev,2016,sales,05_PRC,5.10780143737793
+Historical,Sales,ht,phev,2017,sales,05_PRC,13519.083984375
+Historical,Sales,ht,phev,2018,sales,05_PRC,3602.8369140625
+Historical,Sales,ht,phev,2019,sales,05_PRC,2437.8642578125
+Historical,Sales,ht,phev,2020,sales,05_PRC,423.560546875
+Historical,Sales,ht,phev,2021,sales,05_PRC,1018.612548828125
+Historical,Sales,ldv,bev,2010,sales,05_PRC,1210.6910705566406
+Historical,Sales,ldv,bev,2010,sales,08_JPN,2442.0
+Historical,Sales,ldv,bev,2010,sales,09_ROK,61.0
+Historical,Sales,ldv,bev,2010,sales,12_NZ,10.0
+Historical,Sales,ldv,bev,2010,sales,20_USA,1191.0
+Historical,Sales,ldv,bev,2011,sales,01_AUS,49.0
+Historical,Sales,ldv,bev,2011,sales,03_CDA,220.0
+Historical,Sales,ldv,bev,2011,sales,04_CHL,6.0
+Historical,Sales,ldv,bev,2011,sales,05_PRC,5083.025909423828
+Historical,Sales,ldv,bev,2011,sales,08_JPN,13456.0
+Historical,Sales,ldv,bev,2011,sales,09_ROK,274.0
+Historical,Sales,ldv,bev,2011,sales,11_MEX,3.0
+Historical,Sales,ldv,bev,2011,sales,12_NZ,13.0
+Historical,Sales,ldv,bev,2011,sales,20_USA,9750.0
+Historical,Sales,ldv,bev,2012,sales,01_AUS,173.0
+Historical,Sales,ldv,bev,2012,sales,03_CDA,620.0
+Historical,Sales,ldv,bev,2012,sales,04_CHL,5.0
+Historical,Sales,ldv,bev,2012,sales,05_PRC,10162.457580566406
+Historical,Sales,ldv,bev,2012,sales,08_JPN,15956.0
+Historical,Sales,ldv,bev,2012,sales,09_ROK,514.0
+Historical,Sales,ldv,bev,2012,sales,11_MEX,88.0
+Historical,Sales,ldv,bev,2012,sales,12_NZ,22.0
+Historical,Sales,ldv,bev,2012,sales,20_USA,14650.0
+Historical,Sales,ldv,bev,2013,sales,01_AUS,191.0
+Historical,Sales,ldv,bev,2013,sales,03_CDA,1640.0
+Historical,Sales,ldv,bev,2013,sales,04_CHL,5.0
+Historical,Sales,ldv,bev,2013,sales,05_PRC,15160.659729003906
+Historical,Sales,ldv,bev,2013,sales,08_JPN,16821.0
+Historical,Sales,ldv,bev,2013,sales,09_ROK,598.0
+Historical,Sales,ldv,bev,2013,sales,11_MEX,12.0
+Historical,Sales,ldv,bev,2013,sales,12_NZ,30.0
+Historical,Sales,ldv,bev,2013,sales,20_USA,47690.0
+Historical,Sales,ldv,bev,2014,sales,01_AUS,371.0
+Historical,Sales,ldv,bev,2014,sales,03_CDA,2825.0
+Historical,Sales,ldv,bev,2014,sales,04_CHL,3.0
+Historical,Sales,ldv,bev,2014,sales,05_PRC,49624.71124267578
+Historical,Sales,ldv,bev,2014,sales,08_JPN,17154.0
+Historical,Sales,ldv,bev,2014,sales,09_ROK,1257.0
+Historical,Sales,ldv,bev,2014,sales,11_MEX,48.0
+Historical,Sales,ldv,bev,2014,sales,12_NZ,112.0
+Historical,Sales,ldv,bev,2014,sales,20_USA,63420.0
+Historical,Sales,ldv,bev,2015,sales,01_AUS,759.0
+Historical,Sales,ldv,bev,2015,sales,03_CDA,4381.0
+Historical,Sales,ldv,bev,2015,sales,04_CHL,13.0
+Historical,Sales,ldv,bev,2015,sales,05_PRC,159182.0
+Historical,Sales,ldv,bev,2015,sales,08_JPN,11292.0
+Historical,Sales,ldv,bev,2015,sales,09_ROK,3069.0
+Historical,Sales,ldv,bev,2015,sales,11_MEX,92.0
+Historical,Sales,ldv,bev,2015,sales,12_NZ,295.0
+Historical,Sales,ldv,bev,2015,sales,20_USA,71044.0
+Historical,Sales,ldv,bev,2016,sales,01_AUS,668.0
+Historical,Sales,ldv,bev,2016,sales,03_CDA,5220.0
+Historical,Sales,ldv,bev,2016,sales,04_CHL,22.0
+Historical,Sales,ldv,bev,2016,sales,05_PRC,277757.0
+Historical,Sales,ldv,bev,2016,sales,08_JPN,15622.305145263672
+Historical,Sales,ldv,bev,2016,sales,09_ROK,4699.0
+Historical,Sales,ldv,bev,2016,sales,11_MEX,254.0
+Historical,Sales,ldv,bev,2016,sales,12_NZ,1162.0
+Historical,Sales,ldv,bev,2016,sales,20_USA,86731.0
+Historical,Sales,ldv,bev,2017,sales,01_AUS,1208.0
+Historical,Sales,ldv,bev,2017,sales,03_CDA,8714.5517578125
+Historical,Sales,ldv,bev,2017,sales,04_CHL,118.0
+Historical,Sales,ldv,bev,2017,sales,05_PRC,525682.7421875
+Historical,Sales,ldv,bev,2017,sales,08_JPN,18425.0
+Historical,Sales,ldv,bev,2017,sales,09_ROK,13970.0
+Historical,Sales,ldv,bev,2017,sales,11_MEX,234.0
+Historical,Sales,ldv,bev,2017,sales,12_NZ,2935.0
+Historical,Sales,ldv,bev,2017,sales,20_USA,104487.0
+Historical,Sales,ldv,bev,2018,sales,01_AUS,1803.0
+Historical,Sales,ldv,bev,2018,sales,03_CDA,22660.0
+Historical,Sales,ldv,bev,2018,sales,04_CHL,109.0
+Historical,Sales,ldv,bev,2018,sales,05_PRC,869332.90625
+Historical,Sales,ldv,bev,2018,sales,08_JPN,26808.0
+Historical,Sales,ldv,bev,2018,sales,09_ROK,55786.0
+Historical,Sales,ldv,bev,2018,sales,11_MEX,201.0
+Historical,Sales,ldv,bev,2018,sales,12_NZ,4356.0
+Historical,Sales,ldv,bev,2018,sales,20_USA,238823.0
+Historical,Sales,ldv,bev,2019,sales,01_AUS,6283.0
+Historical,Sales,ldv,bev,2019,sales,03_CDA,32402.0
+Historical,Sales,ldv,bev,2019,sales,04_CHL,161.0
+Historical,Sales,ldv,bev,2019,sales,05_PRC,857631.66796875
+Historical,Sales,ldv,bev,2019,sales,08_JPN,21821.0
+Historical,Sales,ldv,bev,2019,sales,09_ROK,34949.0
+Historical,Sales,ldv,bev,2019,sales,11_MEX,268.0
+Historical,Sales,ldv,bev,2019,sales,12_NZ,5350.0
+Historical,Sales,ldv,bev,2019,sales,20_USA,241912.0
+Historical,Sales,ldv,bev,2020,sales,01_AUS,5238.0
+Historical,Sales,ldv,bev,2020,sales,03_CDA,38487.0
+Historical,Sales,ldv,bev,2020,sales,04_CHL,112.0
+Historical,Sales,ldv,bev,2020,sales,05_PRC,982377.4765625
+Historical,Sales,ldv,bev,2020,sales,08_JPN,15785.0
+Historical,Sales,ldv,bev,2020,sales,09_ROK,45965.0
+Historical,Sales,ldv,bev,2020,sales,11_MEX,1906.0
+Historical,Sales,ldv,bev,2020,sales,12_NZ,3986.0
+Historical,Sales,ldv,bev,2020,sales,20_USA,231088.0
+Historical,Sales,ldv,bev,2021,sales,01_AUS,17300.0
+Historical,Sales,ldv,bev,2021,sales,03_CDA,62000.0
+Historical,Sales,ldv,bev,2021,sales,04_CHL,266.0
+Historical,Sales,ldv,bev,2021,sales,05_PRC,2820131.3671875
+Historical,Sales,ldv,bev,2021,sales,08_JPN,22587.0
+Historical,Sales,ldv,bev,2021,sales,09_ROK,99673.0
+Historical,Sales,ldv,bev,2021,sales,11_MEX,3283.0
+Historical,Sales,ldv,bev,2021,sales,12_NZ,6887.0
+Historical,Sales,ldv,bev,2021,sales,20_USA,466328.0
+Historical,Sales,ldv,phev,2010,sales,05_PRC,340.0
+Historical,Sales,ldv,phev,2011,sales,03_CDA,300.0
+Historical,Sales,ldv,phev,2011,sales,05_PRC,320.0
+Historical,Sales,ldv,phev,2011,sales,08_JPN,15.0
+Historical,Sales,ldv,phev,2011,sales,12_NZ,2.0
+Historical,Sales,ldv,phev,2011,sales,20_USA,7980.0
+Historical,Sales,ldv,phev,2012,sales,01_AUS,80.0
+Historical,Sales,ldv,phev,2012,sales,03_CDA,1400.0
+Historical,Sales,ldv,phev,2012,sales,05_PRC,260.0
+Historical,Sales,ldv,phev,2012,sales,08_JPN,10968.0
+Historical,Sales,ldv,phev,2012,sales,12_NZ,5.0
+Historical,Sales,ldv,phev,2012,sales,20_USA,38590.0
+Historical,Sales,ldv,phev,2013,sales,01_AUS,102.0
+Historical,Sales,ldv,phev,2013,sales,03_CDA,1480.0
+Historical,Sales,ldv,phev,2013,sales,05_PRC,730.0
+Historical,Sales,ldv,phev,2013,sales,08_JPN,14122.0
+Historical,Sales,ldv,phev,2013,sales,12_NZ,6.0
+Historical,Sales,ldv,phev,2013,sales,20_USA,49010.0
+Historical,Sales,ldv,phev,2014,sales,01_AUS,951.0
+Historical,Sales,ldv,phev,2014,sales,03_CDA,2240.0
+Historical,Sales,ldv,phev,2014,sales,04_CHL,14.0
+Historical,Sales,ldv,phev,2014,sales,05_PRC,24265.19921875
+Historical,Sales,ldv,phev,2014,sales,08_JPN,16178.0
+Historical,Sales,ldv,phev,2014,sales,12_NZ,207.0
+Historical,Sales,ldv,phev,2014,sales,20_USA,55360.0
+Historical,Sales,ldv,phev,2015,sales,01_AUS,1012.0
+Historical,Sales,ldv,phev,2015,sales,03_CDA,2585.0
+Historical,Sales,ldv,phev,2015,sales,04_CHL,23.0
+Historical,Sales,ldv,phev,2015,sales,05_PRC,60663.0
+Historical,Sales,ldv,phev,2015,sales,08_JPN,14188.0
+Historical,Sales,ldv,phev,2015,sales,09_ROK,252.0
+Historical,Sales,ldv,phev,2015,sales,11_MEX,7.0
+Historical,Sales,ldv,phev,2015,sales,12_NZ,199.0
+Historical,Sales,ldv,phev,2015,sales,20_USA,42825.0
+Historical,Sales,ldv,phev,2016,sales,01_AUS,701.0
+Historical,Sales,ldv,phev,2016,sales,03_CDA,6360.0
+Historical,Sales,ldv,phev,2016,sales,04_CHL,9.0
+Historical,Sales,ldv,phev,2016,sales,05_PRC,79000.0
+Historical,Sales,ldv,phev,2016,sales,08_JPN,9390.0
+Historical,Sales,ldv,phev,2016,sales,09_ROK,331.0
+Historical,Sales,ldv,phev,2016,sales,11_MEX,521.0
+Historical,Sales,ldv,phev,2016,sales,12_NZ,340.0
+Historical,Sales,ldv,phev,2016,sales,20_USA,72885.0
+Historical,Sales,ldv,phev,2017,sales,01_AUS,1076.0
+Historical,Sales,ldv,phev,2017,sales,03_CDA,7970.1494140625
+Historical,Sales,ldv,phev,2017,sales,04_CHL,15.0
+Historical,Sales,ldv,phev,2017,sales,05_PRC,111000.0
+Historical,Sales,ldv,phev,2017,sales,08_JPN,36000.0
+Historical,Sales,ldv,phev,2017,sales,09_ROK,670.0
+Historical,Sales,ldv,phev,2017,sales,11_MEX,968.0
+Historical,Sales,ldv,phev,2017,sales,12_NZ,537.0
+Historical,Sales,ldv,phev,2017,sales,20_USA,93862.0
+Historical,Sales,ldv,phev,2018,sales,01_AUS,1802.0
+Historical,Sales,ldv,phev,2018,sales,03_CDA,21490.0
+Historical,Sales,ldv,phev,2018,sales,04_CHL,68.0
+Historical,Sales,ldv,phev,2018,sales,05_PRC,265219.0
+Historical,Sales,ldv,phev,2018,sales,08_JPN,23220.0
+Historical,Sales,ldv,phev,2018,sales,09_ROK,4367.0
+Historical,Sales,ldv,phev,2018,sales,11_MEX,1584.0
+Historical,Sales,ldv,phev,2018,sales,12_NZ,1185.0
+Historical,Sales,ldv,phev,2018,sales,20_USA,122492.0
+Historical,Sales,ldv,phev,2019,sales,01_AUS,2877.0
+Historical,Sales,ldv,phev,2019,sales,03_CDA,18561.0
+Historical,Sales,ldv,phev,2019,sales,04_CHL,137.0
+Historical,Sales,ldv,phev,2019,sales,05_PRC,226106.0
+Historical,Sales,ldv,phev,2019,sales,08_JPN,17600.0
+Historical,Sales,ldv,phev,2019,sales,09_ROK,2730.0
+Historical,Sales,ldv,phev,2019,sales,11_MEX,452.0
+Historical,Sales,ldv,phev,2019,sales,12_NZ,1604.0
+Historical,Sales,ldv,phev,2019,sales,20_USA,84732.0
+Historical,Sales,ldv,phev,2020,sales,01_AUS,1700.0
+Historical,Sales,ldv,phev,2020,sales,03_CDA,15896.0
+Historical,Sales,ldv,phev,2020,sales,04_CHL,79.0
+Historical,Sales,ldv,phev,2020,sales,05_PRC,228291.0
+Historical,Sales,ldv,phev,2020,sales,08_JPN,14700.0
+Historical,Sales,ldv,phev,2020,sales,09_ROK,8743.0
+Historical,Sales,ldv,phev,2020,sales,11_MEX,610.0
+Historical,Sales,ldv,phev,2020,sales,12_NZ,1459.0
+Historical,Sales,ldv,phev,2020,sales,20_USA,64311.0
+Historical,Sales,ldv,phev,2021,sales,01_AUS,3400.0
+Historical,Sales,ldv,phev,2021,sales,03_CDA,30900.0
+Historical,Sales,ldv,phev,2021,sales,04_CHL,300.0
+Historical,Sales,ldv,phev,2021,sales,05_PRC,600303.0
+Historical,Sales,ldv,phev,2021,sales,08_JPN,22596.0
+Historical,Sales,ldv,phev,2021,sales,09_ROK,19029.0
+Historical,Sales,ldv,phev,2021,sales,11_MEX,1007.0
+Historical,Sales,ldv,phev,2021,sales,12_NZ,3571.0
+Historical,Sales,ldv,phev,2021,sales,20_USA,164824.0
+Historical,Sales share,bus,bev and phev,2010,percent,05_PRC,0.387785404920578
+Historical,Sales share,bus,bev and phev,2010,percent,09_ROK,0.0071163233369588
+Historical,Sales share,bus,bev and phev,2011,percent,05_PRC,0.7924700975418091
+Historical,Sales share,bus,bev and phev,2011,percent,08_JPN,0.0187740549445152
+Historical,Sales share,bus,bev and phev,2011,percent,09_ROK,0.0055410102941095
+Historical,Sales share,bus,bev and phev,2011,percent,12_NZ,0.1173108741641044
+Historical,Sales share,bus,bev and phev,2012,percent,05_PRC,0.9593698978424072
+Historical,Sales share,bus,bev and phev,2012,percent,08_JPN,0.0334952287375927
+Historical,Sales share,bus,bev and phev,2012,percent,09_ROK,0.0030985653866082
+Historical,Sales share,bus,bev and phev,2012,percent,12_NZ,0.0541070811450481
+Historical,Sales share,bus,bev and phev,2013,percent,05_PRC,1.6556386947631836
+Historical,Sales share,bus,bev and phev,2013,percent,08_JPN,0.0621504038572311
+Historical,Sales share,bus,bev and phev,2013,percent,09_ROK,0.0089940186589956
+Historical,Sales share,bus,bev and phev,2014,percent,05_PRC,6.0841569900512695
+Historical,Sales share,bus,bev and phev,2014,percent,08_JPN,0.0500458739697933
+Historical,Sales share,bus,bev and phev,2014,percent,09_ROK,0.0048448047600686
+Historical,Sales share,bus,bev and phev,2015,percent,05_PRC,24.870359420776367
+Historical,Sales share,bus,bev and phev,2015,percent,08_JPN,0.0149376355111598
+Historical,Sales share,bus,bev and phev,2015,percent,09_ROK,0.0029474180191755
+Historical,Sales share,bus,bev and phev,2016,percent,03_CDA,0.0810188800096511
+Historical,Sales share,bus,bev and phev,2016,percent,05_PRC,27.95929718017578
+Historical,Sales share,bus,bev and phev,2016,percent,08_JPN,0.05159293115139
+Historical,Sales share,bus,bev and phev,2016,percent,09_ROK,0.0470271036028862
+Historical,Sales share,bus,bev and phev,2017,percent,03_CDA,0.1725829690694809
+Historical,Sales share,bus,bev and phev,2017,percent,05_PRC,29.219972610473636
+Historical,Sales share,bus,bev and phev,2017,percent,08_JPN,0.0640902370214462
+Historical,Sales share,bus,bev and phev,2017,percent,12_NZ,0.0223684310913085
+Historical,Sales share,bus,bev and phev,2018,percent,03_CDA,0.267600804567337
+Historical,Sales share,bus,bev and phev,2018,percent,05_PRC,30.207820892333984
+Historical,Sales share,bus,bev and phev,2018,percent,08_JPN,0.0729288235306739
+Historical,Sales share,bus,bev and phev,2018,percent,09_ROK,0.075711689889431
+Historical,Sales share,bus,bev and phev,2018,percent,12_NZ,0.4146737456321716
+Historical,Sales share,bus,bev and phev,2019,percent,03_CDA,0.7885125875473022
+Historical,Sales share,bus,bev and phev,2019,percent,05_PRC,30.223604202270508
+Historical,Sales share,bus,bev and phev,2019,percent,08_JPN,0.0587544068694114
+Historical,Sales share,bus,bev and phev,2019,percent,09_ROK,0.1986408829689026
+Historical,Sales share,bus,bev and phev,2019,percent,12_NZ,0.7222222089767456
+Historical,Sales share,bus,bev and phev,2020,percent,03_CDA,1.0115230083465576
+Historical,Sales share,bus,bev and phev,2020,percent,05_PRC,21.0385856628418
+Historical,Sales share,bus,bev and phev,2020,percent,08_JPN,0.1061345785856247
+Historical,Sales share,bus,bev and phev,2020,percent,09_ROK,1.429650902748108
+Historical,Sales share,bus,bev and phev,2020,percent,12_NZ,1.1541072130203247
+Historical,Sales share,bus,bev and phev,2021,percent,03_CDA,4.046092033386231
+Historical,Sales share,bus,bev and phev,2021,percent,05_PRC,26.10106658935547
+Historical,Sales share,bus,bev and phev,2021,percent,09_ROK,1.6706044673919678
+Historical,Sales share,bus,bev and phev,2021,percent,12_NZ,3.70004940032959
+Historical,Sales share,ht,bev and phev,2010,percent,05_PRC,0.0002310284326085
+Historical,Sales share,ht,bev and phev,2011,percent,05_PRC,0.000737004505936
+Historical,Sales share,ht,bev and phev,2012,percent,05_PRC,0.0032959664240479
+Historical,Sales share,ht,bev and phev,2013,percent,05_PRC,0.0173278842121362
+Historical,Sales share,ht,bev and phev,2014,percent,05_PRC,0.0078085395507514
+Historical,Sales share,ht,bev and phev,2015,percent,05_PRC,0.455303817987442
+Historical,Sales share,ht,bev and phev,2016,percent,05_PRC,0.2854607701301574
+Historical,Sales share,ht,bev and phev,2017,percent,05_PRC,0.8564184904098511
+Historical,Sales share,ht,bev and phev,2018,percent,05_PRC,1.743175745010376
+Historical,Sales share,ht,bev and phev,2019,percent,05_PRC,0.76885586977005
+Historical,Sales share,ht,bev and phev,2019,percent,12_NZ,0.4788732528686523
+Historical,Sales share,ht,bev and phev,2020,percent,03_CDA,0.007707386277616
+Historical,Sales share,ht,bev and phev,2020,percent,05_PRC,0.166718527674675
+Historical,Sales share,ht,bev and phev,2020,percent,12_NZ,0.4166666567325592
+Historical,Sales share,ht,bev and phev,2021,percent,05_PRC,0.4382334649562835
+Historical,Sales share,ht,bev and phev,2021,percent,12_NZ,0.54666668176651
+Historical,Sales share,ldv,bev and phev,2010,percent,05_PRC,0.0216040248051284
+Historical,Sales share,ldv,bev and phev,2010,percent,08_JPN,0.0554760992527008
+Historical,Sales share,ldv,bev and phev,2010,percent,09_ROK,0.0050275446847081
+Historical,Sales share,ldv,bev and phev,2010,percent,12_NZ,0.0063227047212421
+Historical,Sales share,ldv,bev and phev,2010,percent,20_USA,0.0113379238173365
+Historical,Sales share,ldv,bev and phev,2011,percent,01_AUS,0.0064786206930875
+Historical,Sales share,ldv,bev and phev,2011,percent,03_CDA,0.0405755788087844
+Historical,Sales share,ldv,bev and phev,2011,percent,04_CHL,0.0024604487698525
+Historical,Sales share,ldv,bev and phev,2011,percent,05_PRC,0.0679152682423591
+Historical,Sales share,ldv,bev and phev,2011,percent,08_JPN,0.47691963613033284
+Historical,Sales share,ldv,bev and phev,2011,percent,09_ROK,0.0226948633790016
+Historical,Sales share,ldv,bev and phev,2011,percent,11_MEX,0.0003935317508876
+Historical,Sales share,ldv,bev and phev,2011,percent,12_NZ,0.0098845260217785
+Historical,Sales share,ldv,bev and phev,2011,percent,20_USA,0.1689459681510925
+Historical,Sales share,ldv,bev and phev,2012,percent,01_AUS,0.0303922686725854
+Historical,Sales share,ldv,bev and phev,2012,percent,03_CDA,0.1483242660760879
+Historical,Sales share,ldv,bev and phev,2012,percent,04_CHL,0.00199416722171
+Historical,Sales share,ldv,bev and phev,2012,percent,05_PRC,0.11789371445775021
+Historical,Sales share,ldv,bev and phev,2012,percent,08_JPN,0.911290168762207
+Historical,Sales share,ldv,bev and phev,2012,percent,09_ROK,0.0407844893634319
+Historical,Sales share,ldv,bev and phev,2012,percent,11_MEX,0.0105669172480702
+Historical,Sales share,ldv,bev and phev,2012,percent,12_NZ,0.0165677461773157
+Historical,Sales share,ldv,bev and phev,2012,percent,20_USA,0.4065326452255249
+Historical,Sales share,ldv,bev and phev,2013,percent,01_AUS,0.0342323519289493
+Historical,Sales share,ldv,bev and phev,2013,percent,03_CDA,0.2219511121511459
+Historical,Sales share,ldv,bev and phev,2013,percent,04_CHL,0.0017799533670768
+Historical,Sales share,ldv,bev and phev,2013,percent,05_PRC,0.1396879032254218
+Historical,Sales share,ldv,bev and phev,2013,percent,08_JPN,0.9565765857696533
+Historical,Sales share,ldv,bev and phev,2013,percent,09_ROK,0.0483389608561992
+Historical,Sales share,ldv,bev and phev,2013,percent,11_MEX,0.0013258417602628
+Historical,Sales share,ldv,bev and phev,2013,percent,12_NZ,0.0190355442464351
+Historical,Sales share,ldv,bev and phev,2013,percent,20_USA,0.7369899749755859
+Historical,Sales share,ldv,bev and phev,2014,percent,01_AUS,0.1561213731765747
+Historical,Sales share,ldv,bev and phev,2014,percent,03_CDA,0.3405010104179382
+Historical,Sales share,ldv,bev and phev,2014,percent,04_CHL,0.006756218150258
+Historical,Sales share,ldv,bev and phev,2014,percent,05_PRC,0.43236996978521336
+Historical,Sales share,ldv,bev and phev,2014,percent,08_JPN,0.8211310654878616
+Historical,Sales share,ldv,bev and phev,2014,percent,09_ROK,0.0925769060850143
+Historical,Sales share,ldv,bev and phev,2014,percent,11_MEX,0.0049448888748884
+Historical,Sales share,ldv,bev and phev,2014,percent,12_NZ,0.1398243457078933
+Historical,Sales share,ldv,bev and phev,2014,percent,20_USA,0.891074538230896
+Historical,Sales share,ldv,bev and phev,2015,percent,01_AUS,0.1980618685483932
+Historical,Sales share,ldv,bev and phev,2015,percent,03_CDA,0.4492693536449223
+Historical,Sales share,ldv,bev and phev,2015,percent,04_CHL,0.0170472618192434
+Historical,Sales share,ldv,bev and phev,2015,percent,05_PRC,2.5755996108055115
+Historical,Sales share,ldv,bev and phev,2015,percent,08_JPN,0.6716244593262672
+Historical,Sales share,ldv,bev and phev,2015,percent,09_ROK,0.227788939140737
+Historical,Sales share,ldv,bev and phev,2015,percent,11_MEX,0.0084907058626413
+Historical,Sales share,ldv,bev and phev,2015,percent,12_NZ,0.1994930803775787
+Historical,Sales share,ldv,bev and phev,2015,percent,20_USA,0.7848952412605286
+Historical,Sales share,ldv,bev and phev,2016,percent,01_AUS,0.1520260125398636
+Historical,Sales share,ldv,bev and phev,2016,percent,03_CDA,0.7282341122627258
+Historical,Sales share,ldv,bev and phev,2016,percent,04_CHL,0.0134919825941324
+Historical,Sales share,ldv,bev and phev,2016,percent,05_PRC,3.801875948905945
+Historical,Sales share,ldv,bev and phev,2016,percent,08_JPN,0.6228080913424491
+Historical,Sales share,ldv,bev and phev,2016,percent,09_ROK,0.3369151446968316
+Historical,Sales share,ldv,bev and phev,2016,percent,11_MEX,0.0557755306363105
+Historical,Sales share,ldv,bev and phev,2016,percent,12_NZ,0.5671562552452087
+Historical,Sales share,ldv,bev and phev,2016,percent,20_USA,1.0197726488113403
+Historical,Sales share,ldv,bev and phev,2017,percent,01_AUS,0.2558240592479706
+Historical,Sales share,ldv,bev and phev,2017,percent,03_CDA,0.9977920651435852
+Historical,Sales share,ldv,bev and phev,2017,percent,04_CHL,0.0493337549269199
+Historical,Sales share,ldv,bev and phev,2017,percent,05_PRC,7.919309377670288
+Historical,Sales share,ldv,bev and phev,2017,percent,08_JPN,1.0831590592861176
+Historical,Sales share,ldv,bev and phev,2017,percent,09_ROK,0.9406515955924988
+Historical,Sales share,ldv,bev and phev,2017,percent,11_MEX,0.0904753431677818
+Historical,Sales share,ldv,bev and phev,2017,percent,12_NZ,1.1697674989700315
+Historical,Sales share,ldv,bev and phev,2017,percent,20_USA,1.1617519855499268
+Historical,Sales share,ldv,bev and phev,2018,percent,01_AUS,0.4236763417720794
+Historical,Sales share,ldv,bev and phev,2018,percent,03_CDA,2.673327922821045
+Historical,Sales share,ldv,bev and phev,2018,percent,04_CHL,0.0558449663221836
+Historical,Sales share,ldv,bev and phev,2018,percent,05_PRC,9.227930068969727
+Historical,Sales share,ldv,bev and phev,2018,percent,08_JPN,0.9841181002557278
+Historical,Sales share,ldv,bev and phev,2018,percent,09_ROK,3.966126635670662
+Historical,Sales share,ldv,bev and phev,2018,percent,11_MEX,0.1422102153301239
+Historical,Sales share,ldv,bev and phev,2018,percent,12_NZ,1.936495423316956
+Historical,Sales share,ldv,bev and phev,2018,percent,20_USA,1.973446249961853
+Historical,Sales share,ldv,bev and phev,2019,percent,01_AUS,1.2238010168075562
+Historical,Sales share,ldv,bev and phev,2019,percent,03_CDA,3.215052366256714
+Historical,Sales share,ldv,bev and phev,2019,percent,04_CHL,0.1068023815751075
+Historical,Sales share,ldv,bev and phev,2019,percent,05_PRC,6.589650988578796
+Historical,Sales share,ldv,bev and phev,2019,percent,08_JPN,0.8233684077858924
+Historical,Sales share,ldv,bev and phev,2019,percent,09_ROK,3.0873554944992065
+Historical,Sales share,ldv,bev and phev,2019,percent,11_MEX,0.063473530113697
+Historical,Sales share,ldv,bev and phev,2019,percent,12_NZ,2.954706996679306
+Historical,Sales share,ldv,bev and phev,2019,percent,20_USA,2.065460681915283
+Historical,Sales share,ldv,bev and phev,2020,percent,01_AUS,1.052804470062256
+Historical,Sales share,ldv,bev and phev,2020,percent,03_CDA,5.604400157928467
+Historical,Sales share,ldv,bev and phev,2020,percent,04_CHL,0.1020168364048004
+Historical,Sales share,ldv,bev and phev,2020,percent,05_PRC,8.940537691116333
+Historical,Sales share,ldv,bev and phev,2020,percent,08_JPN,0.8282871246337891
+Historical,Sales share,ldv,bev and phev,2020,percent,09_ROK,8.825103521347046
+Historical,Sales share,ldv,bev and phev,2020,percent,11_MEX,0.3121637105941772
+Historical,Sales share,ldv,bev and phev,2020,percent,12_NZ,2.9730823934078217
+Historical,Sales share,ldv,bev and phev,2020,percent,20_USA,2.20703387260437
+Historical,Sales share,ldv,bev and phev,2021,percent,01_AUS,2.822305917739868
+Historical,Sales share,ldv,bev and phev,2021,percent,03_CDA,8.095269799232483
+Historical,Sales share,ldv,bev and phev,2021,percent,04_CHL,0.1914425790309906
+Historical,Sales share,ldv,bev and phev,2021,percent,05_PRC,22.14670753479004
+Historical,Sales share,ldv,bev and phev,2021,percent,08_JPN,1.1416893452405927
+Historical,Sales share,ldv,bev and phev,2021,percent,09_ROK,18.402709007263184
+Historical,Sales share,ldv,bev and phev,2021,percent,11_MEX,0.4983768165111542
+Historical,Sales share,ldv,bev and phev,2021,percent,12_NZ,4.728755176067353
+Historical,Sales share,ldv,bev and phev,2021,percent,20_USA,4.561257839202881
+Historical,Stock share,bus,bev and phev,2010,percent,05_PRC,0.0480984486639499
+Historical,Stock share,bus,bev and phev,2010,percent,09_ROK,0.0002987601328641
+Historical,Stock share,bus,bev and phev,2010,percent,12_NZ,0.2659463286399841
+Historical,Stock share,bus,bev and phev,2011,percent,05_PRC,0.1064012944698333
+Historical,Stock share,bus,bev and phev,2011,percent,08_JPN,0.0009190221317112
+Historical,Stock share,bus,bev and phev,2011,percent,09_ROK,0.0005653122789226
+Historical,Stock share,bus,bev and phev,2011,percent,12_NZ,0.2707166075706482
+Historical,Stock share,bus,bev and phev,2012,percent,05_PRC,0.1709455996751785
+Historical,Stock share,bus,bev and phev,2012,percent,08_JPN,0.0028134661260992
+Historical,Stock share,bus,bev and phev,2012,percent,09_ROK,0.0007309893844649
+Historical,Stock share,bus,bev and phev,2012,percent,12_NZ,0.2710980176925659
+Historical,Stock share,bus,bev and phev,2013,percent,05_PRC,0.2878251075744629
+Historical,Stock share,bus,bev and phev,2013,percent,08_JPN,0.0062470403499901
+Historical,Stock share,bus,bev and phev,2013,percent,09_ROK,0.0012052110396325
+Historical,Stock share,bus,bev and phev,2013,percent,12_NZ,0.2622354924678802
+Historical,Stock share,bus,bev and phev,2014,percent,05_PRC,0.8472194075584412
+Historical,Stock share,bus,bev and phev,2014,percent,08_JPN,0.0092954952269792
+Historical,Stock share,bus,bev and phev,2014,percent,09_ROK,0.001521238242276
+Historical,Stock share,bus,bev and phev,2014,percent,12_NZ,0.256943792104721
+Historical,Stock share,bus,bev and phev,2015,percent,05_PRC,2.955075263977051
+Historical,Stock share,bus,bev and phev,2015,percent,08_JPN,0.010462979786098
+Historical,Stock share,bus,bev and phev,2015,percent,09_ROK,0.0018179982434958
+Historical,Stock share,bus,bev and phev,2015,percent,12_NZ,0.2436209768056869
+Historical,Stock share,bus,bev and phev,2016,percent,05_PRC,5.04216194152832
+Historical,Stock share,bus,bev and phev,2016,percent,08_JPN,0.0146291311830282
+Historical,Stock share,bus,bev and phev,2016,percent,09_ROK,0.0046264021657407
+Historical,Stock share,bus,bev and phev,2016,percent,12_NZ,0.2277804911136627
+Historical,Stock share,bus,bev and phev,2017,percent,05_PRC,6.657371044158936
+Historical,Stock share,bus,bev and phev,2017,percent,08_JPN,0.0148261925205588
+Historical,Stock share,bus,bev and phev,2017,percent,09_ROK,0.0048510618507862
+Historical,Stock share,bus,bev and phev,2017,percent,12_NZ,0.2130091935396194
+Historical,Stock share,bus,bev and phev,2018,percent,03_CDA,0.0202939994633197
+Historical,Stock share,bus,bev and phev,2018,percent,05_PRC,8.335844993591309
+Historical,Stock share,bus,bev and phev,2018,percent,08_JPN,0.0204203240573406
+Historical,Stock share,bus,bev and phev,2018,percent,09_ROK,0.0098537970334291
+Historical,Stock share,bus,bev and phev,2018,percent,12_NZ,0.2510836124420166
+Historical,Stock share,bus,bev and phev,2019,percent,03_CDA,0.0734692513942718
+Historical,Stock share,bus,bev and phev,2019,percent,05_PRC,9.538795471191406
+Historical,Stock share,bus,bev and phev,2019,percent,08_JPN,0.0251830704510211
+Historical,Stock share,bus,bev and phev,2019,percent,09_ROK,0.0207851957529783
+Historical,Stock share,bus,bev and phev,2019,percent,12_NZ,0.3501577377319336
+Historical,Stock share,bus,bev and phev,2020,percent,03_CDA,0.2855565249919891
+Historical,Stock share,bus,bev and phev,2020,percent,05_PRC,10.49643898010254
+Historical,Stock share,bus,bev and phev,2020,percent,08_JPN,0.031783789396286
+Historical,Stock share,bus,bev and phev,2020,percent,09_ROK,0.0765226334333419
+Historical,Stock share,bus,bev and phev,2020,percent,12_NZ,0.4016064405441284
+Historical,Stock share,bus,bev and phev,2021,percent,03_CDA,0.4592345654964447
+Historical,Stock share,bus,bev and phev,2021,percent,05_PRC,12.089728355407717
+Historical,Stock share,bus,bev and phev,2021,percent,08_JPN,0.031783789396286
+Historical,Stock share,bus,bev and phev,2021,percent,09_ROK,0.1350006312131881
+Historical,Stock share,bus,bev and phev,2021,percent,12_NZ,0.5417863726615906
+Historical,Stock share,ht,bev and phev,2012,percent,05_PRC,0.0003085455973632
+Historical,Stock share,ht,bev and phev,2013,percent,05_PRC,0.002053803531453
+Historical,Stock share,ht,bev and phev,2014,percent,05_PRC,0.0026262204628437
+Historical,Stock share,ht,bev and phev,2015,percent,05_PRC,0.0319501422345638
+Historical,Stock share,ht,bev and phev,2016,percent,05_PRC,0.0520843900740146
+Historical,Stock share,ht,bev and phev,2017,percent,05_PRC,0.0656145140528678
+Historical,Stock share,ht,bev and phev,2018,percent,05_PRC,0.0835030302405357
+Historical,Stock share,ht,bev and phev,2019,percent,05_PRC,0.1106584817171096
+Historical,Stock share,ht,bev and phev,2019,percent,12_NZ,0.0474368780851364
+Historical,Stock share,ht,bev and phev,2020,percent,03_CDA,0.0006420440622605
+Historical,Stock share,ht,bev and phev,2020,percent,05_PRC,0.1205472946166992
+Historical,Stock share,ht,bev and phev,2020,percent,09_ROK,1.6719050407409668
+Historical,Stock share,ht,bev and phev,2020,percent,12_NZ,0.0645752325654029
+Historical,Stock share,ht,bev and phev,2021,percent,03_CDA,0.0006420440622605
+Historical,Stock share,ht,bev and phev,2021,percent,05_PRC,0.166909635066986
+Historical,Stock share,ht,bev and phev,2021,percent,09_ROK,1.6719050407409668
+Historical,Stock share,ht,bev and phev,2021,percent,12_NZ,0.0451424531638622
+Historical,Stock share,ldv,bev and phev,2010,percent,05_PRC,0.0077517442405222
+Historical,Stock share,ldv,bev and phev,2010,percent,08_JPN,0.0052135963924229
+Historical,Stock share,ldv,bev and phev,2010,percent,09_ROK,0.0004032037686556
+Historical,Stock share,ldv,bev and phev,2010,percent,12_NZ,0.000607734080404
+Historical,Stock share,ldv,bev and phev,2010,percent,20_USA,0.0016957023181021
+Historical,Stock share,ldv,bev and phev,2011,percent,01_AUS,0.0004636026569642
+Historical,Stock share,ldv,bev and phev,2011,percent,03_CDA,0.0026192050427198
+Historical,Stock share,ldv,bev and phev,2011,percent,04_CHL,0.000281977962004
+Historical,Stock share,ldv,bev and phev,2011,percent,05_PRC,0.016631334554403902
+Historical,Stock share,ldv,bev and phev,2011,percent,08_JPN,0.029748624190688
+Historical,Stock share,ldv,bev and phev,2011,percent,09_ROK,0.0022117351181805
+Historical,Stock share,ldv,bev and phev,2011,percent,11_MEX,1.69590857694e-05
+Historical,Stock share,ldv,bev and phev,2011,percent,12_NZ,0.0012913416139781
+Historical,Stock share,ldv,bev and phev,2011,percent,20_USA,0.0097439838573336
+Historical,Stock share,ldv,bev and phev,2012,percent,01_AUS,0.002785010728985
+Historical,Stock share,ldv,bev and phev,2012,percent,03_CDA,0.0125846751034259
+Historical,Stock share,ldv,bev and phev,2012,percent,04_CHL,0.0004870601114816
+Historical,Stock share,ldv,bev and phev,2012,percent,05_PRC,0.0303811766207217
+Historical,Stock share,ldv,bev and phev,2012,percent,08_JPN,0.0848059765994548
+Historical,Stock share,ldv,bev and phev,2012,percent,09_ROK,0.0055549787357449
+Historical,Stock share,ldv,bev and phev,2012,percent,11_MEX,0.000493875297252
+Historical,Stock share,ldv,bev and phev,2012,percent,12_NZ,0.0025702083948999
+Historical,Stock share,ldv,bev and phev,2012,percent,20_USA,0.0338219553232193
+Historical,Stock share,ldv,bev and phev,2013,percent,01_AUS,0.005384222138673
+Historical,Stock share,ldv,bev and phev,2013,percent,03_CDA,0.0278313402086496
+Historical,Stock share,ldv,bev and phev,2013,percent,04_CHL,0.0006704156985506
+Historical,Stock share,ldv,bev and phev,2013,percent,05_PRC,0.0463152546435594
+Historical,Stock share,ldv,bev and phev,2013,percent,08_JPN,0.14658592268824572
+Historical,Stock share,ldv,bev and phev,2013,percent,09_ROK,0.0092960037291049
+Historical,Stock share,ldv,bev and phev,2013,percent,11_MEX,0.0005375851760618
+Historical,Stock share,ldv,bev and phev,2013,percent,12_NZ,0.00430349400267
+Historical,Stock share,ldv,bev and phev,2013,percent,20_USA,0.0775301530957222
+Historical,Stock share,ldv,bev and phev,2014,percent,01_AUS,0.0170832425355911
+Historical,Stock share,ldv,bev and phev,2014,percent,03_CDA,0.0524425730109214
+Historical,Stock share,ldv,bev and phev,2014,percent,04_CHL,0.0013152556493878
+Historical,Stock share,ldv,bev and phev,2014,percent,05_PRC,0.0879114866256713
+Historical,Stock share,ldv,bev and phev,2014,percent,08_JPN,0.2200974561274051
+Historical,Stock share,ldv,bev and phev,2014,percent,09_ROK,0.0168689992278814
+Historical,Stock share,ldv,bev and phev,2014,percent,11_MEX,0.0007625055150128
+Historical,Stock share,ldv,bev and phev,2014,percent,12_NZ,0.019248018041253
+Historical,Stock share,ldv,bev and phev,2014,percent,20_USA,0.1312173455953598
+Historical,Stock share,ldv,bev and phev,2015,percent,01_AUS,0.0321803390979766
+Historical,Stock share,ldv,bev and phev,2015,percent,03_CDA,0.0857817945507121
+Historical,Stock share,ldv,bev and phev,2015,percent,04_CHL,0.0026459584478288
+Historical,Stock share,ldv,bev and phev,2015,percent,05_PRC,0.32260674238204945
+Historical,Stock share,ldv,bev and phev,2015,percent,08_JPN,0.2651008963584899
+Historical,Stock share,ldv,bev and phev,2015,percent,09_ROK,0.0373044693260453
+Historical,Stock share,ldv,bev and phev,2015,percent,11_MEX,0.0012266857083886
+Historical,Stock share,ldv,bev and phev,2015,percent,12_NZ,0.0417296104133129
+Historical,Stock share,ldv,bev and phev,2015,percent,20_USA,0.1820298582315445
+Historical,Stock share,ldv,bev and phev,2016,percent,01_AUS,0.042653664946556
+Historical,Stock share,ldv,bev and phev,2016,percent,03_CDA,0.1362864340480881
+Historical,Stock share,ldv,bev and phev,2016,percent,04_CHL,0.0036006006412208
+Historical,Stock share,ldv,bev and phev,2016,percent,05_PRC,0.8012526631355285
+Historical,Stock share,ldv,bev and phev,2016,percent,08_JPN,0.2997764497995375
+Historical,Stock share,ldv,bev and phev,2016,percent,09_ROK,0.0670722103677689
+Historical,Stock share,ldv,bev and phev,2016,percent,11_MEX,0.0048230453394353
+Historical,Stock share,ldv,bev and phev,2016,percent,12_NZ,0.105435274541378
+Historical,Stock share,ldv,bev and phev,2016,percent,20_USA,0.2521568834781647
+Historical,Stock share,ldv,bev and phev,2017,percent,01_AUS,0.0607605576515197
+Historical,Stock share,ldv,bev and phev,2017,percent,03_CDA,0.209245273261331
+Historical,Stock share,ldv,bev and phev,2017,percent,04_CHL,0.0079872133210301
+Historical,Stock share,ldv,bev and phev,2017,percent,05_PRC,1.551991045475006
+Historical,Stock share,ldv,bev and phev,2017,percent,08_JPN,0.3817842602729796
+Historical,Stock share,ldv,bev and phev,2017,percent,09_ROK,0.1494458435336127
+Historical,Stock share,ldv,bev and phev,2017,percent,11_MEX,0.0104352748021483
+Historical,Stock share,ldv,bev and phev,2017,percent,12_NZ,0.2461539208889007
+Historical,Stock share,ldv,bev and phev,2017,percent,20_USA,0.3369527757167816
+Historical,Stock share,ldv,bev and phev,2018,percent,01_AUS,0.0893876031041145
+Historical,Stock share,ldv,bev and phev,2018,percent,03_CDA,0.40473417514294846
+Historical,Stock share,ldv,bev and phev,2018,percent,04_CHL,0.0133360028266906
+Historical,Stock share,ldv,bev and phev,2018,percent,05_PRC,2.5468825101852417
+Historical,Stock share,ldv,bev and phev,2018,percent,08_JPN,0.4394102096557617
+Historical,Stock share,ldv,bev and phev,2018,percent,09_ROK,0.3579206839203834
+Historical,Stock share,ldv,bev and phev,2018,percent,11_MEX,0.0190077386796474
+Historical,Stock share,ldv,bev and phev,2018,percent,12_NZ,0.4574909806251526
+Historical,Stock share,ldv,bev and phev,2018,percent,20_USA,0.4892216920852661
+Historical,Stock share,ldv,bev and phev,2019,percent,01_AUS,0.1636523008346557
+Historical,Stock share,ldv,bev and phev,2019,percent,03_CDA,0.6270860780787187
+Historical,Stock share,ldv,bev and phev,2019,percent,04_CHL,0.0201199240982532
+Historical,Stock share,ldv,bev and phev,2019,percent,05_PRC,3.1075066328048706
+Historical,Stock share,ldv,bev and phev,2019,percent,08_JPN,0.4914231970906257
+Historical,Stock share,ldv,bev and phev,2019,percent,09_ROK,0.6194974631071091
+Historical,Stock share,ldv,bev and phev,2019,percent,11_MEX,0.0228024069219827
+Historical,Stock share,ldv,bev and phev,2019,percent,12_NZ,0.6344576999545097
+Historical,Stock share,ldv,bev and phev,2019,percent,20_USA,0.6288289427757263
+Historical,Stock share,ldv,bev and phev,2020,percent,01_AUS,0.2215042114257812
+Historical,Stock share,ldv,bev and phev,2020,percent,03_CDA,0.9129352048039435
+Historical,Stock share,ldv,bev and phev,2020,percent,04_CHL,0.0258190985769033
+Historical,Stock share,ldv,bev and phev,2020,percent,05_PRC,3.6718751192092896
+Historical,Stock share,ldv,bev and phev,2020,percent,08_JPN,0.5590082928538321
+Historical,Stock share,ldv,bev and phev,2020,percent,09_ROK,1.5129574537277222
+Historical,Stock share,ldv,bev and phev,2020,percent,11_MEX,0.0356917679309845
+Historical,Stock share,ldv,bev and phev,2020,percent,12_NZ,0.7895077615976334
+Historical,Stock share,ldv,bev and phev,2020,percent,20_USA,0.7742037773132324
+Historical,Stock share,ldv,bev and phev,2021,percent,01_AUS,0.3910478353500366
+Historical,Stock share,ldv,bev and phev,2021,percent,03_CDA,1.4066407680511475
+Historical,Stock share,ldv,bev and phev,2021,percent,04_CHL,0.043362446129322
+Historical,Stock share,ldv,bev and phev,2021,percent,05_PRC,5.5109803676605225
+Historical,Stock share,ldv,bev and phev,2021,percent,08_JPN,0.6371688693761826
+Historical,Stock share,ldv,bev and phev,2021,percent,09_ROK,3.349489569664001
+Historical,Stock share,ldv,bev and phev,2021,percent,11_MEX,0.0568172745406627
+Historical,Stock share,ldv,bev and phev,2021,percent,12_NZ,1.056498937308788
+Historical,Stock share,ldv,bev and phev,2021,percent,20_USA,0.8989007472991943
+Historical,Stocks,bus,bev,2010,Stocks,05_PRC,1938.8699951171875
+Historical,Stocks,bus,bev,2010,Stocks,09_ROK,5.0
+Historical,Stocks,bus,bev,2010,Stocks,12_NZ,62.0
+Historical,Stocks,bus,bev,2011,Stocks,05_PRC,4060.2099609375
+Historical,Stocks,bus,bev,2011,Stocks,08_JPN,2.0
+Historical,Stocks,bus,bev,2011,Stocks,09_ROK,9.0
+Historical,Stocks,bus,bev,2011,Stocks,12_NZ,64.0
+Historical,Stocks,bus,bev,2012,Stocks,05_PRC,5852.2099609375
+Historical,Stocks,bus,bev,2012,Stocks,08_JPN,6.0
+Historical,Stocks,bus,bev,2012,Stocks,09_ROK,11.0
+Historical,Stocks,bus,bev,2012,Stocks,12_NZ,65.0
+Historical,Stocks,bus,bev,2013,Stocks,05_PRC,7616.41015625
+Historical,Stocks,bus,bev,2013,Stocks,08_JPN,13.0
+Historical,Stocks,bus,bev,2013,Stocks,09_ROK,17.0
+Historical,Stocks,bus,bev,2013,Stocks,12_NZ,65.0
+Historical,Stocks,bus,bev,2014,Stocks,05_PRC,21702.41015625
+Historical,Stocks,bus,bev,2014,Stocks,08_JPN,19.0
+Historical,Stocks,bus,bev,2014,Stocks,09_ROK,20.0
+Historical,Stocks,bus,bev,2014,Stocks,12_NZ,65.0
+Historical,Stocks,bus,bev,2015,Stocks,05_PRC,97853.5703125
+Historical,Stocks,bus,bev,2015,Stocks,08_JPN,21.0
+Historical,Stocks,bus,bev,2015,Stocks,09_ROK,22.0
+Historical,Stocks,bus,bev,2015,Stocks,12_NZ,65.0
+Historical,Stocks,bus,bev,2016,Stocks,05_PRC,187479.5625
+Historical,Stocks,bus,bev,2016,Stocks,08_JPN,29.0
+Historical,Stocks,bus,bev,2016,Stocks,09_ROK,52.0
+Historical,Stocks,bus,bev,2016,Stocks,12_NZ,65.0
+Historical,Stocks,bus,bev,2017,Stocks,05_PRC,277025.5625
+Historical,Stocks,bus,bev,2017,Stocks,08_JPN,29.0
+Historical,Stocks,bus,bev,2017,Stocks,09_ROK,52.0
+Historical,Stocks,bus,bev,2017,Stocks,12_NZ,66.0
+Historical,Stocks,bus,bev,2018,Stocks,03_CDA,19.0
+Historical,Stocks,bus,bev,2018,Stocks,05_PRC,362195.5625
+Historical,Stocks,bus,bev,2018,Stocks,08_JPN,39.0
+Historical,Stocks,bus,bev,2018,Stocks,09_ROK,102.0
+Historical,Stocks,bus,bev,2018,Stocks,12_NZ,77.0
+Historical,Stocks,bus,bev,2019,Stocks,03_CDA,68.0
+Historical,Stocks,bus,bev,2019,Stocks,05_PRC,428606.5625
+Historical,Stocks,bus,bev,2019,Stocks,08_JPN,47.0
+Historical,Stocks,bus,bev,2019,Stocks,09_ROK,216.0
+Historical,Stocks,bus,bev,2019,Stocks,12_NZ,111.0
+Historical,Stocks,bus,bev,2020,Stocks,03_CDA,268.0
+Historical,Stocks,bus,bev,2020,Stocks,05_PRC,485476.0
+Historical,Stocks,bus,bev,2020,Stocks,08_JPN,57.0
+Historical,Stocks,bus,bev,2020,Stocks,09_ROK,916.0
+Historical,Stocks,bus,bev,2020,Stocks,12_NZ,130.0
+Historical,Stocks,bus,bev,2021,Stocks,03_CDA,431.0
+Historical,Stocks,bus,bev,2021,Stocks,05_PRC,569659.3125
+Historical,Stocks,bus,bev,2021,Stocks,08_JPN,57.0
+Historical,Stocks,bus,bev,2021,Stocks,09_ROK,1616.0
+Historical,Stocks,bus,bev,2021,Stocks,12_NZ,180.0
+Historical,Stocks,bus,phev,2011,Stocks,05_PRC,326.3599853515625
+Historical,Stocks,bus,phev,2012,Stocks,05_PRC,1350.3599853515625
+Historical,Stocks,bus,phev,2013,Stocks,05_PRC,4878.759765625
+Historical,Stocks,bus,phev,2014,Stocks,05_PRC,16846.759765625
+Historical,Stocks,bus,phev,2015,Stocks,05_PRC,43334.12109375
+Historical,Stocks,bus,phev,2016,Stocks,05_PRC,61928.12109375
+Historical,Stocks,bus,phev,2017,Stocks,05_PRC,62409.03515625
+Historical,Stocks,bus,phev,2018,Stocks,05_PRC,71583.7578125
+Historical,Stocks,bus,phev,2019,Stocks,05_PRC,76864.7578125
+Historical,Stocks,bus,phev,2020,Stocks,05_PRC,80441.203125
+Historical,Stocks,bus,phev,2021,Stocks,05_PRC,82160.3203125
+Historical,Stocks,bus,phev,2021,Stocks,12_NZ,1.0
+Historical,Stocks,ht,bev,2012,Stocks,05_PRC,51.0
+Historical,Stocks,ht,bev,2013,Stocks,05_PRC,363.0
+Historical,Stocks,ht,bev,2014,Stocks,05_PRC,494.0
+Historical,Stocks,ht,bev,2015,Stocks,05_PRC,6254.0
+Historical,Stocks,ht,bev,2016,Stocks,05_PRC,10717.0
+Historical,Stocks,ht,bev,2017,Stocks,05_PRC,14489.0
+Historical,Stocks,ht,bev,2018,Stocks,05_PRC,16104.0
+Historical,Stocks,ht,bev,2019,Stocks,05_PRC,22057.0
+Historical,Stocks,ht,bev,2019,Stocks,12_NZ,62.0
+Historical,Stocks,ht,bev,2020,Stocks,03_CDA,7.0
+Historical,Stocks,ht,bev,2020,Stocks,05_PRC,26601.1015625
+Historical,Stocks,ht,bev,2020,Stocks,09_ROK,15436.0
+Historical,Stocks,ht,bev,2020,Stocks,12_NZ,86.0
+Historical,Stocks,ht,bev,2021,Stocks,03_CDA,7.0
+Historical,Stocks,ht,bev,2021,Stocks,05_PRC,38299.38671875
+Historical,Stocks,ht,bev,2021,Stocks,09_ROK,15436.0
+Historical,Stocks,ht,bev,2021,Stocks,12_NZ,62.0
+Historical,Stocks,ht,phev,2018,Stocks,05_PRC,3602.8369140625
+Historical,Stocks,ht,phev,2019,Stocks,05_PRC,6040.701171875
+Historical,Stocks,ht,phev,2020,Stocks,05_PRC,6464.26171875
+Historical,Stocks,ht,phev,2021,Stocks,05_PRC,7482.87451171875
+Historical,Stocks,ldv,bev,2010,Stocks,05_PRC,1969.33154296875
+Historical,Stocks,ldv,bev,2010,Stocks,08_JPN,3520.0
+Historical,Stocks,ldv,bev,2010,Stocks,09_ROK,61.0
+Historical,Stocks,ldv,bev,2010,Stocks,12_NZ,14.0
+Historical,Stocks,ldv,bev,2010,Stocks,20_USA,3774.0
+Historical,Stocks,ldv,bev,2011,Stocks,01_AUS,49.0
+Historical,Stocks,ldv,bev,2011,Stocks,03_CDA,220.0
+Historical,Stocks,ldv,bev,2011,Stocks,04_CHL,6.0
+Historical,Stocks,ldv,bev,2011,Stocks,05_PRC,7019.33154296875
+Historical,Stocks,ldv,bev,2011,Stocks,08_JPN,16976.0
+Historical,Stocks,ldv,bev,2011,Stocks,09_ROK,335.0
+Historical,Stocks,ldv,bev,2011,Stocks,11_MEX,3.0
+Historical,Stocks,ldv,bev,2011,Stocks,12_NZ,27.0
+Historical,Stocks,ldv,bev,2011,Stocks,20_USA,13524.0
+Historical,Stocks,ldv,bev,2012,Stocks,01_AUS,222.0
+Historical,Stocks,ldv,bev,2012,Stocks,03_CDA,840.0
+Historical,Stocks,ldv,bev,2012,Stocks,04_CHL,11.0
+Historical,Stocks,ldv,bev,2012,Stocks,05_PRC,17159.33203125
+Historical,Stocks,ldv,bev,2012,Stocks,08_JPN,32932.0
+Historical,Stocks,ldv,bev,2012,Stocks,09_ROK,849.0
+Historical,Stocks,ldv,bev,2012,Stocks,11_MEX,91.0
+Historical,Stocks,ldv,bev,2012,Stocks,12_NZ,49.0
+Historical,Stocks,ldv,bev,2012,Stocks,20_USA,28174.0
+Historical,Stocks,ldv,bev,2013,Stocks,01_AUS,413.0
+Historical,Stocks,ldv,bev,2013,Stocks,03_CDA,2480.0
+Historical,Stocks,ldv,bev,2013,Stocks,04_CHL,16.0
+Historical,Stocks,ldv,bev,2013,Stocks,05_PRC,32369.33203125
+Historical,Stocks,ldv,bev,2013,Stocks,08_JPN,49753.0
+Historical,Stocks,ldv,bev,2013,Stocks,09_ROK,1447.0
+Historical,Stocks,ldv,bev,2013,Stocks,11_MEX,103.0
+Historical,Stocks,ldv,bev,2013,Stocks,12_NZ,79.0
+Historical,Stocks,ldv,bev,2013,Stocks,20_USA,75864.0
+Historical,Stocks,ldv,bev,2014,Stocks,01_AUS,784.0
+Historical,Stocks,ldv,bev,2014,Stocks,03_CDA,5305.0
+Historical,Stocks,ldv,bev,2014,Stocks,04_CHL,19.0
+Historical,Stocks,ldv,bev,2014,Stocks,05_PRC,61900.0
+Historical,Stocks,ldv,bev,2014,Stocks,08_JPN,76646.0
+Historical,Stocks,ldv,bev,2014,Stocks,09_ROK,2704.0
+Historical,Stocks,ldv,bev,2014,Stocks,11_MEX,151.0
+Historical,Stocks,ldv,bev,2014,Stocks,12_NZ,191.0
+Historical,Stocks,ldv,bev,2014,Stocks,20_USA,139284.0
+Historical,Stocks,ldv,bev,2015,Stocks,01_AUS,1543.0
+Historical,Stocks,ldv,bev,2015,Stocks,03_CDA,9685.0
+Historical,Stocks,ldv,bev,2015,Stocks,04_CHL,32.0
+Historical,Stocks,ldv,bev,2015,Stocks,05_PRC,221082.0
+Historical,Stocks,ldv,bev,2015,Stocks,08_JPN,86373.0
+Historical,Stocks,ldv,bev,2015,Stocks,09_ROK,5773.0
+Historical,Stocks,ldv,bev,2015,Stocks,11_MEX,243.0
+Historical,Stocks,ldv,bev,2015,Stocks,12_NZ,486.0
+Historical,Stocks,ldv,bev,2015,Stocks,20_USA,210328.0
+Historical,Stocks,ldv,bev,2016,Stocks,01_AUS,2211.0
+Historical,Stocks,ldv,bev,2016,Stocks,03_CDA,14905.0
+Historical,Stocks,ldv,bev,2016,Stocks,04_CHL,54.0
+Historical,Stocks,ldv,bev,2016,Stocks,05_PRC,516482.0
+Historical,Stocks,ldv,bev,2016,Stocks,08_JPN,95795.30517578125
+Historical,Stocks,ldv,bev,2016,Stocks,09_ROK,10472.0
+Historical,Stocks,ldv,bev,2016,Stocks,11_MEX,497.0
+Historical,Stocks,ldv,bev,2016,Stocks,12_NZ,1648.0
+Historical,Stocks,ldv,bev,2016,Stocks,20_USA,297059.0
+Historical,Stocks,ldv,bev,2017,Stocks,01_AUS,3419.0
+Historical,Stocks,ldv,bev,2017,Stocks,03_CDA,23619.552734375
+Historical,Stocks,ldv,bev,2017,Stocks,04_CHL,172.0
+Historical,Stocks,ldv,bev,2017,Stocks,05_PRC,1051699.0
+Historical,Stocks,ldv,bev,2017,Stocks,08_JPN,109920.30517578125
+Historical,Stocks,ldv,bev,2017,Stocks,09_ROK,24442.0
+Historical,Stocks,ldv,bev,2017,Stocks,11_MEX,731.0
+Historical,Stocks,ldv,bev,2017,Stocks,12_NZ,4583.0
+Historical,Stocks,ldv,bev,2017,Stocks,20_USA,401546.0
+Historical,Stocks,ldv,bev,2018,Stocks,01_AUS,5222.0
+Historical,Stocks,ldv,bev,2018,Stocks,03_CDA,46279.55078125
+Historical,Stocks,ldv,bev,2018,Stocks,04_CHL,281.0
+Historical,Stocks,ldv,bev,2018,Stocks,05_PRC,1951775.0
+Historical,Stocks,ldv,bev,2018,Stocks,08_JPN,120398.3046875
+Historical,Stocks,ldv,bev,2018,Stocks,09_ROK,55818.0
+Historical,Stocks,ldv,bev,2018,Stocks,11_MEX,932.0
+Historical,Stocks,ldv,bev,2018,Stocks,12_NZ,8939.0
+Historical,Stocks,ldv,bev,2018,Stocks,20_USA,640369.0
+Historical,Stocks,ldv,bev,2019,Stocks,01_AUS,11505.0
+Historical,Stocks,ldv,bev,2019,Stocks,03_CDA,78681.5546875
+Historical,Stocks,ldv,bev,2019,Stocks,04_CHL,428.0
+Historical,Stocks,ldv,bev,2019,Stocks,05_PRC,2828625.0
+Historical,Stocks,ldv,bev,2019,Stocks,08_JPN,130819.3046875
+Historical,Stocks,ldv,bev,2019,Stocks,09_ROK,90767.0
+Historical,Stocks,ldv,bev,2019,Stocks,11_MEX,1200.0
+Historical,Stocks,ldv,bev,2019,Stocks,12_NZ,14062.0
+Historical,Stocks,ldv,bev,2019,Stocks,20_USA,882281.0
+Historical,Stocks,ldv,bev,2020,Stocks,01_AUS,16743.0
+Historical,Stocks,ldv,bev,2020,Stocks,03_CDA,129062.0
+Historical,Stocks,ldv,bev,2020,Stocks,04_CHL,540.0
+Historical,Stocks,ldv,bev,2020,Stocks,05_PRC,3811002.46875
+Historical,Stocks,ldv,bev,2020,Stocks,08_JPN,146604.3046875
+Historical,Stocks,ldv,bev,2020,Stocks,09_ROK,136732.0
+Historical,Stocks,ldv,bev,2020,Stocks,11_MEX,3106.0
+Historical,Stocks,ldv,bev,2020,Stocks,12_NZ,17970.0
+Historical,Stocks,ldv,bev,2020,Stocks,20_USA,1138654.0
+Historical,Stocks,ldv,bev,2021,Stocks,01_AUS,34043.0
+Historical,Stocks,ldv,bev,2021,Stocks,03_CDA,191940.0
+Historical,Stocks,ldv,bev,2021,Stocks,04_CHL,806.0
+Historical,Stocks,ldv,bev,2021,Stocks,05_PRC,6631133.84375
+Historical,Stocks,ldv,bev,2021,Stocks,08_JPN,169191.3046875
+Historical,Stocks,ldv,bev,2021,Stocks,09_ROK,236405.0
+Historical,Stocks,ldv,bev,2021,Stocks,11_MEX,6389.0
+Historical,Stocks,ldv,bev,2021,Stocks,12_NZ,24655.0
+Historical,Stocks,ldv,bev,2021,Stocks,20_USA,1343370.0
+Historical,Stocks,ldv,phev,2010,Stocks,05_PRC,340.0
+Historical,Stocks,ldv,phev,2011,Stocks,03_CDA,300.0
+Historical,Stocks,ldv,phev,2011,Stocks,05_PRC,660.0
+Historical,Stocks,ldv,phev,2011,Stocks,08_JPN,15.0
+Historical,Stocks,ldv,phev,2011,Stocks,12_NZ,2.0
+Historical,Stocks,ldv,phev,2011,Stocks,20_USA,7980.0
+Historical,Stocks,ldv,phev,2012,Stocks,01_AUS,80.0
+Historical,Stocks,ldv,phev,2012,Stocks,03_CDA,1700.0
+Historical,Stocks,ldv,phev,2012,Stocks,05_PRC,920.0
+Historical,Stocks,ldv,phev,2012,Stocks,08_JPN,10983.0
+Historical,Stocks,ldv,phev,2012,Stocks,12_NZ,7.0
+Historical,Stocks,ldv,phev,2012,Stocks,20_USA,46570.0
+Historical,Stocks,ldv,phev,2013,Stocks,01_AUS,182.0
+Historical,Stocks,ldv,phev,2013,Stocks,03_CDA,3180.0
+Historical,Stocks,ldv,phev,2013,Stocks,05_PRC,1650.0
+Historical,Stocks,ldv,phev,2013,Stocks,08_JPN,25105.0
+Historical,Stocks,ldv,phev,2013,Stocks,12_NZ,13.0
+Historical,Stocks,ldv,phev,2013,Stocks,20_USA,95580.0
+Historical,Stocks,ldv,phev,2014,Stocks,01_AUS,1133.0
+Historical,Stocks,ldv,phev,2014,Stocks,03_CDA,5420.0
+Historical,Stocks,ldv,phev,2014,Stocks,04_CHL,14.0
+Historical,Stocks,ldv,phev,2014,Stocks,05_PRC,25915.19921875
+Historical,Stocks,ldv,phev,2014,Stocks,08_JPN,41283.0
+Historical,Stocks,ldv,phev,2014,Stocks,12_NZ,220.0
+Historical,Stocks,ldv,phev,2014,Stocks,20_USA,150940.0
+Historical,Stocks,ldv,phev,2015,Stocks,01_AUS,2145.0
+Historical,Stocks,ldv,phev,2015,Stocks,03_CDA,8005.0
+Historical,Stocks,ldv,phev,2015,Stocks,04_CHL,37.0
+Historical,Stocks,ldv,phev,2015,Stocks,05_PRC,86595.203125
+Historical,Stocks,ldv,phev,2015,Stocks,08_JPN,55471.0
+Historical,Stocks,ldv,phev,2015,Stocks,09_ROK,252.0
+Historical,Stocks,ldv,phev,2015,Stocks,11_MEX,7.0
+Historical,Stocks,ldv,phev,2015,Stocks,12_NZ,419.0
+Historical,Stocks,ldv,phev,2015,Stocks,20_USA,193765.0
+Historical,Stocks,ldv,phev,2016,Stocks,01_AUS,2846.0
+Historical,Stocks,ldv,phev,2016,Stocks,03_CDA,14365.0
+Historical,Stocks,ldv,phev,2016,Stocks,04_CHL,46.0
+Historical,Stocks,ldv,phev,2016,Stocks,05_PRC,165595.203125
+Historical,Stocks,ldv,phev,2016,Stocks,08_JPN,64861.0
+Historical,Stocks,ldv,phev,2016,Stocks,09_ROK,583.0
+Historical,Stocks,ldv,phev,2016,Stocks,11_MEX,528.0
+Historical,Stocks,ldv,phev,2016,Stocks,12_NZ,759.0
+Historical,Stocks,ldv,phev,2016,Stocks,20_USA,266650.0
+Historical,Stocks,ldv,phev,2017,Stocks,01_AUS,3922.0
+Historical,Stocks,ldv,phev,2017,Stocks,03_CDA,22335.1484375
+Historical,Stocks,ldv,phev,2017,Stocks,04_CHL,61.0
+Historical,Stocks,ldv,phev,2017,Stocks,05_PRC,276595.1875
+Historical,Stocks,ldv,phev,2017,Stocks,08_JPN,100861.0
+Historical,Stocks,ldv,phev,2017,Stocks,09_ROK,1253.0
+Historical,Stocks,ldv,phev,2017,Stocks,11_MEX,1496.0
+Historical,Stocks,ldv,phev,2017,Stocks,12_NZ,1296.0
+Historical,Stocks,ldv,phev,2017,Stocks,20_USA,360512.0
+Historical,Stocks,ldv,phev,2018,Stocks,01_AUS,5724.0
+Historical,Stocks,ldv,phev,2018,Stocks,03_CDA,43825.1484375
+Historical,Stocks,ldv,phev,2018,Stocks,04_CHL,129.0
+Historical,Stocks,ldv,phev,2018,Stocks,05_PRC,541817.0
+Historical,Stocks,ldv,phev,2018,Stocks,08_JPN,124081.0
+Historical,Stocks,ldv,phev,2018,Stocks,09_ROK,5620.0
+Historical,Stocks,ldv,phev,2018,Stocks,11_MEX,3080.0
+Historical,Stocks,ldv,phev,2018,Stocks,12_NZ,2481.0
+Historical,Stocks,ldv,phev,2018,Stocks,20_USA,483004.0
+Historical,Stocks,ldv,phev,2019,Stocks,01_AUS,8601.0
+Historical,Stocks,ldv,phev,2019,Stocks,03_CDA,62386.1484375
+Historical,Stocks,ldv,phev,2019,Stocks,04_CHL,214.0
+Historical,Stocks,ldv,phev,2019,Stocks,05_PRC,767917.0
+Historical,Stocks,ldv,phev,2019,Stocks,08_JPN,141681.0
+Historical,Stocks,ldv,phev,2019,Stocks,09_ROK,8350.0
+Historical,Stocks,ldv,phev,2019,Stocks,11_MEX,3532.0
+Historical,Stocks,ldv,phev,2019,Stocks,12_NZ,4424.0
+Historical,Stocks,ldv,phev,2019,Stocks,20_USA,567736.0
+Historical,Stocks,ldv,phev,2020,Stocks,01_AUS,10301.0
+Historical,Stocks,ldv,phev,2020,Stocks,03_CDA,83025.0
+Historical,Stocks,ldv,phev,2020,Stocks,04_CHL,293.0
+Historical,Stocks,ldv,phev,2020,Stocks,05_PRC,996268.0
+Historical,Stocks,ldv,phev,2020,Stocks,08_JPN,156381.0
+Historical,Stocks,ldv,phev,2020,Stocks,09_ROK,17093.0
+Historical,Stocks,ldv,phev,2020,Stocks,11_MEX,4142.0
+Historical,Stocks,ldv,phev,2020,Stocks,12_NZ,5887.0
+Historical,Stocks,ldv,phev,2020,Stocks,20_USA,639432.0
+Historical,Stocks,ldv,phev,2021,Stocks,01_AUS,13701.0
+Historical,Stocks,ldv,phev,2021,Stocks,03_CDA,114232.0
+Historical,Stocks,ldv,phev,2021,Stocks,04_CHL,593.0
+Historical,Stocks,ldv,phev,2021,Stocks,05_PRC,1596571.0
+Historical,Stocks,ldv,phev,2021,Stocks,08_JPN,178977.0
+Historical,Stocks,ldv,phev,2021,Stocks,09_ROK,36122.0
+Historical,Stocks,ldv,phev,2021,Stocks,11_MEX,5149.0
+Historical,Stocks,ldv,phev,2021,Stocks,12_NZ,9460.0
+Historical,Stocks,ldv,phev,2021,Stocks,20_USA,721103.0
+Projection-APS,Energy,bus,bev,2020,PJ,05_PRC,30.631074609375
+Projection-APS,Energy,bus,bev,2021,PJ,05_PRC,35.94261796875
+Projection-APS,Energy,bus,bev,2025,PJ,05_PRC,114.47799609375
+Projection-APS,Energy,bus,bev,2025,PJ,20_USA,6.669990966796875
+Projection-APS,Energy,bus,bev,2030,PJ,05_PRC,163.083403125
+Projection-APS,Energy,bus,bev,2030,PJ,20_USA,43.270998046875
+Projection-APS,Energy,bus,phev,2020,PJ,05_PRC,7.11691962890625
+Projection-APS,Energy,bus,phev,2021,PJ,05_PRC,7.26901611328125
+Projection-APS,Energy,bus,phev,2025,PJ,05_PRC,5.5780734375
+Projection-APS,Energy,bus,phev,2025,PJ,20_USA,0.9340332275390625
+Projection-APS,Energy,bus,phev,2030,PJ,05_PRC,6.382776708984375
+Projection-APS,Energy,bus,phev,2030,PJ,20_USA,5.69614130859375
+Projection-APS,Energy,ht,bev,2020,PJ,05_PRC,1.6823366455078126
+Projection-APS,Energy,ht,bev,2021,PJ,05_PRC,2.4221724609375
+Projection-APS,Energy,ht,bev,2025,PJ,05_PRC,13.45732998046875
+Projection-APS,Energy,ht,bev,2025,PJ,20_USA,4.96179755859375
+Projection-APS,Energy,ht,bev,2030,PJ,05_PRC,92.70798046875
+Projection-APS,Energy,ht,bev,2030,PJ,20_USA,72.40199765625
+Projection-APS,Energy,ht,phev,2020,PJ,05_PRC,0.10840952911376953
+Projection-APS,Energy,ht,phev,2021,PJ,05_PRC,0.1254922668457031
+Projection-APS,Energy,ht,phev,2025,PJ,05_PRC,0.8951796936035156
+Projection-APS,Energy,ht,phev,2025,PJ,20_USA,0.7330668090820313
+Projection-APS,Energy,ht,phev,2030,PJ,05_PRC,7.5814154296875
+Projection-APS,Energy,ht,phev,2030,PJ,20_USA,7.60360517578125
+Projection-APS,Energy,ldv,bev,2020,PJ,05_PRC,29.157373168945313
+Projection-APS,Energy,ldv,bev,2020,PJ,20_USA,19.77003984375
+Projection-APS,Energy,ldv,bev,2021,PJ,05_PRC,50.28146059570312
+Projection-APS,Energy,ldv,bev,2021,PJ,20_USA,23.32444921875
+Projection-APS,Energy,ldv,bev,2025,PJ,05_PRC,241.8611765625
+Projection-APS,Energy,ldv,bev,2025,PJ,20_USA,144.4805173828125
+Projection-APS,Energy,ldv,bev,2030,PJ,05_PRC,670.52775234375
+Projection-APS,Energy,ldv,bev,2030,PJ,20_USA,535.4367837890625
+Projection-APS,Energy,ldv,phev,2020,PJ,05_PRC,1.8861023754626511
+Projection-APS,Energy,ldv,phev,2020,PJ,20_USA,2.8722601318359375
+Projection-APS,Energy,ldv,phev,2021,PJ,05_PRC,3.02256220588088
+Projection-APS,Energy,ldv,phev,2021,PJ,20_USA,3.2391173583984374
+Projection-APS,Energy,ldv,phev,2025,PJ,05_PRC,54.89694558105469
+Projection-APS,Energy,ldv,phev,2025,PJ,20_USA,56.756136621093745
+Projection-APS,Energy,ldv,phev,2030,PJ,05_PRC,100.43253764648438
+Projection-APS,Energy,ldv,phev,2030,PJ,20_USA,173.6020634765625
+Projection-APS,Oil displacement Mbd,bus,bev and phev,2020,Milion barrels per day,05_PRC,0.0349461771547794
+Projection-APS,Oil displacement Mbd,bus,bev and phev,2021,Milion barrels per day,05_PRC,0.0409556850790977
+Projection-APS,Oil displacement Mbd,bus,bev and phev,2025,Milion barrels per day,05_PRC,0.1186220422387123
+Projection-APS,Oil displacement Mbd,bus,bev and phev,2025,Milion barrels per day,20_USA,0.0077453143894672
+Projection-APS,Oil displacement Mbd,bus,bev and phev,2030,Milion barrels per day,05_PRC,0.1589985638856887
+Projection-APS,Oil displacement Mbd,bus,bev and phev,2030,Milion barrels per day,20_USA,0.0476053245365619
+Projection-APS,Oil displacement Mbd,ht,bev and phev,2020,Milion barrels per day,05_PRC,0.0003560679324436
+Projection-APS,Oil displacement Mbd,ht,bev and phev,2021,Milion barrels per day,05_PRC,0.0005241827457211
+Projection-APS,Oil displacement Mbd,ht,bev and phev,2025,Milion barrels per day,05_PRC,0.013772496022284
+Projection-APS,Oil displacement Mbd,ht,bev and phev,2025,Milion barrels per day,20_USA,0.0052206348627805
+Projection-APS,Oil displacement Mbd,ht,bev and phev,2030,Milion barrels per day,05_PRC,0.0857473015785217
+Projection-APS,Oil displacement Mbd,ht,bev and phev,2030,Milion barrels per day,20_USA,0.0678825601935386
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2020,Milion barrels per day,05_PRC,0.0487172435969113
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2020,Milion barrels per day,20_USA,0.0426752604544162
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2021,Milion barrels per day,05_PRC,0.088801025878638
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2021,Milion barrels per day,20_USA,0.0586058050394058
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2025,Milion barrels per day,05_PRC,0.45022062584757805
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2025,Milion barrels per day,20_USA,0.34114255849272
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2030,Milion barrels per day,05_PRC,1.1007600277662277
+Projection-APS,Oil displacement Mbd,ldv,bev and phev,2030,Milion barrels per day,20_USA,1.0127272382378578
+Projection-APS,Oil displacement Mlge,bus,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,2088.960205078125
+Projection-APS,Oil displacement Mlge,bus,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,2448.1875
+Projection-APS,Oil displacement Mlge,bus,bev and phev,2025,Milion litres gasoline equivalent,05_PRC,7090.810546875
+Projection-APS,Oil displacement Mlge,bus,bev and phev,2025,Milion litres gasoline equivalent,20_USA,445.6671142578125
+Projection-APS,Oil displacement Mlge,bus,bev and phev,2030,Milion litres gasoline equivalent,05_PRC,9504.3779296875
+Projection-APS,Oil displacement Mlge,bus,bev and phev,2030,Milion litres gasoline equivalent,20_USA,2739.220947265625
+Projection-APS,Oil displacement Mlge,ht,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,21.284496307373047
+Projection-APS,Oil displacement Mlge,ht,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,31.333812713623047
+Projection-APS,Oil displacement Mlge,ht,bev and phev,2025,Milion litres gasoline equivalent,05_PRC,823.2716064453125
+Projection-APS,Oil displacement Mlge,ht,bev and phev,2025,Milion litres gasoline equivalent,20_USA,300.396484375
+Projection-APS,Oil displacement Mlge,ht,bev and phev,2030,Milion litres gasoline equivalent,05_PRC,5125.673828125
+Projection-APS,Oil displacement Mlge,ht,bev and phev,2030,Milion litres gasoline equivalent,20_USA,3905.977294921875
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,2912.146484375
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2020,Milion litres gasoline equivalent,20_USA,2455.5439453125
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,5308.214569091797
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2021,Milion litres gasoline equivalent,20_USA,3372.19091796875
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2025,Milion litres gasoline equivalent,05_PRC,26912.61474609375
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2025,Milion litres gasoline equivalent,20_USA,19629.418518066406
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2030,Milion litres gasoline equivalent,05_PRC,65799.58203125
+Projection-APS,Oil displacement Mlge,ldv,bev and phev,2030,Milion litres gasoline equivalent,20_USA,58272.548583984375
+Projection-APS,Sales,bus,bev,2020,sales,05_PRC,56869.421875
+Projection-APS,Sales,bus,bev,2021,sales,05_PRC,84183.34375
+Projection-APS,Sales,bus,bev,2025,sales,05_PRC,313019.0
+Projection-APS,Sales,bus,bev,2025,sales,20_USA,15927.7001953125
+Projection-APS,Sales,bus,bev,2030,sales,05_PRC,192548.0
+Projection-APS,Sales,bus,bev,2030,sales,20_USA,64260.6015625
+Projection-APS,Sales,bus,phev,2020,sales,05_PRC,3576.439453125
+Projection-APS,Sales,bus,phev,2021,sales,05_PRC,1719.1201171875
+Projection-APS,Sales,bus,phev,2025,sales,05_PRC,8178.0
+Projection-APS,Sales,bus,phev,2025,sales,20_USA,2797.300048828125
+Projection-APS,Sales,bus,phev,2030,sales,05_PRC,3659.0
+Projection-APS,Sales,bus,phev,2030,sales,20_USA,7276.10009765625
+Projection-APS,Sales,ht,bev,2020,sales,05_PRC,4544.1025390625
+Projection-APS,Sales,ht,bev,2021,sales,05_PRC,11698.2841796875
+Projection-APS,Sales,ht,bev,2025,sales,05_PRC,137839.640625
+Projection-APS,Sales,ht,bev,2025,sales,20_USA,2634.929931640625
+Projection-APS,Sales,ht,bev,2030,sales,05_PRC,404873.8125
+Projection-APS,Sales,ht,bev,2030,sales,20_USA,66911.703125
+Projection-APS,Sales,ht,phev,2020,sales,05_PRC,423.560546875
+Projection-APS,Sales,ht,phev,2021,sales,05_PRC,1018.612548828125
+Projection-APS,Sales,ht,phev,2025,sales,05_PRC,9488.0
+Projection-APS,Sales,ht,phev,2025,sales,20_USA,1546.6600341796875
+Projection-APS,Sales,ht,phev,2030,sales,05_PRC,87039.0
+Projection-APS,Sales,ht,phev,2030,sales,20_USA,13118.7998046875
+Projection-APS,Sales,ldv,bev,2020,sales,05_PRC,982377.4765625
+Projection-APS,Sales,ldv,bev,2020,sales,20_USA,231088.0
+Projection-APS,Sales,ldv,bev,2021,sales,05_PRC,2820131.3671875
+Projection-APS,Sales,ldv,bev,2021,sales,20_USA,466328.0
+Projection-APS,Sales,ldv,bev,2025,sales,05_PRC,8007396.0
+Projection-APS,Sales,ldv,bev,2025,sales,20_USA,2027593.0
+Projection-APS,Sales,ldv,bev,2030,sales,05_PRC,11504920.0
+Projection-APS,Sales,ldv,bev,2030,sales,20_USA,6420910.0
+Projection-APS,Sales,ldv,phev,2020,sales,05_PRC,228291.0
+Projection-APS,Sales,ldv,phev,2020,sales,20_USA,64311.0
+Projection-APS,Sales,ldv,phev,2021,sales,05_PRC,600303.0
+Projection-APS,Sales,ldv,phev,2021,sales,20_USA,164824.0
+Projection-APS,Sales,ldv,phev,2025,sales,05_PRC,1572024.0
+Projection-APS,Sales,ldv,phev,2025,sales,20_USA,669047.0
+Projection-APS,Sales,ldv,phev,2030,sales,05_PRC,1126290.0
+Projection-APS,Sales,ldv,phev,2030,sales,20_USA,1263065.0
+Projection-APS,Sales share,bus,bev and phev,2020,percent,05_PRC,21.0385856628418
+Projection-APS,Sales share,bus,bev and phev,2021,percent,05_PRC,26.10106658935547
+Projection-APS,Sales share,bus,bev and phev,2025,percent,05_PRC,49.0
+Projection-APS,Sales share,bus,bev and phev,2025,percent,20_USA,16.0
+Projection-APS,Sales share,bus,bev and phev,2030,percent,05_PRC,60.0
+Projection-APS,Sales share,bus,bev and phev,2030,percent,20_USA,43.0
+Projection-APS,Sales share,ht,bev and phev,2020,percent,05_PRC,0.166718527674675
+Projection-APS,Sales share,ht,bev and phev,2021,percent,05_PRC,0.4382334649562835
+Projection-APS,Sales share,ht,bev and phev,2025,percent,05_PRC,4.0
+Projection-APS,Sales share,ht,bev and phev,2025,percent,20_USA,1.0
+Projection-APS,Sales share,ht,bev and phev,2030,percent,05_PRC,13.0
+Projection-APS,Sales share,ht,bev and phev,2030,percent,20_USA,12.0
+Projection-APS,Sales share,ldv,bev and phev,2020,percent,05_PRC,8.940537691116333
+Projection-APS,Sales share,ldv,bev and phev,2020,percent,20_USA,2.20703387260437
+Projection-APS,Sales share,ldv,bev and phev,2021,percent,05_PRC,22.14670753479004
+Projection-APS,Sales share,ldv,bev and phev,2021,percent,20_USA,4.561257839202881
+Projection-APS,Sales share,ldv,bev and phev,2025,percent,05_PRC,66.0
+Projection-APS,Sales share,ldv,bev and phev,2025,percent,20_USA,30.0
+Projection-APS,Sales share,ldv,bev and phev,2030,percent,05_PRC,103.0
+Projection-APS,Sales share,ldv,bev and phev,2030,percent,20_USA,87.0
+Projection-APS,Stock share,bus,bev and phev,2020,percent,05_PRC,10.49643898010254
+Projection-APS,Stock share,bus,bev and phev,2021,percent,05_PRC,12.089728355407717
+Projection-APS,Stock share,bus,bev and phev,2025,percent,05_PRC,26.0
+Projection-APS,Stock share,bus,bev and phev,2025,percent,20_USA,4.0
+Projection-APS,Stock share,bus,bev and phev,2030,percent,05_PRC,37.0
+Projection-APS,Stock share,bus,bev and phev,2030,percent,20_USA,20.0
+Projection-APS,Stock share,ht,bev and phev,2020,percent,05_PRC,0.1205472946166992
+Projection-APS,Stock share,ht,bev and phev,2021,percent,05_PRC,0.166909635066986
+Projection-APS,Stock share,ht,bev and phev,2025,percent,05_PRC,0.8044795393943787
+Projection-APS,Stock share,ht,bev and phev,2025,percent,20_USA,0.1248548626899719
+Projection-APS,Stock share,ht,bev and phev,2030,percent,05_PRC,5.0
+Projection-APS,Stock share,ht,bev and phev,2030,percent,20_USA,2.0
+Projection-APS,Stock share,ldv,bev and phev,2020,percent,05_PRC,3.6718751192092896
+Projection-APS,Stock share,ldv,bev and phev,2020,percent,20_USA,0.7742037773132324
+Projection-APS,Stock share,ldv,bev and phev,2021,percent,05_PRC,5.5109803676605225
+Projection-APS,Stock share,ldv,bev and phev,2021,percent,20_USA,0.8989007472991943
+Projection-APS,Stock share,ldv,bev and phev,2025,percent,05_PRC,23.0
+Projection-APS,Stock share,ldv,bev and phev,2025,percent,20_USA,8.0
+Projection-APS,Stock share,ldv,bev and phev,2030,percent,05_PRC,46.0
+Projection-APS,Stock share,ldv,bev and phev,2030,percent,20_USA,28.0
+Projection-APS,Stocks,bus,bev,2020,Stocks,05_PRC,485476.0
+Projection-APS,Stocks,bus,bev,2021,Stocks,05_PRC,569659.3125
+Projection-APS,Stocks,bus,bev,2025,Stocks,05_PRC,1771640.0
+Projection-APS,Stocks,bus,bev,2025,Stocks,20_USA,44589.8984375
+Projection-APS,Stocks,bus,bev,2030,Stocks,05_PRC,2505290.0
+Projection-APS,Stocks,bus,bev,2030,Stocks,20_USA,292569.0
+Projection-APS,Stocks,bus,phev,2020,Stocks,05_PRC,80441.203125
+Projection-APS,Stocks,bus,phev,2021,Stocks,05_PRC,82160.3203125
+Projection-APS,Stocks,bus,phev,2025,Stocks,05_PRC,71430.0
+Projection-APS,Stocks,bus,phev,2025,Stocks,20_USA,8231.5
+Projection-APS,Stocks,bus,phev,2030,Stocks,05_PRC,83930.0
+Projection-APS,Stocks,bus,phev,2030,Stocks,20_USA,39891.0
+Projection-APS,Stocks,ht,bev,2020,Stocks,05_PRC,26601.1015625
+Projection-APS,Stocks,ht,bev,2021,Stocks,05_PRC,38299.38671875
+Projection-APS,Stocks,ht,bev,2025,Stocks,05_PRC,243095.59375
+Projection-APS,Stocks,ht,bev,2025,Stocks,20_USA,7974.47998046875
+Projection-APS,Stocks,ht,bev,2030,Stocks,05_PRC,1816686.625
+Projection-APS,Stocks,ht,bev,2030,Stocks,20_USA,163740.90625
+Projection-APS,Stocks,ht,phev,2020,Stocks,05_PRC,6464.26171875
+Projection-APS,Stocks,ht,phev,2021,Stocks,05_PRC,7482.87451171875
+Projection-APS,Stocks,ht,phev,2025,Stocks,05_PRC,31137.80078125
+Projection-APS,Stocks,ht,phev,2025,Stocks,20_USA,3985.030029296875
+Projection-APS,Stocks,ht,phev,2030,Stocks,05_PRC,276231.1875
+Projection-APS,Stocks,ht,phev,2030,Stocks,20_USA,43776.8984375
+Projection-APS,Stocks,ldv,bev,2020,Stocks,05_PRC,3811002.46875
+Projection-APS,Stocks,ldv,bev,2020,Stocks,20_USA,1138654.0
+Projection-APS,Stocks,ldv,bev,2021,Stocks,05_PRC,6631133.84375
+Projection-APS,Stocks,ldv,bev,2021,Stocks,20_USA,1343370.0
+Projection-APS,Stocks,ldv,bev,2025,Stocks,05_PRC,30771080.0
+Projection-APS,Stocks,ldv,bev,2025,Stocks,20_USA,8261881.0
+Projection-APS,Stocks,ldv,bev,2030,Stocks,05_PRC,83790286.0
+Projection-APS,Stocks,ldv,bev,2030,Stocks,20_USA,31296280.0
+Projection-APS,Stocks,ldv,phev,2020,Stocks,05_PRC,996268.0
+Projection-APS,Stocks,ldv,phev,2020,Stocks,20_USA,639432.0
+Projection-APS,Stocks,ldv,phev,2021,Stocks,05_PRC,1596571.0
+Projection-APS,Stocks,ldv,phev,2021,Stocks,20_USA,721103.0
+Projection-APS,Stocks,ldv,phev,2025,Stocks,05_PRC,7175590.0
+Projection-APS,Stocks,ldv,phev,2025,Stocks,20_USA,3203959.0
+Projection-APS,Stocks,ldv,phev,2030,Stocks,05_PRC,14402780.0
+Projection-APS,Stocks,ldv,phev,2030,Stocks,20_USA,8465980.0
+Projection-STEPS,Energy,bus,bev,2020,PJ,05_PRC,30.631074609375
+Projection-STEPS,Energy,bus,bev,2021,PJ,05_PRC,35.94261796875
+Projection-STEPS,Energy,bus,bev,2025,PJ,05_PRC,84.95142890625
+Projection-STEPS,Energy,bus,bev,2025,PJ,20_USA,5.6947179199218745
+Projection-STEPS,Energy,bus,bev,2030,PJ,05_PRC,120.19424062499999
+Projection-STEPS,Energy,bus,bev,2030,PJ,20_USA,24.964674609375
+Projection-STEPS,Energy,bus,phev,2020,PJ,05_PRC,7.11691962890625
+Projection-STEPS,Energy,bus,phev,2021,PJ,05_PRC,7.26901611328125
+Projection-STEPS,Energy,bus,phev,2025,PJ,05_PRC,4.313660009765625
+Projection-STEPS,Energy,bus,phev,2025,PJ,20_USA,0.9447932373046874
+Projection-STEPS,Energy,bus,phev,2030,PJ,05_PRC,4.21066494140625
+Projection-STEPS,Energy,bus,phev,2030,PJ,20_USA,3.5024675537109373
+Projection-STEPS,Energy,ht,bev,2020,PJ,05_PRC,1.6823366455078126
+Projection-STEPS,Energy,ht,bev,2021,PJ,05_PRC,2.4221724609375
+Projection-STEPS,Energy,ht,bev,2025,PJ,05_PRC,13.19385849609375
+Projection-STEPS,Energy,ht,bev,2025,PJ,20_USA,3.6479421386718753
+Projection-STEPS,Energy,ht,bev,2030,PJ,05_PRC,106.5311578125
+Projection-STEPS,Energy,ht,bev,2030,PJ,20_USA,46.2483984375
+Projection-STEPS,Energy,ht,phev,2020,PJ,05_PRC,0.10840952911376953
+Projection-STEPS,Energy,ht,phev,2021,PJ,05_PRC,0.1254922668457031
+Projection-STEPS,Energy,ht,phev,2025,PJ,05_PRC,0.8695941833496095
+Projection-STEPS,Energy,ht,phev,2025,PJ,20_USA,0.15566941680908203
+Projection-STEPS,Energy,ht,phev,2030,PJ,05_PRC,8.57523603515625
+Projection-STEPS,Energy,ht,phev,2030,PJ,20_USA,11.52508798828125
+Projection-STEPS,Energy,ldv,bev,2020,PJ,05_PRC,29.157373168945313
+Projection-STEPS,Energy,ldv,bev,2020,PJ,20_USA,19.77003984375
+Projection-STEPS,Energy,ldv,bev,2021,PJ,05_PRC,50.28146059570312
+Projection-STEPS,Energy,ldv,bev,2021,PJ,20_USA,23.32444921875
+Projection-STEPS,Energy,ldv,bev,2025,PJ,05_PRC,215.52549609375
+Projection-STEPS,Energy,ldv,bev,2025,PJ,20_USA,105.65605854492188
+Projection-STEPS,Energy,ldv,bev,2030,PJ,05_PRC,620.60056171875
+Projection-STEPS,Energy,ldv,bev,2030,PJ,20_USA,249.9387328125
+Projection-STEPS,Energy,ldv,phev,2020,PJ,05_PRC,1.8861023754626511
+Projection-STEPS,Energy,ldv,phev,2020,PJ,20_USA,2.8722601318359375
+Projection-STEPS,Energy,ldv,phev,2021,PJ,05_PRC,3.02256220588088
+Projection-STEPS,Energy,ldv,phev,2021,PJ,20_USA,3.2391173583984374
+Projection-STEPS,Energy,ldv,phev,2025,PJ,05_PRC,50.016225805664064
+Projection-STEPS,Energy,ldv,phev,2025,PJ,20_USA,39.10263596191406
+Projection-STEPS,Energy,ldv,phev,2030,PJ,05_PRC,97.2790393798828
+Projection-STEPS,Energy,ldv,phev,2030,PJ,20_USA,83.37995310058594
+Projection-STEPS,Oil displacement Mbd,bus,bev and phev,2020,Milion barrels per day,05_PRC,0.0349461771547794
+Projection-STEPS,Oil displacement Mbd,bus,bev and phev,2021,Milion barrels per day,05_PRC,0.0409556850790977
+Projection-STEPS,Oil displacement Mbd,bus,bev and phev,2025,Milion barrels per day,05_PRC,0.090632140636444
+Projection-STEPS,Oil displacement Mbd,bus,bev and phev,2025,Milion barrels per day,20_USA,0.0068654874339699
+Projection-STEPS,Oil displacement Mbd,bus,bev and phev,2030,Milion barrels per day,05_PRC,0.1265909820795059
+Projection-STEPS,Oil displacement Mbd,bus,bev and phev,2030,Milion barrels per day,20_USA,0.0290490686893463
+Projection-STEPS,Oil displacement Mbd,ht,bev and phev,2020,Milion barrels per day,05_PRC,0.0003560679324436
+Projection-STEPS,Oil displacement Mbd,ht,bev and phev,2021,Milion barrels per day,05_PRC,0.0005241827457211
+Projection-STEPS,Oil displacement Mbd,ht,bev and phev,2025,Milion barrels per day,05_PRC,0.0139177059754729
+Projection-STEPS,Oil displacement Mbd,ht,bev and phev,2025,Milion barrels per day,20_USA,0.0034885592758655
+Projection-STEPS,Oil displacement Mbd,ht,bev and phev,2030,Milion barrels per day,05_PRC,0.1104716584086418
+Projection-STEPS,Oil displacement Mbd,ht,bev and phev,2030,Milion barrels per day,20_USA,0.0464739091694355
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2020,Milion barrels per day,05_PRC,0.0487172435969113
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2020,Milion barrels per day,20_USA,0.0426752604544162
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2021,Milion barrels per day,05_PRC,0.088801025878638
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2021,Milion barrels per day,20_USA,0.0586058050394058
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2025,Milion barrels per day,05_PRC,0.4086243137717246
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2025,Milion barrels per day,20_USA,0.2503332877531647
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2030,Milion barrels per day,05_PRC,1.0819630771875381
+Projection-STEPS,Oil displacement Mbd,ldv,bev and phev,2030,Milion barrels per day,20_USA,0.528942983597517
+Projection-STEPS,Oil displacement Mlge,bus,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,2088.960205078125
+Projection-STEPS,Oil displacement Mlge,bus,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,2448.1875
+Projection-STEPS,Oil displacement Mlge,bus,bev and phev,2025,Milion litres gasoline equivalent,05_PRC,5417.67236328125
+Projection-STEPS,Oil displacement Mlge,bus,bev and phev,2025,Milion litres gasoline equivalent,20_USA,395.0416564941406
+Projection-STEPS,Oil displacement Mlge,bus,bev and phev,2030,Milion litres gasoline equivalent,05_PRC,7567.16650390625
+Projection-STEPS,Oil displacement Mlge,bus,bev and phev,2030,Milion litres gasoline equivalent,20_USA,1671.4898681640625
+Projection-STEPS,Oil displacement Mlge,ht,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,21.284496307373047
+Projection-STEPS,Oil displacement Mlge,ht,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,31.333812713623047
+Projection-STEPS,Oil displacement Mlge,ht,bev and phev,2025,Milion litres gasoline equivalent,05_PRC,831.9517822265625
+Projection-STEPS,Oil displacement Mlge,ht,bev and phev,2025,Milion litres gasoline equivalent,20_USA,200.7324676513672
+Projection-STEPS,Oil displacement Mlge,ht,bev and phev,2030,Milion litres gasoline equivalent,05_PRC,6603.609375
+Projection-STEPS,Oil displacement Mlge,ht,bev and phev,2030,Milion litres gasoline equivalent,20_USA,2674.118896484375
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2020,Milion litres gasoline equivalent,05_PRC,2912.146484375
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2020,Milion litres gasoline equivalent,20_USA,2455.5439453125
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2021,Milion litres gasoline equivalent,05_PRC,5308.214569091797
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2021,Milion litres gasoline equivalent,20_USA,3372.19091796875
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2025,Milion litres gasoline equivalent,05_PRC,24426.133056640625
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2025,Milion litres gasoline equivalent,20_USA,14404.233123779297
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2030,Milion litres gasoline equivalent,05_PRC,64675.96875
+Projection-STEPS,Oil displacement Mlge,ldv,bev and phev,2030,Milion litres gasoline equivalent,20_USA,30435.495239257812
+Projection-STEPS,Sales,bus,bev,2020,sales,05_PRC,56869.421875
+Projection-STEPS,Sales,bus,bev,2021,sales,05_PRC,84183.34375
+Projection-STEPS,Sales,bus,bev,2025,sales,05_PRC,197020.0
+Projection-STEPS,Sales,bus,bev,2025,sales,20_USA,12462.5
+Projection-STEPS,Sales,bus,bev,2030,sales,05_PRC,155743.0
+Projection-STEPS,Sales,bus,bev,2030,sales,20_USA,34337.8984375
+Projection-STEPS,Sales,bus,phev,2020,sales,05_PRC,3576.439453125
+Projection-STEPS,Sales,bus,phev,2021,sales,05_PRC,1719.1201171875
+Projection-STEPS,Sales,bus,phev,2025,sales,05_PRC,3182.0
+Projection-STEPS,Sales,bus,phev,2025,sales,20_USA,2734.199951171875
+Projection-STEPS,Sales,bus,phev,2030,sales,05_PRC,360.0
+Projection-STEPS,Sales,bus,phev,2030,sales,20_USA,5340.60009765625
+Projection-STEPS,Sales,ht,bev,2020,sales,05_PRC,4544.1025390625
+Projection-STEPS,Sales,ht,bev,2021,sales,05_PRC,11698.2841796875
+Projection-STEPS,Sales,ht,bev,2025,sales,05_PRC,127394.609375
+Projection-STEPS,Sales,ht,bev,2025,sales,20_USA,1809.989013671875
+Projection-STEPS,Sales,ht,bev,2030,sales,05_PRC,413995.1875
+Projection-STEPS,Sales,ht,bev,2030,sales,20_USA,25358.470703125
+Projection-STEPS,Sales,ht,phev,2020,sales,05_PRC,423.560546875
+Projection-STEPS,Sales,ht,phev,2021,sales,05_PRC,1018.612548828125
+Projection-STEPS,Sales,ht,phev,2025,sales,05_PRC,8760.0
+Projection-STEPS,Sales,ht,phev,2025,sales,20_USA,538.291015625
+Projection-STEPS,Sales,ht,phev,2030,sales,05_PRC,91743.0
+Projection-STEPS,Sales,ht,phev,2030,sales,20_USA,21367.130859375
+Projection-STEPS,Sales,ldv,bev,2020,sales,05_PRC,982377.4765625
+Projection-STEPS,Sales,ldv,bev,2020,sales,20_USA,231088.0
+Projection-STEPS,Sales,ldv,bev,2021,sales,05_PRC,2820131.3671875
+Projection-STEPS,Sales,ldv,bev,2021,sales,20_USA,466328.0
+Projection-STEPS,Sales,ldv,bev,2025,sales,05_PRC,6565621.0
+Projection-STEPS,Sales,ldv,bev,2025,sales,20_USA,1087375.0
+Projection-STEPS,Sales,ldv,bev,2030,sales,05_PRC,11196330.0
+Projection-STEPS,Sales,ldv,bev,2030,sales,20_USA,2564472.0
+Projection-STEPS,Sales,ldv,phev,2020,sales,05_PRC,228291.0
+Projection-STEPS,Sales,ldv,phev,2020,sales,20_USA,64311.0
+Projection-STEPS,Sales,ldv,phev,2021,sales,05_PRC,600303.0
+Projection-STEPS,Sales,ldv,phev,2021,sales,20_USA,164824.0
+Projection-STEPS,Sales,ldv,phev,2025,sales,05_PRC,1881842.0
+Projection-STEPS,Sales,ldv,phev,2025,sales,20_USA,531879.0
+Projection-STEPS,Sales,ldv,phev,2030,sales,05_PRC,1112680.0
+Projection-STEPS,Sales,ldv,phev,2030,sales,20_USA,823143.0
+Projection-STEPS,Sales share,bus,bev and phev,2020,percent,05_PRC,21.0385856628418
+Projection-STEPS,Sales share,bus,bev and phev,2021,percent,05_PRC,26.10106658935547
+Projection-STEPS,Sales share,bus,bev and phev,2025,percent,05_PRC,31.0
+Projection-STEPS,Sales share,bus,bev and phev,2025,percent,20_USA,13.0
+Projection-STEPS,Sales share,bus,bev and phev,2030,percent,05_PRC,47.0
+Projection-STEPS,Sales share,bus,bev and phev,2030,percent,20_USA,30.0
+Projection-STEPS,Sales share,ht,bev and phev,2020,percent,05_PRC,0.166718527674675
+Projection-STEPS,Sales share,ht,bev and phev,2021,percent,05_PRC,0.4382334649562835
+Projection-STEPS,Sales share,ht,bev and phev,2025,percent,05_PRC,4.0
+Projection-STEPS,Sales share,ht,bev and phev,2025,percent,20_USA,0.8661212921142578
+Projection-STEPS,Sales share,ht,bev and phev,2030,percent,05_PRC,13.0
+Projection-STEPS,Sales share,ht,bev and phev,2030,percent,20_USA,6.0
+Projection-STEPS,Sales share,ldv,bev and phev,2020,percent,05_PRC,8.940537691116333
+Projection-STEPS,Sales share,ldv,bev and phev,2020,percent,20_USA,2.20703387260437
+Projection-STEPS,Sales share,ldv,bev and phev,2021,percent,05_PRC,22.14670753479004
+Projection-STEPS,Sales share,ldv,bev and phev,2021,percent,20_USA,4.561257839202881
+Projection-STEPS,Sales share,ldv,bev and phev,2025,percent,05_PRC,59.0
+Projection-STEPS,Sales share,ldv,bev and phev,2025,percent,20_USA,19.0
+Projection-STEPS,Sales share,ldv,bev and phev,2030,percent,05_PRC,95.0
+Projection-STEPS,Sales share,ldv,bev and phev,2030,percent,20_USA,48.0
+Projection-STEPS,Stock share,bus,bev and phev,2020,percent,05_PRC,10.49643898010254
+Projection-STEPS,Stock share,bus,bev and phev,2021,percent,05_PRC,12.089728355407717
+Projection-STEPS,Stock share,bus,bev and phev,2025,percent,05_PRC,19.0
+Projection-STEPS,Stock share,bus,bev and phev,2025,percent,20_USA,3.0
+Projection-STEPS,Stock share,bus,bev and phev,2030,percent,05_PRC,27.0
+Projection-STEPS,Stock share,bus,bev and phev,2030,percent,20_USA,14.0
+Projection-STEPS,Stock share,ht,bev and phev,2020,percent,05_PRC,0.1205472946166992
+Projection-STEPS,Stock share,ht,bev and phev,2021,percent,05_PRC,0.166909635066986
+Projection-STEPS,Stock share,ht,bev and phev,2025,percent,05_PRC,0.7752292156219482
+Projection-STEPS,Stock share,ht,bev and phev,2025,percent,20_USA,0.062849722802639
+Projection-STEPS,Stock share,ht,bev and phev,2030,percent,05_PRC,5.0
+Projection-STEPS,Stock share,ht,bev and phev,2030,percent,20_USA,1.0
+Projection-STEPS,Stock share,ldv,bev and phev,2020,percent,05_PRC,3.6718751192092896
+Projection-STEPS,Stock share,ldv,bev and phev,2020,percent,20_USA,0.7742037773132324
+Projection-STEPS,Stock share,ldv,bev and phev,2021,percent,05_PRC,5.5109803676605225
+Projection-STEPS,Stock share,ldv,bev and phev,2021,percent,20_USA,0.8989007472991943
+Projection-STEPS,Stock share,ldv,bev and phev,2025,percent,05_PRC,19.0
+Projection-STEPS,Stock share,ldv,bev and phev,2025,percent,20_USA,5.0
+Projection-STEPS,Stock share,ldv,bev and phev,2030,percent,05_PRC,42.0
+Projection-STEPS,Stock share,ldv,bev and phev,2030,percent,20_USA,17.0
+Projection-STEPS,Stocks,bus,bev,2020,Stocks,05_PRC,485476.0
+Projection-STEPS,Stocks,bus,bev,2021,Stocks,05_PRC,569659.3125
+Projection-STEPS,Stocks,bus,bev,2025,Stocks,05_PRC,1307750.0
+Projection-STEPS,Stocks,bus,bev,2025,Stocks,20_USA,38240.80078125
+Projection-STEPS,Stocks,bus,bev,2030,Stocks,05_PRC,1827060.0
+Projection-STEPS,Stocks,bus,bev,2030,Stocks,20_USA,169327.0
+Projection-STEPS,Stocks,bus,phev,2020,Stocks,05_PRC,80441.203125
+Projection-STEPS,Stocks,bus,phev,2021,Stocks,05_PRC,82160.3203125
+Projection-STEPS,Stocks,bus,phev,2025,Stocks,05_PRC,52440.0
+Projection-STEPS,Stocks,bus,phev,2025,Stocks,20_USA,8423.2001953125
+Projection-STEPS,Stocks,bus,phev,2030,Stocks,05_PRC,50520.0
+Projection-STEPS,Stocks,bus,phev,2030,Stocks,20_USA,31623.0
+Projection-STEPS,Stocks,ht,bev,2020,Stocks,05_PRC,26601.1015625
+Projection-STEPS,Stocks,ht,bev,2021,Stocks,05_PRC,38299.38671875
+Projection-STEPS,Stocks,ht,bev,2025,Stocks,05_PRC,229897.90625
+Projection-STEPS,Stocks,ht,bev,2025,Stocks,20_USA,5283.66015625
+Projection-STEPS,Stocks,ht,bev,2030,Stocks,05_PRC,1889798.0
+Projection-STEPS,Stocks,ht,bev,2030,Stocks,20_USA,89667.296875
+Projection-STEPS,Stocks,ht,phev,2020,Stocks,05_PRC,6464.26171875
+Projection-STEPS,Stocks,ht,phev,2021,Stocks,05_PRC,7482.87451171875
+Projection-STEPS,Stocks,ht,phev,2025,Stocks,05_PRC,30085.30078125
+Projection-STEPS,Stocks,ht,phev,2025,Stocks,20_USA,679.0
+Projection-STEPS,Stocks,ht,phev,2030,Stocks,05_PRC,288445.0
+Projection-STEPS,Stocks,ht,phev,2030,Stocks,20_USA,53357.1015625
+Projection-STEPS,Stocks,ldv,bev,2020,Stocks,05_PRC,3811002.46875
+Projection-STEPS,Stocks,ldv,bev,2020,Stocks,20_USA,1138654.0
+Projection-STEPS,Stocks,ldv,bev,2021,Stocks,05_PRC,6631133.84375
+Projection-STEPS,Stocks,ldv,bev,2021,Stocks,20_USA,1343370.0
+Projection-STEPS,Stocks,ldv,bev,2025,Stocks,05_PRC,27151790.0
+Projection-STEPS,Stocks,ldv,bev,2025,Stocks,20_USA,6019648.0
+Projection-STEPS,Stocks,ldv,bev,2030,Stocks,05_PRC,76303494.0
+Projection-STEPS,Stocks,ldv,bev,2030,Stocks,20_USA,14555580.0
+Projection-STEPS,Stocks,ldv,phev,2020,Stocks,05_PRC,996268.0
+Projection-STEPS,Stocks,ldv,phev,2020,Stocks,20_USA,639432.0
+Projection-STEPS,Stocks,ldv,phev,2021,Stocks,05_PRC,1596571.0
+Projection-STEPS,Stocks,ldv,phev,2021,Stocks,20_USA,721103.0
+Projection-STEPS,Stocks,ldv,phev,2025,Stocks,05_PRC,6445710.0
+Projection-STEPS,Stocks,ldv,phev,2025,Stocks,20_USA,2103277.0
+Projection-STEPS,Stocks,ldv,phev,2030,Stocks,05_PRC,13979610.0
+Projection-STEPS,Stocks,ldv,phev,2030,Stocks,20_USA,5431180.0

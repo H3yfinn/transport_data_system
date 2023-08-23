@@ -1,0 +1,925 @@
+transport_type,vehicle_sub_type,vehicle_type,unit,medium,scope,date,measure,value,drive,economy,frequency
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,01_AUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,01_AUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,01_AUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,01_AUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,01_AUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,01_AUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,02_BD,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,02_BD,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,02_BD,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,02_BD,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,02_BD,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,02_BD,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,03_CDA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,03_CDA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,03_CDA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,03_CDA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,03_CDA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,03_CDA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,04_CHL,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,04_CHL,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,04_CHL,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,04_CHL,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,04_CHL,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,04_CHL,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,05_PRC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,05_PRC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,05_PRC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,05_PRC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,05_PRC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,05_PRC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,06_HKC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,06_HKC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,06_HKC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,06_HKC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,06_HKC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,06_HKC,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,07_INA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,07_INA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,07_INA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,07_INA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,07_INA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,07_INA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,08_JPN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,08_JPN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,08_JPN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,08_JPN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,08_JPN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,08_JPN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,09_ROK,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,09_ROK,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,09_ROK,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,09_ROK,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,09_ROK,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,09_ROK,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,10_MAS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,10_MAS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,10_MAS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,10_MAS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,10_MAS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,10_MAS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,11_MEX,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,11_MEX,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,11_MEX,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,11_MEX,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,11_MEX,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,11_MEX,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,12_NZ,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,12_NZ,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,12_NZ,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,12_NZ,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,12_NZ,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,12_NZ,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,13_PNG,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,13_PNG,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,13_PNG,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,13_PNG,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,13_PNG,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,13_PNG,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,14_PE,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,14_PE,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,14_PE,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,14_PE,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,14_PE,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,14_PE,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,15_RP,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,15_RP,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,15_RP,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,15_RP,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,15_RP,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,15_RP,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,16_RUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,16_RUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,16_RUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,16_RUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,16_RUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,16_RUS,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,17_SIN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,17_SIN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,17_SIN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,17_SIN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,17_SIN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,17_SIN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,18_CT,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,18_CT,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,18_CT,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,18_CT,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,18_CT,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,18_CT,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,19_THA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,19_THA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,19_THA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,19_THA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,19_THA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,19_THA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,20_USA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,20_USA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,20_USA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,20_USA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,20_USA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,20_USA,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,21_VN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,21_VN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,21_VN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,21_VN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,21_VN,Yearly
+freight,Van,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,21_VN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,01_AUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,01_AUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,01_AUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,01_AUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,01_AUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,01_AUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,02_BD,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,02_BD,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,02_BD,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,02_BD,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,02_BD,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,02_BD,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,03_CDA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,03_CDA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,03_CDA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,03_CDA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,03_CDA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,03_CDA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,04_CHL,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,04_CHL,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,04_CHL,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,04_CHL,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,04_CHL,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,04_CHL,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,05_PRC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,05_PRC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,05_PRC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,05_PRC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,05_PRC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,05_PRC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,06_HKC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,06_HKC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,06_HKC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,06_HKC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,06_HKC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,06_HKC,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,07_INA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,07_INA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,07_INA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,07_INA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,07_INA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,07_INA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,08_JPN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,08_JPN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,08_JPN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,08_JPN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,08_JPN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,08_JPN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,09_ROK,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,09_ROK,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,09_ROK,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,09_ROK,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,09_ROK,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,09_ROK,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,10_MAS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,10_MAS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,10_MAS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,10_MAS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,10_MAS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,10_MAS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,11_MEX,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,11_MEX,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,11_MEX,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,11_MEX,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,11_MEX,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,11_MEX,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,12_NZ,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,12_NZ,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,12_NZ,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,12_NZ,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,12_NZ,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,12_NZ,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,13_PNG,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,13_PNG,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,13_PNG,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,13_PNG,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,13_PNG,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,13_PNG,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,14_PE,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,14_PE,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,14_PE,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,14_PE,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,14_PE,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,14_PE,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,15_RP,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,15_RP,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,15_RP,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,15_RP,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,15_RP,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,15_RP,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,16_RUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,16_RUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,16_RUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,16_RUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,16_RUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,16_RUS,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,17_SIN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,17_SIN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,17_SIN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,17_SIN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,17_SIN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,17_SIN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,18_CT,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,18_CT,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,18_CT,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,18_CT,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,18_CT,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,18_CT,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,19_THA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,19_THA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,19_THA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,19_THA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,19_THA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,19_THA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,20_USA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,20_USA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,20_USA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,20_USA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,20_USA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,20_USA,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,bev,21_VN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,fcev,21_VN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,ice,21_VN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,phev,21_VN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,cng,21_VN,Yearly
+freight,heavy truck,ht,mileage,road,national,2019-12-31,Mileage,62751.0,lpg,21_VN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,01_AUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,01_AUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,01_AUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,01_AUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,01_AUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,01_AUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,02_BD,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,02_BD,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,02_BD,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,02_BD,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,02_BD,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,02_BD,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,03_CDA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,03_CDA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,03_CDA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,03_CDA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,03_CDA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,03_CDA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,04_CHL,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,04_CHL,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,04_CHL,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,04_CHL,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,04_CHL,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,04_CHL,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,05_PRC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,05_PRC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,05_PRC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,05_PRC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,05_PRC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,05_PRC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,06_HKC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,06_HKC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,06_HKC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,06_HKC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,06_HKC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,06_HKC,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,07_INA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,07_INA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,07_INA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,07_INA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,07_INA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,07_INA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,08_JPN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,08_JPN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,08_JPN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,08_JPN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,08_JPN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,08_JPN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,09_ROK,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,09_ROK,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,09_ROK,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,09_ROK,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,09_ROK,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,09_ROK,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,10_MAS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,10_MAS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,10_MAS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,10_MAS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,10_MAS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,10_MAS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,11_MEX,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,11_MEX,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,11_MEX,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,11_MEX,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,11_MEX,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,11_MEX,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,12_NZ,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,12_NZ,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,12_NZ,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,12_NZ,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,12_NZ,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,12_NZ,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,13_PNG,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,13_PNG,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,13_PNG,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,13_PNG,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,13_PNG,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,13_PNG,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,14_PE,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,14_PE,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,14_PE,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,14_PE,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,14_PE,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,14_PE,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,15_RP,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,15_RP,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,15_RP,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,15_RP,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,15_RP,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,15_RP,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,16_RUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,16_RUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,16_RUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,16_RUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,16_RUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,16_RUS,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,17_SIN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,17_SIN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,17_SIN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,17_SIN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,17_SIN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,17_SIN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,18_CT,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,18_CT,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,18_CT,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,18_CT,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,18_CT,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,18_CT,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,19_THA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,19_THA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,19_THA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,19_THA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,19_THA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,19_THA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,20_USA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,20_USA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,20_USA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,20_USA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,20_USA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,20_USA,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,bev,21_VN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,fcev,21_VN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,ice,21_VN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,phev,21_VN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,cng,21_VN,Yearly
+freight,urban,ht,mileage,road,national,2019-12-31,Mileage,18717.5,lpg,21_VN,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,01_AUS,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,01_AUS,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,02_BD,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,02_BD,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,03_CDA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,03_CDA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,04_CHL,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,04_CHL,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,05_PRC,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,05_PRC,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,06_HKC,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,06_HKC,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,07_INA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,07_INA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,08_JPN,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,08_JPN,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,09_ROK,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,09_ROK,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,10_MAS,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,10_MAS,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,11_MEX,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,11_MEX,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,12_NZ,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,12_NZ,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,13_PNG,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,13_PNG,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,14_PE,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,14_PE,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,15_RP,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,15_RP,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,16_RUS,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,16_RUS,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,17_SIN,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,17_SIN,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,18_CT,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,18_CT,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,19_THA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,19_THA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,20_USA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,20_USA,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,bev,21_VN,Yearly
+passenger,2w,2w,mileage,road,national,2019-12-31,Mileage,2312.0,ice,21_VN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,01_AUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,01_AUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,01_AUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,01_AUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,01_AUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,01_AUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,02_BD,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,02_BD,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,02_BD,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,02_BD,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,02_BD,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,02_BD,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,03_CDA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,03_CDA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,03_CDA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,03_CDA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,03_CDA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,03_CDA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,04_CHL,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,04_CHL,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,04_CHL,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,04_CHL,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,04_CHL,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,04_CHL,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,05_PRC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,05_PRC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,05_PRC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,05_PRC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,05_PRC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,05_PRC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,06_HKC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,06_HKC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,06_HKC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,06_HKC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,06_HKC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,06_HKC,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,07_INA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,07_INA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,07_INA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,07_INA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,07_INA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,07_INA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,08_JPN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,08_JPN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,08_JPN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,08_JPN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,08_JPN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,08_JPN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,09_ROK,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,09_ROK,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,09_ROK,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,09_ROK,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,09_ROK,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,09_ROK,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,10_MAS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,10_MAS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,10_MAS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,10_MAS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,10_MAS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,10_MAS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,11_MEX,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,11_MEX,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,11_MEX,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,11_MEX,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,11_MEX,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,11_MEX,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,12_NZ,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,12_NZ,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,12_NZ,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,12_NZ,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,12_NZ,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,12_NZ,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,13_PNG,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,13_PNG,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,13_PNG,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,13_PNG,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,13_PNG,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,13_PNG,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,14_PE,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,14_PE,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,14_PE,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,14_PE,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,14_PE,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,14_PE,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,15_RP,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,15_RP,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,15_RP,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,15_RP,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,15_RP,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,15_RP,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,16_RUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,16_RUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,16_RUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,16_RUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,16_RUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,16_RUS,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,17_SIN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,17_SIN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,17_SIN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,17_SIN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,17_SIN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,17_SIN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,18_CT,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,18_CT,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,18_CT,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,18_CT,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,18_CT,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,18_CT,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,19_THA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,19_THA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,19_THA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,19_THA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,19_THA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,19_THA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,20_USA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,20_USA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,20_USA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,20_USA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,20_USA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,20_USA,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,bev,21_VN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,ice,21_VN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,fcev,21_VN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,phev,21_VN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,cng,21_VN,Yearly
+passenger,car,ldv,mileage,road,national,2019-12-31,Mileage,11467.0,lpg,21_VN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,01_AUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,01_AUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,01_AUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,01_AUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,01_AUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,01_AUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,02_BD,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,02_BD,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,02_BD,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,02_BD,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,02_BD,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,02_BD,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,03_CDA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,03_CDA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,03_CDA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,03_CDA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,03_CDA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,03_CDA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,04_CHL,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,04_CHL,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,04_CHL,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,04_CHL,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,04_CHL,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,04_CHL,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,05_PRC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,05_PRC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,05_PRC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,05_PRC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,05_PRC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,05_PRC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,06_HKC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,06_HKC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,06_HKC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,06_HKC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,06_HKC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,06_HKC,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,07_INA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,07_INA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,07_INA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,07_INA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,07_INA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,07_INA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,08_JPN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,08_JPN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,08_JPN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,08_JPN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,08_JPN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,08_JPN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,09_ROK,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,09_ROK,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,09_ROK,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,09_ROK,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,09_ROK,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,09_ROK,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,10_MAS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,10_MAS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,10_MAS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,10_MAS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,10_MAS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,10_MAS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,11_MEX,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,11_MEX,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,11_MEX,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,11_MEX,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,11_MEX,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,11_MEX,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,12_NZ,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,12_NZ,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,12_NZ,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,12_NZ,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,12_NZ,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,12_NZ,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,13_PNG,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,13_PNG,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,13_PNG,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,13_PNG,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,13_PNG,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,13_PNG,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,14_PE,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,14_PE,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,14_PE,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,14_PE,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,14_PE,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,14_PE,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,15_RP,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,15_RP,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,15_RP,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,15_RP,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,15_RP,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,15_RP,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,16_RUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,16_RUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,16_RUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,16_RUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,16_RUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,16_RUS,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,17_SIN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,17_SIN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,17_SIN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,17_SIN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,17_SIN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,17_SIN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,18_CT,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,18_CT,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,18_CT,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,18_CT,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,18_CT,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,18_CT,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,19_THA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,19_THA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,19_THA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,19_THA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,19_THA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,19_THA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,20_USA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,20_USA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,20_USA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,20_USA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,20_USA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,20_USA,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,bev,21_VN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,ice,21_VN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,fcev,21_VN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,phev,21_VN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,cng,21_VN,Yearly
+passenger,light truck,ldv,mileage,road,national,2019-12-31,Mileage,11543.0,lpg,21_VN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,01_AUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,01_AUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,01_AUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,01_AUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,01_AUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,01_AUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,02_BD,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,02_BD,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,02_BD,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,02_BD,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,02_BD,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,02_BD,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,03_CDA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,03_CDA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,03_CDA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,03_CDA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,03_CDA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,03_CDA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,04_CHL,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,04_CHL,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,04_CHL,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,04_CHL,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,04_CHL,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,04_CHL,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,05_PRC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,05_PRC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,05_PRC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,05_PRC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,05_PRC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,05_PRC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,06_HKC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,06_HKC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,06_HKC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,06_HKC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,06_HKC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,06_HKC,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,07_INA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,07_INA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,07_INA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,07_INA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,07_INA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,07_INA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,08_JPN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,08_JPN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,08_JPN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,08_JPN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,08_JPN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,08_JPN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,09_ROK,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,09_ROK,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,09_ROK,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,09_ROK,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,09_ROK,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,09_ROK,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,10_MAS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,10_MAS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,10_MAS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,10_MAS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,10_MAS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,10_MAS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,11_MEX,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,11_MEX,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,11_MEX,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,11_MEX,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,11_MEX,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,11_MEX,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,12_NZ,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,12_NZ,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,12_NZ,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,12_NZ,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,12_NZ,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,12_NZ,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,13_PNG,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,13_PNG,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,13_PNG,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,13_PNG,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,13_PNG,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,13_PNG,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,14_PE,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,14_PE,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,14_PE,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,14_PE,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,14_PE,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,14_PE,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,15_RP,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,15_RP,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,15_RP,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,15_RP,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,15_RP,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,15_RP,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,16_RUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,16_RUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,16_RUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,16_RUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,16_RUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,16_RUS,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,17_SIN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,17_SIN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,17_SIN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,17_SIN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,17_SIN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,17_SIN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,18_CT,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,18_CT,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,18_CT,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,18_CT,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,18_CT,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,18_CT,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,19_THA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,19_THA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,19_THA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,19_THA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,19_THA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,19_THA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,20_USA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,20_USA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,20_USA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,20_USA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,20_USA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,20_USA,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,bev,21_VN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,ice,21_VN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,fcev,21_VN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,phev,21_VN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,cng,21_VN,Yearly
+passenger,transit,bus,mileage,road,national,2019-12-31,Mileage,36538.0,lpg,21_VN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,01_AUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,01_AUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,01_AUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,01_AUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,01_AUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,01_AUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,02_BD,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,02_BD,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,02_BD,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,02_BD,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,02_BD,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,02_BD,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,03_CDA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,03_CDA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,03_CDA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,03_CDA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,03_CDA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,03_CDA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,04_CHL,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,04_CHL,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,04_CHL,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,04_CHL,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,04_CHL,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,04_CHL,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,05_PRC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,05_PRC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,05_PRC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,05_PRC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,05_PRC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,05_PRC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,06_HKC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,06_HKC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,06_HKC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,06_HKC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,06_HKC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,06_HKC,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,07_INA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,07_INA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,07_INA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,07_INA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,07_INA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,07_INA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,08_JPN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,08_JPN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,08_JPN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,08_JPN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,08_JPN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,08_JPN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,09_ROK,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,09_ROK,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,09_ROK,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,09_ROK,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,09_ROK,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,09_ROK,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,10_MAS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,10_MAS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,10_MAS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,10_MAS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,10_MAS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,10_MAS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,11_MEX,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,11_MEX,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,11_MEX,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,11_MEX,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,11_MEX,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,11_MEX,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,12_NZ,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,12_NZ,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,12_NZ,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,12_NZ,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,12_NZ,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,12_NZ,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,13_PNG,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,13_PNG,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,13_PNG,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,13_PNG,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,13_PNG,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,13_PNG,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,14_PE,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,14_PE,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,14_PE,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,14_PE,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,14_PE,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,14_PE,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,15_RP,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,15_RP,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,15_RP,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,15_RP,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,15_RP,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,15_RP,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,16_RUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,16_RUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,16_RUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,16_RUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,16_RUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,16_RUS,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,17_SIN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,17_SIN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,17_SIN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,17_SIN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,17_SIN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,17_SIN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,18_CT,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,18_CT,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,18_CT,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,18_CT,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,18_CT,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,18_CT,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,19_THA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,19_THA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,19_THA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,19_THA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,19_THA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,19_THA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,20_USA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,20_USA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,20_USA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,20_USA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,20_USA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,20_USA,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,bev,21_VN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,ice,21_VN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,fcev,21_VN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,phev,21_VN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,cng,21_VN,Yearly
+passenger,urban,bus,mileage,road,national,2019-12-31,Mileage,12000.0,lpg,21_VN,Yearly

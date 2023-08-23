@@ -14,8 +14,8 @@
 *.log
 #anything in archive folders doesnt nee to be tracked
 **/archive
-#anything in the intermediate_data folder doesnt need to be tracked
-**/intermediate_data
+# #anything in the intermediate_data folder doesnt need to be tracked
+# **/intermediate_data
 #####################
 env_jupyter/*
 env_transport_data_system/*

@@ -15,19 +15,22 @@ concordances_file_path: './input_data/concordances/9th/model_concordances_measur
 stocks_mileage_occupancy_load_efficiency_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
   - 'usa_alternative_fuels_data_center'
-  - '9th_model_first_iteration $ thanan'
-  - '9th_model_first_iteration $ thanan vehicle_dist_split'
-  - '9th_model_first_iteration $ usa_fdha'
-  - '9th_model_first_iteration  usa_fdha $ iea_ev_explorer  historical vehicle_dist_split ice_split'
-  - '9th_model_first_iteration  usa_fdha $ iea_ev_explorer  historical vehicle_dist_split'
-  - '9th_model_first_iteration $ usa_fdha vehicle_dist_split'
-
-
+  - '9th_model_first_iteration'
+  - '9th_model_first_iteration vehicle_dist_split'
+  - '9th_model_first_iteration'
+  - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split ice_split'
+  - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split'
 all_other_combined_data_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
   
 #in the below, make sure to set the key to be as much of the file name as you can while excluding its date . this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
+  canada_new_stocks_9th_model_first_iteration_:
+    file_path: intermediate_data/CDA/canada_new_stocks_9th_model_first_iteration_FILE_DATE_ID.csv
+    folder: intermediate_data/CDA/
+    script: grooming_code\1_import_9th_modelled_data.py
+    included: True
+    type: transport
   thailand_new_stocks_9th_model_first_iteration_:
     file_path: intermediate_data/THA/thailand_new_stocks_9th_model_first_iteration_FILE_DATE_ID.csv
     folder: intermediate_data/THA/

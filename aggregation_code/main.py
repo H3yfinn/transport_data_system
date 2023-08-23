@@ -79,8 +79,8 @@ def setup_main():
 
     highlight_list = []
     
-    return paths_dict, highlight_list
-    
+    return paths_dict, highlight_list #= setup_main()
+#%%
     
 def main():
     global FILE_DATE_ID
@@ -96,7 +96,6 @@ def main():
     #EXTRACT DATA
     if not load_data_creation_progress:      
         datasets_transport, datasets_other = data_formatting_functions.extract_latest_groomed_data()
-
         unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict)
 
         if ECONOMIES_TO_RUN is not None:
@@ -177,7 +176,6 @@ def main():
     highlight_list = highlight_list+[]
     stocks_mileage_occupancy_load_efficiency_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['stocks_mileage_occupancy_load_efficiency_datasets_to_always_use']
     #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
-
     if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
         stocks_mileage_occupancy_load_efficiency_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
 

@@ -1,0 +1,418 @@
+Source,Economy,Measure,Unit,Transport Type,Medium,Vehicle Type,Drive,Year,Value
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1985,109245.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1986,120543.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1987,162444.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1988,217006.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1989,227616.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1990,273139.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1991,300134.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1992,344443.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1993,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1993,451000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1993,1000000.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1993,464337.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1993,78000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1993,66000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1993,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1993,3131711.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1993,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1993,644000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1993,1000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,1994,2012776.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1994,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1994,453000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1994,1000000.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1994,550019.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1994,3000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1994,87000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1994,65000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1994,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1994,3836155.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1994,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1994,725000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1994,14000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1994,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,1995,2150289.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,1995,1533846.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1995,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1995,450000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1995,1000000.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1995,569970.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1995,4000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1995,96000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1995,64000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1995,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1995,4488064.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1995,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1995,729000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1995,15000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1995,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,1996,2306239.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,1996,1714999.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1996,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1996,448000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1996,1000000.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1996,684362.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1996,4000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1996,104000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1996,58000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1996,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1996,4898297.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1996,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1996,738000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1996,14000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1996,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,1997,2504638.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,1997,1859452.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1997,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1997,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1997,0.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1997,902875.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1997,4000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1997,119000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1997,53000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1997,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1997,5475040.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1997,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1997,733000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1997,14000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1997,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,1998,2699821.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,1998,1958212.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1998,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1998,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1998,0.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1998,1010124.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1998,4000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1998,127000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1998,49000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1998,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1998,6102068.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1998,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1998,735000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1998,14000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1998,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,1999,3034767.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,1999,2184462.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,1999,2189335.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1999,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1999,544000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1999,0.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,1999,1117763.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1999,4000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1999,134000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1999,43000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1999,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,1999,6972959.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,1999,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,1999,743000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,1999,15000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,1999,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2000,3382653.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2000,2443449.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2000,2736139.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2000,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2000,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2000,0.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2000,14897058.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2000,1315749.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2000,3000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2000,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2000,7958801.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2000,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2000,752000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2000,15000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2000,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2001,3393553.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2001,2541444.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2001,2674208.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2001,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2001,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2001,0.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2001,14721296.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2001,1358662.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2001,5000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2001,38000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2001,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2001,9990111.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2001,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2001,776000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2001,17000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2001,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2002,3811899.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2002,2835256.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2002,3055248.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2002,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2002,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2002,0.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2002,15321283.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2002,1564673.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2002,5000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2002,34000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2002,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2002,11889798.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2002,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2002,766000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2002,17000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2002,0.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2003,4170565.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2003,2995529.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2003,3374791.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2003,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2003,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2003,12000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2003,16548816.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2003,1685367.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2003,5000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2003,31000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2003,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2003,13185871.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2003,25424477.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2003,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2003,765000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2003,18000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2004,4704855.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2004,2754468.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2004,3691783.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2004,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2004,0.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2004,13000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2004,17837550.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2004,1903845.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2004,5000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2004,27000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2004,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2004,14523138.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2004,29926892.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2004,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2004,778000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2004,20000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2005,4878907.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2005,2900727.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2005,3813942.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2005,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2005,458000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2005,14000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2005,18847697.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2005,2133476.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2005,5000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2005,178000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2005,26000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2005,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2005,15216460.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2005,30058894.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2005,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2005,783000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2005,21000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2006,5180828.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2006,3062544.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2006,3990469.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2006,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2006,456000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2006,15000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2006,20047681.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2006,2676774.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2006,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2006,188000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2006,23000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2006,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2006,15964896.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2006,31319620.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2006,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2006,461000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2006,22000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2007,5790332.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2007,3163367.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2007,4235611.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2007,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2007,466000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2007,16000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2007,20821901.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2007,3062442.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2007,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2007,207000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2007,23000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2007,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2007,17543923.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2007,32567524.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2007,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2007,459000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2007,24000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2008,6201870.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2008,3205834.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2008,4447910.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2008,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2008,480000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2008,17000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2008,20705861.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2008,3316087.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2008,2486233.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2008,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2008,226000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2008,21000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2008,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2008,17926748.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2008,32006944.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2008,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2008,458000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2008,25000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2009,5766041.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2009,2952584.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2009,4056300.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2009,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2009,591000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2009,0.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2009,18015533.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2009,2884487.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2009,1786509.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2009,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2009,233000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2009,18000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2009,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2009,16341378.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2009,28467280.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2009,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2009,631000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2009,26000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2010,6507984.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2010,3235761.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2010,4670200.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2010,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2010,596000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2010,18000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2010,20533734.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2010,3691374.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2010,2454838.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2010,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2010,241000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2010,18000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2010,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2010,19368960.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2010,31507445.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2010,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2010,614000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2010,26000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2011,6709602.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2011,3315391.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2011,4734600.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2011,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2011,862000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2011,18000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2011,21135704.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2011,4223631.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2011,3028264.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2011,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2011,255000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2011,17000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2011,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2011,21610502.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2011,32745592.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2011,2000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2011,402000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2011,27000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2012,6936142.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2012,3559595.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2012,5109500.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2012,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2012,594000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2012,19000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2012,21225537.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2012,4878097.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2012,2414656.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2012,3371039.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2012,7000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2012,271000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2012,0.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2012,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2012,22550275.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2012,33236967.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2012,2000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2012,354000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2012,27000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2013,6994361.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2013,3686321.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2013,5225900.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2013,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2013,605000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2013,19000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2013,21490748.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2013,4875281.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2013,2503737.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2013,3501985.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2013,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2013,289000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2013,17000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2013,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2013,23469251.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2013,34484687.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2013,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2013,358000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2013,27000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2014,7519534.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2014,3897973.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2014,5429700.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2014,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2014,611000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2014,19000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2014,21717653.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2014,5058635.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2014,2672030.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2014,3617159.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2014,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2014,299000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2014,0.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2014,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2014,24798210.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2014,35867974.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2014,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2014,357000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2014,26000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2015,7415789.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2015,4071322.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2015,5792200.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2015,3000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2015,616000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2015,20000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2015,21196655.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2015,5506488.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2015,2777805.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2015,2906555.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2015,6000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2015,302000000.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2015,0.0
+United Nations Economic Commission for Europe,16_RUS,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,rail,All,2015,0.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2015,25680530.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2015,35665402.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2015,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2015,353000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2015,27000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2016,7529626.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2016,4170821.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2016,5684800.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2016,2000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2016,618000000.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2016,20000000.0
+International Transport Forum,08_JPN,Freight (TEU),Number,freight,ship,Container,All,2016,21709965.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2016,5680483.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2016,2869420.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2016,3056806.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2016,26005344.0
+International Transport Forum,20_USA,Freight (TEU),Number,freight,ship,Container,All,2016,36504338.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2016,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2016,351000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2016,27000000.0
+International Transport Forum,01_AUS,Freight (TEU),Number,freight,ship,Container,All,2017,8047764.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2017,4534111.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2017,6428254.0
+United Nations Economic Commission for Europe,03_CDA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2017,618000000.0
+International Transport Forum,11_MEX,Freight (TEU),Number,freight,ship,Container,All,2017,6371628.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2017,3120030.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2017,3520306.0
+International Transport Forum,09_ROK,Freight (TEU),Number,freight,ship,Container,All,2017,27468077.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,bus,All,2017,3000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,ldv,All,2017,343000000.0
+United Nations Economic Commission for Europe,20_USA,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,passenger,road,2W,All,2017,27000000.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,rail,Container,All,2018,4654397.0
+International Transport Forum,03_CDA,Freight (TEU),Number,freight,ship,Container,All,2018,6660315.0
+International Transport Forum,12_NZ,Freight (TEU),Number,freight,ship,Container,All,2018,3176022.0
+International Transport Forum,16_RUS,Freight (TEU),Number,freight,ship,Container,All,2018,3888129.0
