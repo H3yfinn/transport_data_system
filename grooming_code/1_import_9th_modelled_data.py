@@ -160,3 +160,4 @@ Japan_stocks["frequency"] = "yearly"
 
 # Save the transformed data to an Excel file
 Japan_stocks.to_csv('intermediate_data/JPN/japan_new_stocks_9th_model_first_iteration_{}.csv'.format(FILE_DATE_ID),index=False)
+#%%
