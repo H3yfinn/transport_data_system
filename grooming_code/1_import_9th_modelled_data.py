@@ -106,3 +106,57 @@ canada_stocks["frequency"] = "yearly"
 canada_stocks.to_csv('intermediate_data/CDA/canada_new_stocks_9th_model_first_iteration_{}.csv'.format(FILE_DATE_ID),index=False)
 
 #%%
+#######################:#######################
+#and for jap:
+Japan_stocks2017 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2017")
+
+Japan_stocks2018 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2018")
+
+Japan_stocks2019 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2019")
+
+Japan_stocks2020 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2020")
+
+Japan_stocks2021 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2021")
+
+#from all, remove the cols after I and below row 8
+Japan_stocks2017 = Japan_stocks2017.iloc[:4,:4]
+Japan_stocks2018 = Japan_stocks2018.iloc[:4,:4]
+Japan_stocks2019 = Japan_stocks2019.iloc[:4,:4]
+Japan_stocks2020 = Japan_stocks2020.iloc[:4,:4]
+Japan_stocks2021 = Japan_stocks2021.iloc[:4,:4]
+#now melt all
+Japan_stocks2017_melted = Japan_stocks2017.melt(id_vars=Japan_stocks2017.columns[0], var_name='Vehicle Type', value_name='Value')
+Japan_stocks2018_melted = Japan_stocks2018.melt(id_vars=Japan_stocks2018.columns[0], var_name='Vehicle Type', value_name='Value')
+Japan_stocks2019_melted = Japan_stocks2019.melt(id_vars=Japan_stocks2019.columns[0], var_name='Vehicle Type', value_name='Value')
+Japan_stocks2020_melted = Japan_stocks2020.melt(id_vars=Japan_stocks2020.columns[0], var_name='Vehicle Type', value_name='Value')
+Japan_stocks2021_melted = Japan_stocks2021.melt(id_vars=Japan_stocks2021.columns[0], var_name='Vehicle Type', value_name='Value')
+
+#now add the date column to each
+Japan_stocks2017_melted["date"] = 2017
+Japan_stocks2018_melted["date"] = 2018
+Japan_stocks2019_melted["date"] = 2019
+Japan_stocks2020_melted["date"] = 2020
+Japan_stocks2021_melted['date'] = 2021
+
+#concat them all
+Japan_stocks = pd.concat([Japan_stocks2017_melted, Japan_stocks2018_melted, Japan_stocks2019_melted, Japan_stocks2020_melted, Japan_stocks2021_melted])
+# Rename the columns as per user's request
+Japan_stocks.rename(columns={"Unnamed: 0": "Vehicle Type", "Vehicle Type": "Drive"}, inplace=True)
+#map transport type: based on vehicle type:
+transport_type_map = {'lpv':'passenger', 'ht':'freight', 'lcv':'freight', 'bus':'passenger', '2w':'passenger','car':'passenger', 'suv':'freight', 'lt':'passenger'}
+Japan_stocks['transport_type'] = Japan_stocks['Vehicle Type'].map(transport_type_map)
+
+# Set all columns to the specified values
+Japan_stocks["economy"] = "08_JPN"
+Japan_stocks["medium"] = "road"
+Japan_stocks["measure"] = "stocks"
+Japan_stocks["dataset"] = "9th_model_first_iteration"
+Japan_stocks["source"] = ""
+Japan_stocks["unit"] = "stocks"
+Japan_stocks["fuel"] = "all"
+Japan_stocks["comment"] = "no_comment"
+Japan_stocks["scope"] = "national"
+Japan_stocks["frequency"] = "yearly"
+
+# Save the transformed data to an Excel file
+Japan_stocks.to_csv('intermediate_data/JPN/japan_new_stocks_9th_model_first_iteration_{}.csv'.format(FILE_DATE_ID),index=False)
