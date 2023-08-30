@@ -63,11 +63,11 @@ canada_stocks2020 = pd.read_excel("./input_data/Canada/9th_model_first_iteration
 canada_stocks2021 = pd.read_excel("./input_data/Canada/9th_model_first_iteration.xlsx", sheet_name="2021")
 
 #from all, remove the cols after I and below row 8
-canada_stocks2017 = canada_stocks2017.iloc[:7,:7]
-canada_stocks2018 = canada_stocks2018.iloc[:7,:7]
-canada_stocks2019 = canada_stocks2019.iloc[:7,:7]
-canada_stocks2020 = canada_stocks2020.iloc[:7,:7]
-canada_stocks2021 = canada_stocks2021.iloc[:7,:7]
+canada_stocks2017 = canada_stocks2017.iloc[:7,:8]
+canada_stocks2018 = canada_stocks2018.iloc[:7,:8]
+canada_stocks2019 = canada_stocks2019.iloc[:7,:8]
+canada_stocks2020 = canada_stocks2020.iloc[:7,:8]
+canada_stocks2021 = canada_stocks2021.iloc[:7,:8]
 #now melt all
 canada_stocks2017_melted = canada_stocks2017.melt(id_vars=canada_stocks2017.columns[0], var_name='Vehicle Type', value_name='Value')
 canada_stocks2018_melted = canada_stocks2018.melt(id_vars=canada_stocks2018.columns[0], var_name='Vehicle Type', value_name='Value')
@@ -87,7 +87,7 @@ canada_stocks = pd.concat([canada_stocks2017_melted, canada_stocks2018_melted, c
 # Rename the columns as per user's request
 canada_stocks.rename(columns={"Unnamed: 0": "Vehicle Type", "Vehicle Type": "Drive"}, inplace=True)
 #map transport type: based on vehicle type:
-transport_type_map = {'lpv':'passenger', 'ht':'freight', 'lcv':'freight', 'bus':'passenger', '2w':'passenger','car':'passenger', 'suv':'freight', 'lt':'passenger'}
+transport_type_map = {'lpv':'passenger', 'ht':'freight', 'lcv':'freight', 'bus':'passenger', '2w':'passenger','car':'passenger', 'suv':'passenger', 'lt':'passenger'}
 canada_stocks['transport_type'] = canada_stocks['Vehicle Type'].map(transport_type_map)
 
 # Set all columns to the specified values
@@ -143,7 +143,7 @@ Japan_stocks = pd.concat([Japan_stocks2017_melted, Japan_stocks2018_melted, Japa
 # Rename the columns as per user's request
 Japan_stocks.rename(columns={"Unnamed: 0": "Vehicle Type", "Vehicle Type": "Drive"}, inplace=True)
 #map transport type: based on vehicle type:
-transport_type_map = {'lpv':'passenger', 'ht':'freight', 'lcv':'freight', 'bus':'passenger', '2w':'passenger','car':'passenger', 'suv':'freight', 'lt':'passenger'}
+transport_type_map = {'lpv':'passenger', 'ht':'freight', 'lcv':'freight', 'bus':'passenger', '2w':'passenger','car':'passenger', 'suv':'passenger', 'lt':'passenger'}
 Japan_stocks['transport_type'] = Japan_stocks['Vehicle Type'].map(transport_type_map)
 
 # Set all columns to the specified values
