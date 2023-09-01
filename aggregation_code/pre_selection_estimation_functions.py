@@ -228,6 +228,18 @@ def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data, splits_dict)
                     ice_g_split = splits_dict[vehicle_type]['average']
             else:
                 ice_g_split = splits_dict[vehicle_type][economy]['average']
+                
+            #TEMP FIX. add .2 to ice_dsplit if vehicle tyoe is one of ['car', 'suv', 'lt', 'lpv']
+            if economy in ['20_USA']:
+                if vehicle_type in ['car', 'suv', 'lt', 'lpv']:
+                    ice_g_split = ice_g_split - .2
+            #also decrease ice_g split for lcv in all economy. currently too alrge
+            if vehicle_type == 'lcv':
+                ice_g_split = ice_g_split - .2
+                if ice_g_split < 0.1:
+                    ice_g_split = 0.1                    
+            #TEMP FIX over   
+                
             ice_d_split = 1 - ice_g_split
             #get data where drive = ice
             ice_data = unfiltered_combined_data[(unfiltered_combined_data['vehicle_type'] == vehicle_type) & (unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['drive'] == 'ice')]

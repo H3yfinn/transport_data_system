@@ -156,13 +156,13 @@ vmt_by_vehicle_type['measure'] = 'Mileage'
 #set the vehicle sub type to transit for transit bus, school bus, and paratransit shuttle, medium for class 8 truck, refuse truck, and delivery truck, light for light truck/van, and car for car and motorcycle
 # vmt_by_vehicle_type['vehicle_sub_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'car', 'Motorcycle': '2w', 'Light Truck/Van': 'light truck', 'School Bus': 'urban', 'Paratransit Shuttle': 'transit', 'Transit Bus': 'transit', 'Class 8 Truck': 'heavy truck', 'Refuse Truck': 'urban', 'Delivery Truck': 'urban'})
 #now change vehicled types. we wnat to have ldv, 2w, ht, bus
-vmt_by_vehicle_type['vehicle_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'car', 'Motorcycle': '2w', 'Light Truck/Van': 'lt', 'School Bus': 'bus', 'Paratransit Shuttle': 'bus', 'Transit Bus': 'bus', 'Class 8 Truck': 'ht', 'Refuse Truck': 'ht', 'Delivery Truck': 'mt'})
+vmt_by_vehicle_type['vehicle_type'] = vmt_by_vehicle_type['Vehicle Type'].map({'Car': 'car', 'Motorcycle': '2w', 'Light Truck/Van': 'lt', 'School Bus': 'bus', 'Paratransit Shuttle': 'bus', 'Transit Bus': 'bus', 'Class 8 Truck': 'ht', 'Refuse Truck': 'ht', 'Delivery Truck': 'lcv'})
 
 #copy the row for light truck and change the vehicle type to van
-new_row = vmt_by_vehicle_type.loc[vmt_by_vehicle_type['Vehicle Type'] == 'Light Truck/Van'].copy()
-new_row['vehicle_type'] = 'lcv'
+# new_row = vmt_by_vehicle_type.loc[vmt_by_vehicle_type['Vehicle Type'] == 'Light Truck/Van'].copy()
+# new_row['vehicle_type'] = 'lcv'
 #append the new row
-vmt_by_vehicle_type = pd.concat([vmt_by_vehicle_type,new_row])
+# vmt_by_vehicle_type = pd.concat([vmt_by_vehicle_type,new_row])
 #do same for suv
 new_row = vmt_by_vehicle_type.loc[vmt_by_vehicle_type['Vehicle Type'] == 'Car'].copy()
 new_row['vehicle_type'] = 'suv'
@@ -249,8 +249,8 @@ passenger_mpg.loc[passenger_mpg['Vehicle Type'].isin(['Transit Rail','Intercity 
 passenger_mpg['drive'] = 'all'
 
 #drop the vehicle type col
-passenger_mpg.drop('Vehicle Type',axis=1,inplace=True)
-
+passenger_mpg.drop(['Vehicle Type','vehicle_sub_type'],axis=1,inplace=True)
+#%%
 #avg
 passenger_mpg = passenger_mpg.groupby(['transport_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()
 #'vehicle_sub_type',
@@ -298,11 +298,14 @@ fuel_economy_by_vehicle_type['Vehicle Type'].unique()
 #    'Ridesourcing Vehicle', 'Motorcycle'], dtype=object)
 # fuel_economy_by_vehicle_type['vehicle_sub_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'light truck/van','Transit Bus':'transit','Refuse Truck':'urban','Class 8 Truck':'Class 8','Delivery Truck':'urban','School Bus':'urban','Paratransit Shuttle':'transit','Ridesourcing Vehicle':'ridesource'})
 #map vehicle type to better vehicle type
-fuel_economy_by_vehicle_type['vehicle_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'lcv','Transit Bus':'bus','Refuse Truck':'ht','Class 8 Truck':'ht','Delivery Truck':'mt','School Bus':'bus','Paratransit Shuttle':'bus','Ridesourcing Vehicle':'ridesource'})
-#replicate lcv and call it ldv
-ldv = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['vehicle_type']=='lcv'].copy()
-ldv['vehicle_type'] = 'lt'
-fuel_economy_by_vehicle_type = pd.concat([fuel_economy_by_vehicle_type,ldv],axis=0)
+fuel_economy_by_vehicle_type['vehicle_type'] = fuel_economy_by_vehicle_type['Vehicle Type'].map({'Car':'car','Motorcycle':'2w','Light Truck/Van':'lt','Transit Bus':'bus','Refuse Truck':'ht','Class 8 Truck':'ht','Delivery Truck':'lcv','School Bus':'bus','Paratransit Shuttle':'bus','Ridesourcing Vehicle':'ridesource'})#would usually say a refuse truck is a ht but they are half as efficient as class 8 so i just made mt be 1.2 times more efficient
+ 
+# #replicate ht and call it mt
+mt = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['vehicle_type']=='ht'].copy()
+mt['vehicle_type'] = 'mt'
+mt['value'] = mt['value']*1.2
+
+fuel_economy_by_vehicle_type = pd.concat([fuel_economy_by_vehicle_type,mt],axis=0)
 
 #do same for suvs
 suv = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['vehicle_type']=='car'].copy()
@@ -323,6 +326,9 @@ fuel_economy_by_vehicle_type['transport_type'] = fuel_economy_by_vehicle_type['v
     'mt': 'freight',
     'ridesource': 'passenger'
 })
+#%%
+#drop Source
+fuel_economy_by_vehicle_type.drop('Source',axis=1,inplace=True)
 #avg
 fuel_economy_by_vehicle_type = fuel_economy_by_vehicle_type.groupby(['transport_type','vehicle_type','drive','unit','medium','scope','date','economy','measure']).mean().reset_index()#,'vehicle_sub_type'
 

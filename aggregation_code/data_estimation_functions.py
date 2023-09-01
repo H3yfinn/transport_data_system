@@ -44,6 +44,14 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     #pivot so the medium is a column
     egeda_energy_combined_data = egeda_energy_combined_data.pivot(index=['economy','date'], columns='medium', values='value')
     egeda_energy_combined_data = egeda_energy_combined_data.reset_index()
+    #if the mediums are missing then set them to 0:
+    if 'air' not in egeda_energy_combined_data.columns:
+        egeda_energy_combined_data['air'] = 0
+    if 'rail' not in egeda_energy_combined_data.columns:
+        egeda_energy_combined_data['rail'] = 0
+    if 'ship' not in egeda_energy_combined_data.columns:
+        egeda_energy_combined_data['ship'] = 0
+        
     #calculate the proportions of energy use for each medium
     egeda_energy_combined_data['total_energy_use'] = egeda_energy_combined_data['rail'] + egeda_energy_combined_data['ship'] + egeda_energy_combined_data['air']+ egeda_energy_combined_data['road']
     egeda_energy_combined_data['rail_proportion'] = egeda_energy_combined_data['rail'] / egeda_energy_combined_data['total_energy_use']
@@ -195,6 +203,7 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
 
     #merge on economy and date
     non_road_energy = non_road_energy_no_transport_type.merge(egeda_transport_type_energy_proportions, on=['economy','date', 'medium'], how='left')
+        
     #times the energy use by the proportion of energy use for each transport type
     non_road_energy['freight'] = non_road_energy['value'] * non_road_energy['freight_energy_proportion']
     non_road_energy['passenger'] = non_road_energy['value'] * non_road_energy['passenger_energy_proportion']
@@ -225,6 +234,12 @@ def calcualte_egeda_non_road_energy_proportions(unfiltered_combined_data,egeda_e
     egeda_transport_type_energy_proportions = egeda_transport_type_energy_proportions.pivot(index=['economy','date','medium'], columns='transport_type', values='value')
     egeda_transport_type_energy_proportions = egeda_transport_type_energy_proportions.reset_index()
 
+    #first, if the cols are not there, set them to 0
+    if 'freight' not in egeda_transport_type_energy_proportions.columns:
+        egeda_transport_type_energy_proportions['freight'] = 0
+    if 'passenger' not in egeda_transport_type_energy_proportions.columns:
+        egeda_transport_type_energy_proportions['passenger'] = 0
+        
     #calculate the proportions of energy use for each medium
     egeda_transport_type_energy_proportions['total_energy_use'] = egeda_transport_type_energy_proportions['freight'] + egeda_transport_type_energy_proportions['passenger'] 
     egeda_transport_type_energy_proportions['freight_energy_proportion'] = egeda_transport_type_energy_proportions['freight'] / egeda_transport_type_energy_proportions['total_energy_use']
@@ -493,6 +508,23 @@ def rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combin
             raise Exception('duplicates in road_combined')
         #melt back to long format
         road_combined = road_combined.melt(id_vars=index_cols_in_df, value_vars=['mileage','energy'], var_name='measure', value_name='value')
+    # elif mileage_and_occupancy:
+    #     logging.info('rescaling road mileage by an average of {} and occupancy/load by an average of {} to decrease energy by an average of {} across all economys. See graphs in plotting_output/data_selection/analysis/egeda_scaling/ +measure + _ +economy+.html for more'.format(round(road_combined['NEW_mileage'].mean() / road_combined['mileage'].mean(),2),round(road_combined['NEW_occupancy'].mean() / road_combined['occupancy'].mean(),2),round(merged_data['%_diff'].mean(),2)))
+
+    #     #change the mileage col to the new mileage col        
+    #     road_combined['mileage'] = road_combined['NEW_mileage']
+    #     road_combined['energy'] = road_combined['NEW_energy']
+
+    #     #keep only INDEX cols and the mileage and energy cols
+    #     index_cols_in_df = [col for col in road_combined.columns.tolist() if col in paths_dict['INDEX_COLS']]
+    #     #drop dataset and source cols
+    #     index_cols_in_df = [col for col in index_cols_in_df if col not in ['dataset']]
+    #     road_combined = road_combined[['mileage','energy']+index_cols_in_df]
+    #     #double check for duplicates
+    #     if road_combined.duplicated().any():
+    #         raise Exception('duplicates in road_combined')
+    #     #melt back to long format
+    #     road_combined = road_combined.melt(id_vars=index_cols_in_df, value_vars=['mileage','energy'], var_name='measure', value_name='value')
         
     else:
         raise Exception('not implemented yet')

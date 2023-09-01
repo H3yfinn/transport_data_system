@@ -146,8 +146,8 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
         #we will load data from the previous file date id, althoguh we will save the data to the current file date id. This will only be created for those files that take a while to create
         paths_dict['previous_intermediate_folder'] = 'intermediate_data/selection_process/{}/'.format(previous_FILE_DATE_ID)
         #initial dfs:
-        paths_dict['previous_unfiltered_combined_data_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'unfiltered_combined_data_pkl.pkl')
-        paths_dict['previous_unfiltered_combined_data_csv'] = os.path.join(paths_dict['previous_intermediate_folder'], f'unfiltered_combined_data_csv.csv')
+        paths_dict['previous_unfiltered_combined_data_pkl'] = os.path.join(paths_dict['previous_intermediate_folder'], f'unfiltered_combined_data.pkl')
+        paths_dict['previous_unfiltered_combined_data_csv'] = os.path.join(paths_dict['previous_intermediate_folder'], f'unfiltered_combined_data.csv')
         
         paths_dict['previous_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data.pkl')
         paths_dict['previous_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data_concordance.pkl')

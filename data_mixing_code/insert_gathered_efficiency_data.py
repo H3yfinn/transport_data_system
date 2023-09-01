@@ -77,12 +77,16 @@ car = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle
 suv = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='suv']
 ht = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='ht']
 mt = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='mt']
-fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new[~fuel_economy_by_vehicle_type_new['vehicle_type'].isin(['car','suv','ht','mt'])]
-car['value'] = car['value']*1.1
-suv['value'] = suv['value']*0.9
-ht['value'] = ht['value']*0.9
-mt['value'] = mt['value']*1.1
-
+lcv = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='lcv']
+lt = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='lt']
+fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new[~fuel_economy_by_vehicle_type_new['vehicle_type'].isin(['car','suv','ht','mt', 'lcv', 'lt'])]
+car['value'] = car['value']
+suv['value'] = suv['value']*0.8
+lt['value'] = lt['value']*0.8#came from its own data
+ht['value'] = ht['value']
+mt['value'] = mt['value']
+lcv['value'] = lcv['value']*2
+#get the lcvs and make them a little more efficient. They represent quite a range of vehicles and currently they relfect a delivery truck which si quite inefficient. So we will make them 2 times more efficient (might be an exaggeration but we will see how it goes)
 #%%
 #extract 2w vehicle type and replicate it for freight
 two_wheeler = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['vehicle_type']=='2w']
@@ -90,7 +94,7 @@ two_wheeler['transport_type'] = 'freight'
 fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,two_wheeler])
 
 #put thme back in:
-fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,car,suv,ht,mt])
+fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,car,suv,ht,mt,lcv,lt])
 #%%
 #now replicate the df for every year between 2010 and 2025
 fuel_economy_by_vehicle_type_new['date'] = '2010-12-31'
@@ -106,6 +110,8 @@ new_fuel_economy_by_vehicle_type_new['measure']='new_vehicle_efficiency'
 #concatenate the two dataframes
 fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new,new_fuel_economy_by_vehicle_type_new])
 #%%
+#where the economy is 08_JPN, make the car efficiency 1.2 times more efficient, because of the smaller size of cars in japan
+fuel_economy_by_vehicle_type_new.loc[(fuel_economy_by_vehicle_type_new['economy']=='08_JPN') & (fuel_economy_by_vehicle_type_new['vehicle_type']=='car'),'value'] = fuel_economy_by_vehicle_type_new.loc[(fuel_economy_by_vehicle_type_new['economy']=='08_JPN') & (fuel_economy_by_vehicle_type_new['vehicle_type']=='car'),'value']*1.2
 
 #make dataset col
 fuel_economy_by_vehicle_type_new['dataset'] = 'USA_alternative_fuels_data_center'
@@ -121,3 +127,16 @@ fuel_economy_by_vehicle_type_new.to_csv('intermediate_data/estimated/USA_based_v
 
 #%%
 
+import plotly.express as px
+import plotly.graph_objects as go
+
+fuel_economy_by_vehicle_type_new['medium+vehicle_type'] = fuel_economy_by_vehicle_type_new['medium'] + ' ' + fuel_economy_by_vehicle_type_new['vehicle_type']
+# fuel_economy_by_vehicle_type['drive'] = fuel_economy_by_vehicle_type['vehicle_sub_type'] + ' ' + fuel_economy_by_vehicle_type['drive']
+#foilter for only usa
+fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['economy']=='20_USA']
+title = 'Fuel economy by vehicle type - adjuste usa only'
+fig = px.bar(fuel_economy_by_vehicle_type_new, x="medium+vehicle_type", y="value", color="drive", facet_col="transport_type", facet_col_wrap=2, title=title)
+#save to plotting_output\analysis as html
+fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
+
+# %%

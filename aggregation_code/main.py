@@ -27,12 +27,12 @@ EARLIEST_DATE="2010-01-01"
 LATEST_DATE='2023-01-01'
 
 previous_selections_file_path = None#'input_data/previous_selections/combined_data_concordance (1).pkl'
-previous_FILE_DATE_ID =None#'DATE20230410'
+previous_FILE_DATE_ID =None#'DATE20230901'
 
 if previous_FILE_DATE_ID is not None:#you can set some of these to false if you want to do some of the steps manually
     load_data_creation_progress = True
-    load_stocks_mileage_occupancy_load_efficiency_selection_progress = True
-    load_stocks_mileage_occupancy_load_efficiency_interpolation_progress = True
+    load_stocks_mileage_occupancy_load_efficiency_selection_progress = False
+    load_stocks_mileage_occupancy_load_efficiency_interpolation_progress = False
     load_energy_activity_selection_progress = False
     load_energy_activity_interpolation_progress = False
     
@@ -59,8 +59,8 @@ tracking of """
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN=['03_CDA','08_JPN'] #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
+ECONOMIES_TO_RUN=None#['03_CDA','08_JPN'] #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN_PREV_DATE_ID =None#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 
 def setup_main():
@@ -72,8 +72,7 @@ def setup_main():
         if ECONOMIES_TO_RUN_PREV_DATE_ID is None:
             ECONOMIES_TO_RUN_PREV_DATE_ID = FILE_DATE_ID
         FILE_DATE_ID = FILE_DATE_ID + '_{}'.format("".join(ECONOMIES_TO_RUN_PREV_DATE_ID))
-
-    paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID,ECONOMIES_TO_RUN_PREV_DATE_ID, previous_selections_file_path=previous_selections_file_path)
+    paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID=previous_FILE_DATE_ID,ECONOMIES_TO_RUN_PREV_DATE_ID=ECONOMIES_TO_RUN_PREV_DATE_ID, previous_selections_file_path=previous_selections_file_path)
 
     utility_functions.setup_logging(FILE_DATE_ID,paths_dict,testing=False)
 
@@ -152,7 +151,7 @@ def main():
             combined_data_concordance, combined_data,highlight_list = data_selection_functions.import_previous_selections(combined_data_concordance,paths_dict,previous_selections_file_path,combined_data,option='b',highlight_list = highlight_list)#when we create new data later it means that their concordance will be different to this current concordance. So nothing selected after that will be able to be merged in through this function here..
             #i do wonder how highlighted (option b) is affected here.
     else:
-        unfiltered_combined_data = pd.read_pickle(paths_dict['previous_unfiltered_combined_data'])
+        unfiltered_combined_data = pd.read_pickle(paths_dict['previous_unfiltered_combined_data_pkl'])
         combined_data_concordance = pd.read_pickle(paths_dict['previous_combined_data_concordance'])
         combined_data = pd.read_pickle(paths_dict['previous_combined_data'])
 
@@ -163,167 +162,196 @@ def main():
     combined_data.to_pickle(paths_dict['combined_data'])
     logging.info('Saving combined_data_concordance and combined_data')
     
-    midway_time = time.time()
-    print('Time taken to extract and combine data: ',midway_time-start_time,' seconds')
-    ####################################################
-    #BEGIN DATA SELECTION PROCESS FOR STOCKS MILEAGE OCCUPANCY EFFICIENCY
-    ####################################################
-
-    grouping_cols = ['economy','vehicle_type','drive']
-    road_measures_selection_dict = {'measure': 
-        ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
-    'medium': ['road']}
-    highlight_list = highlight_list+[]
-    stocks_mileage_occupancy_load_efficiency_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['stocks_mileage_occupancy_load_efficiency_datasets_to_always_use']
-    #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
-    if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
-        stocks_mileage_occupancy_load_efficiency_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
-
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data_concordance)
-
-        # stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data = data_estimation_functions.TEMP_create_new_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data)
-        # 
-        # #filter for just 19_THA stocks so we can easily follow it through the process
-        # stocks_mileage_occupancy_load_efficiency_combined_data_concordance = stocks_mileage_occupancy_load_efficiency_combined_data_concordance.loc[(stocks_mileage_occupancy_load_efficiency_combined_data_concordance.economy=='19_THA')&(stocks_mileage_occupancy_load_efficiency_combined_data_concordance.measure=='stocks')]
-        # stocks_mileage_occupancy_load_efficiency_combined_data = stocks_mileage_occupancy_load_efficiency_combined_data.loc[(stocks_mileage_occupancy_load_efficiency_combined_data.economy=='19_THA')&(stocks_mileage_occupancy_load_efficiency_combined_data.measure=='stocks')]
-        # breakpoint()
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict,stocks_mileage_occupancy_load_efficiency_datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True)
+    #TEMP SHIFT TO RUN BY ECONOMY TO TAKE LESS SPACE:
+    all_economies_final_df = pd.DataFrame()
+    combined_data_copy = combined_data.copy()
+    combined_data_concordance_copy = combined_data_concordance.copy()
+    unfiltered_combined_data_copy = unfiltered_combined_data.copy()
+    for economy in unfiltered_combined_data.economy.unique():
         
-    else:
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
-    
-    stocks_mileage_occupancy_load_efficiency_combined_data_concordance.to_pickle(paths_dict['stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
-    logging.info('Saving stocks_mileage_occupancy_load_efficiency_combined_data_concordance')
-    ####################################################
-    #interpolate missing values for STOCKS MILAGE OCCUPANCY EFFICIENCY DATA
-    ####################################################
-    if not load_stocks_mileage_occupancy_load_efficiency_interpolation_progress    :#when we design actual progress integration then we wont do it like this.  
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = interpolation_functions.interpolate_missing_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.0000001, INTERPOLATION_LIMIT=10,load_progress=True)
-    else:
-        stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
-    #save to pickle
-    stocks_mileage_occupancy_load_efficiency_combined_data_concordance.to_pickle(paths_dict['interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
-    logging.info('Saving interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance')
-    
-    stocks_mileage_occupancy_load_efficiency_combined_data = data_formatting_functions.convert_concordance_to_combined_data(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, combined_data)
-    
-    ####################################################
-    #INCORPORATE NEW STOCKS MILAGE OCCUPANCY EFFICIENCY DATA TO CREATE NEW PASSANGER KM AND ENERGY DATA, THEN INCORPORATE INTO COMBINED DATA
-    ####################################################
-
-    stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data = pre_selection_estimation_functions.calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict)
-
-    stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data.to_pickle(paths_dict['calculated_activity_energy_combined_data'])
-    logging.info('Saving calculated_activity_energy_combined_data')
-
-    new_combined_data = pd.concat([combined_data,stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data],axis=0,sort=False)
-
-    new_combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(new_combined_data)
-
-    sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
-
-    new_combined_data_concordance, new_combined_data = data_selection_functions.prepare_data_for_selection(new_combined_data_concordance,new_combined_data,paths_dict, sorting_cols)
-
-    if previous_selections_file_path is not None:
-        new_combined_data_concordance, new_combined_data,highlight_list = data_selection_functions.import_previous_selections(new_combined_data_concordance,paths_dict,previous_selections_file_path,new_combined_data,option='b',highlight_list = highlight_list)#when we create new data later it means that their concordance will be different to this current concordance. So nothing selected after that will be able to be merged in through this function here..
-        #i do wonder how highlighted (option b) is affected here.
-
-    ####################################################
-    #BEGIN DATA SELECTION PROCESS FOR ALL REMAINING DATA
-    ####################################################
-    
-    #set filter_for_all_other_data to True to find all other data that is not in the road measures selection dict
-    all_other_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data, filter_for_all_other_data=True)
-    all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data_concordance, filter_for_all_other_data=True)
-
-
-    #now drop all energy and activity for air, rail and ship, as well as for
-    non_road_measures_exclusion_dict  = {'medium':['air','rail','ship'],
-                                         'measure':['energy','activity']}
-    all_other_combined_data = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data, filter_for_all_other_data=True)
-    all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data_concordance, filter_for_all_other_data=True)
-    ####################################################
-    #BEGIN DATA SELECTION PROCESS FOR ENERGY AND PASSENGER KM
-    ####################################################
-
-    #todo might be good to add an ability to choose which measures to choose from even if a whole dataset is passed. this way we can still create dashboard with occupancy and stuff on it. #although i kin of think the dashboard isnt very useufl. this can be  alater thing to do.
-    
-    
-    if not load_energy_activity_selection_progress: 
-        highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
+        #filter for economy
+        combined_data = combined_data_copy[combined_data_copy['economy'] == economy]
+        combined_data_concordance = combined_data_concordance_copy[combined_data_concordance_copy['economy'] == economy]
+        unfiltered_combined_data = unfiltered_combined_data_copy[unfiltered_combined_data_copy['economy'] == economy]
         
-        all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
-        all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1, PLOT_SELECTION_TIMESERIES=True)#todo Need some way to only select for specified measures. as we want to include occupancy and stuff in the dashboard. will also need to filter for only energy and passenger km in the output.
-    else:
-        all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_all_other_combined_data_concordance'])
+        
+        midway_time = time.time()
+        print('Time taken to extract and combine data: ',midway_time-start_time,' seconds')
+        ####################################################
+        #BEGIN DATA SELECTION PROCESS FOR STOCKS MILEAGE OCCUPANCY EFFICIENCY
+        ####################################################
 
-    #save data to pickle
-    pd.to_pickle(all_other_combined_data_concordance,paths_dict['all_other_combined_data_concordance'])
-    logging.info('Saving all_other_combined_data_concordance')
-    if not load_energy_activity_interpolation_progress:
-        #run interpolation
-        all_other_combined_data_concordance = interpolation_functions.interpolate_missing_values(all_other_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True)
-    else:
-        # all_other_combined_data = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
-        all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
+        grouping_cols = ['economy','vehicle_type','drive']
+        road_measures_selection_dict = {'measure': 
+            ['efficiency', 'occupancy_or_load', 'mileage', 'stocks'],
+        'medium': ['road']}
+        highlight_list = highlight_list+[]
+        stocks_mileage_occupancy_load_efficiency_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['stocks_mileage_occupancy_load_efficiency_datasets_to_always_use']
+        #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
+        if not load_stocks_mileage_occupancy_load_efficiency_selection_progress:#when we design actual progress integration then we wont do it like this. 
+            stocks_mileage_occupancy_load_efficiency_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
 
-    #save to pickle
-    all_other_combined_data_concordance.to_pickle(paths_dict['interpolated_all_other_combined_data_concordance'])
-    #convert to combined data
-    all_other_combined_data = data_formatting_functions.convert_concordance_to_combined_data(all_other_combined_data_concordance, combined_data)
-    logging.info('Saving interpolated_all_other_combined_data_concordance')
+            stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data_concordance)
 
-    ####################################################
-    #combine and save all data seelctions and intepolations before final calculations
-    ####################################################
+            # stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data = data_estimation_functions.TEMP_create_new_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data)
+            # 
+            # #filter for just 19_THA stocks so we can easily follow it through the process
+            # stocks_mileage_occupancy_load_efficiency_combined_data_concordance = stocks_mileage_occupancy_load_efficiency_combined_data_concordance.loc[(stocks_mileage_occupancy_load_efficiency_combined_data_concordance.economy=='19_THA')&(stocks_mileage_occupancy_load_efficiency_combined_data_concordance.measure=='stocks')]
+            # stocks_mileage_occupancy_load_efficiency_combined_data = stocks_mileage_occupancy_load_efficiency_combined_data.loc[(stocks_mileage_occupancy_load_efficiency_combined_data.economy=='19_THA')&(stocks_mileage_occupancy_load_efficiency_combined_data.measure=='stocks')]
+            # breakpoint()
+            stocks_mileage_occupancy_load_efficiency_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, stocks_mileage_occupancy_load_efficiency_combined_data_concordance, stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict,stocks_mileage_occupancy_load_efficiency_datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True)
+            
+        else:
+            stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
+        
+        stocks_mileage_occupancy_load_efficiency_combined_data_concordance.to_pickle(paths_dict['stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
+        logging.info('Saving stocks_mileage_occupancy_load_efficiency_combined_data_concordance')
+        ####################################################
+        #interpolate missing values for STOCKS MILAGE OCCUPANCY EFFICIENCY DATA
+        ####################################################
+        if not load_stocks_mileage_occupancy_load_efficiency_interpolation_progress    :#when we design actual progress integration then we wont do it like this.  
+            stocks_mileage_occupancy_load_efficiency_combined_data_concordance = interpolation_functions.interpolate_missing_values(stocks_mileage_occupancy_load_efficiency_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.0000001, INTERPOLATION_LIMIT=10,load_progress=True)
+        else:
+            stocks_mileage_occupancy_load_efficiency_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
+        #save to pickle
+        stocks_mileage_occupancy_load_efficiency_combined_data_concordance.to_pickle(paths_dict['interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'])
+        logging.info('Saving interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance')
+        
+        stocks_mileage_occupancy_load_efficiency_combined_data = data_formatting_functions.convert_concordance_to_combined_data(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, combined_data)
+        
+        ####################################################
+        #INCORPORATE NEW STOCKS MILAGE OCCUPANCY EFFICIENCY DATA TO CREATE NEW PASSANGER KM AND ENERGY DATA, THEN INCORPORATE INTO COMBINED DATA
+        ####################################################
 
-    #join the two datasets together
-    all_combined_data = pd.concat([stocks_mileage_occupancy_load_efficiency_combined_data,all_other_combined_data],axis=0)
+        stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data = pre_selection_estimation_functions.calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data, paths_dict)
 
-    all_combined_data_concordance = pd.concat([stocks_mileage_occupancy_load_efficiency_combined_data_concordance,all_other_combined_data_concordance],axis=0)
+        stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data.to_pickle(paths_dict['calculated_activity_energy_combined_data'])
+        logging.info('Saving calculated_activity_energy_combined_data')
 
-    all_combined_data_concordance.to_pickle(paths_dict['all_selections_done_combined_data_concordance'])
-    all_combined_data.to_pickle(paths_dict['all_selections_done_combined_data'])
-    ####################################################
-    #CALCUALTE NON ROAD ENERGY AND ACTIVITY DATA
-    ####################################################
+        new_combined_data = pd.concat([combined_data,stocks_mileage_occupancy_load_efficiency_activity_energy_combined_data],axis=0,sort=False)
 
-    non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict)
-    non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, paths_dict)
-    activity_non_road = data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
-    #concatenate all the data together
-    all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity_non_road],axis=0)#todo check for anything unexpected here
-    #save to pickle
-    all_new_combined_data.to_pickle(paths_dict['final_combined_data_not_rescaled'])
+        new_combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(new_combined_data)
+
+        sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
+
+        new_combined_data_concordance, new_combined_data = data_selection_functions.prepare_data_for_selection(new_combined_data_concordance,new_combined_data,paths_dict, sorting_cols)
+
+        if previous_selections_file_path is not None:
+            new_combined_data_concordance, new_combined_data,highlight_list = data_selection_functions.import_previous_selections(new_combined_data_concordance,paths_dict,previous_selections_file_path,new_combined_data,option='b',highlight_list = highlight_list)#when we create new data later it means that their concordance will be different to this current concordance. So nothing selected after that will be able to be merged in through this function here..
+            #i do wonder how highlighted (option b) is affected here.
+
+        ####################################################
+        #BEGIN DATA SELECTION PROCESS FOR ALL REMAINING DATA
+        ####################################################
+        
+        #set filter_for_all_other_data to True to find all other data that is not in the road measures selection dict
+        all_other_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data, filter_for_all_other_data=True)
+        all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data_concordance, filter_for_all_other_data=True)
 
 
-    #NOTE THAT WE CAN ALWAYS DO ANOTEHR ROUND OF SELECTIONS HERE IF WE WANT TO, BUT DOESNT SEEM USEFUL.
-    ####################################################
-    #MAKE SURE DATA MATCHES EGEDA TOTALS
-    ####################################################
-    # analysis_and_plotting_functions.plot_final_data_energy_activity(all_new_combined_data,paths_dict)
-    if RESCALE_DATA_TO_MATCH_EGEDA_TOTALS:
-        combined_rescaled_data = data_estimation_functions.rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict)
+        #now drop all energy and activity for air, rail and ship, as well as for
+        non_road_measures_exclusion_dict  = {'medium':['air','rail','ship'],
+                                            'measure':['energy','activity']}
+        all_other_combined_data = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data, filter_for_all_other_data=True)
+        all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data_concordance, filter_for_all_other_data=True)
+        ####################################################
+        #BEGIN DATA SELECTION PROCESS FOR ENERGY AND PASSENGER KM
+        ####################################################
 
-        # analysis_and_plotting_functions.plot_final_data_energy_activity(combined_rescaled_data,paths_dict)
+        #todo might be good to add an ability to choose which measures to choose from even if a whole dataset is passed. this way we can still create dashboard with occupancy and stuff on it. #although i kin of think the dashboard isnt very useufl. this can be  alater thing to do.
+        
+        
+        if not load_energy_activity_selection_progress: 
+            highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
+            
+            all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
+            all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1, PLOT_SELECTION_TIMESERIES=True)#todo Need some way to only select for specified measures. as we want to include occupancy and stuff in the dashboard. will also need to filter for only energy and passenger km in the output.
+        else:
+            all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_all_other_combined_data_concordance'])
+
+        #save data to pickle
+        pd.to_pickle(all_other_combined_data_concordance,paths_dict['all_other_combined_data_concordance'])
+        logging.info('Saving all_other_combined_data_concordance')
+        if not load_energy_activity_interpolation_progress:
+            #run interpolation
+            all_other_combined_data_concordance = interpolation_functions.interpolate_missing_values(all_other_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True)
+        else:
+            # all_other_combined_data = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
+            all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
 
         #save to pickle
-        combined_rescaled_data.to_pickle(paths_dict['final_combined_rescaled_data'])
-        
-        combined_rescaled_data.to_pickle(paths_dict['final_combined_data_pkl'])
+        all_other_combined_data_concordance.to_pickle(paths_dict['interpolated_all_other_combined_data_concordance'])
+        #convert to combined data
+        all_other_combined_data = data_formatting_functions.convert_concordance_to_combined_data(all_other_combined_data_concordance, combined_data)
+        logging.info('Saving interpolated_all_other_combined_data_concordance')
 
-        #save to output_data
-        combined_rescaled_data.to_csv(paths_dict['final_data_csv'], index=False)
-    else:
+        ####################################################
+        #combine and save all data seelctions and intepolations before final calculations
+        ####################################################
+
+        #join the two datasets together
+        all_combined_data = pd.concat([stocks_mileage_occupancy_load_efficiency_combined_data,all_other_combined_data],axis=0)
+
+        all_combined_data_concordance = pd.concat([stocks_mileage_occupancy_load_efficiency_combined_data_concordance,all_other_combined_data_concordance],axis=0)
+
+        all_combined_data_concordance.to_pickle(paths_dict['all_selections_done_combined_data_concordance'])
+        all_combined_data.to_pickle(paths_dict['all_selections_done_combined_data'])
+        ####################################################
+        #CALCUALTE NON ROAD ENERGY AND ACTIVITY DATA
+        ####################################################
+
+        non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict)
+        non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, paths_dict)
+        activity_non_road = data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
+        #concatenate all the data together
+        all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity_non_road],axis=0)#todo check for anything unexpected here
         #save to pickle
-        all_new_combined_data.to_pickle(paths_dict['final_combined_data_pkl'])
-        
-        #save to output_data
-        all_new_combined_data.to_csv(paths_dict['final_data_csv'], index=False)
+        all_new_combined_data.to_pickle(paths_dict['final_combined_data_not_rescaled'])
+
+
+        #NOTE THAT WE CAN ALWAYS DO ANOTEHR ROUND OF SELECTIONS HERE IF WE WANT TO, BUT DOESNT SEEM USEFUL.
+        ####################################################
+        #MAKE SURE DATA MATCHES EGEDA TOTALS
+        ####################################################
+        # analysis_and_plotting_functions.plot_final_data_energy_activity(all_new_combined_data,paths_dict)
+        if RESCALE_DATA_TO_MATCH_EGEDA_TOTALS:
+            combined_rescaled_data = data_estimation_functions.rescale_total_energy_to_egeda_totals(all_new_combined_data,unfiltered_combined_data,paths_dict)
+
+            # analysis_and_plotting_functions.plot_final_data_energy_activity(combined_rescaled_data,paths_dict)
+
+            #save to pickle
+            combined_rescaled_data.to_pickle(paths_dict['final_combined_rescaled_data'])
+            
+            combined_rescaled_data.to_pickle(paths_dict['final_combined_data_pkl'])
+
+            #save to output_data
+            combined_rescaled_data.to_csv(paths_dict['final_data_csv'], index=False)
+            
+            #save data with economy name, just in case we need it later
+            combined_rescaled_data.to_pickle(paths_dict['final_combined_data_pkl'][:-4]+'_'+economy+'.pkl')
+            combined_rescaled_data.to_csv(paths_dict['final_data_csv'][:-4]+'_'+economy+'.csv', index=False)
+            
+            all_economies_final_df = pd.concat([all_economies_final_df,combined_rescaled_data],axis=0)
+        else:
+            #save to pickle
+            all_new_combined_data.to_pickle(paths_dict['final_combined_data_pkl'])
+            
+            #save to output_data
+            all_new_combined_data.to_csv(paths_dict['final_data_csv'], index=False)
+            
+            #save data with economy name, just in case we need it later
+            all_new_combined_data.to_pickle(paths_dict['final_combined_data_pkl'][:-4]+'_'+economy+'.pkl')
+            all_new_combined_data.to_csv(paths_dict['final_data_csv'][:-4]+'_'+economy+'.csv', index=False)
+            
+            all_economies_final_df = pd.concat([all_economies_final_df,all_new_combined_data],axis=0)
     ####################################################
     #FINALISE DATA
     ####################################################
-
+    #save to pickle
+    all_economies_final_df.to_pickle(paths_dict['final_combined_data_pkl'])
+    all_economies_final_df.to_csv(paths_dict['final_data_csv'], index=False)
+    print('Saving final_combined_data_pkl and final_data_csv')
+    
     if ECONOMIES_TO_RUN is not None:
         #
         # grab data for ECONOMIES_TO_RUN_PREV_DATE_ID

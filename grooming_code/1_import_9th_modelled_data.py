@@ -14,7 +14,11 @@ FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 ###########Thailand:####################### #based on https://chat.openai.com/share/bb174391-f64f-47b4-b502-84de77a829b2 and work that htanan and praw did in finding the values. they are heavily simplified from what they gave me
 # Load the data
-df = pd.read_excel("./input_data/Thailand/Vehicle stock analysis DEC 2022.xlsx", sheet_name="data_system_input 2020")
+df = pd.read_excel("./input_data/Thailand/9th_model_first_iteration_tha.xlsx", sheet_name="data_system_input 2020")
+
+#from all, remove the cols after I and below row 8
+df = df.iloc[:5,:8]
+
 # Melt the data
 df_melted = df.melt(id_vars=df.columns[0], var_name='Vehicle Type', value_name='Value')
 
@@ -44,7 +48,7 @@ df_melted.to_csv('intermediate_data/THA/thailand_new_stocks_9th_model_first_iter
 #######################:#######################
 #now do it for usa. currently jsut adjusting stocks with drive set to all. Hopefully the way it gets spat out by the model will reflect an accurate representation of drive distributions
 
-usa_stocks = pd.read_excel("./input_data/USA/9th_first_iteration_checking.xlsx", sheet_name="data_system_input_2020")
+usa_stocks = pd.read_excel("./input_data/USA/9th_first_iteration_usa.xlsx", sheet_name="data_system_input_2020")
 #set source to blank
 usa_stocks["Source"] = ""
 # Save the transformed data to an Excel file
@@ -52,15 +56,15 @@ usa_stocks.to_csv('intermediate_data/USA/usa_new_stocks_9th_model_first_iteratio
 #%%
 #######################:#######################
 #and for cda:
-canada_stocks2017 = pd.read_excel("./input_data/Canada/9th_model_first_iteration.xlsx", sheet_name="2017")
+canada_stocks2017 = pd.read_excel("./input_data/Canada/9th_model_first_iteration_cda.xlsx", sheet_name="2017")
 
-canada_stocks2018 = pd.read_excel("./input_data/Canada/9th_model_first_iteration.xlsx", sheet_name="2018")
+canada_stocks2018 = pd.read_excel("./input_data/Canada/9th_model_first_iteration_cda.xlsx", sheet_name="2018")
 
-canada_stocks2019 = pd.read_excel("./input_data/Canada/9th_model_first_iteration.xlsx", sheet_name="2019")
+canada_stocks2019 = pd.read_excel("./input_data/Canada/9th_model_first_iteration_cda.xlsx", sheet_name="2019")
 
-canada_stocks2020 = pd.read_excel("./input_data/Canada/9th_model_first_iteration.xlsx", sheet_name="2020")
+canada_stocks2020 = pd.read_excel("./input_data/Canada/9th_model_first_iteration_cda.xlsx", sheet_name="2020")
 
-canada_stocks2021 = pd.read_excel("./input_data/Canada/9th_model_first_iteration.xlsx", sheet_name="2021")
+canada_stocks2021 = pd.read_excel("./input_data/Canada/9th_model_first_iteration_cda.xlsx", sheet_name="2021")
 
 #from all, remove the cols after I and below row 8
 canada_stocks2017 = canada_stocks2017.iloc[:7,:8]
@@ -108,22 +112,22 @@ canada_stocks.to_csv('intermediate_data/CDA/canada_new_stocks_9th_model_first_it
 #%%
 #######################:#######################
 #and for jap:
-Japan_stocks2017 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2017")
+Japan_stocks2017 = pd.read_excel("./input_data/Japan/9th_model_first_iteration_japan.xlsx", sheet_name="2017")
 
-Japan_stocks2018 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2018")
+Japan_stocks2018 = pd.read_excel("./input_data/Japan/9th_model_first_iteration_japan.xlsx", sheet_name="2018")
 
-Japan_stocks2019 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2019")
+Japan_stocks2019 = pd.read_excel("./input_data/Japan/9th_model_first_iteration_japan.xlsx", sheet_name="2019")
 
-Japan_stocks2020 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2020")
+Japan_stocks2020 = pd.read_excel("./input_data/Japan/9th_model_first_iteration_japan.xlsx", sheet_name="2020")
 
-Japan_stocks2021 = pd.read_excel("./input_data/Japan/9th_model_first_iteration.xlsx", sheet_name="2021")
+Japan_stocks2021 = pd.read_excel("./input_data/Japan/9th_model_first_iteration_japan.xlsx", sheet_name="2021")
 
 #from all, remove the cols after I and below row 8
-Japan_stocks2017 = Japan_stocks2017.iloc[:4,:4]
-Japan_stocks2018 = Japan_stocks2018.iloc[:4,:4]
-Japan_stocks2019 = Japan_stocks2019.iloc[:4,:4]
-Japan_stocks2020 = Japan_stocks2020.iloc[:4,:4]
-Japan_stocks2021 = Japan_stocks2021.iloc[:4,:4]
+Japan_stocks2017 = Japan_stocks2017.iloc[:5,:4]
+Japan_stocks2018 = Japan_stocks2018.iloc[:5,:4]
+Japan_stocks2019 = Japan_stocks2019.iloc[:5,:4]
+Japan_stocks2020 = Japan_stocks2020.iloc[:5,:4]
+Japan_stocks2021 = Japan_stocks2021.iloc[:5,:4]
 #now melt all
 Japan_stocks2017_melted = Japan_stocks2017.melt(id_vars=Japan_stocks2017.columns[0], var_name='Vehicle Type', value_name='Value')
 Japan_stocks2018_melted = Japan_stocks2018.melt(id_vars=Japan_stocks2018.columns[0], var_name='Vehicle Type', value_name='Value')
