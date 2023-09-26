@@ -20,11 +20,18 @@ stocks_mileage_occupancy_load_efficiency_datasets_to_always_use:
   - '9th_model_first_iteration'
   - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split ice_split'
   - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split'
+  - 'AUS_census'
 all_other_combined_data_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
   
-#in the below, make sure to set the key to be as much of the file name as you can while excluding its date . this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
+#in the below, make sure to set the key to be as much of the file name as you can while excluding its date and file type. this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
+  _census:
+    file_path: intermediate_data/AUS/FILE_DATE_ID_aus_census.csv
+    folder: intermediate_data/AUS/
+    script: 1_aus_census.py
+    included: True
+    type: transport
   japan_new_stocks_9th_model_first_iteration_:
     file_path: intermediate_data/JPN/japan_new_stocks_9th_model_first_iteration_FILE_DATE_ID.csv
     folder: intermediate_data/JPN/

@@ -59,8 +59,8 @@ tracking of """
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN=None#['03_CDA','08_JPN'] #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-ECONOMIES_TO_RUN_PREV_DATE_ID =None#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
+ECONOMIES_TO_RUN='01_AUS'#['03_CDA','08_JPN'] #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20230926'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 
 def setup_main():

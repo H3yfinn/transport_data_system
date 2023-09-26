@@ -93,6 +93,9 @@ df_final['Date'] = df_final['Date'].astype(str) + '-12-31'
 df_final['Frequency'] = 'Yearly'
 df_final['Fuel'] = 'all'
 df_final['Scope'] = 'National'
+df_final['Economy'] = '01_AUS'
+
+df_final['Unit'] = 'Stocks'
 
 #%%
 #save the data
@@ -100,7 +103,7 @@ df_final['Scope'] = 'National'
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
-df_final.to_csv('intermediate_data/AUS/{}_census.csv'.format(FILE_DATE_ID), index=False)
+df_final.to_csv('intermediate_data/AUS/{}_aus_census.csv'.format(FILE_DATE_ID), index=False)
 
 
 #%%
