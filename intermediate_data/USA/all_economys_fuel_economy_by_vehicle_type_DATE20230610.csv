@@ -1,0 +1,106 @@
+transport_type,vehicle_sub_type,vehicle_type,drive,unit,medium,scope,date,measure,value,economy,frequency
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,01_AUS,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,02_BD,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,03_CDA,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,04_CHL,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,05_PRC,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,06_HKC,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,07_INA,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,08_JPN,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,09_ROK,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,10_MAS,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,11_MEX,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,12_NZ,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,13_PNG,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,14_PE,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,15_RP,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,16_RUS,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,17_SIN,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,18_CT,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,19_THA,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,20_USA,Yearly
+passenger,2w,2w,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,3471.6715932203388,21_VN,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,01_AUS,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,02_BD,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,03_CDA,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,04_CHL,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,05_PRC,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,06_HKC,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,07_INA,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,08_JPN,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,09_ROK,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,10_MAS,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,11_MEX,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,12_NZ,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,13_PNG,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,14_PE,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,15_RP,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,16_RUS,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,17_SIN,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,18_CT,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,19_THA,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,20_USA,Yearly
+passenger,car,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1909.4193762711861,21_VN,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,01_AUS,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,02_BD,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,03_CDA,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,04_CHL,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,05_PRC,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,06_HKC,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,07_INA,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,08_JPN,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,09_ROK,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,10_MAS,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,11_MEX,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,12_NZ,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,13_PNG,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,14_PE,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,15_RP,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,16_RUS,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,17_SIN,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,18_CT,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,19_THA,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,20_USA,Yearly
+passenger,light truck,ldv,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,1380.7784745762713,21_VN,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,01_AUS,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,02_BD,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,03_CDA,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,04_CHL,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,05_PRC,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,06_HKC,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,07_INA,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,08_JPN,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,09_ROK,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,10_MAS,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,11_MEX,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,12_NZ,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,13_PNG,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,14_PE,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,15_RP,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,16_RUS,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,17_SIN,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,18_CT,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,19_THA,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,20_USA,Yearly
+passenger,transit,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,408.493449,21_VN,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,01_AUS,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,02_BD,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,03_CDA,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,04_CHL,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,05_PRC,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,06_HKC,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,07_INA,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,08_JPN,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,09_ROK,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,10_MAS,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,11_MEX,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,12_NZ,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,13_PNG,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,14_PE,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,15_RP,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,16_RUS,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,17_SIN,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,18_CT,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,19_THA,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,20_USA,Yearly
+passenger,urban,bus,ice,Km_per_MJ,road,national,2019-12-31,Efficiency,488.79558,21_VN,Yearly

@@ -1,0 +1,121 @@
+Medium,Transport Type,Vehicle Type,Drive,Economy,Frequency,Measure,Unit,Scope,Fuel_Type,Date,Value,Comments,Dataset,Fuel,Source
+nonspecified,,,,12_NZ,Yearly,Energy,PJ,National,,2017-12-31,0.00041868,,Nearest_year_2016,1.3 Sub-bituminous coal,EGEDA $ EGEDA
+nonspecified,,,,12_NZ,Yearly,Energy,PJ,National,,2017-12-31,0.00041868,,Nearest_year_2016,19 Total,EGEDA $ EGEDA
+air,combined,,,01_AUS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,122.611,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,05_PRC,Yearly,Energy,PJ,National,Oil Products,2017-12-31,1244.144,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,06_HKC,Yearly,Energy,PJ,National,Oil Products,2017-12-31,0.251,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,07_INA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,121.902,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,08_JPN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,146.273,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,09_ROK,Yearly,Energy,PJ,National,Oil Products,2017-12-31,45.83,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,10_MAS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,23.648,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,12_NZ,Yearly,Energy,PJ,National,Oil Products,2017-12-31,14.141,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,13_PNG,Yearly,Energy,PJ,National,Oil Products,2017-12-31,3.293,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,15_RP,Yearly,Energy,PJ,National,Oil Products,2017-12-31,27.978,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,16_RUS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,251.414,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,19_THA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,33.066,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+air,combined,,,21_VN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,37.088,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,01_AUS,Yearly,Energy,PJ,National,,2017-12-31,1391.772,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,05_PRC,Yearly,Energy,PJ,National,,2017-12-31,10405.05,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,07_INA,Yearly,Energy,PJ,National,,2017-12-31,1263.085,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,09_ROK,Yearly,Energy,PJ,National,,2017-12-31,1561.634,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,12_NZ,Yearly,Energy,PJ,National,,2017-12-31,226.736,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,15_RP,Yearly,Energy,PJ,National,,2017-12-31,585.992,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,17_SIN,Yearly,Energy,PJ,National,,2017-12-31,103.934,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+all,combined,,,21_VN,Yearly,Energy,PJ,National,,2017-12-31,534.293,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+nonspecified,,,,09_ROK,Yearly,Energy,PJ,National,,2017-12-31,0.04270536,,Nearest_year_2015,7.06 Kerosene,EGEDA $ EGEDA
+nonspecified,,,,09_ROK,Yearly,Energy,PJ,National,,2017-12-31,0.04270536,,Nearest_year_2015,19 Total,EGEDA $ EGEDA
+rail,combined,,,01_AUS,Yearly,Energy,PJ,National,Electricity,2017-12-31,11.664,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,01_AUS,Yearly,Energy,PJ,National,Primary Coal and Peat,2017-12-31,0.027,,Nearest_year_2015,,ATO $ UN Energy Statistics Database
+rail,combined,,,05_PRC,Yearly,Energy,PJ,National,Electricity,2017-12-31,351.083,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,05_PRC,Yearly,Energy,PJ,National,Primary Coal and Peat,2017-12-31,45.143,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,05_PRC,Yearly,Energy,PJ,National,,2017-12-31,519.069,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,07_INA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,8.945,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,07_INA,Yearly,Energy,PJ,National,,2017-12-31,9.946,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,08_JPN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,6.848,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,08_JPN,Yearly,Energy,PJ,National,,2017-12-31,70.043,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,09_ROK,Yearly,Energy,PJ,National,Oil Products,2017-12-31,3.83,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,10_MAS,Yearly,Energy,PJ,National,Electricity,2017-12-31,1.81,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,10_MAS,Yearly,Energy,PJ,National,,2017-12-31,1.811,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,12_NZ,Yearly,Energy,PJ,National,Oil Products,2017-12-31,1.635,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,12_NZ,Yearly,Energy,PJ,National,,2017-12-31,1.901,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,15_RP,Yearly,Energy,PJ,National,Electricity,2017-12-31,0.382,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,15_RP,Yearly,Energy,PJ,National,,2017-12-31,0.451,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,16_RUS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,167.441,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,16_RUS,Yearly,Energy,PJ,National,,2017-12-31,357.812,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,17_SIN,Yearly,Energy,PJ,National,,2017-12-31,10.875,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,19_THA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,3.071,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,21_VN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,2.193,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail,combined,,,21_VN,Yearly,Energy,PJ,National,,2017-12-31,2.193,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,hdv,bev,03_CDA,Yearly,Sales,sales,National,,2017-12-31,1.0,,Nearest_year_2015,,IEA EVs $ Historical
+road,combined,hdv,bev,12_NZ,Yearly,Sales,sales,National,,2017-12-31,70.0,,Nearest_year_2019,,IEA EVs $ Historical
+road,combined,hdv,bev and phev,03_CDA,Yearly,Sales share,percent,National,,2017-12-31,0.0021282725501805,,Nearest_year_2015,,IEA EVs $ Historical
+road,combined,hdv,bev and phev,12_NZ,Yearly,Stock share,percent,National,,2017-12-31,0.1234595105051994,,Nearest_year_2019,,IEA EVs $ Historical
+road,combined,hdv,phev,03_CDA,Yearly,Sales,sales,National,,2017-12-31,5.0,,Nearest_year_2015,,IEA EVs $ Historical
+road,combined,,,01_AUS,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,5.37,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,01_AUS,Yearly,Energy,PJ,National,Natural Gas,2017-12-31,3.124,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,01_AUS,Yearly,Energy,PJ,National,Renewables (of which),2017-12-31,5.37,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,02_BD,Yearly,Energy,PJ,National,Oil Products,2017-12-31,18.49,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,05_PRC,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,377.44,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,05_PRC,Yearly,Energy,PJ,National,Natural Gas,2017-12-31,1158.573,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,05_PRC,Yearly,Energy,PJ,National,Renewables (of which),2017-12-31,377.44,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,06_HKC,Yearly,Energy,PJ,National,Oil Products,2017-12-31,95.966,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,07_INA,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,169.758,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,07_INA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,748.135,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,08_JPN,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,17.133,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,08_JPN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,2544.071,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,09_ROK,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,23.551,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,09_ROK,Yearly,Energy,PJ,National,Natural Gas,2017-12-31,49.829,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,09_ROK,Yearly,Energy,PJ,National,Renewables (of which),2017-12-31,23.551,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,10_MAS,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,15.229,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,10_MAS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,857.912,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,12_NZ,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,0.272,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,12_NZ,Yearly,Energy,PJ,National,Natural Gas,2017-12-31,0.023,,Nearest_year_2015,,ATO $ UN Energy Statistics Database
+road,combined,,,12_NZ,Yearly,Energy,PJ,National,Renewables (of which),2017-12-31,0.272,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,12_NZ,Yearly,energy_use_tonnes,tonnes,National,bio_diesel,2017-12-31,0.004284,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,13_PNG,Yearly,Energy,PJ,National,,2017-12-31,20.618,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,15_RP,Yearly,Energy,PJ,National,Oil Products,2017-12-31,459.037,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,16_RUS,Yearly,Energy,PJ,National,Natural Gas,2017-12-31,8.702,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,16_RUS,Yearly,Energy,PJ,National,,2017-12-31,2191.469,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,17_SIN,Yearly,Energy,PJ,National,,2017-12-31,89.791,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,19_THA,Yearly,Energy,PJ,National,Natural Gas,2017-12-31,65.542,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,19_THA,Yearly,Energy,PJ,National,Renewables (of which),2017-12-31,90.782,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,combined,,,21_VN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,493.154,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+road,freight,ht,bev,12_NZ,Yearly,Sales,sales,National,,2017-12-31,34.0,,Nearest_year_2019,,IEA EVs $ Historical
+road,freight,ht,bev and phev,12_NZ,Yearly,Sales share,percent,National,,2017-12-31,0.4788732528686523,,Nearest_year_2019,,IEA EVs $ Historical
+road,passenger,2W,All,16_RUS,Yearly,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,National,,2017-12-31,0.0,,Nearest_year_2015,,ITEM $ United Nations Economic Commission for Europe
+road,passenger,bus,All,16_RUS,Yearly,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,National,,2017-12-31,6000000.0,,Nearest_year_2015,,ITEM $ United Nations Economic Commission for Europe
+road,passenger,ldv,All,16_RUS,Yearly,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,National,,2017-12-31,302000000.0,,Nearest_year_2015,,ITEM $ United Nations Economic Commission for Europe
+ship,combined,,,01_AUS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,32.303,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,01_AUS,Yearly,Energy,PJ,National,,2017-12-31,32.303,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,05_PRC,Yearly,Energy,PJ,National,Oil Products,2017-12-31,1038.598,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,05_PRC,Yearly,Energy,PJ,National,,2017-12-31,1041.091,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,07_INA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,41.022,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,08_JPN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,126.861,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,09_ROK,Yearly,Energy,PJ,National,Oil Products,2017-12-31,15.938,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,12_NZ,Yearly,Energy,PJ,National,Oil Products,2017-12-31,4.338,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,15_RP,Yearly,Energy,PJ,National,Biofuels and Waste,2017-12-31,0.243,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,15_RP,Yearly,Energy,PJ,National,Renewables (of which),2017-12-31,0.243,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,16_RUS,Yearly,Energy,PJ,National,Oil Products,2017-12-31,25.923,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,17_SIN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,3.268,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,19_THA,Yearly,Energy,PJ,National,Oil Products,2017-12-31,8.247,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+ship,combined,,,21_VN,Yearly,Energy,PJ,National,Oil Products,2017-12-31,1.858,,Nearest_year_2019,,ATO $ UN Energy Statistics Database
+rail_road,passenger,,,17_SIN,Yearly,passenger_km,passenger_km,National,,2017-12-31,9391000000.0,,Nearest_year_2014,,ATO $ Country Official Statistics
+road,combined,hdv,bev,12_NZ,Yearly,Stocks,Stocks,National,,2017-12-31,850.0,,Nearest_year_2020,,IEA EVs $ Historical
+road,combined,hdv,bev and phev,12_NZ,Yearly,Sales share,percent,National,,2017-12-31,0.2038341462612152,,Nearest_year_2020,,IEA EVs $ Historical
+road,combined,hdv,phev,12_NZ,Yearly,Sales,sales,National,,2017-12-31,1.0,,Nearest_year_2020,,IEA EVs $ Historical
+road,combined,,,15_RP,Yearly,Energy,PJ,National,natural_gas,2017-12-31,0.0039021,,Nearest_year_2014,,ATO $ UN Energy Statistics Database
+road,freight,ht,bev,03_CDA,Yearly,Sales,sales,National,,2017-12-31,7.0,,Nearest_year_2020,,IEA EVs $ Historical
+road,freight,ht,bev and phev,03_CDA,Yearly,Sales share,percent,National,,2017-12-31,0.007707386277616,,Nearest_year_2020,,IEA EVs $ Historical
+road,freight,ht,bev and phev,09_ROK,Yearly,Stock share,percent,National,,2017-12-31,1.6719050407409668,,Nearest_year_2020,,IEA EVs $ Historical
+road,passenger,3w,,15_RP,Yearly,Stocks,Stocks,National,,2017-12-31,1451417.0,,Nearest_year_2020,,ATO $ Country Official Statistics
+road,passenger,rail,All,16_RUS,Yearly,Vehicles per 1000 inhabitants,Vehicles per 1000 inhabitants,National,,2017-12-31,0.0,,Nearest_year_2014,,ITEM $ United Nations Economic Commission for Europe
+road,,,Publicly available fast,07_INA,Yearly,EV Charging points,charging points,National,,2017-12-31,51.0,,Nearest_year_2020,,IEA EVs $ Historical
+ship,,,,14_PE,Yearly,Energy,PJ,National,,2017-12-31,0.5970699321205288,,Nearest_year_2020,7.08 Fuel oil,EGEDA $ EGEDA
+ship,,,,14_PE,Yearly,Energy,PJ,National,,2017-12-31,0.5970699321205288,,Nearest_year_2020,19 Total,EGEDA $ EGEDA
+road,combined,hdv,bev,03_CDA,Yearly,Stocks,Stocks,National,,2017-12-31,4175.0,,Nearest_year_2021,,IEA EVs $ Historical
+road,combined,hdv,phev,05_PRC,Yearly,Sales,sales,National,,2017-12-31,155.0,,Nearest_year_2021,,IEA EVs $ Projection-APS
+road,combined,hdv,phev,05_PRC,Yearly,Sales,sales,National,,2017-12-31,155.0,,Nearest_year_2021,,IEA EVs $ Historical
+road,combined,hdv,phev,05_PRC,Yearly,Sales,sales,National,,2017-12-31,155.0,,Nearest_year_2021,,IEA EVs $ Projection-STEPS
+road,freight,ht,bev and phev,03_CDA,Yearly,Stock share,percent,National,,2017-12-31,0.0006420440622605,,Nearest_year_2021,,IEA EVs $ Historical
+road,passenger,bus,phev,12_NZ,Yearly,Stocks,Stocks,National,,2017-12-31,1.0,,Nearest_year_2021,,IEA EVs $ Historical
+road,,,Publicly available slow,07_INA,Yearly,EV Charging points,charging points,National,,2017-12-31,54.0,,Nearest_year_2021,,IEA EVs $ Historical

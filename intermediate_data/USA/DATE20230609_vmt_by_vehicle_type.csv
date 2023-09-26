@@ -1,0 +1,9 @@
+transport_type,vehicle_sub_type,vehicle_type,drive,unit,medium,scope,date,economy,measure,value
+freight,Van,ldv,all,mileage,road,national,2019-12-31,20_USA,mileage,11543.0
+freight,heavy truck,ht,all,mileage,road,national,2019-12-31,20_USA,mileage,62751.0
+freight,urban,ht,all,mileage,road,national,2019-12-31,20_USA,mileage,18717.5
+passenger,2w,2w,all,mileage,road,national,2019-12-31,20_USA,mileage,2312.0
+passenger,car,ldv,all,mileage,road,national,2019-12-31,20_USA,mileage,11467.0
+passenger,light truck,ldv,all,mileage,road,national,2019-12-31,20_USA,mileage,11543.0
+passenger,transit,bus,all,mileage,road,national,2019-12-31,20_USA,mileage,36538.0
+passenger,urban,bus,all,mileage,road,national,2019-12-31,20_USA,mileage,12000.0

@@ -1,0 +1,5 @@
+Source,Dataset,Comments,Date,Measure,Unit,Economy,Medium,Transport Type,Vehicle Type,Value,Drive,fuel,scope,frequency
+usa_fdha,9th_model_first_iteration,no_comment,2020,Stocks,Stocks,20_USA,road,passenger,lpv,178000000,all,all,national,yearly
+usa_fdha,9th_model_first_iteration,no_comment,2020,Stocks,Stocks,20_USA,road,passenger,bus,1010304,all,all,national,yearly
+usa_fdha,9th_model_first_iteration,three times what it was in 8th,2020,Stocks,Stocks,20_USA,road,freight,all,88578628,all,all,national,yearly
+usa_fdha,9th_model_first_iteration,no_comment,2020,Stocks,Stocks,20_USA,road,passenger,2w,8347435,all,all,national,yearly

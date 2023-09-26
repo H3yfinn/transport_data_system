@@ -1,0 +1,8 @@
+transport_type,vehicle_type,drive,unit,medium,scope,date,economy,measure,value
+passenger,2w,all,passengers,road,national,2019-12-31,20_USA,Occupancy,1.2
+passenger,all,all,passengers,air,national,2019-12-31,20_USA,Occupancy,120.43412339088691
+passenger,all,all,passengers,rail,national,2019-12-31,20_USA,Occupancy,26.88437131336659
+passenger,bus,all,passengers,road,national,2019-12-31,20_USA,Occupancy,7.52660092762209
+passenger,car,all,passengers,road,national,2019-12-31,20_USA,Occupancy,1.54
+passenger,ldv,all,passengers,road,national,2019-12-31,20_USA,Occupancy,1.82
+passenger,suv,all,passengers,road,national,2019-12-31,20_USA,Occupancy,1.54

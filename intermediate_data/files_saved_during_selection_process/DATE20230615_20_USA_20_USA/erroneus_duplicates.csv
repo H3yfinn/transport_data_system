@@ -1,0 +1,15 @@
+date,economy,measure,vehicle_type,unit,medium,transport_type,drive,frequency,fuel,comment,scope,dataset,value
+2017,20_USA,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,8765705.0
+2017,20_USA,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,2349469.0
+2017,20_USA,stocks,2w,stocks,road,passenger,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,8654389.0
+2017,20_USA,stocks,bus,stocks,road,passenger,ice_d,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,383497.0
+2017,20_USA,stocks,bus,stocks,road,passenger,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,25325.0
+2017,20_USA,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,50682.0
+2017,20_USA,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,11374996.0
+2017,20_USA,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,785641.8205434001
+2017,20_USA,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,10364808.1794566
+2017,20_USA,stocks,2w,stocks,road,passenger,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,2892007.6666666665
+2017,20_USA,stocks,bus,stocks,road,passenger,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,9311.144581260303
+2017,20_USA,stocks,bus,stocks,road,passenger,ice_d,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,441618.85541873967
+2017,20_USA,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,3803332.682070917
+2017,20_USA,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,8th_-_new_vtypes_and_drives $ reference,7657503.317929083

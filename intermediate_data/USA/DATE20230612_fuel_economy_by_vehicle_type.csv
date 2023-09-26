@@ -1,0 +1,25 @@
+transport_type,vehicle_sub_type,vehicle_type,drive,unit,medium,scope,date,economy,measure,value
+freight,Class 8,ht,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,76328150.30774216
+freight,Class 8,ht,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,80984774.8623259
+freight,Class 8,ht,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,71671525.75315842
+freight,light truck,ldv,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,251552284.44171146
+freight,light truck,ldv,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,266898975.53497234
+freight,light truck,ldv,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,236205593.34845054
+freight,urban,bus,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,89049508.69236585
+freight,urban,bus,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,94482237.33938022
+freight,urban,bus,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,83616780.04535149
+freight,urban,ht,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,64815320.96965771
+freight,urban,ht,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,68769571.32059175
+freight,urban,ht,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,60861070.61872369
+passenger,2w,2w,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,632474315.1677316
+passenger,2w,2w,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,671060281.3450733
+passenger,2w,2w,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,593888348.99039
+passenger,car,ldv,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,347860873.3422524
+passenger,car,ldv,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,369083154.7397903
+passenger,car,ldv,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,326638591.9447144
+passenger,ridesource,ridesource,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,366547614.4722081
+passenger,ridesource,ridesource,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,388909935.7795312
+passenger,ridesource,ridesource,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,344185293.16488504
+passenger,transit,bus,ice,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,74419946.5500486
+passenger,transit,bus,ice_d,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,78960155.49076775
+passenger,transit,bus,ice_g,Km_per_PJ,road,national,2019-12-31,20_USA,Efficiency,69879737.60932946

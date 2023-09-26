@@ -1,0 +1,24 @@
+Vehicle Type,Drive,Measure,Economy,Date,Scope,Frequency,Unit,Dataset,Transport Type,Medium,Value,Source
+2w,bev,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,597025.6556735648,8th/ATOCountryOfficialStatistics
+2w,g,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,3178048944.4498663,8th/ATOCountryOfficialStatistics
+bus,cng,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,57199.539342345546,8th/ATOCountryOfficialStatistics
+bus,d,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,6464577087.195246,8th/ATOCountryOfficialStatistics
+bus,g,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,15154903437.711231,8th/ATOCountryOfficialStatistics
+bus,lpg,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,707828101.2618897,8th/ATOCountryOfficialStatistics
+2w,g,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,2819643604.616776,8th/ATOCountryOfficialStatistics
+bus,d,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,770472407863.4115,8th/ATOCountryOfficialStatistics
+bus,fcev,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,11864994.053652368,8th/ATOCountryOfficialStatistics
+bus,g,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,40704202789.91207,8th/ATOCountryOfficialStatistics
+bus,lpg,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,404841471.9920821,8th/ATOCountryOfficialStatistics
+ldv,bev,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,13526267.358491499,8th/ATOCountryOfficialStatistics
+ldv,cng,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,1428455107.9924774,8th/ATOCountryOfficialStatistics
+ldv,d,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,63731891523.22678,8th/ATOCountryOfficialStatistics
+ldv,g,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,237025723929.51315,8th/ATOCountryOfficialStatistics
+ldv,lpg,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,13477272601.07518,8th/ATOCountryOfficialStatistics
+ldv,phevg,passenger_km,01_AUS,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,39376512.7544883,8th/ATOCountryOfficialStatistics
+ldv,bev,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,49360280.978962824,8th/ATOCountryOfficialStatistics
+ldv,d,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,7612305084.114393,8th/ATOCountryOfficialStatistics
+ldv,fcev,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,97226.45538191711,8th/ATOCountryOfficialStatistics
+ldv,g,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,60888425889.49702,8th/ATOCountryOfficialStatistics
+ldv,lpg,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,1991120393.796501,8th/ATOCountryOfficialStatistics
+ldv,phevg,passenger_km,08_JPN,2017-12-31,National,Yearly,passenger_km,BusPassengerKm_est,passenger,road,1022216.2471191251,8th/ATOCountryOfficialStatistics
