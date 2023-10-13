@@ -94,7 +94,7 @@ df_final['Frequency'] = 'Yearly'
 df_final['Fuel'] = 'all'
 df_final['Scope'] = 'National'
 df_final['Economy'] = '01_AUS'
-
+df_final['Medium'] = 'road'
 df_final['Unit'] = 'Stocks'
 
 #%%

@@ -127,9 +127,12 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
             #get the datasets where we have both ice_g and ice_d for this vehicle type and economy
             datasets = unfiltered_combined_data[(unfiltered_combined_data['vehicle_type'] == vehicle_type) & (unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['measure'] == 'stocks') & ((unfiltered_combined_data['drive'] == 'ice_g') | (unfiltered_combined_data['drive'] == 'ice_d'))]['dataset'].unique()
             
-            #if we have more than just the 8th edition dataset, then drop that:
+            #if we have more than just the 8th edition dataset and ato data, then drop that:
             if len(datasets) > 1 and '8th_edition_transport_model $ reference' in datasets:
                 datasets = [d for d in datasets if d != '8th_edition_transport_model $ reference']
+            #and do same for ato data:
+            if len(datasets) > 1 and 'ato  country_official_statistics' in datasets:
+                datasets = [d for d in datasets if d != 'ato  country_official_statistics']
                 
             if len(datasets) > 0:
                 #get the average split for each dataset
@@ -292,16 +295,25 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     'medium': ['road'],
     'dataset': ['iea_ev_explorer $ historical']}
     stock_shares = data_formatting_functions.filter_for_specifc_data(iea_ev_explorer_selection_dict, unfiltered_combined_data)
-    if stock_shares.empty:
-        #we may be only running this for a subset of the data so we will just return the unfiltered_combined_data. this leaves any drives that are 'all' as 'all'.
-        return unfiltered_combined_data
     #make stock shares wide on drive col
     cols = stock_shares.columns.tolist()
     cols.remove('drive')
     cols.remove('value')
     stock_shares = stock_shares.pivot(index=cols, columns='drive', values='value').reset_index()
-    #make the ice share  =  1- ev_share - phev_share
-    stock_shares['ice'] = 1 - stock_shares['bev'] - stock_shares['phev']
+    if stock_shares.empty:
+        #if there is no data for this dataset for this economy then set ev and phev shares to 0 and ice to 1
+        stock_shares['ice'] = 1
+        stock_shares['bev'] = 0
+        stock_shares['phev'] = 0
+        
+        #since we know that the dataset should be there for 20_USA, then if 20_USA is in this df then something is wrong:
+        if '20_USA' in unfiltered_combined_data['economy'].unique():
+            breakpoint()
+            raise ValueError('no data for iea_ev_explorer $ historical for 20_USA. something is wrong')
+        # return unfiltered_combined_data
+    else:
+        #make the ice share  =  1- ev_share - phev_share
+        stock_shares['ice'] = 1 - stock_shares['bev'] - stock_shares['phev']
     #set measure to stocks
     stock_shares['measure'] = 'stocks'
     stock_shares['unit'] = 'stocks'
@@ -314,7 +326,6 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     combined_data_stocks = combined_data_stocks[combined_data_stocks['_merge'] != 'right_only'].copy()
     #for left only, set dataset_y to 'iea_ev_explorer_no_data' then drop _merge
     combined_data_stocks.loc[combined_data_stocks['_merge'] == 'left_only','dataset_y'] = 'iea_ev_explorer_no_data'#this allows us to keep the information that there are perhaps no evs in this row, because teh iea didnt ahve data on it. 
-    
     #where ice bev and phev are na then set themn to 0 and ice to 1
     combined_data_stocks['bev'] = combined_data_stocks['bev'].fillna(0)
     combined_data_stocks['phev'] = combined_data_stocks['phev'].fillna(0)

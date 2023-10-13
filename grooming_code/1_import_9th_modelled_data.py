@@ -165,3 +165,37 @@ Japan_stocks["frequency"] = "yearly"
 # Save the transformed data to an Excel file
 Japan_stocks.to_csv('intermediate_data/JPN/japan_new_stocks_9th_model_first_iteration_{}.csv'.format(FILE_DATE_ID),index=False)
 #%%
+
+#######################:#######################
+#%%
+#TAIWAN
+taiwan_file_path = 'input_data/taiwan/9th_model_first_iteration_ct.xlsx'
+df_taiwan = pd.read_excel(taiwan_file_path, sheet_name="data_system_input 2020")
+
+#remove Specially constructed vehicles from the vehicle type column
+df_taiwan = df_taiwan[~df_taiwan['vehicle type'].str.contains('Specially constructed vehicles')]
+column_map = {'car':'passenger', 'ht':'freight', 'lcv':'freight', 'bus':'passenger', '2w':'passenger', 'mt':'freight'}
+
+# Process the DataFrame
+# processed_df_taiwan = process_data_frame(df_taiwan.copy(), "18_CT", 2020, column_map, id_var='vehicle type', value_vars=['value'])
+
+# Map transport type based on vehicle type
+df_taiwan['transport_type'] = df_taiwan['vehicle type'].map(column_map)
+
+# Set all other required columns
+df_taiwan["economy"] = "18_CT"
+df_taiwan["medium"] = "road"
+df_taiwan["measure"] = "stocks"
+df_taiwan["dataset"] = "CT_National_stats"
+df_taiwan["source"] = ""
+df_taiwan["unit"] = "stocks"
+df_taiwan["fuel"] = "all"
+df_taiwan["comment"] = "no_comment"
+df_taiwan["scope"] = "national"
+df_taiwan["frequency"] = "yearly"
+df_taiwan["drive"] = "all"
+# Save to a CSV file in a directory named 'intermediate_data'
+save_path = f'intermediate_data/CT/CT_National_stats_stocks_{FILE_DATE_ID}.csv'
+
+df_taiwan.to_csv(save_path, index=False)
+# %%

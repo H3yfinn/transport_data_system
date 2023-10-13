@@ -170,6 +170,9 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
 
     if ECONOMIES_TO_RUN_PREV_DATE_ID is not None:
         paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format("".join(ECONOMIES_TO_RUN_PREV_DATE_ID))
+        
+        paths_dict['previous_final_combined_data_csv'] = paths_dict['output_data_folder']+ 'combined_data_{}.csv'.format("".join(ECONOMIES_TO_RUN_PREV_DATE_ID))
+        
     # else:
     #     paths_dict['previous_final_combined_data_pkl'] = paths_dict['output_data_folder']+ 'combined_data_{}.pkl'.format(paths_dict['FILE_DATE_ID'])
 

@@ -59,15 +59,14 @@ tracking of """
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN='01_AUS'#['03_CDA','08_JPN'] #'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20230926'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
+ECONOMIES_TO_RUN=['17_SIN', '09_ROK']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN_PREV_DATE_ID  = 'DATE20231010' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 
 def setup_main():
     global FILE_DATE_ID
     global ECONOMIES_TO_RUN_PREV_DATE_ID
     ################################################################
-    
     if ECONOMIES_TO_RUN is not None:
         if ECONOMIES_TO_RUN_PREV_DATE_ID is None:
             ECONOMIES_TO_RUN_PREV_DATE_ID = FILE_DATE_ID
@@ -353,11 +352,18 @@ def main():
     print('Saving final_combined_data_pkl and final_data_csv')
     
     if ECONOMIES_TO_RUN is not None:
-        #
+        breakpoint()
+        
         # grab data for ECONOMIES_TO_RUN_PREV_DATE_ID
+        previous_final_data_csv = pd.read_csv(paths_dict['previous_final_combined_data_csv'])
         previous_final_data = pd.read_pickle(paths_dict['previous_final_combined_data_pkl'])
+        #TEST if the csv and pkl have same economies. if not, this is somehting ive been wathing for and need to fix
+        if not previous_final_data_csv.economy.unique().tolist() == previous_final_data.economy.unique().tolist():
+            breakpoint()
+            print('WARNING: previous_final_data_csv.economy.unique() != previous_final_data.economy.unique()')
         #drop economy from previous data
         previous_final_data = previous_final_data[~previous_final_data['economy'].isin(ECONOMIES_TO_RUN)]
+        
         #cpocnat with new data
         final_data = pd.read_pickle(paths_dict['final_combined_data_pkl'])
         final_data = pd.concat([final_data,previous_final_data],axis=0)

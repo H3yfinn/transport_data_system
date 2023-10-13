@@ -273,14 +273,10 @@ fuel_economy_by_vehicle_type = fuel_economy_by_vehicle_type.melt(id_vars=['Vehic
 fuel_economy_by_vehicle_type['measure'] = 'Efficiency'
 #set the unit to mpg
 fuel_economy_by_vehicle_type['unit'] = 'Km_per_PJ'#'Km_per_MJ'
-#we want our uhnit to be in terms of 'PJ per km' so do the conversion from Avg. Fuel Economy (mpg) to PJ per km: https://chat.openai.com/share/c81f01e1-8192-4681-8e8d-d2e1db9032c0 #note that it hallucinated a little bit in htere.
-# # The energy per distance for a vehicle with a fuel economy of 1 mile per gallon (mpg) is approximately 
-# #7.4088*10^-8 petajoules per kilometer (PJ/km).
-# # Please note that this conversion assumes the energy content of gasoline to be approximately 31.5 MJ/L. The actual energy content can vary depending on the specific formulation of the gasoline.
 #%%
 #since the vlaues will be so small, convert to scientific notation
-mpg_per_km_to_km_per_PJ =1.3497462477054316*10**7
-fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value']* mpg_per_km_to_km_per_PJ
+mpg_to_km_per_PJ =1.3497462477054316*10**7
+fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value']* mpg_to_km_per_PJ
 # hmm it might be good to convert values to a larger vlaue so its easier to remember.. eg.  74.088 MJ/km to one mile per gallon (mpg) .. just thinking about how to make this easier to remember\
 
 #set the medium to road

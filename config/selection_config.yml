@@ -10,23 +10,84 @@ INDEX_COLS:
 - fuel
 - frequency
 - scope
+
 concordances_file_path: './input_data/concordances/9th/model_concordances_measures_20230717.csv'
 
 stocks_mileage_occupancy_load_efficiency_datasets_to_always_use:
+  - 'ct_national_stats'
+  - 'ct_national_stats vehicle_dist_split'
+  - 'ct_national_stats $ iea_ev_explorer_no_data'
+  - 'ct_national_stats $ iea_ev_explorer_no_data ice_split'
+  - 'ct_national_stats $ iea_ev_explorer_no_data vehicle_dist_split'
+  - 'ct_national_stats $ iea_ev_explorer_no_data vehicle_dist_split ice_split'
+
+  - 'statistics_mexico_stocks'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data ice_split'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data vehicle_dist_split'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data vehicle_dist_split ice_split'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical ice_split'
+  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split ice_split'
+
+  - 'statistics_korea_stocks'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data ice_split'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data vehicle_dist_split'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data vehicle_dist_split ice_split'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical ice_split'
+  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split ice_split'
+
+  - 'singapore_annual_stocks $ iea_ev_explorer_no_data'
+  - 'singapore_annual_stocks $ iea_ev_explorer_no_data ice_split'
+  - 'singapore_annual_stocks'
+
   - 'iea_ev_explorer $ historical'
   - 'usa_alternative_fuels_data_center'
+
   - '9th_model_first_iteration'
   - '9th_model_first_iteration vehicle_dist_split'
   - '9th_model_first_iteration'
   - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split ice_split'
   - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split'
-  - 'AUS_census'
+
+  - 'aus_census'
+  - 'aus_census $ iea_ev_explorer_no_data'
+  - 'aus_census $ iea_ev_explorer_no_data ice_split'
+  
 all_other_combined_data_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
   
 #in the below, make sure to set the key to be as much of the file name as you can while excluding its date and file type. this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
-  _census:
+  _statistics_mexico_stocks:
+    file_path: intermediate_data/MEX/FILE_DATE_ID_statistics_mexico_stocks.csv
+    folder: intermediate_data/MEX/
+    script: grooming_code\1_mexico_statistics.py
+    included: True
+    type: transport
+  _singapore_annual_stocks:
+    file_path: intermediate_data/SIN/FILE_DATE_ID_singapore_annual_stocks.csv
+    folder: intermediate_data/SIN/
+    script: grooming_code\1_singapore_annual_stats.py
+    included: True
+    type: transport
+  _statistics_korea_stocks:
+    file_path: intermediate_data/KOR/FILE_DATE_ID_statistics_korea_stocks.csv
+    folder: intermediate_data/KOR/
+    script: grooming_code\1_korea_statistics.py
+    included: True
+    type: transport
+  CT_National_stats_stocks_:
+    file_path: intermediate_data/CT/CT_National_stats_stocks_FILE_DATE_ID.csv
+    folder: intermediate_data/CT/
+    script: grooming_code\1_import_9th_modelled_data.py 
+    included: True
+    type: transport
+  aus_census:
     file_path: intermediate_data/AUS/FILE_DATE_ID_aus_census.csv
     folder: intermediate_data/AUS/
     script: 1_aus_census.py

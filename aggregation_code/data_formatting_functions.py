@@ -47,7 +47,7 @@ Functions we need:
 
 """
 
-def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, IGNORE_8TH_DATASETS=True):
+def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, IGNORE_8TH_DATASETS=True, IGNORE_ATO_DATASETS=True):
     """Note this is for stocks only
     this will run through each economys data and identify if there is any datasets with data that specifies more than jsut the simplified vehicle types or less (lpv, 2w, buses, all(all is for freight where we dont split into different freight types) or isntead of all: lcv, ht).
     Currently the vehicel types we split into are:
@@ -86,6 +86,9 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, IGNORE
             if IGNORE_8TH_DATASETS:
                 #drop any datasets that contain 8th from the list, these are our backup datasets, so probably better to go with other data
                 datasets_with_all_vehicle_types = [dataset for dataset in datasets_with_all_vehicle_types if '8th' not in dataset] 
+            if IGNORE_ATO_DATASETS:
+                #drop any datasets that contain ATO from the list, these are our backup datasets, so probably better to go with other data
+                datasets_with_all_vehicle_types = [dataset for dataset in datasets_with_all_vehicle_types if 'ato' not in dataset]
             #if there is a dataset with all the vehicle types for this transport type then remove the datasets that arent in this list
             if len(datasets_with_all_vehicle_types)>0:
                 datasets_to_remove = [dataset for dataset in economy_data['dataset'].unique() if dataset not in datasets_with_all_vehicle_types]

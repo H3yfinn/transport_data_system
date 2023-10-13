@@ -1,0 +1,127 @@
+date,economy,measure,vehicle_type,unit,medium,transport_type,drive,frequency,fuel,comment,scope,dataset,value
+2017,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,0.36645200485829127
+2017,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,2.138226028347846
+2018,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,3.8318002082402978
+2018,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,21.140521148887775
+2019,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,22.553719410151178
+2019,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,122.78517678879166
+2020,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,205.86680342435724
+2020,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,1035.4400172233525
+2021,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,464.739994168281
+2021,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,2215.665972197053
+2022,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,841.6700236082073
+2022,09_ROK,stocks,lcv,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical,3929.7541102266296
+2020,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,0.22038059880583766
+2020,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,20.83357308711044
+2020,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,2.8066631847917125
+2021,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,0.22307999879121057
+2021,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,20.854970286994497
+2021,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,2.892984584323968
+2022,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,0.20752200985675545
+2022,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,19.266726915119392
+2022,09_ROK,stocks,ht,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,2.703654128416536
+2020,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,0.14692039920389177
+2020,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,13.889048724740295
+2020,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,1.8711087898611418
+2021,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,0.1487199991941404
+2021,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,13.903313524663
+2021,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,1.928656389549312
+2022,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,0.1383480065711703
+2022,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,12.844484610079597
+2022,09_ROK,stocks,mt,stocks,road,freight,bev,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split,1.802436085611024
+2017,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,25868.560225697955
+2017,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,14424880.387966523
+2017,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,743114.7265434507
+2018,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,27649.577529626484
+2018,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,14881004.479916152
+2018,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,826409.7212477109
+2019,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,28091.88315146304
+2019,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,15225189.865091383
+2019,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,903525.0745497402
+2020,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,28323.56704861552
+2020,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,15743190.407318698
+2020,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,961080.409523809
+2021,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,29106.23737754154
+2021,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,16149009.606544781
+2021,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,1017587.6907958498
+2022,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,29546.858025580623
+2022,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,16553161.524198268
+2022,09_ROK,stocks,car,stocks,road,passenger,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,1069716.567655158
+2017,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,4836.4397743020445
+2017,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,2696905.612033477
+2017,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,138934.27345654924
+2018,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,5169.422470373516
+2018,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,2782183.520083849
+2018,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,154507.27875228916
+2019,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,5252.116848536961
+2019,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,2846533.1349086165
+2019,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,168924.92545025982
+2020,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,5295.43295138448
+2020,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,2943379.5926813013
+2020,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,179685.59047619105
+2021,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,5441.762622458461
+2021,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,3019252.3934552176
+2021,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,190250.30920415022
+2022,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,5524.141974419378
+2022,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,3094813.4758017333
+2022,09_ROK,stocks,car,stocks,road,passenger,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer_no_data ice_split,199996.43234484195
+2017,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,3079.5122540184775
+2017,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,17968.77399730637
+2018,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,3219.5948207857286
+2018,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,17762.90743272538
+2019,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,3284.6374197741557
+2019,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,17881.963455328223
+2020,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,3390.454510656254
+2020,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,17052.83328110172
+2021,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,3428.0457153712846
+2021,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,16343.341089628251
+2022,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,3416.340908408846
+2022,09_ROK,stocks,lcv,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,15950.882590781775
+2017,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,18476.121293976666
+2017,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,107807.08777666528
+2018,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,19316.57337900603
+2018,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,106571.95204612573
+2019,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,19706.808860815694
+2019,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,107286.25136788299
+2020,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,20341.67868591939
+2020,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,102311.72670167494
+2021,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,20567.214290460433
+2021,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,98054.9929381747
+2022,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,20496.989067982948
+2022,09_ROK,stocks,lcv,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical ice_split,95700.36329899161
+2020,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2020,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2020,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2021,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2021,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2021,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2022,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2022,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2022,09_ROK,stocks,ht,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2020,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,20034.379619401192
+2020,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,1893940.366426913
+2020,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,255148.3933368152
+2021,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,20279.776920001208
+2021,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,1895885.5450297128
+2021,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,262995.70701541565
+2022,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,20751.992477990145
+2022,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,1926653.3332730848
+2022,09_ROK,stocks,ht,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,270362.69634587155
+2020,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2020,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2020,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2021,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2021,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2021,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2022,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2022,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2022,09_ROK,stocks,mt,stocks,road,freight,ice_g,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,0.0
+2020,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,13356.253079600796
+2020,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,1262626.9109512754
+2020,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,170098.92889121015
+2021,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,13519.851280000807
+2021,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,1263923.6966864755
+2021,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,175330.47134361046
+2022,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,13834.66165199343
+2022,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,1284435.55551539
+2022,09_ROK,stocks,mt,stocks,road,freight,ice_d,yearly,all,no_comment,national,statistics_korea_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split,180241.79756391438
