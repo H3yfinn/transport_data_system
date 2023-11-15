@@ -34,8 +34,8 @@ model_input_9th = model_input_9th[model_input_9th['scenarios'] == 'reference']
 #then drop the col
 model_input_9th.drop(columns=['scenarios'], inplace=True)
 
-#changfe Economy = 17_SGP to 17_SIN, and 15_PHL to 15_RP 
-model_input_9th['economy'] = model_input_9th['economy'].replace({'17_SGP': '17_SIN', '15_PHL': '15_RP'})
+#changfe Economy in case old codes are being used
+# model_input_9th['economy'] = model_input_9th['economy'].replace({'17_SIN': '17_SGP', '15_RP': '15_PHL'})
 # model_input_9th.columns: Index(['scenarios', 'economy', 'sectors', 'sub1sectors', 'sub2sectors',
 #        'sub3sectors', 'sub4sectors', 'fuels', 'subfuels', '1980', '1981',
 #        '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '1990',

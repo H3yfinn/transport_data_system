@@ -1,0 +1,10 @@
+﻿date,vehicle_type,measure,transport_type,frequency,medium,unit,fuel,economy,scope,comment,dataset,drive,value
+2020,2w,stocks,passenger,yearly,road,stocks,all,05_PRC,national,based on 8th 8th_-_new_vtypes_and_drives  reference,bug_fix_china,ice_g,116354842
+2020,2w,stocks,passenger,yearly,road,stocks,all,05_PRC,national,based on 8th 8th_-_new_vtypes_and_drives  reference,bug_fix_china,bev,52359679
+2020,lcv,stocks,freight,yearly,road,stocks,all,05_PRC,national,no_comment,bug_fix_china,ice_g,10044986.46
+2020,lcv,stocks,freight,yearly,road,stocks,all,05_PRC,national,no_comment,bug_fix_china,ice_d,10044986.46
+2020,ht,stocks,freight,yearly,road,stocks,all,05_PRC,national,no_comment,bug_fix_china,ice_d,6217399.745
+2020,mt,stocks,freight,yearly,road,stocks,all,05_PRC,national,no_comment,bug_fix_china,ice_d,3992028.419
+2020,mt,stocks,freight,yearly,road,stocks,all,05_PRC,national,no_comment,bug_fix_china,ice_g,126998.9119
+2020,ht,stocks,freight,yearly,road,stocks,all,05_PRC,national,no_comment,bug_fix_china,ice_g,0
+2020,2w,stocks,passenger,yearly,road,stocks,all,05_PRC,national,based on 8th 8th_-_new_vtypes_and_drives  reference,bug_fix_china,ice_d,0

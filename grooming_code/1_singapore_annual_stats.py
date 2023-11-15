@@ -21,7 +21,7 @@ filtered_singapore_data = singapore_data_updated[singapore_data_updated['Total_b
 
 # Initialize a new transformed dataframe with the filtered data
 filtered_transformed_df = pd.DataFrame({
-    'economy': '17_SIN',
+    'economy': '17_SGP',
     'date': 2020,
     'medium': 'road',
     'measure': 'stocks',
@@ -30,6 +30,7 @@ filtered_transformed_df = pd.DataFrame({
     'comment': 'no_comment',
     'scope': 'national',
     'frequency': 'yearly',
+    'source': ''
 }, index=range(len(filtered_singapore_data)))
 
 # Custom mapping for Singapore's vehicle types to more generic terms
@@ -118,7 +119,7 @@ print(unmapped_alert)
 filtered_transformed_df['drive'] = 'all'
 filtered_transformed_df['dataset'] = 'singapore_annual_stocks'
 
-singapore_df = filtered_transformed_df.groupby(['economy', 'date', 'medium', 'measure', 'unit', 'fuel', 'comment', 'scope', 'frequency', 'vehicle_type', 'transport_type', 'drive', 'dataset'], as_index=False).agg({'value': 'sum'})
+singapore_df = filtered_transformed_df.groupby(['economy', 'date', 'medium', 'measure', 'unit', 'fuel', 'comment', 'scope', 'frequency', 'vehicle_type', 'transport_type', 'drive', 'dataset', 'source'], as_index=False).agg({'value': 'sum'})
 
 # Create FILE_DATE_ID
 file_date = datetime.datetime.now().strftime("%Y%m%d")

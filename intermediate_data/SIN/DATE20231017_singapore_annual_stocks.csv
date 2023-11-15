@@ -1,0 +1,7 @@
+economy,date,medium,measure,unit,fuel,comment,scope,frequency,vehicle_type,transport_type,drive,dataset,value
+17_SGP,2020,road,stocks,stocks,all,no_comment,national,yearly,2w,passenger,all,singapore_annual_stocks,141403.0
+17_SGP,2020,road,stocks,stocks,all,no_comment,national,yearly,bus,passenger,all,singapore_annual_stocks,19251.0
+17_SGP,2020,road,stocks,stocks,all,no_comment,national,yearly,car,passenger,all,singapore_annual_stocks,651858.0
+17_SGP,2020,road,stocks,stocks,all,no_comment,national,yearly,ht,freight,all,singapore_annual_stocks,23365.0
+17_SGP,2020,road,stocks,stocks,all,no_comment,national,yearly,lcv,freight,all,singapore_annual_stocks,103907.0
+17_SGP,2020,road,stocks,stocks,all,no_comment,national,yearly,mt,freight,all,singapore_annual_stocks,34205.0

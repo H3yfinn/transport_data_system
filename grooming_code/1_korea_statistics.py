@@ -76,6 +76,7 @@ default_values_korea = {col: korea_data_df[col].iloc[0] for col in korea_data_df
 # Override the 'dataset' default value
 default_values_korea['dataset'] = 'statistics_korea_stocks'
 default_values_korea['economy'] = '09_ROK'
+default_values_korea['source'] = ''
 
 # Update the missing columns with these new default values
 for column, default_value in default_values_korea.items():
@@ -84,7 +85,7 @@ for column, default_value in default_values_korea.items():
 # Reorder columns to match Korea Data Structure
 final_columns_order = [
     'economy', 'date', 'medium', 'measure', 'dataset', 'unit', 'fuel', 
-    'comment', 'scope', 'frequency', 'vehicle_type', 'transport_type', 'value'
+    'comment', 'scope', 'frequency', 'vehicle_type', 'transport_type', 'value', 'source'
 ]
 
 motor_vehicle_df = motor_vehicle_df[final_columns_order]
@@ -93,7 +94,7 @@ motor_vehicle_df = motor_vehicle_df[final_columns_order]
 motor_vehicle_df['drive'] = 'all'
 #%%
 #group and sum up:
-motor_vehicle_df = motor_vehicle_df.groupby(['economy', 'date', 'medium', 'measure', 'dataset', 'unit', 'fuel', 'comment', 'scope', 'frequency', 'vehicle_type', 'transport_type', 'drive'], as_index=False).agg({'value': 'sum'})
+motor_vehicle_df = motor_vehicle_df.groupby(['economy', 'date', 'medium', 'measure', 'dataset', 'unit', 'fuel', 'comment', 'scope', 'frequency', 'vehicle_type', 'transport_type', 'drive', 'source'], as_index=False).agg({'value': 'sum'})
 #%%
 
 

@@ -128,11 +128,16 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
             datasets = unfiltered_combined_data[(unfiltered_combined_data['vehicle_type'] == vehicle_type) & (unfiltered_combined_data['economy'] == economy) & (unfiltered_combined_data['measure'] == 'stocks') & ((unfiltered_combined_data['drive'] == 'ice_g') | (unfiltered_combined_data['drive'] == 'ice_d'))]['dataset'].unique()
             
             #if we have more than just the 8th edition dataset and ato data, then drop that:
-            if len(datasets) > 1 and '8th_edition_transport_model $ reference' in datasets:
-                datasets = [d for d in datasets if d != '8th_edition_transport_model $ reference']
+            datasets_list = datasets.copy()
+            if '8th_edition_transport_model $ reference' in datasets:
+                datasets_list = [d for d in datasets_list if d != '8th_edition_transport_model $ reference']
             #and do same for ato data:
-            if len(datasets) > 1 and 'ato  country_official_statistics' in datasets:
-                datasets = [d for d in datasets if d != 'ato  country_official_statistics']
+            if 'ato  country_official_statistics' in datasets:
+                datasets_list = [d for d in datasets_list if d != 'ato  country_official_statistics']
+            if '8th_-_new_vtypes_and_drives $ reference' in datasets:
+                datasets_list = [d for d in datasets_list if d != '8th_-_new_vtypes_and_drives $ reference']
+            if len(datasets_list) > 0:
+                datasets = datasets_list
                 
             if len(datasets) > 0:
                 #get the average split for each dataset

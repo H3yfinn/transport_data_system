@@ -145,12 +145,14 @@ transport_type_mapping = {
 }
 
 all_data_df['Transport_Type'] = all_data_df['Vehicle_Type'].map(transport_type_mapping)
-all_data_df['Frequency'] = 'Annual'
+all_data_df['Frequency'] = 'yearly'
 all_data_df['Medium'] = 'Road'
 all_data_df['Dataset'] = 'nz_fleet_stats'
 all_data_df['Unit'] = all_data_df['Measure'].map({'Stocks': 'Stocks', 'Mileage': 'Km_per_stock', 'Travel_KM': 'Km', 'Average_Age': 'Age'})
 all_data_df['Fuel'] = 'All'
 all_data_df['Economy']='12_NZ'
+all_data_df['Scope']='National'
+all_data_df['Source']=''
 
 #where Drive is na set it to All
 all_data_df['Drive'] = all_data_df['Drive'].fillna('All')

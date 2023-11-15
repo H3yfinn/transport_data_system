@@ -47,7 +47,7 @@ Functions we need:
 
 """
 
-def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, IGNORE_8TH_DATASETS=True, IGNORE_ATO_DATASETS=True):
+def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, DROP_8TH_DATASETS=True, DROP_ATO_DATASETS=True, IGNORE_IEA_EV_DATASETS=True):
     """Note this is for stocks only
     this will run through each economys data and identify if there is any datasets with data that specifies more than jsut the simplified vehicle types or less (lpv, 2w, buses, all(all is for freight where we dont split into different freight types) or isntead of all: lcv, ht).
     Currently the vehicel types we split into are:
@@ -83,15 +83,23 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, IGNORE
 
                 if set(vehicle_types[transport_type]).issubset(set(economy_data_copy[(economy_data_copy['dataset']==non_dist_split_dataset)&(economy_data_copy['transport_type']==transport_type)]['vehicle_type'].unique())):
                     datasets_with_all_vehicle_types.append(dataset)
-            if IGNORE_8TH_DATASETS:
+            min_datasets = 0
+            if DROP_8TH_DATASETS:
                 #drop any datasets that contain 8th from the list, these are our backup datasets, so probably better to go with other data
                 datasets_with_all_vehicle_types = [dataset for dataset in datasets_with_all_vehicle_types if '8th' not in dataset] 
-            if IGNORE_ATO_DATASETS:
+            if DROP_ATO_DATASETS:
                 #drop any datasets that contain ATO from the list, these are our backup datasets, so probably better to go with other data
                 datasets_with_all_vehicle_types = [dataset for dataset in datasets_with_all_vehicle_types if 'ato' not in dataset]
+            if IGNORE_IEA_EV_DATASETS:
+                #since the iea ev DATSETS ONLY SATISFY EVS data, dont consider it as an extra dataset that is available for all vehicle types... but also later on dont remove it from the list of datasets for that transport type
+                number_of_iea_ev_explorer_datasets = len([dataset for dataset in datasets_with_all_vehicle_types if 'iea_ev_explorer $' in dataset])
+                if number_of_iea_ev_explorer_datasets>0:
+                    min_datasets+= number_of_iea_ev_explorer_datasets
+                
             #if there is a dataset with all the vehicle types for this transport type then remove the datasets that arent in this list
-            if len(datasets_with_all_vehicle_types)>0:
+            if len(datasets_with_all_vehicle_types)>min_datasets:
                 datasets_to_remove = [dataset for dataset in economy_data['dataset'].unique() if dataset not in datasets_with_all_vehicle_types]
+                
                 #drop the rows with these datasets for that economy and transport type
                 combined_data = combined_data[~((combined_data['measure']=='stocks')&(combined_data['economy']==economy)&(combined_data['transport_type']==transport_type)&(combined_data['dataset'].isin(datasets_to_remove)))]
 
@@ -129,6 +137,14 @@ def extract_latest_groomed_data():
             else:
                 datasets_other.append([cfg['datasets'][dataset]['folder'], dataset, cfg['datasets'][dataset]['file_path']])
     #now replace the FILE_DATE_ID with the latest date available for each file:
+    #PLEASE NOTE THAT THE STRUCTURE OF THE dataset variable is [folder, dataset name, file path]. eg. in the selection config:  
+    # aus_census:
+    #     file_path: intermediate_data/AUS/FILE_DATE_ID_aus_census.csv
+    #     folder: intermediate_data/AUS/
+    #     script: 1_aus_census.py
+    #     included: True
+    #     type: transport
+    #aus_census is the dataset name, intermediate_data/AUS/ is the folder and intermediate_data/AUS/FILE_DATE_ID_aus_census.csv is the file path
     for dataset in datasets_transport:
         #get the latest file
         latest_file = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
@@ -167,6 +183,9 @@ def make_quick_fixes_to_datasets(combined_data):
     #remove all na values in value column
     combined_data = combined_data[combined_data['value'].notna()]
 
+    #where economy might be 17_SIN or 15_RP change it to 17_SGP and 15_PHL respectively
+    combined_data.loc[combined_data['economy'] == '17_SIN', 'economy'] = '17_SGP'
+    combined_data.loc[combined_data['economy'] == '15_RP', 'economy'] = '15_PHL'
     ##########
     #where medium is not 'road' or 'Road', and the vehicle_type is either 'all', np.nan, None or the same value as medium, then set vehicle type and drive to 'all'. This is because the medium is the only thing that is relevant for non-road, currently.
     #Note this is a temp fix and we really should jsut fix tyhe input data methods
@@ -210,6 +229,7 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
         for col in cols_with_nans[cols_with_nans].index:
             logging.info('{}: {}'.format(col, combined_data[col].isna().sum()))
             #save the data to a pickle file so that the user can see what the nans are
+        breakpoint()
         combined_data.to_pickle(error_file_path)
         logging.error('There are nans in the index columns. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
         raise Exception('There are nans in the index columns. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
@@ -224,6 +244,17 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
             logging.error('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
             raise Exception('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
         
+    #check the economies match the economies in the concordance file:
+    economy_list = pd.read_csv(paths_dict['concordances_file_path']).Economy.unique().tolist()
+    if set(combined_data['economy'].unique().tolist()) != set(economy_list):
+        different_economies = set(combined_data['economy'].unique().tolist()) - set(economy_list)
+        logging.info('The following economies are in the combined data but not in the concordance file: {}'.format(different_economies))
+        # save data to pickle file for viewing
+        combined_data.to_pickle(error_file_path)
+        logging.error('The following economies are in the combined data but not in the concordance file: {}'.format(different_economies))
+        raise Exception('The following economies are in the combined data but not in the concordance file: {}'.format(different_economies))
+        
+    
     #check for any duplicates
     if len(combined_data[combined_data.duplicated()]) > 0:
         logging.info(combined_data[combined_data.duplicated()])
@@ -232,6 +263,7 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
         combined_data.to_pickle(error_file_path)
                                                             
         raise Exception('There are {} duplicates in the combined data. Please fix this before continuing. Data saved to {}'.format(len(combined_data[combined_data.duplicated()]), error_file_path))
+    
 
 def combine_dataset_source_col(combined_data):
     #A make thigns easier in this process, we will concatenate the source and dataset columns into one column called dataset. But if source is na then we will just use the dataset column

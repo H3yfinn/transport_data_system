@@ -24,58 +24,109 @@ df = pd.read_excel(r'.\input_data\Australia\aus_vehicle_census_simplified.xlsx',
 CAR_TO_SUV_RATIO = 0.15#TODO MAKE THIS LESS ARBITRARY
 
 #where Vehicle Type is car, we wil times it by x TO GET THE NUMBER OF SUV'S (ESTIAMTE, COULD CHANGE) THEN SUBTRACT THAT FROM THE CAR VALUE TO GET THE NUMBER OF CARS
-cars = df[df['Vehicle Type']=='car']
+cars = df[(df['Vehicle Type']=='car') & (df['Measure']=='stocks')]
 suvs = cars.copy()
 suvs['Vehicle Type'] = 'suv'
 suvs['Value'] = suvs['Value']*CAR_TO_SUV_RATIO
 cars['Value'] = cars['Value'] - suvs['Value']
 df = pd.concat([df,cars,suvs])
+#then make suv have same age as car
+cars = df[(df['Vehicle Type']=='car') & (df['Measure']=='average_age')]
+suvs = cars.copy()
+suvs['Vehicle Type'] = 'suv'
+df = pd.concat([df,suvs])
+
 #%%
-#first grab the data with Weights in it (data that doesnt have nas in that col)
-df_weights = df[df['Weight'].notna()]
+#first grab the data with Weights in it (data that doesnt have nas in that col) The weights represent the weight of vehicles in that vehicle sub type. THeir value is the stocks of that vehicle sub type.
+df_weights_stocks = df[(df['Weight'].notna()) & (df['Measure']=='stocks')]
 #calcualte percent of vehicles in each vehicle type for each Vehicle sub type, for each Date
-df_weights['percent_of_vehicle_type'] = df_weights.groupby(['Date','Vehicle_sub_type'])['Value'].transform(lambda x: x/x.sum())
+df_weights_stocks['percent_of_vehicle_type'] = df_weights_stocks.groupby(['Date','Vehicle_sub_type'])['Value'].transform(lambda x: x/x.sum())
 #sum up by Vehicle sub type and Vehicle Type and date so we know the total percent of each vehicle sub type for each Date
-df_weights_percents = df_weights.groupby(['Date','Vehicle Type','Vehicle_sub_type'])['percent_of_vehicle_type'].sum().reset_index()
+df_weights_stocks_percents = df_weights_stocks.groupby(['Date','Vehicle Type','Vehicle_sub_type'])['percent_of_vehicle_type'].sum().reset_index()
 
-
-#and gcreate a sum of the non percentage data too, since ti will be used later
-df_weights = df_weights.groupby(['Date','Vehicle Type'])['Value'].sum().reset_index()
+#and create a sum of the non percentage data too, since ti will be used later
+df_weights_stocks = df_weights_stocks.groupby(['Date','Vehicle Type'])['Value'].sum().reset_index()
 #set some cols
-df_weights['Drive'] = 'all'
-df_weights['Transport Type'] = 'freight'
-df_weights['Measure'] = 'stocks'
+df_weights_stocks['Drive'] = 'all'
+df_weights_stocks['Transport Type'] = 'freight'
+df_weights_stocks['Measure'] = 'stocks'
+breakpoint()#im not sure about this. need to mkae sure its working for average age.
 #%%
 #use percents to calcualte the number of ice_g and ice_d vehicles in each vehicle type for each Date:
 #first grab data where Drive isnt all
-df_weights_fuel = df[df['Drive']!='all']
+df_weights_stocks_fuel = df[(df['Drive']!='all') & (df['Measure']=='stocks')]
 #drop vehicle type
-df_weights_fuel = df_weights_fuel.drop(columns=['Vehicle Type'])
+df_weights_stocks_fuel = df_weights_stocks_fuel.drop(columns=['Vehicle Type'])
 #join the weights on date and vehicle sub type using an innner, then calcualte the number of ice_g and ice_d vehicles in each vehicle type for each Date
-df_weights_fuel = df_weights_fuel.merge(df_weights_percents,on=['Date','Vehicle_sub_type'],how='inner')
+df_weights_stocks_fuel = df_weights_stocks_fuel.merge(df_weights_stocks_percents,on=['Date','Vehicle_sub_type'],how='inner')
 
 #now calcualte the number of ice_g and ice_d vehicles in each vehicle type for each Date
-df_weights_fuel['Value'] = df_weights_fuel['Value']*df_weights_fuel['percent_of_vehicle_type']
+df_weights_stocks_fuel['Value'] = df_weights_stocks_fuel['Value']*df_weights_stocks_fuel['percent_of_vehicle_type']
 
 #now sum value by date, vehicle type transport type, drive
-df_weights_fuel = df_weights_fuel.groupby(['Date','Vehicle Type','Transport Type','Drive'])['Value'].sum().reset_index()
+df_weights_stocks_fuel = df_weights_stocks_fuel.groupby(['Date','Vehicle Type','Transport Type','Drive'])['Value'].sum().reset_index()
 
 #set measre to stocks
-df_weights_fuel['Measure'] = 'stocks'
+df_weights_stocks_fuel['Measure'] = 'stocks'
 #%%
-#do the same thing for vehicle age but use it to find the average age when summing ages of similar vehicle types. 
-# df_age = df[df['Measure']=='average_age']
-#IGNORING AGE FOR NOW BECAUSE WE DONT NEED IT YET
+# do the same thing for vehicle age using the percent of vehicles that are each vehicle sub type to find the average age of the vehicles by vehicle type but use it to find the average age when summing ages of similar vehicle types.
+df_weights_age = df[(df['Measure'] == 'average_age')]
 
+# drop vehicle type
+df_weights_age = df_weights_age.drop(columns=['Vehicle Type'])
+
+# join the weights on date and vehicle sub type using an inner, then calculate weighted avg age
+df_weights_age = df_weights_age.merge(df_weights_stocks_percents, on=['Date', 'Vehicle_sub_type'], how='inner')
+df_weights_age['Weighted_age'] = df_weights_age['Value'] * df_weights_age['percent_of_vehicle_type']
+
+# now sum value by date, vehicle type transport type, drive
+df_weights_age = df_weights_age.groupby(['Date', 'Vehicle Type', 'Transport Type', 'Drive']).sum().reset_index()
+
+# calculate the weighted average age
+df_weights_age['Value'] = df_weights_age['Weighted_age'] / df_weights_age['percent_of_vehicle_type']
+df_weights_age.drop(columns=['Weighted_age', 'percent_of_vehicle_type', 'Weight'], inplace=True)
+
+#%%
+#currently average age is set for 'all' drive types. we want to set it based on the drive.
+#we want average age we have in the data to be used for 'old drive types' and set to 1 for 'new drive types'. so we need to find the average age of the old drive types and the new drive types. So grab the drives form teh concordance, chekc they can be split into the new and old drive types i expectm and then set theoir average age to 1 or the average age we have in the data.
+#load in the concordance
+
+import yaml
+with open('config/selection_config.yml', 'r') as ymlfile:
+    cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
+concordances = pd.read_csv(cfg['concordances_file_path'])
+
+#grab the drive types for road:
+drive_types = concordances[(concordances['Medium']=='road')].Drive.unique()#array(['bev', 'ice_d', 'ice_g', 'cng', 'fcev', 'lpg', 'phev_d', 'phev_g'],
+new_drives = ['bev','phev_d','phev_g','fcev']
+old_drives = ['ice_d','ice_g','cng','lpg']
+#check that the drive types are in the data
+if set(drive_types) != set(new_drives+old_drives):
+    print('ERROR: drive types dont match')
+    breakpoint()
+    
+old_drive_concordance = concordances[(concordances['Medium']=='road') & (concordances['Drive'].isin(old_drives))][['Drive','Vehicle Type', 'Transport Type']].drop_duplicates()
+new_drive_concordance = concordances[(concordances['Medium']=='road') & (concordances['Drive'].isin(new_drives))][['Drive','Vehicle Type', 'Transport Type']].drop_duplicates()
+
+#join the concordance on the data so we can replicate the average age for the new drive types
+df_weights_age=df_weights_age.drop(columns=['Drive'])
+df_weights_age_old = df_weights_age.merge(old_drive_concordance,on=['Vehicle Type','Transport Type'],how='inner').copy()
+df_weights_age_new = df_weights_age.merge(new_drive_concordance,on=['Vehicle Type','Transport Type'],how='inner').copy()
+df_weights_age_new['Value'] = 1
+
+#concat the two dataframes
+df_age = pd.concat([df_weights_age_old,df_weights_age_new])
+
+df_age = df_age[['Date','Vehicle Type','Transport Type','Drive','Measure','Value']].drop_duplicates()
 #%%
 #now get the rest of the stocks. do this by grabbing data where drive is all and measur eis stocks
 df_stocks = df[(df['Drive']=='all' )& (df['Measure']=='stocks')& (df['Weight'].isna())]
 #drop the vtypes with double_up in their name as they are just duplicates
 df_stocks = df_stocks[~df_stocks['Vehicle Type'].str.contains('double_up')]
-#concat with df_weights to add on the data for rigid trucks
-df_stocks = pd.concat([df_stocks,df_weights])
+#concat with df_weights_stocks to add on the data for rigid trucks
+df_stocks = pd.concat([df_stocks,df_weights_stocks])
 #concat with the fuel data to add on the data for ice_g and ice_d
-df_stocks = pd.concat([df_stocks,df_weights_fuel])
+df_stocks = pd.concat([df_stocks,df_weights_stocks_fuel])
 #drop the vehicle sub type column
 df_stocks = df_stocks.drop(columns=['Vehicle_sub_type', 'Weight'])
 
@@ -83,7 +134,7 @@ df_stocks = df_stocks.drop(columns=['Vehicle_sub_type', 'Weight'])
 df_stocks = df_stocks.groupby(['Date','Vehicle Type','Transport Type','Drive','Measure'])['Value'].sum().reset_index()
 
 #%%
-df_final = df_stocks.copy()
+df_final = pd.concat([df_stocks, df_age])
 #set comment to 
 df_final['Comment'] = 'no_comment' 
 #set dataset to 'AUS_census'
@@ -95,7 +146,7 @@ df_final['Fuel'] = 'all'
 df_final['Scope'] = 'National'
 df_final['Economy'] = '01_AUS'
 df_final['Medium'] = 'road'
-df_final['Unit'] = 'Stocks'
+df_final['Unit'] = np.where(df_final['Measure']=='average_age','age','stocks')
 
 #%%
 #save the data

@@ -29,6 +29,10 @@ for sheet in wb.sheet_names:
         vehicle_type_distributions = df.copy()
         continue
     concat_df_road = pd.concat([concat_df_road,df],ignore_index=True)
+wb.close()
+
+
+#%% 
 
 #TAKE IN NON ROAD DATA
 wb = pd.ExcelFile('./input_data/Manually_inputted_data_other.xlsx')
@@ -37,7 +41,7 @@ for sheet in wb.sheet_names:
     df = pd.read_excel(wb,sheet)
     concat_df_other = pd.concat([concat_df_other,df],ignore_index=True)
 
-
+wb.close()
 #drop 'Value_MJ' col if it exists
 if 'Value_MJ' in concat_df_road.columns:
     concat_df_road = concat_df_road.drop('Value_MJ',axis=1)
@@ -97,6 +101,15 @@ def extend_df_for_missing_dates(df):
     else:
         df['Date'] = years[0]
 
+    #sometimes excel will format the date so it ends with the time as well (as 00:00:00). we want to remove this
+    if df['Date'].str.contains(' 00:00:00').any():
+        df['Date'] = df['Date'].str.replace(' 00:00:00','')
+    #and then sometimes the user might accidentally just put the year, so add 12-31 to the end of those
+    dates = df['Date'].unique().tolist()
+    number_dates = [date for date in dates if len(date)==4]
+    if len(number_dates)>0:
+        df.loc[df['Date'].isin(number_dates),'Date'] = df.loc[df['Date'].isin(number_dates),'Date'].astype(str) + '-12-31'
+        
     cols=df.columns.tolist() 
     #identify value cols as cols with numbers in them. they can be floats or ints
     value_cols = [col for col in cols if df[col].dtype in ['int64','float64']]
@@ -106,30 +119,38 @@ def extend_df_for_missing_dates(df):
     df_no_values = df.drop(value_cols,axis=1)
     df_no_values = df_no_values.reindex(df_no_values.index.repeat(len(years)))
     df_no_values['Date'] = years * len(df)
+    #drop duplicates )dont know why they are occuring but its because of df_no_values.reindex(df_no_values.index.repeat(len(years)))
+    df_no_values = df_no_values.drop_duplicates()    
     df_no_values.reset_index(drop=True, inplace=True)
     #add the values column back in using merge
     df = df_no_values.merge(df,how='left',on=df_no_values.columns.tolist())
-    #then we need to add values. the best way woudl be to ffill and bfill when sported by date and the otehr cols
-
+    #then we need to add values. the best way woudl be to ffill and bfill when sported by date and the otehr cols. to have better control over thigns, iterate over groups. this will be slow but it makes it easier to debug
     #drop ['Source', 'Comments', 'Value', 'Dataset', 'Date'] from cols
     cols = [col for col in cols if col not in ['Source', 'Comments', 'Dataset', 'Date']+value_cols]
-    #sort then ffill and bfill
-    df = df.sort_values(by=cols)
-
-    # make sure groupby can handle nans by filling nans in cols with string 'nan'
+    # Sort, reset index, and fill NaN with 'nan'
+    df = df.sort_values(by=cols).reset_index(drop=True)
     df[cols] = df[cols].fillna('nan')
-    for col in value_cols:
-        df[col] = df.groupby(cols)[col].apply(lambda x: x.ffill().bfill())
-    #repalce nans with np.nan
-    df = df.replace('nan',np.nan)
 
-    return df
+    # Create an empty DataFrame to store the results
+    result_df = pd.DataFrame()
 
+    # Iterate over each group and apply the ffill and bfill operations
+    for name, group in df.groupby(cols):
+        for col in value_cols:
+            group[col] = group[col].ffill().bfill()
+        result_df = pd.concat([result_df, group], ignore_index=True)
+
+    # Replace 'nan' string with np.nan
+    result_df = result_df.replace('nan', np.nan)
+
+    return result_df
+#%%
 concat_df_road = extend_df_for_missing_dates(concat_df_road)
+#%%
 concat_df_other = extend_df_for_missing_dates(concat_df_other)
 vehicle_type_distributions = extend_df_for_missing_dates(vehicle_type_distributions)
 #%%
-def fill_missing_drive_cols_in_vehicle_type_distributions(df, concordances, medium='road'):
+def fill_missing_drive_cols(df, concordances, medium='road'):
     #if the df is missing the drive col then just add it for every drive. this might cause issues where we want the measure to be drive non specific but it seems better this way.
     #breakpoint()
     if 'Drive' not in df.columns:
@@ -142,25 +163,75 @@ def fill_missing_drive_cols_in_vehicle_type_distributions(df, concordances, medi
             df_copy['Drive'] = drive
             concat_df = pd.concat([concat_df,df_copy],ignore_index=True)
         df = concat_df
+    #otherwise, find where drive is na, use concordances to fill it in
+    elif df.Drive.isna().any():
+        na_drives = df[df.Drive.isna()].drop('Drive',axis=1).drop_duplicates()
+        df = df.dropna(subset=['Drive'])
+        #merge with concordances to get the drive
+        road_concordances = concordances[concordances.Medium==medium][['Medium','Vehicle Type','Measure','Economy','Transport Type', 'Drive']]
+        breakpoint()
+        na_drives = na_drives.merge(road_concordances,how='left',on=['Medium','Vehicle Type','Measure','Economy','Transport Type'])
+        breakpoint()
+        #drop unneeded cols
+        
+        #concat the two dfs
+        df = pd.concat([df, na_drives], ignore_index=True)
+        
+    return df
+#%%
+vehicle_type_distributions = fill_missing_drive_cols(vehicle_type_distributions, concordances)
+#%%
+concat_df_road = fill_missing_drive_cols(concat_df_road, concordances)
+
+#%%
+def set_new_drive_ages_to_one(df, concordances):
+    #currently average age is set to same value drive types. we want to set it based on the drive.
+    #we want average age we have in the data to be used for 'old drive types' and set to 1 for 'new drive types'. so we need to find the average age of the old drive types and the new drive types. So grab the drives form teh concordance, chekc they can be split into the new and old drive types i expectm and then set theoir average age to 1 or the average age we have in the data.
+    #load in the concordance
+    df_age = df[df['Measure']=='Average_age'].copy()
+    df = df[df['Measure']!='Average_age'].copy()
+
+    #grab the drive types for road:
+    drive_types = concordances[(concordances['Medium']=='road')].Drive.unique()#array(['bev', 'ice_d', 'ice_g', 'cng', 'fcev', 'lpg', 'phev_d', 'phev_g'],
+    new_drives = ['bev','phev_d','phev_g','fcev']
+    old_drives = ['ice_d','ice_g','cng','lpg']
+    #check that the drive types are in the data
+    if set(drive_types) != set(new_drives+old_drives):
+        breakpoint()
+        raise ValueError('The drive types in the concordances file are not the same as in the data')
+        
+    old_drive_concordance = concordances[ (concordances['Drive'].isin(old_drives))][['Drive','Vehicle Type', 'Transport Type', 'Medium']].drop_duplicates()
+    new_drive_concordance = concordances[ (concordances['Drive'].isin(new_drives))][['Drive','Vehicle Type', 'Transport Type', 'Medium']].drop_duplicates()
+
+    #join the concordance on the data so we can replicate the average age for the new drive types
+    df_age=df_age.drop(columns=['Drive']).drop_duplicates()
+    df_old = df_age.merge(old_drive_concordance,on=['Vehicle Type','Transport Type', 'Medium'],how='inner').copy()
+    df_new = df_age.merge(new_drive_concordance,on=['Vehicle Type','Transport Type', 'Medium'],how='inner').copy()
+    df_new['Value'] = 1
+
+    #concat the two dataframes
+    df_age = pd.concat([df_old,df_new])
+    
+    df = pd.concat([df,df_age],ignore_index=True)
     
     return df
 
-vehicle_type_distributions = fill_missing_drive_cols_in_vehicle_type_distributions(vehicle_type_distributions, concordances)
-
+#%%
+concat_df_road = set_new_drive_ages_to_one(concat_df_road, concordances)
+    
 #%%
 def convert_occupancy_and_load_to_occupancy_or_load(df):
     #take in the data for occupan and laod and combine them into one measure
     #note that this is likely to be use for some time.
-    occ_load = df[df['Measure'].isin(['Occupancy', 'Load'])]
-    occ_load['Measure'] = 'Occupancy_or_load'
-    #repalce unit with passengers_or_tonnes
-    occ_load['Unit'] = 'Passengers_or_tonnes'
+    occ_load = df[df['Measure'].isin(['Occupancy', 'Load'])].copy()
+    occ_load.loc[:,'Measure'] = 'Occupancy_or_load'
+    occ_load.loc[:,'Unit'] = 'Passengers_or_tonnes'
     #drop these rows from the original df
-    df = df[~df['Measure'].isin(['Occupancy', 'Load'])]
+    df = df[~df['Measure'].isin(['Occupancy', 'Load'])].copy()
     #concat the two dfs
     df = pd.concat([df, occ_load], ignore_index=True)
     return df
-
+#%%
 concat_df_road = convert_occupancy_and_load_to_occupancy_or_load(concat_df_road)
 #%%
 def break_vehicle_types_into_more_specific_types(concat_df_road):
@@ -193,12 +264,12 @@ def break_vehicle_types_into_more_specific_types(concat_df_road):
         concat_df_road = concat_df_road[concat_df_road['Measure']!=sheet]
         concat_df_road = pd.concat([concat_df_road,df],ignore_index=True)
     return concat_df_road
-
+#%%
 concat_df_road = break_vehicle_types_into_more_specific_types(concat_df_road)
 
 #%%
 
-def identify_missing_vehicle_drive_medium_combinations(df, concordances):
+def identify_missing_vehicle_drive_medium_combinations_road(df, concordances):
     #loop through all the data and identify where we are missing data. let the user know so they fix it
     #jsut merge the df and concordances and check where indicator is either left or right:
     #breakpoint()
@@ -227,16 +298,17 @@ def identify_missing_vehicle_drive_medium_combinations(df, concordances):
     
     #print them:
     print('The following combinations of medium, vehicle type, drive and measure are not in the concordances file:')
-    print(left_only[['Vehicle Type','Drive','Measure']].drop_duplicates())
+    print(left_only[['Vehicle Type','Drive','Measure', 'Transport Type']].drop_duplicates())
     
     #the right only data actually needs to be fixed. let the user know whats missing and then they can fix it
     print('The following combinations of medium, vehicle type, drive and measure are not in the data:')
     print(right_only[['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
     
     #create the required data. First, if tehre are any Measuress otehr than Turnover_rate or Mileage, throw an error caise we ahvbent prepared for that:
+    breakpoint()
     if len(right_only)>0:
-        if not all(right_only['Measure'].isin(['Turnover_rate','Mileage'])): 
-            raise ValueError('The above combinations of medium, vehicle type, drive and measure are not rady to be hadnled in this code')
+        if not all(right_only['Measure'].isin(['Turnover_rate','Mileage', 'Average_age'])): 
+            raise ValueError('The above combinations of medium, vehicle type, drive and measure are not rady to be hadnled in this code. This is for the measures: {}'.format(right_only['Measure'].unique().tolist()))
         #     right_only.columns
         # Index(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy', 'Measure', 'Dataset', 'Scope', 'Comments',
         #        'Fuel', 'Source', 'Value',  '_merge'],
@@ -245,44 +317,164 @@ def identify_missing_vehicle_drive_medium_combinations(df, concordances):
         turnover_rate_avg = df[df['Measure']=='Turnover_rate'].Value.mean()
         turnover_rate_avg_df = right_only.copy()
         turnover_rate_avg_df = turnover_rate_avg_df[turnover_rate_avg_df.Measure=='Turnover_rate']
-        turnover_rate_avg_df['Value'] = turnover_rate_avg
-        turnover_rate_avg_df = turnover_rate_avg_df.drop('_merge',axis=1)
-        #order cols like so: Vehicle Type	Transport Type	Drive	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Fuel	Comments
-        turnover_rate_avg_df = turnover_rate_avg_df[['Vehicle Type','Transport Type','Drive','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Fuel','Comments']]
-        turnover_rate_avg_df.to_csv('./intermediate_data/archive/turnover_rate_avg.csv',index=False)
+        if len(turnover_rate_avg_df)>0:
+            
+            turnover_rate_avg_df['Value'] = turnover_rate_avg
+            turnover_rate_avg_df = turnover_rate_avg_df.drop('_merge',axis=1)
+            #order cols like so: Vehicle Type	Transport Type	Drive	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Fuel	Comments
+            turnover_rate_avg_df = turnover_rate_avg_df[['Vehicle Type','Transport Type','Drive','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Fuel','Comments']]
+            turnover_rate_avg_df.to_csv('./intermediate_data/archive/turnover_rate_avg.csv',index=False)
         
         #and for mileage, we need to get the avg of mileage for each vehicle type  and fill the values with that. then save in intermediate_data\archive\mileage_avg.csv
         mileage_avg = df[df['Measure']=='Mileage'].groupby(['Vehicle Type','Transport Type']).Value.mean().reset_index()
         mileage_avg_df = right_only.copy()
         mileage_avg_df = mileage_avg_df[mileage_avg_df.Measure=='Mileage']
-        mileage_avg_df = mileage_avg_df.merge(mileage_avg,how='left',on=['Vehicle Type','Transport Type'], suffixes=('','_avg'))
-        #fill the values with the avg
-        mileage_avg_df['Value'] = mileage_avg_df['Value_avg']
-        #
-        #identify any nans. print them
-        if any(mileage_avg_df['Value'].isna()):
-            print('The following combinations of medium, vehicle type, drive and measure are missing from the data and cannot be filled with the average mileage:')
-            print(mileage_avg_df[mileage_avg_df['Value'].isna()][['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
-        mileage_avg_df = mileage_avg_df.drop(['_merge','Value_avg'],axis=1)
-        #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
-        mileage_avg_df = mileage_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
-        mileage_avg_df.to_csv('./intermediate_data/archive/mileage_avg.csv',index=False)
+        if len(mileage_avg_df)>0:
+                
+            mileage_avg_df = mileage_avg_df.merge(mileage_avg,how='left',on=['Vehicle Type','Transport Type'], suffixes=('','_avg'))
+            #fill the values with the avg
+            mileage_avg_df['Value'] = mileage_avg_df['Value_avg']
+            #
+            #identify any nans. print them
+            if any(mileage_avg_df['Value'].isna()):
+                print('The following combinations of medium, vehicle type, drive and measure are missing from the data and cannot be filled with the average mileage:')
+                print(mileage_avg_df[mileage_avg_df['Value'].isna()][['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+            mileage_avg_df = mileage_avg_df.drop(['_merge','Value_avg'],axis=1)
+            #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
+            mileage_avg_df = mileage_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
+            mileage_avg_df.to_csv('./intermediate_data/archive/mileage_avg.csv',index=False)
+            
+        #do same for average_age
+        average_age_avg = df[df['Measure']=='Average_age'].groupby(['Vehicle Type','Transport Type']).Value.mean().reset_index()
+        average_age_avg_df = right_only.copy()
+        average_age_avg_df = average_age_avg_df[average_age_avg_df.Measure=='Average_age']
+        if len(average_age_avg_df)>0:
+            average_age_avg_df = average_age_avg_df.merge(average_age_avg,how='left',on=['Vehicle Type','Transport Type'], suffixes=('','_avg'))
+            #fill the values with the avg
+            average_age_avg_df['Value'] = average_age_avg_df['Value_avg']
+            #
+            #identify any nans. print them
+            if any(average_age_avg_df['Value'].isna()):
+                print('The following combinations of medium, vehicle type, drive and measure are missing from the data and cannot be filled with the average average_age:')
+                print(average_age_avg_df[average_age_avg_df['Value'].isna()][['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+            average_age_avg_df = average_age_avg_df.drop(['_merge','Value_avg'],axis=1)
+            #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
+            average_age_avg_df = average_age_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
+            average_age_avg_df.to_csv('./intermediate_data/archive/average_age_avg.csv',index=False)       
+            
         #breakpoint()
         raise ValueError('The above combinations of medium, vehicle type, drive and measure are missing from the data. Please add them to the data and run this script again')
+
+
+# def identify_missing_vehicle_drive_medium_combinations_non_road(df, concordances):
+#     #loop through all the data and identify where we are missing data. let the user know so they fix it
+#     #jsut merge the df and concordances and check where indicator is either left or right:
+#     #breakpoint()
+#     # for column in df.columns:
+#     #     if df[column].dtype != concordances[column].dtype:
+#     #         print(f"Column '{column}' has different data types: {df[column].dtype} vs {concordances[column].dtype}")
+#     #set the concordances date to string then make it end with 12-31
+#     new_concordances = concordances.copy()
+#     new_concordances['Date'] = new_concordances['Date'].astype(str) + '-12-31'
+#     #filter for same medium in df in new_concordances
+#     new_concordances = new_concordances[new_concordances['Medium'].isin(df['Medium'].unique().tolist())]
+#     #filter for same dates in both
+#     new_concordances = new_concordances[new_concordances['Date'].isin(df['Date'].unique().tolist())]
+#     #filter for same measures in both
+#     new_concordances = new_concordances[new_concordances['Measure'].isin(df['Measure'].unique().tolist())]
+    
+#     df_copy = df.copy()
+#     df_copy = df_copy.loc[df_copy['Date'].isin(new_concordances['Date'].unique().tolist())]
+#     df_copy = df_copy.loc[df_copy['Measure'].isin(new_concordances['Measure'].unique().tolist())]
+#     df_copy = df_copy.merge(new_concordances,how='outer',on=['Medium','Vehicle Type','Drive','Measure','Date', 'Economy','Transport Type'], indicator=True, suffixes=('','_concordances'))
+#     df_missing = df_copy[df_copy['_merge']!='both']
+#     left_only = df_missing[df_missing['_merge']!='right_only']
+#     right_only = df_missing[df_missing['_merge']!='left_only']
+
+#     df_missing1 = df_missing[['Medium','Vehicle Type','Drive','Measure','Transport Type']].drop_duplicates()
+    
+#     #print them:
+#     print('The following combinations of medium, vehicle type, drive and measure are not in the concordances file:')
+#     print(left_only[['Vehicle Type','Drive','Measure']].drop_duplicates())
+    
+#     #the right only data actually needs to be fixed. let the user know whats missing and then they can fix it
+#     print('The following combinations of medium, vehicle type, drive and measure are not in the data:')
+#     print(right_only[['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+    
+#     #create the required data. First, if tehre are any Measuress otehr than Turnover_rate or Mileage, throw an error caise we ahvbent prepared for that:
+#     breakpoint()
+#     if len(right_only)>0:
+#         if not all(right_only['Measure'].isin(['Turnover_rate','Mileage', 'Average_age'])): 
+#             raise ValueError('The above combinations of medium, vehicle type, drive and measure are not rady to be hadnled in this code. This is for the measures: {}'.format(right_only['Measure'].unique().tolist()))
+#         #     right_only.columns
+#         # Index(['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy', 'Measure', 'Dataset', 'Scope', 'Comments',
+#         #        'Fuel', 'Source', 'Value',  '_merge'],
+#         #turnover rate:
+#         #just  get the avg of turnover rate and fill Value with it. and drop _merge col then save in intermediate_data\archive\turnover_rate_avg.csv
+#         turnover_rate_avg = df[df['Measure']=='Turnover_rate'].Value.mean()
+#         turnover_rate_avg_df = right_only.copy()
+#         turnover_rate_avg_df = turnover_rate_avg_df[turnover_rate_avg_df.Measure=='Turnover_rate']
+#         if len(turnover_rate_avg_df)>0:
+            
+#             turnover_rate_avg_df['Value'] = turnover_rate_avg
+#             turnover_rate_avg_df = turnover_rate_avg_df.drop('_merge',axis=1)
+#             #order cols like so: Vehicle Type	Transport Type	Drive	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Fuel	Comments
+#             turnover_rate_avg_df = turnover_rate_avg_df[['Vehicle Type','Transport Type','Drive','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Fuel','Comments']]
+#             turnover_rate_avg_df.to_csv('./intermediate_data/archive/turnover_rate_avg.csv',index=False)
+        
+#         #and for mileage, we need to get the avg of mileage for each vehicle type  and fill the values with that. then save in intermediate_data\archive\mileage_avg.csv
+#         mileage_avg = df[df['Measure']=='Mileage'].groupby(['Vehicle Type','Transport Type']).Value.mean().reset_index()
+#         mileage_avg_df = right_only.copy()
+#         mileage_avg_df = mileage_avg_df[mileage_avg_df.Measure=='Mileage']
+#         if len(mileage_avg_df)>0:
+                
+#             mileage_avg_df = mileage_avg_df.merge(mileage_avg,how='left',on=['Vehicle Type','Transport Type'], suffixes=('','_avg'))
+#             #fill the values with the avg
+#             mileage_avg_df['Value'] = mileage_avg_df['Value_avg']
+#             #
+#             #identify any nans. print them
+#             if any(mileage_avg_df['Value'].isna()):
+#                 print('The following combinations of medium, vehicle type, drive and measure are missing from the data and cannot be filled with the average mileage:')
+#                 print(mileage_avg_df[mileage_avg_df['Value'].isna()][['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+#             mileage_avg_df = mileage_avg_df.drop(['_merge','Value_avg'],axis=1)
+#             #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
+#             mileage_avg_df = mileage_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
+#             mileage_avg_df.to_csv('./intermediate_data/archive/mileage_avg.csv',index=False)
+            
+#         #do same for average_age
+#         average_age_avg = df[df['Measure']=='Average_age'].groupby(['Vehicle Type','Transport Type']).Value.mean().reset_index()
+#         average_age_avg_df = right_only.copy()
+#         average_age_avg_df = average_age_avg_df[average_age_avg_df.Measure=='Average_age']
+#         if len(average_age_avg_df)>0:
+#             average_age_avg_df = average_age_avg_df.merge(average_age_avg,how='left',on=['Vehicle Type','Transport Type'], suffixes=('','_avg'))
+#             #fill the values with the avg
+#             average_age_avg_df['Value'] = average_age_avg_df['Value_avg']
+#             #
+#             #identify any nans. print them
+#             if any(average_age_avg_df['Value'].isna()):
+#                 print('The following combinations of medium, vehicle type, drive and measure are missing from the data and cannot be filled with the average average_age:')
+#                 print(average_age_avg_df[average_age_avg_df['Value'].isna()][['Vehicle Type','Drive','Transport Type','Measure']].drop_duplicates())
+#             average_age_avg_df = average_age_avg_df.drop(['_merge','Value_avg'],axis=1)
+#             #order cols like so: Vehicle Type	Transport Type	Value	Measure	Unit	Dataset	Date	Source	Medium	Frequency	Scope	Economy	Drive	Fuel	Comments
+#             average_age_avg_df = average_age_avg_df[['Vehicle Type','Transport Type','Value','Measure','Unit','Dataset','Date','Source','Medium','Frequency','Scope','Economy','Drive','Fuel','Comments']]
+#             average_age_avg_df.to_csv('./intermediate_data/archive/average_age_avg.csv',index=False)       
+            
+#         #breakpoint()
+#         raise ValueError('The above combinations of medium, vehicle type, drive and measure are missing from the data. Please add them to the data and run this script again')
     
 #%%    
-identify_missing_vehicle_drive_medium_combinations(concat_df_road, concordances)
+identify_missing_vehicle_drive_medium_combinations_road(concat_df_road, concordances)
 # identify_missing_vehicle_drive_medium_combinations(concat_df_other, concordances)#for now jsut keep drive to all for non road. we can change this later if we want
 #%%
 #check for duplicates:
 # QUICK FIX
 concat_df_road = concat_df_road.drop_duplicates()
 if any(concat_df_road.duplicated()):
-    raise ValueError('There are duplicates in the road data')
+    raise ValueError('There are duplicates in the road data {}'.format(concat_df_road[concat_df_road.duplicated()]))
 if any(concat_df_other.duplicated()):
-    raise ValueError('There are duplicates in the non road data')
+    raise ValueError('There are duplicates in the non road data, {}'.format(concat_df_other[concat_df_other.duplicated()]))
 if any(vehicle_type_distributions.duplicated()):
-    raise ValueError('There are duplicates in the vehicle type distributions data')
+    raise ValueError('There are duplicates in the vehicle type distributions data {}'.format(vehicle_type_distributions[vehicle_type_distributions.duplicated()]))
 #%%
 def save_df_to_csv(df,save_path, file_name_start):
     #now we want to save the data to csv. but make sure this data si different from the previous version of the data
@@ -457,3 +649,35 @@ print('Done')
 
 # concat_df_roadd = create_cng_lpg_versions_of_values(concat_df_road)
 #%%
+
+# #drop freight 2w from concat_df_road. this commonly occurs in the data but we dont want it. 
+# concat_df_road = concat_df_road[((concat_df_road['Transport Type']!='freight') & (concat_df_road['Vehicle Type']!='2w'))]
+
+# # create a new Excel file
+# file_name = './input_data/Manually_inputted_data_road_new.xlsx'
+# writer = pd.ExcelWriter(file_name, engine='openpyxl')
+
+# # loop over unique values in the 'Measure' column
+# for measure in concat_df_road['Measure'].unique():
+#     # create a sheet for each measure
+#     df = concat_df_road[concat_df_road['Measure']==measure]
+#     df.to_excel(writer, sheet_name=measure, index=False)
+
+# writer.close()
+
+
+# #drop freight 2w from concat_df_road. this commonly occurs in the data but we dont want it. 
+# concat_df_road = concat_df_road[~((concat_df_road['Transport Type']=='freight') & (concat_df_road['Vehicle Type']=='2w'))]
+
+# # create a new Excel file
+# file_name = './input_data/Manually_inputted_data_road_new.xlsx'
+# writer = pd.ExcelWriter(file_name, engine='openpyxl')
+
+# # loop over unique values in the 'Measure' column
+# for measure in concat_df_road['Measure'].unique():
+#     # create a sheet for each measure
+#     df = concat_df_road[concat_df_road['Measure']==measure]
+#     df.to_excel(writer, sheet_name=measure, index=False)
+
+# writer.close()
+

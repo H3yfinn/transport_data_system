@@ -63,13 +63,14 @@ default_values = {
     'economy': data_structure_mexico['economy'].iloc[0],
     'medium': 'Road',
     'measure': 'Stocks',
-    'dataset': 'mexico_vehicle_stocks',
+    'dataset': 'statistics_mexico_stocks',
     'unit': 'Stocks',
     'fuel': 'All',
     'comment': None,
     'scope': 'All',
     'frequency': 'Annual',
-    'drive': 'All'
+    'drive': 'All',
+    'source': ''
 }
 for column in missing_columns:
     inegi_melted[column] = default_values.get(column, None)
@@ -81,5 +82,5 @@ inegi_melted = inegi_melted[data_structure_mexico.columns]
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 
-inegi_melted.to_csv('intermediate_data/MEX/{}_statistics_mexico_stocks.csv'.format(FILE_DATE_ID), index=False)
+inegi_melted.to_csv('intermediate_data/MEX/{}_statistics_mexico_stocks.csv'.format(FILE_DATE_ID), index=False) 
 #%%

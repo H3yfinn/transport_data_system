@@ -16,8 +16,49 @@ import utility_functions
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/USA/', 'all_economys_fuel_economy_by_vehicle_type_')
 fuel_economy_by_vehicle_type_new = pd.read_csv('intermediate_data/USA/all_economys_fuel_economy_by_vehicle_type_{}.csv'.format('DATE'+file_date))
 
-#note that this data is really only for the US. but we will just assume its the same for all countries for now. Then we will times the ice value by 3.5 to find the efficiency of BEV's.
+#note that this data is really only for the US. but we will just assume its the same for all countries for now. Then we will times the ice value by 3.5 to find the efficiency of BEV's. And we will times the fcev value by 1.8 to find the efficiency of fcevs.
+#this is based on the following:
+# The figures can vary, but for a ballpark:
+
+# Fuel Cell Electric Vehicles (FCEVs): Around 40-60% efficient tank-to-wheel
+# Battery Electric Vehicles (BEVs): Around 85-90% efficient tank-to-wheel
+# Gasoline Vehicles: Approximately 20-30% efficient tank-to-wheel
+# Diesel Vehicles: Around 30-45% efficient tank-to-wheel
+# CNG and LPG are about 40-45% efficient tank-to-wheel
+#so if we assume everything in terms of the efficiency of an ev then to convert from bev to x drive type we would do the following:
+#bev to ice_g: 87.5/25 times more efficient
+#bev to ice_d (87.5/37.5): 2.33 times more efficient
+#bev to cng: 42.5/87.5 times more efficient
+#bev to lpg: 42.5/87.5 times more efficient
+#bev to phev_g: (87.5/25)/2 times more efficient
+#bev to phev_d: (87.5/37.5)/2  times more efficient
+#bev to fcev: 50/87.5 times more efficient
+#bev to bev: 1 times more efficient
 #%%
+# Define average efficiency values in percentage terms
+avg_efficiency = {
+    'bev': 87.5,
+    'ice_g': 25,
+    'ice_d': 37.5,
+    'cng': 42.5,
+    'lpg': 42.5,
+    'phev_g': 25,  # Assuming the ICE part of PHEV is as efficient as a normal gasoline engine
+    'phev_d': 37.5,  # Assuming the ICE part of PHEV is as efficient as a normal diesel engine
+    'fcev': 50
+}
+
+# Calculate efficiency ratios with respect to ice_g
+efficiency_ratios = {key: value / avg_efficiency['ice_g'] for key, value in avg_efficiency.items()}
+
+# For PHEVs, we divide by 2 to account for the part-time electric operation
+efficiency_ratios['phev_g'] = (efficiency_ratios['phev_g'] + efficiency_ratios['bev'])/2
+efficiency_ratios['phev_d'] = (efficiency_ratios['phev_d'] + efficiency_ratios['bev'])/2
+
+# Print the efficiency ratios
+for vehicle, ratio in efficiency_ratios.items():
+    print(f"{vehicle} is {ratio:.2f} times more efficient than ice_g.")
+#%%
+
 #we will also assume that cng and lpg powered vehicles are the same efficiency as ice ones. THis is because there is not much knowledge aobut these, but it is assumed that if they are more efficient its only by a few percent, and they would also lose out on the relative efficiency gains from learning.
 
 #drop the vehicle sub type ans then average the values
@@ -55,13 +96,14 @@ fuel_economy_by_vehicle_type_new_fcev['drive'] = 'fcev'
 fuel_economy_by_vehicle_type_new_phev_g['drive'] = 'phev_g'
 fuel_economy_by_vehicle_type_new_phev_d['drive'] = 'phev_d'
 
-#and now calcualte the efficiency of BEV's and fcevs (assuming they are similar)(we are using 3.5 times gasoline efficiency). this is very general, but we will use this for now.
-fuel_economy_by_vehicle_type_new_bev['value'] = fuel_economy_by_vehicle_type_new_bev['value']*3.5
-fuel_economy_by_vehicle_type_new_fcev['value'] = fuel_economy_by_vehicle_type_new_fcev['value']*3.5
-#we can assume that phevs are about 3.5/2 times as efficient as ice vehicles (since they use both fuel and electricity and its thought that they use them about 50% of the time each)
-# fuel_economy_by_vehicle_type_new_phev['value'] = fuel_economy_by_vehicle_type_new_phev['value']*(3.5/2)
-fuel_economy_by_vehicle_type_new_phev_g['value'] = fuel_economy_by_vehicle_type_new_phev_g['value']*(3.5/2)
-fuel_economy_by_vehicle_type_new_phev_d['value'] = fuel_economy_by_vehicle_type_new_phev_d['value']*(3.5/2)
+#and now calcualte the efficiency all of these vehicles in terms of ice_g
+fuel_economy_by_vehicle_type_new_bev['value'] = fuel_economy_by_vehicle_type_new_bev['value']*efficiency_ratios['bev']
+fuel_economy_by_vehicle_type_new_fcev['value'] = fuel_economy_by_vehicle_type_new_fcev['value']*efficiency_ratios['fcev']
+fuel_economy_by_vehicle_type_new_phev_g['value'] = fuel_economy_by_vehicle_type_new_phev_g['value']*efficiency_ratios['phev_g']
+fuel_economy_by_vehicle_type_new_phev_d['value'] = fuel_economy_by_vehicle_type_new_phev_d['value']*efficiency_ratios['phev_d']
+fuel_economy_by_vehicle_type_new_cng['value'] = fuel_economy_by_vehicle_type_new_cng['value']*efficiency_ratios['cng']
+fuel_economy_by_vehicle_type_new_lpg['value'] = fuel_economy_by_vehicle_type_new_lpg['value']*efficiency_ratios['lpg']
+
 
 #and then concat them to the original df
 fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new_ice,fuel_economy_by_vehicle_type_new_cng,fuel_economy_by_vehicle_type_new_lpg, fuel_economy_by_vehicle_type_new_bev, fuel_economy_by_vehicle_type_new_fcev, 

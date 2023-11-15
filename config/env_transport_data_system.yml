@@ -13,4 +13,5 @@ dependencies:
   - pyyaml #yaml doesnt work.
   - pip:
     - kaleido
+    - googletrans
 #conda env create --prefix ./env_transport_data_system --file ./config/env_transport_data_system.yml
