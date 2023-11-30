@@ -16,9 +16,100 @@ MJ_per_PJ = Energy(1, EnergyUnits.Petajoule).megajoules
 energy_PJ = (mass_tonnes * energy_per_kg_hydrogen * kg_per_tonne) / MJ_per_PJ
 print(f"The energy content of {mass_tonnes} tonnes of hydrogen is approximately {energy_PJ:.2f} PJ.")
 
+#%%
+
+#HERE WE WILL START TO CREATE A SET OF CONVERSIONS FROM COMMON VALUES TO WHAT WE NEED WITHIN APERC.
+
+def create_factors_to_convert_mpg_to_useful_outputs_for_fuel(fuel_energy_content_mj_kg, density_kg_l):
+    """
+    Create values to convert miles per gallon to kilometers per petajoule for a given fuel.
+
+    :param fuel_energy_content_mj_kg: Energy content of the fuel in megajoules per kilogram.
+    :param density_kg_l: Density of the fuel in kilograms per liter.
+    :return: a dict of conversion factors
+    """
+
+    # Conversion factors
+    miles_to_km = 1.60934  # 1 mile = 1.60934 km
+    gallons_to_liters = 3.78541  # 1 gallon = 3.78541 liters
+    kj_to_pj = 1e-12  # 1 petajoule = 10^12 kilojoules
+
+    # Convert mpg to km/L
+    km_per_liter = miles_to_km / gallons_to_liters
+
+    # Convert km/L to km/kg
+    km_per_kg = km_per_liter / density_kg_l
+
+    # Convert km/kg to km/PJ
+    km_per_pj = km_per_kg * (fuel_energy_content_mj_kg * 1000) / kj_to_pj
+
+    new_dict = {
+        'mpg_to_km_per_liter': km_per_liter,
+        'mpg_to_km_per_pj': km_per_pj,
+        'mpg_to_billion_km_per_pj': km_per_pj / 1e9,
+        'fuel_energy_content_mj_kg': fuel_energy_content_mj_kg,
+        'density_kg_l': density_kg_l
+    }
+    return new_dict
+
+#%%
+# Hydrogen (H2)	120-142 MJ/kg
+# Methane (CH4)	50-55 MJ/kg
+# Methanol (CH3OH)	22.7 MJ/kg
+# Petrol/gasoline	44-46 MJ/kg
+# Diesel fuel	42-46 MJ/kg
+# Crude oil	42-47 MJ/kg
+# Liquefied petroleum gas (LPG)	46-51 MJ/kg
+# Natural gas	42-55 MJ/kg
+# 26.8 ehtanol#https://energyeducation.ca/encyclopedia/Energy_density
+# 38 biodiesel #https://energyeducation.ca/encyclopedia/Energy_density
+#jet fuel 42.8 MJ/kg #chatgpt
+#biojet = jet fuel #chatgpt
+energy_per_kg_hydrogen = 142  # MJ/kg
+energy_per_kg_methanol = 22.7  # MJ/kg
+energy_per_kg_petrol = 46  # MJ/kg
+energy_per_kg_diesel = 46  # MJ/kg
+energy_per_kg_crude_oil = 47  # MJ/kg
+energy_per_kg_lpg = 51  # MJ/kg
+energy_per_kg_natural_gas = 55  # MJ/kg
+energy_per_kg_ethanol = 26.8  # MJ/kg
+energy_per_kg_biodiesel = 38  # MJ/kg
+energy_per_kg_jet_fuel = 42.8  # MJ/kg
+energy_per_kg_biojet = 42.8  # MJ/kg
+
+#and their densities in kg/L:
+density_kg_l_hydrogen = 0.071  # kg/L
+density_kg_l_methanol = 0.791  # kg/L
+density_kg_l_petrol = 0.755  # kg/L
+density_kg_l_diesel = 0.832  # kg/L
+density_kg_l_crude_oil = 0.82  # kg/L
+density_kg_l_lpg = 0.493  # kg/L
+density_kg_l_natural_gas = 0.75  # kg/L
+density_kg_l_ethanol = 0.789  # kg/L
+density_kg_l_biodiesel = 0.88  # kg/L
+density_kg_l_jet_fuel = 0.804  # kg/L
+density_kg_l_biojet = 0.804  # kg/L
+
+mpg_to_useful_outputs_dict = {}
+mpg_to_useful_outputs_dict['hydrogen'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_hydrogen, density_kg_l_hydrogen)
+mpg_to_useful_outputs_dict['methanol'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_methanol, density_kg_l_methanol)
+mpg_to_useful_outputs_dict['petrol'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_petrol, density_kg_l_petrol)
+mpg_to_useful_outputs_dict['diesel'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_diesel, density_kg_l_diesel)
+mpg_to_useful_outputs_dict['crude_oil'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_crude_oil, density_kg_l_crude_oil)
+mpg_to_useful_outputs_dict['lpg'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_lpg, density_kg_l_lpg)
+mpg_to_useful_outputs_dict['natural_gas'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_natural_gas, density_kg_l_natural_gas)
+mpg_to_useful_outputs_dict['ethanol'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_ethanol, density_kg_l_ethanol)
+mpg_to_useful_outputs_dict['biodiesel'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_biodiesel, density_kg_l_biodiesel)
+mpg_to_useful_outputs_dict['jet_fuel'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_jet_fuel, density_kg_l_jet_fuel)
+mpg_to_useful_outputs_dict['biojet'] = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_per_kg_biojet, density_kg_l_biojet)
+#%%
+# #%%
+# #testing. i think this is a good library:
+# #
+mpg_to_useful_outputs_dict
 
 
-
+#TODO THIS ISNT RIGHT. AND IM ALSO WORRIED ABOUT THE vALUE mpg_to_km_per_PJ =1.3497462477054316*10**7#this conversion factor came from ??? IN 1_CLEAN_USA_AFDC_FACTORS.PY
 
 # angle = Angle.from_degrees(180)
 # # equals to

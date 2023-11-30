@@ -275,7 +275,7 @@ fuel_economy_by_vehicle_type['measure'] = 'Efficiency'
 fuel_economy_by_vehicle_type['unit'] = 'Km_per_PJ'#'Km_per_MJ'
 #%%
 #since the vlaues will be so small, convert to scientific notation
-mpg_to_km_per_PJ =1.3497462477054316*10**7
+mpg_to_km_per_PJ =1.3497462477054316*10**7#this conversion factor came from ???
 fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value']* mpg_to_km_per_PJ
 # hmm it might be good to convert values to a larger vlaue so its easier to remember.. eg.  74.088 MJ/km to one mile per gallon (mpg) .. just thinking about how to make this easier to remember\
 
