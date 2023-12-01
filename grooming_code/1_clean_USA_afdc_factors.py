@@ -275,8 +275,15 @@ fuel_economy_by_vehicle_type['measure'] = 'Efficiency'
 fuel_economy_by_vehicle_type['unit'] = 'Km_per_PJ'#'Km_per_MJ'
 #%%
 #since the vlaues will be so small, convert to scientific notation
-mpg_to_km_per_PJ =1.3497462477054316*10**7#this conversion factor came from ???
-fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value']* mpg_to_km_per_PJ
+mpg_to_km_per_PJ = pd.read_csv('config/conversion_factors.csv')
+mpg_to_km_per_PJ_g = mpg_to_km_per_PJ.loc[(mpg_to_km_per_PJ['fuel']=='petrol')&(mpg_to_km_per_PJ['conversion_factor']=='mpg_to_km_per_pj'), 'value'].values[0]
+mpg_to_km_per_PJ_d = mpg_to_km_per_PJ.loc[(mpg_to_km_per_PJ['fuel']=='diesel')&(mpg_to_km_per_PJ['conversion_factor']=='mpg_to_km_per_pj'), 'value'].values[0]
+
+fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['drive'].isin(['ice_g','ice']),'value'] = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['drive'].isin(['ice_g','ice']),'value']*mpg_to_km_per_PJ_g
+fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['drive'].isin(['ice_d','ice']),'value'] = fuel_economy_by_vehicle_type.loc[fuel_economy_by_vehicle_type['drive'].isin(['ice_d','ice']),'value']*mpg_to_km_per_PJ_d
+#where the drive is ice_g, use value for petrol, where drive is ice_d, use value for diesel, where drive is ice, use value for petrol
+# mpg_to_km_per_PJ =1.3497462477054316*10**7
+# fuel_economy_by_vehicle_type['value'] = fuel_economy_by_vehicle_type['value']* mpg_to_km_per_PJ
 # hmm it might be good to convert values to a larger vlaue so its easier to remember.. eg.  74.088 MJ/km to one mile per gallon (mpg) .. just thinking about how to make this easier to remember\
 
 #set the medium to road

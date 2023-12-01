@@ -1,0 +1,66 @@
+fuel,conversion_factor,value,original_unit,final_unit
+oil,million_tonnes_to_pj,41.666666666666664,million_tonnes,pj
+oil,million_barrels_to_pj,6.097560975609756,million_barrels,pj
+coal,million_tonnes_to_pj,15.037593984962406,million_tonnes,pj
+lng,million_tonnes_per_annum_to_pj,50.0,million_tonnes_per_annum,pj
+natural_gas,billion_cubic_meters_to_pj,35.714285714285715,billion_cubic_meters,pj
+natural_gas,billion_cubic_feet_to_pj,1.019367991845056,billion_cubic_feet,pj
+hydrogen,million_tonnes_to_pj,125.0,million_tonnes,pj
+all,trillion_british_thermal_units_to_pj,1.0548523206751055,trillion_british_thermal_units,pj
+all,terawatt_hour_to_pj,3.597122302158273,terawatt_hour,pj
+all,gigacalorie_to_pj,4.184100418410042,gigacalorie,pj
+hydrogen,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+hydrogen,mpg_to_km_per_pj,42168503.38272525,mpg,km/PJ
+hydrogen,mpg_to_billion_km_per_pj,0.04216850338272525,mpg,billion km/PJ
+hydrogen,fuel_energy_content_mj_kg,142.0,MJ/kg,MJ/kg
+hydrogen,density_kg_l,0.071,kg/L,kg/L
+methanol,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+methanol,mpg_to_km_per_pj,23677319.798428126,mpg,km/PJ
+methanol,mpg_to_billion_km_per_pj,0.023677319798428124,mpg,billion km/PJ
+methanol,fuel_energy_content_mj_kg,22.7,MJ/kg,MJ/kg
+methanol,density_kg_l,0.791,kg/L,kg/L
+petrol,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+petrol,mpg_to_km_per_pj,12241372.044475552,mpg,km/PJ
+petrol,mpg_to_billion_km_per_pj,0.012241372044475552,mpg,billion km/PJ
+petrol,fuel_energy_content_mj_kg,46.0,MJ/kg,MJ/kg
+petrol,density_kg_l,0.755,kg/L,kg/L
+diesel,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+diesel,mpg_to_km_per_pj,11108456.602859426,mpg,km/PJ
+diesel,mpg_to_billion_km_per_pj,0.011108456602859427,mpg,billion km/PJ
+diesel,fuel_energy_content_mj_kg,46.0,MJ/kg,MJ/kg
+diesel,density_kg_l,0.832,kg/L,kg/L
+crude_oil,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+crude_oil,mpg_to_km_per_pj,11031210.459383393,mpg,km/PJ
+crude_oil,mpg_to_billion_km_per_pj,0.011031210459383392,mpg,billion km/PJ
+crude_oil,fuel_energy_content_mj_kg,47.0,MJ/kg,MJ/kg
+crude_oil,density_kg_l,0.82,kg/L,kg/L
+lpg,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+lpg,mpg_to_km_per_pj,16908994.595101457,mpg,km/PJ
+lpg,mpg_to_billion_km_per_pj,0.016908994595101458,mpg,billion km/PJ
+lpg,fuel_energy_content_mj_kg,51.0,MJ/kg,MJ/kg
+lpg,density_kg_l,0.493,kg/L,kg/L
+natural_gas,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+natural_gas,mpg_to_km_per_pj,10306493.360112388,mpg,km/PJ
+natural_gas,mpg_to_billion_km_per_pj,0.010306493360112388,mpg,billion km/PJ
+natural_gas,fuel_energy_content_mj_kg,55.0,MJ/kg,MJ/kg
+natural_gas,density_kg_l,0.75,kg/L,kg/L
+ethanol,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+ethanol,mpg_to_km_per_pj,20105879.873665698,mpg,km/PJ
+ethanol,mpg_to_billion_km_per_pj,0.0201058798736657,mpg,billion km/PJ
+ethanol,fuel_energy_content_mj_kg,26.8,MJ/kg,MJ/kg
+ethanol,density_kg_l,0.789,kg/L,kg/L
+biodiesel,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+biodiesel,mpg_to_km_per_pj,12713602.006717583,mpg,km/PJ
+biodiesel,mpg_to_billion_km_per_pj,0.012713602006717584,mpg,billion km/PJ
+biodiesel,fuel_energy_content_mj_kg,38.0,MJ/kg,MJ/kg
+biodiesel,density_kg_l,0.88,kg/L,kg/L
+jet_fuel,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+jet_fuel,mpg_to_km_per_pj,12354781.324238501,mpg,km/PJ
+jet_fuel,mpg_to_billion_km_per_pj,0.012354781324238501,mpg,billion km/PJ
+jet_fuel,fuel_energy_content_mj_kg,42.8,MJ/kg,MJ/kg
+jet_fuel,density_kg_l,0.804,kg/L,kg/L
+biojet,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+biojet,mpg_to_km_per_pj,12354781.324238501,mpg,km/PJ
+biojet,mpg_to_billion_km_per_pj,0.012354781324238501,mpg,billion km/PJ
+biojet,fuel_energy_content_mj_kg,42.8,MJ/kg,MJ/kg
+biojet,density_kg_l,0.804,kg/L,kg/L

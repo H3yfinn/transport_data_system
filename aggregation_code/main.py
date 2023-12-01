@@ -43,7 +43,7 @@ else:
     load_energy_activity_selection_progress = False
     load_energy_activity_interpolation_progress = False
 
-RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False
+RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False#note that this is not done aymore because of the optimisation process in the transport mdoel which uses optimsiation to choose the best values for stocks/mielage/occupancy/efficiency so their product is equal to the egeda totals.
 
 ################################################################
 
@@ -53,9 +53,7 @@ RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False
 #3. OPTIONAL Filter the data to only include the combinations of columns categories that are required for the 9th edition of the aperc transport model, via the model_concordances_measures.csv file.
 #4. OPTIONAL do some temporary data cleaning to make the data more consistent with the 9th edition of the aperc transport model. This is due to the difficulty of committing to one form of input data
 # paths_dict, highlight_list = setup_main()
-"""Reasoning:
-wide range of datapoints
-tracking of """
+
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
