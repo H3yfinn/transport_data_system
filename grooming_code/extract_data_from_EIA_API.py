@@ -322,7 +322,7 @@ concatenated_data = pd.concat( [concatenated_data, pd.DataFrame(all_rows)] )
 #%%
 # all_scraped_data = all_rows[0]
 #TODO HOW TO GET THE VALUE???
-concatenated_data.to_pickle(f'input_data/EIA/all_scraped_data_{data_source}.pkl')
+concatenated_data.to_pickle(f'input_data/EIA/all_scraped_data_{data_source.replace("/", "_")}.pkl')
 
 #%%
 #now using the output we can set it inot the format we want. for this its useufl to use the seriesName, Period, scenarioDescription, unit as it often contians all the info we need, as long as we have prepared cateorisations for that info.
@@ -399,25 +399,26 @@ region_id_to_economy_mapping = {
 
 new_df = pd.DataFrame(columns=['drive', 'vehicle_type', 'fuel', 'measure', 'period', 'scenario', 'unit', 'economy', 'value'])
 
-def extract_values_from_mapping_dictionaries(mapping_dictionary, string_to_search, column_name):
-    for mapping in mapping_dictionary[column_name]:
-        for key in mapping.keys():
-            if key in string_to_search:
-                return mapping[key]
+def extract_values_from_mapping_dictionaries(mapping, string_to_search):
+    for key in mapping.keys():
+        if key in string_to_search:
+            return mapping[key]
     return None
     
-for entry in all_scraped_data:
+for index, row in concatenated_data.iterrows():
     new_row = {}
     
-    for column_name, mapping_dictionary in mapping_dictionaries_to_column_name.items():
-        new_row[column_name] = extract_values_from_mapping_dictionaries(mapping_dictionary, entry['seriesName'], column_name)
+    for column_name, mapping in mapping_dictionaries_to_column_name.items():
+        new_row[column_name] = extract_values_from_mapping_dictionaries(mapping, row['seriesName'])
         
-    new_row['period'] = entry['period']
-    new_row['scenario'] = entry['scenarioDescription']
-    new_row['unit'] = entry['unit']
+    new_row['period'] = row['period']
+    new_row['scenario'] = row['scenario']
+    new_row['unit'] = row['unit']
     #where region maps to economy then use that, otherwise use the region id
-    new_row['economy'] = region_id_to_economy_mapping[entry['region']] if entry['region'] in region_id_to_economy_mapping else entry['region']
+    new_row['economy'] = region_id_to_economy_mapping[row['regionId']] if row['regionId'] in region_id_to_economy_mapping else row['regionId']
     # new_row['value'] = entry['data'][0]['value']
     
-    
+    new_df = pd.concat([new_df, pd.DataFrame(new_row, index=[0])])
 #%%
+
+#TODO HOW TO INSERT VALUE? LIKE WHERE IS IT??
