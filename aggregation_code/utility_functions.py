@@ -107,11 +107,11 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
     paths_dict['combined_data'] = os.path.join(paths_dict['intermediate_folder'], f'combined_data.pkl')
     paths_dict['combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'], f'combined_data_concordance.pkl')
 
-    #stocks_mileage_occupancy_load_efficiency dfs:
+    #road_measures dfs:
     #selection:
-    paths_dict['stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+    paths_dict['road_measures_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'road_measures_combined_data_concordance.pkl')
     #interp:
-    paths_dict['interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+    paths_dict['interpolated_road_measures_combined_data_concordance'] = os.path.join(paths_dict['intermediate_folder'],'interpolated_road_measures_combined_data_concordance.pkl')
     
     #energy_activitydfs:
     #preparation/calcualtion:
@@ -132,7 +132,7 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
 
     #infrequenty used data formatting paths
     paths_dict['erroneus_duplicates'] =  os.path.join(paths_dict['intermediate_folder'],'erroneus_duplicates.csv')
-    paths_dict['missing_rows_no_zeros'] = os.path.join(paths_dict['intermediate_folder'], 'missing_rows_no_zeros.csv')
+    paths_dict['missing_rows_for_transport_model'] = os.path.join(paths_dict['intermediate_folder'], 'missing_rows_for_transport_model.csv')
     paths_dict['missing_rows'] = os.path.join(paths_dict['intermediate_folder'], 'missing_rows.csv')
     paths_dict['combined_data_error.pkl'] = os.path.join(paths_dict['intermediate_folder'], 'combined_data_error.pkl')
     paths_dict['unselected_combined_data'] = f"{paths_dict['intermediate_folder']}/unselected_combined_data.pkl"
@@ -151,11 +151,11 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
         
         paths_dict['previous_combined_data'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data.pkl')
         paths_dict['previous_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'], f'combined_data_concordance.pkl')
-        #stocks_mileage_occupancy_load_efficiency
+        #road_measures
         #selection
-        paths_dict['previous_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+        paths_dict['previous_road_measures_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'road_measures_combined_data_concordance.pkl')
         #interpolation
-        paths_dict['previous_interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+        paths_dict['previous_interpolated_road_measures_combined_data_concordance'] = os.path.join(paths_dict['previous_intermediate_folder'],'interpolated_road_measures_combined_data_concordance.pkl')
 
         #energy_activity dfs:
         #preparation/calcualtion:

@@ -18,10 +18,22 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID='',percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True):
-    # #TEMPORARY
-    # #remove data from dates after 2019 (have to format it as it is currently a string)
-    # final_combined_data_concordance['date'] = pd.to_datetime(final_combined_data_concordance['date'])
-    # final_combined_data_concordance = final_combined_data_concordance.loc[final_combined_data_concordance.date < '2020-01-01']
+    """_summary_
+
+    Args:
+        final_combined_data_concordance (_type_): _description_
+        INDEX_COLS (_type_): _description_
+        paths_dict (_type_): _description_
+        automatic_interpolation_method (str, optional): _description_. Defaults to 'linear'.
+        automatic_interpolation (bool, optional): _description_. Defaults to True.
+        FILE_DATE_ID (str, optional): _description_. Defaults to ''.
+        percent_of_values_needed_to_interpolate (float, optional): _description_. Defaults to 0.7.
+        INTERPOLATION_LIMIT (int, optional): _description_. Defaults to 3.
+        load_progress (bool, optional): _description_. Defaults to True.
+
+    Returns:
+        _type_: _description_
+    """
 
     #Remove year from the current cols without removing it from original list, and set it as a new list
     INDEX_COLS_no_year = INDEX_COLS.copy()
@@ -65,13 +77,13 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,paths_
         logging.info('Time taken so far: %s', datetime.datetime.now() - start_time)
 
         ##############################################################
-
+        BREAK_LOOP = False
         #interpolate missing values by iterating through the unique index rows
         for index_row_no_year in unique_index_row_no_years:
             #get the data for the current index row
             current_data = final_combined_data_concordance_measure.loc[index_row_no_year]
 
-            #prepare intepolation using a spline and a linear method (could ask chat gpt how to choose the method since there is probably some mathemetical basis for it)
+            #prepare intepolation using a spline and a linear method 
             #so we will create a value column for each interpolation method and fill it with the values in the current data. Then run each interpoaltion on that column and fill in the missing values. Then we will plot the data and ask the user to choose which method to use
             #create a new dataframe to hold the data for the current index row                
             next_iteration, skipped_rows, current_data, final_combined_data_concordance_measure = check_if_enough_values_to_interpolate(current_data,final_combined_data_concordance_measure, index_row_no_year,skipped_rows,INDEX_COLS_no_year,percent_of_values_needed_to_interpolate)
@@ -80,39 +92,18 @@ def interpolate_missing_values(final_combined_data_concordance,INDEX_COLS,paths_
                 continue
             current_data = current_data.reset_index().sort_values(by='date')
             ########################################################################################################################################################
-
             if not automatic_interpolation:
-                #MANUAL INTERPOLATION
-                #set up plot axes and such
-                
-                fig, ax = setup_interpolation_timeseries(index_row_no_year)
-
-                interpolation_methods_current = interpolation_methods.copy()
-
-                interpolation_methods_current, current_data, ax, fig = plot_and_test_interpolation_methods(interpolation_methods,interpolation_methods_current, current_data, ax, fig, index_row_no_year,INTERPOLATION_LIMIT)
-
-                #plot original line as well but using a different marker
-                ax.plot(current_data['date'], current_data['value'], label='original', marker='o')
-                im = show_timeseries(paths_dict,fig)                    
-
-                final_combined_data_concordance_measure, interpolation_method, dataset_selection_method, current_data, user_input_correct, break_loop, im = ask_user_to_choose_interpolation_method(final_combined_data_concordance_measure,im, interpolation_methods_current,current_data, index_row_no_year)
-
-                if break_loop:
-                    if im is not None:
-                        im.close()
-                    else:
-                        plt.close('all')
-                    break#this occurs if the user inputs the same incorrect value twice, which will probvably occur if they want to quit current process.
+                final_combined_data_concordance_measure, interpolation_method, dataset_selection_method, current_data, user_input_correct, break_loop, plot_img, BREAK_LOOP = manual_interpolation(index_row_no_year, interpolation_methods, current_data, final_combined_data_concordance_measure, INTERPOLATION_LIMIT, INDEX_COLS_no_year, paths_dict)
+                if BREAK_LOOP:
+                    break
             ########################################################################################################################################################
             else:
                 #AUTOMATIC INTERPOLATION
                 #Here, if the order is too high for the spline method then it will fail so we will try the spline method with a lower order and if that fails then we will try the linear method
-
                 current_data, dataset_selection_method = do_automatic_interpolation(current_data, INTERPOLATION_LIMIT,index_row_no_year,automatic_interpolation_method)
             ########################################################################################################################################################
             ##FINALIZE INTERPOLATION
             #where value is NaN set value to the interpolation value and set dataset_selection_method to 'interpolated'
-            
             final_combined_data_concordance_measure = finalise_interpolation(current_data, dataset_selection_method,final_combined_data_concordance_measure, index_row_no_year,INDEX_COLS_no_year)
         
         #make the changes for this measure to the original dataframe and then save that dataframe as csv file to checkpoitn our progress
@@ -145,7 +136,7 @@ def plot_and_test_interpolation_methods(interpolation_methods,interpolation_meth
         #if the method is one that requires an order then it will have  a number as well so check if the value has a number in it
         if re.search(r'\d', interpolation_method):
             #get the order of the polynomial
-            order = int(re.search(r'\d', interpolation_method).group())
+            order = int(re.search(r'\d', interpolation_method).group())#im notsure if this line is right TODO
             #set the interpolation method to the string when you remove the number
             interpolation_method_string = re.sub(r'\d', '', interpolation_method)
             #try the interpolation but it couyld fail ebcause the order is too high
@@ -186,9 +177,9 @@ def show_timeseries(paths_dict,fig,use_plt_gui=False):
         fig.savefig(plot_path)
         logging.debug('Saving plot at %s', plot_path)
         #open the plot
-        im = Image.open(plot_path)
-        im.show()
-        return im                
+        plot_img = Image.open(plot_path)
+        plot_img.show()
+        return plot_img                
         
 def setup_interpolation_timeseries(index_row_no_year):
     #setup the plot but it will be added through the following code
@@ -262,7 +253,7 @@ def apply_interpolation_method(user_input, interpolation_methods_current, curren
     user_input_correct = True
     return interpolation_method, dataset_selection_method, current_data, user_input_correct
 
-def ask_user_to_choose_interpolation_method(final_combined_data_concordance_measure,im, interpolation_methods_current,current_data, index_row_no_year):
+def ask_user_to_choose_interpolation_method(final_combined_data_concordance_measure,plot_img, interpolation_methods_current,current_data, index_row_no_year):
     logger = logging.getLogger(__name__)
     #ask the user to choose which method to use
     logger.info('{}: {}'.format('0', 'Skip this row'))
@@ -298,7 +289,7 @@ def ask_user_to_choose_interpolation_method(final_combined_data_concordance_meas
         #double check that that worked #TODO
         logger.debug('dataset_selection_method for {} is {}'.format(index_row_no_year, final_combined_data_concordance_measure.loc[index_row_no_year, 'dataset_selection_method']))
 
-    return final_combined_data_concordance_measure,interpolation_method, dataset_selection_method, current_data, user_input_correct, break_loop, im
+    return final_combined_data_concordance_measure,interpolation_method, dataset_selection_method, current_data, user_input_correct, break_loop, plot_img
 ########################MANUAL
 
 def do_automatic_interpolation(current_data, INTERPOLATION_LIMIT,index_row_no_year,automatic_interpolation_method):
@@ -401,6 +392,34 @@ def finalise_interpolation(current_data, dataset_selection_method, final_combine
 
     return final_combined_data_concordance_measure
 
+
+def manual_interpolation(index_row_no_year, interpolation_methods, current_data, final_combined_data_concordance_measure, INTERPOLATION_LIMIT, INDEX_COLS_no_year, paths_dict):
+        
+    #MANUAL INTERPOLATION
+    #set up plot axes and such
+    
+    fig, ax = setup_interpolation_timeseries(index_row_no_year)
+
+    interpolation_methods_current = interpolation_methods.copy()
+
+    interpolation_methods_current, current_data, ax, fig = plot_and_test_interpolation_methods(interpolation_methods,interpolation_methods_current, current_data, ax, fig, index_row_no_year,INTERPOLATION_LIMIT)
+
+    #plot original line as well but using a different marker
+    ax.plot(current_data['date'], current_data['value'], label='original', marker='o')
+    plot_img = show_timeseries(paths_dict,fig)                    
+
+    final_combined_data_concordance_measure, interpolation_method, dataset_selection_method, current_data, user_input_correct, break_loop, plot_img = ask_user_to_choose_interpolation_method(final_combined_data_concordance_measure,plot_img, interpolation_methods_current,current_data, index_row_no_year)
+
+    if break_loop:
+        if plot_img is not None:
+            plot_img.close()
+        else:
+            plt.close('all')
+        BREAK_LOOP=True#this occurs if the user inputs the same incorrect value twice, which will probvably occur if they want to quit current process.
+    else:
+        BREAK_LOOP=False
+    
+    return final_combined_data_concordance_measure, interpolation_method, dataset_selection_method, current_data, user_input_correct, break_loop, plot_img, BREAK_LOOP
 
 
 

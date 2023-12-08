@@ -13,7 +13,7 @@ INDEX_COLS:
 
 concordances_file_path: './input_data/concordances/9th/model_concordances_measures.csv'
 
-stocks_mileage_occupancy_load_efficiency_datasets_to_always_use:
+road_measures_datasets_to_always_use:
   - 'ct_national_stats'
   - 'ct_national_stats vehicle_dist_split'
   - 'ct_national_stats $ iea_ev_explorer_no_data'
@@ -184,13 +184,13 @@ datasets:
     file_path: intermediate_data/estimated/EGEDA_9th_cleaned_split_into_transport_typesFILE_DATE_ID.csv
     folder: intermediate_data/estimated/
     script: split_egeda_cleansed_into_transport_types.py
-    included: True
+    included: False
     type: transport
   EGEDA_split_into_transport_types:
     file_path: intermediate_data/estimated/EGEDA_split_into_transport_typesFILE_DATE_ID.csv
     folder: intermediate_data/estimated/
     script: split_egeda_into_transport_types.py
-    included: False
+    included: True
     type: transport
   _8th_ATO_bus_update.csv:
     file_path: ./intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv

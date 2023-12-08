@@ -12,7 +12,7 @@ import plotly.express as px
 
 # intermediate_data/selection_process/DATE20230519/combined_data.pkl
 a =  pd.read_pickle('intermediate_data/selection_process/DATE20230519/combined_data.pkl')
-b = pd.read_pickle('intermediate_data/selection_process/DATE20230519/interpolated_stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pkl')
+b = pd.read_pickle('intermediate_data/selection_process/DATE20230519/interpolated_road_measures_combined_data_concordance.pkl')
 # %%
 
 #take a look at unique datsets:

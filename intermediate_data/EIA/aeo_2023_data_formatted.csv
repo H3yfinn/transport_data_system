@@ -1,0 +1,755 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,value,seriesName
+ethanol_flex_fuel,car,sales,2022,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2023,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2024,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2025,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2026,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2027,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2028,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2029,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2030,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2031,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2032,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2033,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2034,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2035,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2036,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2037,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2038,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2039,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2040,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2041,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2042,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2043,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2044,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2045,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2046,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2047,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2048,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2049,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ethanol_flex_fuel,car,sales,2050,ref2023,thousands,20_usa,,fleet vehicle sales : alternative-fuel cars : ethanol-flex fuel ice
+ice_g,car,sales,2043,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2040,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2041,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2042,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2044,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2045,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2046,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2047,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2048,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2049,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2050,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2035,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2036,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2037,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2038,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2039,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2022,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2023,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2024,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2025,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2026,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2027,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2028,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2029,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2030,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2031,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2032,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2033,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2034,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+phev_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+ice_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+phev_d,lpv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+ice_g,lcv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+phev_d,car,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+ice_d,car,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+phev_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover light truck
+phev_d,lpv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,car,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+bev,lt,efficiency,2047,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2048,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2049,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2050,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2047,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2048,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2049,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2050,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+bev,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid
+ice_g,lcv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_g,lcv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : gasoline : large van
+ice_d,car,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,car,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : subcompact car
+ice_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+ice_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover car
+phev_d,car,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,car,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : two seater car
+phev_d,lpv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+phev_d,lpv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small utility
+ice_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+ice_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : turbo direct injection diesel : large crossover light truck
+phev_d,lpv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,lpv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large utility
+phev_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : small crossover car
+phev_d,car,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,car,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : mini-compact car
+phev_d,suv,efficiency,2022,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2023,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2024,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2025,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2026,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,,new light-duty vehicle : diesel-electric hybrid : large crossover car
+ice_g,car,sales,2043,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2040,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2041,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2042,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2044,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2045,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2046,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2047,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2048,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2049,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2050,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2035,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2036,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2037,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2038,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2039,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2022,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2023,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2024,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2025,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2026,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2027,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2028,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2029,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2030,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2031,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2032,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2033,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline
+ice_g,car,sales,2034,ref2023,thousands,20_usa,,fleet vehicle sales : conventional cars : gasoline

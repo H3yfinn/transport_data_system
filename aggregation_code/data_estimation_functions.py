@@ -28,11 +28,21 @@ plotting = True#change to false to stop plots from appearing
 
  
 def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data):
+    """we need to use data from esto team's energy dataset so we can estimate non road energy use. This function will take in prespecified data that will be used to find the split between enrgy in each medium. 
+
+    Args:
+        unfiltered_combined_data (_type_): _description_
+        all_combined_data (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    breakpoint()
     #prep:
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']}
+    'dataset': ['egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto']}
     #make them all lower case:
     unfiltered_combined_data['measure'] = unfiltered_combined_data['measure'].str.lower()
     egeda_energy_combined_data = data_formatting_functions.filter_for_specifc_data(egeda_energy_selection_dict, unfiltered_combined_data)
@@ -75,7 +85,15 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     return egeda_energy_combined_data
 
 def scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined_data):
-    #1.use the values from egeda and scale them according to how large the total road energy is compared to what it is for egeda (so the same proportion of enegry is used for non road as it is in egeda, but the total egeda enegry use will change)
+    """
+    use the values from egeda and scale them according to how large the total road energy is compared to what it is for egeda (so the same proportion of enegry is used for non road as it is in egeda, but the total egeda enegry use will change)
+    Args:
+        egeda_energy_combined_data (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    #
     #copy the egeda data
     egeda_energy_combined_data_scaled = egeda_energy_combined_data.copy()
     #find what % the calculated road energy changed compared to the egeda road energy
@@ -95,7 +113,15 @@ def scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined
     return egeda_energy_combined_data_scaled
 
 def scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combined_data):
-    #2.use the values from egeda but make it the remainder of the total road energy use (so scale between non-road energy uses are the same but the proportion comapred to total road energy use is different)
+    """use the values from egeda but make it the remainder of the total road energy use (so scale between non-road energy uses are the same but the proportion comapred to total road energy use is different)
+
+    Args:
+        egeda_energy_combined_data (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    #2.
     #copy the egeda data
     egeda_energy_combined_data_remainder = egeda_energy_combined_data.copy()
     #calculate the remainder of the total energy use
@@ -128,7 +154,7 @@ def clean_up_finalised_non_road_energy_df(new_egeda_energy_data):
     new_egeda_energy_data = new_egeda_energy_data.rename(columns={'absolute': 'value'})
 
     new_egeda_energy_data['measure'] = 'energy'
-    new_egeda_energy_data['dataset'] ='egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed'
+    new_egeda_energy_data['dataset'] ='egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto'
     new_egeda_energy_data['unit'] = 'pj'
     new_egeda_energy_data['transport_type'] = 'all'
     new_egeda_energy_data['fuel'] = 'all'
@@ -177,7 +203,16 @@ def aggregate_non_road_energy_estimates(egeda_energy_combined_data_scaled,egeda_
     return egeda_energy_combined_data_merged_tall
 
 def estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict):
+    """a bit of a handler function, will run the functions for estimating non road energy use, format them, offer the option to plot them and then return the finalised dataframe
 
+    Args:
+        unfiltered_combined_data (_type_): _description_
+        all_combined_data (_type_): _description_
+        paths_dict (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     egeda_energy_combined_data = prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data) 
     egeda_energy_combined_data_scaled = scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined_data)
     egeda_energy_combined_data_remainder = scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combined_data)    
@@ -195,11 +230,22 @@ def estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_di
 
 
 def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, paths_dict):
+    """similar to prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data). Will extract the prespecified data to find energy use for each transport type and then times it by the proportion of energy use in our input df for each transport type.
+    This will run calcualte_egeda_non_road_transport_type_energy_proportions to do the first part of the calculation 
+
+    Args:
+        non_road_energy_no_transport_type (_type_): _description_
+        unfiltered_combined_data (_type_): _description_
+        paths_dict (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     #prep:
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']} 
-    egeda_transport_type_energy_proportions = calcualte_egeda_non_road_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict)
+    'dataset': ['egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto']} 
+    egeda_transport_type_energy_proportions = calcualte_egeda_non_road_transport_type_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict)
 
     #merge on economy and date
     non_road_energy = non_road_energy_no_transport_type.merge(egeda_transport_type_energy_proportions, on=['economy','date', 'medium'], how='left')
@@ -220,7 +266,20 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
 
     return non_road_energy
 
-def calcualte_egeda_non_road_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict):
+def calcualte_egeda_non_road_transport_type_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict):
+    """
+    Run by split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, paths_dict). It will extract the prespecified data to find energy use for each transport type and then times it by the proportion of energy use in our input df for each transport type.
+
+    Args:
+        unfiltered_combined_data (_type_): _description_
+        egeda_energy_selection_dict (_type_): _description_
+
+    Raises:
+        ValueError: _description_
+
+    Returns:
+        _type_: _description_
+    """
     #get egeda data
     egeda_transport_type_energy_proportions = data_formatting_functions.filter_for_specifc_data(egeda_energy_selection_dict, unfiltered_combined_data)
     #drop all cols except economy, date, medium transport_type and value
@@ -564,7 +623,7 @@ def compare_total_energy_to_egeda_totals(combined_data,unfiltered_combined_data,
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['egeda_split_into_transport_types_using_8th $ egeda_9th_cleansed']}
+    'dataset': ['egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto']}
     egeda_energy_combined_data = data_formatting_functions.filter_for_specifc_data(egeda_energy_selection_dict, unfiltered_combined_data)
     #drop all cols except economy, date, medium and value
     egeda_energy_combined_data = egeda_energy_combined_data[['economy','date','medium','transport_type','value']]

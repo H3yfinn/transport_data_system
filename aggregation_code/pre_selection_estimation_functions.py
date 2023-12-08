@@ -105,7 +105,15 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
 def estimate_petrol_diesel_splits(unfiltered_combined_data):
     """
     Estimates the petrol and diesel splits for the input data.
-
+    
+    Using the data we have we will find datasets where we have one of or both of ice_g and ice_d for each vehicle type and then where we do have them for a vehile type we'll use that to estimate the split between petrol and diesel. Then we can average out the splits for each vehicle type across all teh datasets and dates for each economy. This way  we can arrive at the most accurate estimate of the split between petrol and diesel for each economy.
+    
+    Where we dont have these splits, we will use the average of all otehr economys to estimate the split for that economy... this is a bit of a hack but it will have to do for now.
+    
+    If there are no splits to average from at all then just leave it as na. we can just leave those drives as ice.
+    
+    Note that we could even include cng and lpg here but for now ignore as i think they are too economy specific
+    
     Args:
         unfiltered_combined_data (pandas.DataFrame): The input data.
 
@@ -113,10 +121,7 @@ def estimate_petrol_diesel_splits(unfiltered_combined_data):
         dict: A dictionary containing the petrol and diesel splits.
     """
     # #breakpoint()
-    #using the data we have we will find datasets where we have one of or both of ice_g and ice_d for each vehicle type and then where we do have them for a vehile type we'll use that to estimate the split between petrol and diesel. Then we can average out the splits for each vehicle type across all teh datasets and dates for each economy. This way  we can arrive at the most accurate estimate of the split between petrol and diesel for each economy.
-    #where we dont have these splits, we will use the average of all otehr economys to estimate the split for that economy... this is a bit of a hack but it will have to do for now.
-    #if there are no splits to average from at all then just leave it as na. we can just leave those drives as ice.
-    #note that we could even include cng and lpg here but for now ignore as i think they are too economy specific
+    
     splits_dict = {}
     for vehicle_type in unfiltered_combined_data.vehicle_type.unique():
         splits_dict[vehicle_type] = {}
@@ -284,6 +289,10 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     """
     Splits the stocks where drive is all into BEV, PHEV, and ICE.
 
+    Using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. This will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
+    
+    For any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
+    
     Args:
         unfiltered_combined_data (pandas.DataFrame): The input data.
 
@@ -291,8 +300,7 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
         pandas.DataFrame: The modified data.
     """
     #PLEASE NOTE THAT THIS IGNORES THE CNG OR LPG STOCKS THAT COULD BE IN THAT ECONOMY. SO THEY THEN WONT BE included
-    #using the iea ev data explorer data we will split all estimates for stocks in drive=='all' into ev, phev and ice. this will be done by using the iea stock share for ev's and phev's and then the rest will be ice.
-    #for any economys where we dont have iea data we will just set the ev and phev shares to 0 and then the rest will be ice. We can fill them in later if we want to.
+    #
     combined_data_all_drive = unfiltered_combined_data[unfiltered_combined_data['drive']=='all'].copy()
 
     iea_ev_explorer_selection_dict = {'measure': 
@@ -362,15 +370,13 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     # #breakpoint()
     return unfiltered_combined_data
 
-
-
-def calculate_energy_and_activity(stocks_mileage_occupancy_load_efficiency_combined_data_concordance, paths_dict):
+def calculate_energy_and_activity(road_measures_combined_data_concordance, paths_dict):
 
     #make combined data wide so we have a column for each measure
     INDEX_COLS_no_measure = paths_dict['INDEX_COLS'].copy()
     INDEX_COLS_no_measure.remove('measure')
     INDEX_COLS_no_measure.remove('unit')
-    data = stocks_mileage_occupancy_load_efficiency_combined_data_concordance.pivot(index = INDEX_COLS_no_measure, columns = 'measure', values = 'value').reset_index()
+    data = road_measures_combined_data_concordance.pivot(index = INDEX_COLS_no_measure, columns = 'measure', values = 'value').reset_index()
     #to prevent any issues with div by 0 we will replace all 0s with nans. then any nans timesed by anything will be nan
     data = data.replace(0,np.nan)
 

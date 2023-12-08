@@ -685,8 +685,7 @@ def close_timeseries(timeseries_png):
 
 
 def prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict,sorting_cols):
-    """This function will take in the combined data and combined data concordance dataframes and prepare them for the manual selection process. It will filter the data to only include data from the years we are interested in. 
-    #TODO this previously would' remove any duplicate data for the 8th edition transport model carbon neutrality scenario.'. Need to replace that. somewhere else"""#TODO double check that that is true, it came from ai
+    """This function will take in the combined data and combined data concordance dataframes and prepare them for the manual selection process. It will filter the data to only include data from the years we are interested in. """
 
     combined_data_concordance = data_formatting_functions.ensure_column_types_are_correct(combined_data_concordance)
     combined_data = data_formatting_functions.ensure_column_types_are_correct(combined_data)
@@ -768,8 +767,8 @@ def identify_duplicated_datapoints_to_select_for(combined_data,combined_data_con
 def import_previous_selections(concordance,paths_dict,previous_selections_file_path,combined_data,option='a',highlight_list = []):
     """
     Please note this is quite a complicated process. 
-    #WARNING THERES POTENTIALLY AN ISSUE WHEN YOU UPdate THE INPUT DATA SO IT INCLUDES ANOTHER DATAPOINT AND YOU LOAD THIS IN, THE MANUAL CONCORDANCE WILL END UP AHVING TWO ROWS FOR THE SAME DATAPOINT? #cHECK IT LATER
-
+    
+    #TODO WARNING THERES POTENTIALLY AN ISSUE WHEN YOU UPdate THE INPUT DATA SO IT INCLUDES ANOTHER DATAPOINT AND YOU LOAD THIS IN, THE MANUAL CONCORDANCE WILL END UP AHVING TWO ROWS FOR THE SAME DATAPOINT? #cHECK IT LATER
 
     We will do the following process:
     1. We will import the previous manual selections as a concordance
@@ -780,15 +779,15 @@ def import_previous_selections(concordance,paths_dict,previous_selections_file_p
       the selection method is manual in the previous concordance, otherwise remove those rows from the previous concordance.
 
     Then go with either of these options:
-    3. option a: update current concordance with the manual seelctions from previous concordance. This will include updating the 'dataset_selection_method' col for which, if it is filled with 'manual' in any row in the indiex_row_no_year, during the selections process, it will be skipped over. This is because we are assuming that the user has already made a selection for that index row no year and we don't want to overwrite it.
-    3. option b: First, change the dataset in the rpevious_concordance to have 'previous_selections_file_name%' at the dataset name. Then add these rows to combined data with the previous selections rows. (make sure not to add any new cols though). Then when the user is doing their selecitons they can identify the previous selections by the dataset name. It can also be highlighted. Then when they are done, they can remove 'previous_selections_file_name%' from the dataset name.
+    3. option a: update current concordance with the manual seelctions from previous concordance. This will include updating the 'dataset_selection_method' col. This means that according to the default process of the selection process, if 'dataset_selection_method' is filled with 'manual' in any row in the index_row_no_year, that row will be skipped over. This is because we are assuming that the user has already made a selection for that index_row_no_year and we don't want to overwrite it. 
+        - (note that index_row_no_year refers to rows where the date is not included in the index, so any action performed on a index_row_no_year will be performed on all years for that index_row_no_year)
+    3. option b: First, change the dataset in the previous_concordance to have 'previous_selections_file_name%' at the dataset name. Then add these rows to combined data with the previous selections rows. (make sure not to add any new cols though). Then when the user is doing their selecitons they can identify the previous selections by the dataset name. It can also be highlighted. Then when they are done, they can remove 'previous_selections_file_name%' from the dataset name.   
+        -this gives the user a little more control over what selections are used, but it is slower.
 
     notes for when using this:
-    in option a, if you have skipped rows and chosen manual for otehr rows and you merge them in then this will essentiually skip those rows too by interpoalting them. 
-    updates to other functions may affect this because there are so many steps to this process.
-    option b allkows for more control over what selections are used, but it is slower. You can also incorporate a function to grab the highlighted datasets with previous_file_name% in the name and then make them default selections to speed up the process,  and this will end up like option a.
-
-
+    - in option a, if you have skipped rows and chosen manual for otehr rows and you merge them in then this will essentiually skip those rows too by interpoalting them. 
+    - updates to other functions may affect this because there are so many steps to this process.
+    - You can also write a function to grab the highlighted datasets with previous_file_name% in the name and then make them default selections to speed up the process, and this will end up like option a. It shouldnt be too hard.
     """
     
     #IMPORT PREVIOUS SELECTIONS
@@ -823,14 +822,8 @@ def import_previous_selections(concordance,paths_dict,previous_selections_file_p
     #remove the columns we added
     previous_concordance.drop(columns=['sum_of_values_current', 'num_datapoints_current', 'potential_datapoints_current'], inplace=True)
     ##########################################################
-
-    #  Then go with either of these options:
-    # 3. option a: update current concordance with the manual seelctions from previous concordance. This will include updating the 'dataset_selection_method' col for which, if it is filled with 'manual' in any row in the indiex_row_no_year, during the selections process, it will be skipped over. This is because we are assuming that the user has already made a selection for that index row no year and we don't want to overwrite it.
-    # 3. option b: First, change the dataset in the rpevious_concordance to have 'previous_selections_file_name%' at the dataset name. Then add these rows to combined data with the previous selections rows. (make sure not to add any new cols though). Then when the user is doing their selecitons they can identify the previous selections by the dataset name. It can also be highlighted. Then when they are done, they can remove 'previous_selections_file_name%' from the dataset name.
-
+    #  Then go with either of the following options:
     ##########################################################
-
-    #option a:
     if option =='a':
         #update the current concordance with the previous selections
         concordance = concordance.merge(previous_concordance[['dataset', 'dataset_selection_method', 'value', 'comment']+paths_dict['INDEX_COLS']], on=paths_dict['INDEX_COLS'], how='left', suffixes=('','_previous'))
@@ -841,7 +834,6 @@ def import_previous_selections(concordance,paths_dict,previous_selections_file_p
         concordance['dataset_selection_method'] = concordance['dataset_selection_method'].fillna(concordance['dataset_selection_method_previous'])
         #remove the columns we added
         concordance.drop(columns=['dataset_selection_method_previous','dataset_previous', 'value_previous', 'comment_previous'], inplace=True)
-    #option b:
     elif option =='b':
         #change the dataset in the rpevious_concordance to have previous_selections_file_name% in its dataset name
         previous_concordance['dataset'] = previous_concordance['dataset'].apply(lambda x: previous_selections_file_name+'%#%'+x)#%$% unlikely to be in a dataset name but one percent is likely to be in a dataset name
@@ -856,6 +848,5 @@ def import_previous_selections(concordance,paths_dict,previous_selections_file_p
         highlight_list = highlight_list + list(combined_data[combined_data['dataset'].str.contains(previous_selections_file_name)].index)
     #now we can return the combined_data and concordance and highlight_list
     return concordance,combined_data, highlight_list
-#TODO UP TO HERE. WILL EVERYTHTUING RUN AS EXPECTED?
 
 

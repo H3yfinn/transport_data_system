@@ -21,7 +21,7 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'\\transport_data_sys
 #load the csv
 FILE_DATE_ID = 'DATE' + str(datetime.datetime.now().strftime('%Y%m%d'))
 egeda_no_fuel_sums = pd.read_csv('input_data/EGEDA/00APEC_FUELSUMSREMOVED.csv')
-egeda_with_fuel_sums_latest = pd.read_csv('input_data/EGEDA/00APEC.csv')
+egeda_with_fuel_sums_latest = pd.read_csv('input_data/EGEDA/00APEC_December2023.csv')
 
 #%%
 #replace Unnamed: 0 with Fuel and Unnamed: 0 with Sector

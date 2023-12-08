@@ -113,17 +113,6 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, DROP_8
 
     return combined_data
 
-    
-# def filter_for_most_detailed_stocks_breakdown(combined_data):
-#     """this will run through each economys data and identify if there is any datasets with data on lcv's and ldv's or only datasets with only ldv's. if there is a dataset with data on both then it will remove the dataset with only ldv's. This is because we want to use the most detailed breakdown of stocks as possible. 
-#     This will make the assumption that the data on lcv's and ldv's is more accurate than the data on ldv's only."""
-#     for economy in combined_data['economy'].unique():
-#         economy_data = combined_data[combined_data['economy']==economy]
-#         if 'lcv' in economy_data['vehicle_type'].unique() and 'ldv' in economy_data['vehicle_type'].unique():
-#             logger.info('removing ldv data for economy: '+economy)
-#             combined_data = combined_data[~((combined_data['economy']==economy)&(combined_data['vehicle_type']=='ldv'))]
-#     return combined_data
-
 def extract_latest_groomed_data():
     #open the yml and extract the datasets:
     with open('config/selection_config.yml', 'r') as ymlfile:
@@ -321,12 +310,19 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     return combined_data
 
 def create_concordance_from_combined_data(combined_data, frequency = 'yearly'):
-    
-    ############################################################
+    """A concordance is a general term to refer to a kind of mapping of the different categories and possible combinations of all cateogires that are allowed... or something like that. Anyway, in this context the concordance is a dataframe that contains all the unique rows of data that we want to select for.
 
-    #CREATE CONCORDANCE
+    Args:
+        combined_data (_type_): _description_
+        frequency (str, optional): _description_. Defaults to 'yearly'.
 
-    ############################################################
+    Raises:
+        Exception: _description_
+        Exception: _description_
+
+    Returns:
+        _type_: _description_
+    """
     #CREATE CONCORDANCE
     #create a concordance which contains all the unique rows in the combined data df, when you remove the dataset source and value and economy columns.
     combined_data_concordance = combined_data.drop(columns=['dataset','comment', 'value', 'economy']).drop_duplicates()#todo is this the ebst way to handle the cols
@@ -381,32 +377,6 @@ def ensure_column_types_are_correct(df):
         df['value'] = df['value'].astype(float)
     return df
 
-def TEMP_add_mileage_to_concordance(model_concordances_measures):
-    #we will copy the occupancy rows and then change the measure to mileage
-    occupancy_rows = model_concordances_measures[model_concordances_measures['measure'] == 'occupancy_or_load']
-    occupancy_rows['measure'] = 'mileage'
-    occupancy_rows['unit'] = 'km_per_stock'
-    model_concordances_measures = pd.concat([model_concordances_measures, occupancy_rows], ignore_index=True)
-    return model_concordances_measures
-
-def TEMP_add_drive_all_to_concordance(model_concordances_measures):
-    logging.info("TEMP: adding drive_all to concordance for all road measures")
-    #we will copy the rows where medium is road and then change the drive to all. Then add that on top of what is already there. Then drop duplicates.
-    # #this allows us to use some of the road data for drive=all 
-    drive_all_rows = model_concordances_measures[(model_concordances_measures['medium'] == 'road')]
-    drive_all_rows['drive'] = 'all'
-    # #remove the rows from the model_concordances_measures df
-    # model_concordances_measures = model_concordances_measures[~model_concordances_measures.medium.isin(['road'])]
-    model_concordances_measures = pd.concat([model_concordances_measures, drive_all_rows], ignore_index=True)
-    model_concordances_measures = model_concordances_measures.drop_duplicates()
-    return model_concordances_measures
-
-
-# def TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures):
-#     #remove freight_ldvs from the concordance
-#     model_concordances_measures = model_concordances_measures.loc[~((model_concordances_measures.vehicle_type == 'ldv') & (model_concordances_measures.transport_type=='freight'))]
-#     return model_concordances_measures
-
 def TEMP_replace_drive_types(df):
     # concordance = pd.read_csv('input_data/concordances/model_concordances_measures_old.csv')
     old_transport_categories = pd.read_csv('input_data/concordances/9th/manually_defined_transport_categories_OLD.csv')
@@ -440,9 +410,9 @@ def TEMP_replace_drive_types(df):
 
     return df
 
-def filter_for_9th_edition_data(combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all):
+def filter_for_transport_model_data_using_concordances(combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all):
     """
-    Filters the input data for the 9th edition.
+    Filters for the input data for the 9th edition transport model by using the model concordances base year measures file. this is created in the transport model at the beginning of its process. It contains all the rows that the transport model needs to run and means that the data selection system wont have to select other data that the transport model doesnt need.
 
     Args:
         combined_data (pandas.DataFrame): The input data.
@@ -453,11 +423,6 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     Returns:
         pandas.DataFrame: The filtered data.
     """
-    ############################################################
-
-    #FILTER FOR 9th data only
-
-    ############################################################
     model_concordances_measures = pd.read_csv(model_concordances_base_year_measures_file_name)
     #make sure the columns are snake case
     model_concordances_measures.columns = [utility_functions.convert_string_to_snake_case(col) for col in model_concordances_measures.columns]
@@ -465,23 +430,6 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     model_concordances_measures = utility_functions.convert_all_cols_to_snake_case(model_concordances_measures)
 
     model_concordances_measures = utility_functions.ensure_date_col_is_year(model_concordances_measures)
-
-    # #TEMP. add more to the concordance. hjowever it is important to not remove anything from the concordance yet as we'll be creating the intended data later from pieces within (eg. adding up all drive types to all)
-    # logging.info("TEMP: making temproary changes to concordance")
-    # #change concordance to suit the data we have groomed, rather than the data we want to have. We will slowly adjsut the groomed data to be the same as the concordance
-    # # model_concordances_measures = TEMP_replace_drive_types(model_concordances_measures)
-    
-    # # model_concordances_measures = TEMP_convert_occupancy_and_load_to_occupancy_or_load(model_concordances_measures)
-
-    # # model_concordances_measures = TEMP_add_mileage_to_concordance(model_concordances_measures)
-
-    # model_concordances_measures = TEMP_convert_freight_passenger_activity_to_activity(model_concordances_measures)
-
-    # # model_concordances_measures = TEMP_remove_freight_ldvs_from_concordance(model_concordances_measures)
-
-    # if include_drive_all:
-    #     model_concordances_measures = TEMP_add_drive_all_to_concordance(model_concordances_measures)
-    # #TEMP
 
     #Make sure that the model condordance has all the years in the input date range
     model_concordances_measures_dummy = model_concordances_measures.copy()
@@ -491,9 +439,6 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
             model_concordances_measures_dummy2 = model_concordances_measures_dummy.copy()
             model_concordances_measures_dummy2['date'] = year
             model_concordances_measures = pd.concat([model_concordances_measures,model_concordances_measures_dummy2])
-
-    # #set date #TEMP FIX TODO WE ARE CURRENTLY ASSUMING THAT THE DATE IS ALWAYS yyyy BUT THE CODE HAS BEEN MADE FLEXIBLE ENOUGH TO HANDLE yyyy-mm-dd
-    # model_concordances_measures['date'] = model_concordances_measures['date'].astype(str) + '-12-31'
 
     #Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
     INDEX_COLS_no_scope_no_fuel=paths_dict['INDEX_COLS_no_scope_no_fuel']
@@ -507,43 +452,17 @@ def filter_for_9th_edition_data(combined_data, model_concordances_base_year_meas
     filtered_combined_data = combined_data.drop(extra_rows)
     #make extra rows into a dataframe
     extra_rows_df = pd.DataFrame(index=extra_rows).reset_index()
-    # #compare extra rows where measure is intensity to the rows in missing_rows where measure is intensity
-    # extra_rows_df_intensity = extra_rows_df[extra_rows_df['measure'] == 'intensity']
-    # missing_rows_intensity = missing_rows_df[missing_rows_df['measure'] == 'intensity']
-
+    
     #now see what we are missing:
     missing_rows = model_concordances_measures.index.difference(filtered_combined_data.index)
     #create a new dataframe with the missing rows
     missing_rows_df = pd.DataFrame(index=missing_rows).reset_index()
-    # # save them to a csv
-    # logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv. There are {} missing rows'.format(len(missing_rows)))
-    # missing_rows_df.to_csv(paths_dict['missing_rows'])
-    filtered_combined_data.reset_index(inplace=True)
-    ############################################################
-
-    #CREATE ANOTHER DATAFRAME AND REMOVE THE 0'S, TO SEE WHAT IS MISSING IF WE DO THAT
-
-    ############################################################
-
-    model_concordances_measures_no_zeros = model_concordances_measures.copy()
-
-    combined_data_no_zeros = combined_data.copy()#combined_data[combined_data['value'] != 0]#NOTE THAT I REMOVED THIS IN 7/27/23 BECAUSE I REALISED I WANTED 0S NOT SURE WHAT SIDE EFFECTS MAY BE
-
-    #Use diff to remove data that isnt in the 9th edition concordance
-    extra_rows = combined_data_no_zeros.index.difference(model_concordances_measures_no_zeros.index)
-    filtered_combined_data_no_zeros = combined_data_no_zeros.drop(extra_rows)
-
-
-    #now see what we are missing:
-    missing_rows = model_concordances_measures_no_zeros.index.difference(filtered_combined_data_no_zeros.index)
-    #create a new dataframe with the missing rows
-    missing_rows_df = pd.DataFrame(index=missing_rows)
     # save them to a csv
-    logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows_no_zeros.csv. There are {} missing rows'.format(len(missing_rows)))
-    missing_rows_df.to_csv(paths_dict['missing_rows_no_zeros'])
-    filtered_combined_data_no_zeros.reset_index(inplace=True)
-
-    return filtered_combined_data_no_zeros
+    logging.info('Saving missing rows to /intermediate_data/9th_dataset/missing_rows.csv. There are {} missing rows'.format(len(missing_rows)))
+    missing_rows_df.to_csv(paths_dict['missing_rows_for_transport_model'])
+    # # save them to a csv
+    filtered_combined_data.reset_index(inplace=True)
+    return filtered_combined_data
 
 
 def test_identify_erroneous_duplicates(combined_data, paths_dict):
@@ -580,23 +499,6 @@ def test_identify_erroneous_duplicates(combined_data, paths_dict):
     
     return
 
-
-##############################################################################
-# def create_data_concordance():#TODO this would be better here than in the aggregation code to make it cleaner
-#     pass
-# #todo do these
-# def import_previous_data_concordance():
-#     #load in concordance and then use merge_previous_data_concordance() to change any rows that the same.
-#     #todo, take a look at the previous selctions fucntion and see if we can just use a merge to udpate it. I guess it is jsut the concordance that needs updating?
-#     def merge_previous_data_concordance():
-#     pass
-#     pass
-# def import_previous_combined_data():
-#     #whats the point in this one? todo
-#     pass
-# def merge_previous_combined_data():
-#     pass
-
 def filter_for_years_of_interest(combined_data_concordance,combined_data,paths_dict):
     #based on format of date column we will filter for years of interest differently:
     earliest_year = paths_dict['EARLIEST_YEAR']
@@ -614,6 +516,7 @@ def filter_for_years_of_interest(combined_data_concordance,combined_data,paths_d
 
 def filter_for_specifc_data(selection_dict, df, filter_for_all_other_data=False):
     #use the keys of the selection dict as the columns to filter on and the values as the values to filter on
+    df_not_filtered = df.copy()
     if not filter_for_all_other_data:
         for key, value in selection_dict.items():
             df = df[df[key].isin(value)]
@@ -655,159 +558,5 @@ def drop_detailed_drive_types_from_non_road_concordances(paths_dict):
     #save to new path
     model_concordances_measures.to_csv(paths_dict['concordances_file_path'],index=False)
     return paths_dict
-##############################################################################
-
-
-
-# def create_config_yml_file(paths_dict):
-        
-#     datasets = [('intermediate_data/8th_edition_transport_typel/', 'eigth_edition_transport_data_final_', 'intermediate_data/8th_edition_transport_typel/eigth_edition_transport_data_final_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_8th_ATO_passenger_road_updates.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_passenger_road_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_bus_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_bus_update.csv'), ('intermediate_data/estimated/', '_8th_ATO_road_freight_tonne_km.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_road_freight_tonne_km.csv'), ('intermediate_data/estimated/', '_8th_iea_ev_all_stock_updates.csv', 'intermediate_data/estimated/FILE_DATE_ID_8th_iea_ev_all_stock_updates.csv'), ('intermediate_data/estimated/', '_8th_ATO_vehicle_type_update.csv', './intermediate_data/estimated/FILE_DATE_ID_8th_ATO_vehicle_type_update.csv'), ('intermediate_data/ATO/', 'ATO_data_cleaned_', 'intermediate_data/ATO/ATO_data_cleaned_FILE_DATE_ID.csv'), ('intermediate_data/item_data/', 'item_dataset_clean_', 'intermediate_data/item_data/item_dataset_clean_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', '_turnover_rate_3pct', 'intermediate_data/estimated/FILE_DATE_ID_turnover_rate_3pct.csv'),  ('intermediate_data/estimated/', 'EGEDA_merged', 'intermediate_data/estimated/EGEDA_mergedFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'ATO_revenue_pkm', 'intermediate_data/estimated/ATO_revenue_pkmFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'nearest_available_date', 'intermediate_data/estimated/nearest_available_dateFILE_DATE_ID.csv'), ('intermediate_data/IEA/', '_iea_fuel_economy.csv', 'intermediate_data/IEA/FILE_DATE_ID_iea_fuel_economy.csv'), ('intermediate_data/IEA/', '_evs.csv', 'intermediate_data/IEA/FILE_DATE_ID_evs.csv'), ('intermediate_data/estimated/filled_missing_values/', 'missing_drive_values_', 'intermediate_data/estimated/filled_missing_values/missing_drive_values_FILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'occ_load_guesses', 'intermediate_data/estimated/occ_load_guessesFILE_DATE_ID.csv'), ('intermediate_data/estimated/', 'new_vehicle_efficiency_estimates_', 'intermediate_data/estimated/new_vehicle_efficiency_estimates_FILE_DATE_ID.csv'), ('intermediate_data/Macro/', 'all_macro_data_', 'intermediate_data/Macro/all_macro_data_FILE_DATE_ID.csv')]
-
-
-#     #saVE THESE TO config.YML 
-#     # #open yml
-#     # import yaml
-#     # with open('config/config.yml', 'r') as ymlfile:
-#     #     cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
-#     #create a key called datassets then set it so the key is the second element of the tuple, then folder: is the first element of the tuple and file_path: is the third element of the tuple. Then we will also have a script: value which will be set to TBA
-#     cfg = dict()
-#     cfg['datasets'] = dict()
-#     for dataset in datasets:
-        
-#         cfg['datasets'][dataset[1]] = {'folder': dataset[0], 'file_path': dataset[2], 'script': 'TBA'}
-
-#     #save INDEX_COLS to the yml under the key 'INDEX_COLS'
-#     cfg['INDEX_COLS'] = paths_dict['INDEX_COLS']
-#     #save yml
-#     with open('config/config.yml', 'w') as ymlfile:
-#         yaml.dump(cfg, ymlfile)
-#     return
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def combine_manual_and_automatic_output(combined_data_concordance_automatic,combined_data_concordance_manual,INDEX_COLS):
-#     #todo, i think its useful to have automatic selection but i think it needs to be a lot more functional. for example it should be able to easily implement the following:
-#     #if the user says a dataset should be prioirtised then it should be.
-#     #... anything else
-
-
-#     INDEX_COLS_no_year = INDEX_COLS.copy()
-#     INDEX_COLS_no_year.remove('date')
-
-#     #COMBINE MANUAL AND AUTOMATIC DATA SELECTION OUTPUT DFs
-#     #join the automatic and manual datasets so we can compare the dataset  columns from both the manual dataset automatic dataset
-#     #create a final_dataset column. This will be filled with the dataset in the automatic column, except where the values in the manual and automatic dataset columns are different, for which we will use the value in the manual dataset.
-
-#     #reset and set index of both dfs to INDEX_COLS
-#     combined_data_concordance_manual = combined_data_concordance_manual.set_index(INDEX_COLS)
-#     combined_data_concordance_automatic = combined_data_concordance_automatic.reset_index().set_index(INDEX_COLS)
-
-#     #remove the datasets and dataset_selection_method columns from the manual df
-#     combined_data_concordance_manual.drop(columns=['datasets','dataset_selection_method'], inplace=True)
-#     #join manual and automatic data selection dfs
-#     final_combined_data_concordance = combined_data_concordance_manual.merge(combined_data_concordance_automatic, how='outer', left_index=True, right_index=True, suffixes=('_manual', '_auto'))
-
-#     #we will either have dataset names or nan values in the manual and automatic dataset columns. We want to use the manual dataset column if it is not nan, otherwise use the automatic dataset column:
-#     #first set the dataset_selection_method column based on that criteria, and then use that to set other columns
-#     final_combined_data_concordance.loc[final_combined_data_concordance['dataset_auto'].notnull(), 'dataset_selection_method'] = 'Automatic'
-#     #if the manual dataset column is not nan then use that instead
-#     final_combined_data_concordance.loc[final_combined_data_concordance['dataset_manual'].notnull(), 'dataset_selection_method'] = 'Manual'
-
-#     #Now depending on the value of the dataset_selection_method column, we can set final_value and final_dataset columns
-#     #if the dataset_selection_method is manual then use the manual dataset column
-#     final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Manual', 'value'] = final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Manual','value_manual']
-#     final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Manual', 'dataset'] = final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Manual','dataset_manual']
-#     #if the dataset_selection_method is automatic then use the automatic dataset column
-#     final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Automatic', 'dataset'] = final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Automatic','dataset_auto']
-#     final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Automatic', 'value'] = final_combined_data_concordance.loc[final_combined_data_concordance['dataset_selection_method'] == 'Automatic','value_auto']
-
-#     #drop cols ending in _manual and _auto
-#     final_combined_data_concordance.drop(columns=[col for col in final_combined_data_concordance.columns if col.endswith('_manual') or col.endswith('_auto')], inplace=True)
-
-#     return final_combined_data_concordance
-
-
-
-# ##############################################################################
-
-# def create_manual_data_iterator(
-# combined_data_concordance_iterator,
-# INDEX_COLS,
-# combined_data_concordance_manual,
-# duplicates_manual,
-# rows_to_select_manually_df=[],
-# run_only_on_rows_to_select_manually=False,
-# manually_chosen_rows_to_select=None,
-# user_edited_combined_data_concordance_iterator=None,
-# previous_selections=None,
-# previous_duplicates_manual=None,
-# update_skipped_rows=False):
-    
-#     """
-#     manually_chosen_rows_to_select: set to true if you want to manually choose the rows to select using user_edited_combined_data_concordance_iterator
-#     user_edited_combined_data_concordance_iterator: a manually chosen dataframe with the rows to select. This allows user to define what they want to select manually (eg. all stocks)
-
-#     duplicates_manual & previous_duplicates_manual need to be available if you want to use either pick_up_where_left_off or import_previous_selection. progress_csv should also be available if you want to use pick_up_where_left_off
-
-#     This will create an iterator which will be used to manually select the dataset to use for each row. it is the same as the iterator which is input into this fucntion but it also has had data removed from it so that it only contains rows where we need to manually select the dataset to use
-#     """
-#     #Remove year from the current cols without removing it from original list, and set it as a new list
-#     INDEX_COLS_no_year = paths_dict['INDEX_COLS_no_year']
-
-#     #todo what function was this really filling
-#     # #CREATE ITERATOR 
-#     # #if we want to add to the rows_to_select_manually_df to check specific rows then set the below to True
-#     # if run_only_on_rows_to_select_manually:
-#     #     #if this, only run the manual process on index rows where we couldnt find a dataset to use automatically for some year
-#     #     #since the automatic method is relatively strict there should be a large amount of rows to select manually
-#     #     #note that if any one year cannot be chosen automatically then we will have to choose the dataset manually for all years of that row
-#     #     iterator = rows_to_select_manually_df.copy()
-#     #     iterator.set_index(INDEX_COLS_no_year, inplace=True)
-#     #     iterator.drop_duplicates(inplace=True)#TEMP get rid of this later
-#     # elif manually_chosen_rows_to_select:
-#     #     #we can add rows form the combined_data_concordance_iterator as edited by the user themselves. 
-#     #     iterator = user_edited_combined_data_concordance_iterator.copy()
-#     #     #since user changed the data we will jsut reset index and set again
-#     #     iterator.reset_index(inplace=True)
-#     #     iterator.set_index(INDEX_COLS_no_year, inplace=True)
-
-#     #     #for this example we will add all Stocks data (for the purpoose of betterunderstanding our stocks data!) and remove all the other data. But this is just an example of what the user could do to select specific rows
-#     #     use_example = False
-#     #     if use_example:
-#     #         iterator.reset_index(inplace=True)
-#     #         iterator = iterator[iterator['measure']=='Stocks']
-#     #         #set the index to the index cols
-#     #         iterator.set_index(INDEX_COLS_no_year, inplace=True)
-#     # else:
-#     #     iterator = combined_data_concordance_iterator.copy()
-
-#     #to do this should be a default process at start of whjole process i think 
-#     # #now determine whether we want to import previous progress or not:
-#     # if previous_selections is not None:
-#     #     combined_data_concordance_manual,iterator = import_previous_selections(previous_selections, combined_data_concordance_manual,previous_duplicates_manual,duplicates_manual,iterator,INDEX_COLS,update_skipped_rows)
-        
-#     return iterator, combined_data_concordance_manual
-
-
-
 ##############################################################################
 
