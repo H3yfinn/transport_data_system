@@ -57,6 +57,10 @@ cols.remove('Drive')
 cols.remove('Vehicle Type')
 cols.remove('Value')
 
+#where economy is 17_SIN, set to 17_SGP and where 15_RP set to 15_PHL
+eigth_edition_transport_data_road_total.loc[eigth_edition_transport_data_road_total['Economy']=='17_SIN', 'Economy'] = '17_SGP'
+eigth_edition_transport_data_road_total.loc[eigth_edition_transport_data_road_total['Economy']=='15_RP', 'Economy'] = '15_PHL'
+
 eigth_edition_transport_data_road_total = eigth_edition_transport_data_road_total.groupby(cols).sum().reset_index()
 eigth_edition_transport_data_road_total['Drive'] = np.nan
 eigth_edition_transport_data_road_total['Vehicle Type'] = np.nan

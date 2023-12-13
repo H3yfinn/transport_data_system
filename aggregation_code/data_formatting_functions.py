@@ -410,7 +410,7 @@ def TEMP_replace_drive_types(df):
 
     return df
 
-def filter_for_transport_model_data_using_concordances(combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all):
+def filter_for_transport_model_data_using_concordances(combined_data, model_concordances_base_year_measures_file_name, paths_dict, SET_NONROAD_DRIVE_TO_ALL=True):
     """
     Filters for the input data for the 9th edition transport model by using the model concordances base year measures file. this is created in the transport model at the beginning of its process. It contains all the rows that the transport model needs to run and means that the data selection system wont have to select other data that the transport model doesnt need.
 
@@ -439,7 +439,17 @@ def filter_for_transport_model_data_using_concordances(combined_data, model_conc
             model_concordances_measures_dummy2 = model_concordances_measures_dummy.copy()
             model_concordances_measures_dummy2['date'] = year
             model_concordances_measures = pd.concat([model_concordances_measures,model_concordances_measures_dummy2])
-
+    
+    ###################
+    #TEMPORARY:
+    #set drive to 'all' where medium is not road
+    if SET_NONROAD_DRIVE_TO_ALL:
+        model_concordances_measures.loc[model_concordances_measures['medium'] != 'road', 'drive'] = 'all'
+        #drop duplicates
+        model_concordances_measures = model_concordances_measures.drop_duplicates()
+    #TEMPORARY OVER
+    ###################
+        
     #Easiest way to do this is to loop through the unique rows in model_concordances_measures and then if there are any rows that are not in the 8th dataset then add them in with 0 values. 
     INDEX_COLS_no_scope_no_fuel=paths_dict['INDEX_COLS_no_scope_no_fuel']
 

@@ -57,7 +57,7 @@ RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False#note that this is not done aymore bec
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN=['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN=None#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
 ECONOMIES_TO_RUN_PREV_DATE_ID  = 'DATE20231106' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 def setup_main():
@@ -112,8 +112,7 @@ def main():
             #TEMP EDIT CONCORDANCES FOR NON ROAD:
             #we will set drive to all for non road so that the data we currently have as input data still works. the detail is handled in the model currently, although this is not a good way to do it.
             paths_dict = data_formatting_functions.drop_detailed_drive_types_from_non_road_concordances(paths_dict)
-            
-            combined_data = data_formatting_functions.filter_for_transport_model_data_using_concordances(unfiltered_combined_data, model_concordances_base_year_measures_file_name, paths_dict, include_drive_all = True)
+            combined_data = data_formatting_functions.filter_for_transport_model_data_using_concordances(unfiltered_combined_data, model_concordances_base_year_measures_file_name, paths_dict,SET_NONROAD_DRIVE_TO_ALL=True)
             
         else:
             combined_data = unfiltered_combined_data.copy()
@@ -158,9 +157,11 @@ def main():
         ####################################################
 
         grouping_cols = ['economy','vehicle_type','drive']
+        
         road_measures_selection_dict = {'measure': 
-            ['efficiency', 'occupancy_or_load', 'mileage', 'stocks', 'average_age'],
-        'medium': ['road', 'air', 'rail', 'ship']}
+            ['efficiency', 'occupancy_or_load', 'mileage', 'stocks', 'average_age', 'intensity'],
+            'medium': ['road', 'air', 'rail', 'ship']}
+        
         highlight_list = highlight_list+[]
         road_measures_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['road_measures_datasets_to_always_use']
         #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
@@ -168,7 +169,6 @@ def main():
             road_measures_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
 
             road_measures_combined_data_concordance = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data_concordance)
-
             road_measures_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, road_measures_combined_data_concordance, road_measures_combined_data, paths_dict,road_measures_datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True)
             
         else:
@@ -219,7 +219,7 @@ def main():
         all_other_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data, filter_for_all_other_data=True)
         all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data_concordance, filter_for_all_other_data=True)
 
-        #now drop all energy and activity for air, rail and ship, as well as for
+        #now drop all data in the confluence of energy and activity for air, rail and ship, as well as for 'energy','activity' measures
         non_road_measures_exclusion_dict  = {'medium':['air','rail','ship'],
                                             'measure':['energy','activity']}
         all_other_combined_data = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data, filter_for_all_other_data=True)

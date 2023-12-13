@@ -51,9 +51,9 @@ road,2017-12-31,11_MEX,Yearly,EGEDA_split_into_transport_types,8th_transport_spl
 road,2017-12-31,12_NZ,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,237.00796575828997,Energy,PJ,all,national
 road,2017-12-31,13_PNG,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,15.822598174613859,Energy,PJ,all,national
 road,2017-12-31,14_PE,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,112.46597368466765,Energy,PJ,all,national
-road,2017-12-31,15_RP,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,,Energy,PJ,all,national
+road,2017-12-31,15_PHL,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,66.0448131814213,Energy,PJ,all,national
 road,2017-12-31,16_RUS,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,0.0,Energy,PJ,all,national
-road,2017-12-31,17_SIN,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,,Energy,PJ,all,national
+road,2017-12-31,17_SGP,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,101.73460479025772,Energy,PJ,all,national
 road,2017-12-31,18_CT,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,324.80721398078964,Energy,PJ,all,national
 road,2017-12-31,19_THA,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,163.33690765891436,Energy,PJ,all,national
 road,2017-12-31,20_USA,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,passenger,36012.87595172399,Energy,PJ,all,national
@@ -130,9 +130,9 @@ road,2017-12-31,11_MEX,Yearly,EGEDA_split_into_transport_types,8th_transport_spl
 road,2017-12-31,12_NZ,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,98.35471424171004,Energy,PJ,all,national
 road,2017-12-31,13_PNG,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,7.95842582538614,Energy,PJ,all,national
 road,2017-12-31,14_PE,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,214.1181676608876,Energy,PJ,all,national
-road,2017-12-31,15_RP,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,,Energy,PJ,all,national
+road,2017-12-31,15_PHL,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,35.449259271479434,Energy,PJ,all,national
 road,2017-12-31,16_RUS,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,0.0,Energy,PJ,all,national
-road,2017-12-31,17_SIN,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,,Energy,PJ,all,national
+road,2017-12-31,17_SGP,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,56.52643520974229,Energy,PJ,all,national
 road,2017-12-31,18_CT,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,133.73112201921037,Energy,PJ,all,national
 road,2017-12-31,19_THA,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,106.12554034108564,Energy,PJ,all,national
 road,2017-12-31,20_USA,Yearly,EGEDA_split_into_transport_types,8th_transport_splits_9th_outlook_esto,All,All,freight,21906.477888276015,Energy,PJ,all,national

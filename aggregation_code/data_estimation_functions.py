@@ -37,7 +37,6 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     Returns:
         _type_: _description_
     """
-    breakpoint()
     #prep:
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
@@ -61,9 +60,11 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
         egeda_energy_combined_data['rail'] = 0
     if 'ship' not in egeda_energy_combined_data.columns:
         egeda_energy_combined_data['ship'] = 0
-        
-    #calculate the proportions of energy use for each medium
-    egeda_energy_combined_data['total_energy_use'] = egeda_energy_combined_data['rail'] + egeda_energy_combined_data['ship'] + egeda_energy_combined_data['air']+ egeda_energy_combined_data['road']
+    try:
+        #calculate the proportions of energy use for each medium
+        egeda_energy_combined_data['total_energy_use'] = egeda_energy_combined_data['rail'] + egeda_energy_combined_data['ship'] + egeda_energy_combined_data['air']+ egeda_energy_combined_data['road']
+    except:
+        breakpoint()
     egeda_energy_combined_data['rail_proportion'] = egeda_energy_combined_data['rail'] / egeda_energy_combined_data['total_energy_use']
     egeda_energy_combined_data['ship_proportion'] = egeda_energy_combined_data['ship'] / egeda_energy_combined_data['total_energy_use']
     egeda_energy_combined_data['air_proportion'] = egeda_energy_combined_data['air'] / egeda_energy_combined_data['total_energy_use']
@@ -200,6 +201,10 @@ def aggregate_non_road_energy_estimates(egeda_energy_combined_data_scaled,egeda_
     egeda_energy_combined_data_merged_tall.loc[egeda_energy_combined_data_merged_tall['proportion'].isnull(), 'proportion'] = 'absolute'
     #pivot to get proportion and absolute in different cols
     egeda_energy_combined_data_merged_tall = egeda_energy_combined_data_merged_tall.pivot_table(index=['economy', 'date', 'option', 'medium'], columns='proportion', values='value').reset_index()
+    # if there are no non road mediums, there wont become a proportion col, so we need to add it in as 1
+    if 'proportion' not in egeda_energy_combined_data_merged_tall.columns:
+        egeda_energy_combined_data_merged_tall['proportion'] = 1
+        
     return egeda_energy_combined_data_merged_tall
 
 def estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict):
@@ -219,7 +224,7 @@ def estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_di
     #we will commit to scaled for now, but we can change this later. So filter for remainder only and then drop proportion and option. then rename absolute to value. Then lastly create a whole lot of new cols.
     egeda_energy_combined_data_merged_tall = aggregate_non_road_energy_estimates(egeda_energy_combined_data_scaled,egeda_energy_combined_data_remainder,option_chosen = 'scaled')
     ###########
-    #analysis:   
+    #analysis:  
     logger.info('\n\n\n\nCOMMITTING TO SCALED\n\n\n\n')
     if plotting:#global variable in main() 
         analysis_and_plotting_functions.plot_scaled_and_remainder(egeda_energy_combined_data_merged_tall,paths_dict)#NOTE THAT BY CHOOSING OPTION CHOSEN WE ARE FILTERING FOR THAT OPTION ONLY SO THE OUTPUT DATAFRAME WILL ONLY HAVE ONE OPTION
