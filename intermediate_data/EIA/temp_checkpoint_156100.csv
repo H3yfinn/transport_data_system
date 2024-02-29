@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small utility,0.0
+bev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,42.639107
+bev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,43.860718
+bev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,45.10051
+bev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,47.667084
+bev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,49.673084
+bev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,50.063766
+bev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,50.916622
+bev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,50.90506
+bev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,50.896347
+bev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,50.937176
+bev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.006523
+bev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.104465
+bev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.22245
+bev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.400166
+bev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.574535
+bev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.751133
+bev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,51.899723
+bev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.11079
+bev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.172138
+bev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.246059
+bev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.317314
+bev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.360744
+bev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.344589
+bev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.332237
+bev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.319031
+bev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.303745
+bev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.291977
+bev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.510921
+bev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small utility,52.493801
+ice_g,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,29.976206
+ice_g,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,31.317537
+ice_g,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,32.20517
+ice_g,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,34.200081
+ice_g,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,35.445354
+ice_g,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,35.692528
+ice_g,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,36.51796
+ice_g,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,36.532494
+ice_g,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,36.569103
+ice_g,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,36.647251
+ice_g,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,36.834682
+ice_g,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,37.114594
+ice_g,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,37.3386
+ice_g,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,37.589035
+ice_g,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,37.77549
+ice_g,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,37.94466
+ice_g,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.0937
+ice_g,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.273602
+ice_g,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.335289
+ice_g,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.387165
+ice_g,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.427696
+ice_g,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.45359
+ice_g,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.441113
+ice_g,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.436714
+ice_g,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.426308
+ice_g,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.413216
+ice_g,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.401485
+ice_g,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.499264
+ice_g,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small utility,38.486126
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small utility,0.0

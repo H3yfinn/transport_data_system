@@ -57,8 +57,8 @@ RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False#note that this is not done aymore bec
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN=None#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-ECONOMIES_TO_RUN_PREV_DATE_ID  = 'DATE20231106' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
+ECONOMIES_TO_RUN=['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN_PREV_DATE_ID  = 'DATE20240215' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 def setup_main():
     global FILE_DATE_ID
@@ -221,20 +221,22 @@ def main():
 
         #now drop all data in the confluence of energy and activity for air, rail and ship, as well as for 'energy','activity' measures
         non_road_measures_exclusion_dict  = {'medium':['air','rail','ship'],
-                                            'measure':['energy','activity']}
+                                            'measure':['energy']}
         all_other_combined_data = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data, filter_for_all_other_data=True)
         
         all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data_concordance, filter_for_all_other_data=True)
+        breakpoint()
         ####################################################
         #BEGIN DATA SELECTION PROCESS FOR ENERGY AND PASSENGER KM
         ####################################################
         if not load_energy_activity_selection_progress: 
             highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
             all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
+            breakpoint()
             all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1, PLOT_SELECTION_TIMESERIES=True)
         else:
             all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_all_other_combined_data_concordance'])
-
+        
         #save data to pickle
         pd.to_pickle(all_other_combined_data_concordance,paths_dict['all_other_combined_data_concordance'])
         logging.info('Saving all_other_combined_data_concordance')
@@ -257,7 +259,7 @@ def main():
 
         #join the two datasets together
         all_combined_data = pd.concat([road_measures_combined_data,all_other_combined_data],axis=0)
-
+        
         all_combined_data_concordance = pd.concat([road_measures_combined_data_concordance,all_other_combined_data_concordance],axis=0)
 
         all_combined_data_concordance.to_pickle(paths_dict['all_selections_done_combined_data_concordance'])
@@ -265,11 +267,18 @@ def main():
         ####################################################
         #CALCUALTE NON ROAD ENERGY AND ACTIVITY DATA
         ####################################################
-        non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict)
-        non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, paths_dict)
-        activity_non_road = data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
-        #concatenate all the data together
-        all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity_non_road],axis=0)#todo check for anything unexpected here
+        
+        #PLEASE NOTE THAT THIS DATA IN THIS STEP WILL ONLY BE FOR 2017. 
+        non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict, economy)
+        breakpoint()
+        
+        non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, all_combined_data, paths_dict, economy)
+        
+        all_new_combined_data = data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
+        breakpoint()
+        all_new_combined_data.to_csv('a.csv')
+        all_new_combined_data = data_estimation_functions.extract_activity_and_calculate_intensity_for_applicable_economies(economy, non_road_energy, all_combined_data, all_new_combined_data)
+        breakpoint()
         #save to pickle
         all_new_combined_data.to_pickle(paths_dict['final_combined_data_not_rescaled'])
         ####################################################

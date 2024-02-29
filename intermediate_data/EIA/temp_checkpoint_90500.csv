@@ -1,0 +1,79 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.877123
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.838285
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.803332
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.885285
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.896767
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.910669
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.920576
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.929124
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.935579
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.940437
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.939121
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.942238
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.949384
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.956401
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.963487
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.972208
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.983476
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,0.994226
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.00613
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.018478
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.028917
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.031261
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.046449
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.067162
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.0781
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.09335
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.105976
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.118703
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : asphalt and road oil,1.132056
+,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.899268
+,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.897286
+,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.896683
+,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.897571
+,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.901701
+,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.905807
+,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.918538
+,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.924521
+,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.931198
+,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.931964
+,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.938613
+,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.948817
+,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.960478
+,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.981557
+,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.990594
+,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.996868
+,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.918076
+,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.984578
+,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.910289
+,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.906579
+,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.904831
+,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.903745
+,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.906798
+,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.90332
+,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.898938
+,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.895093
+,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.891387
+,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.8902
+,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : industrial : biofuels heat and coproducts,0.890206
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.918076
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.984578
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.910289
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.906579
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.904831
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.903745
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.906798
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.90332
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.898938
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.895093
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.891387
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.8902
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.890206
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.897286
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.896683
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.897571
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.899268
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.901701
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.905807
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : biofuels heat and coproducts,0.918538

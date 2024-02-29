@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,289.639008
+,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,297.698944
+,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,305.930725
+,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,313.809296
+,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,323.713165
+,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,331.972687
+,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,340.902161
+,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,348.570129
+,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,358.170441
+,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : total,368.266663
+,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.0
+,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : natural gas ice,0.0
+lpg,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+lpg,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.0
+ice_g,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.744301
+ice_g,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,5.045507
+ice_g,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,5.402499

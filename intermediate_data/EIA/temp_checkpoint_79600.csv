@@ -1,0 +1,77 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2033,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.156707
+bev,,,2034,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.157302
+bev,,,2035,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.157096
+bev,,,2036,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.164587
+bev,,,2037,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.160441
+bev,,,2038,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.16806
+bev,,,2039,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.175282
+bev,,,2040,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.171759
+bev,,,2041,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.185097
+bev,,,2042,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.190625
+bev,,,2043,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.189165
+bev,,,2044,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.16307
+bev,,,2045,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.156156
+bev,,,2046,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.153386
+bev,,,2047,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.152342
+bev,,,2048,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.151852
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.151438
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.155088
+bev,,,2024,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.677102
+bev,,,2022,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.827002
+bev,,,2023,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.763876
+bev,,,2025,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.732955
+bev,,,2026,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.772203
+bev,,,2027,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.742361
+bev,,,2028,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.749536
+bev,,,2029,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.72159
+bev,,,2030,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.673992
+bev,,,2031,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.629571
+bev,,,2032,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.577197
+bev,,,2033,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.577604
+bev,,,2034,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.563076
+bev,,,2035,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.543904
+bev,,,2036,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.544125
+bev,,,2037,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.529643
+bev,,,2038,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.526047
+bev,,,2039,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.520035
+bev,,,2040,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.517581
+bev,,,2041,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.514057
+bev,,,2042,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.510273
+bev,,,2043,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.495871
+bev,,,2044,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.482866
+bev,,,2045,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.484793
+bev,,,2046,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.441459
+bev,,,2047,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.458154
+bev,,,2048,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.479442
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.477292
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : pacific,0.476436
+bev,,,2022,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,2.504902
+bev,,,2023,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,2.465379
+bev,,,2024,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,2.347522
+bev,,,2025,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,2.216506
+bev,,,2026,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.995153
+bev,,,2027,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.727919
+bev,,,2028,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.561446
+bev,,,2029,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.564805
+bev,,,2030,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.540421
+bev,,,2031,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.45765
+bev,,,2032,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.415242
+bev,,,2033,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.381495
+bev,,,2034,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.320083
+bev,,,2035,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.340499
+bev,,,2036,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.350169
+bev,,,2037,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.361863
+bev,,,2038,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.383314
+bev,,,2039,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.413929
+bev,,,2040,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.410758
+bev,,,2041,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.432955
+bev,,,2042,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.452979
+bev,,,2043,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.465581
+bev,,,2044,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.337137
+bev,,,2045,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.351879
+bev,,,2046,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.346324
+bev,,,2047,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.320282
+bev,,,2048,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.357733
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.373368
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : south atlantic,1.39209

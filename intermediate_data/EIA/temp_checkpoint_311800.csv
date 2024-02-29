@@ -1,0 +1,51 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,49.744473
+,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,50.082809
+,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,50.321388
+,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,50.641918
+,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.020096
+,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.170288
+,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.512157
+,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.587852
+,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.662491
+,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.732792
+,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.805542
+,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.916172
+,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,51.972916
+,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.040993
+,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.105
+,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.165665
+,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.224606
+,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.305069
+,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.343906
+,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.38448
+,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.421585
+,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.453663
+,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.4646
+,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.482071
+,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.492908
+,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.508755
+,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.523525
+,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.596283
+,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large van,52.601688
+bev,,,2022,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,98.268684
+bev,,,2023,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,98.918465
+bev,,,2024,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,99.554741
+bev,,,2025,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,100.198555
+bev,,,2026,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,100.828621
+bev,,,2027,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,101.449066
+bev,,,2028,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,102.060173
+bev,,,2029,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,102.624161
+bev,,,2030,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,103.12352
+bev,,,2031,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,103.555977
+bev,,,2032,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,103.928223
+bev,,,2033,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,104.312157
+bev,,,2034,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,104.726097
+bev,,,2035,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,105.187927
+bev,,,2036,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,105.718834
+bev,,,2037,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,106.317833
+bev,,,2038,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,106.902771
+bev,,,2039,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,107.470909
+bev,,,2040,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,108.035225
+bev,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,108.586731
+bev,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : cooking equipment : electric,109.113167

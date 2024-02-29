@@ -1,0 +1,68 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2023,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,95.329002
+,,,2024,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,98.708405
+,,,2025,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,94.878891
+,,,2026,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,97.830475
+,,,2027,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,100.425552
+,,,2028,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,103.260544
+,,,2029,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,106.227829
+,,,2030,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,109.439186
+,,,2050,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : brent spot,194.299271
+,,,2022,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.69163
+,,,2023,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.74769
+,,,2024,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.668499
+,,,2025,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.567739
+,,,2026,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.502526
+,,,2027,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.506933
+,,,2028,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.505957
+,,,2029,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.485864
+,,,2030,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.454185
+,,,2031,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.425016
+,,,2032,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.403985
+,,,2033,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.394398
+,,,2034,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.397124
+,,,2035,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.399062
+,,,2036,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.402668
+,,,2037,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.39957
+,,,2038,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.400733
+,,,2039,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.401941
+,,,2040,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.396974
+,,,2041,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.386484
+,,,2042,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.376248
+,,,2043,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.358819
+,,,2044,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.33812
+,,,2045,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.325571
+,,,2046,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.314616
+,,,2047,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.301606
+,,,2048,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.287347
+,,,2049,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.269605
+,,,2050,ref2023,millions,20_usa,macro indicators : employment : manufacturing : transportation equipment,1.245489
+lpg,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0

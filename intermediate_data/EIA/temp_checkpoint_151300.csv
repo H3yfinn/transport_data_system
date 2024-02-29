@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2045,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.349795
+bev,,,2046,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.350177
+bev,,,2047,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.350535
+bev,,,2048,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.35087
+bev,,,2049,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.351182
+bev,,,2050,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.351464
+bev,,,2025,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.234157
+bev,,,2022,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.15897
+bev,,,2023,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.184838
+bev,,,2024,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.210067
+bev,,,2026,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.255187
+bev,,,2027,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.261848
+bev,,,2028,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.268374
+bev,,,2029,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.274774
+bev,,,2030,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.281186
+bev,,,2031,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.287499
+bev,,,2032,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.294107
+bev,,,2033,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.30059
+bev,,,2034,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.307019
+bev,,,2035,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.313241
+bev,,,2036,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.319371
+bev,,,2037,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.325511
+bev,,,2038,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.331667
+bev,,,2039,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.337692
+bev,,,2040,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.343575
+bev,,,2041,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.349317
+bev,,,2042,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.354969
+bev,,,2043,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.360491
+bev,,,2044,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.365959
+bev,,,2045,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.37123
+bev,,,2046,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.376657
+bev,,,2047,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.381959
+bev,,,2048,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.387086
+bev,,,2049,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.392069
+bev,,,2050,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : water heating : electricity,1.396927
+,,,2022,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.981704
+,,,2023,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.96699
+,,,2024,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.960888
+,,,2025,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.958751
+,,,2026,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.959902
+,,,2027,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.960768
+,,,2028,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.960538
+,,,2029,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.959561
+,,,2030,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.958217
+,,,2031,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.957406
+,,,2032,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.957186
+,,,2033,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999057
+,,,2034,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.998953
+,,,2035,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999541
+,,,2036,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.99967
+,,,2037,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999815
+,,,2038,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.99998
+,,,2039,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,1.0003
+,,,2040,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,1.000248
+,,,2041,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999571
+,,,2042,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999605
+,,,2043,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999285
+,,,2044,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.998766
+,,,2045,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.998304
+,,,2046,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.997878
+,,,2047,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.998472
+,,,2048,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.998787
+,,,2049,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,0.999431
+,,,2050,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space cooling : new construction,1.000114
+,,,2022,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.838603
+,,,2023,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.784996
+,,,2024,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.777509
+,,,2025,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.774892
+,,,2026,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.77626
+,,,2027,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.776751
+,,,2028,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.776031
+,,,2029,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.773863
+,,,2030,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.771326
+,,,2031,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.76938
+,,,2032,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.767984
+,,,2033,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.882591
+,,,2034,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.881587
+,,,2035,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.882601
+,,,2036,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.882229
+,,,2037,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.882226
+,,,2038,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.882243
+,,,2039,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.882296
+,,,2040,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.881293
+,,,2041,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.879356
+,,,2042,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.878537
+,,,2043,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.877424
+,,,2044,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.876082
+,,,2045,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.874815
+,,,2046,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.873478
+,,,2047,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.873823
+,,,2048,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.87376
+,,,2049,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.874249
+,,,2050,ref2023,2015=1.00,20_usa,residential equipment : building shell efficiency index: space heating : new construction,0.874747
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,56.582645
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,58.322227
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,59.783314
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,64.222374
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,65.997482
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,68.148636
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,72.759445

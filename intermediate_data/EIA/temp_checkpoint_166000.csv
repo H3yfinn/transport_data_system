@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2042,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,151.68927
+,,,2043,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,151.85643
+,,,2044,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,152.000015
+,,,2045,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,152.32106
+,,,2046,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,152.676086
+,,,2047,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,153.020737
+,,,2048,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,153.198105
+,,,2049,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,153.518448
+,,,2050,ref2023,mmmt co2,1-4,carbon dioxide : total by fuel : petroleum,154.132492
+,,,2022,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,436.407623
+,,,2023,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,428.769073
+,,,2024,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,433.351593
+,,,2025,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,432.876892
+,,,2026,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,431.798004
+,,,2027,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,431.291046
+,,,2028,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,433.484222
+,,,2029,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,433.090363
+,,,2030,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,431.402161
+,,,2031,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,431.010254
+,,,2032,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,431.339691
+,,,2033,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,431.946442
+,,,2034,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,433.729889
+,,,2035,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,434.81131
+,,,2036,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,434.763031
+,,,2037,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,436.212006
+,,,2038,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,437.192108
+,,,2039,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,438.765686
+,,,2040,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,441.324982
+,,,2041,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,443.441467
+,,,2042,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,445.662872
+,,,2043,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,448.144623
+,,,2044,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,450.78598
+,,,2045,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,453.327271
+,,,2046,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,456.440277
+,,,2047,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,459.552338
+,,,2048,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,461.430481
+,,,2049,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,464.040649
+,,,2050,ref2023,mmmt co2,1-7,carbon dioxide : total by fuel : petroleum,467.577179
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,202.420792
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,217.254684
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,220.363235
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,220.789993
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,223.591782
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,226.360382
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,228.550858
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,230.180176
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,231.323654
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,232.468155
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,234.285095
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,236.200119
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,237.930481
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,239.990631
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,242.656113
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,245.839401
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,249.18219
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,252.672226
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,256.728546
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,260.611786
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,264.5625
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,268.573425
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,272.574066
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,276.468109
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,280.261414
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,284.328491
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,288.436096
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,292.484558
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : air,296.999603
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.907424
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.464467
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.665533
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.755063
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.780743
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.780473
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.981984
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.927326
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.842502
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.735794
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.630824
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.600614
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.541158
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.469614
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.385731
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.272588
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.160365
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,14.038814
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.913713
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.781877
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.645084
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.490213
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.343635
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.189344
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,13.016663
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,12.797674
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,12.531601
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,12.259748
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : bus transportation,12.031363
+,lt,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : commercial light trucks,62.897308
+,lt,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : commercial light trucks,62.178211
+,lt,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : commercial light trucks,60.817337
+,lt,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : transportation : commercial light trucks,60.00927

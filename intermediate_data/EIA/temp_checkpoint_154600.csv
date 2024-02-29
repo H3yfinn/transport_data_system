@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : mini-compact car,0.0
+,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : mini-compact car,0.0
+lpg,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : mini-compact car,0.0
+lpg,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+lpg,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane : mini-compact car,0.0
+ice_d,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : mini-compact car,0.0

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,5.943832
+,,,2041,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.054633
+,,,2042,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.17543
+,,,2043,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.238339
+,,,2044,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.202762
+,,,2045,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.280911
+,,,2046,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.34301
+,,,2047,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.401101
+,,,2048,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.521594
+,,,2049,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.56917
+,,,2050,ref2023,mmmt co2,1-5,carbon dioxide : transportation : natural gas,6.658634
+,,,2034,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.248132
+,,,2031,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.471326
+,,,2032,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.383441
+,,,2033,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.317708
+,,,2035,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.18865
+,,,2036,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.188254
+,,,2037,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.267668
+,,,2038,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.35307
+,,,2039,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.443435
+,,,2040,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.596788
+,,,2041,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.68287
+,,,2042,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.767167
+,,,2043,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.900197
+,,,2044,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.087451
+,,,2045,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.262521
+,,,2046,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.418489
+,,,2047,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.580993
+,,,2048,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.724141
+,,,2049,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.865219
+,,,2050,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,5.019357
+,,,2022,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,5.320565
+,,,2023,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,5.259469
+,,,2024,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.994761
+,,,2025,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.674257
+,,,2026,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.448827
+,,,2027,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,4.203751
+,,,2028,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.880283
+,,,2029,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.777048
+,,,2030,ref2023,mmmt co2,1-4,carbon dioxide : transportation : natural gas,3.665188
+,,,2023,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.808155
+,,,2022,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.916898
+,,,2024,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,9.222751
+,,,2025,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.793146
+,,,2026,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.7412
+,,,2027,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.202577
+,,,2028,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.744553
+,,,2029,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.619865
+,,,2030,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.410576
+,,,2031,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.359214
+,,,2032,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.473356
+,,,2033,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.738638
+,,,2034,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.92802
+,,,2035,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,7.983274
+,,,2036,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.069456
+,,,2037,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.11097
+,,,2038,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.16291
+,,,2039,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.284636
+,,,2040,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.495284
+,,,2041,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.725224
+,,,2042,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,8.885674
+,,,2043,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,9.061573
+,,,2044,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,9.319796
+,,,2045,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,9.508972
+,,,2046,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,9.819084
+,,,2047,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,10.258043
+,,,2048,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,10.608076
+,,,2049,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,10.922556
+,,,2050,ref2023,mmmt co2,1-7,carbon dioxide : transportation : natural gas,11.235277
+,,,2022,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,224.700455
+,,,2023,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,227.04454
+,,,2024,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,225.620148
+,,,2025,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,222.035217
+,,,2026,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,219.166565
+,,,2027,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,216.395676
+,,,2028,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,214.5289
+,,,2029,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,211.18129
+,,,2030,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,207.59581
+,,,2031,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,204.143784
+,,,2032,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,201.06488
+,,,2033,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,198.417526
+,,,2034,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,196.034973
+,,,2035,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,193.75856
+,,,2036,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,191.496185
+,,,2037,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,189.632095
+,,,2038,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,187.985886
+,,,2039,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,186.416519
+,,,2040,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,185.2034
+,,,2041,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,184.141479
+,,,2042,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,183.297333
+,,,2043,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,182.537079
+,,,2044,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,181.928711
+,,,2045,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,181.467178
+,,,2046,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,181.129303
+,,,2047,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,180.879333
+,,,2048,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,180.491272
+,,,2049,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,180.326035
+,,,2050,ref2023,mmmt co2,1-3,carbon dioxide : transportation : petroleum,180.670319
+,,,2022,ref2023,mmmt co2,1-6,carbon dioxide : transportation : petroleum,133.912003
+,,,2023,ref2023,mmmt co2,1-6,carbon dioxide : transportation : petroleum,134.170837

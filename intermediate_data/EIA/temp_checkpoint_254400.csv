@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),2965.991943
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,866.59613
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,798.453674
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,757.74762
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,736.459839
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,724.732788
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,716.861511
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,705.969421
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,696.681091
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,686.957275
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,681.468018
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,676.328857
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,670.673523
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,664.765808
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,658.486328
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,652.444214
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,646.595276
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,640.539978
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,635.008972
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,629.334229
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,623.064026
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,616.908875
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,610.337219
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,603.684448
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,597.233582
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,590.888184
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,584.413696
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,577.923279
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : industrial frame,571.827393
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1428.318115
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1316.005981
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1248.914551
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1213.828247
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1194.499756
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1181.526367
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1163.574097
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1148.265259
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1132.238525
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1123.19104
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1114.720825
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1105.399658
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1095.662598
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1085.312744
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1075.35437
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1065.714111
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1055.733765
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1046.617676
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1037.264404
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1026.929932
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1016.785034
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1005.953735
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,994.988708
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,984.356445
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,973.897949
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,963.226746
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,952.529236
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,942.482056
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,2239.726807
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,2077.83374
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1986.255249
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1943.776001
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1925.528931
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1914.192261
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1902.925659
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1890.801025
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1877.478516
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1866.200439
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1855.862305
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1844.087524
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1831.593628
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1818.046387
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1805.124878
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1792.709473
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1779.693115
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1768.106323
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1756.093994
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1742.389893
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1728.973389
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1714.35376
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1699.466187
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1685.1073
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1671.007202
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1656.50293
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1641.912231
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1628.403442
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,3140.003418
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2895.704346
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2751.16626
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2676.050781
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2634.976562
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2604.817383
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2571.503662
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2539.180176
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2505.330322
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2478.065674
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2452.112061

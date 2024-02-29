@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,48.279594
+lpg,car,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,50.051369
+lpg,car,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,50.168591
+lpg,car,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,50.413685
+lpg,car,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,52.17313
+lpg,car,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,52.243214
+lpg,car,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,52.182838
+lpg,car,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,52.066906
+lpg,car,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.945042
+lpg,car,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.799995
+lpg,car,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.694225
+lpg,car,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.63636
+lpg,car,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.640827
+lpg,car,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.680294
+lpg,car,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.722355
+lpg,car,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.915821
+lpg,car,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.907921
+lpg,car,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.936169
+lpg,car,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.944717
+lpg,car,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.92382
+lpg,car,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.82719
+lpg,car,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.730122
+lpg,car,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.675709
+lpg,car,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.554512
+lpg,car,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.479267
+lpg,car,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.778255
+lpg,car,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane bi-fuel,51.676193
+ice_g,car,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,57.566898
+ice_g,car,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,57.085087
+ice_g,car,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,57.538483
+ice_g,car,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,58.74345
+ice_g,car,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,58.864803
+ice_g,car,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,59.07222
+ice_g,car,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.535191
+ice_g,car,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.631516
+ice_g,car,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.605663
+ice_g,car,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.517727
+ice_g,car,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.463657
+ice_g,car,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.411842
+ice_g,car,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.418564
+ice_g,car,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.452492
+ice_g,car,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.52618
+ice_g,car,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.569992
+ice_g,car,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.633091
+ice_g,car,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.811066
+ice_g,car,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.816315
+ice_g,car,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.856518
+ice_g,car,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.877937
+ice_g,car,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.873852
+ice_g,car,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.820702
+ice_g,car,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.755543
+ice_g,car,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.740929
+ice_g,car,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.644516
+ice_g,car,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.609825
+ice_g,car,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.844753
+ice_g,car,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 20 gasoline hybrid,60.779907
+ice_g,car,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,81.524483
+ice_g,car,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,79.561348
+ice_g,car,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,81.057922
+ice_g,car,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,81.291458
+ice_g,car,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.003555
+ice_g,car,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.159523
+ice_g,car,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.144974
+ice_g,car,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.124458
+ice_g,car,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.082481
+ice_g,car,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.038307
+ice_g,car,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.074394
+ice_g,car,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.129959
+ice_g,car,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.245483
+ice_g,car,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.317055
+ice_g,car,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.409416
+ice_g,car,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.606621
+ice_g,car,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.647011
+ice_g,car,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.146019
+ice_g,car,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.176422
+ice_g,car,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.178543
+ice_g,car,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.13633
+ice_g,car,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.074043
+ice_g,car,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.059662
+ice_g,car,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.960953
+ice_g,car,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,83.934753
+ice_g,car,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.171631
+ice_g,car,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,84.111794
+ice_g,car,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,78.686531
+ice_g,car,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : plug-in 50 gasoline hybrid,79.109146
+lpg,car,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,44.31673
+lpg,car,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,44.867004
+lpg,car,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,45.185661
+lpg,car,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,46.621796
+lpg,car,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,46.863747
+lpg,car,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,47.215939
+lpg,car,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.616341
+lpg,car,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.938019
+lpg,car,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,49.00922
+lpg,car,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.974567
+lpg,car,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.852467
+lpg,car,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.747131
+lpg,car,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.669807
+lpg,car,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.655163
+lpg,car,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.670376

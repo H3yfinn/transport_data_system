@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2033,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,47.639606
+bev,,,2034,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,48.343658
+bev,,,2035,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,49.139927
+bev,,,2036,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,50.007572
+bev,,,2037,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,51.402878
+bev,,,2038,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,54.440903
+bev,,,2039,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,55.591091
+bev,,,2040,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,56.862049
+bev,,,2041,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,57.866241
+bev,,,2042,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,59.072376
+bev,,,2043,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,60.535477
+bev,,,2044,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,61.832626
+bev,,,2045,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,63.325542
+bev,,,2046,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,64.882217
+bev,,,2047,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,66.243797
+bev,,,2048,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,67.417854
+bev,,,2049,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,69.423927
+bev,,,2050,ref2023,nom $/st,20_usa,coal supply : delivered prices : electric power,70.555862
+bev,,,2022,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.134762
+bev,,,2023,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.057127
+bev,,,2024,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.05386
+bev,,,2025,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.037131
+bev,,,2026,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.008164
+bev,,,2027,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.988704
+bev,,,2028,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.964183
+bev,,,2029,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.952749
+bev,,,2030,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.954107
+bev,,,2031,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.947204
+bev,,,2032,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.91757
+bev,,,2033,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.906071
+bev,,,2034,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.904636
+bev,,,2035,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.897833
+bev,,,2036,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.891512
+bev,,,2037,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.889286
+bev,,,2038,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.914712
+bev,,,2039,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.91035
+bev,,,2040,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.912446
+bev,,,2041,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.911104
+bev,,,2042,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.909412
+bev,,,2043,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.909024
+bev,,,2044,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.903793
+bev,,,2045,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.899784
+bev,,,2046,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.900499
+bev,,,2047,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.895365
+bev,,,2048,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.886729
+bev,,,2049,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.890216
+bev,,,2050,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.88728
+bev,,,2022,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.134762
+bev,,,2023,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.057127
+bev,,,2024,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.05386
+bev,,,2025,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.037131
+bev,,,2026,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.008164
+bev,,,2027,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.988704
+bev,,,2028,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.964183
+bev,,,2029,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.952749
+bev,,,2030,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.954107
+bev,,,2031,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.947204
+bev,,,2032,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.91757
+bev,,,2033,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.906071
+bev,,,2034,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.904636
+bev,,,2035,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.897833
+bev,,,2036,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.891512
+bev,,,2037,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.889286
+bev,,,2038,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.914712
+bev,,,2039,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.91035
+bev,,,2040,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.912446
+bev,,,2041,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.911104
+bev,,,2042,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.909412
+bev,,,2043,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.909024
+bev,,,2044,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.903793
+bev,,,2045,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.899784
+bev,,,2046,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.900499
+bev,,,2047,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.895365
+bev,,,2048,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.886729
+bev,,,2049,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.890216
+bev,,,2050,ref2023,2022 $/mmbtu,20_usa,coal supply : delivered prices : electric power,1.88728
+bev,,,2030,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.186565
+bev,,,2031,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.170193
+bev,,,2032,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.647606
+bev,,,2033,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.643085
+bev,,,2034,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.314648
+bev,,,2035,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.068199
+bev,,,2036,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,35.878689
+bev,,,2037,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.072365
+bev,,,2038,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.377884
+bev,,,2039,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.347366
+bev,,,2040,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.367893
+bev,,,2041,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.193867
+bev,,,2042,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.130455
+bev,,,2043,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.197426
+bev,,,2044,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.136955
+bev,,,2045,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.167557
+bev,,,2046,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.203487
+bev,,,2047,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.102726
+bev,,,2048,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.87632
+bev,,,2049,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,37.083546
+bev,,,2050,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,36.799835
+bev,,,2022,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,41.119263
+bev,,,2023,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,39.27879
+bev,,,2024,ref2023,2022 $/st,20_usa,coal supply : delivered prices : electric power,39.17416

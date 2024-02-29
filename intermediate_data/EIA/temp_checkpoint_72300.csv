@@ -1,0 +1,69 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2041,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.09606
+bev,,,2042,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.094758
+bev,,,2043,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.093488
+bev,,,2044,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.092216
+bev,,,2045,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.090939
+bev,,,2046,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.089708
+bev,,,2047,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.088523
+bev,,,2048,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.087315
+bev,,,2049,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.086134
+bev,,,2050,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.08499
+bev,,,2022,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.418793
+bev,,,2023,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.407891
+bev,,,2024,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.400019
+bev,,,2025,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.394285
+bev,,,2026,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.38814
+bev,,,2027,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.381195
+bev,,,2028,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.373949
+bev,,,2029,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.366494
+bev,,,2030,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.358411
+bev,,,2031,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.350666
+bev,,,2032,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.342958
+bev,,,2033,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.334873
+bev,,,2034,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.326773
+bev,,,2035,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.319148
+bev,,,2036,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.311811
+bev,,,2037,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.30456
+bev,,,2038,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.297195
+bev,,,2039,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.289957
+bev,,,2040,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.283031
+bev,,,2041,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.276615
+bev,,,2042,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.270569
+bev,,,2043,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.264814
+bev,,,2044,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.259292
+bev,,,2045,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.253978
+bev,,,2046,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.248923
+bev,,,2047,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.244183
+bev,,,2048,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.239593
+bev,,,2049,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.235279
+bev,,,2050,ref2023,quads,20_usa,commercial : purchased electricity : ventilation,0.231259
+bev,,,2022,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.024215
+bev,,,2023,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.023555
+bev,,,2024,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.02313
+bev,,,2025,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.02287
+bev,,,2026,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.022632
+bev,,,2027,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.022556
+bev,,,2028,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.022463
+bev,,,2029,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.02235
+bev,,,2030,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.022206
+bev,,,2031,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.022059
+bev,,,2032,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.021899
+bev,,,2033,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.021688
+bev,,,2034,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.021453
+bev,,,2035,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.021236
+bev,,,2036,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.021016
+bev,,,2037,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.020783
+bev,,,2038,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.020526
+bev,,,2039,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.020267
+bev,,,2040,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.02001
+bev,,,2041,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.019778
+bev,,,2042,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.019556
+bev,,,2043,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.019342
+bev,,,2044,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.019133
+bev,,,2045,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.01893
+bev,,,2046,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.018741
+bev,,,2047,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.01857
+bev,,,2048,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.0184
+bev,,,2049,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.018239
+bev,,,2050,ref2023,quads,20_usa,commercial : purchased electricity : water heating,0.018094

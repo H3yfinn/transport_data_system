@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,73.676384
+bev,,,2023,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,76.433167
+bev,,,2024,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,76.931488
+bev,,,2025,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,77.940155
+bev,,,2026,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,80.932312
+bev,,,2027,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,85.348503
+bev,,,2028,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,132.276581
+bev,,,2029,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,151.640991
+bev,,,2030,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.767288
+bev,,,2031,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.200455
+bev,,,2032,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.149078
+bev,,,2033,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,154.137909
+bev,,,2034,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.681152
+bev,,,2035,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.363312
+bev,,,2036,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,152.325653
+bev,,,2037,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,152.155304
+bev,,,2038,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,152.120712
+bev,,,2039,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,152.988373
+bev,,,2040,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.207657
+bev,,,2041,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.276321
+bev,,,2042,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,153.551208
+bev,,,2043,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,154.375656
+bev,,,2044,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,154.87735
+bev,,,2045,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,155.489716
+bev,,,2046,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,157.229828
+bev,,,2047,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,162.838272
+bev,,,2048,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,166.055252
+bev,,,2049,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,166.923859
+bev,,,2050,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : wind,167.786285
+bev,,,2022,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,437.395233
+bev,,,2023,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,462.911682
+bev,,,2024,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,466.087524
+bev,,,2025,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,505.66629
+bev,,,2026,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,574.71759
+bev,,,2027,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,662.787903
+bev,,,2028,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,770.521301
+bev,,,2032,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,987.001038
+bev,,,2029,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,864.828491
+bev,,,2030,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,934.94458
+bev,,,2031,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,969.955566
+bev,,,2033,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1031.22644
+bev,,,2034,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1044.429321
+bev,,,2035,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1047.656128
+bev,,,2036,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1050.883301
+bev,,,2037,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1052.100952
+bev,,,2038,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1054.869385
+bev,,,2039,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1062.030273
+bev,,,2040,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1063.203857
+bev,,,2041,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1068.902222
+bev,,,2042,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1070.628906
+bev,,,2043,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1077.037598
+bev,,,2044,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1086.549927
+bev,,,2045,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1094.387451
+bev,,,2046,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1095.852905
+bev,,,2047,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1108.296143
+bev,,,2048,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1119.371094
+bev,,,2049,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1123.516724
+bev,,,2050,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : wind,1131.796265
+bev,,,2022,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,437.395233
+bev,,,2023,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,462.911682
+bev,,,2024,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,466.087524
+bev,,,2025,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,505.66629
+bev,,,2026,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,574.71759
+bev,,,2027,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,662.787903
+bev,,,2028,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,770.521301
+bev,,,2029,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,864.828491
+bev,,,2030,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,934.94458
+bev,,,2031,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,969.955566
+bev,,,2032,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,987.001038
+bev,,,2033,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1031.22644
+bev,,,2034,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1044.429321
+bev,,,2035,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1047.656128
+bev,,,2036,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1050.883301
+bev,,,2037,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1052.100952
+bev,,,2038,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1054.869385
+bev,,,2039,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1062.030273
+bev,,,2040,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1063.203857
+bev,,,2041,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1068.902222
+bev,,,2042,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1070.628906
+bev,,,2043,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1077.037598
+bev,,,2044,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1086.549927
+bev,,,2045,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1094.387451
+bev,,,2046,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1095.852905
+bev,,,2047,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1108.296143
+bev,,,2048,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1119.371094
+bev,,,2049,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1123.516724
+bev,,,2050,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : wind,1131.796265
+bev,,,2027,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2028,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2029,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2030,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2031,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2032,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2033,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2034,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2035,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2036,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2037,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2038,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0
+bev,,,2039,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : wind,0.0

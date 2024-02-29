@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2033,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,4.658589
+,,,2034,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,4.743089
+,,,2035,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,4.831921
+,,,2036,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,4.912589
+,,,2037,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.005574
+,,,2038,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.102803
+,,,2039,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.204807
+,,,2040,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.315103
+,,,2041,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.428261
+,,,2042,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.536104
+,,,2043,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.642546
+,,,2044,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.744102
+,,,2045,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.840124
+,,,2046,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,5.943788
+,,,2047,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,6.056951
+,,,2048,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,6.153718
+,,,2049,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,6.255795
+,,,2050,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : paper products,6.379786
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,178.251129
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,174.161621
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,170.2892
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,170.043106
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,170.917877
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,171.976822
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,173.003601
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,173.916748
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,174.724045
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,175.949829
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,177.361404
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,178.536407
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,179.796448
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,181.135803
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,182.157898
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,183.319031
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,184.296173
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,185.347549
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,186.470169
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,187.507202
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,188.640549
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,189.595306
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,190.214218
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,190.60817
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,191.395081
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,192.590057
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,193.086319
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,193.760101
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : paper products,195.152557
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,178.251129
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,174.161621
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,170.2892
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,170.043106
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,170.917877
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,171.976822
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,173.003601
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,173.916748
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,174.724045
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,175.949829
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,177.361404
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,178.536407
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,179.796448
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,181.135803
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,182.157898
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,183.319031
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,184.296173
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,185.347549
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,186.470169
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,187.507202
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,188.640549
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,189.595306
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,190.214218
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,190.60817
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,191.395081
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,192.590057
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,193.086319
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,193.760101
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : paper products,195.152557
+,,,2029,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.27733
+,,,2026,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.160956
+,,,2027,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.214765
+,,,2028,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.256301
+,,,2030,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.297758
+,,,2031,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.349151
+,,,2032,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.393056
+,,,2033,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.430351
+,,,2034,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.471984
+,,,2035,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.516674
+,,,2036,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.535958
+,,,2037,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.572089
+,,,2038,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.569609
+,,,2039,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.594084
+,,,2040,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.624423
+,,,2041,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.644671
+,,,2042,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.662483
+,,,2043,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.668182
+,,,2044,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.65094
+,,,2045,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.620244
+,,,2046,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.621253
+,,,2047,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.65037
+,,,2048,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.630488
+,,,2049,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : paper products,11.622486

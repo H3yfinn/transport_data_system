@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6813.652832
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6749.110352
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6688.087891
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6622.015625
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6553.518066
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6481.434082
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6411.769043
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6344.078125
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6274.439453
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6210.010742
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6144.245605
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6072.749023
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,6002.464355
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5928.226562
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5853.309082
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5780.456543
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5708.72998
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5635.862793
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5562.953125
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : nuclear : small modular reactor,5493.947266
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1808.185669
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1590.543701
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1445.38269
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1359.76709
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1303.533447
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1258.815918
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1224.707397
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1198.977539
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1180.294922
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1165.486694
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1151.005005
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1135.665039
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1120.267334
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1104.28418
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,918.258545
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,965.308289
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,949.525513
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,933.965759
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,902.585205
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,887.584534
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1088.74292
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1073.564209
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1058.083984
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1043.509033
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1028.734497
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,1013.030212
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,997.561523
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with storage,981.471436
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1443.044434
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1286.995728
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1185.186035
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1122.154419
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1077.169556
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1039.311768
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,1012.837097
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,995.481689
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,982.217651
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,970.671875
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,959.343933
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,947.294556
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,935.247314
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,922.705322
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,910.526001
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,898.643921
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,886.503235
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,875.115051
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,863.553955
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,851.20575
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,839.047852
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,826.359436
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,813.600586
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,801.153137
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,788.885254
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,776.483948
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,764.101929
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : photovoltaic with axis tracking,752.280212
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,8731.880859
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,8073.875977
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7692.20752
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7502.266113
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7406.486816
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7337.515625
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7268.950195
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7197.257324
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7121.182129
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,7053.03125
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6988.561035
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6918.818848
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6846.54834
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6770.534668
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6697.055176
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6625.64209
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6552.199707
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6484.203125
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6414.816895
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6339.452148
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6265.359375

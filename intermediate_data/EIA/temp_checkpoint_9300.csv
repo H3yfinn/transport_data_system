@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2027,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2028,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2029,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2030,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2031,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2032,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2033,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2034,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2035,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2036,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2037,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2038,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2039,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2040,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2041,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2042,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2043,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2044,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2045,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2046,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2047,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2048,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wood and other biomass,0.1
+,,,2022,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,37.276798
+,,,2023,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,38.506798
+,,,2024,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,38.794796
+,,,2025,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,39.2948
+,,,2026,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,39.2948
+,,,2027,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,39.2948
+,,,2028,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,39.2948
+,,,2029,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,39.641235
+,,,2030,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,39.750851
+,,,2031,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.2542
+,,,2032,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.489449
+,,,2033,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.518951
+,,,2037,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2034,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.543179
+,,,2035,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.588058
+,,,2036,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.64373
+,,,2038,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2039,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2040,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2041,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2042,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2043,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2044,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2045,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,40.764896
+,,,2046,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,41.019077
+,,,2047,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,41.177692
+,,,2048,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,41.312157
+,,,2049,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,41.398766
+,,,2050,ref2023,gw,5-1,renewable energy : all sectors : generating capacity : wind,41.541893
+,,,2046,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.867654
+,,,2047,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.86795
+,,,2048,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.868246
+,,,2049,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.868542
+,,,2050,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.868838
+,,,2022,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.834
+,,,2023,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.841612
+,,,2024,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.849224
+,,,2025,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.858195
+,,,2026,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.859147
+,,,2027,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.859998
+,,,2028,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.860759
+,,,2029,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.861441
+,,,2030,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.862054
+,,,2031,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.862605
+,,,2032,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.863105
+,,,2033,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.863558
+,,,2034,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.863972
+,,,2035,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.86435
+,,,2036,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.864697
+,,,2037,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.865017
+,,,2038,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.865312
+,,,2039,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.865585
+,,,2040,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.86588
+,,,2041,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.866176
+,,,2042,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.866471
+,,,2043,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.866767
+,,,2044,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.867062
+,,,2045,ref2023,fraction,20_usa,air travel : load factor : u.s. domestic,0.867358
+,,,2022,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.756
+,,,2023,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.775626
+,,,2024,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.795251
+,,,2025,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.814877
+,,,2026,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.814925
+,,,2027,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.814974
+,,,2028,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815019
+,,,2029,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815064
+,,,2030,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815108
+,,,2031,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.81515
+,,,2032,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815194
+,,,2033,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815236
+,,,2034,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815279
+,,,2035,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815321
+,,,2036,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815364
+,,,2037,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815405
+,,,2038,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815445
+,,,2039,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815484
+,,,2040,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815524
+,,,2041,ref2023,fraction,20_usa,air travel : load factor : u.s. international,0.815564

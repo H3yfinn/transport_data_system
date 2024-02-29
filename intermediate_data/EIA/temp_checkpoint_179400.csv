@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2044,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,286.979492
+bev,,,2045,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,286.809845
+bev,,,2046,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,285.994843
+bev,,,2047,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,285.74588
+bev,,,2048,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,285.578674
+bev,,,2049,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,284.976044
+bev,,,2050,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : hydropower,283.595795
+bev,,,2022,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,275.045197
+bev,,,2023,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,281.140717
+bev,,,2024,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,290.408539
+bev,,,2025,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,298.409729
+bev,,,2026,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,299.055969
+bev,,,2027,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,299.038147
+bev,,,2028,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,296.809174
+bev,,,2029,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,296.478088
+bev,,,2030,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,294.959167
+bev,,,2031,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,293.50882
+bev,,,2032,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,291.116547
+bev,,,2033,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,290.878754
+bev,,,2034,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,290.53537
+bev,,,2035,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,290.483734
+bev,,,2036,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,290.691589
+bev,,,2037,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,289.624847
+bev,,,2038,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,289.07666
+bev,,,2039,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,288.049683
+bev,,,2040,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,288.013794
+bev,,,2041,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,287.356812
+bev,,,2042,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,287.534363
+bev,,,2043,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,287.050537
+bev,,,2044,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,286.979492
+bev,,,2045,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,286.809845
+bev,,,2046,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,285.994843
+bev,,,2047,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,285.74588
+bev,,,2048,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,285.578674
+bev,,,2049,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,284.976044
+bev,,,2050,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : hydropower,283.595795
+bev,,,2022,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2023,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2024,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2025,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2026,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2027,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2028,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2029,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2030,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2034,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2031,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2032,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2033,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2035,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2036,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2037,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2038,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2039,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2040,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2041,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2042,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2043,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2044,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2045,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2046,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2047,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2048,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2049,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2050,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : hydropower,0.0
+bev,,,2022,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.174036
+bev,,,2023,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.4157
+bev,,,2024,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.623559
+bev,,,2025,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.813105
+bev,,,2026,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.816104
+bev,,,2027,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.82637
+bev,,,2028,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.835255
+bev,,,2029,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.827733
+bev,,,2030,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.830491
+bev,,,2031,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.83902
+bev,,,2032,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.8366
+bev,,,2033,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.839086
+bev,,,2034,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.839605
+bev,,,2035,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.838779
+bev,,,2036,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.835546
+bev,,,2037,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.822131
+bev,,,2038,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.811027
+bev,,,2039,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.801229
+bev,,,2040,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.804567
+bev,,,2041,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.804681
+bev,,,2042,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.801425
+bev,,,2043,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.81481
+bev,,,2044,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.804797
+bev,,,2045,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.803236
+bev,,,2046,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.802664
+bev,,,2047,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.81146
+bev,,,2048,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.813834
+bev,,,2049,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.818481
+bev,,,2050,ref2023,bkwh,5-7,renewable energy : electric power sector : electricity generation : hydropower,7.81855
+bev,,,2035,ref2023,bkwh,5-9,renewable energy : electric power sector : electricity generation : hydropower,30.028599
+bev,,,2036,ref2023,bkwh,5-9,renewable energy : electric power sector : electricity generation : hydropower,30.035717
+bev,,,2037,ref2023,bkwh,5-9,renewable energy : electric power sector : electricity generation : hydropower,30.028824
+bev,,,2038,ref2023,bkwh,5-9,renewable energy : electric power sector : electricity generation : hydropower,30.028257
+bev,,,2039,ref2023,bkwh,5-9,renewable energy : electric power sector : electricity generation : hydropower,30.031029
+bev,,,2040,ref2023,bkwh,5-9,renewable energy : electric power sector : electricity generation : hydropower,30.029266

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_d,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,19.926758
+ice_d,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,20.916462
+ice_d,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,21.721556
+ice_d,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,22.431366
+ice_d,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,23.062347
+ice_d,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,23.693542
+ice_d,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,24.359486
+ice_d,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,24.930275
+ice_d,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,25.474934
+ice_d,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,26.098764
+ice_d,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,26.663237
+ice_d,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,27.217226
+ice_d,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,27.70447
+ice_d,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,28.202288
+ice_d,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,28.754858
+ice_d,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,29.295786
+ice_d,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,29.747328
+ice_d,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,30.164621
+ice_d,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,30.686481
+ice_d,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,31.215885
+ice_d,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,31.766838
+ice_d,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,32.350456
+ice_d,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,32.997715
+,,,2022,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,6697.884766
+,,,2023,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,6758.589844
+,,,2024,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,6771.791016
+,,,2025,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,6833.370117
+,,,2026,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,6944.102051
+,,,2027,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7064.963867
+,,,2028,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7160.29541
+,,,2029,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7231.532227
+,,,2030,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7290.587891
+,,,2031,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7367.349609
+,,,2032,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7481.513672
+,,,2033,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7583.348633
+,,,2034,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7681.384277
+,,,2035,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7786.777344
+,,,2036,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7888.382324
+,,,2037,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,7990.524414
+,,,2038,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8097.021484
+,,,2039,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8199.360352
+,,,2040,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8316.963867
+,,,2041,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8445.797852
+,,,2042,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8571.249023
+,,,2043,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8691.130859
+,,,2044,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8799.132812
+,,,2045,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,8899.69043
+,,,2046,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,9015.99707
+,,,2047,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,9142.905273
+,,,2048,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,9254.280273
+,,,2049,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,9365.466797
+,,,2050,ref2023,billion 2012 $,20_usa,industrial : value of shipments : manufacturing,9517.618164
+,,,2022,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9378.964844
+,,,2023,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9387.442383
+,,,2024,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9395.947266
+,,,2025,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9488.780273
+,,,2026,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9626.804688
+,,,2027,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9753.851562
+,,,2028,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9868.736328
+,,,2029,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,9977.658203
+,,,2030,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10065.994141
+,,,2031,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10153.046875
+,,,2032,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10277.174805
+,,,2033,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10392.405273
+,,,2034,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10500.382812
+,,,2035,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10619.22168
+,,,2036,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10739.829102
+,,,2037,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,10869.111328
+,,,2038,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11003.558594
+,,,2039,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11131.844727
+,,,2040,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11275.292969
+,,,2041,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11434.46875
+,,,2042,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11587.040039
+,,,2043,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11733.091797
+,,,2044,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11866.785156
+,,,2045,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,11992.251953
+,,,2046,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,12136.290039
+,,,2047,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,12286.878906
+,,,2048,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,12422.436523
+,,,2049,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,12557.135742
+,,,2050,ref2023,billion 2012 $,20_usa,industrial : value of shipments : total,12740.831055
+,,,2022,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2681.080322
+,,,2023,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2628.852539
+,,,2024,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2624.155762
+,,,2025,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2655.410156
+,,,2026,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2682.702148
+,,,2027,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2688.887939
+,,,2028,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2708.440918
+,,,2029,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2746.125732
+,,,2030,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2775.406738
+,,,2031,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2785.697754
+,,,2032,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2795.661133
+,,,2033,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2809.056641
+,,,2034,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2818.998047
+,,,2035,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2832.444336
+,,,2036,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2851.446777
+,,,2037,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2878.587402
+,,,2038,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2906.536621
+,,,2039,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2932.484619
+,,,2040,ref2023,billion 2012 $,20_usa,"industrial : value of shipments : agriculture, mining, and construction",2958.32959

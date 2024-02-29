@@ -1,0 +1,36 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,136.721237
+bev,,,2023,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,116.835022
+bev,,,2024,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,115.918068
+bev,,,2025,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,109.561584
+bev,,,2026,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,109.369492
+bev,,,2027,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,109.713745
+bev,,,2028,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,109.679855
+bev,,,2029,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,110.047844
+bev,,,2030,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,110.559143
+bev,,,2031,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,110.825607
+bev,,,2032,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,111.365891
+bev,,,2033,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,111.841484
+bev,,,2034,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,112.289291
+bev,,,2035,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.035873
+bev,,,2036,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.366631
+bev,,,2037,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.756271
+bev,,,2038,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,114.202682
+bev,,,2039,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,114.564034
+bev,,,2040,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,114.64344
+bev,,,2041,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,114.488136
+bev,,,2042,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.832466
+bev,,,2043,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.089439
+bev,,,2044,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,111.885803
+bev,,,2045,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,110.524033
+bev,,,2046,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,111.903168
+bev,,,2047,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,112.073914
+bev,,,2048,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,112.734596
+bev,,,2049,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.334763
+bev,,,2050,ref2023,2022 $/b,20_usa,real petroleum prices : electric power : residual fuel oil,113.747665
+,,,2022,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,97.775383
+,,,2023,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,94.34938
+,,,2024,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,105.813255
+,,,2025,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,101.16256
+,,,2026,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,101.988487
+,,,2027,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,103.128204

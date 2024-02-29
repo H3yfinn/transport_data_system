@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2043,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1393.796021
+,,,2044,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1393.395752
+,,,2045,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1392.950073
+,,,2046,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1382.905273
+,,,2047,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1381.218262
+,,,2048,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1375.218262
+,,,2049,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1372.428955
+,,,2050,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : still gas,1361.722778
+,,,2032,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2029,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2030,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2031,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2033,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2034,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2035,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2036,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2037,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2038,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2039,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2040,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2041,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2042,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2043,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2044,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2045,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2046,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2047,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2048,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2049,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2050,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2022,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2023,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2024,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2025,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2026,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2027,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2028,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : steam coal,0.0
+,,,2022,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2733.297119
+,,,2023,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2824.048828
+,,,2024,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2497.75415
+,,,2025,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2500.751221
+,,,2026,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2522.406982
+,,,2027,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2530.725586
+,,,2028,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2571.284424
+,,,2029,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2604.99707
+,,,2030,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2635.017334
+,,,2031,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2628.97583
+,,,2032,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2636.240234
+,,,2033,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2629.630371
+,,,2034,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2652.380615
+,,,2035,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2650.077148
+,,,2036,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2652.531738
+,,,2037,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2654.577393
+,,,2038,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2666.46875
+,,,2039,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2675.798828
+,,,2040,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2681.956787
+,,,2041,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2687.086182
+,,,2042,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2688.711426
+,,,2043,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2686.555176
+,,,2044,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2691.196533
+,,,2045,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2697.617676
+,,,2046,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2676.449463
+,,,2047,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2676.601807
+,,,2048,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2691.550537
+,,,2049,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2699.420654
+,,,2050,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : total,2697.411377
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.692758
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.052314
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.213274
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.204749
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.174723
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.161501
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.212858
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.249249
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.223941
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.202454
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.196983
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.23064
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.263138
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.29264
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.32581
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.360971
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.37715
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.403241
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.42155
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.444477
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.47242
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.506697
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.527909
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.544677
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.561757
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.58585
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.616513
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.641833
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : distillate fuel oil,3.662353
+bev,,,2022,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,165.264847
+bev,,,2023,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,174.545822
+bev,,,2024,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,175.438431
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,173.592316
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,173.127151

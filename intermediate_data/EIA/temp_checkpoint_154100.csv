@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+phev_d,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+ethanol_flex_fuel,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,49.577095
+ethanol_flex_fuel,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,49.996521
+ethanol_flex_fuel,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,50.261902
+ethanol_flex_fuel,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,52.199566
+ethanol_flex_fuel,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,52.202133
+ethanol_flex_fuel,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,52.387722
+ethanol_flex_fuel,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,54.275772
+ethanol_flex_fuel,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,54.267635
+ethanol_flex_fuel,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,54.154434
+ethanol_flex_fuel,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.999363
+ethanol_flex_fuel,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.841721
+ethanol_flex_fuel,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.661003
+ethanol_flex_fuel,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.509205
+ethanol_flex_fuel,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.422054
+ethanol_flex_fuel,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.388973
+ethanol_flex_fuel,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.414349
+ethanol_flex_fuel,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.438465
+ethanol_flex_fuel,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.608128
+ethanol_flex_fuel,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.600178
+ethanol_flex_fuel,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.618729
+ethanol_flex_fuel,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.618813
+ethanol_flex_fuel,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.591736
+ethanol_flex_fuel,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.479805
+ethanol_flex_fuel,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.374123
+ethanol_flex_fuel,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.28891
+ethanol_flex_fuel,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.180485
+ethanol_flex_fuel,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.091187
+ethanol_flex_fuel,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.398643
+ethanol_flex_fuel,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : midsize car,53.286877
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.172897
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,53.961422
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,53.862396
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.227585
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.223946
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.310104
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.78297
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.771667
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.76263
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.754555
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.752743
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.791328
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.869377
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,54.985447
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.087833
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.160309
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.213989
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.280876
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.314484
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.350502
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.386402
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.416782
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.416782
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.431286
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.431286
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.44294
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.456188
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.541378
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : midsize car,55.541378
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : midsize car,0.0

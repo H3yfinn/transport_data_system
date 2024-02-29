@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2023,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,52.637001
+,,,2024,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,53.443138
+,,,2025,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,54.301239
+,,,2026,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,55.406433
+,,,2027,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,56.575527
+,,,2028,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,57.755676
+,,,2029,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,58.88863
+,,,2030,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,60.001221
+,,,2031,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,61.177456
+,,,2032,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,62.235924
+,,,2033,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,63.212654
+,,,2034,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,64.218948
+,,,2035,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,65.310814
+,,,2036,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,66.422913
+,,,2037,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,67.584793
+,,,2038,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,68.717499
+,,,2039,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,69.870834
+,,,2040,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,71.115593
+,,,2041,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,72.349998
+,,,2042,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,73.587051
+,,,2043,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,74.820312
+,,,2044,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,76.058456
+,,,2045,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,77.295593
+,,,2046,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,78.513199
+,,,2047,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,79.761543
+,,,2048,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,81.023193
+,,,2049,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,82.300011
+,,,2050,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : food products,83.584976
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,939.783875
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,954.44519
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,964.023743
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,972.910095
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,985.459412
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,999.402771
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1013.4375
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1025.608521
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1037.669556
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1051.089966
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1062.798462
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1072.355713
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1082.509033
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1093.737793
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1105.593262
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1117.116211
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1128.803955
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1140.907471
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1153.001465
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1164.758057
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1177.14978
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1189.275757
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1201.206055
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1213.053711
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1224.394043
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1235.898193
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1247.526245
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1259.219482
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : food products,1270.886475
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1164.758057
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1177.14978
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1189.275757
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1201.206055
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1213.053711
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1224.394043
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1235.898193
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1247.526245
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1259.219482
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1270.886475
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,939.783875
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,954.44519
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,964.023743
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,972.910095
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,985.459412
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,999.402771
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1013.4375
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1025.608521
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1037.669556
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1051.089966
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1062.798462
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1072.355713
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1082.509033
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1093.737793
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1105.593262
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1117.116211
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1128.803955
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1140.907471
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : food products,1153.001465
+,,,2040,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,46.963661
+,,,2037,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,45.202267
+,,,2038,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,45.796623
+,,,2039,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,46.356674
+,,,2041,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,47.557095
+,,,2042,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,48.154758
+,,,2043,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,48.747513
+,,,2044,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,49.346184
+,,,2045,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,49.934895
+,,,2046,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,50.492119
+,,,2047,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,51.071693
+,,,2048,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,51.655575
+,,,2049,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,52.234871
+,,,2050,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : food products,52.81134

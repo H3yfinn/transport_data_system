@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.322708
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.446564
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.501534
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.549118
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.594097
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.638721
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.680737
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.727814
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.759308
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.791077
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.820087
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.846966
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.86232
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.880131
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.893742
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.909969
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.925327
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.973927
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.982525
+,,,2022,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,593.354065
+,,,2023,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,594.893433
+,,,2024,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,596.012878
+,,,2025,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,597.102234
+,,,2026,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,598.163879
+,,,2027,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,599.169556
+,,,2028,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,600.123535
+,,,2029,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,601.036438
+,,,2030,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,601.921936
+,,,2031,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,602.79126
+,,,2032,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,603.640503
+,,,2033,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,604.453308
+,,,2034,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,605.215149
+,,,2035,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,605.912659
+,,,2036,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,606.549683
+,,,2037,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,607.137146
+,,,2038,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,607.672424
+,,,2039,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,608.151367
+,,,2040,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,608.570374
+,,,2041,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,608.929565
+,,,2042,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.227173
+,,,2043,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.459656
+,,,2044,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.625061
+,,,2045,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.719971
+,,,2046,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.733032
+,,,2047,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.663147
+,,,2048,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.522644
+,,,2049,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.326111
+,,,2050,ref2023,millions,20_usa,air travel : drivers : population : oecd europe,609.08606
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.775621
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.775648
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776083
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776062
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776467
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.777218
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776948
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776953
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776798
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776974
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776898
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.77701
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776805
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776956
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776839
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776862
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776748
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776711
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776654
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776614
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776632
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776631
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776552
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776594
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776409
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776283
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.77638
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776386
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : transportation,5.776234
+ethanol_flex_fuel,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.921047
+ethanol_flex_fuel,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.663898
+ethanol_flex_fuel,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.766499
+ethanol_flex_fuel,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.841911
+ethanol_flex_fuel,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.997238
+ethanol_flex_fuel,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.071075
+ethanol_flex_fuel,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.121693
+ethanol_flex_fuel,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.178627
+ethanol_flex_fuel,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.222763
+ethanol_flex_fuel,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.279556
+ethanol_flex_fuel,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.333282
+ethanol_flex_fuel,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.464825
+ethanol_flex_fuel,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,35.49271
+ethanol_flex_fuel,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,32.442432
+ethanol_flex_fuel,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,32.633507
+ethanol_flex_fuel,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,32.794411
+ethanol_flex_fuel,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,33.279339
+ethanol_flex_fuel,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,33.361412
+ethanol_flex_fuel,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,33.483196
+ethanol_flex_fuel,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,33.943497
+ethanol_flex_fuel,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.01524
+ethanol_flex_fuel,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.085796
+ethanol_flex_fuel,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : midsize car,34.158295

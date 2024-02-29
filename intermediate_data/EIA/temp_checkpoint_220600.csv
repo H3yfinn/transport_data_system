@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,50.718815
+ethanol_flex_fuel,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,50.785854
+ethanol_flex_fuel,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,50.850109
+ethanol_flex_fuel,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,50.908909
+ethanol_flex_fuel,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,50.982552
+ethanol_flex_fuel,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.026028
+ethanol_flex_fuel,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.068661
+ethanol_flex_fuel,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.108677
+ethanol_flex_fuel,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.144138
+ethanol_flex_fuel,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.16048
+ethanol_flex_fuel,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.181488
+ethanol_flex_fuel,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.195465
+ethanol_flex_fuel,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.213894
+ethanol_flex_fuel,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.231792
+ethanol_flex_fuel,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.300488
+ethanol_flex_fuel,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large pickup,51.308975
+fcev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large pickup,0.0
+fcev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+bev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,50.910889
+bev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,51.941353
+bev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,50.989624
+bev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,51.060413
+bev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,51.580227
+bev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.040066
+bev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.236149
+bev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.319065
+bev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.370953
+bev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.43111
+bev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.519218
+bev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.607151
+bev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.623703
+bev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.638592
+bev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.657539
+bev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.682003
+bev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.705624
+bev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.739685
+bev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.754875
+bev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.771023
+bev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.788296
+bev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.801636
+bev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.802067
+bev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.805687
+bev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.80492
+bev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large pickup,52.808048

@@ -1,0 +1,4 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2048,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2044.0
+,,,2049,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2054.0
+,,,2050,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2064.0

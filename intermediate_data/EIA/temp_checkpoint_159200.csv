@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,mt,efficiency,2028,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.006973
+bev,mt,efficiency,2029,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.150782
+bev,mt,efficiency,2030,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.295826
+bev,mt,efficiency,2031,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.440176
+bev,mt,efficiency,2032,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.580343
+bev,mt,efficiency,2033,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.711388
+bev,mt,efficiency,2034,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.795469
+bev,mt,efficiency,2035,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.886208
+bev,mt,efficiency,2036,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,18.994535
+bev,mt,efficiency,2037,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.086107
+bev,mt,efficiency,2038,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.144751
+bev,mt,efficiency,2039,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.193378
+bev,mt,efficiency,2040,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.256512
+bev,mt,efficiency,2041,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.306593
+bev,mt,efficiency,2042,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.347332
+bev,mt,efficiency,2043,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.379253
+bev,mt,efficiency,2044,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.403368
+bev,mt,efficiency,2045,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.4205
+bev,mt,efficiency,2046,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.432022
+bev,mt,efficiency,2047,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.441696
+bev,mt,efficiency,2048,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.448133
+bev,mt,efficiency,2049,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.409203
+bev,mt,efficiency,2050,ref2023,mpg gas equiv,20_usa,freight : truck stock : fuel efficiency : medium : electric,19.409485
+,ship_domestic,,2022,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.820226
+,ship_domestic,,2023,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.838966
+,ship_domestic,,2024,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.857779
+,ship_domestic,,2025,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.876665
+,ship_domestic,,2026,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.895624
+,ship_domestic,,2027,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.914657
+,ship_domestic,,2028,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.933764
+,ship_domestic,,2029,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.952945
+,ship_domestic,,2030,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.9722
+,ship_domestic,,2031,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,4.991531
+,ship_domestic,,2032,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.010937
+,ship_domestic,,2033,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.030418
+,ship_domestic,,2034,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.049975
+,ship_domestic,,2035,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.069608
+,ship_domestic,,2036,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.089317
+,ship_domestic,,2037,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.109103
+,ship_domestic,,2038,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.128966
+,ship_domestic,,2039,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.148906
+,ship_domestic,,2040,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.168923
+,ship_domestic,,2041,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.189019
+,ship_domestic,,2042,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.209192
+,ship_domestic,,2043,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.229445
+,ship_domestic,,2044,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.249775
+,ship_domestic,,2045,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.270185
+,ship_domestic,,2046,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.290674
+,ship_domestic,,2047,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.311243
+,ship_domestic,,2048,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.331892
+,ship_domestic,,2049,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.352621
+,ship_domestic,,2050,ref2023,ton miles/thousand b,20_usa,freight : domestic shipping : fuel efficiency,5.37343
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,16.678804
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.193453
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.382671
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.65572
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.641428
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.714844
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.746101
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.752108
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.726763
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.703926
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.685976
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.669809
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.656128
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.644224
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.635103
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.627134
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.621216
+,,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.615826
+,,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.612106
+,,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.608646
+,,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.607035
+,,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.606117
+,,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.6071
+,,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.455801
+,,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.469227
+,,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.484674
+,,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,17.514999
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,15.821263
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : new commercial light truck,16.131248
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,13.428094
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,13.70518
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,13.988608
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,14.298017
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,14.623931
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,14.947717
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,15.224836
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,15.477125
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,15.70845
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,15.906403
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.084124
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.23918
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.374128
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.504307
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.623001
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.732641
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.834803
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,16.930445
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : stock commercial light truck,17.012526

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : large crossover light truck,0.0
+ethanol_flex_fuel,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,32.83429
+ethanol_flex_fuel,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,33.47551
+ethanol_flex_fuel,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,34.139671
+ethanol_flex_fuel,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,35.663746
+ethanol_flex_fuel,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,36.252621
+ethanol_flex_fuel,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,36.743752
+ethanol_flex_fuel,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,37.925167
+ethanol_flex_fuel,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.016132
+ethanol_flex_fuel,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.037006
+ethanol_flex_fuel,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.09808
+ethanol_flex_fuel,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.207737
+ethanol_flex_fuel,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.388321
+ethanol_flex_fuel,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.59026
+ethanol_flex_fuel,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.805244
+ethanol_flex_fuel,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,38.989849
+ethanol_flex_fuel,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.166424
+ethanol_flex_fuel,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.320301
+ethanol_flex_fuel,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.521984
+ethanol_flex_fuel,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.581429
+ethanol_flex_fuel,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.63282
+ethanol_flex_fuel,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.659256
+ethanol_flex_fuel,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.663883
+ethanol_flex_fuel,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.623734
+ethanol_flex_fuel,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.59034
+ethanol_flex_fuel,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.556889
+ethanol_flex_fuel,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.513538
+ethanol_flex_fuel,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.477539
+ethanol_flex_fuel,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.573677
+ethanol_flex_fuel,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large crossover light truck,39.532509
+fcev,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.250507
+fcev,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,0.0
+fcev,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,0.0
+fcev,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,0.0
+fcev,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.350231
+fcev,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.444237
+fcev,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.606674
+fcev,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.611431
+fcev,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.61795
+fcev,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.625408
+fcev,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.633785
+fcev,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.629185
+fcev,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.632412
+fcev,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.632244
+fcev,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.633068
+fcev,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.631699
+fcev,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.630951
+fcev,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.630432
+fcev,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.631935
+fcev,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.637768
+fcev,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.645439
+fcev,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.652386
+fcev,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.652386
+fcev,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.654179
+fcev,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.654179
+fcev,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.654228
+fcev,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.654335
+fcev,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.672939
+fcev,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large crossover light truck,41.673214
+fcev,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large crossover light truck,0.0

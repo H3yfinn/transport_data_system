@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.257209
+,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.187967
+,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.137922
+,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.244619
+,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.340981
+,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.468892
+,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.589871
+,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.721416
+,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.842643
+,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,4.991071
+,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.108181
+,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.247566
+,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.381406
+,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.508704
+,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.641897
+,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.80237
+,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,5.932401
+,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,6.095174
+,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,6.216132
+,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,6.374521
+,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,6.641983
+,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,6.805626
+,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,6.977495
+,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,7.163229
+,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : distillate fuel oil,7.336648
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.775621
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.775648
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776083
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776062
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776467
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.777218
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776948
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776953
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776799
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776974
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776899
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.77701
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776805
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776956
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776838
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776862
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776748
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776711
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776654
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776614
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776632
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776631
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776552
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776594
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776409
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776284
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.77638
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776386
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : total distillate,5.776234
+ice_g,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,231.372498
+ice_g,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,230.753815
+ice_g,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,230.483124
+ice_g,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,230.228943
+ice_g,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,229.891434
+ice_g,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,229.337418
+ice_g,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,228.475342
+ice_g,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,227.487183
+ice_g,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,226.293335
+ice_g,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,224.962799
+ice_g,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,223.491333
+ice_g,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,221.916473
+ice_g,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,220.250412
+ice_g,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,218.619873
+ice_g,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,217.103485
+ice_g,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,215.740204
+ice_g,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,214.576889
+ice_g,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,213.606323
+ice_g,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.904541
+ice_g,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.366669
+ice_g,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.985107
+ice_g,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.743301
+ice_g,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.642365
+ice_g,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.688995
+ice_g,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.7677
+ice_g,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.945267
+ice_g,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.194489
+ice_g,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.542816
+ice_g,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,213.025452
+,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.722903
+,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.84928
+,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.491383
+,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.169195
+,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.007157
+,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,3.843928
+,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,3.69542
+,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,3.790011
+,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,3.874908
+,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,3.991963
+,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.099787
+,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.215648
+,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.326534
+,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.456437
+,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.564117
+,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.688417
+,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : commercial : distillate fuel oil,4.808698

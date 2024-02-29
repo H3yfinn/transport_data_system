@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lcv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large van,43.581821
+,lcv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large van,43.765644
+,lcv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large van,43.749035
+lpg,lcv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,32.374371
+lpg,lcv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,34.203281
+lpg,lcv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,34.837227
+lpg,lcv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,36.030876
+lpg,lcv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,37.059826
+lpg,lcv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,37.419636
+lpg,lcv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,38.651676
+lpg,lcv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,38.785614
+lpg,lcv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,38.900402
+lpg,lcv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,39.016762
+lpg,lcv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,39.175709
+lpg,lcv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,39.413208
+lpg,lcv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,39.615788
+lpg,lcv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,39.804192
+lpg,lcv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,39.988033
+lpg,lcv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.158714
+lpg,lcv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.313755
+lpg,lcv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.526981
+lpg,lcv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.582355
+lpg,lcv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.642666
+lpg,lcv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.689953
+lpg,lcv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.721928
+lpg,lcv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.700405
+lpg,lcv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.69138
+lpg,lcv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.676636
+lpg,lcv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.663757
+lpg,lcv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.652466
+lpg,lcv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.821468
+lpg,lcv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large van,40.805893
+lpg,lcv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,33.604004
+lpg,lcv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,35.455368
+lpg,lcv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,36.172733
+lpg,lcv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,37.402531
+lpg,lcv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,38.498943
+lpg,lcv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,38.859596
+lpg,lcv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,40.11343
+lpg,lcv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,40.260536
+lpg,lcv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,40.372616
+lpg,lcv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,40.484577
+lpg,lcv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,40.621483
+lpg,lcv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,40.858143
+lpg,lcv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,41.06192
+lpg,lcv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,41.268559
+lpg,lcv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,41.438869
+lpg,lcv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,41.609653
+lpg,lcv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,41.760357
+lpg,lcv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,41.976826
+lpg,lcv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.046196
+lpg,lcv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.118412
+lpg,lcv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.165115
+lpg,lcv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.197224
+lpg,lcv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.174248
+lpg,lcv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.163708
+lpg,lcv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.148136
+lpg,lcv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.134487
+lpg,lcv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.12281
+lpg,lcv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.294571
+lpg,lcv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane : large van,42.27858
+ice_d,lcv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,37.31086
+ice_d,lcv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,37.730648
+ice_d,lcv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,38.158085
+ice_d,lcv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,39.09515
+ice_d,lcv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,39.806576
+ice_d,lcv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,40.057747
+ice_d,lcv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,40.842014
+ice_d,lcv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,40.939953
+ice_d,lcv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,41.056259
+ice_d,lcv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,41.184643
+ice_d,lcv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,41.305069
+ice_d,lcv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,41.524757
+ice_d,lcv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,41.773941
+ice_d,lcv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.080139
+ice_d,lcv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.320065
+ice_d,lcv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.44199
+ice_d,lcv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.563
+ice_d,lcv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.707245
+ice_d,lcv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.765594
+ice_d,lcv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.819271
+ice_d,lcv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.859131
+ice_d,lcv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.884117
+ice_d,lcv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.86945
+ice_d,lcv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.85376
+ice_d,lcv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.840958
+ice_d,lcv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.821053
+ice_d,lcv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.803429
+ice_d,lcv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.916927
+ice_d,lcv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : large van,42.899311
+phev_d,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0
+phev_d,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : midsize car,0.0

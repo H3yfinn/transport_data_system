@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.379097
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : total,9.536631
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : total,9.58894
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : total,9.591059
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : total,9.673329
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : total,9.757197
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : total,9.837563
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : total,9.950477
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : total,8.49547
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : total,8.473063
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : total,8.208762
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : total,8.124474
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : total,8.262087
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : total,8.609991
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : total,8.714933
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : total,8.767846
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : total,8.803033
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : total,8.814925
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : total,8.852177
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : total,8.873964
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : total,8.926038
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : total,8.972638
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : total,9.032281
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : total,9.087663
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : total,9.140488
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : total,9.213685
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : total,9.271226
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : total,9.343618
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : total,9.409446
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : total,9.478456
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.105431
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.098553
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.099154
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.100397
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.102275
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.103588
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.104166
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.104057
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.103973
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.104048
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.104364
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.104557
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.104932
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.10538
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.105959
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.106515
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.10701
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.107608
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.108237
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.108863
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.109558
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.110262
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.110828
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.111123
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.111818
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.11268
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.113209
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.113748
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : new england,0.114802
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : pacific,0.933805
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : pacific,0.89346
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : pacific,0.989123
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : pacific,0.997294
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.017691
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.027734
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.053889
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.063036
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.072007
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.075652
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.08256
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.086769
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.099762
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.103511
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.112489
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.163933
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.123959
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.133287
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.15019
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.181458
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.19577
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.209378
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.224754
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.240436
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.182074
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.198013
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.223305
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.239177
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : pacific,1.258091
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.663018
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.663571
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.665022
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.669449
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.670985
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.674534
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.67847
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.683635
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.688653
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.691617
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.697692
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.700863

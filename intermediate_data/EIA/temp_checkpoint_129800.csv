@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lt,,2034,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000321
+lpg,lt,,2035,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000322
+lpg,lt,,2036,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000328
+lpg,lt,,2037,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000331
+lpg,lt,,2038,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000334
+lpg,lt,,2039,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000341
+lpg,lt,,2040,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000346
+lpg,lt,,2041,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000349
+lpg,lt,,2042,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000354
+lpg,lt,,2043,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000358
+lpg,lt,,2044,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000366
+lpg,lt,,2045,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000374
+lpg,lt,,2046,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000386
+lpg,lt,,2047,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000393
+lpg,lt,,2048,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000401
+lpg,lt,,2049,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000409
+lpg,lt,,2050,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000423
+lpg,lt,,2022,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000685
+lpg,lt,,2023,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000716
+lpg,lt,,2024,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000809
+lpg,lt,,2025,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000848
+lpg,lt,,2026,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000908
+lpg,lt,,2027,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000942
+lpg,lt,,2028,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000942
+lpg,lt,,2029,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000954
+lpg,lt,,2030,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000942
+lpg,lt,,2031,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000928
+lpg,lt,,2032,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000917
+lpg,lt,,2033,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000902
+lpg,lt,,2034,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000903
+lpg,lt,,2035,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000912
+lpg,lt,,2036,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000944
+lpg,lt,,2037,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000959
+lpg,lt,,2038,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.000971
+lpg,lt,,2039,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001002
+lpg,lt,,2040,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001019
+lpg,lt,,2041,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001031
+lpg,lt,,2042,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001053
+lpg,lt,,2043,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001072
+lpg,lt,,2044,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001109
+lpg,lt,,2045,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001139
+lpg,lt,,2046,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001192
+lpg,lt,,2047,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001222
+lpg,lt,,2048,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001263
+lpg,lt,,2049,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001298
+lpg,lt,,2050,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : propane bi-fuel,0.001361
+ice_g,lt,,2022,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,11.115777
+ice_g,lt,,2023,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,14.406306
+ice_g,lt,,2024,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,17.082197
+ice_g,lt,,2025,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,18.835663
+ice_g,lt,,2026,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,20.303253
+ice_g,lt,,2027,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,20.771204
+ice_g,lt,,2028,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.221815
+ice_g,lt,,2029,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.476547
+ice_g,lt,,2030,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.139904
+ice_g,lt,,2031,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.273483
+ice_g,lt,,2032,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.263315
+ice_g,lt,,2033,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.264603
+ice_g,lt,,2034,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.393469
+ice_g,lt,,2035,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.660177
+ice_g,lt,,2036,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.682085
+ice_g,lt,,2037,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.675348
+ice_g,lt,,2038,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.741547
+ice_g,lt,,2039,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.770494
+ice_g,lt,,2040,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.73254
+ice_g,lt,,2041,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.827208
+ice_g,lt,,2042,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,21.943563
+ice_g,lt,,2043,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.060587
+ice_g,lt,,2044,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.109039
+ice_g,lt,,2045,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.266237
+ice_g,lt,,2046,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.333433
+ice_g,lt,,2047,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.393177
+ice_g,lt,,2048,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.394661
+ice_g,lt,,2049,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.441895
+ice_g,lt,,2050,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,22.606972
+ice_g,lt,,2048,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.319889
+ice_g,lt,,2045,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.269484
+ice_g,lt,,2046,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.288715
+ice_g,lt,,2047,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.309604
+ice_g,lt,,2049,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.341917
+ice_g,lt,,2050,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.384742
+ice_g,lt,,2022,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.023851
+ice_g,lt,,2023,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.598985
+ice_g,lt,,2024,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.092481
+ice_g,lt,,2025,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.437551
+ice_g,lt,,2026,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.716678
+ice_g,lt,,2027,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.812829
+ice_g,lt,,2028,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.905463
+ice_g,lt,,2029,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.96409
+ice_g,lt,,2030,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.915459
+ice_g,lt,,2031,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.948691
+ice_g,lt,,2032,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.955266
+ice_g,lt,,2033,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.9633
+ice_g,lt,,2034,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.996192
+ice_g,lt,,2035,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.051812
+ice_g,lt,,2036,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.066239
+ice_g,lt,,2037,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.075773
+ice_g,lt,,2038,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.099342
+ice_g,lt,,2039,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.114837
+ice_g,lt,,2040,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : plug-in 20 gasoline hybrid,4.121001

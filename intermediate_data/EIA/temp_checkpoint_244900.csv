@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.19664
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.398008
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.568211
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.642031
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.742604
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.908397
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,13.905601
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.06753
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.204141
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.258819
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.266371
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.284416
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.341058
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.384879
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.407416
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.432682
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.450044
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.490172
+lpg,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,2.664316
+lpg,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,2.981433
+lpg,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.071981
+lpg,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.031669
+lpg,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,2.984559
+lpg,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,2.957048
+lpg,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,2.967269
+lpg,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.011671
+lpg,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.088852
+lpg,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.192243
+lpg,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.319158
+lpg,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.467774
+lpg,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.622539
+lpg,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.766196
+lpg,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,3.898145
+lpg,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.026724
+lpg,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.170133
+lpg,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.288951
+lpg,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.429753
+lpg,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.574368
+lpg,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.710783
+lpg,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.836359
+lpg,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,4.95291
+lpg,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,5.079839
+lpg,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,5.234241
+lpg,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,5.365191
+lpg,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,5.508089
+lpg,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,5.645495
+lpg,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : residential : propane,5.77985
+lpg,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.664316
+lpg,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.863078
+lpg,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.879742
+lpg,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.781468
+lpg,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.681082
+lpg,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.600198
+lpg,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.554007
+lpg,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.536594
+lpg,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.544796
+lpg,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.571148
+lpg,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.613466
+lpg,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.667317
+lpg,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.721169
+lpg,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.764349
+lpg,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.796783
+lpg,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.825785
+lpg,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.863118
+lpg,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.881416
+lpg,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.91109
+lpg,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.940202
+lpg,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.961004
+lpg,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.971813
+lpg,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.97474
+lpg,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,2.981502
+lpg,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,3.001316
+lpg,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,3.005009
+lpg,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,3.012823
+lpg,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,3.015603
+lpg,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : residential : propane,3.014598
+ice_d,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,7.523714
+ice_d,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.105059
+ice_d,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.705197
+ice_d,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.572795
+ice_d,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.356003
+ice_d,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.307353
+ice_d,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.254474
+ice_d,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.222699
+ice_d,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.330935
+ice_d,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.431735
+ice_d,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.559913
+ice_d,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.686349
+ice_d,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.818674
+ice_d,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,4.942678
+ice_d,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.097224
+ice_d,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.215765
+ice_d,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.359672
+ice_d,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.498405
+ice_d,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.627934
+ice_d,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.763433
+ice_d,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,5.929151
+ice_d,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,6.065363
+ice_d,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,6.231228
+ice_d,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : diesel fuel,6.353501

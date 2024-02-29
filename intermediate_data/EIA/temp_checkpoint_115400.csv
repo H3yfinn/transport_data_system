@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,sales,2047,ref2023,percent,20_usa,fleet vehicle sales : percent alternative car,30.404064
+,,sales,2048,ref2023,percent,20_usa,fleet vehicle sales : percent alternative car,31.214642
+,,sales,2049,ref2023,percent,20_usa,fleet vehicle sales : percent alternative car,32.025562
+,,sales,2050,ref2023,percent,20_usa,fleet vehicle sales : percent alternative car,32.813244
+,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,84.285843
+,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,92.888847
+,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,100.7127
+,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,106.283592
+,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,110.868759
+,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,116.259544
+,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,121.370949
+,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,126.999863
+,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,132.744797
+,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,138.42955
+,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,144.628235
+,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,150.469284
+,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,157.082077
+,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,164.409958
+,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,172.73555
+,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,180.332657
+,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,187.982193
+,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,195.689606
+,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,203.252991
+,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,209.687073
+,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,216.059021
+,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,221.551544
+,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,227.828278
+,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,235.286957
+,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,244.62561
+,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,251.39296
+,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,258.516632
+,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,266.078339
+,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : total,274.077942
+,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas bi-fuel,0.0
+,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : natural gas ice,0.0
+lpg,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0

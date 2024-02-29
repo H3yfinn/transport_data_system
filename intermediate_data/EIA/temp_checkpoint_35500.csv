@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,23.967196
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,24.320139
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,24.679564
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,25.043064
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,25.378708
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,25.733324
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,26.08849
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,26.459179
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : end-use generators : natural gas,26.861212
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.3581
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.3815
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.3815
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : end-use generators : other gaseous fuels,2.4016
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.3808
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.3808
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.3808
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.3808
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : end-use generators : other,0.4308
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.533293
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.532844
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.532283
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531891
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531844
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531802
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531747
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531678
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531593
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.53155
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531526
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531476
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531441
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531423
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531364
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531326
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531282
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531228
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531216
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531197
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531194
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531172
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.53113
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531083
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531075
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531118
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531096
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.531102
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : end-use generators : petroleum,0.53119
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,55.088581
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,61.784584
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,68.065956
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,73.924011

@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.705369
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.709711
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.714985
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.719175
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.722333
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.727654
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.733924
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.738294
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.743254
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.751387
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.611517
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.585765
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.60384
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.617306
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.63773
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.651843
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : south atlantic,0.660357
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.875133
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.84586
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.786677
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.794479
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.809843
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.818917
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.821004
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.821136
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.822034
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.81976
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.819947
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.820774
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.827233
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.832607
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.835408
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.839634
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.842191
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.846253
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.851844
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.858898
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.865979
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.872778
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.876479
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.897405
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.87935
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.885234
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.891738
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.903272
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : west north central,0.911859
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.472522
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.398521
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.272809
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.344863
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.449579
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.516157
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.565846
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.585439
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.590609
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.590686
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.604428
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.611726
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.623048
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.638897
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.667959
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.68655
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.708114
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.733914
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.752608
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.776739
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.801657
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.82393
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.840536
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.853503
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.878935

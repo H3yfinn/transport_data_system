@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2039,ref2023,st,5-20,electricity : emissions : mercury,0.006995
+bev,,,2040,ref2023,st,5-20,electricity : emissions : mercury,0.007052
+bev,,,2041,ref2023,st,5-20,electricity : emissions : mercury,0.007855
+bev,,,2042,ref2023,st,5-20,electricity : emissions : mercury,0.007861
+bev,,,2043,ref2023,st,5-20,electricity : emissions : mercury,0.007831
+bev,,,2044,ref2023,st,5-20,electricity : emissions : mercury,0.007054
+bev,,,2045,ref2023,st,5-20,electricity : emissions : mercury,0.00706
+bev,,,2046,ref2023,st,5-20,electricity : emissions : mercury,0.008159
+bev,,,2047,ref2023,st,5-20,electricity : emissions : mercury,0.008201
+bev,,,2048,ref2023,st,5-20,electricity : emissions : mercury,0.007317
+bev,,,2049,ref2023,st,5-20,electricity : emissions : mercury,0.008291
+bev,,,2050,ref2023,st,5-20,electricity : emissions : mercury,0.008228
+bev,,,2022,ref2023,st,5-23,electricity : emissions : mercury,0.008213
+bev,,,2023,ref2023,st,5-23,electricity : emissions : mercury,0.007648
+bev,,,2024,ref2023,st,5-23,electricity : emissions : mercury,0.012437
+bev,,,2025,ref2023,st,5-23,electricity : emissions : mercury,0.012316
+bev,,,2026,ref2023,st,5-23,electricity : emissions : mercury,0.001935
+bev,,,2027,ref2023,st,5-23,electricity : emissions : mercury,0.00048
+bev,,,2028,ref2023,st,5-23,electricity : emissions : mercury,0.000486
+bev,,,2029,ref2023,st,5-23,electricity : emissions : mercury,0.000463
+bev,,,2030,ref2023,st,5-23,electricity : emissions : mercury,0.000461
+bev,,,2031,ref2023,st,5-23,electricity : emissions : mercury,0.000464
+bev,,,2032,ref2023,st,5-23,electricity : emissions : mercury,0.000468
+bev,,,2033,ref2023,st,5-23,electricity : emissions : mercury,0.000461
+bev,,,2034,ref2023,st,5-23,electricity : emissions : mercury,0.000454
+bev,,,2035,ref2023,st,5-23,electricity : emissions : mercury,0.000457
+bev,,,2036,ref2023,st,5-23,electricity : emissions : mercury,0.000454
+bev,,,2037,ref2023,st,5-23,electricity : emissions : mercury,0.000446
+bev,,,2038,ref2023,st,5-23,electricity : emissions : mercury,0.000451
+bev,,,2039,ref2023,st,5-23,electricity : emissions : mercury,0.000449
+bev,,,2040,ref2023,st,5-23,electricity : emissions : mercury,0.000458
+bev,,,2041,ref2023,st,5-23,electricity : emissions : mercury,0.00046
+bev,,,2042,ref2023,st,5-23,electricity : emissions : mercury,0.00046
+bev,,,2043,ref2023,st,5-23,electricity : emissions : mercury,0.000461
+bev,,,2044,ref2023,st,5-23,electricity : emissions : mercury,0.000461
+bev,,,2045,ref2023,st,5-23,electricity : emissions : mercury,0.000462
+bev,,,2046,ref2023,st,5-23,electricity : emissions : mercury,0.000466
+bev,,,2047,ref2023,st,5-23,electricity : emissions : mercury,0.000469
+bev,,,2048,ref2023,st,5-23,electricity : emissions : mercury,0.00048
+bev,,,2049,ref2023,st,5-23,electricity : emissions : mercury,0.000477
+bev,,,2050,ref2023,st,5-23,electricity : emissions : mercury,0.000472
+bev,,,2022,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.062977
+bev,,,2023,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.059661
+bev,,,2024,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.053903
+bev,,,2025,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.047375
+bev,,,2026,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.041687
+bev,,,2027,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.034927
+bev,,,2028,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.037442
+bev,,,2029,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.040418
+bev,,,2030,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.040978
+bev,,,2031,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.038382
+bev,,,2032,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.038056
+bev,,,2033,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.039899
+bev,,,2034,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.039798
+bev,,,2035,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.03924
+bev,,,2036,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.039213
+bev,,,2037,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.038333
+bev,,,2038,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.039319
+bev,,,2039,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.037963
+bev,,,2040,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.03828
+bev,,,2041,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.038713
+bev,,,2042,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.038306
+bev,,,2043,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.038347
+bev,,,2044,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.036844
+bev,,,2045,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.036899
+bev,,,2046,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.037161
+bev,,,2047,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.036568
+bev,,,2048,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.037001
+bev,,,2049,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.036922
+bev,,,2050,ref2023,mmst,5-2,electricity : emissions : nitrogen oxide,0.037555
+bev,,,2022,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.047293
+bev,,,2023,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.044247
+bev,,,2024,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.034859
+bev,,,2025,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.032552
+bev,,,2026,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.028848
+bev,,,2027,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.020087
+bev,,,2028,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.018548
+bev,,,2029,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.017818
+bev,,,2030,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.014563
+bev,,,2031,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.014463
+bev,,,2032,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.013896
+bev,,,2033,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.016856
+bev,,,2034,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.01669
+bev,,,2035,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.016322
+bev,,,2043,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.01689
+bev,,,2040,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.016618
+bev,,,2041,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.017129
+bev,,,2042,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.017383
+bev,,,2044,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.016983
+bev,,,2045,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.015849
+bev,,,2046,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.015445
+bev,,,2047,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.015498
+bev,,,2048,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.014293
+bev,,,2049,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.014209
+bev,,,2050,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.013998
+bev,,,2036,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.016853
+bev,,,2037,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.017151
+bev,,,2038,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.017525
+bev,,,2039,ref2023,mmst,5-4,electricity : emissions : nitrogen oxide,0.016748
+bev,,,2022,ref2023,mmst,5-5,electricity : emissions : nitrogen oxide,0.028387

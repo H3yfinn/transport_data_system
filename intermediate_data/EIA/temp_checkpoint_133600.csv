@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,1.236282
+lpg,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,1.157526
+lpg,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,1.083788
+lpg,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,1.014747
+lpg,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.950104
+lpg,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.889579
+lpg,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.832909
+lpg,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.77985
+lpg,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.730171
+lpg,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.683656
+lpg,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.640105
+lpg,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.599328
+lpg,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.561149
+lpg,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.525401
+lpg,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.491931
+lpg,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane bi-fuel,0.460594
+ice_g,car,,2022,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,18.620897
+ice_g,car,,2023,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,18.742386
+ice_g,car,,2024,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,19.225786
+ice_g,car,,2025,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,19.769812
+ice_g,car,,2026,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,20.255058
+ice_g,car,,2027,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,20.684639
+ice_g,car,,2028,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,21.07461
+ice_g,car,,2029,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,21.458031
+ice_g,car,,2030,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,21.848562
+ice_g,car,,2031,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,22.249832
+ice_g,car,,2032,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,22.686924
+ice_g,car,,2033,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,23.151102
+ice_g,car,,2034,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,23.674931
+ice_g,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,24.288008
+ice_g,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,25.015554
+ice_g,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,25.810991
+ice_g,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,26.663719
+ice_g,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,27.561453
+ice_g,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,28.491934
+ice_g,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,29.406263
+ice_g,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,30.308496
+ice_g,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,31.167662
+ice_g,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,32.028728
+ice_g,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,32.935436
+ice_g,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,33.948967
+ice_g,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,34.930641
+ice_g,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,35.897713
+ice_g,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,36.868179
+ice_g,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,37.873577
+ice_g,car,,2022,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,9.18985
+ice_g,car,,2023,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,9.232191
+ice_g,car,,2024,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,9.513065
+ice_g,car,,2025,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,9.890547
+ice_g,car,,2026,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,10.297814
+ice_g,car,,2027,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,10.742392
+ice_g,car,,2028,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,11.226655
+ice_g,car,,2029,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,11.782159
+ice_g,car,,2030,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,12.41293
+ice_g,car,,2031,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,13.113447
+ice_g,car,,2032,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,13.8957
+ice_g,car,,2033,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,14.741248
+ice_g,car,,2034,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,15.667826
+ice_g,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,16.685068
+ice_g,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,17.809175
+ice_g,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,18.991947
+ice_g,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,20.221149
+ice_g,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,21.486172
+ice_g,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,22.775742
+ice_g,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,24.045906
+ice_g,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,25.302801
+ice_g,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,26.519762
+ice_g,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,27.738804
+ice_g,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,29.00321
+ice_g,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,30.374689
+ice_g,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,31.715918
+ice_g,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,33.043564
+ice_g,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,34.375633
+ice_g,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,35.743801
+lpg,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.393154
+lpg,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.368109
+lpg,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.344659
+lpg,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.322703
+lpg,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.302145
+lpg,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.282898
+lpg,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.264876
+lpg,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.248003
+lpg,car,,2022,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,2.087991
+lpg,car,,2023,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,1.784609
+lpg,car,,2024,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,1.535312
+lpg,car,,2025,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,1.333347
+lpg,car,,2026,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,1.206512
+lpg,car,,2027,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,1.127065
+lpg,car,,2028,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,1.055267
+lpg,car,,2029,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.988043
+lpg,car,,2030,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.925101
+lpg,car,,2031,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.866168
+lpg,car,,2032,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.810991
+lpg,car,,2033,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.759328
+lpg,car,,2034,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.710956
+lpg,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.665665
+lpg,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.62326
+lpg,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.583556
+lpg,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.546381
+lpg,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : propane ice,0.511575

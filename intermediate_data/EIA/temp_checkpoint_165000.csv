@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2028,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,178.997665
+,,,2029,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,179.931473
+,,,2030,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,180.766052
+,,,2031,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,180.037262
+,,,2032,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,180.33992
+,,,2033,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,179.877609
+,,,2034,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.14325
+,,,2035,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.018372
+,,,2036,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.112152
+,,,2037,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.167297
+,,,2038,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.716095
+,,,2039,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.310684
+,,,2040,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.69043
+,,,2041,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.934814
+,,,2042,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,183.0896
+,,,2043,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.774445
+,,,2044,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.815231
+,,,2045,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.996368
+,,,2046,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.582153
+,,,2047,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,181.471222
+,,,2048,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.22731
+,,,2049,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.625824
+,,,2050,ref2023,mmmt co2,20_usa,refining industry : refinery only energy : carbon dioxide emissions,182.142319
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,238.203979
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,243.108841
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,234.207764
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,232.452698
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,231.568375
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,229.723831
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,231.070374
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,232.044891
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,233.066986
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,232.160233
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,232.319977
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,231.663193
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,233.25325
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,233.049026
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,232.972855
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,232.963852
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,233.509827
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,234.12796
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,234.416092
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,235.107468
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,235.329346
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,235.156113
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,233.740417
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,235.250031
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,235.605576
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,233.032333
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,236.4086
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,237.328598
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : refining,236.762054
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,27.862282
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,28.100296
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,28.087168
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,26.443531
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,24.393961
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,22.958282
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,21.483873
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,20.235435
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.268251
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,18.948334
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,18.913992
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.090429
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.032969
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.166653
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.337273
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.338974
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.283182
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.318489
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.411381
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.634848
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.866426
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.956629
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.912628
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.883104
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.826811
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,19.96059
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,20.013973
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,20.095705
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : transportation equipment,20.143396
+,,,2036,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.337273
+,,,2037,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.338974
+,,,2038,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.283182
+,,,2039,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.318489
+,,,2040,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.411381
+,,,2041,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.634848
+,,,2042,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.866426
+,,,2043,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.956629
+,,,2044,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.912628
+,,,2045,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.883104
+,,,2046,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.826811
+,,,2047,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,19.96059
+,,,2048,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,20.013973
+,,,2049,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,20.095705
+,,,2050,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,20.143396
+,,,2022,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,27.862282
+,,,2023,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,28.100296
+,,,2024,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,28.087168
+,,,2025,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : transportation equipment,26.443531

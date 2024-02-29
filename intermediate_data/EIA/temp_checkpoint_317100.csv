@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,5.059147
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,5.022825
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,5.01719
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,5.000348
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.985026
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.974782
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.967464
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.961115
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.957813
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.952669
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.947966
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.942125
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.937525
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.932009
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.929103
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.927769
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.92266
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.920143
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.916678
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.910859
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.90548
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.903147
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.901598
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.899264
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.896852
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.895994
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.893797
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : total petroleum use,4.891023
+bev,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.775621
+bev,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.775648
+bev,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776083
+bev,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776062
+bev,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776467
+bev,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.777218
+bev,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776948
+bev,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776953
+bev,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776798
+bev,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776974
+bev,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776898
+bev,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.77701
+bev,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776805
+bev,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776956
+bev,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776839
+bev,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776862
+bev,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776748
+bev,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776711
+bev,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776654
+bev,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776614
+bev,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776632
+bev,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776631
+bev,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776552
+bev,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776594
+bev,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776409
+bev,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776283
+bev,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.77638
+bev,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776386
+bev,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776234
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small utility,0.0
+,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0
+,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small crossover light truck,0.0

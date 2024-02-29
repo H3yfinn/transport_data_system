@@ -1,0 +1,75 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : renewables,0.0
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001832
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001598
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001537
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001477
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001419
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001364
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001313
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001267
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001226
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001192
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001165
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001145
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001133
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : residual fuel oil,0.001129
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : steam coal,0.0

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,ht,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,1.508843
+fcev,ht,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,1.615412
+fcev,ht,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,1.717117
+fcev,ht,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,1.812324
+fcev,ht,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,1.902677
+fcev,ht,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,1.992978
+fcev,ht,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.085901
+fcev,ht,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.182155
+fcev,ht,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.277899
+fcev,ht,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.371854
+fcev,ht,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.468158
+fcev,ht,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.57848
+fcev,ht,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.69808
+fcev,ht,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.823772
+fcev,ht,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,2.961604
+fcev,ht,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : fuel cell,3.12061
+ice_g,ht,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.292622
+ice_g,ht,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.094069
+ice_g,ht,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.16721
+ice_g,ht,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.22837
+ice_g,ht,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.356681
+ice_g,ht,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.389575
+ice_g,ht,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.407103
+ice_g,ht,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.434031
+ice_g,ht,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.465653
+ice_g,ht,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.509548
+ice_g,ht,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.555473
+ice_g,ht,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.592998
+ice_g,ht,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.633256
+ice_g,ht,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,3.927975
+ice_g,ht,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,4.003333
+ice_g,ht,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,4.154909
+ice_g,ht,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,4.346583
+ice_g,ht,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,4.555941
+ice_g,ht,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,4.758452
+ice_g,ht,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,4.97601
+ice_g,ht,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,5.18817
+ice_g,ht,,2032,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,5.395782
+ice_g,ht,,2033,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,5.579236
+ice_g,ht,,2034,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,5.743181
+ice_g,ht,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,5.890036
+ice_g,ht,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,5.998426
+ice_g,ht,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,6.692633
+ice_g,ht,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,3.967448
+ice_g,ht,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : motor gasoline,3.91121
+,ht,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,4207.273438
+,ht,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,4138.302734
+,ht,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,4077.727539
+,ht,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,4039.000244
+,ht,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,4013.042969
+,ht,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3976.748535
+,ht,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3937.700684
+,ht,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3887.586182
+,ht,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3833.356445
+,ht,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3784.295898
+,ht,,2032,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3747.7146
+,ht,,2033,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3710.221436
+,ht,,2034,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3677.407715
+,ht,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3652.342773
+,ht,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3627.342285
+,ht,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3611.421875
+,ht,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3599.495361
+,ht,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3588.509766
+,ht,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3582.46875
+,ht,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3579.734619
+,ht,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3579.541016
+,ht,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3578.653076
+,ht,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3575.961182
+,ht,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3570.519531
+,ht,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3568.015869
+,ht,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3565.464844
+,ht,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3558.258789
+,ht,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3552.246094
+,ht,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy,3556.415527
+,ht,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,50.390869
+,ht,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,50.880238
+,ht,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,51.130661
+,ht,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,51.278004
+,ht,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,51.2663
+,ht,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,50.76376
+,ht,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,49.941105
+,ht,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,48.755848
+,ht,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,47.376194
+,ht,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,46.136257
+,ht,,2032,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,45.289948
+,ht,,2033,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,44.81562
+,ht,,2034,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,44.797993
+,ht,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,45.188122
+,ht,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,45.832714
+,ht,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,46.829082
+,ht,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,48.081806
+,ht,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,49.582222
+,ht,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,51.412018
+,ht,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,53.560184
+,ht,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,55.921677
+,ht,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,58.465366
+,ht,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,61.153961
+,ht,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,63.935596
+,ht,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,66.919731
+,ht,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,70.06723

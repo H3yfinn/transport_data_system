@@ -1,0 +1,43 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,387.923401
+,car,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,389.248596
+,car,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,390.189606
+,car,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,391.527618
+,car,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,392.694763
+,car,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,394.247864
+,car,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : two seater,395.44986
+bev,,,2022,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,5.998687
+bev,,,2023,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,5.377683
+bev,,,2024,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,5.337081
+bev,,,2025,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,5.239263
+bev,,,2026,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.989674
+bev,,,2027,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.884364
+bev,,,2028,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.778956
+bev,,,2029,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.565996
+bev,,,2030,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.419322
+bev,,,2031,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.379802
+bev,,,2032,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.344196
+bev,,,2033,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.354162
+bev,,,2034,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.287374
+bev,,,2035,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.135222
+bev,,,2036,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.226771
+bev,,,2037,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.37422
+bev,,,2038,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.456829
+bev,,,2039,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.652678
+bev,,,2040,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.769921
+bev,,,2041,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.712825
+bev,,,2042,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.571409
+bev,,,2043,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.454271
+bev,,,2044,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.377653
+bev,,,2045,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.3256
+bev,,,2046,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.255038
+bev,,,2047,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.196428
+bev,,,2048,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.145272
+bev,,,2049,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.10514
+bev,,,2050,ref2023,2022 cents/kwh,5-18,electricity : prices by service category : generation,4.069933
+bev,,,2022,ref2023,2022 cents/kwh,5-17,electricity : prices by service category : generation,3.684629
+bev,,,2023,ref2023,2022 cents/kwh,5-17,electricity : prices by service category : generation,3.843474
+bev,,,2024,ref2023,2022 cents/kwh,5-17,electricity : prices by service category : generation,3.876218
+bev,,,2025,ref2023,2022 cents/kwh,5-17,electricity : prices by service category : generation,3.694674
+bev,,,2026,ref2023,2022 cents/kwh,5-17,electricity : prices by service category : generation,3.511513
+bev,,,2027,ref2023,2022 cents/kwh,5-17,electricity : prices by service category : generation,3.468514

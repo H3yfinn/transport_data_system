@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,,2024,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,514.30658
+,lt,,2025,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,515.860229
+,lt,,2026,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,512.923218
+,lt,,2027,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,502.564514
+,lt,,2028,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,490.931305
+,lt,,2029,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,485.773193
+,lt,,2030,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,477.925507
+,lt,,2031,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,473.002716
+,lt,,2032,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,467.682953
+,lt,,2033,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,462.695007
+,lt,,2034,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,460.455719
+,lt,,2035,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,461.19455
+,lt,,2036,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,462.922424
+,lt,,2037,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,465.349854
+,lt,,2038,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,468.754425
+,lt,,2039,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,471.652863
+,lt,,2040,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,476.173309
+,lt,,2041,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,477.669037
+,lt,,2042,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,479.286011
+,lt,,2043,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,481.383484
+,lt,,2044,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,482.67395
+,lt,,2045,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,486.939117
+,lt,,2046,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,488.596191
+,lt,,2047,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,491.36615
+,lt,,2048,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,491.595917
+,lt,,2049,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,494.446136
+,lt,,2050,ref2023,thousands,1-4,light-duty vehicle sales : conventional light trucks : total,497.700012
+,lt,,2022,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1074.131958
+,lt,,2023,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1161.673706
+,lt,,2024,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1237.055298
+,lt,,2025,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1298.703979
+,lt,,2026,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1328.843994
+,lt,,2027,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1337.959961
+,lt,,2028,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1338.269531
+,lt,,2029,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1350.200317
+,lt,,2030,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1348.419067
+,lt,,2031,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1351.085938
+,lt,,2032,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1352.401489
+,lt,,2033,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1354.128784
+,lt,,2034,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1364.252075
+,lt,,2035,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1382.13147
+,lt,,2036,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1399.628174
+,lt,,2037,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1420.210815
+,lt,,2038,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1442.181763
+,lt,,2039,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1461.55603
+,lt,,2040,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1486.19458
+,lt,,2041,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1502.534546
+,lt,,2042,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1519.298828
+,lt,,2043,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1537.203125
+,lt,,2044,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1553.017212
+,lt,,2045,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1579.128662
+,lt,,2046,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1597.504883
+,lt,,2047,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1618.15332
+,lt,,2048,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1631.587891
+,lt,,2049,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1653.065552
+,lt,,2050,ref2023,thousands,1-7,light-duty vehicle sales : conventional light trucks : total,1676.422241
+ice_d,lt,,2022,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,12.414918
+ice_d,lt,,2023,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.533227
+ice_d,lt,,2024,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.992615
+ice_d,lt,,2025,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.473086
+ice_d,lt,,2026,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.771977
+ice_d,lt,,2027,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.987771
+ice_d,lt,,2028,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.595325
+ice_d,lt,,2029,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.078915
+ice_d,lt,,2030,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.650129
+ice_d,lt,,2031,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.085766
+ice_d,lt,,2032,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.878024
+ice_d,lt,,2033,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.592133
+ice_d,lt,,2034,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.591342
+ice_d,lt,,2035,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.518948
+ice_d,lt,,2036,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.896552
+ice_d,lt,,2037,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,14.978751
+ice_d,lt,,2038,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.171803
+ice_d,lt,,2039,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.492732
+ice_d,lt,,2040,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.713215
+ice_d,lt,,2041,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.66225
+ice_d,lt,,2042,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.841989
+ice_d,lt,,2043,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.718736
+ice_d,lt,,2044,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,15.95713
+ice_d,lt,,2045,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.103155
+ice_d,lt,,2046,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.301725
+ice_d,lt,,2047,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.348137
+ice_d,lt,,2048,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.605711
+ice_d,lt,,2049,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,16.724604
+ice_d,lt,,2050,ref2023,thousands,1-3,light-duty vehicle sales : conventional light trucks : tdi diesel,17.126034
+ice_d,lt,,2022,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,3.184564
+ice_d,lt,,2023,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.012532
+ice_d,lt,,2024,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.27783
+ice_d,lt,,2025,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.586688
+ice_d,lt,,2026,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.801943
+ice_d,lt,,2027,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.949371
+ice_d,lt,,2028,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,5.210922
+ice_d,lt,,2029,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,5.088883
+ice_d,lt,,2030,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.977587
+ice_d,lt,,2031,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.817626
+ice_d,lt,,2032,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.761999
+ice_d,lt,,2033,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.695456
+ice_d,lt,,2034,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.711154
+ice_d,lt,,2035,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.706992
+ice_d,lt,,2036,ref2023,thousands,1-6,light-duty vehicle sales : conventional light trucks : tdi diesel,4.859914

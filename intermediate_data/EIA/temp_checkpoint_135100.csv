@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001528
+lpg,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.00152
+lpg,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001516
+lpg,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001513
+lpg,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001513
+lpg,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001513
+lpg,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001515
+lpg,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001517
+lpg,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001521
+lpg,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001526
+lpg,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001532
+lpg,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001539
+lpg,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001545
+lpg,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001552
+lpg,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001559
+lpg,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001565
+lpg,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001572
+lpg,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001579
+lpg,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001589
+lpg,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001601
+lpg,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.00162
+lpg,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001643
+lpg,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001669
+lpg,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001701
+ice_d,car,,2022,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.528652
+ice_d,car,,2023,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.495424
+ice_d,car,,2024,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.463076
+ice_d,car,,2025,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.431282
+ice_d,car,,2026,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.399902
+ice_d,car,,2027,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.368815
+ice_d,car,,2028,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.337792
+ice_d,car,,2029,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.306862
+ice_d,car,,2030,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.276541
+ice_d,car,,2031,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.247577
+ice_d,car,,2032,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.219783
+ice_d,car,,2033,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.19367
+ice_d,car,,2034,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.169775
+ice_d,car,,2035,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.148659
+ice_d,car,,2036,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.130743
+ice_d,car,,2037,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.115961
+ice_d,car,,2038,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.104272
+ice_d,car,,2039,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.095627
+ice_d,car,,2040,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.089083
+ice_d,car,,2041,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.083144
+ice_d,car,,2042,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.077796
+ice_d,car,,2043,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.072952
+ice_d,car,,2044,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.068449
+ice_d,car,,2045,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.06424
+ice_d,car,,2046,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.060306
+ice_d,car,,2047,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.056629
+ice_d,car,,2048,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.053191
+ice_d,car,,2049,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.049975
+ice_d,car,,2050,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.046969
+ice_g,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,231.372498
+ice_g,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,230.753815
+ice_g,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,230.483124
+ice_g,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,230.228943
+ice_g,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,229.891434
+ice_g,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,229.337418
+ice_g,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,228.475342
+ice_g,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,227.487183
+ice_g,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,226.293335
+ice_g,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,224.962799
+ice_g,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,223.491333
+ice_g,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,221.916473
+ice_g,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,220.250412
+ice_g,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,218.619873
+ice_g,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,217.103485
+ice_g,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,215.740204
+ice_g,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,214.576889
+ice_g,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,213.606323
+ice_g,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.904541
+ice_g,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.366669
+ice_g,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.985107
+ice_g,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.743301
+ice_g,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.642365
+ice_g,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.688995
+ice_g,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.7677
+ice_g,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,211.945267
+ice_g,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.194489
+ice_g,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,212.542816
+ice_g,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : conventional gasoline,213.025452
+bev,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,20.245571
+bev,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,19.092459
+bev,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,19.49316
+bev,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,19.876057
+bev,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,20.608757
+bev,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,5.748408
+bev,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,6.259164
+bev,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,6.825432
+bev,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,7.413377
+bev,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,8.017244
+bev,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,8.62159
+bev,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,9.229515
+bev,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,9.840139
+bev,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,10.445172
+bev,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,11.046252
+bev,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,11.640474
+bev,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,12.232355
+bev,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle sales : total vehicle stock : electric hybrid,12.824205

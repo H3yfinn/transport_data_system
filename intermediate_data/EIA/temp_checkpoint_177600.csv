@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2042,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,12.132848
+bev,,,2043,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,12.150152
+bev,,,2044,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,11.786469
+bev,,,2045,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,11.724782
+bev,,,2046,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,11.795727
+bev,,,2047,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,11.978953
+bev,,,2048,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,12.12711
+bev,,,2049,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,12.206299
+bev,,,2050,ref2023,bkwh,5-24,electricity : electric power sector : generation : coal,12.187699
+bev,,,2036,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.840018
+bev,,,2033,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.26245
+bev,,,2034,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.720026
+bev,,,2035,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.841486
+bev,,,2037,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.883182
+bev,,,2038,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.073387
+bev,,,2039,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.879019
+bev,,,2040,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.876982
+bev,,,2041,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.079048
+bev,,,2042,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.076967
+bev,,,2043,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.074807
+bev,,,2044,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.8639
+bev,,,2045,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.862278
+bev,,,2046,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.125379
+bev,,,2047,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.123018
+bev,,,2048,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,1.85575
+bev,,,2049,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.11817
+bev,,,2050,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,2.116203
+bev,,,2022,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,26.799398
+bev,,,2023,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,22.800842
+bev,,,2024,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,23.568195
+bev,,,2025,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,24.546471
+bev,,,2026,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,23.837921
+bev,,,2027,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,16.025393
+bev,,,2028,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,8.34027
+bev,,,2029,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,7.115162
+bev,,,2030,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,9.57606
+bev,,,2031,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,7.11259
+bev,,,2032,ref2023,bkwh,5-20,electricity : electric power sector : generation : coal,4.044303
+bev,,,2022,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,2.426508
+bev,,,2023,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,2.523431
+bev,,,2024,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,3.629503
+bev,,,2025,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,2.903999
+bev,,,2026,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.270427
+bev,,,2027,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2028,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2029,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2030,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2031,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2032,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2033,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2034,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2035,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2036,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2037,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2038,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2039,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2040,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2041,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2042,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2043,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2044,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2045,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2046,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2047,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2048,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2049,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2050,ref2023,bkwh,5-23,electricity : electric power sector : generation : coal,0.0
+bev,,,2049,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.164392
+bev,,,2050,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.175447
+bev,,,2022,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2023,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2024,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2025,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2026,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2027,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2028,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2029,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.007596
+bev,,,2030,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.014498
+bev,,,2031,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.02127
+bev,,,2032,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.0278
+bev,,,2033,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.033551
+bev,,,2034,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.039118
+bev,,,2035,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.045898
+bev,,,2036,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.053092
+bev,,,2037,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.060165
+bev,,,2038,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.066408
+bev,,,2039,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.073077
+bev,,,2040,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.080441
+bev,,,2041,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.088715
+bev,,,2042,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.097823
+bev,,,2043,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.106888
+bev,,,2044,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.115852
+bev,,,2045,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.12456
+bev,,,2046,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.133834
+bev,,,2047,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.143294
+bev,,,2048,ref2023,bkwh,5-2,electricity : electric power sector : generation : distributed generation,0.153558
+bev,,,2033,ref2023,bkwh,5-4,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2030,ref2023,bkwh,5-4,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2031,ref2023,bkwh,5-4,electricity : electric power sector : generation : distributed generation,0.0
+bev,,,2032,ref2023,bkwh,5-4,electricity : electric power sector : generation : distributed generation,0.0

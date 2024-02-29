@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2043,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.011974
+,,,2044,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,9.968102
+,,,2045,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.01855
+,,,2046,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.055977
+,,,2047,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.067298
+,,,2048,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.051018
+,,,2049,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.126979
+,,,2050,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : printing,10.170288
+,,,2022,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.842192
+,,,2023,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.795571
+,,,2024,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.76709
+,,,2025,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.771312
+,,,2026,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.788013
+,,,2027,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.798691
+,,,2028,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.831693
+,,,2029,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.869165
+,,,2030,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.917188
+,,,2031,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.969306
+,,,2032,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.979744
+,,,2033,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.96494
+,,,2034,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.952041
+,,,2035,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.944841
+,,,2036,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.93802
+,,,2037,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.938145
+,,,2038,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.944483
+,,,2039,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.944503
+,,,2040,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.964377
+,,,2041,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.966436
+,,,2042,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.952796
+,,,2043,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.95428
+,,,2044,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,3.967887
+,,,2045,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,4.019022
+,,,2046,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,4.064563
+,,,2047,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,4.099895
+,,,2048,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,4.124698
+,,,2049,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,4.18763
+,,,2050,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : printing,4.237568
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,81.002419
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,79.589355
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.600464
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.227867
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.011383
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.748795
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.972755
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.272659
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.806259
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,79.487358
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,79.360268
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.681564
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.107155
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.655876
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.289139
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.00322
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,76.774658
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,76.536819
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,76.742325
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,76.605957
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,76.091614
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,75.87841
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,75.894768
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,76.632271
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.276047
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.723999
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,77.96183
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,78.920258
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : printing,79.63163
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,81.002419
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,79.589355
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.600464
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.227867
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.011383
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.748795
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.972755
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.272659
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.806259
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,79.487358
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,79.360268
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.681564
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.107155
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.655876
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.289139
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.00322
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,76.774658
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,76.536819
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,76.742325
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,76.605957
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,76.091614
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,75.87841
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,75.894768
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,76.632271
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.276047
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.723999
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,77.96183
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,78.920258
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : printing,79.63163
+,,,2022,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : printing,3.670048
+,,,2023,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : printing,3.572933
+,,,2024,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : printing,3.49616
+,,,2025,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : printing,3.447656
+,,,2026,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : printing,3.406564

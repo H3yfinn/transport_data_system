@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2049,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.088645
+,,,2050,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.090176
+,,,2022,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.400293
+,,,2023,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.363518
+,,,2024,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.406309
+,,,2025,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.559369
+,,,2026,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.69198
+,,,2027,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.784868
+,,,2028,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.888371
+,,,2029,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.91334
+,,,2030,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.903427
+,,,2031,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.957841
+,,,2032,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,3.977476
+,,,2033,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.032727
+,,,2034,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.148068
+,,,2035,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.270966
+,,,2036,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.179142
+,,,2037,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.30677
+,,,2038,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.291761
+,,,2039,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.294457
+,,,2040,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.300382
+,,,2041,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.321441
+,,,2042,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.315711
+,,,2043,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.276101
+,,,2044,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.241199
+,,,2045,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.186474
+,,,2046,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.158746
+,,,2047,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.148295
+,,,2048,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,4.114885
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,48.771492
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,46.473137
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,46.343746
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,47.190632
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,50.718433
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,52.345001
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,53.517792
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,54.454769
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,55.247646
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,56.242249
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,57.522289
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,58.586426
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,59.778351
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,60.93515
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,61.753002
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,62.515858
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.230846
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.472591
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.847294
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.457809
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.698669
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.593536
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.261429
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.850342
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.757587
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.950691
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.796268
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.756603
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.130592
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,46.473137
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,46.343746
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,47.190632
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,48.771492
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,50.718433
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,52.345001
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,53.517792
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,54.454769
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,55.247646
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,56.242249
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,57.522289
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,58.586426
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,59.778351
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,60.93515
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,61.753002
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,62.515858
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.230846
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.472591
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.847294
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.457809
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.698669
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.593536
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.261429
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.850342
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.757587
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.950691
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.796268
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,63.756603
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,64.130592
+,,,2022,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.147065
+,,,2023,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.144053
+,,,2024,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.186922
+,,,2025,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.226057
+,,,2026,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.251217
+,,,2027,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.289162
+,,,2028,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.317273
+,,,2029,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.351461
+,,,2030,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.389169
+,,,2031,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.410726
+,,,2032,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.451759
+,,,2033,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.482928
+,,,2034,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : agricultural chemicals,1.480535

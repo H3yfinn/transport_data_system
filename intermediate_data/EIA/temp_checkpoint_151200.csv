@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2032,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.17135
+bev,,,2033,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.181871
+bev,,,2034,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.191118
+bev,,,2035,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.199244
+bev,,,2036,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.206392
+bev,,,2037,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.212689
+bev,,,2038,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.218246
+bev,,,2039,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.223154
+bev,,,2040,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.227481
+bev,,,2041,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.231346
+bev,,,2042,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.234773
+bev,,,2043,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.237805
+bev,,,2044,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.240493
+bev,,,2045,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.242883
+bev,,,2046,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.245009
+bev,,,2047,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.246881
+bev,,,2048,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.24855
+bev,,,2049,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.250033
+bev,,,2050,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : refrigeration : electricity,3.251345
+bev,,,2022,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.631937
+bev,,,2023,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.670844
+bev,,,2024,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.705795
+bev,,,2025,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.741041
+bev,,,2026,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.773756
+bev,,,2027,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.804141
+bev,,,2028,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.833991
+bev,,,2029,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.863452
+bev,,,2030,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.894044
+bev,,,2031,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.923628
+bev,,,2032,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.951355
+bev,,,2033,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,3.978105
+bev,,,2034,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.003486
+bev,,,2035,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.02747
+bev,,,2036,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.049935
+bev,,,2037,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.071064
+bev,,,2038,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.091231
+bev,,,2039,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.110403
+bev,,,2040,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.132566
+bev,,,2041,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.153564
+bev,,,2042,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.173704
+bev,,,2043,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.193167
+bev,,,2044,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.21193
+bev,,,2045,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.229976
+bev,,,2046,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.247146
+bev,,,2047,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.263546
+bev,,,2048,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.279475
+bev,,,2049,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.294493
+bev,,,2050,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space cooling : electricity,4.308665
+bev,,,2029,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.548036
+bev,,,2033,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.517811
+bev,,,2030,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.540515
+bev,,,2031,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.532912
+bev,,,2032,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.525505
+bev,,,2034,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.510503
+bev,,,2035,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.503626
+bev,,,2036,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.496855
+bev,,,2037,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.49042
+bev,,,2038,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.48431
+bev,,,2039,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.478547
+bev,,,2040,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.47299
+bev,,,2041,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.467513
+bev,,,2042,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.462165
+bev,,,2043,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.456975
+bev,,,2044,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.451967
+bev,,,2045,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.447101
+bev,,,2046,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.442009
+bev,,,2047,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.437024
+bev,,,2048,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.43215
+bev,,,2049,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.427428
+bev,,,2050,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.422603
+bev,,,2022,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.600274
+bev,,,2023,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.594243
+bev,,,2024,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.587098
+bev,,,2025,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.578912
+bev,,,2026,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.570767
+bev,,,2027,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.563012
+bev,,,2028,ref2023,btu out/btu in,20_usa,commercial : stock average efficiency : space heating : electricity,1.555431
+bev,,,2022,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.335243
+bev,,,2023,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.335928
+bev,,,2024,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.336595
+bev,,,2025,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.337237
+bev,,,2026,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.337879
+bev,,,2027,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.338488
+bev,,,2028,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.339075
+bev,,,2029,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.339638
+bev,,,2030,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.340535
+bev,,,2031,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.341409
+bev,,,2032,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.342242
+bev,,,2033,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.343031
+bev,,,2034,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.34378
+bev,,,2035,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.344489
+bev,,,2036,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.345159
+bev,,,2037,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.345794
+bev,,,2038,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.346395
+bev,,,2039,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.346964
+bev,,,2040,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.347501
+bev,,,2041,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.348013
+bev,,,2042,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.348498
+bev,,,2043,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.348956
+bev,,,2044,ref2023,cu ft/minute/btu,20_usa,commercial : stock average efficiency : ventilation : electricity,0.349388

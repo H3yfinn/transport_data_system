@@ -1,0 +1,88 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.458961
+bev,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.506866
+bev,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.505966
+bev,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.761734
+bev,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.750717
+bev,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.809731
+bev,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.152596
+bev,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.141434
+bev,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.130569
+bev,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.124313
+bev,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.175217
+bev,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.214813
+bev,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.235809
+bev,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.268364
+bev,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.300888
+bev,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.334335
+bev,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.366051
+bev,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.415024
+bev,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.44516
+bev,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.479042
+bev,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.510918
+bev,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.540268
+bev,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.554863
+bev,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.5728
+bev,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.585663
+bev,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.603645
+bev,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.621376
+bev,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.687943
+bev,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.680527
+lpg,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+lpg,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large crossover car,0.0
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0
+fcev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small crossover car,0.0

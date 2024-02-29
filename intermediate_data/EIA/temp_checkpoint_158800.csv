@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,lt,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,37.677174
+ice_g,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,31.474535
+ice_g,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,32.258202
+ice_g,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,32.771263
+ice_g,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,34.091709
+ice_g,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,34.730381
+ice_g,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,35.098862
+ice_g,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.101894
+ice_g,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.198936
+ice_g,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.233509
+ice_g,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.298332
+ice_g,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.403446
+ice_g,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.559204
+ice_g,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.726032
+ice_g,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,36.919617
+ice_g,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,37.08115
+ice_g,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional light trucks : gasoline,37.230862
+,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,36.263931
+,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,37.832123
+,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,39.014805
+,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,41.375153
+,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,42.876762
+,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,43.911583
+,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,45.953789
+,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,46.678478
+,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,47.207012
+,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,47.518375
+,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,47.939487
+,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,48.362621
+,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,48.779861
+,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,49.233047
+,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,49.585567
+,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,49.838345
+,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.048077
+,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.325745
+,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.338009
+,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.426777
+,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.517311
+,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.542614
+,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.50412
+,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.459385
+,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.61805
+,lt,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.565735
+,lt,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.535652
+,lt,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.739391
+,lt,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : light trucks : average new light truck,50.721836
+,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,28.505068
+,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,29.255337
+,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,29.64743
+,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,30.720232
+,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,31.360544
+,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,31.641964
+,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.400154
+,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.543579
+,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.563057
+,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.616226
+,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.685661
+,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.802071
+,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,32.947964
+,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.114269
+,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.213799
+,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.311363
+,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.396629
+,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.494923
+,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.527439
+,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.556217
+,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.568172
+,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.574265
+,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.531479
+,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.503155
+,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.467396
+,lt,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.431881
+,lt,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.386768
+,lt,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.45097
+,lt,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas bi-fuel,33.413826
+,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,32.762714
+,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,33.996162
+,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,34.479378
+,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,35.714088
+,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,36.608746
+,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,36.926319
+,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,37.879646
+,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.057884
+,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.115372
+,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.170547
+,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.24033
+,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.365582
+,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.519142
+,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.71088
+,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.837368
+,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,38.953701
+,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.056549
+,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.189163
+,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.224323
+,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.263092
+,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.279972
+,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.290073
+,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.229462
+,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.199272
+,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : natural gas ice,39.141342

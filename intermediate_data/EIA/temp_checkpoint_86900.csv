@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,109.103424
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,112.533066
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,115.209351
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,117.162689
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,118.298584
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,118.809006
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,119.731079
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,121.028435
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,121.953987
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,123.301689
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,124.787834
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,126.167244
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,127.749435
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,129.452042
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,131.065735
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,133.243637
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,135.36026
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,137.282974
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,139.367935
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,141.295197
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,143.2034
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,145.513824
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,147.576843
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,149.456985
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,151.561218
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : computers : use : purchased electricity,154.081146
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,124.641029
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,129.444534
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,134.590942
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,139.698685
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,144.602936
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,148.165771
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,150.402374
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,151.406342
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,151.635269
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,152.32547
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,153.507034
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,154.265961
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,155.563049
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,157.031906
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,158.731766
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,160.623199
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,162.484268
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,164.740311
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,167.142426
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,169.587967
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,171.998734
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,174.718567
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,177.271423
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,179.601257
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,181.804459
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,184.428345
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,186.861603
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,189.532806
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : computers : use : total,192.522003
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,25.42905
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,26.596209
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,28.948463
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,30.595226
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.069824
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.956383
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,33.239655
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,33.107719
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.826233
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.594368
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.478573
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.311935
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.261322
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.244045
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.564495
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,32.873737
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,33.0322
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,33.674549
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,33.89875
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,34.22768
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,34.715733
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,35.350601
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,35.976189
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,36.397827
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,36.2906
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,36.851471
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,37.404587
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,37.971558
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : computers : use : natural gas,38.440823
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : computers : use : petroleum coke,0.0

@@ -1,0 +1,96 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : refrigeration,0.317482
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : refrigeration,0.321024
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : refrigeration,0.324507
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : refrigeration,0.327915
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : refrigeration,0.33125
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : refrigeration,0.334496
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : refrigeration,0.337645
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : refrigeration,0.340702
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : space cooling,0.853587
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : space cooling,0.735192
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : space cooling,0.890909
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : space cooling,0.91105
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : space cooling,0.930181
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : space cooling,0.950142
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : space cooling,0.969709
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : space cooling,0.988224
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : space cooling,1.004471
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : space cooling,1.019774
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : space cooling,1.036202
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : space cooling,1.052583
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : space cooling,1.069291
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : space cooling,1.088333
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : space cooling,1.109122
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : space cooling,1.130924
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : space cooling,1.152515
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : space cooling,1.174549
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : space cooling,1.196908
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : space cooling,1.219416
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : space cooling,1.242558
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : space cooling,1.266365
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : space cooling,1.29112
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : space cooling,1.3168
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : space cooling,1.344624
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : space cooling,1.373569
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : space cooling,1.403082
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : space cooling,1.432529
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : space cooling,1.463148
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : televisions,0.185092
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : televisions,0.181559
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : televisions,0.178365
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : televisions,0.175692
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : televisions,0.172951
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : televisions,0.170143
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : televisions,0.167198
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : televisions,0.164139
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : televisions,0.160987
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : televisions,0.157867
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : televisions,0.154866
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : televisions,0.151867
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : televisions,0.148998
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : televisions,0.146585
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : televisions,0.144473
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : televisions,0.142566
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : televisions,0.14076
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : televisions,0.139189
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : televisions,0.13791
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : televisions,0.136911
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : televisions,0.136207
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : televisions,0.135755
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : televisions,0.135537
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : televisions,0.135552
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : televisions,0.135802
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : televisions,0.136265
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : televisions,0.13685
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : televisions,0.137593
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : televisions,0.138527
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : water heating,0.601795
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : water heating,0.604464
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : water heating,0.607404
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : water heating,0.610584
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : water heating,0.613738
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : water heating,0.616835
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : water heating,0.620251
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : water heating,0.623921
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : water heating,0.627667
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : water heating,0.631618
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : water heating,0.63608
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : water heating,0.599797
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : water heating,0.598845
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : water heating,0.598786
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : water heating,0.599582
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : water heating,0.599536
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : water heating,0.599125
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : water heating,0.59802
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : water heating,0.596113
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : water heating,0.593223
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : water heating,0.589911
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : water heating,0.586847
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : water heating,0.586124
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : water heating,0.586146
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : water heating,0.588552
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : water heating,0.591464
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : water heating,0.594365
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : water heating,0.596931
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : water heating,0.599321

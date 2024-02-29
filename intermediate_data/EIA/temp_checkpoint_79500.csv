@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : east south central,0.528089
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : east south central,0.512409
+bev,,,2022,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.925074
+bev,,,2023,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.597742
+bev,,,2024,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.560565
+bev,,,2025,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.506175
+bev,,,2026,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.447981
+bev,,,2027,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.377962
+bev,,,2028,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.377477
+bev,,,2029,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.371799
+bev,,,2030,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.338569
+bev,,,2031,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.272523
+bev,,,2032,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.236467
+bev,,,2033,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.190562
+bev,,,2034,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.116484
+bev,,,2035,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.046735
+bev,,,2036,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,0.983435
+bev,,,2037,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.048878
+bev,,,2038,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.095777
+bev,,,2039,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.083977
+bev,,,2040,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.134211
+bev,,,2041,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.161786
+bev,,,2042,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.179511
+bev,,,2043,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.180771
+bev,,,2044,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.222294
+bev,,,2045,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.232695
+bev,,,2046,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.221205
+bev,,,2047,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.17303
+bev,,,2048,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.14375
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.142167
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : middle atlantic,1.204614
+bev,,,2022,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.905857
+bev,,,2023,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.79006
+bev,,,2024,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.719839
+bev,,,2025,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.730685
+bev,,,2026,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.66774
+bev,,,2027,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.583001
+bev,,,2028,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.569743
+bev,,,2029,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.530548
+bev,,,2030,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.470315
+bev,,,2031,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.446178
+bev,,,2032,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.465229
+bev,,,2033,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.466758
+bev,,,2034,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.448813
+bev,,,2035,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.456392
+bev,,,2036,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.454262
+bev,,,2037,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.467205
+bev,,,2038,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.4721
+bev,,,2039,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.473693
+bev,,,2040,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.498368
+bev,,,2041,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.516386
+bev,,,2042,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.53507
+bev,,,2043,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.569906
+bev,,,2044,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.592081
+bev,,,2045,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.593742
+bev,,,2046,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.6284
+bev,,,2047,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.645097
+bev,,,2048,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.659739
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.688667
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : mountain,0.691382
+bev,,,2022,ref2023,tcf,20_usa,natural gas use : electric power : total,11.799821
+bev,,,2023,ref2023,tcf,20_usa,natural gas use : electric power : total,10.874231
+bev,,,2024,ref2023,tcf,20_usa,natural gas use : electric power : total,10.15932
+bev,,,2025,ref2023,tcf,20_usa,natural gas use : electric power : total,9.6782
+bev,,,2026,ref2023,tcf,20_usa,natural gas use : electric power : total,9.26968
+bev,,,2027,ref2023,tcf,20_usa,natural gas use : electric power : total,8.619404
+bev,,,2028,ref2023,tcf,20_usa,natural gas use : electric power : total,8.289996
+bev,,,2029,ref2023,tcf,20_usa,natural gas use : electric power : total,8.050027
+bev,,,2030,ref2023,tcf,20_usa,natural gas use : electric power : total,7.707353
+bev,,,2031,ref2023,tcf,20_usa,natural gas use : electric power : total,7.365825
+bev,,,2032,ref2023,tcf,20_usa,natural gas use : electric power : total,7.121314
+bev,,,2033,ref2023,tcf,20_usa,natural gas use : electric power : total,6.946912
+bev,,,2034,ref2023,tcf,20_usa,natural gas use : electric power : total,6.77484
+bev,,,2035,ref2023,tcf,20_usa,natural gas use : electric power : total,6.706319
+bev,,,2036,ref2023,tcf,20_usa,natural gas use : electric power : total,6.708907
+bev,,,2037,ref2023,tcf,20_usa,natural gas use : electric power : total,6.780389
+bev,,,2038,ref2023,tcf,20_usa,natural gas use : electric power : total,6.941749
+bev,,,2039,ref2023,tcf,20_usa,natural gas use : electric power : total,7.035107
+bev,,,2040,ref2023,tcf,20_usa,natural gas use : electric power : total,7.202128
+bev,,,2041,ref2023,tcf,20_usa,natural gas use : electric power : total,7.278445
+bev,,,2042,ref2023,tcf,20_usa,natural gas use : electric power : total,7.381327
+bev,,,2043,ref2023,tcf,20_usa,natural gas use : electric power : total,7.450809
+bev,,,2044,ref2023,tcf,20_usa,natural gas use : electric power : total,7.473169
+bev,,,2045,ref2023,tcf,20_usa,natural gas use : electric power : total,7.547843
+bev,,,2046,ref2023,tcf,20_usa,natural gas use : electric power : total,7.522305
+bev,,,2047,ref2023,tcf,20_usa,natural gas use : electric power : total,7.552913
+bev,,,2048,ref2023,tcf,20_usa,natural gas use : electric power : total,7.62114
+bev,,,2049,ref2023,tcf,20_usa,natural gas use : electric power : total,7.660525
+bev,,,2050,ref2023,tcf,20_usa,natural gas use : electric power : total,7.744609
+bev,,,2022,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.354743
+bev,,,2023,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.318167
+bev,,,2024,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.28028
+bev,,,2025,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.229607
+bev,,,2026,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.202632
+bev,,,2027,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.191503
+bev,,,2028,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.184726
+bev,,,2029,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.181526
+bev,,,2030,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.159765
+bev,,,2031,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.162779
+bev,,,2032,ref2023,tcf,20_usa,natural gas use : electric power : new england,0.16363

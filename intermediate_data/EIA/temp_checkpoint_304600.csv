@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,8.409663
+bev,,,2023,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,8.105196
+bev,,,2024,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.779141
+bev,,,2025,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.43112
+bev,,,2026,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.017354
+bev,,,2027,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,6.769689
+bev,,,2028,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,6.5613
+bev,,,2029,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,6.547412
+bev,,,2030,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,6.573246
+bev,,,2031,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,6.689493
+bev,,,2032,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,6.818234
+bev,,,2033,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.116488
+bev,,,2034,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.432383
+bev,,,2035,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.650387
+bev,,,2036,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,7.827197
+bev,,,2037,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,8.328235
+bev,,,2038,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,8.867146
+bev,,,2039,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,8.978646
+bev,,,2040,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,9.260281
+bev,,,2041,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,9.334752
+bev,,,2042,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,9.250082
+bev,,,2043,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,9.36293
+bev,,,2044,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,9.493059
+bev,,,2045,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,9.854608
+bev,,,2046,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,10.213554
+bev,,,2047,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,10.405317
+bev,,,2048,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,10.577705
+bev,,,2049,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,10.674101
+bev,,,2050,ref2023,nom cents/kwh,5-2,electricity : prices by service category : generation,10.811662
+bev,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,7.768012
+bev,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,5.842734
+bev,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.594679
+bev,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.123477
+bev,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.746037
+bev,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.464358
+bev,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.376716
+bev,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.322756
+bev,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.324535
+bev,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.391906
+bev,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.453196
+bev,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.639826
+bev,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.821073
+bev,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,3.969579
+bev,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.000309
+bev,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.039569
+bev,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.248979
+bev,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.144139
+bev,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.311807
+bev,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.391212
+bev,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.387358
+bev,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.339778
+bev,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.266654
+bev,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.257559
+bev,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.139479
+bev,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.150415
+bev,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.134853
+bev,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.119125
+bev,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : pacific,4.11947
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,9.068974
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,8.51751
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,7.224456
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,6.600997
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,6.163402
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,5.892504
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,5.799212
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,5.817046
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,5.860155
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,5.942102
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,5.989914
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,6.101484
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east north central,6.197917

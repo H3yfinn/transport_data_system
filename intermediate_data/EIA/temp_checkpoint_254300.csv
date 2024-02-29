@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1470.474243
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1454.949951
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1438.979004
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1424.203003
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1409.120361
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1392.723389
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1376.60437
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1359.578613
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1342.396973
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1325.689209
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1309.23938
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1292.527832
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1275.806763
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1259.981079
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4184.555664
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4138.183594
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4090.944336
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4039.91626
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3989.725098
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3936.938965
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3883.738037
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3831.943848
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3780.930176
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3729.197266
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3677.473633
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,3628.366943
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,5633.111816
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,5205.672852
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4956.746094
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4831.539551
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4767.04541
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4719.82959
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4672.89209
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4623.958984
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4572.232422
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4525.611328
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4481.367188
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4433.758301
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4384.547363
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4332.962891
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4283.022461
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 30% sequestration,4234.425781
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,7319.169922
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6759.345703
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6431.829102
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6265.117188
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6177.236328
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6111.785156
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6046.715332
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5979.090332
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5907.882324
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5843.300293
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5781.810547
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5716.001465
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5648.158203
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5577.290527
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5508.575195
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5441.62207
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5373.063965
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5309.03125
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5243.916016
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5173.97998
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5105.156738
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5033.056152
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4960.473145
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4889.734863
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4820.039551
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4749.475586
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4678.972168
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4611.847168
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),0.0
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3873.468994
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),4507.11084
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),4167.840332
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3971.175049
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3824.370605
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3789.11084
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3754.059326
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3717.390137
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3678.455811
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3643.611572
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3610.66748
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3574.99707
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3538.017822
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3499.102051
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3461.492676
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3424.94873
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3387.353027
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3352.570312
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3317.065674
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3278.467285
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3240.522949
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3200.44458
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3159.999268
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3120.668945
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3081.945801
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3042.607422
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : coal : ultra-supercritical (usc),3003.24585

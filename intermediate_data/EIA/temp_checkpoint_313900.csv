@@ -1,0 +1,5 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,40.693363
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,40.907024
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,41.066753
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,41.42762

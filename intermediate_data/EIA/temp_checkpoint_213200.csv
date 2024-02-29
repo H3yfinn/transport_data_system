@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2030,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.405
+,,,2031,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.412747
+,,,2032,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.421872
+,,,2033,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.430902
+,,,2034,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.440455
+,,,2035,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.4515
+,,,2036,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.462843
+,,,2037,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.46632
+,,,2038,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.459255
+,,,2039,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.426781
+,,,2040,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.411422
+,,,2041,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.382964
+,,,2042,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.352305
+,,,2043,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.325876
+,,,2044,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.325852
+,,,2045,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.322488
+,,,2046,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.323209
+,,,2047,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.31361
+,,,2048,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.301987
+,,,2049,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.1992
+,,,2050,ref2023,percent,20_usa,technology market penetration : car : 8 cylinder deactivation,0.198884
+,,,2022,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,8.155259
+,,,2023,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,11.546001
+,,,2024,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,15.046274
+,,,2025,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,19.77409
+,,,2026,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,22.31307
+,,,2027,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,25.414639
+,,,2028,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,23.078749
+,,,2029,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,27.05678
+,,,2030,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,26.25164
+,,,2031,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,23.98634
+,,,2032,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,21.424585
+,,,2033,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,18.118563
+,,,2034,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,14.141315
+,,,2035,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,10.613354
+,,,2036,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,7.863326
+,,,2037,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,5.632124
+,,,2038,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,3.552197
+,,,2039,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,2.219981
+,,,2040,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,1.382303
+,,,2041,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.847407
+,,,2042,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.463377
+,,,2043,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.267082
+,,,2044,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.126663
+,,,2045,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.036386
+,,,2046,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.009961
+,,,2047,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.009621
+,,,2048,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.009466
+,,,2049,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.006064
+,,,2050,ref2023,percent,20_usa,technology market penetration : car : dohc deac 4 cylinder,0.006267
+,,,2022,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.6759
+,,,2023,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,1.131623
+,,,2024,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,1.424833
+,,,2025,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,1.38381
+,,,2026,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,1.103944
+,,,2027,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.877644
+,,,2028,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.600921
+,,,2029,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.515945
+,,,2030,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.429044
+,,,2031,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.344346
+,,,2032,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.258873
+,,,2033,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.176596
+,,,2034,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.095424
+,,,2035,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.013767
+,,,2036,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2037,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2038,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2039,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2040,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2041,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2042,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2043,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2044,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2045,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2046,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2047,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2048,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2049,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2050,ref2023,percent,20_usa,technology market penetration : car : dohc deac 6 cylinder,0.0
+,,,2022,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.417255
+,,,2023,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.478653
+,,,2024,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.359909
+,,,2025,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.208631
+,,,2026,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.124713
+,,,2027,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.108776
+,,,2028,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.126699
+,,,2029,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.136917
+,,,2030,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.143615
+,,,2031,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.127272
+,,,2032,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.111072
+,,,2033,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.095367
+,,,2034,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.079767
+,,,2035,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.064356
+,,,2036,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.048672
+,,,2037,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.033671
+,,,2038,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.018037
+,,,2039,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.006104
+,,,2040,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.000578
+,,,2041,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.000365
+,,,2042,ref2023,percent,20_usa,technology market penetration : car : dohc deac 8 cylinder,0.000217

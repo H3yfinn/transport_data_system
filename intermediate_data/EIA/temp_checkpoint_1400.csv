@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2046,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : coal,0.0
+,,,2047,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : coal,0.0
+,,,2048,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : coal,0.0
+,,,2049,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : coal,0.0
+,,,2050,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : coal,0.0
+,,,2023,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.080406
+,,,2022,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.080406
+,,,2024,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.080406
+,,,2025,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2026,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2027,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2028,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2029,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2030,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2031,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2032,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2033,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2034,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2035,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2036,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100506
+,,,2037,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100507
+,,,2038,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100507
+,,,2039,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100507
+,,,2040,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100508
+,,,2041,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100508
+,,,2042,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100509
+,,,2043,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100509
+,,,2044,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.10051
+,,,2045,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100511
+,,,2046,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100511
+,,,2047,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100512
+,,,2048,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100513
+,,,2049,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100513
+,,,2050,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : total,0.100514
+,,,2022,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2023,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2024,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2025,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2026,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2027,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2028,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2029,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2030,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2031,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2032,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2033,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2034,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2035,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2036,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008306
+,,,2037,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008307
+,,,2038,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008307
+,,,2039,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008307
+,,,2040,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008308
+,,,2041,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008308
+,,,2042,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008309
+,,,2043,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008309
+,,,2044,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.00831
+,,,2045,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008311
+,,,2046,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008311
+,,,2047,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008312
+,,,2048,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008313
+,,,2049,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008313
+,,,2050,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : natural gas,0.008314
+,,,2022,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0045
+,,,2023,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0045
+,,,2024,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0045
+,,,2025,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2026,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2027,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2028,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2029,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2030,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2031,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2032,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2033,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2034,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2035,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2036,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2037,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2038,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2039,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2040,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2041,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2042,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2043,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2044,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2045,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2046,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2047,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2048,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2049,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2050,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : other,0.0246
+,,,2022,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2023,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2024,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2025,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2026,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2027,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2028,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676
+,,,2029,ref2023,gw,20_usa,cement industry : combined heat and power : generating capacity : petroleum,0.0676

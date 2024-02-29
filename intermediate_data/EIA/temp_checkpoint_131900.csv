@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: narrow body aircraft,139.062714
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: narrow body aircraft,144.863831
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: narrow body aircraft,150.879318
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: narrow body aircraft,157.069168
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: narrow body aircraft,163.430481
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,36.610783
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,49.266624
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,55.787476
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,59.812798
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,62.062618
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,64.106049
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,66.122322
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,67.978455
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,69.866577
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,71.771736
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,73.667175
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,75.565292
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,77.469704
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,79.310829
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,81.138931
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,83.011398
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,84.911301
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,86.794128
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,88.660561
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,90.540947
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,92.441147
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,94.360626
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,96.298569
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,98.252655
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,100.218834
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,102.197517
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,104.200531
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,106.229347
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: narrow body aircraft,108.283257
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,86.288872
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,86.790169
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,87.267906
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,55.069286
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,58.950188
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,60.784492
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,63.028282
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,65.069221
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,66.78376
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,68.396538
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,69.87915
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,71.27153
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,72.542534
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,73.758781
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,74.916718
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,76.01194
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,77.040688
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,78.002571
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,78.906502
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,79.758545
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,80.564812
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,81.327789
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,82.053589
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,82.744965
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,83.404449
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,84.033836
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,84.634857
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,85.210953
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil: narrow body aircraft,85.762047
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,46.483734
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,52.576614
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,56.012764
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,58.483322
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,60.800694
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,62.89547
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,64.119736
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,65.371597
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,66.645554
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,67.943336
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,69.261993
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,70.597969
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,71.951195
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,73.321762
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,74.709625
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,76.115097
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,77.538216
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,78.9795
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,80.436768
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,81.911125
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,83.403252
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,84.912941
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,86.442955
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,87.994751
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,89.568878
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,91.166283
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,92.78772
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,94.434532
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada: narrow body aircraft,96.107643
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,607.629639
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,579.785645
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,554.854248
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,591.023865
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,632.188904
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,672.033936
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,711.249451
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,750.78302

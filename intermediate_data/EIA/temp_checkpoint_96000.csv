@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : purchased electricity,6.048272
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : purchased electricity,6.112339
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : purchased electricity,6.182475
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.259642
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.170129
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.25044
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.307276
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.362642
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.422232
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.47432
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.518295
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.554088
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.587194
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.622504
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.659284
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.694947
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.742076
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.795343
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.852389
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.907059
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : electricity subtotal,5.963454
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.0203
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.08025
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.145656
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.215189
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.288645
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.365698
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.448222
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.53561
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.625218
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.717607
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : electricity subtotal,6.816999
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : dishwashers,0.027618
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : dishwashers,0.028064
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : dishwashers,0.028506
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : dishwashers,0.028945
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : dishwashers,0.02937
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : dishwashers,0.029782
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : dishwashers,0.030233
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : dishwashers,0.030722
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : dishwashers,0.031242
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : dishwashers,0.031797
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : dishwashers,0.032392
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : dishwashers,0.033027
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : dishwashers,0.033702
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : dishwashers,0.034373
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : dishwashers,0.035043
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : dishwashers,0.03571
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : dishwashers,0.036375
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : dishwashers,0.037036
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : dishwashers,0.037698
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : dishwashers,0.038359
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : dishwashers,0.039015
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : dishwashers,0.039667
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : dishwashers,0.040316
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : dishwashers,0.040962
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : dishwashers,0.041605
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : dishwashers,0.042245
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : dishwashers,0.042882
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : dishwashers,0.043514
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : dishwashers,0.044143
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.089175
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.08825
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.079128
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.080094
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.08098
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.08173
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.08228
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.08254
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.082562
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.082343
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.081924
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.081309
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.080431
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.07939
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.078254
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.07305
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.077045
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.075694
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.074349
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.071817
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.07064
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.069588
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.068662
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.067823
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.067006
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.066321
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.065775
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.065344
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : fans and pumps,0.064997
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : freezers,0.069007
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : freezers,0.06885
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : freezers,0.068687
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : freezers,0.068516
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : freezers,0.068318
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : freezers,0.068105
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : freezers,0.067922
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : freezers,0.067761
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : freezers,0.067615
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : freezers,0.067486

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2030,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,10.208481
+bev,,,2031,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.322841
+bev,,,2032,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.732364
+bev,,,2033,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,7.798303
+bev,,,2034,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,7.048307
+bev,,,2035,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,6.719432
+bev,,,2036,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,6.799574
+bev,,,2037,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,6.255192
+bev,,,2038,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,5.900205
+bev,,,2039,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,5.603307
+bev,,,2050,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,9.007639
+bev,,,2040,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,7.561752
+bev,,,2041,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.41459
+bev,,,2042,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,7.728313
+bev,,,2043,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,6.789575
+bev,,,2044,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,6.222264
+bev,,,2045,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,6.138083
+bev,,,2046,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.603354
+bev,,,2047,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.54942
+bev,,,2048,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.803397
+bev,,,2049,ref2023,bkwh,5-20,electricity : net energy for load : gross interregional electricity imports,8.840123
+bev,,,2022,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,10.945124
+bev,,,2023,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,1.836281
+bev,,,2024,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,1.943817
+bev,,,2025,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,2.043697
+bev,,,2026,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,7.752143
+bev,,,2027,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,9.178161
+bev,,,2028,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,7.811645
+bev,,,2029,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,5.754309
+bev,,,2030,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,7.792262
+bev,,,2031,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,7.663032
+bev,,,2032,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,8.532981
+bev,,,2033,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,8.794641
+bev,,,2034,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,10.697071
+bev,,,2035,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,12.748324
+bev,,,2036,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,13.549789
+bev,,,2037,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,13.523946
+bev,,,2038,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,11.994708
+bev,,,2039,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,10.615942
+bev,,,2040,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,6.412075
+bev,,,2041,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,8.304645
+bev,,,2042,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,9.006348
+bev,,,2043,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,9.155005
+bev,,,2044,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,9.651809
+bev,,,2045,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,8.660622
+bev,,,2046,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,3.512676
+bev,,,2047,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,4.419801
+bev,,,2048,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,5.050066
+bev,,,2049,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,5.007516
+bev,,,2050,ref2023,bkwh,5-23,electricity : net energy for load : gross interregional electricity imports,5.553411
+,,,2047,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2044,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2045,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2046,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2048,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2049,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2050,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2022,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.025682
+,,,2023,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.02132
+,,,2024,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.028101
+,,,2025,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.034883
+,,,2026,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.041664
+,,,2027,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.048446
+,,,2028,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2029,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2030,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2031,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2032,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2033,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2034,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2035,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2036,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2037,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2038,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2039,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2040,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2041,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2042,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2043,ref2023,tcf,20_usa,natural gas : volumes : imports : liquefied natural gas imports,0.055227
+,,,2022,ref2023,tcf,20_usa,natural gas : volumes : imports,2.908926
+,,,2023,ref2023,tcf,20_usa,natural gas : volumes : imports,2.739982
+,,,2024,ref2023,tcf,20_usa,natural gas : volumes : imports,2.401043
+,,,2025,ref2023,tcf,20_usa,natural gas : volumes : imports,2.293532
+,,,2026,ref2023,tcf,20_usa,natural gas : volumes : imports,2.19718
+,,,2027,ref2023,tcf,20_usa,natural gas : volumes : imports,2.130779
+,,,2028,ref2023,tcf,20_usa,natural gas : volumes : imports,2.02316
+,,,2029,ref2023,tcf,20_usa,natural gas : volumes : imports,1.990783
+,,,2030,ref2023,tcf,20_usa,natural gas : volumes : imports,2.022308
+,,,2031,ref2023,tcf,20_usa,natural gas : volumes : imports,2.017502
+,,,2032,ref2023,tcf,20_usa,natural gas : volumes : imports,2.067005
+,,,2033,ref2023,tcf,20_usa,natural gas : volumes : imports,2.085759
+,,,2034,ref2023,tcf,20_usa,natural gas : volumes : imports,2.089465
+,,,2035,ref2023,tcf,20_usa,natural gas : volumes : imports,2.07385
+,,,2036,ref2023,tcf,20_usa,natural gas : volumes : imports,2.029643
+,,,2037,ref2023,tcf,20_usa,natural gas : volumes : imports,2.028635
+,,,2038,ref2023,tcf,20_usa,natural gas : volumes : imports,2.084848
+,,,2039,ref2023,tcf,20_usa,natural gas : volumes : imports,2.058595
+,,,2040,ref2023,tcf,20_usa,natural gas : volumes : imports,2.176973
+,,,2041,ref2023,tcf,20_usa,natural gas : volumes : imports,2.201737
+,,,2042,ref2023,tcf,20_usa,natural gas : volumes : imports,2.214351

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,ht,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.005244
+bev,ht,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.004876
+bev,ht,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.00456
+bev,ht,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.004299
+bev,ht,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.00403
+bev,ht,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.003785
+bev,ht,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.00356
+bev,ht,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.003357
+bev,ht,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.00317
+bev,ht,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.002991
+bev,ht,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.002826
+bev,ht,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : electric,0.002681
+fcev,ht,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.0
+fcev,ht,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.0
+fcev,ht,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.00678
+fcev,ht,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.013259
+fcev,ht,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.019751
+fcev,ht,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.026344
+fcev,ht,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.03299
+fcev,ht,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.039546
+fcev,ht,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.045989
+fcev,ht,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.052423
+fcev,ht,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.058965
+fcev,ht,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.065316
+fcev,ht,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.071456
+fcev,ht,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.07736
+fcev,ht,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.082834
+fcev,ht,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.088063
+fcev,ht,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.092967
+fcev,ht,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.097629
+fcev,ht,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.102295
+fcev,ht,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.107098
+fcev,ht,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.112072
+fcev,ht,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.117018
+fcev,ht,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.121867
+fcev,ht,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.126833
+fcev,ht,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.132515
+fcev,ht,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.138672
+fcev,ht,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.145142
+fcev,ht,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.152234
+fcev,ht,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : fuel cell,0.160418
+ice_g,ht,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.177811
+ice_g,ht,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.177786
+ice_g,ht,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.180963
+ice_g,ht,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.186843
+ice_g,ht,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.196174
+ice_g,ht,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.207373
+ice_g,ht,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.219367
+ice_g,ht,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.231142
+ice_g,ht,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.243587
+ice_g,ht,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.255892
+ice_g,ht,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.268135
+ice_g,ht,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.279295
+ice_g,ht,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.289438
+ice_g,ht,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.298673
+ice_g,ht,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.30595
+ice_g,ht,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.31252
+ice_g,ht,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.317911
+ice_g,ht,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.322673
+ice_g,ht,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.327547
+ice_g,ht,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.332211
+ice_g,ht,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.335203
+ice_g,ht,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.337378
+ice_g,ht,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.339952
+ice_g,ht,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.342462
+ice_g,ht,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.345487
+ice_g,ht,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.348537
+ice_g,ht,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.351078
+ice_g,ht,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.353734
+ice_g,ht,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : motor gasoline,0.357393
+,ht,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,187.211609
+,ht,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,186.77066
+,ht,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,187.000778
+,ht,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,188.452835
+,ht,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,190.68486
+,ht,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,192.556381
+,ht,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,194.116348
+,ht,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,196.827133
+,ht,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,194.965881
+,ht,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,195.397522
+,ht,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,195.893646
+,ht,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,197.409042
+,ht,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,197.923721
+,ht,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,198.56163
+,ht,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,198.940033
+,ht,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,199.573639
+,ht,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,200.202545
+,ht,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,200.718475
+,ht,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,201.372726
+,ht,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,202.111191
+,ht,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,202.838333
+,ht,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,203.409256
+,ht,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,203.777603
+,ht,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,203.913666
+,ht,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,204.187134
+,ht,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,204.440094
+,ht,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,204.417526
+,ht,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,204.473785
+,ht,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy,205.137848
+,ht,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : heavy : natural gas,2.145453

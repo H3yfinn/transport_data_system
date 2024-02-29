@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.283743
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.29742
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.310736
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.326952
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.341477
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.352251
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.359728
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.365296
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.376672
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.389709
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.401386
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.408253
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : distillate fuel oil,1.424283
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,80.314186
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,76.56041
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,78.778625
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,79.758804
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,80.750313
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,81.60379
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,83.149643
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,84.178238
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,85.361313
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,86.8367
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,87.99675
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,89.078011
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,90.145607
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,90.943924
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,91.868149
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,92.921028
+bev,,,2022,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,73.197121
+bev,,,2023,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,74.159454
+bev,,,2024,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,73.637352
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,74.167259
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,93.971283
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,94.800102
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,95.396683
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,96.081329
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,97.33239
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,98.463402
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,99.447952
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,100.160019
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : purchased electricity,101.348297
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,123.883575
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,124.487991
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,125.934669
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,127.617401
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,132.560364
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,136.811874
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,138.475159
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,139.061874
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,139.396713
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,140.336075
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,142.455109
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,143.881805
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,145.574921
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,147.733643
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,149.840607
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,151.74115
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,153.40921
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,155.26738
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,156.65863
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,158.406189
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,160.350494
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,162.050507
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,163.373169
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,164.593201
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,166.1315
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,168.228806
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,170.116013
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,171.538483
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : total,173.529907
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,56.568619
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,56.473053
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,56.555077
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,57.10865
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,57.492504
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,57.985844
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,58.641685
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,59.559868
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,60.352821
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,60.932053
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,61.96439
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,62.414536
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,63.08688
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,63.956089
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,64.805542
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,65.513756
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,66.03476
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,66.296844
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,67.237572
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,68.11895
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,68.81295
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,69.589478
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,49.375004
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,48.999771
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,50.32312
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,51.43013
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,53.901386
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,55.871155
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : machinery : use : natural gas,56.537163

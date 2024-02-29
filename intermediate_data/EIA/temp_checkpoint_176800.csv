@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2025,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.139768
+bev,,,2026,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.164737
+bev,,,2027,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.196184
+bev,,,2028,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.227358
+bev,,,2029,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.257814
+bev,,,2030,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.284293
+bev,,,2031,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.317946
+bev,,,2032,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.352355
+bev,,,2033,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.396091
+bev,,,2034,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.429351
+bev,,,2035,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.465531
+bev,,,2036,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.50333
+bev,,,2037,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.54422
+bev,,,2038,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.581555
+bev,,,2039,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.623431
+bev,,,2040,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.657683
+bev,,,2041,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.690579
+bev,,,2042,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.724623
+bev,,,2043,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.759267
+bev,,,2044,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.794232
+bev,,,2045,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.829944
+bev,,,2046,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.853936
+bev,,,2047,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.878075
+bev,,,2048,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.902533
+bev,,,2049,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.927444
+bev,,,2050,ref2023,bkwh,5-24,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.95271
+bev,,,2022,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.114887
+bev,,,2023,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.292831
+bev,,,2024,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.396525
+bev,,,2025,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.480867
+bev,,,2026,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.57443
+bev,,,2027,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.690444
+bev,,,2028,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.807216
+bev,,,2029,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.931186
+bev,,,2030,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.056534
+bev,,,2031,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.182628
+bev,,,2032,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.311544
+bev,,,2033,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.449493
+bev,,,2034,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.573097
+bev,,,2035,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.70973
+bev,,,2036,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.850315
+bev,,,2037,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,1.994277
+bev,,,2038,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.143416
+bev,,,2039,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.298685
+bev,,,2040,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.419293
+bev,,,2041,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.542508
+bev,,,2042,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.671589
+bev,,,2043,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.80134
+bev,,,2044,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,2.932297
+bev,,,2045,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,3.066029
+bev,,,2046,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,3.155867
+bev,,,2047,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,3.246262
+bev,,,2048,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,3.337853
+bev,,,2049,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,3.431146
+bev,,,2050,ref2023,bkwh,5-20,renewable energy : electric power sector : electricity generation : biogenic municipal waste,3.525773
+bev,,,2022,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.367048
+bev,,,2023,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.435746
+bev,,,2024,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.452058
+bev,,,2025,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.465335
+bev,,,2026,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.466625
+bev,,,2027,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.48525
+bev,,,2028,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.503692
+bev,,,2029,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.523094
+bev,,,2030,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.542845
+bev,,,2031,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.562709
+bev,,,2032,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.581465
+bev,,,2033,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.603085
+bev,,,2034,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.622624
+bev,,,2035,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.654313
+bev,,,2036,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.676506
+bev,,,2037,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.69905
+bev,,,2038,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.722339
+bev,,,2039,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.74631
+bev,,,2040,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.764868
+bev,,,2041,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.783856
+bev,,,2042,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.803623
+bev,,,2043,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.809959
+bev,,,2044,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.829704
+bev,,,2045,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.850047
+bev,,,2046,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.845771
+bev,,,2047,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.858966
+bev,,,2048,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.872399
+bev,,,2049,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.886176
+bev,,,2050,ref2023,bkwh,5-23,renewable energy : electric power sector : electricity generation : biogenic municipal waste,0.900334
+bev,,,2022,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.172581
+bev,,,2023,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.161569
+bev,,,2024,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.105035
+bev,,,2025,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.114834
+bev,,,2026,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.110689
+bev,,,2027,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.110702
+bev,,,2028,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.099742
+bev,,,2029,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.102215
+bev,,,2030,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.093528
+bev,,,2031,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.082924
+bev,,,2032,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.070217
+bev,,,2033,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.116151
+bev,,,2034,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.115888
+bev,,,2035,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.126053
+bev,,,2036,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.125454
+bev,,,2037,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : biomass : cofiring,0.12551

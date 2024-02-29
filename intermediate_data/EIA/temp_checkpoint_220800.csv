@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.756962
+lpg,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.796646
+lpg,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.831516
+lpg,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.84758
+lpg,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.868015
+lpg,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.881847
+lpg,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.900196
+lpg,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.918076
+lpg,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.988686
+lpg,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,61.997101
+lpg,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,58.511814
+lpg,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,58.749538
+lpg,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,59.014771
+lpg,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,59.679749
+lpg,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,60.05563
+lpg,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,60.24773
+lpg,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,60.651405
+lpg,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,60.79142
+lpg,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large pickup,60.891304
+ice_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,54.357559
+ice_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,54.563087
+ice_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,54.76281
+ice_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,55.151798
+ice_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,55.433479
+ice_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,55.600937
+ice_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,55.864372
+ice_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,55.986382
+ice_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.09444
+ice_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.205463
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.322708
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.446564
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.501534
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.549118
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.594097
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.638721
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.680737
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.727814
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.759308
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.791077
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.820087
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.846966
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.86232
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.880131
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.893742
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.909969
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.925327
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.973927
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large pickup,56.982525
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,58.316105
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,58.556351
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,58.811859
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,59.480499
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,59.873333
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,60.063835
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,60.449757
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,60.5882
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,60.687218
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,60.793495
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,60.907864
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.040432
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.117386
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.196766
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.264046
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.32589
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.381962
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.450962
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.491505
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.53199
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.570633
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.604992
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.62077
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.640335
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.65406
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.672272
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.69062
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.763371
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large pickup,61.77187
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,44.295803
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,44.493973
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,44.641762
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.00312
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.114269
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.250782
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.686409
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.778442
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.855469
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.925068
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,45.99136
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.073467
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.133835
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.203476
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.268456
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.349316
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.431068
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.541817
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.612144
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.689934
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.764057
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.835533
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : large car,46.88113

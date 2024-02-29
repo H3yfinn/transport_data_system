@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2023,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.144812
+bev,,,2024,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.147881
+bev,,,2025,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.136241
+bev,,,2026,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.120386
+bev,,,2027,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.08815
+bev,,,2028,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.0466
+bev,,,2029,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.050713
+bev,,,2030,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.038912
+bev,,,2031,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.039996
+bev,,,2032,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.042594
+bev,,,2033,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.046111
+bev,,,2034,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.04584
+bev,,,2035,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.044853
+bev,,,2036,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.044133
+bev,,,2037,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.042355
+bev,,,2038,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.052585
+bev,,,2039,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.049015
+bev,,,2040,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.050712
+bev,,,2041,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.050044
+bev,,,2042,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.048726
+bev,,,2043,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.048796
+bev,,,2044,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.047335
+bev,,,2045,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.047087
+bev,,,2046,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.047372
+bev,,,2047,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.048195
+bev,,,2048,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.049107
+bev,,,2049,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.049453
+bev,,,2050,ref2023,bkwh,5-24,electricity : electric power sector : generation : petroleum,0.048947
+bev,,,2022,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.107628
+bev,,,2023,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.09157
+bev,,,2024,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.094651
+bev,,,2025,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.09858
+bev,,,2026,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.0963
+bev,,,2027,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.065676
+bev,,,2028,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.034336
+bev,,,2029,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.028575
+bev,,,2030,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.038557
+bev,,,2031,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.028565
+bev,,,2032,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.016242
+bev,,,2033,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.00562
+bev,,,2034,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.007734
+bev,,,2035,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.008659
+bev,,,2036,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.008653
+bev,,,2037,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.008827
+bev,,,2038,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.00959
+bev,,,2039,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.00881
+bev,,,2040,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.009357
+bev,,,2041,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.011333
+bev,,,2042,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.011561
+bev,,,2043,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.011553
+bev,,,2044,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.010706
+bev,,,2045,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.010699
+bev,,,2046,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.014355
+bev,,,2047,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.014345
+bev,,,2048,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.012676
+bev,,,2049,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.013722
+bev,,,2050,ref2023,bkwh,5-20,electricity : electric power sector : generation : petroleum,0.013719
+bev,,,2025,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.503299
+bev,,,2022,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.522236
+bev,,,2023,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.496331
+bev,,,2024,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.502799
+bev,,,2026,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.492437
+bev,,,2027,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.492082
+bev,,,2028,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.495774
+bev,,,2029,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.488842
+bev,,,2030,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.485994
+bev,,,2031,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.483058
+bev,,,2032,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.484156
+bev,,,2033,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.483689
+bev,,,2034,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.482644
+bev,,,2035,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.482481
+bev,,,2036,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.479673
+bev,,,2037,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.475786
+bev,,,2038,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.474161
+bev,,,2039,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.477353
+bev,,,2040,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.485405
+bev,,,2041,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.485913
+bev,,,2042,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.485489
+bev,,,2043,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.487708
+bev,,,2044,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.487255
+bev,,,2045,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.486516
+bev,,,2046,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.483265
+bev,,,2047,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.48391
+bev,,,2048,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.486106
+bev,,,2049,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.48678
+bev,,,2050,ref2023,bkwh,5-23,electricity : electric power sector : generation : petroleum,0.483264
+bev,,,2037,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.43858
+bev,,,2034,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.587493
+bev,,,2035,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.58198
+bev,,,2036,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.583338
+bev,,,2038,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.13849
+bev,,,2039,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.030108
+bev,,,2040,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,0.025043
+bev,,,2041,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-0.243642
+bev,,,2042,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-0.350402
+bev,,,2043,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-0.351207
+bev,,,2044,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-0.360295
+bev,,,2045,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-0.899221
+bev,,,2046,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-1.131914
+bev,,,2047,ref2023,bkwh,5-2,electricity : electric power sector : generation : pumped storage/other,-1.127535

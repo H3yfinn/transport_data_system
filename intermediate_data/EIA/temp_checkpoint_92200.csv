@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.905089
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.932258
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : west south central,3.966326
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : west south central,4.01058
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.600755
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.704811
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.520694
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.223805
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.131727
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.250475
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.432918
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.551885
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.63408
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.666899
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.681268
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.678697
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.692997
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.705176
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.733943
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.770818
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.822385
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.867877
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.91102
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,7.978748
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.031167
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.093585
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.156967
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.22562
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.285548
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.341322
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.364116
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.441632
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas heat and power,8.522274
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : natural-gas-to-liquids heat and power,0.0
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.466477
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.415327
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.382652
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.379401
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.379158
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.37787
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.374906
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.367297
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.359207
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.351525
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.343894
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.335475
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.32717
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.319222
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.310454
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.302023
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.294159
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.287624
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.282974
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.27834
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.273105
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.267202
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.26116
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.256131
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.257724
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.260646
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.267313
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.26624
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : other industrial coal,0.262011
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.524298
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.594917
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : petrochemical feedstocks,0.55

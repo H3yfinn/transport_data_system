@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,quads,20_usa,total energy : imports : natural gas,2.231398
+,,,2041,ref2023,quads,20_usa,total energy : imports : natural gas,2.256781
+,,,2042,ref2023,quads,20_usa,total energy : imports : natural gas,2.269709
+,,,2043,ref2023,quads,20_usa,total energy : imports : natural gas,2.318002
+,,,2044,ref2023,quads,20_usa,total energy : imports : natural gas,2.40196
+,,,2045,ref2023,quads,20_usa,total energy : imports : natural gas,2.477401
+,,,2046,ref2023,quads,20_usa,total energy : imports : natural gas,2.508059
+,,,2047,ref2023,quads,20_usa,total energy : imports : natural gas,2.53545
+,,,2048,ref2023,quads,20_usa,total energy : imports : natural gas,2.582582
+,,,2049,ref2023,quads,20_usa,total energy : imports : natural gas,2.599269
+,,,2050,ref2023,quads,20_usa,total energy : imports : natural gas,2.627204
+,,,2022,ref2023,quads,20_usa,total energy : imports : other,0.25367
+,,,2023,ref2023,quads,20_usa,total energy : imports : other,0.337121
+,,,2024,ref2023,quads,20_usa,total energy : imports : other,0.14549
+,,,2025,ref2023,quads,20_usa,total energy : imports : other,0.130841
+,,,2026,ref2023,quads,20_usa,total energy : imports : other,0.141319
+,,,2027,ref2023,quads,20_usa,total energy : imports : other,0.155275
+,,,2028,ref2023,quads,20_usa,total energy : imports : other,0.177303
+,,,2029,ref2023,quads,20_usa,total energy : imports : other,0.169148
+,,,2030,ref2023,quads,20_usa,total energy : imports : other,0.176284
+,,,2031,ref2023,quads,20_usa,total energy : imports : other,0.166932
+,,,2032,ref2023,quads,20_usa,total energy : imports : other,0.170314
+,,,2033,ref2023,quads,20_usa,total energy : imports : other,0.169336
+,,,2034,ref2023,quads,20_usa,total energy : imports : other,0.170398
+,,,2035,ref2023,quads,20_usa,total energy : imports : other,0.165942
+,,,2036,ref2023,quads,20_usa,total energy : imports : other,0.164005
+,,,2037,ref2023,quads,20_usa,total energy : imports : other,0.163859
+,,,2038,ref2023,quads,20_usa,total energy : imports : other,0.167017
+,,,2039,ref2023,quads,20_usa,total energy : imports : other,0.16908
+,,,2040,ref2023,quads,20_usa,total energy : imports : other,0.170614
+,,,2041,ref2023,quads,20_usa,total energy : imports : other,0.166044
+,,,2042,ref2023,quads,20_usa,total energy : imports : other,0.165721
+,,,2043,ref2023,quads,20_usa,total energy : imports : other,0.163252
+,,,2044,ref2023,quads,20_usa,total energy : imports : other,0.161465
+,,,2045,ref2023,quads,20_usa,total energy : imports : other,0.158517
+,,,2046,ref2023,quads,20_usa,total energy : imports : other,0.155057
+,,,2047,ref2023,quads,20_usa,total energy : imports : other,0.154695
+,,,2048,ref2023,quads,20_usa,total energy : imports : other,0.157649
+,,,2049,ref2023,quads,20_usa,total energy : imports : other,0.15918
+,,,2050,ref2023,quads,20_usa,total energy : imports : other,0.157261
+,,,2022,ref2023,quads,20_usa,total energy : imports : total,21.819145
+,,,2023,ref2023,quads,20_usa,total energy : imports : total,22.762371
+,,,2024,ref2023,quads,20_usa,total energy : imports : total,22.08268
+,,,2028,ref2023,quads,20_usa,total energy : imports : total,21.395336
+,,,2025,ref2023,quads,20_usa,total energy : imports : total,21.820986
+,,,2026,ref2023,quads,20_usa,total energy : imports : total,21.433804
+,,,2027,ref2023,quads,20_usa,total energy : imports : total,21.593285
+,,,2029,ref2023,quads,20_usa,total energy : imports : total,21.539146
+,,,2030,ref2023,quads,20_usa,total energy : imports : total,21.642633
+,,,2031,ref2023,quads,20_usa,total energy : imports : total,21.727573
+,,,2032,ref2023,quads,20_usa,total energy : imports : total,21.750002
+,,,2033,ref2023,quads,20_usa,total energy : imports : total,21.564329
+,,,2034,ref2023,quads,20_usa,total energy : imports : total,21.706337
+,,,2035,ref2023,quads,20_usa,total energy : imports : total,21.824965
+,,,2036,ref2023,quads,20_usa,total energy : imports : total,21.758633
+,,,2037,ref2023,quads,20_usa,total energy : imports : total,21.731667
+,,,2038,ref2023,quads,20_usa,total energy : imports : total,21.863213
+,,,2039,ref2023,quads,20_usa,total energy : imports : total,21.956652
+,,,2040,ref2023,quads,20_usa,total energy : imports : total,22.149939
+,,,2041,ref2023,quads,20_usa,total energy : imports : total,22.536701
+,,,2042,ref2023,quads,20_usa,total energy : imports : total,22.481985
+,,,2043,ref2023,quads,20_usa,total energy : imports : total,22.361977
+,,,2044,ref2023,quads,20_usa,total energy : imports : total,22.171295
+,,,2045,ref2023,quads,20_usa,total energy : imports : total,22.149836
+,,,2046,ref2023,quads,20_usa,total energy : imports : total,21.876242
+,,,2047,ref2023,quads,20_usa,total energy : imports : total,21.957548
+,,,2048,ref2023,quads,20_usa,total energy : imports : total,21.949778
+,,,2049,ref2023,quads,20_usa,total energy : imports : total,21.654732
+,,,2050,ref2023,quads,20_usa,total energy : imports : total,21.359085
+,,,2022,ref2023,mmb/d,20_usa,liquid fuels : crude oil : exports,3.459625
+,,,2023,ref2023,mmb/d,20_usa,liquid fuels : crude oil : exports,3.318643

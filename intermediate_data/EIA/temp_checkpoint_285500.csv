@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,186.986572
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,187.628967
+,car,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,188.198822
+,car,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,188.738007
+,car,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,189.804443
+,car,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,190.810944
+,car,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,191.696014
+,car,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,192.938583
+,car,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,194.130447
+,car,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,195.28566
+,car,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,196.624084
+,car,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,197.773575
+,car,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,199.126602
+,car,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,199.863754
+,car,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,201.482452
+,car,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,202.584625
+,car,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,203.611679
+,car,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : average,204.705322
+,,,2022,ref2023,hdd,20_usa,residential : heating degree days : west north central,6845.0
+,,,2023,ref2023,hdd,20_usa,residential : heating degree days : west north central,6601.0
+,,,2024,ref2023,hdd,20_usa,residential : heating degree days : west north central,6349.0
+,,,2025,ref2023,hdd,20_usa,residential : heating degree days : west north central,6340.0
+,,,2026,ref2023,hdd,20_usa,residential : heating degree days : west north central,6330.0
+,,,2027,ref2023,hdd,20_usa,residential : heating degree days : west north central,6321.0
+,,,2028,ref2023,hdd,20_usa,residential : heating degree days : west north central,6311.0
+,,,2029,ref2023,hdd,20_usa,residential : heating degree days : west north central,6301.0
+,,,2030,ref2023,hdd,20_usa,residential : heating degree days : west north central,6291.0
+,,,2031,ref2023,hdd,20_usa,residential : heating degree days : west north central,6281.0
+,,,2032,ref2023,hdd,20_usa,residential : heating degree days : west north central,6271.0
+,,,2033,ref2023,hdd,20_usa,residential : heating degree days : west north central,6261.0
+,,,2034,ref2023,hdd,20_usa,residential : heating degree days : west north central,6250.0
+,,,2035,ref2023,hdd,20_usa,residential : heating degree days : west north central,6240.0
+,,,2036,ref2023,hdd,20_usa,residential : heating degree days : west north central,6230.0
+,,,2037,ref2023,hdd,20_usa,residential : heating degree days : west north central,6219.0
+,,,2038,ref2023,hdd,20_usa,residential : heating degree days : west north central,6209.0
+,,,2039,ref2023,hdd,20_usa,residential : heating degree days : west north central,6198.0
+,,,2040,ref2023,hdd,20_usa,residential : heating degree days : west north central,6188.0
+,,,2041,ref2023,hdd,20_usa,residential : heating degree days : west north central,6177.0
+,,,2042,ref2023,hdd,20_usa,residential : heating degree days : west north central,6167.0
+,,,2043,ref2023,hdd,20_usa,residential : heating degree days : west north central,6156.0
+,,,2044,ref2023,hdd,20_usa,residential : heating degree days : west north central,6145.0
+,,,2045,ref2023,hdd,20_usa,residential : heating degree days : west north central,6135.0
+,,,2046,ref2023,hdd,20_usa,residential : heating degree days : west north central,6124.0
+,,,2047,ref2023,hdd,20_usa,residential : heating degree days : west north central,6113.0
+,,,2048,ref2023,hdd,20_usa,residential : heating degree days : west north central,6103.0
+,,,2049,ref2023,hdd,20_usa,residential : heating degree days : west north central,6092.0
+,,,2050,ref2023,hdd,20_usa,residential : heating degree days : west north central,6081.0
+bev,lpv,,2022,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,237.823837
+bev,lpv,,2023,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,221.183853
+bev,lpv,,2024,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,208.41153
+bev,lpv,,2025,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,193.363754
+bev,lpv,,2026,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,180.059418
+bev,lpv,,2027,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,168.199158
+bev,lpv,,2028,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,157.592621
+bev,lpv,,2029,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,148.05188
+bev,lpv,,2030,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,140.723633
+bev,lpv,,2031,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,137.37117
+bev,lpv,,2032,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,134.514069
+bev,lpv,,2033,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,132.003738
+bev,lpv,,2034,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,129.809311
+bev,lpv,,2035,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,127.85862
+bev,lpv,,2036,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,126.103889
+bev,lpv,,2037,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,124.512642
+bev,lpv,,2038,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,123.075119
+bev,lpv,,2039,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,121.76799
+bev,lpv,,2040,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,120.570442
+bev,lpv,,2041,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,119.476181
+bev,lpv,,2042,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,118.464912
+bev,lpv,,2043,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,117.523682
+bev,lpv,,2044,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,116.64859
+bev,lpv,,2045,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,115.832146
+bev,lpv,,2046,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,115.063019
+bev,lpv,,2047,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,114.312157
+bev,lpv,,2048,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,113.607391
+bev,lpv,,2049,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,112.942505
+bev,lpv,,2050,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : battery electric,112.307358
+bev,lpv,,2022,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,544.498779
+bev,lpv,,2023,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,492.197662
+bev,lpv,,2024,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,457.004364
+bev,lpv,,2025,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,425.22348
+bev,lpv,,2026,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,397.706787
+bev,lpv,,2027,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,373.608826
+bev,lpv,,2028,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,352.418762
+bev,lpv,,2029,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,333.627014
+bev,lpv,,2030,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,318.049133
+bev,lpv,,2031,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,307.511993
+bev,lpv,,2032,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,298.531891
+bev,lpv,,2033,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,290.641693
+bev,lpv,,2034,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,283.744324
+bev,lpv,,2035,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,277.613098
+bev,lpv,,2036,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,272.09787
+bev,lpv,,2037,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,267.096375
+bev,lpv,,2038,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,262.578125
+bev,lpv,,2039,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,258.469727
+bev,lpv,,2040,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,254.705658
+bev,lpv,,2041,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,251.266296
+bev,lpv,,2042,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,248.087784
+bev,lpv,,2043,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,245.12944
+bev,lpv,,2044,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,242.378906
+bev,lpv,,2045,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,239.812775

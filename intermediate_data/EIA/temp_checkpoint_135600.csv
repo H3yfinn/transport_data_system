@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+ice_g,lt,,2022,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,117.886787
+ice_g,lt,,2023,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,120.284012
+ice_g,lt,,2024,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,122.892776
+ice_g,lt,,2025,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,125.630272
+ice_g,lt,,2026,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,128.345108
+ice_g,lt,,2027,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,130.929077
+ice_g,lt,,2028,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,133.325226
+ice_g,lt,,2029,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,135.634048
+ice_g,lt,,2030,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,137.768555
+ice_g,lt,,2031,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,139.750305
+ice_g,lt,,2032,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,141.535339
+ice_g,lt,,2033,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,143.134064
+ice_g,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,144.518127
+ice_g,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,145.765854
+ice_g,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,146.887451
+ice_g,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,147.900131
+ice_g,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,148.833344
+ice_g,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,149.705566
+ice_g,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,150.588394
+ice_g,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,151.434967
+ice_g,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,152.260757
+ice_g,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,153.095032
+ice_g,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,153.946487
+ice_g,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,154.838928
+ice_g,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,155.685699
+ice_g,lt,,2047,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,156.568253
+ice_g,lt,,2048,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,157.455154
+ice_g,lt,,2049,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,158.391724
+ice_g,lt,,2050,ref2023,millions,20_usa,light-duty vehicle stock : conventional light trucks : gasoline,159.391541
+,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,136.622314
+,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,139.68486
+,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,143.089722
+,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,146.748032
+,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,150.475311
+,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,154.140289
+,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,157.700363
+,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,161.245789
+,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,164.647293
+,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,167.890015
+,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,170.9552
+,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,173.843887
+,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,176.538727
+,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,179.136948
+,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,181.640503
+,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,184.043457
+,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,186.37619
+,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,188.645615
+,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,190.894928
+,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,193.064682
+,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,195.17804
+,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,197.248138
+,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,199.278137
+,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,201.298065
+,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,203.246643
+,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,205.17923
+,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,207.060074
+,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,208.95639
+,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : light truck stock : total,210.894928
+,lt,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.00222
+,lt,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.002081
+,lt,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.002004
+,lt,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001931
+,lt,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001863
+,lt,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001801
+,lt,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001745
+,lt,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001693
+,lt,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001645
+,lt,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001602
+,lt,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001562
+,lt,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001525
+,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001491
+,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.00146
+,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001433
+,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001407
+,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001384
+,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001362
+,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001342
+,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001323
+,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001306
+,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.00129
+,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001275
+,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001263
+,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas bi-fuel,0.001252

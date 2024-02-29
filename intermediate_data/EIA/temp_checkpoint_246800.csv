@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,6.016406
+ice_g,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,6.176035
+ice_g,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,6.379766
+ice_g,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,4.183997
+ice_g,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.667759
+ice_g,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.3247
+ice_g,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.102768
+ice_g,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.069134
+ice_g,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.050068
+ice_g,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.0508
+ice_g,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.055438
+ice_g,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.065353
+ice_g,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.060282
+ice_g,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.075698
+ice_g,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.082524
+ice_g,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.092468
+ice_g,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.098654
+ice_g,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.131581
+ice_g,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.135662
+ice_g,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.144777
+ice_g,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.158071
+ice_g,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.161826
+ice_g,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.161508
+ice_g,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.169308
+ice_g,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.15616
+ice_g,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.176532
+ice_g,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.177386
+ice_g,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.265366
+ice_g,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.264681
+ice_g,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.290863
+ice_g,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.298996
+ice_g,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : motor gasoline,3.327496
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,19.899982
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,18.708418
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,17.272999
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,16.501863
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,15.808764
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,15.361938
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,15.049947
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.822403
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.634693
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.460797
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.240523
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.065301
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.868577
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.666343
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.405502
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.193121
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.058621
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.800762
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.688694
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.558852
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.357529
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.140377
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.941495
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.783803
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.629775
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.452766
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.283547
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.136607
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.028867
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,17.833939
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,16.327333
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,14.827703
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,14.08409
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,13.44771
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,13.08196
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.870122
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.744187
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.685598
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.660619
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.641229
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.67163
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.639132
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.580781
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.424477
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.312686
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.293517
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.079486
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.091501
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,12.051854
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.921983
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.750655
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.608424
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.512781
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.421101
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.286413
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.17001
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,11.03896
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east south central,10.964184
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,18.820467
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,18.250057
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,16.740711
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,16.163311
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,15.258035
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,14.832531
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,14.459134
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,14.322284
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,14.163305
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : middle atlantic,14.114338

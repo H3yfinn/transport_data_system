@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,mt,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.021886
+,mt,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.020384
+,mt,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.018924
+,mt,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.017501
+,mt,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.01624
+,mt,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.015091
+,mt,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.014094
+,mt,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.01316
+,mt,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.012222
+,mt,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.01138
+,mt,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.010424
+,mt,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.00945
+,mt,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.008636
+,mt,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.007954
+,mt,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.007266
+,mt,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.006568
+,mt,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.005938
+,mt,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : natural gas,0.005415
+lpg,mt,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.092219
+lpg,mt,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.099416
+lpg,mt,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.107424
+lpg,mt,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.115934
+lpg,mt,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.124888
+lpg,mt,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.134116
+lpg,mt,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.143486
+lpg,mt,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.153252
+lpg,mt,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.163224
+lpg,mt,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.173081
+lpg,mt,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.182492
+lpg,mt,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.192533
+lpg,mt,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.035519
+lpg,mt,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.036849
+lpg,mt,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.0383
+lpg,mt,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.039928
+lpg,mt,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.041891
+lpg,mt,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.043984
+lpg,mt,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.046242
+lpg,mt,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.048501
+lpg,mt,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.050945
+lpg,mt,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.053743
+lpg,mt,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.057158
+lpg,mt,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.061107
+lpg,mt,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.065479
+lpg,mt,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.069911
+lpg,mt,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.074638
+lpg,mt,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.079953
+lpg,mt,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : medium : propane,0.085782
+,,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,321.953827
+,,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,320.719574
+,,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,321.155365
+,,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,324.037476
+,,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,328.449524
+,,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,332.317474
+,,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,335.877136
+,,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,338.619873
+,,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,341.150757
+,,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,344.159973
+,,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,348.16452
+,,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,351.538513
+,,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,354.827271
+,,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,358.343109
+,,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,361.391602
+,,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,364.924988
+,,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,368.378052
+,,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,371.809174
+,,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,375.585419
+,,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,379.583038
+,,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,383.511108
+,,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,387.205078
+,,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,390.630127
+,,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,393.834503
+,,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,397.538422
+,,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,401.35025
+,,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,404.654388
+,,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,408.218903
+,,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled,413.077545
+ice_d,lt,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.0
+ice_d,lt,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.012283
+ice_d,lt,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.024155
+ice_d,lt,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.035479
+ice_d,lt,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.046723
+ice_d,lt,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.056981
+ice_d,lt,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.066603
+ice_d,lt,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.076688
+ice_d,lt,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.083452
+ice_d,lt,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.090574
+ice_d,lt,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.098388
+ice_d,lt,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.106844
+ice_d,lt,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.116024
+ice_d,lt,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.126061
+ice_d,lt,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.137016
+ice_d,lt,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.149154
+ice_d,lt,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.162688
+ice_d,lt,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.177428
+ice_d,lt,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.19401
+ice_d,lt,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.212327
+ice_d,lt,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.231978
+ice_d,lt,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.252817
+ice_d,lt,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.274574
+ice_d,lt,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : plug-in diesel,0.297278

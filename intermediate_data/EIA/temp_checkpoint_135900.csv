@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,ship_international,,2044,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,9472.552734
+,ship_international,,2045,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,9798.029297
+,ship_international,,2046,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,10143.948242
+,ship_international,,2047,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,10485.746094
+,ship_international,,2048,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,10850.213867
+,ship_international,,2049,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,11224.771484
+,ship_international,,2050,ref2023,billion 2012 $,20_usa,freight : international shipping : gross trade,11635.883789
+bev,car,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,car,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-diesel hybrid,0.0
+ethanol_flex_fuel,car,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,2.466432
+ethanol_flex_fuel,car,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,2.25087
+ethanol_flex_fuel,car,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,2.047567
+ethanol_flex_fuel,car,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.85446
+ethanol_flex_fuel,car,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.686181
+ethanol_flex_fuel,car,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.538067
+ethanol_flex_fuel,car,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.411604
+ethanol_flex_fuel,car,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.306703
+ethanol_flex_fuel,car,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.220441
+ethanol_flex_fuel,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.150496
+ethanol_flex_fuel,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.095933
+ethanol_flex_fuel,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.054391
+ethanol_flex_fuel,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.024313
+ethanol_flex_fuel,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,1.004354
+ethanol_flex_fuel,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.994025
+ethanol_flex_fuel,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.987431
+ethanol_flex_fuel,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.98292
+ethanol_flex_fuel,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.979983
+ethanol_flex_fuel,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.978005
+ethanol_flex_fuel,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.974737
+ethanol_flex_fuel,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.970693
+ethanol_flex_fuel,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.965138
+ethanol_flex_fuel,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.960367
+ethanol_flex_fuel,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.958094
+ethanol_flex_fuel,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.960103
+ethanol_flex_fuel,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.960845
+ethanol_flex_fuel,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.960759
+ethanol_flex_fuel,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.960682
+ethanol_flex_fuel,car,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : ethanol-flex fuel ice,0.960342
+bev,car,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.094002
+bev,car,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.099063
+bev,car,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.099045
+bev,car,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.083344
+bev,car,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.072067
+bev,car,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.055656
+bev,car,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.046169
+bev,car,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.045122
+bev,car,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.051817
+bev,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.06474
+bev,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.084717
+bev,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.109166
+bev,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.140301
+bev,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.179345
+bev,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.227929
+bev,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.28073
+bev,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.33653
+bev,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.394662
+bev,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.454477
+bev,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.511678
+bev,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.566858
+bev,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.617854
+bev,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.668828
+bev,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.723672
+bev,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.787416
+bev,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.848407
+bev,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.907915
+bev,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,2.96775
+bev,car,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : electric-gasoline hybrid,3.030946
+fcev,car,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.004845
+fcev,car,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.004821
+fcev,car,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.005064
+fcev,car,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.005501
+fcev,car,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.00609
+fcev,car,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.006784

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2047,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, domestic",5.469711
+,,,2048,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, domestic",5.387451
+,,,2049,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, domestic",5.327874
+,,,2050,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, domestic",5.293796
+,,,2022,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",68.15332
+,,,2023,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",63.230057
+,,,2024,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",62.587276
+,,,2025,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",62.777618
+,,,2026,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",61.946568
+,,,2027,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",61.627644
+,,,2028,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",61.448349
+,,,2029,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",61.025166
+,,,2030,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.714169
+,,,2031,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.687263
+,,,2032,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.658424
+,,,2033,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.68103
+,,,2034,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.633503
+,,,2035,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.6408
+,,,2036,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.522804
+,,,2037,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.484978
+,,,2038,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.476177
+,,,2039,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.403198
+,,,2040,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.387859
+,,,2041,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.382977
+,,,2042,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.42667
+,,,2043,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.400951
+,,,2044,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.413574
+,,,2045,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.406551
+,,,2046,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.620235
+,,,2047,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.539589
+,,,2048,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",60.21463
+,,,2049,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",59.984509
+,,,2050,ref2023,mmmt co2,20_usa,"carbon dioxide : transportation : shipping, international",59.79192
+bev,,,2022,ref2023,mmst,5-2,electricity : emissions : total carbon,26.86702
+bev,,,2023,ref2023,mmst,5-2,electricity : emissions : total carbon,25.703541
+bev,,,2024,ref2023,mmst,5-2,electricity : emissions : total carbon,25.099802
+bev,,,2025,ref2023,mmst,5-2,electricity : emissions : total carbon,22.612276
+bev,,,2026,ref2023,mmst,5-2,electricity : emissions : total carbon,19.580091
+bev,,,2027,ref2023,mmst,5-2,electricity : emissions : total carbon,16.911312
+bev,,,2028,ref2023,mmst,5-2,electricity : emissions : total carbon,16.362411
+bev,,,2029,ref2023,mmst,5-2,electricity : emissions : total carbon,17.08828
+bev,,,2030,ref2023,mmst,5-2,electricity : emissions : total carbon,17.139347
+bev,,,2031,ref2023,mmst,5-2,electricity : emissions : total carbon,17.232681
+bev,,,2032,ref2023,mmst,5-2,electricity : emissions : total carbon,16.659126
+bev,,,2033,ref2023,mmst,5-2,electricity : emissions : total carbon,16.938128
+bev,,,2034,ref2023,mmst,5-2,electricity : emissions : total carbon,16.460503
+bev,,,2035,ref2023,mmst,5-2,electricity : emissions : total carbon,16.809664
+bev,,,2036,ref2023,mmst,5-2,electricity : emissions : total carbon,16.600109
+bev,,,2037,ref2023,mmst,5-2,electricity : emissions : total carbon,16.784134
+bev,,,2038,ref2023,mmst,5-2,electricity : emissions : total carbon,16.827116
+bev,,,2039,ref2023,mmst,5-2,electricity : emissions : total carbon,16.752495
+bev,,,2040,ref2023,mmst,5-2,electricity : emissions : total carbon,16.581211
+bev,,,2041,ref2023,mmst,5-2,electricity : emissions : total carbon,16.83758
+bev,,,2042,ref2023,mmst,5-2,electricity : emissions : total carbon,16.635283
+bev,,,2043,ref2023,mmst,5-2,electricity : emissions : total carbon,16.341957
+bev,,,2044,ref2023,mmst,5-2,electricity : emissions : total carbon,14.471471
+bev,,,2045,ref2023,mmst,5-2,electricity : emissions : total carbon,14.976721
+bev,,,2046,ref2023,mmst,5-2,electricity : emissions : total carbon,15.326044
+bev,,,2047,ref2023,mmst,5-2,electricity : emissions : total carbon,15.203088
+bev,,,2048,ref2023,mmst,5-2,electricity : emissions : total carbon,15.481539
+bev,,,2049,ref2023,mmst,5-2,electricity : emissions : total carbon,15.482652
+bev,,,2050,ref2023,mmst,5-2,electricity : emissions : total carbon,15.80343
+bev,,,2022,ref2023,mmst,5-4,electricity : emissions : total carbon,36.90596
+bev,,,2023,ref2023,mmst,5-4,electricity : emissions : total carbon,34.202282
+bev,,,2024,ref2023,mmst,5-4,electricity : emissions : total carbon,27.825998
+bev,,,2025,ref2023,mmst,5-4,electricity : emissions : total carbon,27.516413
+bev,,,2026,ref2023,mmst,5-4,electricity : emissions : total carbon,22.873549
+bev,,,2027,ref2023,mmst,5-4,electricity : emissions : total carbon,18.984449
+bev,,,2028,ref2023,mmst,5-4,electricity : emissions : total carbon,16.841234
+bev,,,2029,ref2023,mmst,5-4,electricity : emissions : total carbon,14.415216
+bev,,,2030,ref2023,mmst,5-4,electricity : emissions : total carbon,12.470158
+bev,,,2031,ref2023,mmst,5-4,electricity : emissions : total carbon,12.604897
+bev,,,2032,ref2023,mmst,5-4,electricity : emissions : total carbon,12.079342
+bev,,,2033,ref2023,mmst,5-4,electricity : emissions : total carbon,13.05219
+bev,,,2034,ref2023,mmst,5-4,electricity : emissions : total carbon,12.89779
+bev,,,2035,ref2023,mmst,5-4,electricity : emissions : total carbon,12.962803
+bev,,,2036,ref2023,mmst,5-4,electricity : emissions : total carbon,13.887356
+bev,,,2037,ref2023,mmst,5-4,electricity : emissions : total carbon,14.605951
+bev,,,2038,ref2023,mmst,5-4,electricity : emissions : total carbon,14.572167
+bev,,,2039,ref2023,mmst,5-4,electricity : emissions : total carbon,13.741084
+bev,,,2040,ref2023,mmst,5-4,electricity : emissions : total carbon,13.385441
+bev,,,2041,ref2023,mmst,5-4,electricity : emissions : total carbon,13.790254
+bev,,,2042,ref2023,mmst,5-4,electricity : emissions : total carbon,13.989136
+bev,,,2043,ref2023,mmst,5-4,electricity : emissions : total carbon,13.791608
+bev,,,2044,ref2023,mmst,5-4,electricity : emissions : total carbon,13.904947
+bev,,,2045,ref2023,mmst,5-4,electricity : emissions : total carbon,12.673425
+bev,,,2046,ref2023,mmst,5-4,electricity : emissions : total carbon,11.946656
+bev,,,2047,ref2023,mmst,5-4,electricity : emissions : total carbon,12.229649
+bev,,,2048,ref2023,mmst,5-4,electricity : emissions : total carbon,12.116412
+bev,,,2049,ref2023,mmst,5-4,electricity : emissions : total carbon,11.85207
+bev,,,2050,ref2023,mmst,5-4,electricity : emissions : total carbon,10.741707
+bev,,,2022,ref2023,mmst,5-5,electricity : emissions : total carbon,15.731857
+bev,,,2023,ref2023,mmst,5-5,electricity : emissions : total carbon,14.180907
+bev,,,2024,ref2023,mmst,5-5,electricity : emissions : total carbon,13.57969
+bev,,,2025,ref2023,mmst,5-5,electricity : emissions : total carbon,12.442105
+bev,,,2026,ref2023,mmst,5-5,electricity : emissions : total carbon,10.541963
+bev,,,2027,ref2023,mmst,5-5,electricity : emissions : total carbon,10.420659
+bev,,,2028,ref2023,mmst,5-5,electricity : emissions : total carbon,10.52278
+bev,,,2029,ref2023,mmst,5-5,electricity : emissions : total carbon,8.492787
+bev,,,2030,ref2023,mmst,5-5,electricity : emissions : total carbon,7.861415

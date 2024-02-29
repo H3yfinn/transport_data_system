@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,51.098656
+ethanol_flex_fuel,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,51.374992
+ethanol_flex_fuel,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,51.603603
+ethanol_flex_fuel,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.041973
+ethanol_flex_fuel,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.156403
+ethanol_flex_fuel,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.259243
+ethanol_flex_fuel,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.371521
+ethanol_flex_fuel,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.497662
+ethanol_flex_fuel,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.650818
+ethanol_flex_fuel,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.741375
+ethanol_flex_fuel,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.833942
+ethanol_flex_fuel,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,52.917351
+ethanol_flex_fuel,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.003613
+ethanol_flex_fuel,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.085014
+ethanol_flex_fuel,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.181816
+ethanol_flex_fuel,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.238152
+ethanol_flex_fuel,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.292709
+ethanol_flex_fuel,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.341393
+ethanol_flex_fuel,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.38496
+ethanol_flex_fuel,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.40765
+ethanol_flex_fuel,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.437683
+ethanol_flex_fuel,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.456604
+ethanol_flex_fuel,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.482925
+ethanol_flex_fuel,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.507076
+ethanol_flex_fuel,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.580517
+ethanol_flex_fuel,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large crossover light truck,53.595615
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,101.836037
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,99.981308
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,98.218796
+fcev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,96.565414
+fcev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,95.022057
+fcev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,93.555901
+fcev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,92.174568
+fcev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,90.867775
+fcev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,89.641617
+fcev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,88.400589
+fcev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,87.20562
+fcev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,86.060936
+fcev,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,84.969894
+fcev,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,83.927292
+fcev,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,82.941322
+fcev,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,81.988632
+fcev,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,81.077499
+fcev,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,80.20549
+fcev,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,79.371513
+fcev,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,78.569351
+fcev,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,77.805748
+fcev,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,77.074081
+fcev,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,76.376808
+fcev,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,75.710793
+fcev,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,75.088028
+fcev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover light truck,74.474419
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+bev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.333019
+bev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,53.623608
+bev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,53.688332
+bev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,53.694786
+bev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.155998
+bev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.313042
+bev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.416138
+bev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.69537
+bev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.73624
+bev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.766273
+bev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.806049
+bev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.904034
+bev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.996788
+bev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.020134
+bev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.044807
+bev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.067959

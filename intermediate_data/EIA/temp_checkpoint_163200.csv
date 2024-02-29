@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,8.776372
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,8.261806
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,7.775993
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,7.386477
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,7.04762
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.827913
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.648514
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.553668
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.441433
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.384655
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.323961
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.269954
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.20194
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.220832
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.226357
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.229402
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.254357
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.206751
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.164783
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.143993
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.140705
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.12977
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.080042
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.063547
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,6.036955
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,89.009605
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,88.35302
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,89.265617
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,88.276108
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,88.011116
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,86.503517
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,84.169189
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,82.272591
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,80.002151
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,78.661636
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,78.38958
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,77.43338
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,76.436958
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,75.842018
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,75.283081
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,75.087685
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,74.25164
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,73.183372
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,72.455765
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,72.237335
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,72.197365
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,71.752083
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,71.002312
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,70.120277
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,69.401703
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,68.973587
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,68.17572
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,67.662178
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : iron and steel,67.631783
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,1016.121216
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,981.56897
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,966.451782
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,953.320557
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,937.839661
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,919.405457
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,902.457947
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,887.951843
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,876.132019
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,871.181458
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,871.327637
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,872.286682
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,873.862549
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,876.114075
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,878.068115
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,880.002197
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,880.482788
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,883.045959
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,886.705383
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,892.350464
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,897.283875
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,899.897522
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,900.353088
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,900.914062
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,899.144043
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,903.673157
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,907.066895
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,910.519348
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing,914.976501
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,11.431486
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,10.988838
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,10.92062
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,10.426599
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,9.901403
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,9.391126
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,8.74144
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,8.213583
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.807684
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.69606
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.698475
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.78592
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.760227
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.830011
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.917684
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.978059
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : machinery,7.994631

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,ht,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,73.232262
+,ht,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,76.543907
+,ht,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : natural gas,80.243095
+lpg,ht,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.570847
+lpg,ht,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.624367
+lpg,ht,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.675653
+lpg,ht,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.723456
+lpg,ht,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.769549
+lpg,ht,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.807832
+lpg,ht,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.837598
+lpg,ht,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.854943
+lpg,ht,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.864169
+lpg,ht,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.868258
+lpg,ht,,2032,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.870423
+lpg,ht,,2033,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.871982
+lpg,ht,,2034,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.876027
+lpg,ht,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.882238
+lpg,ht,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.886164
+lpg,ht,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.890656
+lpg,ht,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.892193
+lpg,ht,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.893006
+lpg,ht,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.894043
+lpg,ht,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.897259
+lpg,ht,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.900476
+lpg,ht,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.903219
+lpg,ht,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.905168
+lpg,ht,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.906542
+lpg,ht,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.909339
+lpg,ht,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.912656
+lpg,ht,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.914926
+lpg,ht,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.916513
+lpg,ht,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : heavy : propane,0.919479
+ice_d,mt,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,596.79718
+ice_d,mt,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,582.570312
+ice_d,mt,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,570.545837
+ice_d,mt,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,562.609924
+ice_d,mt,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,557.476379
+ice_d,mt,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,552.100586
+ice_d,mt,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,547.567261
+ice_d,mt,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,541.8349
+ice_d,mt,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,535.993042
+ice_d,mt,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,531.105774
+ice_d,mt,,2032,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,528.557983
+ice_d,mt,,2033,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,525.619995
+ice_d,mt,,2034,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,523.055237
+ice_d,mt,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,521.635132
+ice_d,mt,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,520.473267
+ice_d,mt,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,520.688171
+ice_d,mt,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,521.266724
+ice_d,mt,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,522.359558
+ice_d,mt,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,524.423584
+ice_d,mt,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,527.081543
+ice_d,mt,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,529.902527
+ice_d,mt,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,533.300598
+ice_d,mt,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,536.989746
+ice_d,mt,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,540.517883
+ice_d,mt,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,544.769531
+ice_d,mt,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,549.506226
+ice_d,mt,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,553.895203
+ice_d,mt,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,558.688538
+ice_d,mt,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : diesel,565.292725
+phev_d,mt,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.0
+phev_d,mt,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.0
+phev_d,mt,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.046031
+phev_d,mt,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.087364
+phev_d,mt,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.125998
+phev_d,mt,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.162359
+phev_d,mt,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.196929
+phev_d,mt,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.228566
+phev_d,mt,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.257603
+phev_d,mt,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.285156
+phev_d,mt,,2032,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.312729
+phev_d,mt,,2033,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.339615
+phev_d,mt,,2034,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.36633
+phev_d,mt,,2035,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.393577
+phev_d,mt,,2036,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.420733
+phev_d,mt,,2037,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.449286
+phev_d,mt,,2038,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.47926
+phev_d,mt,,2039,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.511257
+phev_d,mt,,2040,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.546639
+phev_d,mt,,2041,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.585939
+phev_d,mt,,2042,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.62877
+phev_d,mt,,2043,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.672651
+phev_d,mt,,2044,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.719311
+phev_d,mt,,2045,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.768308
+phev_d,mt,,2046,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.821181
+phev_d,mt,,2047,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.877112
+phev_d,mt,,2048,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.934619
+phev_d,mt,,2049,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,0.994792
+phev_d,mt,,2050,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : plug-in diesel hybrid,1.060159
+ethanol_flex_fuel,mt,,2022,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,10.331885
+ethanol_flex_fuel,mt,,2023,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,10.758182
+ethanol_flex_fuel,mt,,2024,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,11.321586
+ethanol_flex_fuel,mt,,2025,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,11.975374
+ethanol_flex_fuel,mt,,2026,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,12.744726
+ethanol_flex_fuel,mt,,2027,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,13.587193
+ethanol_flex_fuel,mt,,2028,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,14.506134
+ethanol_flex_fuel,mt,,2029,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,15.44483
+ethanol_flex_fuel,mt,,2030,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,16.450348
+ethanol_flex_fuel,mt,,2031,ref2023,trillion btu,20_usa,freight : truck stock : use : medium : ethanol-flex fuel,17.581884

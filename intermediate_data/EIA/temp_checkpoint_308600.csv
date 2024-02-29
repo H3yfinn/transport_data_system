@@ -1,0 +1,99 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2022,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,36.638512
+,,,2023,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,36.763046
+,,,2024,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,40.559639
+,,,2025,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.47319
+,,,2026,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.248493
+,,,2027,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.61116
+,,,2028,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.198967
+,,,2029,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.351547
+,,,2030,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.294701
+,,,2049,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.387402
+,,,2050,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.586746
+,,,2031,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.20599
+,,,2032,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.086502
+,,,2033,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.551788
+,,,2034,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.440865
+,,,2035,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.299156
+,,,2036,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.517216
+,,,2037,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,43.09589
+,,,2038,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.652611
+,,,2039,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.631329
+,,,2040,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.621319
+,,,2041,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.641922
+,,,2042,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.640125
+,,,2043,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.707432
+,,,2044,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.659992
+,,,2045,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.720879
+,,,2046,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.841656
+,,,2047,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,41.97966
+,,,2048,ref2023,2022 $/st,20_usa,coal supply : minemouth price : interior,42.196777
+,,,2022,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,110.005394
+,,,2023,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,116.490822
+,,,2024,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,130.267807
+,,,2025,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,129.102234
+,,,2026,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,129.19751
+,,,2027,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,130.316772
+,,,2028,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,131.738449
+,,,2029,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,132.643036
+,,,2030,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,136.470551
+,,,2031,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,138.110291
+,,,2032,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,141.865326
+,,,2033,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,143.934845
+,,,2034,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,145.559357
+,,,2035,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,147.674332
+,,,2036,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,149.941071
+,,,2037,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,152.857544
+,,,2038,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,154.54776
+,,,2039,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,156.030197
+,,,2040,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,158.153778
+,,,2041,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,159.38829
+,,,2042,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,160.695709
+,,,2043,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,162.011688
+,,,2044,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,163.547211
+,,,2045,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,164.977066
+,,,2046,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,166.261444
+,,,2047,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,167.915604
+,,,2048,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,168.99823
+,,,2049,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,170.962753
+,,,2050,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,172.817383
+,,,2022,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.973494
+,,,2023,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.102072
+,,,2024,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.859306
+,,,2025,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.740879
+,,,2026,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.770327
+,,,2027,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.85552
+,,,2028,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.918997
+,,,2029,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.92811
+,,,2030,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.894159
+,,,2031,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.832413
+,,,2032,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.808453
+,,,2033,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.832888
+,,,2034,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.911459
+,,,2035,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.963112
+,,,2036,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.96327
+,,,2037,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.975843
+,,,2038,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.999086
+,,,2039,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.007166
+,,,2040,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.028172
+,,,2041,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.030106
+,,,2042,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.037437
+,,,2043,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.020531
+,,,2044,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.997219
+,,,2045,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.987173
+,,,2046,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,22.98875
+,,,2047,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.004467
+,,,2048,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.013062
+,,,2049,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.012115
+,,,2050,ref2023,millions,20_usa,macro indicators : nonfarm employment : east north central,23.020054
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small crossover car,0.0

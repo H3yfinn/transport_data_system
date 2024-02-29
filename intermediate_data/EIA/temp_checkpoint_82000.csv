@@ -1,0 +1,18 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2033,ref2023,bkwh,20_usa,electricity : total electricity use,4418.147461
+bev,,,2030,ref2023,bkwh,20_usa,electricity : total electricity use,4315.470215
+bev,,,2031,ref2023,bkwh,20_usa,electricity : total electricity use,4347.601074
+bev,,,2032,ref2023,bkwh,20_usa,electricity : total electricity use,4384.996094
+bev,,,2034,ref2023,bkwh,20_usa,electricity : total electricity use,4453.506348
+bev,,,2035,ref2023,bkwh,20_usa,electricity : total electricity use,4493.555664
+bev,,,2036,ref2023,bkwh,20_usa,electricity : total electricity use,4532.794434
+bev,,,2037,ref2023,bkwh,20_usa,electricity : total electricity use,4573.36084
+bev,,,2038,ref2023,bkwh,20_usa,electricity : total electricity use,4612.418945
+bev,,,2039,ref2023,bkwh,20_usa,electricity : total electricity use,4649.641602
+bev,,,2040,ref2023,bkwh,20_usa,electricity : total electricity use,4689.244629
+bev,,,2041,ref2023,bkwh,20_usa,electricity : total electricity use,4731.741699
+bev,,,2042,ref2023,bkwh,20_usa,electricity : total electricity use,4775.55957
+bev,,,2043,ref2023,bkwh,20_usa,electricity : total electricity use,4819.524902
+bev,,,2044,ref2023,bkwh,20_usa,electricity : total electricity use,4863.097656
+bev,,,2045,ref2023,bkwh,20_usa,electricity : total electricity use,4908.312988
+bev,,,2046,ref2023,bkwh,20_usa,electricity : total electricity use,4960.256836

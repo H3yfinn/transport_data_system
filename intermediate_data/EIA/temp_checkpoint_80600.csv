@@ -1,0 +1,10 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,1.177112
+bev,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,1.520191
+bev,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,2.136887
+bev,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,3.17957
+bev,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,4.325841
+bev,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,5.352685
+bev,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,5.958737
+bev,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,6.275979
+bev,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar photovoltaic,6.478005

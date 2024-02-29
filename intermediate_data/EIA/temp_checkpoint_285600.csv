@@ -1,0 +1,35 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,lpv,,2046,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,237.39534
+bev,lpv,,2047,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,235.035309
+bev,lpv,,2048,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,232.820114
+bev,lpv,,2049,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,230.730347
+bev,lpv,,2050,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : plug-in hybrid electric,228.734009
+bev,lpv,,2022,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,544.498779
+bev,lpv,,2023,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,492.197662
+bev,lpv,,2024,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,457.004364
+bev,lpv,,2025,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,425.22348
+bev,lpv,,2026,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,397.706787
+bev,lpv,,2027,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,373.608826
+bev,lpv,,2028,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,352.418762
+bev,lpv,,2029,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,333.627014
+bev,lpv,,2030,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,318.049133
+bev,lpv,,2031,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,307.511993
+bev,lpv,,2032,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,298.531891
+bev,lpv,,2033,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,290.641693
+bev,lpv,,2034,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,283.744324
+bev,lpv,,2035,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,277.613098
+bev,lpv,,2036,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,272.09787
+bev,lpv,,2037,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,267.096375
+bev,lpv,,2038,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,262.578125
+bev,lpv,,2039,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,258.469727
+bev,lpv,,2040,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,254.705658
+bev,lpv,,2041,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,251.266296
+bev,lpv,,2042,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,248.087784
+bev,lpv,,2043,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,245.12944
+bev,lpv,,2044,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,242.378906
+bev,lpv,,2045,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,239.812775
+bev,lpv,,2046,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,237.39534
+bev,lpv,,2047,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,235.035309
+bev,lpv,,2048,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,232.820114
+bev,lpv,,2049,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,230.730347
+bev,lpv,,2050,ref2023,2022 $ per kwh,20_usa,new light-duty vehicle prices : battery price : gasoline-electric hybrid,228.734009

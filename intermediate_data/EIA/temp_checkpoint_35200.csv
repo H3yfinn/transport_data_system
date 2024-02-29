@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2032,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,27.600941
+bev,,,2033,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,28.624352
+bev,,,2034,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,29.780235
+bev,,,2035,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,31.203579
+bev,,,2036,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,33.209915
+bev,,,2037,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.259258
+bev,,,2038,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.269699
+bev,,,2039,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.280567
+bev,,,2040,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.289013
+bev,,,2041,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.297638
+bev,,,2042,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.306675
+bev,,,2043,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.315762
+bev,,,2044,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,38.324928
+bev,,,2045,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,39.42564
+bev,,,2046,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,42.804554
+bev,,,2047,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,44.978813
+bev,,,2048,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,47.762089
+bev,,,2049,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,49.85083
+bev,,,2050,ref2023,gw,5-1,electricity : electric power sector : cumulative unplanned additions : renewable sources,52.353157
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,0.169091
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,10.754409
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,67.539688
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,140.529556
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,210.946609
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,270.455688
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,313.543762
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,345.773987
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,377.55954
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,411.550751
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,442.233337
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,465.08197
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,475.135559
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,498.078705
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,514.940674
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,572.364502
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,535.645264
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,545.403564
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,562.860962
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,587.666199
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,606.855225
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,630.141052
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,659.251831
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,685.985657
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,706.369263
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,724.702026
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,746.545776
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : cumulative unplanned additions : renewable sources,768.770203
+bev,,,2022,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,
+bev,,,2023,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.001927
+bev,,,2024,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.00306
+bev,,,2025,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.003981
+bev,,,2026,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.664322
+bev,,,2027,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,2.361628
+bev,,,2028,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,2.362904
+bev,,,2029,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,5.470962
+bev,,,2030,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,5.472332
+bev,,,2031,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,5.47371
+bev,,,2032,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,5.475119
+bev,,,2033,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,5.476627
+bev,,,2034,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,6.467635
+bev,,,2035,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,7.898458
+bev,,,2036,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,9.495833
+bev,,,2037,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,11.494277
+bev,,,2038,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,13.555088
+bev,,,2039,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,14.554882
+bev,,,2040,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,15.65093
+bev,,,2041,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,15.695005
+bev,,,2042,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,16.677765
+bev,,,2043,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,16.836464
+bev,,,2044,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,17.059011
+bev,,,2045,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,17.701767
+bev,,,2046,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,18.659904
+bev,,,2047,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,19.273235
+bev,,,2048,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,19.98904
+bev,,,2049,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,20.801428
+bev,,,2050,ref2023,gw,5-25,electricity : electric power sector : cumulative unplanned additions : renewable sources,21.550014
+bev,,,2022,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,
+bev,,,2023,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.003487
+bev,,,2024,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.005538
+bev,,,2025,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.007206
+bev,,,2026,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.059057
+bev,,,2027,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.086388
+bev,,,2028,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.113699
+bev,,,2029,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,0.141132
+bev,,,2030,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,1.310377
+bev,,,2031,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,6.437372
+bev,,,2032,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,13.088623
+bev,,,2033,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,13.091352
+bev,,,2034,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,17.961992
+bev,,,2035,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,17.964674
+bev,,,2036,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,20.329437
+bev,,,2037,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,20.332285
+bev,,,2038,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,24.817059
+bev,,,2039,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,24.820129
+bev,,,2040,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,24.822517
+bev,,,2041,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,26.624962
+bev,,,2042,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,30.093372
+bev,,,2043,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,30.09594
+bev,,,2044,ref2023,gw,5-21,electricity : electric power sector : cumulative unplanned additions : renewable sources,36.493862

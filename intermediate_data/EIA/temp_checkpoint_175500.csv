@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2030,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,7.592133
+bev,,,2031,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,8.055265
+bev,,,2032,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,8.531867
+bev,,,2033,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,9.061356
+bev,,,2034,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,9.567462
+bev,,,2035,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,10.015771
+bev,,,2036,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,10.551403
+bev,,,2037,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,11.110928
+bev,,,2038,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,11.741616
+bev,,,2039,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,12.32995
+bev,,,2040,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,12.930714
+bev,,,2044,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,15.280283
+bev,,,2041,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,13.538999
+bev,,,2042,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,14.128485
+bev,,,2043,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,14.67856
+bev,,,2045,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,15.882158
+bev,,,2046,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,16.597925
+bev,,,2047,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,17.241823
+bev,,,2048,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,17.916086
+bev,,,2049,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,18.613394
+bev,,,2050,ref2023,bkwh,5-20,electricity : end-use sectors : generation : generation for own use,19.310873
+bev,,,2045,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,27.4359
+bev,,,2046,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,28.292782
+bev,,,2047,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,29.104982
+bev,,,2048,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,29.958597
+bev,,,2049,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,30.751596
+bev,,,2050,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,31.541016
+bev,,,2022,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,11.201053
+bev,,,2023,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,12.282207
+bev,,,2024,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,13.702465
+bev,,,2025,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,14.278292
+bev,,,2026,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,14.821754
+bev,,,2027,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,15.420375
+bev,,,2028,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,16.010817
+bev,,,2029,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,16.626549
+bev,,,2030,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,17.279076
+bev,,,2031,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,17.92778
+bev,,,2032,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,18.612545
+bev,,,2033,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,19.302395
+bev,,,2034,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,19.965328
+bev,,,2035,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,20.549744
+bev,,,2036,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,21.17828
+bev,,,2037,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,21.752939
+bev,,,2038,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,22.384886
+bev,,,2039,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,23.00256
+bev,,,2040,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,23.650087
+bev,,,2041,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,24.357922
+bev,,,2042,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,25.108334
+bev,,,2043,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,25.917086
+bev,,,2044,ref2023,bkwh,5-23,electricity : end-use sectors : generation : generation for own use,26.741854
+,,,2029,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2026,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2027,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2028,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2030,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2031,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2032,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2033,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2034,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2035,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2036,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2037,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2038,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2039,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2040,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2041,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2042,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2043,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2044,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2045,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2046,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2047,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2048,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2049,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2050,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2022,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2023,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2024,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+,,,2025,ref2023,billion kwh,20_usa,commercial : combined heat and power : net generation : petroleum,0.097511
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,9.926336
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,9.949505
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,9.238657
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.788889
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.391665
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.410769
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.397599
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382944
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.394377
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.37163
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.400712
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.36019
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382026
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382038
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382033
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382037
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382014
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382036
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382037
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382035
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : coal,8.382035

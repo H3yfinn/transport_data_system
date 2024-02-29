@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+lpg,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane : subcompact car,0.0
+ice_d,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,40.679424
+ice_d,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,40.853588
+ice_d,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,41.16328
+ice_d,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,42.396217
+ice_d,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,42.38448
+ice_d,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,42.715195
+ice_d,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.824581
+ice_d,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.821396
+ice_d,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.812355
+ice_d,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.817917
+ice_d,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.838345
+ice_d,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.863262
+ice_d,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,43.963707
+ice_d,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.120121
+ice_d,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.278702
+ice_d,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.399551
+ice_d,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.492596
+ice_d,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.640484
+ice_d,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.661228
+ice_d,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.684067
+ice_d,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.687069
+ice_d,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.672031
+ice_d,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.610798
+ice_d,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.553238
+ice_d,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.505539
+ice_d,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.438171
+ice_d,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.385307
+ice_d,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.50378
+ice_d,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : subcompact car,44.443516
+phev_d,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+phev_d,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small crossover car,0.0
+ethanol_flex_fuel,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,44.182507
+ethanol_flex_fuel,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,44.759869
+ethanol_flex_fuel,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,45.545929
+ethanol_flex_fuel,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,47.682049
+ethanol_flex_fuel,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,47.876968
+ethanol_flex_fuel,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,48.202084
+ethanol_flex_fuel,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,49.994678
+ethanol_flex_fuel,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.177155
+ethanol_flex_fuel,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.152649
+ethanol_flex_fuel,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.080662
+ethanol_flex_fuel,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.042515
+ethanol_flex_fuel,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.030434
+ethanol_flex_fuel,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,49.981934
+ethanol_flex_fuel,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.009739
+ethanol_flex_fuel,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.072712
+ethanol_flex_fuel,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.158272
+ethanol_flex_fuel,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.223892
+ethanol_flex_fuel,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.459675
+ethanol_flex_fuel,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.464291
+ethanol_flex_fuel,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.51704
+ethanol_flex_fuel,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.55019
+ethanol_flex_fuel,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.569012
+ethanol_flex_fuel,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.4995
+ethanol_flex_fuel,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.441612

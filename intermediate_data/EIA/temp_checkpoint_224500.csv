@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small van,0.0
+lpg,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small van,0.0
+ice_d,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.574841
+ice_d,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.490887
+ice_d,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.529099
+ice_d,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.552868
+ice_d,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.598156
+ice_d,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.621304
+ice_d,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.647125
+ice_d,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.665581
+ice_d,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.68428
+ice_d,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.701557
+ice_d,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.718105
+ice_d,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.730858
+ice_d,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.744343
+ice_d,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.755707
+ice_d,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.76873
+ice_d,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.781033
+ice_d,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.802052
+ice_d,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.807274
+ice_d,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,38.178684
+ice_d,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,38.350494
+ice_d,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,38.522266
+ice_d,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,39.023895
+ice_d,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,39.279015
+ice_d,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,39.570831
+ice_d,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,39.913681
+ice_d,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.073898
+ice_d,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.176826
+ice_d,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.280098
+ice_d,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small van,40.383713
+,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small van,0.0
+phev_d,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+phev_d,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : two seater car,0.0
+ethanol_flex_fuel,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,72.807793
+ethanol_flex_fuel,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,73.03653
+ethanol_flex_fuel,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,73.285126
+ethanol_flex_fuel,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,73.742157
+ethanol_flex_fuel,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,73.853302
+ethanol_flex_fuel,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.03112
+ethanol_flex_fuel,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.484352
+ethanol_flex_fuel,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.529892
+ethanol_flex_fuel,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.573013
+ethanol_flex_fuel,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.632874
+ethanol_flex_fuel,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.706863

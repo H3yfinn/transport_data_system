@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,340.553864
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,340.927094
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,341.39978
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,341.785126
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,342.062622
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,342.522919
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,342.961853
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,343.185516
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,343.890106
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,344.568909
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,345.275452
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,346.098907
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,346.984894
+,lt,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,347.929657
+,lt,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,348.611176
+,lt,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,349.578125
+,lt,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,350.402588
+,lt,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,350.640625
+,lt,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large pickup,351.45459
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,337.369873
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,350.575195
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,344.952606
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,342.33606
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,336.918793
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,336.73822
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,336.538086
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,336.339691
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,335.810028
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,335.209869
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,334.589935
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,334.16272
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,334.053528
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,334.051239
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,333.893097
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,334.31427
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,334.746399
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,335.235107
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,335.858856
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,336.633514
+,lt,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,337.414215
+,lt,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,338.020264
+,lt,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,338.865753
+,lt,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,339.589783
+,lt,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,339.672119
+,lt,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,340.333862
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,357.788879
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,358.582184
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large utility,358.495087
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,277.519775
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,279.854126
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,281.178955
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,281.000336
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,279.051971
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,278.21701
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,276.519287
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,276.035675
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,275.558197
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,274.876068
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,273.998505
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,273.075592
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,272.552856
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,272.541382
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,272.621613
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,272.840271
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,273.030792
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,273.281311
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,273.524628
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,273.788208
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,274.086273
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,274.451965
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,274.919617
+,lt,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,275.418671
+,lt,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,275.791718
+,lt,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,276.330811
+,lt,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,276.800476
+,lt,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,277.199463
+,lt,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large van,277.625824
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,276.687439
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,278.245056
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,278.847473
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,276.355133
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,274.899292
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,274.611267
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,272.575623
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,272.642395
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,273.070129
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,273.520264
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,273.855011
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,274.256348
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,274.793427
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,275.430878
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,276.04422
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,276.832092
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,277.641846
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,278.34668
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,279.333893
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,280.296051
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,281.272095
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,282.339417
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : average,283.430023

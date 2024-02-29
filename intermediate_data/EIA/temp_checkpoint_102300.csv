@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2026,ref2023,bkwh,5-20,electricity : electricity demand : transportation,1.03031
+bev,,,2027,ref2023,bkwh,5-20,electricity : electricity demand : transportation,1.276576
+bev,,,2028,ref2023,bkwh,5-20,electricity : electricity demand : transportation,1.55971
+bev,,,2032,ref2023,bkwh,5-20,electricity : electricity demand : transportation,2.953946
+bev,,,2029,ref2023,bkwh,5-20,electricity : electricity demand : transportation,1.887837
+bev,,,2030,ref2023,bkwh,5-20,electricity : electricity demand : transportation,2.256013
+bev,,,2031,ref2023,bkwh,5-20,electricity : electricity demand : transportation,2.59802
+bev,,,2033,ref2023,bkwh,5-20,electricity : electricity demand : transportation,3.321229
+bev,,,2034,ref2023,bkwh,5-20,electricity : electricity demand : transportation,3.704315
+bev,,,2035,ref2023,bkwh,5-20,electricity : electricity demand : transportation,4.088058
+bev,,,2036,ref2023,bkwh,5-20,electricity : electricity demand : transportation,4.462467
+bev,,,2037,ref2023,bkwh,5-20,electricity : electricity demand : transportation,4.834782
+bev,,,2038,ref2023,bkwh,5-20,electricity : electricity demand : transportation,5.201098
+bev,,,2039,ref2023,bkwh,5-20,electricity : electricity demand : transportation,5.554349
+bev,,,2040,ref2023,bkwh,5-20,electricity : electricity demand : transportation,5.893093
+bev,,,2041,ref2023,bkwh,5-20,electricity : electricity demand : transportation,6.219697
+bev,,,2042,ref2023,bkwh,5-20,electricity : electricity demand : transportation,6.529981
+bev,,,2043,ref2023,bkwh,5-20,electricity : electricity demand : transportation,6.81711
+bev,,,2044,ref2023,bkwh,5-20,electricity : electricity demand : transportation,7.088349
+bev,,,2045,ref2023,bkwh,5-20,electricity : electricity demand : transportation,7.34979
+bev,,,2046,ref2023,bkwh,5-20,electricity : electricity demand : transportation,7.597698
+bev,,,2047,ref2023,bkwh,5-20,electricity : electricity demand : transportation,7.839871
+bev,,,2048,ref2023,bkwh,5-20,electricity : electricity demand : transportation,8.076875
+bev,,,2049,ref2023,bkwh,5-20,electricity : electricity demand : transportation,8.301291
+bev,,,2050,ref2023,bkwh,5-20,electricity : electricity demand : transportation,8.519809
+bev,,,2034,ref2023,bkwh,5-23,electricity : electricity demand : transportation,13.912627
+bev,,,2035,ref2023,bkwh,5-23,electricity : electricity demand : transportation,15.1988
+bev,,,2036,ref2023,bkwh,5-23,electricity : electricity demand : transportation,16.4382
+bev,,,2037,ref2023,bkwh,5-23,electricity : electricity demand : transportation,17.647726
+bev,,,2038,ref2023,bkwh,5-23,electricity : electricity demand : transportation,18.821171
+bev,,,2039,ref2023,bkwh,5-23,electricity : electricity demand : transportation,19.936096
+bev,,,2040,ref2023,bkwh,5-23,electricity : electricity demand : transportation,20.977926
+bev,,,2041,ref2023,bkwh,5-23,electricity : electricity demand : transportation,21.972805
+bev,,,2042,ref2023,bkwh,5-23,electricity : electricity demand : transportation,22.908527
+bev,,,2043,ref2023,bkwh,5-23,electricity : electricity demand : transportation,23.769947
+bev,,,2044,ref2023,bkwh,5-23,electricity : electricity demand : transportation,24.584969
+bev,,,2045,ref2023,bkwh,5-23,electricity : electricity demand : transportation,25.379623
+bev,,,2046,ref2023,bkwh,5-23,electricity : electricity demand : transportation,26.134714
+bev,,,2050,ref2023,bkwh,5-23,electricity : electricity demand : transportation,29.011068
+bev,,,2047,ref2023,bkwh,5-23,electricity : electricity demand : transportation,26.874651
+bev,,,2048,ref2023,bkwh,5-23,electricity : electricity demand : transportation,27.609947
+bev,,,2049,ref2023,bkwh,5-23,electricity : electricity demand : transportation,28.332699
+bev,,,2022,ref2023,bkwh,5-23,electricity : electricity demand : transportation,1.88609
+bev,,,2023,ref2023,bkwh,5-23,electricity : electricity demand : transportation,2.383903
+bev,,,2024,ref2023,bkwh,5-23,electricity : electricity demand : transportation,2.96924
+bev,,,2025,ref2023,bkwh,5-23,electricity : electricity demand : transportation,3.628036
+bev,,,2026,ref2023,bkwh,5-23,electricity : electricity demand : transportation,4.413119
+bev,,,2027,ref2023,bkwh,5-23,electricity : electricity demand : transportation,5.34063
+bev,,,2028,ref2023,bkwh,5-23,electricity : electricity demand : transportation,6.391707
+bev,,,2029,ref2023,bkwh,5-23,electricity : electricity demand : transportation,7.587035
+bev,,,2030,ref2023,bkwh,5-23,electricity : electricity demand : transportation,8.891696
+bev,,,2031,ref2023,bkwh,5-23,electricity : electricity demand : transportation,10.098434
+bev,,,2032,ref2023,bkwh,5-23,electricity : electricity demand : transportation,11.344506
+bev,,,2033,ref2023,bkwh,5-23,electricity : electricity demand : transportation,12.61172
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,17.104813
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,20.81884
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,25.291714
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,30.471529
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,36.671711
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,44.034016
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,52.443638
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,62.011753
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,72.547958
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,82.243622
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,92.229599
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,102.246773
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,112.604744
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,122.836548
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,132.717834
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,142.345612
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,151.66185
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,160.5009
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,168.794739
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,176.638443
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,183.959
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,190.646698
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,196.906891
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,202.55365
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,208.316788
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,213.762802
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,219.044205
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,224.230515
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electricity sales by sector : transportation,229.211716
+,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.022316
+,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.022565
+,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.021182
+,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.021098
+,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.020573
+,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.020002
+,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.019309
+,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.018533
+,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.017717
+,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.016916
+,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.016133
+,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.015434
+,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.014803
+,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.014241
+,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.013707
+,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.013317
+,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : transportation : ethanol used in e85,0.013026

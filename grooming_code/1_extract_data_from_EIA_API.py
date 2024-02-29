@@ -33,7 +33,11 @@ data_source = 'aeo/2023'
 # all_rows_df_prev, offset = EIA.load_previous_brute_forced_series_ids(data_source)
 EIA.setup_for_datasource(data_source)
 #%%
-all_series_ids = EIA.brute_force_scrape_all_for_data_source(data_source, key, data_source_addition='/facet/seriesId')
+RUN_SCRAPE = False
+if RUN_SCRAPE:
+    all_series_ids = EIA.brute_force_scrape_all_for_data_source(data_source, key, data_source_addition='/facet/seriesId')
+else:
+    all_series_ids = pd.read_pickle(f'input_data/EIA/all_series_ids_{data_source.replace("/", "_")}.pkl')
 #%%
 
 #now we have all the rows, we can search for the series we want:
@@ -76,7 +80,7 @@ header = {
 
 QUERY_API_USING_SERIES_ID = True
 if QUERY_API_USING_SERIES_ID:   
-    bad_series_ids, completed_series_ids, all_rows = EIA.run_query_by_series_id(data_source, key, applicable_series, header)
+    all_rows = EIA.run_query_by_series_id(data_source, key, applicable_series, header)
     
     previous_data = EIA.concat_saved_pickle_files(data_source)
     #add concatenated_data to all_rows
@@ -87,4 +91,7 @@ else:
     concatenated_data = pd.read_pickle(f'input_data/EIA/all_scraped_data_{data_source.replace("/", "_")}.pkl')
     # completed_series_ids = concatenated_data['seriesId'].unique().tolist()
     # bad_series_ids = []
+#%%
+
+# pd.read_pickle(f'input_data/EIA/all_series_ids_aeo_2023.pkl')
 #%%

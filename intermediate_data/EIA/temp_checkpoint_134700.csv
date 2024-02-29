@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,18.595083
+,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,19.407637
+,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,20.234331
+,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,21.076092
+,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,21.909864
+,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,22.727869
+,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,23.523249
+,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,24.278812
+,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,24.98554
+,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,25.642826
+,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,26.2374
+,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,26.780058
+,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,27.275333
+,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,27.797888
+,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,28.267788
+,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,28.701488
+,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,29.107708
+,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : total,29.49736
+,car,,2022,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,114.014359
+,car,,2023,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,110.965218
+,car,,2024,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,108.053429
+,car,,2025,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,105.029953
+,car,,2026,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,101.946228
+,car,,2027,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,98.777153
+,car,,2028,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,95.4879
+,car,,2029,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,92.159996
+,car,,2030,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,88.801323
+,car,,2031,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,85.460075
+,car,,2032,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,82.175774
+,car,,2033,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,78.976082
+,car,,2034,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,75.902061
+,car,,2035,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,73.002686
+,car,,2036,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,70.346786
+,car,,2037,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,67.956032
+,car,,2038,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,65.847816
+,car,,2039,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,63.996384
+,car,,2043,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,58.721218
+,car,,2040,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,62.405228
+,car,,2041,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,61.014839
+,car,,2042,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,59.802147
+,car,,2044,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,57.764324
+,car,,2045,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,56.914303
+,car,,2046,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,56.142315
+,car,,2047,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,55.433647
+,car,,2048,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,54.79253
+,car,,2049,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,54.201077
+,car,,2050,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,53.680882
+bev,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+ethanol_flex_fuel,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,4.399558
+ethanol_flex_fuel,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,4.223617
+ethanol_flex_fuel,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,4.031462
+ethanol_flex_fuel,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,3.820365
+ethanol_flex_fuel,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,3.593142
+ethanol_flex_fuel,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,3.351429
+ethanol_flex_fuel,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,3.099581
+ethanol_flex_fuel,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,2.843692
+ethanol_flex_fuel,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,2.589163
+ethanol_flex_fuel,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,2.34386
+ethanol_flex_fuel,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,2.113562
+ethanol_flex_fuel,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.903087
+ethanol_flex_fuel,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.713399
+ethanol_flex_fuel,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.547292
+ethanol_flex_fuel,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.409121
+ethanol_flex_fuel,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.298546
+ethanol_flex_fuel,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.208709
+ethanol_flex_fuel,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.13846
+ethanol_flex_fuel,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.084008
+ethanol_flex_fuel,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,1.038195
+ethanol_flex_fuel,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,0.998423
+ethanol_flex_fuel,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,0.963191
+ethanol_flex_fuel,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,0.932332
+ethanol_flex_fuel,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,0.904309

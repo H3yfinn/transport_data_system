@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3055.774658
+,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3066.651611
+,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3082.359375
+,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3102.418213
+,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3120.737549
+,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3135.62085
+,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3152.917725
+,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3172.435547
+,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3192.100586
+,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3214.562988
+,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3237.580566
+,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3261.584717
+,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3284.897461
+,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3309.039062
+,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3334.703369
+,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3364.522461
+,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3396.535156
+,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3429.562744
+,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3463.024902
+,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : vmt equation components : total vmt,3499.542969
+,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.024334
+,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.023461
+,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.023621
+,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.023889
+,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.024288
+,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.024797
+,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.025291
+,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.025767
+,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.026189
+,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.026596
+,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.026947
+,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027253
+,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027534
+,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027757
+,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027917
+,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.028034
+,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.028101
+,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.028116
+,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.028097
+,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.028052
+,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027996
+,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.02792
+,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027856
+,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027819
+,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027786
+,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.027831
+,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.02794
+,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.0281
+,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas bi-fuel,0.028343
+,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.114899
+,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.110576
+,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.107853
+,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.105383
+,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.103343
+,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.10154
+,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.099687
+,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.098166
+,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.097297
+,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096393
+,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095671
+,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095227
+,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095168
+,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095221
+,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095377
+,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095995
+,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096486
+,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096884
+,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.097119
+,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.097166
+,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.097028
+,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.09674
+,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096432
+,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096127
+,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095888
+,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095823
+,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.095925
+,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096124
+,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : natural gas ice,0.096541
+lpg,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.079431
+lpg,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.071473
+lpg,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.065703
+lpg,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.060731
+lpg,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.056873
+lpg,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.053929
+lpg,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.051277
+lpg,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.048889
+lpg,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.046631
+lpg,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.044505
+lpg,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.042486
+lpg,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.040574
+lpg,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.038765
+lpg,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.037042
+lpg,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.035399
+lpg,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.033835
+lpg,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.032344
+lpg,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.03092
+lpg,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.029562
+lpg,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.02827
+lpg,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.027043
+lpg,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.022766

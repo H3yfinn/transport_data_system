@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2027,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,18.095531
+bev,,,2028,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,18.095531
+bev,,,2029,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,18.031761
+bev,,,2030,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.967987
+bev,,,2031,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.904213
+bev,,,2032,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.840441
+bev,,,2033,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.776669
+bev,,,2034,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.712894
+bev,,,2035,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.649122
+bev,,,2036,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.306345
+bev,,,2037,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.242571
+bev,,,2038,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2039,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2040,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2041,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2042,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2043,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2044,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2045,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2046,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2047,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2048,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2049,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+bev,,,2050,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,17.178801
+,,,2022,ref2023,quads,20_usa,total energy : imports : crude oil,13.824968
+,,,2023,ref2023,quads,20_usa,total energy : imports : crude oil,14.777425
+,,,2024,ref2023,quads,20_usa,total energy : imports : crude oil,15.446031
+,,,2025,ref2023,quads,20_usa,total energy : imports : crude oil,15.30518
+,,,2026,ref2023,quads,20_usa,total energy : imports : crude oil,15.0045
+,,,2027,ref2023,quads,20_usa,total energy : imports : crude oil,15.261106
+,,,2028,ref2023,quads,20_usa,total energy : imports : crude oil,15.230433
+,,,2029,ref2023,quads,20_usa,total energy : imports : crude oil,15.49168
+,,,2030,ref2023,quads,20_usa,total energy : imports : crude oil,15.589063
+,,,2031,ref2023,quads,20_usa,total energy : imports : crude oil,15.686406
+,,,2032,ref2023,quads,20_usa,total energy : imports : crude oil,15.720078
+,,,2033,ref2023,quads,20_usa,total energy : imports : crude oil,15.538974
+,,,2034,ref2023,quads,20_usa,total energy : imports : crude oil,15.709466
+,,,2035,ref2023,quads,20_usa,total energy : imports : crude oil,15.851457
+,,,2036,ref2023,quads,20_usa,total energy : imports : crude oil,15.843707
+,,,2037,ref2023,quads,20_usa,total energy : imports : crude oil,15.807153
+,,,2038,ref2023,quads,20_usa,total energy : imports : crude oil,15.874156
+,,,2039,ref2023,quads,20_usa,total energy : imports : crude oil,15.984639
+,,,2040,ref2023,quads,20_usa,total energy : imports : crude oil,16.045517
+,,,2041,ref2023,quads,20_usa,total energy : imports : crude oil,16.390509
+,,,2042,ref2023,quads,20_usa,total energy : imports : crude oil,16.327881
+,,,2043,ref2023,quads,20_usa,total energy : imports : crude oil,16.155361
+,,,2044,ref2023,quads,20_usa,total energy : imports : crude oil,15.890744
+,,,2045,ref2023,quads,20_usa,total energy : imports : crude oil,15.766374
+,,,2046,ref2023,quads,20_usa,total energy : imports : crude oil,15.490686
+,,,2047,ref2023,quads,20_usa,total energy : imports : crude oil,15.523278
+,,,2048,ref2023,quads,20_usa,total energy : imports : crude oil,15.392778
+,,,2049,ref2023,quads,20_usa,total energy : imports : crude oil,15.059613
+,,,2050,ref2023,quads,20_usa,total energy : imports : crude oil,14.806977
+,,,2022,ref2023,quads,20_usa,total energy : imports : liquid fuels,4.758858
+,,,2023,ref2023,quads,20_usa,total energy : imports : liquid fuels,4.839342
+,,,2024,ref2023,quads,20_usa,total energy : imports : liquid fuels,4.030089
+,,,2025,ref2023,quads,20_usa,total energy : imports : liquid fuels,4.034095
+,,,2026,ref2023,quads,20_usa,total energy : imports : liquid fuels,4.035874
+,,,2027,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.992856
+,,,2028,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.913863
+,,,2029,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.837766
+,,,2030,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.804423
+,,,2031,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.806296
+,,,2032,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.740932
+,,,2033,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.718116
+,,,2034,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.68477
+,,,2035,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.681871
+,,,2036,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.670537
+,,,2037,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.681304
+,,,2038,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.685072
+,,,2039,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.692872
+,,,2040,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.702409
+,,,2041,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.723368
+,,,2042,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.718675
+,,,2043,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.725362
+,,,2044,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.717126
+,,,2045,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.747543
+,,,2046,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.722438
+,,,2047,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.744125
+,,,2048,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.816768
+,,,2049,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.836668
+,,,2050,ref2023,quads,20_usa,total energy : imports : liquid fuels,3.767644
+,,,2022,ref2023,quads,20_usa,total energy : imports : natural gas,2.981649
+,,,2023,ref2023,quads,20_usa,total energy : imports : natural gas,2.808482
+,,,2024,ref2023,quads,20_usa,total energy : imports : natural gas,2.461069
+,,,2025,ref2023,quads,20_usa,total energy : imports : natural gas,2.35087
+,,,2026,ref2023,quads,20_usa,total energy : imports : natural gas,2.25211
+,,,2027,ref2023,quads,20_usa,total energy : imports : natural gas,2.184048
+,,,2028,ref2023,quads,20_usa,total energy : imports : natural gas,2.073739
+,,,2029,ref2023,quads,20_usa,total energy : imports : natural gas,2.040553
+,,,2030,ref2023,quads,20_usa,total energy : imports : natural gas,2.072865
+,,,2031,ref2023,quads,20_usa,total energy : imports : natural gas,2.06794
+,,,2032,ref2023,quads,20_usa,total energy : imports : natural gas,2.11868
+,,,2033,ref2023,quads,20_usa,total energy : imports : natural gas,2.137902
+,,,2034,ref2023,quads,20_usa,total energy : imports : natural gas,2.141702
+,,,2035,ref2023,quads,20_usa,total energy : imports : natural gas,2.125696
+,,,2036,ref2023,quads,20_usa,total energy : imports : natural gas,2.080384
+,,,2037,ref2023,quads,20_usa,total energy : imports : natural gas,2.079351
+,,,2038,ref2023,quads,20_usa,total energy : imports : natural gas,2.136969
+,,,2039,ref2023,quads,20_usa,total energy : imports : natural gas,2.11006

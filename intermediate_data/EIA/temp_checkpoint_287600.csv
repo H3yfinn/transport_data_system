@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : total,421.339508
+,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : total,422.467499
+,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : total,470.181763
+,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : total,460.960754
+,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : total,397.609039
+,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : total,396.609589
+,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.279532
+,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.229171
+,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2026,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2027,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2028,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2029,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2030,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2031,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2032,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2033,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2034,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2035,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2036,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2037,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2038,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2039,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2040,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2041,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2042,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2043,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2044,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2045,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2046,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2047,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2048,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : distillate fuel oil,0.0
+,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,148.489899
+,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,143.989304
+,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,90.417091
+,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,91.599152
+,,,2026,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,93.297485
+,,,2027,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,92.846016
+,,,2028,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,94.663208
+,,,2029,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,98.257118
+,,,2030,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,101.533455
+,,,2031,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,101.041466
+,,,2032,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.370216
+,,,2033,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.63868
+,,,2034,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.601929
+,,,2035,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,99.818321
+,,,2036,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.563911
+,,,2037,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,99.734695
+,,,2038,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.949615
+,,,2039,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.589691
+,,,2040,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.751099
+,,,2041,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.541985
+,,,2042,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,99.775711
+,,,2043,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,99.205032
+,,,2044,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,99.128487
+,,,2045,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,99.839165
+,,,2046,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,96.752853
+,,,2047,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,97.368568
+,,,2048,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,100.35923
+,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,101.711899
+,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : natural gas,103.563652
+bev,,,2023,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,2.812978
+bev,,,2022,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,2.85299
+bev,,,2024,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,2.773902
+bev,,,2025,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,2.911693
+bev,,,2026,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,2.995856
+bev,,,2027,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.051724
+bev,,,2028,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.09132
+bev,,,2029,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.151544
+bev,,,2030,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.204203
+bev,,,2031,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.258663
+bev,,,2032,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.314913
+bev,,,2033,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.371313
+bev,,,2034,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.452604
+bev,,,2035,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.532868
+bev,,,2036,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.61451
+bev,,,2037,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.692594
+bev,,,2038,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.769716
+bev,,,2039,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.854711
+bev,,,2040,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,3.93821
+bev,,,2041,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.024806
+bev,,,2042,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.126327
+bev,,,2043,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.23398
+bev,,,2044,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.343723
+bev,,,2045,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.464386
+bev,,,2046,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.573407
+bev,,,2047,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.656374
+bev,,,2048,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.789616
+bev,,,2049,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,4.918477
+bev,,,2050,ref2023,nom $/mmbtu,5-14,electricity : fuel prices : coal,5.050227
+bev,,,2044,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,3.937757
+bev,,,2041,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,4.043156
+bev,,,2042,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,4.017351
+bev,,,2043,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,3.966433
+bev,,,2045,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,3.878513
+bev,,,2046,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,3.882177
+bev,,,2047,ref2023,2022 $/mmbtu,5-12,electricity : fuel prices : natural gas,3.897431

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2049,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1809.382935
+,,,2050,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1891.470093
+,,,2030,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,621.577698
+,,,2031,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,644.665649
+,,,2032,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,664.561157
+,,,2033,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,692.175415
+,,,2034,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,721.859131
+,,,2035,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,741.528809
+,,,2036,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,771.810669
+,,,2037,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,789.448059
+,,,2038,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,811.997253
+,,,2039,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,836.295227
+,,,2040,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,856.329895
+,,,2041,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,876.965515
+,,,2042,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,892.367065
+,,,2043,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,906.230713
+,,,2044,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,919.787109
+,,,2045,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,932.16687
+,,,2046,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,953.198059
+,,,2047,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,961.88385
+,,,2048,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,973.213074
+,,,2049,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,981.223999
+,,,2050,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,982.677612
+,,,2022,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,389.078888
+,,,2023,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,437.298584
+,,,2024,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,480.686554
+,,,2025,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,511.556763
+,,,2026,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,528.368225
+,,,2027,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,550.565552
+,,,2028,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,569.372314
+,,,2029,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : total,599.444519
+,,,2022,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.5612
+,,,2023,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.603398
+,,,2024,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.658638
+,,,2025,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.704729
+,,,2026,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.747767
+,,,2027,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.800745
+,,,2028,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.853856
+,,,2029,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.906597
+,,,2030,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,0.96025
+,,,2031,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.016923
+,,,2032,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.071568
+,,,2033,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.121735
+,,,2034,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.122288
+,,,2035,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.12683
+,,,2036,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.126382
+,,,2037,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.127776
+,,,2038,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.128401
+,,,2039,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.130486
+,,,2040,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.13545
+,,,2041,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.143631
+,,,2042,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.145825
+,,,2043,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.154219
+,,,2044,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.16212
+,,,2045,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.170447
+,,,2046,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.177325
+,,,2047,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.183087
+,,,2048,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.186864
+,,,2049,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.193909
+,,,2050,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : wind,1.191869
+,,,2022,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.791775
+,,,2023,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.788934
+,,,2024,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.848722
+,,,2025,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.793999
+,,,2026,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.729903
+,,,2027,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.714339
+,,,2028,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.731504
+,,,2029,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.795619
+,,,2030,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.782379
+,,,2031,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.819679
+,,,2032,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.834842
+,,,2033,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.836193
+,,,2034,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.85681
+,,,2035,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.902808
+,,,2036,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.913902
+,,,2037,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.882823
+,,,2038,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.800419
+,,,2039,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.808289
+,,,2040,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.780758
+,,,2041,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.804255
+,,,2042,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.802587
+,,,2043,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.791727
+,,,2044,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.7827
+,,,2045,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.768836
+,,,2046,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.764524
+,,,2047,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.76651
+,,,2048,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.760385
+,,,2049,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.754371
+,,,2050,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : wind,6.743033
+bev,,,2022,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.594516
+bev,,,2023,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.518903
+bev,,,2024,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.545434
+bev,,,2025,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.535777
+bev,,,2026,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.541285
+bev,,,2027,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.541036
+bev,,,2028,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.5668
+bev,,,2029,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.590527
+bev,,,2030,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.611798
+bev,,,2031,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.636527
+bev,,,2032,ref2023,quads,20_usa,commercial : energy consumption by fuel : purchased electricity,4.662858

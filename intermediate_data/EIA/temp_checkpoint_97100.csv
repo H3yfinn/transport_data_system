@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2027,ref2023,tcf,20_usa,natural gas use : residential : new england,0.210802
+,,,2029,ref2023,tcf,20_usa,natural gas use : residential : new england,0.210838
+,,,2022,ref2023,tcf,20_usa,natural gas use : residential : new england,0.216358
+,,,2023,ref2023,tcf,20_usa,natural gas use : residential : new england,0.227854
+,,,2024,ref2023,tcf,20_usa,natural gas use : residential : new england,0.20956
+,,,2022,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.627658
+,,,2023,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.732065
+,,,2024,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.586896
+,,,2025,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.589616
+,,,2026,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.596198
+,,,2027,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.605072
+,,,2028,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.614317
+,,,2029,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.619737
+,,,2030,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.622082
+,,,2031,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.622442
+,,,2032,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.622646
+,,,2033,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.623393
+,,,2034,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.623713
+,,,2035,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.623995
+,,,2036,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.624543
+,,,2037,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.625236
+,,,2038,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.625451
+,,,2039,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.625996
+,,,2040,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.626495
+,,,2041,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.627017
+,,,2042,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.627406
+,,,2043,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.628067
+,,,2044,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.629078
+,,,2045,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.629578
+,,,2046,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.623274
+,,,2047,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.618858
+,,,2048,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.617399
+,,,2049,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.617909
+,,,2050,ref2023,tcf,20_usa,natural gas use : residential : pacific,0.618393
+,,,2022,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.478412
+,,,2023,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.536828
+,,,2024,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.460377
+,,,2025,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.460696
+,,,2026,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.460918
+,,,2027,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.460781
+,,,2028,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.460139
+,,,2029,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.459267
+,,,2030,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.458078
+,,,2031,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.456863
+,,,2032,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.455526
+,,,2033,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.455372
+,,,2034,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.454752
+,,,2035,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.454202
+,,,2036,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.453549
+,,,2037,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.453128
+,,,2038,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.452634
+,,,2039,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.452268
+,,,2040,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451959
+,,,2041,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451699
+,,,2042,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451518
+,,,2043,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451483
+,,,2044,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451574
+,,,2045,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451653
+,,,2046,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451731
+,,,2050,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451972
+,,,2047,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.451997
+,,,2048,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.452077
+,,,2049,ref2023,tcf,20_usa,natural gas use : residential : south atlantic,0.452088
+,,,2022,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.449491
+,,,2023,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424646
+,,,2024,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.42856
+,,,2025,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.432626
+,,,2026,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.435407
+,,,2027,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.436802
+,,,2028,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.436983
+,,,2029,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.436132

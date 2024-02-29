@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,78.820198
+fcev,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,76.984863
+fcev,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,75.288292
+fcev,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,73.753296
+fcev,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,72.239601
+fcev,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,70.848503
+fcev,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,69.588989
+fcev,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,68.419838
+fcev,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,67.30854
+fcev,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,66.246582
+fcev,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,65.244324
+fcev,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,64.219536
+fcev,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,63.227108
+fcev,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,62.27684
+fcev,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,61.372059
+fcev,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,60.509415
+fcev,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,59.686829
+fcev,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,58.904892
+fcev,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,58.16106
+fcev,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,57.45179
+fcev,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,56.775173
+fcev,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,56.127342
+fcev,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,55.508976
+fcev,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,54.918842
+fcev,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,54.355568
+fcev,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,53.817966
+fcev,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,53.312313
+fcev,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,52.816002
+fcev,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+bev,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,35.553772
+bev,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,36.179367
+bev,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,36.332844
+bev,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,36.584877
+bev,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,36.892998
+bev,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.016235
+bev,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.042389
+bev,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.074638
+bev,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.155968
+bev,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.224182
+bev,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.226307
+bev,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.21479
+bev,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.203114
+bev,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.195839
+bev,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.187595
+bev,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.183281
+bev,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.177826
+bev,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.17289
+bev,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.170719
+bev,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.166977
+bev,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.161087
+bev,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.154343
+bev,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.147774
+bev,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.14135
+bev,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.136406
+bev,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.144913
+bev,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,37.13261
+bev,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,35.482704
+bev,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small van,35.530685
+ice_g,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,31.347101
+ice_g,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,31.628565
+ice_g,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,31.908731
+ice_g,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,32.545769
+ice_g,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,32.850807
+ice_g,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,33.224682
+ice_g,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,33.695976
+ice_g,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,33.878536
+ice_g,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,33.9687
+ice_g,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,34.060112
+ice_g,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,34.155087
+ice_g,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,34.255112
+ice_g,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,34.288139
+ice_g,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : small van,34.312935

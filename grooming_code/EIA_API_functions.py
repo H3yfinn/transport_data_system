@@ -41,6 +41,14 @@ def make_api_call(data_source, api_key, query_string, headers=None, url_start='h
     if query_string != '':
         url = f'{url_start}/{data_source}/data/?api_key={api_key}&{query_string}'
     try:
+        # breakpoint()
+        # #we know that this defo works:
+        # # url = f'https://api.eia.gov/v2/aeo/2023/data/?api_key=tCnavZWYLeKCs7nKHvKVGpnAqMKXIXoXVoxa0GXF&frequency=annual&data[]=value&facets[scenario][]=ref2023&facets[seriesId][]={seriesid}&offset=0'
+        # # response = requests.get(f'{url}')
+        # # data = response.json()
+
+        # # with open('data.txt', 'w') as outfile:
+        # #     json.dump(data, outfile)
         response = requests.get(f'{url}')
     except Exception as e:
         if 'CERTIFICATE_VERIFY_FAILED' in str(e):
@@ -113,19 +121,27 @@ def query_all_applicable_data(data_source, key,
     all_rows = []
     ALL_ROWS_RETURNED = False
     error_code = None
+    i=0
     while not ALL_ROWS_RETURNED:
         query_string = convert_to_query_string(header)
         if (query_string != ''):
             query_string += '&offset=' + str(offset)
-            
         try:
-            
             data = make_api_call(data_source, key, query_string, headers=None, url_start='https://api.eia.gov/v2')
-            
         #######ERROR HANDLING######
         except Exception as e:
             #hope to catch JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+            #if error is JSONDecodeError('Expecting value: line 1 column 1 (char 0)') then wait 60 seconds and try again, it seems like the api is just overloaded
+            if 'Expecting value: line 1 column 1 (char 0)' in str(e):
+                print('JSONDecodeError: Expecting value: line 1 column 1 (char 0)')
+                time.sleep(60)
+                i+=1
+                if i>10:
+                    breakpoint()
+                    raise Exception('tried 10 times to get data and failed. Exception was: {}'.format(e))
+                continue
             if THROW_ERROR:
+                breakpoint()
                 raise Exception('Error in api call. Exception was: {}'.format(e))
             else: 
                 error_code=e
@@ -139,12 +155,14 @@ def query_all_applicable_data(data_source, key,
                     return all_rows, error_code, offset, ALL_DATA_QUERIED
                 else:
                     if THROW_ERROR:
+                        breakpoint()
                         raise Exception('Something went wrong, error from api call was not as expected: {}'.format(data['error']))
                     else: 
                         error_code=data['error']
                         return all_rows, error_code, offset, ALL_DATA_QUERIED
             except:
                 if THROW_ERROR:
+                    breakpoint()
                     raise Exception('Something went wrong, error from api call was not as expected: {}'.format(data['error']))
                 else: 
                     error_code=data['error']
@@ -247,7 +265,8 @@ def run_query_by_series_id(data_source, key, applicable_series, header, MAX_DELA
             continue    
         # .contains('NAME') #check if the series name contains the string 'NAME'
         elif 'NAME' in id or 'NAME' in name:
-            breakpoint()
+            print(f'series_id contains NAME for seriesName {name}, skipping')
+            # breakpoint()
             continue
         else:
             identifier = id

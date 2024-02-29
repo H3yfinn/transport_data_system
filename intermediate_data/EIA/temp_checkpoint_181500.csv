@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2027,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,35.51701
+bev,,,2028,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,35.400944
+bev,,,2029,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,34.03886
+bev,,,2030,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,34.37706
+bev,,,2031,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,33.994251
+bev,,,2032,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,34.172169
+bev,,,2033,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,34.364708
+bev,,,2034,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,33.725517
+bev,,,2035,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,33.109558
+bev,,,2036,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,33.468647
+bev,,,2037,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,32.635117
+bev,,,2038,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,30.967012
+bev,,,2039,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,30.4296
+bev,,,2040,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,30.45023
+bev,,,2041,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,32.028084
+bev,,,2042,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,31.780724
+bev,,,2043,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,32.788204
+bev,,,2044,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,32.821789
+bev,,,2045,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,33.904961
+bev,,,2046,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,32.408283
+bev,,,2047,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,33.528946
+bev,,,2048,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,36.34156
+bev,,,2049,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,36.223228
+bev,,,2050,ref2023,bkwh,5-23,electricity : electric power sector : generation : natural gas,35.355389
+bev,,,2022,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.033133
+bev,,,2023,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.322947
+bev,,,2024,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.297352
+bev,,,2025,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2026,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2027,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.258005
+bev,,,2028,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2029,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.258007
+bev,,,2030,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.258003
+bev,,,2031,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.258003
+bev,,,2032,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.258003
+bev,,,2033,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2034,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2035,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2036,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2037,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2038,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2039,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2040,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2041,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2042,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2043,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2044,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2045,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2046,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271757
+bev,,,2047,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2048,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2049,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271757
+bev,,,2050,ref2023,bkwh,5-2,electricity : electric power sector : generation : nuclear,29.271755
+bev,,,2022,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,16.999798
+bev,,,2023,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.169495
+bev,,,2024,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.154507
+bev,,,2025,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2026,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2027,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2028,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2029,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2030,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2031,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2032,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,17.139519
+bev,,,2033,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,8.566385
+bev,,,2034,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,8.566385
+bev,,,2035,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,8.566385
+bev,,,2036,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2037,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2038,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2039,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2040,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2041,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2042,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2043,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2044,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2045,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2046,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2047,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2048,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2049,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2050,ref2023,bkwh,5-4,electricity : electric power sector : generation : nuclear,0.0
+bev,,,2022,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,12.931375
+bev,,,2023,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.858301
+bev,,,2024,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.850569
+bev,,,2025,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842837
+bev,,,2026,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2027,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2028,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2029,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2030,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2031,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2032,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2033,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2034,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2035,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2036,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2037,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2038,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836
+bev,,,2039,ref2023,bkwh,5-5,electricity : electric power sector : generation : nuclear,8.842836

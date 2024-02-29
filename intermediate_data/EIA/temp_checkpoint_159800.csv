@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2048,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.136773
+bev,,,2049,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.137641
+bev,,,2050,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.138287
+bev,,,2022,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.932231
+bev,,,2023,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.943999
+bev,,,2024,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.954985
+bev,,,2025,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.966586
+bev,,,2026,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.978653
+bev,,,2027,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.990484
+bev,,,2028,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.001943
+bev,,,2029,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.012981
+bev,,,2030,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.023422
+bev,,,2031,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.033579
+bev,,,2032,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.043442
+bev,,,2033,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.043284
+bev,,,2034,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.03752
+bev,,,2035,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.032037
+bev,,,2036,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.026696
+bev,,,2037,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.021409
+bev,,,2038,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.016134
+bev,,,2039,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.011338
+bev,,,2040,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.006963
+bev,,,2041,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,1.003034
+bev,,,2042,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.999559
+bev,,,2043,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.996529
+bev,,,2044,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.993921
+bev,,,2045,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.991708
+bev,,,2046,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.989854
+bev,,,2047,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.988325
+bev,,,2048,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.987083
+bev,,,2049,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.986091
+bev,,,2050,ref2023,ef,20_usa,residential equipment : stock average efficiency : water heaters : electric,0.98531
+bev,,,2049,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,31.729534
+bev,,,2050,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,30.684322
+bev,,,2022,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,80.242615
+bev,,,2023,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,73.03791
+bev,,,2024,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,73.19223
+bev,,,2025,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,68.826263
+bev,,,2026,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,60.756016
+bev,,,2027,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,58.067516
+bev,,,2028,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,50.254181
+bev,,,2029,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,43.197887
+bev,,,2030,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,37.577309
+bev,,,2031,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,36.144794
+bev,,,2032,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.430138
+bev,,,2033,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,36.143932
+bev,,,2034,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,34.759541
+bev,,,2035,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,34.892616
+bev,,,2036,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.673267
+bev,,,2037,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.676937
+bev,,,2038,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,36.259777
+bev,,,2039,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,34.333652
+bev,,,2040,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.21962
+bev,,,2041,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.887161
+bev,,,2042,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,36.234875
+bev,,,2043,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.517796
+bev,,,2044,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,35.286385
+bev,,,2045,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,33.735889
+bev,,,2046,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,32.498642
+bev,,,2047,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,32.927345
+bev,,,2048,ref2023,mmmt co2,1-3,carbon dioxide : commercial : electricity,32.369335
+bev,,,2022,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,44.552036
+bev,,,2023,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,45.507473
+bev,,,2024,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,44.318066
+bev,,,2025,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,43.534367
+bev,,,2026,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,41.500538
+bev,,,2027,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,35.651928
+bev,,,2028,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,31.572107
+bev,,,2029,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,27.909563
+bev,,,2030,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,26.287556
+bev,,,2031,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,25.806156
+bev,,,2032,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,25.112101
+bev,,,2033,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,24.499445
+bev,,,2034,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,23.686687
+bev,,,2035,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,23.13637
+bev,,,2036,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,22.986219
+bev,,,2037,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,23.423883
+bev,,,2041,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,21.617395
+bev,,,2038,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,23.17169
+bev,,,2039,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,23.01087
+bev,,,2040,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,22.409353
+bev,,,2042,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,21.475899
+bev,,,2043,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,22.270691
+bev,,,2044,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,22.326385
+bev,,,2045,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,22.443611
+bev,,,2046,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,21.140568
+bev,,,2047,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,21.026552
+bev,,,2048,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,21.33243
+bev,,,2049,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,21.079397
+bev,,,2050,ref2023,mmmt co2,1-6,carbon dioxide : commercial : electricity,20.680845
+bev,,,2022,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,59.580357
+bev,,,2023,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,50.577358
+bev,,,2024,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,53.04353
+bev,,,2025,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,47.954182
+bev,,,2026,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,46.270725
+bev,,,2027,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,43.862755
+bev,,,2028,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,41.772419
+bev,,,2029,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,39.066513
+bev,,,2030,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,38.132107
+bev,,,2031,ref2023,mmmt co2,1-2,carbon dioxide : commercial : electricity,36.943764

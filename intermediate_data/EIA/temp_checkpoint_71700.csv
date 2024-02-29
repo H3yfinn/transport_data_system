@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1492.142822
+bev,,,2022,ref2023,quads,20_usa,commercial : electricity related losses,8.418628
+bev,,,2023,ref2023,quads,20_usa,commercial : electricity related losses,8.114022
+bev,,,2024,ref2023,quads,20_usa,commercial : electricity related losses,8.191726
+bev,,,2025,ref2023,quads,20_usa,commercial : electricity related losses,8.159429
+bev,,,2026,ref2023,quads,20_usa,commercial : electricity related losses,8.091992
+bev,,,2027,ref2023,quads,20_usa,commercial : electricity related losses,8.006085
+bev,,,2028,ref2023,quads,20_usa,commercial : electricity related losses,7.955819
+bev,,,2029,ref2023,quads,20_usa,commercial : electricity related losses,7.915802
+bev,,,2030,ref2023,quads,20_usa,commercial : electricity related losses,7.896358
+bev,,,2031,ref2023,quads,20_usa,commercial : electricity related losses,7.930013
+bev,,,2032,ref2023,quads,20_usa,commercial : electricity related losses,8.003522
+bev,,,2033,ref2023,quads,20_usa,commercial : electricity related losses,8.026731
+bev,,,2034,ref2023,quads,20_usa,commercial : electricity related losses,8.080197
+bev,,,2035,ref2023,quads,20_usa,commercial : electricity related losses,8.120834
+bev,,,2036,ref2023,quads,20_usa,commercial : electricity related losses,8.149742
+bev,,,2037,ref2023,quads,20_usa,commercial : electricity related losses,8.150818
+bev,,,2038,ref2023,quads,20_usa,commercial : electricity related losses,8.118296
+bev,,,2039,ref2023,quads,20_usa,commercial : electricity related losses,8.079234
+bev,,,2040,ref2023,quads,20_usa,commercial : electricity related losses,8.068868
+bev,,,2041,ref2023,quads,20_usa,commercial : electricity related losses,8.079835
+bev,,,2042,ref2023,quads,20_usa,commercial : electricity related losses,8.125821
+bev,,,2043,ref2023,quads,20_usa,commercial : electricity related losses,8.163304
+bev,,,2044,ref2023,quads,20_usa,commercial : electricity related losses,8.210293
+bev,,,2045,ref2023,quads,20_usa,commercial : electricity related losses,8.270639
+bev,,,2046,ref2023,quads,20_usa,commercial : electricity related losses,8.296746
+bev,,,2047,ref2023,quads,20_usa,commercial : electricity related losses,8.347886
+bev,,,2048,ref2023,quads,20_usa,commercial : electricity related losses,8.401999
+bev,,,2049,ref2023,quads,20_usa,commercial : electricity related losses,8.450187
+bev,,,2050,ref2023,quads,20_usa,commercial : electricity related losses,8.512757
+,,,2022,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.797636
+,,,2023,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.762893
+,,,2024,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.741297
+,,,2025,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.756176
+,,,2026,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.768006
+,,,2027,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.775035
+,,,2028,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.781416
+,,,2029,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.783705
+,,,2030,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.783637
+,,,2031,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.783028
+,,,2032,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.782116
+,,,2033,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.780068
+,,,2034,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.777298
+,,,2035,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.774127
+,,,2036,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.771489
+,,,2037,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.768727
+,,,2038,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.765065
+,,,2039,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.761991
+,,,2040,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.758515
+,,,2041,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.754943
+,,,2042,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.751886
+,,,2043,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.749838
+,,,2044,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.748305
+,,,2045,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.746462
+,,,2046,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.744477
+,,,2047,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.742581
+,,,2048,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.740934
+,,,2049,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.739178
+,,,2050,ref2023,tcf,20_usa,natural gas use : commercial : east north central,0.737221
+,,,2022,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.146895
+,,,2023,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.142467
+,,,2024,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.136505
+,,,2025,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.13878
+,,,2026,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.140319
+,,,2027,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.141208
+,,,2028,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.141659
+,,,2029,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.142077
+,,,2030,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.142483
+,,,2031,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.142986
+,,,2032,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143343
+,,,2033,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143503
+,,,2034,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143546
+,,,2035,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143549
+,,,2036,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.14365
+,,,2037,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143695
+,,,2038,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143591
+,,,2039,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143566
+,,,2040,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143435
+,,,2041,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.14326
+,,,2042,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143133
+,,,2043,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143145
+,,,2044,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143242
+,,,2045,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143267
+,,,2046,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143271
+,,,2047,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143296
+,,,2048,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.14335
+,,,2049,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143434
+,,,2050,ref2023,tcf,20_usa,natural gas use : commercial : east south central,0.143468
+,,,2022,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.640363
+,,,2023,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.678712
+,,,2024,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.64944
+,,,2025,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.638436
+,,,2026,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.638107
+,,,2027,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.635487
+,,,2028,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.64471
+,,,2029,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.648949
+,,,2030,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.652425
+,,,2031,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.655337
+,,,2032,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.657688
+,,,2033,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.658207

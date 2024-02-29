@@ -1,0 +1,38 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,mt,,2022,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,58.533962
+,mt,,2023,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,58.189903
+,mt,,2024,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,59.121529
+,mt,,2025,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,59.930908
+,mt,,2026,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,60.450066
+,mt,,2027,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,60.826935
+,mt,,2028,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,61.373177
+,mt,,2029,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,61.943844
+,mt,,2030,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,62.537365
+,mt,,2031,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,63.173996
+,mt,,2032,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,63.715626
+,mt,,2033,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,64.216255
+,mt,,2034,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,64.673752
+,mt,,2035,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,65.060974
+,mt,,2036,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,65.459312
+,mt,,2037,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,65.857445
+,mt,,2038,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,66.253372
+,mt,,2039,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,66.638733
+,mt,,2040,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,67.008743
+,mt,,2041,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,67.379539
+,mt,,2042,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,67.743271
+,mt,,2043,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,68.113403
+,mt,,2044,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,68.470627
+,mt,,2045,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,68.840988
+,mt,,2046,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,69.225998
+,mt,,2047,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,69.611626
+,mt,,2048,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,69.998138
+,mt,,2049,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,70.387711
+,mt,,2050,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,70.773308
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0
+fcev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : large crossover car,0.0

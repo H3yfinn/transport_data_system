@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2035,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.634286
+,,,2036,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.661597
+,,,2037,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.6744
+,,,2038,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.685153
+,,,2039,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.693208
+,,,2040,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.698021
+,,,2041,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.699372
+,,,2042,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.697274
+,,,2043,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.69194
+,,,2047,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.649206
+,,,2044,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.683793
+,,,2045,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.673481
+,,,2046,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.661708
+,,,2048,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.636743
+,,,2049,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.624902
+,,,2050,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : central air conditioners,15.614152
+bev,,,2022,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,14.11839
+bev,,,2023,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,14.361896
+bev,,,2024,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,14.581603
+bev,,,2025,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,14.788684
+bev,,,2026,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,14.981616
+bev,,,2027,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.161526
+bev,,,2028,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.328118
+bev,,,2029,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.482331
+bev,,,2030,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.623494
+bev,,,2031,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.752029
+bev,,,2032,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.867741
+bev,,,2033,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,15.967607
+bev,,,2034,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.05327
+bev,,,2035,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.123375
+bev,,,2036,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.175518
+bev,,,2037,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.207474
+bev,,,2038,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.236523
+bev,,,2039,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.262094
+bev,,,2040,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.28384
+bev,,,2041,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.301706
+bev,,,2042,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.315929
+bev,,,2043,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.326824
+bev,,,2044,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.334866
+bev,,,2045,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.340574
+bev,,,2046,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.344492
+bev,,,2047,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.347061
+bev,,,2048,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.34874
+bev,,,2049,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.349838
+bev,,,2050,ref2023,seer,20_usa,residential equipment : stock average efficiency : space cooling : electric heat pumps,16.35058
+,,,2022,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.294298
+,,,2023,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.378965
+,,,2024,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.470779
+,,,2025,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.555712
+,,,2026,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.63078
+,,,2027,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.69559
+,,,2028,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.751351
+,,,2029,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.797001
+,,,2030,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.849714
+,,,2031,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.886739
+,,,2032,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.908359
+,,,2033,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.930096
+,,,2034,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.951797
+,,,2035,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.972926
+,,,2036,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,11.993067
+,,,2037,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.011563
+,,,2038,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.027761
+,,,2039,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.0411
+,,,2040,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.063248
+,,,2041,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.082109
+,,,2042,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.098355
+,,,2043,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.112704
+,,,2044,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.125787
+,,,2045,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.138025
+,,,2046,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.149449
+,,,2047,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.159873
+,,,2048,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.168983
+,,,2049,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.17645
+,,,2050,ref2023,eer,20_usa,residential equipment : stock average efficiency : space cooling : room air conditioners,12.18211
+bev,,,2022,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.210587
+bev,,,2023,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.304102
+bev,,,2024,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.388268
+bev,,,2025,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.46823
+bev,,,2026,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.543405
+bev,,,2027,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.61423
+bev,,,2028,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.680594
+bev,,,2029,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.742821
+bev,,,2030,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.800603
+bev,,,2031,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.854053
+bev,,,2032,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.903027
+bev,,,2033,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.946011
+bev,,,2034,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,8.983779
+bev,,,2035,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.015677
+bev,,,2036,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.040678
+bev,,,2037,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.057808
+bev,,,2038,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.073445
+bev,,,2039,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.087294
+bev,,,2040,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.099171
+bev,,,2041,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.109041
+bev,,,2042,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.117004
+bev,,,2043,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.123222
+bev,,,2044,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.127919
+bev,,,2045,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.131365
+bev,,,2046,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.133833
+bev,,,2047,ref2023,hspf,20_usa,residential equipment : stock average efficiency : main space heaters : electric heat pumps,9.13556

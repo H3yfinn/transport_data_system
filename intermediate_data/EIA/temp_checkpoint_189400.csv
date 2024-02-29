@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,644.631958
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,625.429016
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,625.598083
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,625.896912
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,626.152649
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,626.436401
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,626.438843
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,626.196777
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,626.002136
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,625.141296
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,625.259399
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : power only : nuclear,624.860901
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,10.012234
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,9.508157
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,9.58794
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,9.267056
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,8.562148
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,7.868519
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,7.179366
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.775854
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.486185
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.203713
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.167349
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.162924
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.134764
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.117866
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,6.030214
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,5.846374
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,5.575827
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,5.465005
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,5.370709
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,5.097988
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,4.779179
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,4.454635
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,4.106789
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,3.743888
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,3.705137
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,3.711403
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,3.688313
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,3.702795
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : power only : petroleum,3.687182
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-28.283215
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-22.979378
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-25.068142
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-26.707905
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-30.580137
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-32.549839
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-33.796047
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-35.146496
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-36.587879
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-38.203732
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,0.554764
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-0.081639
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-1.123405
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-1.909271
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-2.485893
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-2.913956
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-4.28503
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-4.981781
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-5.670702
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-6.504322
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-7.709224
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-9.168589
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-10.592759
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-11.908464
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-13.402108
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-15.52808
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-17.882429
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-20.471281
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : power only : pumped storage/other,-39.922955
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,884.929199
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,961.459106
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,1051.532837
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,1219.098022
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,1425.474121
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,1638.205811
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,1823.229736
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,1963.251099
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2082.261475
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2166.423828
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2239.35498
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2324.464844
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2389.763428
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2442.635742
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2496.030518
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2538.811279
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2579.896484
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2615.169922
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2652.873047
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2680.011475
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2705.77832
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2740.464355
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2791.212402
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2836.367432
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2890.972412
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2939.074707
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,2983.045654
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,3026.338867
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : power only : renewable sources,3076.762451
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : power only : total,3951.36792

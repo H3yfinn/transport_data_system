@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,,,2049,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2050,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2022,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,
+fcev,,,2023,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2024,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2025,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2026,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2027,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2028,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2029,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2030,ref2023,gw,5-20,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2024,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2022,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,
+fcev,,,2023,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2025,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2026,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2027,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2028,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2029,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2030,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2031,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2032,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2033,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2034,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2035,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2036,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2037,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2038,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2039,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2040,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2041,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2042,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2043,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2044,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2045,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2046,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2047,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2048,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2049,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+fcev,,,2050,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : fuel cells,0.0
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,1.021
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,2.2239
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,2.2239
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,2.713901
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,2.713901
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,2.866901
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.452901
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.452901
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.684901
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.684901
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.684901
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.684901
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.684901
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,3.825901
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : total,4.262901
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,2.2484
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,2.4424
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,2.4424
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,4.5181
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,4.5181
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,5.568101
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,6.9111
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,6.9111
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,6.921
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,6.921
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,8.168
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,8.168
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,8.168
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,9.233001
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,9.233001
+bev,,,2038,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,9.233001
+bev,,,2039,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,10.048001
+bev,,,2040,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,11.292003
+bev,,,2041,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,12.478002
+bev,,,2042,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,12.478002
+bev,,,2043,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,12.478002
+bev,,,2044,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,12.478002
+bev,,,2045,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,12.478002
+bev,,,2046,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,14.479001
+bev,,,2047,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,14.479001
+bev,,,2048,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,14.479001
+bev,,,2049,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,14.479001
+bev,,,2050,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : total,14.479001
+bev,,,2022,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : total,
+bev,,,2023,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : total,2.0652

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2050,ref2023,billion 2012 $,20_usa,iron and steel : value of shipments,145.065872
+,,,2048,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,573.516479
+,,,2049,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,577.695251
+,,,2050,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,585.69397
+,,,2022,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,399.612
+,,,2023,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,393.562744
+,,,2024,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,393.805054
+,,,2025,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,398.591217
+,,,2026,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,413.202576
+,,,2027,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,426.062225
+,,,2028,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,431.621918
+,,,2029,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,436.478943
+,,,2030,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,441.383942
+,,,2031,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,448.802399
+,,,2032,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,460.855835
+,,,2033,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,470.085388
+,,,2034,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,477.911438
+,,,2035,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,487.048309
+,,,2036,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,495.56311
+,,,2037,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,503.838593
+,,,2038,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,512.09668
+,,,2039,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,518.914551
+,,,2040,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,525.789795
+,,,2041,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,533.872192
+,,,2042,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,541.033691
+,,,2043,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,546.686523
+,,,2044,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,551.029541
+,,,2045,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,554.636536
+,,,2046,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,560.653076
+,,,2047,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : machinery,567.371582
+,,,2022,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,722.178894
+,,,2023,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,701.534912
+,,,2024,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,702.08783
+,,,2025,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,704.140869
+,,,2026,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,709.146729
+,,,2027,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,706.468628
+,,,2028,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,708.540527
+,,,2029,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,706.825073
+,,,2030,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,708.710571
+,,,2031,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,711.20166
+,,,2032,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,717.273926
+,,,2033,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,723.079651
+,,,2034,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,726.817017
+,,,2035,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,728.952881
+,,,2036,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,731.616821
+,,,2037,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,734.788757
+,,,2038,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,736.190369
+,,,2039,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,739.040527
+,,,2040,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,738.382629
+,,,2041,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,738.591675
+,,,2042,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,740.92688
+,,,2043,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,745.110718
+,,,2044,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,749.238159
+,,,2045,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,749.896912
+,,,2046,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,752.707336
+,,,2047,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,752.015015
+,,,2048,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,755.056396
+,,,2049,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,759.273682
+,,,2050,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : mining,763.390564
+,,,2022,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1752.619263
+,,,2023,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1740.406128
+,,,2024,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1734.435181
+,,,2025,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1742.105103
+,,,2026,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1761.450928
+,,,2027,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1783.649658
+,,,2028,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1799.002686
+,,,2029,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1810.927734
+,,,2030,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1819.392578
+,,,2031,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1829.69043
+,,,2032,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1850.428955
+,,,2033,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1868.578979
+,,,2034,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1883.729492
+,,,2035,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1901.365845
+,,,2036,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1917.963623
+,,,2037,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1935.202271
+,,,2038,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1952.747192
+,,,2039,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1967.135986
+,,,2040,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,1982.799805
+,,,2041,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2001.639282
+,,,2042,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2021.442139
+,,,2043,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2038.790405
+,,,2044,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2052.730225
+,,,2045,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2065.012207
+,,,2046,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2080.73877
+,,,2047,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2098.185791
+,,,2048,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2112.076172
+,,,2049,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2124.890625
+,,,2050,ref2023,billion 2012 $,1-3,industrial macroeconomic : total industrial value of shipments,2146.980469
+,,,2022,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,626.122437
+,,,2023,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,628.701538
+,,,2024,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,631.603821
+,,,2025,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,638.390503
+,,,2026,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,649.22113
+,,,2027,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,661.441528
+,,,2028,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,671.431213
+,,,2029,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,679.910461
+,,,2030,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,687.906677
+,,,2031,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,697.647766
+,,,2032,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,710.696594
+,,,2033,ref2023,billion 2012 $,1-6,industrial macroeconomic : total industrial value of shipments,721.852661

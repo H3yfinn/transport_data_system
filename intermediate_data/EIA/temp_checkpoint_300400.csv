@@ -1,0 +1,77 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.84869
+bev,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.712517
+bev,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.506089
+bev,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.17851
+bev,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.021192
+bev,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,3.855937
+bev,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,3.6952
+bev,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,3.80571
+bev,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,3.913843
+bev,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.001307
+bev,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.112838
+bev,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.208724
+bev,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.334708
+bev,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.454296
+bev,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.570422
+bev,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.682549
+bev,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.794014
+bev,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,4.914649
+bev,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.043743
+bev,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.190743
+bev,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.306251
+bev,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.453027
+bev,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.56563
+bev,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.722291
+bev,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,5.914797
+bev,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,6.064544
+bev,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,6.222229
+bev,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,6.402398
+bev,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : distillate fuel oil,6.558612
+,,,2022,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,97.775391
+,,,2023,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,98.249626
+,,,2024,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,112.876907
+,,,2025,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,110.262444
+,,,2026,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,113.532791
+,,,2027,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,117.281464
+,,,2028,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,120.742378
+,,,2029,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,123.976883
+,,,2030,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,127.500977
+,,,2031,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,131.026474
+,,,2032,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,134.812744
+,,,2033,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,138.76387
+,,,2034,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,142.857986
+,,,2035,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,147.182938
+,,,2036,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,151.081757
+,,,2037,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,155.247559
+,,,2038,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,159.561462
+,,,2039,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,163.721832
+,,,2040,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,167.965836
+,,,2041,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,172.708511
+,,,2042,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,176.76915
+,,,2043,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,181.495026
+,,,2044,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,185.554199
+,,,2045,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,190.254974
+,,,2046,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,196.750259
+,,,2050,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,219.61142
+,,,2047,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,201.401093
+,,,2048,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,207.421021
+,,,2049,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,213.415756
+lpg,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.574961
+lpg,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.537145
+lpg,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.567952
+lpg,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.748713
+lpg,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.690401
+lpg,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.594827
+lpg,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.511864
+lpg,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.528536
+lpg,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.650412
+lpg,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.746783
+lpg,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.862185
+lpg,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.995953
+lpg,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.129671
+lpg,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.247339
+lpg,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.353256
+lpg,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.458637
+lpg,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.583486
+lpg,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.673926

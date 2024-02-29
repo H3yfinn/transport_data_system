@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.548314
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.548407
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.545568
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.543765
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : petroleum,0.542173
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.520349
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.569669
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.565332
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.570071
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.587374
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.568335
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.580658
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.597604
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.588325
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.602483
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.573909
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.621058
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.596128
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.601454
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.607036
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.612136
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.615227
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.624566
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.62319
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.625131
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.626157
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.626215
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.626903
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.62739
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.627282
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.628072
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.628958
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.629664
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : renewable sources,3.630665
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,137.294601
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,134.517227
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,132.991486
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,132.619354
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,129.659973
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,129.656677
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,129.654205
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,129.654984
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,128.222733
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.093269
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.740501
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.741257
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.736549
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.739746
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.756218
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.772919
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.744736
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.752159
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.892921
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.147583
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.146996
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.147682
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.158119
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.863167
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.862518
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.852806
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.156265
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,127.079498
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : combined heat and power : total,126.912796
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4088.662598
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4026.928467
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4066.703125
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4091.481445
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4124.439453
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4152.770996
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4187.774414
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4221.410645
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4246.555664
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4275.538086
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4310.049805
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4335.319824
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4365.550293
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4399.467773
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4433.355957
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4465.679199
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4496.244141
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4523.456543

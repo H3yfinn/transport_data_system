@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2032,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.963176
+,,,2033,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.927812
+,,,2034,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.89152
+,,,2035,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.858149
+,,,2036,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.827892
+,,,2037,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.799458
+,,,2038,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.772603
+,,,2039,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.747331
+,,,2040,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.724001
+,,,2041,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.701627
+,,,2042,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.680096
+,,,2043,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.659099
+,,,2044,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.639427
+,,,2045,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.620771
+,,,2046,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.60194
+,,,2047,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.583459
+,,,2048,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.565546
+,,,2049,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.547538
+,,,2050,ref2023,mmmt co2,1-4,carbon dioxide : residential : petroleum,4.530248
+,,,2022,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,2.146771
+,,,2023,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.933142
+,,,2024,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.790323
+,,,2025,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.777019
+,,,2026,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.772688
+,,,2027,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.772206
+,,,2028,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.772472
+,,,2029,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.770472
+,,,2030,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.767409
+,,,2031,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.760645
+,,,2032,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.753046
+,,,2033,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.746492
+,,,2034,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.739711
+,,,2035,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.734198
+,,,2036,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.730113
+,,,2037,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.72843
+,,,2038,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.727068
+,,,2039,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.726282
+,,,2040,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.727379
+,,,2041,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.729514
+,,,2042,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.732354
+,,,2043,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.736518
+,,,2044,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.741373
+,,,2045,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.747786
+,,,2046,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.754817
+,,,2047,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.762406
+,,,2048,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.770205
+,,,2049,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.778404
+,,,2050,ref2023,mmmt co2,1-7,carbon dioxide : residential : petroleum,1.787269
+,,,2022,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,282.142456
+,,,2023,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,283.435516
+,,,2024,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,281.438995
+,,,2025,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,277.492249
+,,,2026,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,275.874176
+,,,2027,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,273.564575
+,,,2028,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,271.911896
+,,,2029,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,268.928101
+,,,2030,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,266.326752
+,,,2031,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,263.058868
+,,,2032,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,260.226715
+,,,2033,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,257.523438
+,,,2034,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,255.147934
+,,,2035,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,252.755508
+,,,2036,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,250.655945
+,,,2037,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,248.9991
+,,,2038,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,247.493988
+,,,2039,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,245.964539
+,,,2040,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,244.667694
+,,,2041,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,243.688507
+,,,2042,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,242.78949
+,,,2043,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,242.009781
+,,,2044,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,241.343018
+,,,2045,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,240.875793
+,,,2046,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,240.417908
+,,,2047,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,240.142838
+,,,2048,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,239.699814
+,,,2049,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,239.506134
+,,,2050,ref2023,mmmt co2,1-3,carbon dioxide : total by fuel : petroleum,239.817719
+,,,2022,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,156.532257
+,,,2023,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,156.237762
+,,,2024,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,154.00235
+,,,2025,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,152.389236
+,,,2026,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,150.990509
+,,,2027,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,149.643326
+,,,2028,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,149.117111
+,,,2029,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,147.763657
+,,,2030,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,146.188751
+,,,2031,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,144.8013
+,,,2032,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,143.630569
+,,,2033,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,142.644379
+,,,2034,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,141.767258
+,,,2035,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,140.98259
+,,,2036,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,140.11528
+,,,2037,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,139.60141
+,,,2038,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,139.157883
+,,,2039,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,138.706558
+,,,2040,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,138.492523
+,,,2041,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,138.478348
+,,,2042,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,138.500916
+,,,2043,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,138.615936
+,,,2044,ref2023,mmmt co2,1-6,carbon dioxide : total by fuel : petroleum,138.679993

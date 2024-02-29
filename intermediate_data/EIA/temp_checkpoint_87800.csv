@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2026,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,472.287445
+,,,2027,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,471.672058
+,,,2028,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,473.380188
+,,,2029,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,471.814789
+,,,2030,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,469.163422
+,,,2031,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,467.13382
+,,,2032,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,465.210632
+,,,2033,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,464.638214
+,,,2034,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,464.597351
+,,,2035,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,468.114685
+,,,2036,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,467.755188
+,,,2037,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,468.170746
+,,,2038,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,469.051636
+,,,2039,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,470.265625
+,,,2040,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,472.352509
+,,,2041,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,478.935608
+,,,2042,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,481.838654
+,,,2043,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,485.303497
+,,,2044,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,485.861664
+,,,2045,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,488.993683
+,,,2046,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,498.850342
+,,,2047,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,509.867676
+,,,2048,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,528.161926
+,,,2049,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,535.322144
+,,,2050,ref2023,trillion btu,20_usa,refining industry : energy consumed at ethanol plants : total,538.419861
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : distillate fuel oil,0.0
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,162.477325
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,164.085312
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,165.001785
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,165.606522
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,166.576614
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,167.852188
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,168.408157
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,168.514618
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,170.367081
+bev,,,2022,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,125.776955
+bev,,,2023,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,127.162979
+bev,,,2024,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,126.457787
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,128.453354
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,132.195908
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,135.408447
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,137.210999
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,138.251526
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,138.565399
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,139.38414
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,141.544601
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,143.262848
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,145.037933
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,147.529999
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,149.908722
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,152.377411
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,154.855988
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,156.502289
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,158.231812
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : purchased electricity,160.469421
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : fabricated metal products : use : metallurgical coal,0.0

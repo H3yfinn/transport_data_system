@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,11.259789
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,7.994337
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,9.438926
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,10.691757
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,11.247967
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,11.838803
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,12.343989
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,12.820919
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,13.285687
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,13.765993
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,14.261029
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,14.773972
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,15.302162
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,15.846017
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,16.405668
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,16.97946
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,17.569309
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,18.175705
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,18.798973
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,19.438686
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,20.090475
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,20.759161
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,21.445156
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,22.148788
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,22.870235
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,23.604284
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,24.355677
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,25.126003
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,25.917097
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : mexico and other oecd americas: regional jets,26.730518
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,34.870903
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,44.880547
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,51.685589
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,53.647476
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,55.828117
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,57.083622
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,58.351048
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,59.637024
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,60.945126
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,62.27681
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,63.63377
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,65.017517
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,66.426086
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,67.856293
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,69.312302
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,70.797531
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,72.310295
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,73.850563
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,75.420029
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,77.01667
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,78.640129
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,80.290031
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,81.965836
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,83.66745
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,85.395065
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,87.148911
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,88.93116
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,90.744545
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : oecd europe: regional jets,92.590897
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,3.542891
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,4.456216
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,5.365597
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,6.067646
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,6.647998
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,6.931574
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,7.161073
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,7.362466
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,7.569416
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,7.786843
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,8.011478
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,8.242097
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,8.47891
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,8.722408
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,8.967254
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,9.218274
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,9.475758
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,9.739718
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,10.010329
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,10.281977
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,10.560243
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,10.845282
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,11.137014
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,11.4355
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,11.734435
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,12.039953
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,12.352451
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,12.67216
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : other europe and eurasia: regional jets,12.999294
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,18.375473
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,20.972036
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,22.828131
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,23.256474
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,25.085112
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,26.529171
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,28.003109
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,29.493925
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,30.995201
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,32.534325
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,34.117558
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : other non-oecd asia: regional jets,35.744843

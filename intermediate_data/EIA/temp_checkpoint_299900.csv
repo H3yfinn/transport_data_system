@@ -1,0 +1,3 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2049,ref2023,nom cents/kwh,5-5,electricity : prices by service category : distribution,7.183752
+bev,,,2050,ref2023,nom cents/kwh,5-5,electricity : prices by service category : distribution,7.337984

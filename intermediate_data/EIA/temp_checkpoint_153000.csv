@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,30.419231
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,30.591434
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,30.710337
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,30.807989
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,30.893896
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,30.996386
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.036585
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.07172
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.097179
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.110201
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.094521
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.082243
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.068861
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.050108
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.034716
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.09934
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large pickup,31.081329
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,28.628914
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,29.038277
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,29.435022
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,30.508343
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,31.230598
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,31.505869
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.189751
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.331505
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.348969
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.390198
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.464699
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.575932
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.713455
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,32.90089
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.044292
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.151634
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.242325
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.346645
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.388107
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.42382
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.449802
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.462765
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.445892
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.431255
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.416958
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.397102
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.381275
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.45755
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large pickup,33.438488
+lpg,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.134413
+lpg,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.102537
+lpg,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,26.58927
+lpg,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,26.966778
+lpg,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,27.359678
+lpg,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,28.339647
+lpg,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,28.961603
+lpg,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,29.231089
+lpg,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,29.902239
+lpg,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.042646
+lpg,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.060093
+lpg,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.113306
+lpg,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.204943
+lpg,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.319172
+lpg,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.456703
+lpg,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.616453
+lpg,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.737946
+lpg,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.83708
+lpg,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,30.924469
+lpg,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.028435
+lpg,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.069263
+lpg,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.104912
+lpg,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.130819
+lpg,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.144112
+lpg,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.128191
+lpg,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.116018
+lpg,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.083694
+lpg,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.068304
+lpg,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large pickup,31.116432
+lpg,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,27.613367
+lpg,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,28.007959
+lpg,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,28.405054
+lpg,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,29.433203
+lpg,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,30.103024
+lpg,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,30.374609
+lpg,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.054523
+lpg,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.196796
+lpg,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.213614
+lpg,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.257746
+lpg,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.344416
+lpg,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.455391
+lpg,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.591398
+lpg,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.761375
+lpg,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.894142
+lpg,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,31.995167
+lpg,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.083221
+lpg,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.189064
+lpg,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.229206
+lpg,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.265179
+lpg,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.290962
+lpg,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.303871
+lpg,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.287224
+lpg,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.273956
+lpg,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane : large pickup,32.260052

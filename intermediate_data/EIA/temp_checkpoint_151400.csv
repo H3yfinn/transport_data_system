@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,74.876167
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,76.446304
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,77.157303
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,78.145363
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,78.735664
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,79.269257
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,79.864815
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,80.311752
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,80.510567
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,80.643074
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.042244
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,80.790894
+,,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,80.999863
+,,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.213394
+,,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.251564
+,,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.126785
+,,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,80.963654
+,,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.962257
+,,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.685669
+,,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,81.57402
+,,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,82.338425
+,,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new car,82.243484
+,lpv,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,41.802036
+,lpv,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,43.2672
+,lpv,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,44.448151
+,lpv,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,47.052715
+,lpv,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,48.571758
+,lpv,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,49.79253
+,lpv,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,52.281479
+,lpv,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,53.248959
+,lpv,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,53.962006
+,lpv,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,54.332035
+,lpv,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,54.872646
+,lpv,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,55.329353
+,lpv,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,55.771633
+,lpv,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,56.242725
+,lpv,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,56.632603
+,lpv,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,56.856194
+,lpv,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.030457
+,lpv,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.310715
+,lpv,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.240421
+,lpv,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.306023
+,lpv,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.371868
+,lpv,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.326744
+,lpv,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.237999
+,lpv,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.125122
+,lpv,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.475964
+,lpv,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.327747
+,lpv,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.273457
+,lpv,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.524818
+,lpv,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light-duty vehicle,57.479156
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,48.362621
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,48.779861
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,49.233047
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,49.585567
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,49.838345
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.048077
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.325745
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.338009
+,,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.426777
+,,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.517311
+,,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.542614
+,,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.50412
+,,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.459385
+,,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.61805
+,,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.565735
+,,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.535652
+,,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.739391
+,,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,50.721836
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,36.263931
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,37.832123
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,39.014805
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,41.375153
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,42.876762
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,43.911583
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,45.953789
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,46.678478
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,47.207012
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,47.518375
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : compliance : new light truck,47.939487
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,40.552002
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,41.353237
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,41.989353
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,44.130909
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,44.75729
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,45.577564
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,47.701855
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,48.421719
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,48.903755
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,49.101772
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,49.390965
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,49.566006
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,49.728703
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,49.927814
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,50.092888
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,50.186264
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,50.258968
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,50.459515
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,50.401878
+,,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : on-road new car,50.483868

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,26.70426
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,26.963352
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,27.223312
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,27.367794
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,27.474266
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,27.564466
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,27.739462
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,27.849569
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,28.038849
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,28.197411
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,28.343491
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,28.510218
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,28.649563
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,28.833607
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,29.016235
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,29.22168
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,29.414352
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,29.591778
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,29.751842
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,29.895399
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,30.023182
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,30.240549
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,30.444355
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,30.63192
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : delivered energy,30.911705
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.110319
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.10399
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.083148
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.075752
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.068146
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.057798
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.052245
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.051359
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.049995
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.045789
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.043818
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.041713
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.039992
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.040919
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.043149
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.047953
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.053249
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.058013
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.06317
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.069069
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.074305
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.079013
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.083534
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.088231
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.092955
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.096991
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.100439
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.103701
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : distillate fuel oil,1.109048
+bev,,,2022,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.434467
+bev,,,2023,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.426536
+bev,,,2024,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.293427
+bev,,,2025,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.401525
+bev,,,2026,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.61596
+bev,,,2027,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.785759
+bev,,,2028,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.918905
+bev,,,2029,ref2023,bkwh,5-2,electricity : electricity demand : industrial,14.998581
+bev,,,2030,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.034413
+bev,,,2031,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.09817
+bev,,,2032,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.214144
+bev,,,2033,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.258858
+bev,,,2034,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.344036
+bev,,,2035,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.444385
+bev,,,2036,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.498501
+bev,,,2037,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.589643
+bev,,,2038,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.673271
+bev,,,2039,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.749815
+bev,,,2040,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.866672
+bev,,,2041,ref2023,bkwh,5-2,electricity : electricity demand : industrial,15.988884
+bev,,,2045,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.376928
+bev,,,2042,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.102949
+bev,,,2043,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.214548
+bev,,,2044,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.294769
+bev,,,2046,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.491877
+bev,,,2047,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.60516
+bev,,,2048,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.678938
+bev,,,2049,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.748938
+bev,,,2050,ref2023,bkwh,5-2,electricity : electricity demand : industrial,16.912447
+bev,,,2022,ref2023,bkwh,5-4,electricity : electricity demand : industrial,64.190598
+bev,,,2023,ref2023,bkwh,5-4,electricity : electricity demand : industrial,64.821594
+bev,,,2024,ref2023,bkwh,5-4,electricity : electricity demand : industrial,64.099846
+bev,,,2025,ref2023,bkwh,5-4,electricity : electricity demand : industrial,64.188484
+bev,,,2026,ref2023,bkwh,5-4,electricity : electricity demand : industrial,64.93782
+bev,,,2027,ref2023,bkwh,5-4,electricity : electricity demand : industrial,65.550896
+bev,,,2028,ref2023,bkwh,5-4,electricity : electricity demand : industrial,65.849236
+bev,,,2029,ref2023,bkwh,5-4,electricity : electricity demand : industrial,66.030777
+bev,,,2030,ref2023,bkwh,5-4,electricity : electricity demand : industrial,66.313904
+bev,,,2031,ref2023,bkwh,5-4,electricity : electricity demand : industrial,66.398361
+bev,,,2032,ref2023,bkwh,5-4,electricity : electricity demand : industrial,66.699203
+bev,,,2033,ref2023,bkwh,5-4,electricity : electricity demand : industrial,66.839813
+bev,,,2034,ref2023,bkwh,5-4,electricity : electricity demand : industrial,67.145157
+bev,,,2035,ref2023,bkwh,5-4,electricity : electricity demand : industrial,67.567238
+bev,,,2036,ref2023,bkwh,5-4,electricity : electricity demand : industrial,67.815231
+bev,,,2037,ref2023,bkwh,5-4,electricity : electricity demand : industrial,68.063156
+bev,,,2038,ref2023,bkwh,5-4,electricity : electricity demand : industrial,68.327896

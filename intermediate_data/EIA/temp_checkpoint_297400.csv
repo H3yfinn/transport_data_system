@@ -1,0 +1,93 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1428.318115
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1316.005981
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1248.914551
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1213.828247
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1194.499756
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1181.526367
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1163.574097
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1148.265259
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1132.238525
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1123.19104
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1114.720825
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1105.399658
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1095.662598
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1085.312744
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1075.35437
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1065.714111
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1055.733765
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1046.617676
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1037.264404
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1026.929932
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1016.785034
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,1005.953735
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,994.988708
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,984.356445
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,973.897949
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,963.226746
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,952.529236
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : aeroderivative,942.482056
+fcev,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : mini-compact car,0.0
+,car,,2022,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,114.014359
+,car,,2023,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,110.965218
+,car,,2024,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,108.053429
+,car,,2025,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,105.029953
+,car,,2026,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,101.946228
+,car,,2027,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,98.777153
+,car,,2028,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,95.4879
+,car,,2029,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,92.159996
+,car,,2030,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,88.801323
+,car,,2031,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,85.460075
+,car,,2032,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,82.175774
+,car,,2033,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,78.976082
+,car,,2034,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,75.902061
+,car,,2035,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,73.002686
+,car,,2036,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,70.346786
+,car,,2037,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,67.956032
+,car,,2038,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,65.847816
+,car,,2039,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,63.996384
+,car,,2043,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,58.721218
+,car,,2040,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,62.405228
+,car,,2041,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,61.014839
+,car,,2042,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,59.802147
+,car,,2044,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,57.764324
+,car,,2045,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,56.914303
+,car,,2046,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,56.142315
+,car,,2047,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,55.433647
+,car,,2048,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,54.79253
+,car,,2049,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,54.201077
+,car,,2050,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : total,53.680882
+bev,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0
+bev,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : electric-diesel hybrid,0.0

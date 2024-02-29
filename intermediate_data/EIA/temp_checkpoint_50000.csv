@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776632
+bev,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776631
+bev,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776552
+bev,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776594
+bev,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776409
+bev,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776283
+bev,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.77638
+bev,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776386
+bev,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776234
+bev,,,2037,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2038,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2039,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2040,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2041,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2042,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2043,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2044,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2045,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2046,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2047,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2048,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2049,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2050,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2022,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2023,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2024,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2025,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2026,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2027,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2028,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2029,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2030,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2031,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2032,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2033,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2034,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2035,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+bev,,,2036,ref2023,thousand btu/cu ft,20_usa,conversion factors : natural gas : use : electric power sector,1.034
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.263596
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.27027
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.2766
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.276398
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.257178
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.254526
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.25268
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.250132
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.249116
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.250511
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.251673
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.252563
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.045286
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.103044
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.064793
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.065934
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.095077
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.175824
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.22638
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.263233
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.273697
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.297207
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.295012
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.294183
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.284441
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.28901
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.274773
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.276637
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : petroleum product exports,5.279346
+,,,2022,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,18.783617
+,,,2023,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,18.841715
+,,,2024,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.240131
+,,,2025,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.234219
+,,,2026,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.213202
+,,,2027,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.209591
+,,,2028,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.205172
+,,,2029,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.192945
+,,,2030,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.182035
+,,,2031,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.171402
+,,,2032,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.160555
+,,,2033,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.138552
+,,,2034,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.129539
+,,,2035,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.110559
+,,,2036,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.098141
+,,,2037,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.08354
+,,,2038,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.066294
+,,,2039,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.059637
+,,,2040,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.057035
+,,,2041,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.053011
+,,,2042,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.047277
+,,,2043,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.039465
+,,,2044,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.03443
+,,,2045,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.027761
+,,,2046,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.017918
+,,,2047,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.012091
+,,,2048,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.021603
+,,,2049,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,19.003336
+,,,2050,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : industrial,18.998146
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : industrial,5.775621
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : industrial,5.775648
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : industrial,5.776083
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : industrial,5.776062

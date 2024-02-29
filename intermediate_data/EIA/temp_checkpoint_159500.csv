@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,efficiency,2041,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,85.777321
+,,efficiency,2042,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,86.476578
+,,efficiency,2043,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,87.181198
+,,efficiency,2044,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,87.887108
+,,efficiency,2045,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,88.593414
+,,efficiency,2046,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,89.304077
+,,efficiency,2047,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,90.021133
+,,efficiency,2048,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,90.740952
+,,efficiency,2049,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,91.461952
+,,efficiency,2050,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,92.186836
+,,efficiency,2022,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,74.871788
+,,efficiency,2023,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,74.824341
+,,efficiency,2024,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,74.87001
+,,efficiency,2022,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,53.707275
+,,efficiency,2023,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,54.124397
+,,efficiency,2024,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,54.517155
+,,efficiency,2025,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,55.057953
+,,efficiency,2026,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,55.602272
+,,efficiency,2027,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,56.153023
+,,efficiency,2028,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,56.707245
+,,efficiency,2029,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,57.267494
+,,efficiency,2030,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,57.832069
+,,efficiency,2031,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,58.395542
+,,efficiency,2032,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,58.951412
+,,efficiency,2033,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,59.503132
+,,efficiency,2034,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,60.055946
+,,efficiency,2035,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,60.609138
+,,efficiency,2036,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,61.15992
+,,efficiency,2037,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,61.709805
+,,efficiency,2038,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,62.260796
+,,efficiency,2039,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,62.813919
+,,efficiency,2040,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,63.364796
+,,efficiency,2041,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,63.919388
+,,efficiency,2042,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,64.476929
+,,efficiency,2043,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,65.036682
+,,efficiency,2044,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,65.600578
+,,efficiency,2045,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,66.168068
+,,efficiency,2046,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,66.736427
+,,efficiency,2047,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,67.304245
+,,efficiency,2048,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,67.874115
+,,efficiency,2049,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,68.446205
+,,efficiency,2050,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : regional jets,69.016655
+,,efficiency,2022,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,95.571945
+,,efficiency,2023,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,96.332039
+,,efficiency,2024,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,96.948357
+,,efficiency,2025,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,97.558083
+,,efficiency,2026,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,98.270416
+,,efficiency,2027,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,99.001427
+,,efficiency,2028,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,99.742218
+,,efficiency,2029,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,100.547958
+,,efficiency,2030,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,101.357468
+,,efficiency,2031,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,102.176247
+,,efficiency,2032,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,103.004196
+,,efficiency,2033,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,103.837914
+,,efficiency,2034,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,104.675499
+,,efficiency,2038,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,108.081337
+,,efficiency,2035,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,105.517685
+,,efficiency,2036,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,106.366386
+,,efficiency,2037,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,107.221107
+,,efficiency,2039,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,108.94696
+,,efficiency,2040,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,109.81945
+,,efficiency,2041,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,110.698303
+,,efficiency,2042,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,111.583221
+,,efficiency,2043,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,112.474045
+,,efficiency,2044,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,113.369934
+,,efficiency,2045,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,114.270432
+,,efficiency,2046,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,115.177467
+,,efficiency,2047,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,116.090721
+,,efficiency,2048,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,117.009277
+,,efficiency,2049,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,117.93248
+,,efficiency,2050,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : wide body aircraft,118.860939

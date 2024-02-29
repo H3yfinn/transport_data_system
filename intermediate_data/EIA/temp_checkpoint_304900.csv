@@ -1,0 +1,49 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.913405
+ice_g,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.045009
+ice_g,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.171044
+ice_g,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.290515
+ice_g,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.403516
+ice_g,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.509189
+ice_g,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.606631
+ice_g,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.696897
+ice_g,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.780159
+ice_g,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.857071
+ice_g,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.927145
+ice_g,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,2.991511
+ice_g,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.050889
+ice_g,lt,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.105642
+ice_g,lt,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.156174
+ice_g,lt,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.203572
+ice_g,lt,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,3.249197
+ice_g,lt,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,0.257283
+ice_g,lt,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,0.358725
+bev,,,2022,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,2.738091
+bev,,,2023,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,2.802556
+bev,,,2024,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,2.808097
+bev,,,2025,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,2.877898
+bev,,,2026,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,2.93704
+bev,,,2027,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,2.991106
+bev,,,2028,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.045428
+bev,,,2029,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.099891
+bev,,,2030,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.157094
+bev,,,2031,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.213153
+bev,,,2032,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.266821
+bev,,,2033,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.317929
+bev,,,2034,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.36493
+bev,,,2035,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.398795
+bev,,,2036,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.421425
+bev,,,2037,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.446791
+bev,,,2038,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.475739
+bev,,,2039,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.505522
+bev,,,2040,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.535765
+bev,,,2041,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.565231
+bev,,,2042,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.592007
+bev,,,2043,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.617638
+bev,,,2044,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.644465
+bev,,,2045,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.664449
+bev,,,2046,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.683608
+bev,,,2047,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.697515
+bev,,,2048,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.700819
+bev,,,2049,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.697898
+bev,,,2050,ref2023,2022 cents/kwh,5-25,electricity : prices by service category : distribution,3.685101

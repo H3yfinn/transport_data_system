@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,car,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.007562
+fcev,car,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.00843
+fcev,car,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.009376
+fcev,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.01039
+fcev,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.011476
+fcev,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.012619
+fcev,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.013831
+fcev,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.01512
+fcev,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.016497
+fcev,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.017932
+fcev,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.019419
+fcev,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.020948
+fcev,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.022507
+fcev,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.024064
+fcev,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.025616
+fcev,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.027136
+fcev,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.028651
+fcev,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.030194
+fcev,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.031822
+fcev,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.033428
+fcev,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.035032
+fcev,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.036641
+fcev,car,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell hydrogen,0.038272
+fcev,car,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : fuel cell methanol,0.0
+,car,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.22228
+,car,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.407773
+,car,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.330012
+,car,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.263068
+,car,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.195484
+,car,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.195452
+,car,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.227021
+,car,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.287002
+,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.370069
+,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.478727
+,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.605479
+,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.755331
+,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.931155
+,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,6.138354
+,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,6.35769
+,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,6.584552
+,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,6.817386
+,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,7.054406
+,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,7.28151
+,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,7.501484
+,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,7.707559
+,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,7.914938
+,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,8.137371
+,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,8.391831
+,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,8.636541
+,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,8.875727
+,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,9.115758
+,car,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,9.366179
+,car,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : total,5.523113
+,car,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000911
+,car,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.00111
+,car,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.00104
+,car,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000973
+,car,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000853
+,car,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000799
+,car,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000748
+,car,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.0007
+,car,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000656
+,car,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000614
+,car,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000575
+,car,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000538
+,car,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000504
+,car,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000472
+,car,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000442
+,car,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000414
+,car,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000387
+,car,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.000363
+,car,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : alternative-fuel cars : natural gas bi-fuel,0.00034

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.428249
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.48217
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.51963
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.577232
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.632885
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.705292
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.75206
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.810192
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.86816
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.935173
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.967575
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,46.011463
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,45.999584
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,46.050686
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,46.0737
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,46.166882
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : light duty vehicles,46.179924
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,35.419106
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,35.69379
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,35.700512
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.08004
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.077808
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.11763
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.420235
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.383869
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.348869
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.38147
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.40205
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.420807
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.421612
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.429482
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.441639
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.474686
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.501408
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.547104
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.57893
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.618793
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.6539
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.694386
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.712448
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.744724
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.752468
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.807987
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.832645
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.921024
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : car,36.926468
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,46.887558
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,47.085297
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,47.42535
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,48.075748
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,48.476578
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,48.713234
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.170761
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.219387
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.177822
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.202328
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.205078
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.279762
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.284294
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.29398
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.391438
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.490925
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.608139
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.73278
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.788609
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.845528
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.90144
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.94619
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.990486
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.053097
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.074402
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.104424
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.134968
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.155754
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.166798
+,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0

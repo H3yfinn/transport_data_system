@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_d,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.996505
+ice_d,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.869371
+ice_d,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.741054
+ice_d,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.634589
+ice_d,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.647751
+ice_d,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.651149
+ice_d,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.672718
+ice_d,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.689976
+ice_d,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.706393
+ice_d,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.712827
+ice_d,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.741309
+ice_d,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.742129
+ice_d,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.761191
+ice_d,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.775079
+ice_d,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.780975
+ice_d,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.787541
+ice_d,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.810997
+ice_d,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.812437
+ice_d,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.828923
+ice_d,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.815942
+ice_d,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.82362
+ice_d,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.90424
+ice_d,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.907707
+ice_d,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.914353
+ice_d,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.923101
+ice_d,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : diesel fuel,3.924145
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,273.896271
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,274.133087
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,273.15976
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,269.513794
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,266.207611
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,265.137146
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,262.200378
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,261.831451
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,261.351929
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,260.789673
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,260.080841
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.304504
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.150452
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.343964
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.475708
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.666107
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.723114
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.738983
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,259.964447
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,260.204041
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,260.476868
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,260.830597
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,261.257935
+,lt,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,261.712402
+,lt,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,262.057831
+,lt,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,262.549377
+,lt,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,262.976318
+,lt,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,263.021606
+,lt,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small utility,263.42215
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,249.336685
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,248.231949
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,248.614395
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,248.988342
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,249.704575
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,250.101807
+,lt,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,250.537659
+,lt,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,250.86026
+,lt,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,251.313431
+,lt,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,251.706192
+,lt,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,251.792328
+,lt,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,252.09668
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,260.929596
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,261.465881
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,261.322571
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,257.822021
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,256.399841
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,254.520844
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,250.717224
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,250.110657
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,249.552383
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,249.007477
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,248.381851
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,247.666534
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,247.187668
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,247.298477
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,247.378571
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,247.609161
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small pickup,247.943375
+,car,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,158.455414
+,car,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,160.261032
+,car,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,160.770142
+,car,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,159.914474
+,car,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,160.735962
+,car,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,160.768921
+,car,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,157.566971
+,car,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,157.622543
+,car,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,157.802551
+,car,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,158.065765
+,car,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,158.218781
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,158.789627
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,159.074814
+,car,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,159.1521
+,car,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,159.436447
+,car,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : small crossover,160.000763

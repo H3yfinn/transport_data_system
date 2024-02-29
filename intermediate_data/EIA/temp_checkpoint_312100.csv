@@ -1,0 +1,41 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.083154
+,,,2041,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.088211
+,,,2042,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.093604
+,,,2043,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.099138
+,,,2044,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.104818
+,,,2045,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.11086
+,,,2046,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.117102
+,,,2047,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.123478
+,,,2048,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.129829
+,,,2049,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.133646
+,,,2050,ref2023,millions,20_usa,macro indicators : employment : manufacturing : computers and electronics,1.135976
+,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,48.583267
+,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,48.938457
+,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,49.165493
+,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,49.489738
+,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,49.849274
+,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.006943
+,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.361271
+,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.435326
+,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.505634
+,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.575432
+,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.658337
+,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.786251
+,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.85461
+,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,50.930824
+,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.001606
+,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.068386
+,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.131817
+,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.212727
+,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.251118
+,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.290203
+,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.325771
+,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.356617
+,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.367699
+,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.385986
+,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.396866
+,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.412788
+,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.427528
+,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.499157
+,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large van,51.504555

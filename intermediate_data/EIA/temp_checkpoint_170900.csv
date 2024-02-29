@@ -1,0 +1,98 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,17.949732
+bev,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.178335
+bev,,,2043,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.406145
+bev,,,2044,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.633224
+bev,,,2045,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.859974
+bev,,,2046,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.086088
+bev,,,2047,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.312731
+bev,,,2048,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.538191
+bev,,,2049,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.762447
+bev,,,2050,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.985924
+,,,2022,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.086197
+,,,2023,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.099602
+,,,2024,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.113243
+,,,2025,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.130096
+,,,2026,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.148983
+,,,2027,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.170322
+,,,2028,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.193909
+,,,2029,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.21701
+,,,2030,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.235847
+,,,2031,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.251923
+,,,2032,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.267937
+,,,2033,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.282757
+,,,2034,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.294533
+,,,2035,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.304741
+,,,2036,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.315868
+,,,2037,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.326084
+,,,2038,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.335472
+,,,2039,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.3442
+,,,2040,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.355373
+,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.36763
+,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.379017
+,,,2043,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.390129
+,,,2044,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.400814
+,,,2045,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.41119
+,,,2046,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.42065
+,,,2047,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.430313
+,,,2048,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.439327
+,,,2049,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.447399
+,,,2050,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.45509
+bev,,,2038,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,66.40728
+bev,,,2035,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,64.897079
+bev,,,2036,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,65.400185
+bev,,,2037,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,65.903778
+bev,,,2039,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,66.89624
+bev,,,2040,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,67.381805
+bev,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,67.859169
+bev,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,68.323227
+bev,,,2043,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,68.776733
+bev,,,2044,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,69.220825
+bev,,,2045,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,69.659088
+bev,,,2046,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,70.099632
+bev,,,2047,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,70.538925
+bev,,,2048,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,70.972908
+bev,,,2049,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,71.406891
+bev,,,2050,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,71.842628
+bev,,,2022,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,60.580669
+bev,,,2023,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,60.983253
+bev,,,2024,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,61.337627
+bev,,,2025,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,61.675991
+bev,,,2026,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,61.982437
+bev,,,2027,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,62.286163
+bev,,,2028,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,62.581848
+bev,,,2029,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,62.861568
+bev,,,2030,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,63.111282
+bev,,,2031,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,63.367752
+bev,,,2032,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,63.636322
+bev,,,2033,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,63.985218
+bev,,,2034,ref2023,millions,20_usa,residential equipment : equipment stock : water heaters : electric,64.382027
+,,,2022,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,371.366882
+,,,2023,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,248.611282
+,,,2024,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,251.412292
+,,,2025,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,234.703217
+,,,2026,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,230.1745
+,,,2027,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,234.907761
+,,,2028,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,234.480499
+,,,2029,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,239.360443
+,,,2030,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,241.824036
+,,,2031,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,243.932602
+,,,2032,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,245.429123
+,,,2033,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,244.053284
+,,,2034,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,246.721054
+,,,2035,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,250.194427
+,,,2036,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,252.718521
+,,,2037,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,252.986328
+,,,2038,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,255.540497
+,,,2039,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,258.61087
+,,,2040,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,261.46524
+,,,2041,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,268.475311
+,,,2042,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,269.251373
+,,,2043,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,266.648285
+,,,2044,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,263.447235
+,,,2045,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,262.58783
+,,,2046,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,260.373749
+,,,2047,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,262.247345
+,,,2048,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,262.360718
+,,,2049,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,259.065338
+,,,2050,ref2023,billion 2022 $,20_usa,liquid fuels : expenditures : imports of crude oil and petroleum products,255.761414

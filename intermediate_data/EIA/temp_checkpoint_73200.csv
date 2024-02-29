@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030157
+bev,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030133
+bev,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030165
+bev,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030173
+bev,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.03031
+bev,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030358
+bev,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030474
+bev,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030587
+bev,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030695
+bev,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.146924
+bev,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.157217
+bev,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.148088
+bev,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.149106
+bev,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.145807
+bev,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.143338
+bev,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.13548
+bev,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.131939
+bev,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.131949
+bev,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.133298
+bev,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.133607
+bev,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134069
+bev,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134178
+bev,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134068
+bev,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.133866
+bev,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134474
+bev,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.135283
+bev,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.135296
+bev,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.13552
+bev,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.135503
+bev,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134629
+bev,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.1346
+bev,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134432
+bev,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.134527
+bev,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.140319
+bev,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.140614
+bev,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.14099
+bev,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.146394
+bev,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : dedicated plants,0.147057
+bev,,,2022,ref2023,bkwh,20_usa,electricity : direct use,198.34874
+bev,,,2023,ref2023,bkwh,20_usa,electricity : direct use,207.378006
+bev,,,2024,ref2023,bkwh,20_usa,electricity : direct use,227.336639
+bev,,,2025,ref2023,bkwh,20_usa,electricity : direct use,235.616165
+bev,,,2026,ref2023,bkwh,20_usa,electricity : direct use,243.01622
+bev,,,2027,ref2023,bkwh,20_usa,electricity : direct use,250.383972
+bev,,,2028,ref2023,bkwh,20_usa,electricity : direct use,257.491852
+bev,,,2029,ref2023,bkwh,20_usa,electricity : direct use,265.893188
+bev,,,2030,ref2023,bkwh,20_usa,electricity : direct use,273.437927
+bev,,,2031,ref2023,bkwh,20_usa,electricity : direct use,281.23053
+bev,,,2032,ref2023,bkwh,20_usa,electricity : direct use,289.105743
+bev,,,2033,ref2023,bkwh,20_usa,electricity : direct use,298.008179
+bev,,,2034,ref2023,bkwh,20_usa,electricity : direct use,307.252472
+bev,,,2035,ref2023,bkwh,20_usa,electricity : direct use,314.637299
+bev,,,2036,ref2023,bkwh,20_usa,electricity : direct use,323.818512
+bev,,,2037,ref2023,bkwh,20_usa,electricity : direct use,331.81134
+bev,,,2038,ref2023,bkwh,20_usa,electricity : direct use,340.979187
+bev,,,2039,ref2023,bkwh,20_usa,electricity : direct use,350.408173
+bev,,,2040,ref2023,bkwh,20_usa,electricity : direct use,359.848724
+bev,,,2041,ref2023,bkwh,20_usa,electricity : direct use,369.357758
+bev,,,2042,ref2023,bkwh,20_usa,electricity : direct use,378.94696
+bev,,,2043,ref2023,bkwh,20_usa,electricity : direct use,388.690247
+bev,,,2044,ref2023,bkwh,20_usa,electricity : direct use,398.512207
+bev,,,2045,ref2023,bkwh,20_usa,electricity : direct use,408.648224
+bev,,,2046,ref2023,bkwh,20_usa,electricity : direct use,418.358368
+bev,,,2047,ref2023,bkwh,20_usa,electricity : direct use,428.513092
+bev,,,2048,ref2023,bkwh,20_usa,electricity : direct use,439.973969
+bev,,,2049,ref2023,bkwh,20_usa,electricity : direct use,450.676788
+bev,,,2050,ref2023,bkwh,20_usa,electricity : direct use,461.461731
+bev,,,2022,ref2023,bkwh,5-2,electricity : electricity demand : total sales,234.803131
+bev,,,2023,ref2023,bkwh,5-2,electricity : electricity demand : total sales,233.97702
+bev,,,2024,ref2023,bkwh,5-2,electricity : electricity demand : total sales,233.312958
+bev,,,2025,ref2023,bkwh,5-2,electricity : electricity demand : total sales,234.174179

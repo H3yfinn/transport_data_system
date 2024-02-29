@@ -3,6 +3,7 @@
 data from esto is not split into transport types for non road mediums. So we will use the splits from other datasets to do this.
 
 Note that we updated this in 12/dec/2023 to use data from the 9th outlook esto input, rather than earlier esto data. 
+It is a bit unsure why only 2017 is used. perhaps we should use all available years???
 """
 #%%
 #set working directory as one folder back
@@ -22,15 +23,18 @@ import utility_functions as utility_functions
 # FILE_DATE_ID = 'DATE{}'.format(file_date)
 # EGEDA_transport_output = pd.read_csv('intermediate_data/EGEDA/EGEDA_transport_output' + FILE_DATE_ID + '.csv')
 
+#this data was created by the 8th outlook edition transport model
 file_date = utility_functions.get_latest_date_for_data_file('intermediate_data/8th_edition_transport_model/', 'eigth_edition_transport_data_final_')
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 eigth_edition_transport_data = pd.read_csv('intermediate_data/8th_edition_transport_model/eigth_edition_transport_data_final_{}.csv'.format(FILE_DATE_ID))
+
 #%%
+#this data is created in 1_format_outlook_esto_data.py
 file_date = utility_functions.get_latest_date_for_data_file(f'intermediate_data/EGEDA/', f'_9th_outlook_esto.csv')
-esto_9th_outlook= pd.read_csv(f'intermediate_data/EGEDA/{file_date}_9th_outlook_esto.csv')
+esto_9th_outlook= pd.read_csv(f'intermediate_data/EGEDA/DATE{file_date}_9th_outlook_esto.csv')
 
 #%%
-
+#extract data from esto_9th_outlook esto energy dataset
 # EGEDA_transport_output = esto_9th_outlook[esto_9th_outlook['Fuel_Type']=='19 Total']
 EGEDA_transport_output = esto_9th_outlook.copy()
 EGEDA_transport_output = EGEDA_transport_output.melt(id_vars=['Economy', 'Measure', 'Vehicle Type', 'Medium', 'Transport Type', 'Drive', 'Scenario', 'Unit'], var_name='Date', value_name='Value')
@@ -42,8 +46,12 @@ EGEDA_transport_output = EGEDA_transport_output.groupby(['Medium', 'Date', 'Econ
 EGEDA_transport_output = EGEDA_transport_output[EGEDA_transport_output['Medium']!='nonspecified']
 EGEDA_transport_output = EGEDA_transport_output[EGEDA_transport_output['Medium']!='pipeline']
 
+#where economy is 17_SIN, set to 17_SGP and where 15_RP set to 15_PHL
+EGEDA_transport_output.loc[EGEDA_transport_output['Economy']=='17_SIN', 'Economy'] = '17_SGP'
+EGEDA_transport_output.loc[EGEDA_transport_output['Economy']=='15_RP', 'Economy'] = '15_PHL'
+
 #grab only data for 2017 and then make the date = 2017-12-31
-EGEDA_transport_output = EGEDA_transport_output[EGEDA_transport_output['Date']=='1980']#TODODOTODOTODODOD
+EGEDA_transport_output = EGEDA_transport_output[EGEDA_transport_output['Date']=='2017']#TODODOTODOTODODOD wat was i doing here? why am iu useing 1980? (changed it to 2017 in case that was right thing to do)
 EGEDA_transport_output['Date'] = '2017-12-31'
 #%%
 #get ratios of passenger to freight for total energy use in other datasets then apply it to the egeda datya
@@ -111,6 +119,9 @@ eigth_edition_transport_data_pivot.dropna(subset=['passenger_to_freight_prop'], 
 eigth_edition_transport_data_pivot = eigth_edition_transport_data_pivot[eigth_edition_transport_data_pivot['Source']=='Reference']
 #filter for fuel = total in egeda
 
+#where economy is 17_SIN, set to 17_SGP and where 15_RP set to 15_PHL
+eigth_edition_transport_data_pivot.loc[eigth_edition_transport_data_pivot['Economy']=='17_SIN', 'Economy'] = '17_SGP'
+eigth_edition_transport_data_pivot.loc[eigth_edition_transport_data_pivot['Economy']=='15_RP', 'Economy'] = '15_PHL'
 #%%
 ##################################################
 #join on data from egeda
@@ -123,19 +134,23 @@ EGEDA_merged = pd.merge(EGEDA_transport_output, eigth_edition_transport_data_piv
 missing = EGEDA_merged[EGEDA_merged['Value'].isna()]
 #print them for the user and get them to manually replace the vlaue below:
 if len(missing) > 0:
-    print('These values are missing from EGEDA_merged. Please replace them in the code below: {}'.format(missing))
+    raise ValueError('These values are missing from EGEDA_merged. Please replace them in the code below: {}'.format(missing))
+    # print('These values are missing from EGEDA_merged. Please replace them in the code below: {}'.format(missing))
 
-#1 missing_peru_2017_ship
-if len(missing.loc[(missing['Medium']=='ship') & (missing['Date']=='2017-12-31') & (missing['Economy']=='14_PE')]) > 0:
-    #extract new vlaue from egeda
-    ship_peru_2017_new_value = EGEDA_transport_output.loc[(EGEDA_transport_output['Medium']=='ship') & (EGEDA_transport_output['Date']=='2020-12-31') & (EGEDA_transport_output['Economy']=='14_PE')]
-    #replace value in EGEDA_merged
-    EGEDA_merged.loc[(EGEDA_merged['Medium']=='ship') & (EGEDA_merged['Date']=='2017-12-31') & (EGEDA_merged['Economy']=='14_PE'), 'Value'] = ship_peru_2017_new_value['Value'].values[0]
+# #1 missing_peru_2017_ship (no longer an issue)
+# if len(missing.loc[(missing['Medium']=='ship') & (missing['Date']=='2017-12-31') & (missing['Economy']=='14_PE')]) > 0:
+#     #extract new vlaue from egeda
+#     ship_peru_2017_new_value = EGEDA_transport_output.loc[(EGEDA_transport_output['Medium']=='ship') & (EGEDA_transport_output['Date']=='2020-12-31') & (EGEDA_transport_output['Economy']=='14_PE')]
+#     #replace value in EGEDA_merged
+#     EGEDA_merged.loc[(EGEDA_merged['Medium']=='ship') & (EGEDA_merged['Date']=='2017-12-31') & (EGEDA_merged['Economy']=='14_PE'), 'Value'] = ship_peru_2017_new_value['Value'].values[0]
 
 #%%
 #times passenger_to_freight_prop by value to get passenger value
 EGEDA_merged['passenger'] = EGEDA_merged['Value']*EGEDA_merged['passenger_to_freight_prop']
 EGEDA_merged['freight'] = EGEDA_merged['Value']-EGEDA_merged['passenger']
+
+#%%
+#SEMI TEMPORARY ERROR FIX, SPLITTING 
 #%%
 #create dataset and source columns as Energy_non_road, EGEDA/8th_ref 
 EGEDA_merged['Dataset'] = 'EGEDA_split_into_transport_types'
@@ -168,6 +183,7 @@ EGEDA_merged_clean.loc[(EGEDA_merged_clean['Medium']=='road') & (EGEDA_merged_cl
 
 #%%
 #save
+FILE_DATE_ID = 'DATE{}'.format(datetime.datetime.now().strftime('%Y%m%d'))
 EGEDA_merged_clean.to_csv('./intermediate_data/estimated/EGEDA_split_into_transport_types{}.csv'.format(FILE_DATE_ID), index=False)
 #%%
 

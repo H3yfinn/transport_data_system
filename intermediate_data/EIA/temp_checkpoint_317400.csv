@@ -1,0 +1,77 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2033,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.283887
+,,,2034,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.283841
+,,,2035,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.283208
+,,,2036,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.281144
+,,,2037,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.277209
+,,,2038,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.273027
+,,,2039,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.268459
+,,,2040,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.264436
+,,,2041,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.260282
+,,,2042,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.255582
+,,,2043,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.249786
+,,,2044,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.242843
+,,,2045,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.236739
+,,,2046,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.231595
+,,,2047,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.226976
+,,,2048,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.221899
+,,,2049,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.21577
+,,,2050,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.209521
+bev,lt,,2022,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",42.53294
+bev,lt,,2023,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",48.521698
+bev,lt,,2024,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",56.639839
+bev,lt,,2025,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",67.221573
+bev,lt,,2026,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",77.629562
+bev,lt,,2027,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",87.931274
+bev,lt,,2028,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",98.440315
+bev,lt,,2029,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",110.772308
+bev,lt,,2030,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",119.600311
+bev,lt,,2031,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",123.082367
+bev,lt,,2032,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",127.973244
+bev,lt,,2033,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",130.338806
+bev,lt,,2034,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",133.018219
+bev,lt,,2035,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",136.150833
+bev,lt,,2036,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",139.222382
+bev,lt,,2037,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",140.325241
+bev,lt,,2038,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",141.260925
+bev,lt,,2039,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",142.294876
+bev,lt,,2040,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",141.989777
+bev,lt,,2041,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",142.377213
+bev,lt,,2042,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",143.129791
+bev,lt,,2043,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",142.73645
+bev,lt,,2044,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",142.881393
+bev,lt,,2045,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",143.128815
+bev,lt,,2046,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",147.1185
+bev,lt,,2047,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",146.27829
+bev,lt,,2048,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",146.490494
+bev,lt,,2049,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",147.465927
+bev,lt,,2050,ref2023,thousands,1-1,"light-duty vehicle sales : total sales, cars and light trucks : electric",148.792267
+,,,2022,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.167156
+,,,2023,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.226807
+,,,2024,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.150805
+,,,2025,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.117596
+,,,2026,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.141712
+,,,2027,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.186604
+,,,2028,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.227241
+,,,2029,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.246828
+,,,2030,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.248066
+,,,2031,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.241705
+,,,2032,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.244349
+,,,2033,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.264728
+,,,2034,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.304277
+,,,2035,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.331771
+,,,2036,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.339686
+,,,2037,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.353909
+,,,2038,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.370891
+,,,2039,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.386958
+,,,2040,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.40945
+,,,2041,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.423206
+,,,2042,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.436833
+,,,2043,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.441171
+,,,2044,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.443726
+,,,2045,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.451838
+,,,2046,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.4641
+,,,2047,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.481158
+,,,2048,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.495412
+,,,2049,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.50645
+,,,2050,ref2023,millions,20_usa,macro indicators : nonfarm employment : east south central,8.521103

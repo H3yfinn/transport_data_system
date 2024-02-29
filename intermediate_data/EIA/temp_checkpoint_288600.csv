@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lt,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+fcev,lt,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : fuel cell methanol,0.0
+bev,lt,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : electric-diesel hybrid,0.0
+,car,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,280.032928
+,car,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,280.703827
+,car,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,280.959808
+,car,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,276.970215
+,car,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,278.260315
+,car,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,279.251526
+,car,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,277.407288
+,car,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,277.244568
+,car,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,277.280426
+,car,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,278.055115
+,car,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,279.550751
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,281.326599
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,282.936249
+,car,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,284.730347
+,car,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,286.411255
+,car,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,288.612091
+,car,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,290.751373
+,car,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,292.898285
+,car,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,295.098694
+,car,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,297.267059
+,car,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,299.40387
+,car,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,301.658142
+,car,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,303.666687
+,car,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,305.795349
+,car,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,307.334473
+,car,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,309.524872
+,car,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,311.44574
+,car,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,313.628296
+,car,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : subcompact,315.665497
+bev,,,2022,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.780905
+bev,,,2023,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.81172
+bev,,,2024,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.842582
+bev,,,2025,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.876085
+bev,,,2026,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.908195
+bev,,,2027,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.94156
+bev,,,2031,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.083065
+bev,,,2028,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,1.975908
+bev,,,2029,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.011588
+bev,,,2030,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.048344
+bev,,,2032,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.12
+bev,,,2033,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.153929
+bev,,,2034,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.185035
+bev,,,2035,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.209249
+bev,,,2036,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.240548
+bev,,,2037,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.263929
+bev,,,2038,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.291257
+bev,,,2039,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.318834
+bev,,,2040,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.347041
+bev,,,2041,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.36876
+bev,,,2042,ref2023,2022 cents/kwh,5-16,electricity : prices by service category : distribution,2.38916

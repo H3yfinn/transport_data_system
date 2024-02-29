@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2042,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,25.385761
+bev,,,2043,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,25.499039
+bev,,,2044,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,26.254482
+bev,,,2045,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,27.160557
+bev,,,2046,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,27.880844
+bev,,,2047,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,28.66272
+bev,,,2048,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,29.438934
+bev,,,2049,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,29.769745
+bev,,,2050,ref2023,gw,5-23,electricity : electric power sector : cumulative total additions,31.158749
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,48.385185
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,102.962646
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,175.245117
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,260.563049
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,350.257385
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,429.92569
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,493.122162
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,538.11377
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,580.68396
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,628.562134
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,675.497559
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,711.837646
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,739.355225
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,774.686829
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,808.222168
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,845.430969
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,871.227051
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,903.003784
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,927.249023
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,953.449707
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,984.646851
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1025.453247
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1070.540649
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1114.794556
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1149.264282
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1183.010864
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1219.839966
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : cumulative electric power sector additions,1257.724976
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2038,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2039,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2040,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2041,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2042,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2043,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2044,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2045,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2046,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2047,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2048,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2049,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2050,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2022,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : coal,
+bev,,,2023,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2024,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : coal,0.0
+bev,,,2025,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : coal,0.0

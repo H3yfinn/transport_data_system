@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2041,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,103.404678
+bev,,,2042,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,104.049377
+bev,,,2043,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,106.171799
+bev,,,2044,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,107.897247
+bev,,,2045,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,109.352036
+bev,,,2046,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,112.007401
+bev,,,2047,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,115.915009
+bev,,,2048,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,120.193634
+bev,,,2049,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,125.22522
+bev,,,2050,ref2023,bkwh,5-6,renewable energy : electric power sector : electricity generation : solar photovoltaic,129.963104
+bev,,,2022,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,2.754426
+bev,,,2023,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,3.804551
+bev,,,2024,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,4.696448
+bev,,,2025,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,4.693979
+bev,,,2026,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,4.683401
+bev,,,2027,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,4.682012
+bev,,,2028,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,4.687662
+bev,,,2029,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.143587
+bev,,,2030,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.353004
+bev,,,2031,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.496566
+bev,,,2032,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.525353
+bev,,,2033,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.506345
+bev,,,2034,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.501848
+bev,,,2035,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.516852
+bev,,,2036,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.506561
+bev,,,2037,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.491589
+bev,,,2038,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.489884
+bev,,,2039,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.494617
+bev,,,2040,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.507323
+bev,,,2041,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.507322
+bev,,,2042,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.505466
+bev,,,2046,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.53309
+bev,,,2043,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.502904
+bev,,,2044,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.503304
+bev,,,2045,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.489766
+bev,,,2047,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.726901
+bev,,,2048,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.750861
+bev,,,2049,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.731109
+bev,,,2050,ref2023,bkwh,5-3,renewable energy : electric power sector : electricity generation : solar photovoltaic,6.757494
+bev,,,2022,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,131.15596
+bev,,,2023,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,172.76329
+bev,,,2024,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,247.199219
+bev,,,2025,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,365.267181
+bev,,,2026,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,500.001373
+bev,,,2027,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,623.345154
+bev,,,2028,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,698.737671
+bev,,,2029,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,742.271851
+bev,,,2030,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,770.424072
+bev,,,2031,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,814.311707
+bev,,,2032,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,871.176819
+bev,,,2033,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,910.751099
+bev,,,2034,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,946.84906
+bev,,,2035,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,968.156738
+bev,,,2036,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1006.727173
+bev,,,2037,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1046.265259
+bev,,,2038,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1085.654297
+bev,,,2039,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1111.996948
+bev,,,2040,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1148.387817
+bev,,,2041,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1168.288452
+bev,,,2042,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1190.792236
+bev,,,2043,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1218.326782
+bev,,,2044,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1257.584961
+bev,,,2045,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1292.879395
+bev,,,2046,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1344.51001
+bev,,,2047,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1378.814087
+bev,,,2048,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1410.084351
+bev,,,2049,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1448.612061
+bev,,,2050,ref2023,bkwh,5-0,renewable energy : electric power sector : electricity generation : solar photovoltaic,1490.419312
+bev,,,2031,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,814.311707
+bev,,,2032,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,871.176819
+bev,,,2033,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,910.751099
+bev,,,2034,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,946.84906
+bev,,,2035,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,968.156738
+bev,,,2036,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1006.727173
+bev,,,2037,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1046.265259
+bev,,,2038,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1085.654297
+bev,,,2039,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1111.996948
+bev,,,2040,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1148.387817
+bev,,,2041,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1168.288452
+bev,,,2042,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1190.792236
+bev,,,2043,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1218.326782
+bev,,,2044,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1257.584961
+bev,,,2045,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1292.879395
+bev,,,2046,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1344.51001
+bev,,,2047,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1378.814087
+bev,,,2048,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1410.084351
+bev,,,2049,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1448.612061
+bev,,,2050,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,1490.419312
+bev,,,2022,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,131.15596
+bev,,,2023,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,172.76329
+bev,,,2024,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,247.199219
+bev,,,2025,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,365.267181
+bev,,,2026,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,500.001373
+bev,,,2027,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,623.345154
+bev,,,2028,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,698.737671
+bev,,,2029,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,742.271851
+bev,,,2030,ref2023,bkwh,20_usa,renewable energy : electric power sector : generation : solar photovoltaic,770.424072
+bev,,,2023,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : solar photovoltaic,0.261012
+bev,,,2022,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : solar photovoltaic,0.244376
+bev,,,2024,ref2023,bkwh,5-8,renewable energy : electric power sector : electricity generation : solar photovoltaic,0.262016

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.271587
+ethanol_flex_fuel,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.300688
+ethanol_flex_fuel,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.317932
+ethanol_flex_fuel,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.297071
+ethanol_flex_fuel,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.286016
+ethanol_flex_fuel,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.271564
+ethanol_flex_fuel,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.255281
+ethanol_flex_fuel,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.242462
+ethanol_flex_fuel,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.347921
+ethanol_flex_fuel,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : large utility,31.331823
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : large utility,0.0
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : large utility,0.0
+bev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,34.32024
+bev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,35.529964
+bev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,36.765511
+bev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,38.47467
+bev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,39.512085
+bev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,39.985176
+bev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,40.767204
+bev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,40.907829
+bev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,40.893547
+bev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,40.903858
+bev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,40.960236
+bev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.035126
+bev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.114132
+bev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.270473
+bev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.429874
+bev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.572742
+bev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.699154
+bev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.876732
+bev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.919586
+bev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.97871
+bev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.033722
+bev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.071037
+bev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.04615
+bev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.031261
+bev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.01432
+bev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.000454
+bev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,41.99247
+bev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.173603
+bev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large utility,42.155361
+ice_g,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large utility,24.347164
+ice_g,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large utility,25.57914
+ice_g,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large utility,26.437607

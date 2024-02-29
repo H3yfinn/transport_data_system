@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2031,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2032,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2033,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2034,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2035,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2036,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2037,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2038,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2039,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2040,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2041,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2042,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2043,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2044,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2045,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2046,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2047,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2048,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2049,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2050,ref2023,gw,5-20,electricity : end-use sectors : capacity : petroleum,0.000984
+bev,,,2022,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2023,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2024,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2025,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2026,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2027,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2028,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2029,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2030,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2031,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2032,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2033,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2034,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2035,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2036,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2037,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2038,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2039,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2040,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2044,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2041,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2042,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2043,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2045,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2046,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2047,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2048,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2049,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2050,ref2023,gw,5-23,electricity : end-use sectors : capacity : petroleum,0.029812
+bev,,,2022,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,1.714208
+bev,,,2023,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,1.977448
+bev,,,2024,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,2.235575
+bev,,,2025,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,2.536964
+bev,,,2026,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,2.787306
+bev,,,2027,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,3.046795
+bev,,,2028,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,3.281448
+bev,,,2029,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,3.578472
+bev,,,2030,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,3.843377
+bev,,,2031,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,4.149243
+bev,,,2032,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,4.434566
+bev,,,2033,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,4.838288
+bev,,,2034,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,5.200171
+bev,,,2035,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,5.466949
+bev,,,2036,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,5.827631
+bev,,,2037,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,6.163199
+bev,,,2038,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,6.540037
+bev,,,2039,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,6.885207
+bev,,,2040,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,7.233202
+bev,,,2041,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,7.551426
+bev,,,2042,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,7.883104
+bev,,,2043,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,8.217967
+bev,,,2044,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,8.584581
+bev,,,2045,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,8.989424
+bev,,,2046,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,9.437596
+bev,,,2047,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,9.834646
+bev,,,2048,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,10.2312
+bev,,,2049,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,10.633356
+bev,,,2050,ref2023,gw,5-2,electricity : end-use sectors : capacity : renewable sources,11.027761
+bev,,,2022,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,0.875772
+bev,,,2023,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.025356
+bev,,,2024,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.15634
+bev,,,2025,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.325288
+bev,,,2026,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.478116
+bev,,,2027,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.603745
+bev,,,2028,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.744905
+bev,,,2029,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,1.975978
+bev,,,2030,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,2.104972
+bev,,,2031,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,2.246261
+bev,,,2032,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,2.371434
+bev,,,2033,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,2.519475
+bev,,,2034,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,2.71631
+bev,,,2035,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,2.829415
+bev,,,2036,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.011559
+bev,,,2037,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.141982
+bev,,,2038,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.29451
+bev,,,2039,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.500406
+bev,,,2040,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.695602
+bev,,,2041,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.848636
+bev,,,2042,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,3.972725
+bev,,,2043,ref2023,gw,5-4,electricity : end-use sectors : capacity : renewable sources,4.067889

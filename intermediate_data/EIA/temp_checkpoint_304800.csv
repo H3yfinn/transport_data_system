@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1656.50293
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1641.912231
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combustion turbine : internal combustion,1628.403442
+,,,2022,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.973494
+,,,2023,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.102072
+,,,2024,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.859306
+,,,2025,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.740879
+,,,2026,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.770327
+,,,2027,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.85552
+,,,2028,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.918997
+,,,2029,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.92811
+,,,2030,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.894159
+,,,2031,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.832413
+,,,2032,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.808453
+,,,2033,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.832888
+,,,2034,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.911459
+,,,2035,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.963112
+,,,2036,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.96327
+,,,2037,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.975843
+,,,2038,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.999086
+,,,2039,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.007166
+,,,2040,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.028172
+,,,2041,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.030106
+,,,2042,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.037437
+,,,2043,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.020531
+,,,2044,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.997219
+,,,2045,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.987173
+,,,2046,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",22.98875
+,,,2047,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.004467
+,,,2048,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.013062
+,,,2049,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.012115
+,,,2050,ref2023,millions,1-3,"industrial macroeconomic : employment, nonfarm",23.020054
+,,,2022,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",152.788147
+,,,2023,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",154.272629
+,,,2024,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",153.352264
+,,,2025,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",153.086395
+,,,2026,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",153.721008
+,,,2027,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",154.673157
+,,,2028,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",155.577118
+,,,2029,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",156.191208
+,,,2030,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",156.517288
+,,,2031,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",156.684235
+,,,2032,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",157.135178
+,,,2033,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",157.837189
+,,,2034,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",158.855164
+,,,2035,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",159.684906
+,,,2036,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",160.172775
+,,,2037,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",160.757919
+,,,2038,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",161.401276
+,,,2039,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",161.96965
+,,,2040,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",162.695129
+,,,2041,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",163.29686
+,,,2042,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",163.906769
+,,,2043,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",164.366058
+,,,2044,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",164.789139
+,,,2045,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",165.289337
+,,,2046,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",165.878021
+,,,2047,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",166.583038
+,,,2048,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",167.254898
+,,,2049,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",167.882263
+,,,2050,ref2023,millions,1-0,"industrial macroeconomic : employment, nonfarm",168.613785
+ice_g,lt,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,0.909884
+ice_g,lt,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,0.480285
+ice_g,lt,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,0.616106
+ice_g,lt,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,0.761919
+ice_g,lt,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.05973
+ice_g,lt,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.209931
+ice_g,lt,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.355587
+ice_g,lt,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.499847
+ice_g,lt,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.641178
+ice_g,lt,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : plug-in 20 gasoline hybrid,1.778902

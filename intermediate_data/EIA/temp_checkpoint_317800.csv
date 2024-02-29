@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2027,ref2023,hdd,20_usa,residential : heating degree days : west south central,1916.0
+,,,2028,ref2023,hdd,20_usa,residential : heating degree days : west south central,1908.0
+,,,2029,ref2023,hdd,20_usa,residential : heating degree days : west south central,1899.0
+,,,2030,ref2023,hdd,20_usa,residential : heating degree days : west south central,1891.0
+,,,2031,ref2023,hdd,20_usa,residential : heating degree days : west south central,1882.0
+,,,2032,ref2023,hdd,20_usa,residential : heating degree days : west south central,1874.0
+,,,2033,ref2023,hdd,20_usa,residential : heating degree days : west south central,1865.0
+,,,2034,ref2023,hdd,20_usa,residential : heating degree days : west south central,1857.0
+,,,2035,ref2023,hdd,20_usa,residential : heating degree days : west south central,1849.0
+,,,2036,ref2023,hdd,20_usa,residential : heating degree days : west south central,1840.0
+,,,2037,ref2023,hdd,20_usa,residential : heating degree days : west south central,1832.0
+,,,2038,ref2023,hdd,20_usa,residential : heating degree days : west south central,1824.0
+,,,2039,ref2023,hdd,20_usa,residential : heating degree days : west south central,1815.0
+,,,2040,ref2023,hdd,20_usa,residential : heating degree days : west south central,1807.0
+,,,2041,ref2023,hdd,20_usa,residential : heating degree days : west south central,1799.0
+,,,2042,ref2023,hdd,20_usa,residential : heating degree days : west south central,1791.0
+,,,2043,ref2023,hdd,20_usa,residential : heating degree days : west south central,1783.0
+,,,2044,ref2023,hdd,20_usa,residential : heating degree days : west south central,1774.0
+,,,2045,ref2023,hdd,20_usa,residential : heating degree days : west south central,1766.0
+,,,2046,ref2023,hdd,20_usa,residential : heating degree days : west south central,1758.0
+,,,2047,ref2023,hdd,20_usa,residential : heating degree days : west south central,1750.0
+,,,2048,ref2023,hdd,20_usa,residential : heating degree days : west south central,1742.0
+,,,2049,ref2023,hdd,20_usa,residential : heating degree days : west south central,1734.0
+,,,2050,ref2023,hdd,20_usa,residential : heating degree days : west south central,1726.0
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,1.89044
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,1.177325
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,1.412236
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,1.457727
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,1.666647
+,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,1.876305
+,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.099452
+,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.111058
+,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.123652
+,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.139758
+,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.154433
+,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.167865
+,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.182844
+,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.199603
+,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.21297
+,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.227471
+,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.243246
+,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.253272
+,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.265932
+,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.376048
+,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.334291
+,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.352319
+,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.365767
+,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.284909
+,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.286969
+,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.297331
+,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.301727
+,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.310198
+,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : commercial : residual fuel oil,2.334409
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,274.901855
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,278.548492
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,279.258545
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,277.211304
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,276.395264
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,276.410706
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,274.694214
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,274.88501
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,275.43869
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,276.092255
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,276.687256
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,277.55603
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,278.559692
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,279.745636
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,280.829285
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,282.240295
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,283.606232
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,284.909943
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,286.400879
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,287.804321
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,289.204773
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,290.715576
+,lt,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,292.132263
+,lt,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,293.663727
+,lt,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,294.766174
+,lt,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,296.343506
+,lt,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,297.719604
+,lt,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,298.860962
+,lt,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : large crossover,300.249176
+bev,,,2022,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,7.258743
+bev,,,2023,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.053293
+bev,,,2024,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,4.944318
+bev,,,2025,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,4.358852
+bev,,,2026,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,3.896295
+bev,,,2027,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,3.628886
+bev,,,2028,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,3.565222
+bev,,,2029,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,3.637538
+bev,,,2030,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,3.765066
+bev,,,2031,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,3.94298
+bev,,,2032,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,4.139684
+bev,,,2033,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,4.411922
+bev,,,2034,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,4.668094
+bev,,,2035,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,4.946298
+bev,,,2036,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,5.110954
+bev,,,2037,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,5.295079
+bev,,,2038,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,5.622611
+bev,,,2039,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,5.701523

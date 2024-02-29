@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2029,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,428.155731
+,,,2030,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,457.757843
+,,,2031,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,487.024017
+,,,2032,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,515.971436
+,,,2033,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,544.28241
+,,,2034,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,571.832153
+,,,2035,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,598.52832
+,,,2036,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,624.429626
+,,,2037,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,650.149231
+,,,2038,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,675.951904
+,,,2039,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,702.092712
+,,,2040,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,728.360535
+,,,2041,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,754.639893
+,,,2042,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,780.989502
+,,,2043,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,807.261475
+,,,2044,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,833.4729
+,,,2045,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,859.468994
+,,,2046,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,885.263367
+,,,2047,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,910.786499
+,,,2048,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,935.97699
+,,,2049,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,960.826416
+,,,2050,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : india,985.28186
+,,,2022,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,221.601868
+,,,2023,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,305.651001
+,,,2024,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,351.910278
+,,,2025,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,374.380157
+,,,2026,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,397.491669
+,,,2027,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,412.524384
+,,,2028,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,425.483368
+,,,2029,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,427.361664
+,,,2030,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,428.415314
+,,,2031,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,428.597748
+,,,2032,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,427.956024
+,,,2033,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,426.944946
+,,,2034,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,425.347107
+,,,2035,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,423.238678
+,,,2036,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,420.816895
+,,,2037,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,417.702911
+,,,2038,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,414.471222
+,,,2039,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,411.232483
+,,,2040,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,407.904846
+,,,2041,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,404.432495
+,,,2042,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,400.351135
+,,,2043,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,396.242035
+,,,2044,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,392.204193
+,,,2045,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,388.330658
+,,,2046,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,384.79718
+,,,2047,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,381.531342
+,,,2048,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,378.610962
+,,,2049,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,376.006012
+,,,2050,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : japan,373.667938
+,,,2022,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,346.510254
+,,,2023,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,460.985168
+,,,2024,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,586.890259
+,,,2025,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,680.533997
+,,,2026,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,748.53833
+,,,2027,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,794.398926
+,,,2028,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,837.760193
+,,,2029,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,872.317322
+,,,2030,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,907.204163
+,,,2031,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,941.03717
+,,,2032,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,973.770508
+,,,2033,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1006.571594
+,,,2034,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1039.214355
+,,,2035,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1072.287964
+,,,2036,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1105.685059
+,,,2037,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1138.090088
+,,,2038,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1171.398682
+,,,2039,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1205.82251
+,,,2040,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1241.304565
+,,,2041,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1277.206055
+,,,2042,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1314.159668
+,,,2043,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1352.105103
+,,,2044,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1390.847778
+,,,2045,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1431.080322
+,,,2046,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1472.323608
+,,,2047,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1514.394653
+,,,2048,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1557.846436
+,,,2049,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1603.022949
+,,,2050,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : middle east,1649.95166
+,,,2022,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,196.934158
+,,,2023,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,232.306717
+,,,2024,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,261.847931
+,,,2025,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,279.799835
+,,,2026,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,295.929199
+,,,2027,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,308.294769
+,,,2028,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,319.133087
+,,,2029,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,329.269684
+,,,2030,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,339.567688
+,,,2031,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,349.967865
+,,,2032,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,360.540405
+,,,2033,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,370.843567
+,,,2034,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,381.30542
+,,,2035,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,391.869873
+,,,2039,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,435.210815
+,,,2036,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,402.563477
+,,,2037,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,413.346588
+,,,2038,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,424.157043
+,,,2040,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,446.142242
+,,,2041,ref2023,trillion btu,20_usa,air travel : fuel use : commercial : jet fuel : mexico and other oecd americas,456.859619

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2044,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,3e-06
+bev,,,2045,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,4e-06
+bev,,,2046,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,5e-06
+bev,,,2047,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,5e-06
+bev,,,2048,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,6e-06
+bev,,,2049,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,7e-06
+bev,,,2050,ref2023,bkwh,5-6,renewable energy : end-use sector : electricity generation : wind,8e-06
+bev,,,2022,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2023,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2024,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2025,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2026,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2027,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2028,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2029,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2030,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2031,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2032,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2033,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2034,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182489
+bev,,,2035,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.18249
+bev,,,2036,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182491
+bev,,,2037,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182494
+bev,,,2038,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182499
+bev,,,2039,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182508
+bev,,,2040,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182524
+bev,,,2041,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182554
+bev,,,2042,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182583
+bev,,,2043,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182613
+bev,,,2044,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182643
+bev,,,2045,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182673
+bev,,,2046,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182702
+bev,,,2047,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182732
+bev,,,2048,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182762
+bev,,,2049,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182792
+bev,,,2050,ref2023,bkwh,5-3,renewable energy : end-use sector : electricity generation : wind,0.182822
+,,,2022,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.824315
+,,,2023,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.838252
+,,,2024,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.846733
+,,,2025,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.853212
+,,,2026,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.85982
+,,,2027,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.866503
+,,,2028,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.873277
+,,,2029,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.879985
+,,,2030,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.886801
+,,,2031,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.893813
+,,,2032,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.90185
+,,,2033,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.911235
+,,,2034,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.914479
+,,,2035,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.915019
+,,,2036,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.917764
+,,,2037,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.918246
+,,,2038,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.920639
+,,,2039,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.923743
+,,,2040,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.924162
+,,,2041,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.925266
+,,,2042,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.925943
+,,,2043,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.92698
+,,,2044,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.927494
+,,,2045,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.927901
+,,,2046,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.928675
+,,,2047,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.92895
+,,,2048,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.929725
+,,,2049,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.93
+,,,2050,ref2023,bkwh,20_usa,renewable energy : end-use generators : generation : wind,0.930276
+bev,,,2022,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.824237
+bev,,,2023,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.837966
+bev,,,2024,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.844747
+bev,,,2025,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.851224
+bev,,,2026,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.85783
+bev,,,2027,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.864513
+bev,,,2028,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.871286
+bev,,,2029,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.877992
+bev,,,2033,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.90917
+bev,,,2030,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.884806
+bev,,,2031,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.891748
+bev,,,2032,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.899752
+bev,,,2034,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.912447
+bev,,,2035,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.912954
+bev,,,2036,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.915698
+bev,,,2037,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.91618
+bev,,,2038,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.919439
+bev,,,2039,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.921652
+bev,,,2040,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.922046
+bev,,,2041,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.923149
+bev,,,2042,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.923852
+bev,,,2043,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.924889
+bev,,,2044,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.925403
+bev,,,2045,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.925893
+bev,,,2046,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.926624
+bev,,,2047,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.926899
+bev,,,2048,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.927648
+bev,,,2049,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.927923
+bev,,,2050,ref2023,bkwh,5-0,renewable energy : end-use sector : electricity generation : wind,0.928198
+bev,,,2047,ref2023,bkwh,5-8,renewable energy : end-use sector : electricity generation : wind,0.0
+bev,,,2048,ref2023,bkwh,5-8,renewable energy : end-use sector : electricity generation : wind,0.0
+bev,,,2049,ref2023,bkwh,5-8,renewable energy : end-use sector : electricity generation : wind,0.0
+bev,,,2050,ref2023,bkwh,5-8,renewable energy : end-use sector : electricity generation : wind,0.0
+bev,,,2039,ref2023,bkwh,5-8,renewable energy : end-use sector : electricity generation : wind,0.0
+bev,,,2036,ref2023,bkwh,5-8,renewable energy : end-use sector : electricity generation : wind,0.0

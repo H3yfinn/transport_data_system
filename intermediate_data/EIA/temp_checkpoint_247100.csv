@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.818559
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.662603
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.530169
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.364423
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.246674
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.094895
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.940942
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.706865
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.522861
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.436956
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.188575
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.140628
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.072577
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.923501
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.743245
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.575659
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.453215
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.334746
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,9.893041
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.198887
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.077387
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,9.964554
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,16.500471
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,14.951044
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,13.378558
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,12.782577
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,12.017057
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.685802
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.469788
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.367329
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.373683
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.442548
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.515211
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.633802
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.697083
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.724851
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.613873
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.533212
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.56921
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.362235
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.414555
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.39796
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.287457
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,11.119986
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.98606
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.894822
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.808081
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.678442
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.572233
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.436344
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west south central,10.359878
+lpg,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.347926
+lpg,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.297843
+lpg,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.192304
+lpg,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.07491
+lpg,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.035972
+lpg,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.034511
+lpg,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.071046
+lpg,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.128419
+lpg,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.205147
+lpg,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.293412
+lpg,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.394486
+lpg,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.505825
+lpg,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.611039
+lpg,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.69852
+lpg,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.776943
+lpg,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.859212
+lpg,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,2.962178
+lpg,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.0267
+lpg,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.129757
+lpg,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.22777
+lpg,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.312295
+lpg,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.387416
+lpg,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.458778
+lpg,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.548739
+lpg,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.67227
+lpg,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.764824
+lpg,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.868656
+lpg,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,3.959622
+lpg,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : propane,4.049016
+lpg,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.347926
+lpg,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.206625
+lpg,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.055114
+lpg,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.903669
+lpg,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.82895
+lpg,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.788991
+lpg,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.782604
+lpg,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.792671
+lpg,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.816743
+lpg,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.847197
+lpg,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.885391
+lpg,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.927412
+lpg,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.961353
+lpg,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.980686
+lpg,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.99236
+lpg,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.006474
+lpg,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.033764
+lpg,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.033407
+lpg,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.056775
+lpg,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.074668

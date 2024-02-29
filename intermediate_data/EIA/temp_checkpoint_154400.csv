@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_d,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,57.983627
+ice_d,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,57.87532
+ice_d,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,58.006554
+ice_d,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,57.889366
+ice_d,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,59.155628
+ice_d,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,59.346138
+ice_d,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,59.305996
+ice_d,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,59.240589
+ice_d,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : midsize car,59.07217
+phev_d,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+phev_d,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : mini-compact car,0.0
+ethanol_flex_fuel,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,31.635685
+ethanol_flex_fuel,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,32.271976
+ethanol_flex_fuel,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,32.833782
+ethanol_flex_fuel,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,33.785496
+ethanol_flex_fuel,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,34.265663
+ethanol_flex_fuel,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,34.778332
+ethanol_flex_fuel,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,35.766624
+ethanol_flex_fuel,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,36.073803
+ethanol_flex_fuel,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,36.286942
+ethanol_flex_fuel,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,36.419567
+ethanol_flex_fuel,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,36.588219
+ethanol_flex_fuel,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,36.827015
+ethanol_flex_fuel,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,37.06007
+ethanol_flex_fuel,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,37.362862
+ethanol_flex_fuel,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,37.604691
+ethanol_flex_fuel,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,37.807552
+ethanol_flex_fuel,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,37.966545
+ethanol_flex_fuel,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.156929
+ethanol_flex_fuel,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.20274
+ethanol_flex_fuel,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.249649
+ethanol_flex_fuel,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.284779
+ethanol_flex_fuel,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.30706
+ethanol_flex_fuel,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.277073
+ethanol_flex_fuel,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.259159
+ethanol_flex_fuel,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.240147
+ethanol_flex_fuel,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.220802
+ethanol_flex_fuel,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.205917
+ethanol_flex_fuel,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.357399
+ethanol_flex_fuel,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : mini-compact car,38.338722
+fcev,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : mini-compact car,0.0
+fcev,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : mini-compact car,0.0
+fcev,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : mini-compact car,0.0
+fcev,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : mini-compact car,0.0
+fcev,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : mini-compact car,0.0

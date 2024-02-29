@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2034,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.658298
+,,,2035,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.658121
+,,,2036,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.65757
+,,,2037,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.655833
+,,,2038,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.652226
+,,,2039,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.649004
+,,,2040,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.645908
+,,,2041,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.64265
+,,,2042,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.639812
+,,,2043,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.637765
+,,,2044,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.63716
+,,,2045,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.6346
+,,,2046,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.632468
+,,,2047,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.631516
+,,,2048,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.631816
+,,,2049,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.630927
+,,,2050,ref2023,tcf,20_usa,natural gas use : commercial : middle atlantic,0.628011
+,,,2048,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263751
+,,,2049,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263761
+,,,2050,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263647
+,,,2022,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.253544
+,,,2023,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.245798
+,,,2024,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.246901
+,,,2025,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.252601
+,,,2026,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.257674
+,,,2027,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.261464
+,,,2028,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263966
+,,,2029,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.265461
+,,,2030,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.26628
+,,,2031,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.266771
+,,,2032,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.267019
+,,,2033,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.266817
+,,,2034,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.266356
+,,,2035,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.265838
+,,,2036,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.265613
+,,,2037,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.265456
+,,,2038,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.264999
+,,,2039,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.264811
+,,,2040,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.26442
+,,,2041,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263972
+,,,2042,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263553
+,,,2043,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263428
+,,,2044,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263578
+,,,2045,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263603
+,,,2046,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263644
+,,,2047,ref2023,tcf,20_usa,natural gas use : commercial : mountain,0.263689
+,,,2042,ref2023,tcf,20_usa,natural gas use : commercial : total,3.482872
+,,,2039,ref2023,tcf,20_usa,natural gas use : commercial : total,3.507703
+,,,2040,ref2023,tcf,20_usa,natural gas use : commercial : total,3.499254
+,,,2041,ref2023,tcf,20_usa,natural gas use : commercial : total,3.490334
+,,,2043,ref2023,tcf,20_usa,natural gas use : commercial : total,3.47906
+,,,2044,ref2023,tcf,20_usa,natural gas use : commercial : total,3.478466
+,,,2045,ref2023,tcf,20_usa,natural gas use : commercial : total,3.474299
+,,,2046,ref2023,tcf,20_usa,natural gas use : commercial : total,3.463224
+,,,2047,ref2023,tcf,20_usa,natural gas use : commercial : total,3.456198
+,,,2048,ref2023,tcf,20_usa,natural gas use : commercial : total,3.454087
+,,,2049,ref2023,tcf,20_usa,natural gas use : commercial : total,3.4524
+,,,2050,ref2023,tcf,20_usa,natural gas use : commercial : total,3.44776
+,,,2022,ref2023,tcf,20_usa,natural gas use : commercial : total,3.467453
+,,,2023,ref2023,tcf,20_usa,natural gas use : commercial : total,3.474621
+,,,2024,ref2023,tcf,20_usa,natural gas use : commercial : total,3.371255
+,,,2025,ref2023,tcf,20_usa,natural gas use : commercial : total,3.408176
+,,,2026,ref2023,tcf,20_usa,natural gas use : commercial : total,3.444571
+,,,2027,ref2023,tcf,20_usa,natural gas use : commercial : total,3.463666
+,,,2028,ref2023,tcf,20_usa,natural gas use : commercial : total,3.492099
+,,,2029,ref2023,tcf,20_usa,natural gas use : commercial : total,3.507773
+,,,2030,ref2023,tcf,20_usa,natural gas use : commercial : total,3.518466
+,,,2031,ref2023,tcf,20_usa,natural gas use : commercial : total,3.527853
+,,,2032,ref2023,tcf,20_usa,natural gas use : commercial : total,3.534746
+,,,2033,ref2023,tcf,20_usa,natural gas use : commercial : total,3.535379
+,,,2034,ref2023,tcf,20_usa,natural gas use : commercial : total,3.533345
+,,,2035,ref2023,tcf,20_usa,natural gas use : commercial : total,3.529708
+,,,2036,ref2023,tcf,20_usa,natural gas use : commercial : total,3.527303
+,,,2037,ref2023,tcf,20_usa,natural gas use : commercial : total,3.523382
+,,,2038,ref2023,tcf,20_usa,natural gas use : commercial : total,3.514469
+,,,2022,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.212521
+,,,2023,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.235824
+,,,2024,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.218059
+,,,2025,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.216368
+,,,2026,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.215186
+,,,2027,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.213115
+,,,2028,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.213487
+,,,2029,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.214029
+,,,2030,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.214782
+,,,2031,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.215702
+,,,2032,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.216442
+,,,2033,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.217043
+,,,2034,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.217629
+,,,2035,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.218031
+,,,2036,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.218423
+,,,2037,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.218676
+,,,2038,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.21886
+,,,2039,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.218975
+,,,2040,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219039
+,,,2041,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219106
+,,,2042,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219169
+,,,2043,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219277
+,,,2044,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219446
+,,,2045,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219541
+,,,2046,ref2023,tcf,20_usa,natural gas use : commercial : new england,0.219635

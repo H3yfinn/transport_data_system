@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2036,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.243356
+,,,2037,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.274388
+,,,2038,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.315326
+,,,2039,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.352545
+,,,2040,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.398687
+,,,2041,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.433216
+,,,2042,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.46891
+,,,2043,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.493255
+,,,2044,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.515843
+,,,2045,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.544436
+,,,2046,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.578329
+,,,2047,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.619135
+,,,2048,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.656917
+,,,2049,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.690789
+,,,2050,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.729401
+,,,2022,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.877645
+,,,2022,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",17.935709
+,,,2023,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.199965
+,,,2024,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.209198
+,,,2025,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.272018
+,,,2026,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.43652
+,,,2027,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.642309
+,,,2031,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",19.198563
+,,,2028,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.834335
+,,,2029,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",18.989645
+,,,2030,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",19.105782
+,,,2032,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",19.331879
+,,,2033,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",19.495995
+,,,2034,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",19.702034
+,,,2035,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",19.881599
+,,,2036,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.014151
+,,,2037,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.162514
+,,,2038,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.316162
+,,,2039,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.467163
+,,,2040,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.648859
+,,,2041,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.824022
+,,,2042,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",20.993063
+,,,2043,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",21.143847
+,,,2044,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",21.288345
+,,,2045,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",21.444056
+,,,2046,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",21.614672
+,,,2047,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",21.803623
+,,,2048,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",21.992281
+,,,2049,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",22.17746
+,,,2050,ref2023,millions,1-7,"industrial macroeconomic : employment, nonfarm",22.379087
+,lt,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003055
+,lt,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003108
+,lt,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003245
+,lt,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003389
+,lt,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.00352
+,lt,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003635
+,lt,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003735
+,lt,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003844
+,lt,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.003947
+,lt,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004041
+,lt,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004132
+,lt,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004216
+,lt,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004299
+,lt,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004378
+,lt,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004456
+,lt,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.00454
+,lt,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004613
+,lt,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004682
+,lt,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004742
+,lt,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.00479
+,lt,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004827
+,lt,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004854
+,lt,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004878
+,lt,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004896
+,lt,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.00498
+,lt,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004914
+,lt,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004933
+,lt,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.004956
+,lt,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel light trucks : natural gas ice,0.005009
+bev,,,2022,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,6.464983
+bev,,,2023,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,6.714905
+bev,,,2024,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,6.66959
+bev,,,2025,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,6.75086
+bev,,,2026,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,6.813751
+bev,,,2027,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,6.90406
+bev,,,2028,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,7.004209
+bev,,,2029,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,7.100895
+bev,,,2030,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,7.422089
+bev,,,2031,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,7.718913
+bev,,,2032,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,7.836719
+bev,,,2033,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,7.939196
+bev,,,2034,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.033172
+bev,,,2035,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.118114
+bev,,,2036,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.195016
+bev,,,2037,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.263885
+bev,,,2038,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.318085
+bev,,,2039,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.348557
+bev,,,2040,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.381553
+bev,,,2041,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.427603
+bev,,,2042,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.477335
+bev,,,2043,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.535835
+bev,,,2044,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.60271
+bev,,,2045,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.668878
+bev,,,2046,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.715145
+bev,,,2047,ref2023,2022 cents/kwh,5-22,electricity : prices by service category : distribution,8.745509

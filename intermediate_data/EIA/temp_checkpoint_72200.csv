@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2028,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.837756
+bev,,,2029,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.859593
+bev,,,2030,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.882188
+bev,,,2031,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.90582
+bev,,,2032,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.929482
+bev,,,2033,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.951943
+bev,,,2034,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.973375
+bev,,,2035,ref2023,quads,20_usa,commercial : purchased electricity : other uses,1.994686
+bev,,,2036,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.015948
+bev,,,2037,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.036447
+bev,,,2038,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.056621
+bev,,,2039,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.076788
+bev,,,2040,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.096851
+bev,,,2041,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.117749
+bev,,,2042,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.13926
+bev,,,2043,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.161906
+bev,,,2044,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.185556
+bev,,,2045,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.21069
+bev,,,2046,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.236834
+bev,,,2047,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.264744
+bev,,,2048,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.293979
+bev,,,2049,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.324365
+bev,,,2050,ref2023,quads,20_usa,commercial : purchased electricity : other uses,2.356389
+bev,,,2022,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.603352
+bev,,,2023,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.601355
+bev,,,2024,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.60268
+bev,,,2025,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.606446
+bev,,,2026,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.609686
+bev,,,2027,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.612279
+bev,,,2028,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.615204
+bev,,,2029,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.618493
+bev,,,2030,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.620748
+bev,,,2031,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.6239
+bev,,,2035,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.633214
+bev,,,2032,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.62699
+bev,,,2033,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.629387
+bev,,,2034,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.631325
+bev,,,2036,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.634855
+bev,,,2037,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.636155
+bev,,,2038,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.636938
+bev,,,2039,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.637474
+bev,,,2040,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.637919
+bev,,,2041,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.639058
+bev,,,2042,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.640294
+bev,,,2043,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.641609
+bev,,,2044,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.642984
+bev,,,2045,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.644417
+bev,,,2046,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.645996
+bev,,,2047,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.647793
+bev,,,2048,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.649657
+bev,,,2049,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.651697
+bev,,,2050,ref2023,quads,20_usa,commercial : purchased electricity : refrigeration,0.653934
+bev,,,2022,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.54288
+bev,,,2023,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.477379
+bev,,,2024,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.550791
+bev,,,2025,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.560045
+bev,,,2026,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.56775
+bev,,,2027,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.575085
+bev,,,2028,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.582462
+bev,,,2029,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.589573
+bev,,,2030,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.595396
+bev,,,2031,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.601495
+bev,,,2032,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.607785
+bev,,,2033,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.612405
+bev,,,2034,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.616628
+bev,,,2035,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.621292
+bev,,,2036,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.626046
+bev,,,2037,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.630735
+bev,,,2038,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.634936
+bev,,,2039,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.639136
+bev,,,2043,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.656187
+bev,,,2040,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.642875
+bev,,,2041,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.647011
+bev,,,2042,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.651487
+bev,,,2044,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.661275
+bev,,,2045,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.666915
+bev,,,2046,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.673704
+bev,,,2047,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.681264
+bev,,,2048,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.689054
+bev,,,2049,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.696994
+bev,,,2050,ref2023,quads,20_usa,commercial : purchased electricity : space cooling,0.705699
+bev,,,2022,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.119273
+bev,,,2023,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.118361
+bev,,,2024,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.110862
+bev,,,2025,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.111099
+bev,,,2026,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.111147
+bev,,,2027,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.110854
+bev,,,2028,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.110384
+bev,,,2029,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.109759
+bev,,,2030,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.108987
+bev,,,2031,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.108285
+bev,,,2032,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.107479
+bev,,,2033,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.106449
+bev,,,2034,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.105275
+bev,,,2035,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.104142
+bev,,,2036,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.102983
+bev,,,2037,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.101737
+bev,,,2038,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.100347
+bev,,,2039,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.098874
+bev,,,2040,ref2023,quads,20_usa,commercial : purchased electricity : space heating,0.097414

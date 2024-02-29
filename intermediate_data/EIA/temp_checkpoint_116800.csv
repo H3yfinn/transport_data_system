@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,suv,,2047,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.545578
+,suv,,2048,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.717178
+,suv,,2049,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.666924
+,suv,,2050,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.816906
+,suv,,2022,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,30.84234
+,suv,,2023,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,27.919764
+,suv,,2024,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,29.022928
+,suv,,2025,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,28.678556
+,suv,,2026,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,29.920929
+,suv,,2027,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,30.301729
+,suv,,2028,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,30.614323
+,suv,,2029,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,30.835083
+,suv,,2030,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.017059
+,suv,,2031,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.135052
+,suv,,2032,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.351274
+,suv,,2033,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.469519
+,suv,,2034,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.599516
+,suv,,2035,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.668516
+,suv,,2036,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.901615
+,suv,,2037,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.861103
+,suv,,2038,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,31.972233
+,suv,,2039,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.079628
+,suv,,2040,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.134205
+,suv,,2041,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.174904
+,suv,,2042,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : small crossover,32.284584
+,car,,2022,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.093848
+,car,,2023,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.147845
+,car,,2024,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.13589
+,car,,2025,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.14415
+,car,,2026,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.129062
+,car,,2027,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.125513
+,car,,2028,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.12584
+,car,,2029,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.118515
+,car,,2030,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.115867
+,car,,2031,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.113031
+,car,,2032,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.109573
+,car,,2033,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.107858
+,car,,2034,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.104801
+,car,,2035,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.103207
+,car,,2036,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.099901
+,car,,2037,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.100097
+,car,,2038,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.09853
+,car,,2039,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.097076
+,car,,2040,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.095664
+,car,,2041,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.094368
+,car,,2042,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.092682
+,car,,2043,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.091885
+,car,,2044,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.089043
+,car,,2045,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.08859
+,car,,2046,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.085466
+,car,,2047,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.088766
+,car,,2048,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.086512
+,car,,2049,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.087657
+,car,,2050,ref2023,percent,20_usa,new vehicle attributes : sales shares : cars : two seater,1.084263
+,lt,,2022,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,41.023632
+,lt,,2023,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.832016
+,lt,,2024,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.843147
+,lt,,2025,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.835155
+,lt,,2026,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.868683
+,lt,,2027,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.82262
+,lt,,2028,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.890499
+,lt,,2029,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.790154
+,lt,,2030,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.784668
+,lt,,2031,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.779156
+,lt,,2032,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.781368
+,lt,,2033,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.782551
+,lt,,2034,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.757198
+,lt,,2035,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.75145
+,lt,,2036,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.756641
+,lt,,2037,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.738899
+,lt,,2038,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.732418
+,lt,,2039,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.734417
+,lt,,2040,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.716564
+,lt,,2041,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.707146
+,lt,,2042,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.703651
+,lt,,2043,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.68803
+,lt,,2044,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.688026
+,lt,,2045,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.675579
+,lt,,2046,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.679653
+,lt,,2047,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.636948
+,lt,,2048,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.637691
+,lt,,2049,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.635529
+,lt,,2050,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large crossover,40.62117
+,lt,,2022,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.128897
+,lt,,2023,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,22.695721
+,lt,,2024,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,22.929485
+,lt,,2025,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.010462
+,lt,,2026,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.288853
+,lt,,2027,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.355646
+,lt,,2028,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.419699
+,lt,,2029,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.559359
+,lt,,2030,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.618771
+,lt,,2031,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.66787
+,lt,,2032,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.729319
+,lt,,2033,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.775751
+,lt,,2034,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.834887
+,lt,,2035,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.873205
+,lt,,2036,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.928259
+,lt,,2037,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.952972
+,lt,,2038,ref2023,percent,20_usa,new vehicle attributes : sales shares : light trucks : large pickup,23.995262

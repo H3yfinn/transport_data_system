@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2042,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,15.094247
+,,,2043,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,15.17975
+,,,2044,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,15.141426
+,,,2045,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,15.050515
+,,,2046,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,14.921197
+,,,2047,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,14.957816
+,,,2048,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,14.891223
+,,,2049,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,14.825644
+,,,2050,ref2023,mmmt co2,20_usa,metal-based durables : carbon dioxide emissions : fabricated metal products,14.839345
+,,,2022,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,82.079857
+,,,2023,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,79.69413
+,,,2024,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,79.627922
+,,,2025,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,77.475449
+,,,2026,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,74.478424
+,,,2027,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,71.671112
+,,,2028,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,68.795708
+,,,2029,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,66.599258
+,,,2030,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,64.883385
+,,,2031,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,64.122604
+,,,2032,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,63.495071
+,,,2033,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,63.231823
+,,,2034,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,62.71442
+,,,2035,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,62.521931
+,,,2036,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,62.439281
+,,,2037,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,62.220745
+,,,2038,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.896694
+,,,2039,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.82082
+,,,2040,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.759296
+,,,2041,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.841835
+,,,2042,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,62.000671
+,,,2043,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,62.018688
+,,,2044,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.912769
+,,,2045,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.807495
+,,,2046,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.467316
+,,,2047,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.481277
+,,,2048,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.436398
+,,,2049,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.487698
+,,,2050,ref2023,mmmt co2,20_usa,food industry : carbon dioxide emissions,61.375504
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,82.079857
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,79.69413
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,79.627922
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,77.475449
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,74.478424
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,71.671112
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,68.795708
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,66.599258
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,64.883385
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,64.122604
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,63.495071
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,63.231823
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,62.71442
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,62.521931
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,62.439281
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,62.220745
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.896694
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.82082
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.759296
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.841835
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,62.000671
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,62.018688
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.912769
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.807495
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.467316
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.481277
+,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.436398
+,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.487698
+,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : food products,61.375504
+,,,2022,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,11.4559
+,,,2023,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,9.899885
+,,,2024,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,9.69527
+,,,2025,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,9.216636
+,,,2026,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,8.776372
+,,,2027,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,8.261806
+,,,2028,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,7.775993
+,,,2029,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,7.386477
+,,,2030,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,7.04762
+,,,2031,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.827913
+,,,2032,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.648514
+,,,2033,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.553668
+,,,2034,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.441433
+,,,2035,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.384655
+,,,2036,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.323961
+,,,2037,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.269954
+,,,2038,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.20194
+,,,2039,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.220832
+,,,2040,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.226357
+,,,2041,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.229402
+,,,2042,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.254357
+,,,2043,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.206751
+,,,2044,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.164783
+,,,2045,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.143993
+,,,2046,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.140705
+,,,2047,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.12977
+,,,2048,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.080042
+,,,2049,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.063547
+,,,2050,ref2023,mmmt co2,20_usa,glass industry : carbon dioxide emissions,6.036955
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,11.4559
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,9.899885
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,9.69527
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : glass,9.216636

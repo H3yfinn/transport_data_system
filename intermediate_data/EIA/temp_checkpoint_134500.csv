@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,,2036,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,15910.726562
+,lt,,2037,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,15968.269531
+,lt,,2038,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16023.462891
+,lt,,2039,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16085.165039
+,lt,,2040,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16147.87207
+,lt,,2041,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16223.551758
+,lt,,2042,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16306.708008
+,lt,,2043,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16410.376953
+,lt,,2044,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16528.242188
+,lt,,2045,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16646.162109
+,lt,,2046,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16762.939453
+,lt,,2047,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16879.820312
+,lt,,2048,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,16994.386719
+,lt,,2049,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,17093.916016
+,lt,,2050,ref2023,thousands,20_usa,fleet stock : commercial light trucks : total,17188.173828
+,lt,,2041,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,3.361499
+,lt,,2038,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,4.512303
+,lt,,2039,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,4.093148
+,lt,,2040,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,3.71057
+,lt,,2042,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,3.043814
+,lt,,2043,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,2.755612
+,lt,,2044,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,2.494757
+,lt,,2045,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,2.250751
+,lt,,2046,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,1.967801
+,lt,,2047,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,1.629623
+,lt,,2048,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,1.333248
+,lt,,2049,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,1.052214
+,lt,,2050,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,0.836617
+,lt,,2022,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,12.657215
+,lt,,2023,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,12.253946
+,lt,,2024,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,11.837053
+,lt,,2025,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,11.405747
+,lt,,2026,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,10.958616
+,lt,,2027,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,10.497103
+,lt,,2028,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,10.004997
+,lt,,2029,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,9.502007
+,lt,,2030,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,8.96981
+,lt,,2031,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,8.417904
+,lt,,2032,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,7.827207
+,lt,,2033,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,7.176929
+,lt,,2034,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,6.57033
+,lt,,2035,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,6.001122
+,lt,,2036,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,5.468161
+,lt,,2037,ref2023,thousands,20_usa,fleet stock : commercial light trucks : cng/lng,4.972802
+lpg,lt,,2022,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,0.0272
+lpg,lt,,2023,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,0.446405
+lpg,lt,,2024,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,0.885205
+lpg,lt,,2025,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,1.334503
+lpg,lt,,2026,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,1.804604
+lpg,lt,,2027,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,2.297728
+lpg,lt,,2028,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,2.818901
+lpg,lt,,2029,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,3.37659
+lpg,lt,,2030,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,3.979535
+lpg,lt,,2031,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,4.63974
+lpg,lt,,2032,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,5.36918
+lpg,lt,,2033,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,6.179323
+lpg,lt,,2034,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,7.085126
+lpg,lt,,2035,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,8.108479
+lpg,lt,,2036,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,9.276356
+lpg,lt,,2037,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,10.613518
+lpg,lt,,2038,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,12.144465
+lpg,lt,,2039,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,13.896809
+lpg,lt,,2040,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,15.894682
+lpg,lt,,2041,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,18.155231
+lpg,lt,,2042,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,20.693428
+lpg,lt,,2043,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,23.531113
+lpg,lt,,2044,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,26.681091
+lpg,lt,,2045,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,30.170033
+lpg,lt,,2046,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,33.996666
+lpg,lt,,2047,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,38.143761
+lpg,lt,,2048,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,42.573021
+lpg,lt,,2049,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,47.273495
+lpg,lt,,2050,ref2023,thousands,20_usa,fleet stock : commercial light trucks : propane,52.222855
+ice_d,lt,,2022,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5201.808594
+ice_d,lt,,2023,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5250.896973
+ice_d,lt,,2024,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5302.262695
+ice_d,lt,,2025,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5353.227051
+ice_d,lt,,2026,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5399.26123
+ice_d,lt,,2027,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5437.29541
+ice_d,lt,,2028,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5468.609863
+ice_d,lt,,2029,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5492.089355
+ice_d,lt,,2030,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5507.677734
+ice_d,lt,,2031,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5512.253418
+ice_d,lt,,2032,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5521.180176
+ice_d,lt,,2033,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5519.047363
+ice_d,lt,,2034,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5513.248535
+ice_d,lt,,2035,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5500.627441
+ice_d,lt,,2036,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5486.002441
+ice_d,lt,,2037,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5469.023438
+ice_d,lt,,2038,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5449.018555
+ice_d,lt,,2039,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5431.819824
+ice_d,lt,,2040,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5414.206543
+ice_d,lt,,2041,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5406.396973
+ice_d,lt,,2042,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5405.307129
+ice_d,lt,,2043,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5420.110352
+ice_d,lt,,2044,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5445.680664
+ice_d,lt,,2045,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5472.603027
+ice_d,lt,,2046,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5500.274902
+ice_d,lt,,2047,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5530.638184
+ice_d,lt,,2048,ref2023,thousands,20_usa,fleet stock : commercial light trucks : tdi diesel,5561.692383

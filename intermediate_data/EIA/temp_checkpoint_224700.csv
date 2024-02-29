@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.585663
+bev,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.603645
+bev,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.621376
+bev,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.687943
+bev,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.680527
+ice_g,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,72.685715
+ice_g,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,72.914154
+ice_g,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,73.16227
+ice_g,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,73.617371
+ice_g,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,73.728256
+ice_g,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,73.906738
+ice_g,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.358322
+ice_g,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.402969
+ice_g,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.445892
+ice_g,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.506096
+ice_g,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.580345
+ice_g,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.670654
+ice_g,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.741852
+ice_g,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.827217
+ice_g,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.913544
+ice_g,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,74.998055
+ice_g,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.07399
+ice_g,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.174561
+ice_g,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.232338
+ice_g,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.29435
+ice_g,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.352699
+ice_g,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.406593
+ice_g,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.438972
+ice_g,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.475029
+ice_g,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.505249
+ice_g,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.541084
+ice_g,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.576836
+ice_g,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.682877
+ice_g,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline : two seater car,75.692177
+,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : two seater car,0.0
+lpg,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : two seater car,0.0
+lpg,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0
+lpg,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : two seater car,0.0

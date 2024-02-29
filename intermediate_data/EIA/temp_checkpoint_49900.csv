@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2029,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,3.992
+bev,,,2030,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,9.992001
+bev,,,2031,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,9.992001
+bev,,,2032,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,9.992001
+bev,,,2033,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,9.992001
+bev,,,2034,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,15.192001
+bev,,,2035,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2036,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2037,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2038,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2039,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2040,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2041,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2042,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2043,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2044,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2045,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2046,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2047,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2048,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2049,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+bev,,,2050,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,23.392
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.775621
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.775648
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776083
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776062
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776467
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.777218
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776948
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776953
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776798
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776974
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776898
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.77701
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776805
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776956
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776839
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776862
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776748
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776711
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776654
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776614
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776632
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776631
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776552
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776594
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776409
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776283
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.77638
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776386
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : commercial,5.776234
+bev,,,2026,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.601582
+bev,,,2027,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.981222
+bev,,,2028,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.951309
+bev,,,2029,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.245697
+bev,,,2030,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.029951
+bev,,,2031,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.089005
+bev,,,2022,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.261753
+bev,,,2023,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.094007
+bev,,,2024,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.073429
+bev,,,2025,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.172199
+bev,,,2035,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.00494
+bev,,,2032,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.111488
+bev,,,2033,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.224411
+bev,,,2034,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.066448
+bev,,,2036,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,18.96826
+bev,,,2037,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.093117
+bev,,,2038,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.521412
+bev,,,2039,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.550014
+bev,,,2040,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.53932
+bev,,,2041,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.461977
+bev,,,2042,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.446018
+bev,,,2043,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.485048
+bev,,,2044,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.506826
+bev,,,2045,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.564098
+bev,,,2046,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.57564
+bev,,,2047,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.57551
+bev,,,2048,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.545101
+bev,,,2049,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.618681
+bev,,,2050,ref2023,mmbtu/ton,20_usa,conversion factors : coal : use : electric power,19.498875
+bev,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.775621
+bev,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.775648
+bev,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776083
+bev,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776062
+bev,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776467
+bev,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.777218
+bev,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776948
+bev,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776953
+bev,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776798
+bev,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776974
+bev,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776898
+bev,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.77701
+bev,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776805
+bev,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776956
+bev,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776839
+bev,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776862
+bev,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776748
+bev,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776711
+bev,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776654
+bev,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : distillate fuel oil : electric power,5.776614

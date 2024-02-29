@@ -1,0 +1,50 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.180331
+bev,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.192473
+bev,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.180116
+bev,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.181063
+bev,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.177749
+bev,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.175131
+bev,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.165623
+bev,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.161346
+bev,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.161241
+bev,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.162494
+bev,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.162658
+bev,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.163868
+bev,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.163854
+bev,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.164149
+bev,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.163862
+bev,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.164537
+bev,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.165233
+bev,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.165279
+bev,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.16548
+bev,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.165659
+bev,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.164763
+bev,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.164765
+bev,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.164578
+bev,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.1647
+bev,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.170629
+bev,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.170972
+bev,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.171464
+bev,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.176981
+bev,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass,0.177752
+bev,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.02996
+bev,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.033407
+bev,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.035255
+bev,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.032028
+bev,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.031957
+bev,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.031942
+bev,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.031793
+bev,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030144
+bev,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029407
+bev,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029292
+bev,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029196
+bev,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029051
+bev,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029799
+bev,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029675
+bev,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030081
+bev,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029995
+bev,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030063
+bev,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029951
+bev,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.029983
+bev,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : electric power : biomass : cofiring,0.030146

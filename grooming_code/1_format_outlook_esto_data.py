@@ -180,9 +180,27 @@ def convert_outlook_data_system_output_to_transport_data_system_input(FILE_DATE_
     new_final_df = new_final_df.pivot(index=INDEX_COLS_no_date, columns='Date', values='Value').reset_index()
 
     #save this file to output_data\for_other_modellers
-    new_final_df.to_csv(f'intermediate_data/EGEDA/{FILE_DATE_ID}_9th_outlook_esto.csv', index=False)
+    new_final_df.to_csv(f'intermediate_data/EGEDA/DATE{FILE_DATE_ID}_9th_outlook_esto_WIDE.csv', index=False)
 
+def format_transport_data_system_input(FILE_DATE_ID):    
+    #note that this can be done on anymeasure or dataframe as long as it contains either fuels or technologies.
+    date_id = utility_functions.get_latest_date_for_data_file('intermediate_data/EGEDA', '_9th_outlook_esto_WIDE')#
+    new_final_df = pd.read_csv(f'intermediate_data/EGEDA/DATE{date_id}_9th_outlook_esto_WIDE.csv')#
+        
+    new_final_df = new_final_df.melt(id_vars=['Economy', 'Measure', 'Vehicle Type', 'Medium', 'Transport Type', 'Drive', 'Scenario', 'Unit'], var_name='Date', value_name='Value')
+    
+    #we jsut want to add a dataset column and melt it
+    new_final_df['Dataset'] = '9th_outlook_esto'
+    new_final_df['Fuel'] = 'all'
+    new_final_df['Frequency'] = 'yearly'
+    new_final_df['Unit'] = 'PJ'
+    new_final_df['Scope']='national'
+    
+    #save this file to output_data\for_other_modellers
+    new_final_df.to_csv(f'intermediate_data/EGEDA/DATE{FILE_DATE_ID}_9th_outlook_esto.csv', index=False)
+    
+    
 #%%
-convert_outlook_data_system_output_to_transport_data_system_input(FILE_DATE_ID)
-
+# convert_outlook_data_system_output_to_transport_data_system_input(FILE_DATE_ID)
+# format_transport_data_system_input(FILE_DATE_ID)
 #%%

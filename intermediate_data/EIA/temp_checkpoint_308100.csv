@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,7.937254
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,7.904023
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,7.887405
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,7.885063
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,9.850813
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,9.814404
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,8.635297
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,7.997471
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : commercial : east north central,7.494718
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+ethanol_flex_fuel,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.754932
+ethanol_flex_fuel,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.842918
+ethanol_flex_fuel,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.960835
+ethanol_flex_fuel,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.11903
+ethanol_flex_fuel,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.210625
+ethanol_flex_fuel,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.308891
+ethanol_flex_fuel,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.383629
+ethanol_flex_fuel,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.45359
+ethanol_flex_fuel,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.519104
+ethanol_flex_fuel,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.598637
+ethanol_flex_fuel,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.641235
+ethanol_flex_fuel,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.676746
+ethanol_flex_fuel,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,43.331036
+ethanol_flex_fuel,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,43.629345
+ethanol_flex_fuel,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,43.95723
+ethanol_flex_fuel,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,44.568897
+ethanol_flex_fuel,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.066013
+ethanol_flex_fuel,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.217529
+ethanol_flex_fuel,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.591919
+ethanol_flex_fuel,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,45.674259
+ethanol_flex_fuel,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.7686
+ethanol_flex_fuel,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.709499
+ethanol_flex_fuel,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.738041
+ethanol_flex_fuel,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.750305
+ethanol_flex_fuel,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.779778
+ethanol_flex_fuel,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.794819
+ethanol_flex_fuel,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.80846
+ethanol_flex_fuel,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.862858
+ethanol_flex_fuel,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small utility,46.868477
+ethanol_flex_fuel,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,31.178202
+ethanol_flex_fuel,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,31.400463
+ethanol_flex_fuel,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,31.555933
+ethanol_flex_fuel,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,31.917837
+ethanol_flex_fuel,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,31.997454
+ethanol_flex_fuel,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.120796
+ethanol_flex_fuel,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.573982
+ethanol_flex_fuel,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.643818
+ethanol_flex_fuel,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.714066
+ethanol_flex_fuel,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.786163
+ethanol_flex_fuel,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.856709
+ethanol_flex_fuel,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,32.93956
+ethanol_flex_fuel,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.00708
+ethanol_flex_fuel,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.076744
+ethanol_flex_fuel,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.146854
+ethanol_flex_fuel,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.22237
+ethanol_flex_fuel,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.303085
+ethanol_flex_fuel,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.408646
+ethanol_flex_fuel,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.485676
+ethanol_flex_fuel,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.566132
+ethanol_flex_fuel,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.642921
+ethanol_flex_fuel,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.716976
+ethanol_flex_fuel,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.767002
+ethanol_flex_fuel,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.824249
+ethanol_flex_fuel,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.868015
+ethanol_flex_fuel,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.924606
+ethanol_flex_fuel,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,33.978153
+ethanol_flex_fuel,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,34.105606
+ethanol_flex_fuel,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : compact car,34.132904
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,7.102166
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,5.844093
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.638769
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.051403

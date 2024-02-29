@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,5.143562
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,5.123498
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,5.069249
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,5.018086
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,4.99278
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,4.961186
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,4.919322
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,4.871342
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,4.824088
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east north central,4.803195
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.638831
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,7.720549
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,6.484441
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,5.250755
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.185747
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.950607
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.879205
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.897053
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.973238
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.088392
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.221109
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.40617
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.537446
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.646451
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.659757
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.707011
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.831576
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.766024
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.901079
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.983382
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.972262
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.908401
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.863029
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.853949
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.842321
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.802997
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.773695
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.714075
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.69992
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,7.622724
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,7.468724
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,6.430589
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.807769
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.326478
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.019627
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.845528
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.82732
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.77108
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.789329
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.83015
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.910179
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,4.962361
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.016085
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.055737
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.127687
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.240627
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.268955
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.314664
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.368617
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.34402
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.299705
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.236622
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.264717
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.221719
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.149442
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.075189
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.056048
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : middle atlantic,5.083659
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,7.535949
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,6.489441
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.427634
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.872141
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.441496
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.193195
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.102603
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.110515
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.172772
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.290277
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.39738
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.564406
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.713199
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.845387
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.871849
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.917911
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.051786
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.986796
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.10014
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.187757
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.192514
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.150367
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.08989
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.084175
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.041848
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,5.01618
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.98132
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.962115
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : mountain,4.965114
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,7.616823
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,6.514565
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,5.361677

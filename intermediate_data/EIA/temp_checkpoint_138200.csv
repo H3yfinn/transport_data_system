@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2024,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,532.863953
+,,,2025,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,553.771179
+,,,2026,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,577.255737
+,,,2027,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,597.364136
+,,,2028,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,614.678284
+,,,2029,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,627.72113
+,,,2030,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,637.349182
+,,,2031,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,648.737427
+,,,2032,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,662.291748
+,,,2033,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,675.884583
+,,,2034,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,690.448914
+,,,2035,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,704.778564
+,,,2036,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,720.015137
+,,,2037,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,736.801392
+,,,2038,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,754.869019
+,,,2039,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,773.494873
+,,,2040,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,794.919922
+,,,2041,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,816.088074
+,,,2042,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,835.039795
+,,,2043,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,855.200256
+,,,2044,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,874.605347
+,,,2045,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,893.030762
+,,,2046,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,911.927063
+,,,2047,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,931.363831
+,,,2048,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,950.155396
+,,,2049,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,970.805603
+,,,2050,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,994.116943
+,,,2022,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1413.121948
+,,,2023,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1382.275513
+,,,2024,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1372.048218
+,,,2025,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1393.881226
+,,,2026,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1407.64624
+,,,2027,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1408.921509
+,,,2028,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1419.678223
+,,,2029,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1453.191772
+,,,2030,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1475.315308
+,,,2031,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1477.526978
+,,,2032,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1475.791504
+,,,2033,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1478.003052
+,,,2034,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1479.702026
+,,,2035,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1486.900757
+,,,2036,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1499.714478
+,,,2037,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1518.984985
+,,,2038,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1541.062988
+,,,2039,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1559.66394
+,,,2040,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1581.418701
+,,,2041,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1606.935547
+,,,2042,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1626.979736
+,,,2043,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1644.369751
+,,,2044,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1661.708984
+,,,2045,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1681.636475
+,,,2046,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1702.326782
+,,,2047,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1722.484741
+,,,2048,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1739.528442
+,,,2049,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1754.663208
+,,,2050,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : construction,1777.881958
+bev,,,2029,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,153.044952
+bev,,,2030,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,154.97905
+bev,,,2031,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,156.095932
+bev,,,2032,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,159.331451
+bev,,,2033,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,163.813522
+bev,,,2034,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,168.144653
+bev,,,2035,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,172.725769
+bev,,,2036,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,177.385971
+bev,,,2037,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,182.320007
+bev,,,2038,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,187.67952
+bev,,,2039,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,192.963043
+bev,,,2040,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,198.585022
+bev,,,2041,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,204.38623
+bev,,,2042,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,209.770157
+bev,,,2043,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,215.495728
+bev,,,2044,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,221.133179
+bev,,,2045,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,226.601257
+bev,,,2049,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,250.01297
+bev,,,2046,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,232.243668
+bev,,,2047,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,238.182205
+bev,,,2048,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,244.161026
+bev,,,2050,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,257.045135
+bev,,,2022,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,136.718124
+bev,,,2023,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,136.660156
+bev,,,2024,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,138.18132
+bev,,,2025,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,141.502182
+bev,,,2026,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,144.872147
+bev,,,2027,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,147.973969
+bev,,,2028,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : electrical equipment,150.728119
+,,,2022,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,361.084625
+,,,2023,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,354.094513
+,,,2024,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,351.484802
+,,,2025,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,357.950043
+,,,2026,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,369.75708
+,,,2027,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,379.725708
+,,,2028,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,385.559387
+,,,2029,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,390.024872
+,,,2030,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,392.792755
+,,,2031,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,396.914825
+,,,2035,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,426.643524
+,,,2032,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,405.370148
+,,,2033,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,412.59906
+,,,2034,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,418.598236
+,,,2036,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : fabricated metal products,435.441895

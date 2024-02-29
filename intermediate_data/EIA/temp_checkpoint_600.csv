@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,153.178909
+,lt,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,153.608139
+,lt,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,153.751892
+,lt,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,152.541077
+,lt,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,151.14357
+,lt,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,148.773621
+,lt,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,146.027039
+,lt,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.180923
+,lt,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.133545
+,lt,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.057114
+,lt,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,144.897507
+,lt,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,144.784927
+,lt,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,144.815292
+,lt,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,144.843384
+,lt,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,144.83519
+,lt,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,144.926041
+,lt,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.023926
+,lt,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.103165
+,lt,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.317963
+,lt,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.568802
+,lt,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,145.827835
+,lt,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional light trucks : small van,146.112457
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3358.506104
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3357.565918
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3356.446045
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3354.615723
+,car,,2026,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3352.580811
+,car,,2030,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3338.222412
+,car,,2027,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3349.981934
+,car,,2028,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3346.229004
+,car,,2029,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3342.357178
+,car,,2031,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3334.041992
+,car,,2032,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3329.781982
+,car,,2033,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3325.305664
+,car,,2034,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3320.537354
+,car,,2035,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3317.381104
+,car,,2036,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3313.861084
+,car,,2037,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3310.192383
+,car,,2038,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3306.737549
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3303.240234
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3299.707031
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3296.300781
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3292.964111
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3289.789551
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3286.757812
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3283.794189
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3280.94458
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3278.380371
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3275.981689
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3273.573975
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional cars,3271.338867
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4455.123535
+,lt,,2023,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4442.838867
+,lt,,2024,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4430.008301
+,lt,,2025,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4416.011719
+,lt,,2026,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4401.670898
+,lt,,2027,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4388.102539
+,lt,,2028,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4373.919434
+,lt,,2029,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4360.989746
+,lt,,2030,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4349.513184
+,lt,,2031,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4338.59668
+,lt,,2032,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4327.825684
+,lt,,2033,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4319.532227
+,lt,,2034,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4311.404785
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4303.753906
+,lt,,2036,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4297.164062
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4291.13916
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4285.256348
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4279.69873
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4274.345215
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4269.446289
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4264.920898
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4261.31543
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4257.310059
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4253.524414
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4250.188965
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4247.11084
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4244.324219
+,lt,,2049,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4241.72998
+,lt,,2050,ref2023,lb,20_usa,new vehicle attributes : average weight : stock : conventional light trucks,4239.36084
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3183.485596
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3179.130859
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3177.507324
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3147.624268
+,car,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3147.632324
+,car,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3139.794678
+,car,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3110.456543
+,car,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3110.955811
+,car,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3111.461914
+,car,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3111.982666
+,car,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3112.29126
+,car,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3110.908936
+,car,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3105.082275
+,car,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3097.609131
+,car,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3091.123779
+,car,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3085.409668
+,car,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3080.845947
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3075.450439
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3072.825439
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3070.315918

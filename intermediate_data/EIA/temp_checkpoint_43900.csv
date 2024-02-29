@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2032,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.623436
+bev,,,2033,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.628111
+bev,,,2034,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.369835
+bev,,,2035,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.37443
+bev,,,2036,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.37923
+bev,,,2037,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.384109
+bev,,,2038,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.389166
+bev,,,2039,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.39443
+bev,,,2040,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.398518
+bev,,,2041,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.402695
+bev,,,2042,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.40707
+bev,,,2043,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.41147
+bev,,,2044,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.415909
+bev,,,2045,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,20.754105
+bev,,,2046,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,21.024767
+bev,,,2047,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,21.027832
+bev,,,2048,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,21.306265
+bev,,,2049,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,21.372051
+bev,,,2050,ref2023,gw,5-24,electricity : electric power sector : capacity : renewable sources,21.650961
+bev,,,2022,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,13.807704
+bev,,,2023,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,14.701728
+bev,,,2024,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,15.588244
+bev,,,2025,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,15.598953
+bev,,,2026,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,19.091316
+bev,,,2027,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,22.349276
+bev,,,2028,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,23.688406
+bev,,,2029,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,24.159187
+bev,,,2030,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,28.530188
+bev,,,2031,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,30.692221
+bev,,,2032,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,31.405661
+bev,,,2033,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,34.233036
+bev,,,2034,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,35.188419
+bev,,,2035,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,35.23064
+bev,,,2036,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,35.310917
+bev,,,2037,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,35.631653
+bev,,,2038,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,36.983036
+bev,,,2039,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,37.294979
+bev,,,2040,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,37.480747
+bev,,,2041,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,37.64278
+bev,,,2042,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,38.072987
+bev,,,2043,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,38.442455
+bev,,,2044,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,38.838734
+bev,,,2045,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,39.273525
+bev,,,2046,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,39.764938
+bev,,,2047,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,40.067307
+bev,,,2048,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,40.426064
+bev,,,2049,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,40.842934
+bev,,,2050,ref2023,gw,5-20,electricity : electric power sector : capacity : renewable sources,41.389359
+bev,,,2022,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,43.314518
+bev,,,2023,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,44.178047
+bev,,,2024,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,44.786118
+bev,,,2025,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,45.734226
+bev,,,2026,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,46.592224
+bev,,,2027,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,48.287323
+bev,,,2028,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,50.837852
+bev,,,2029,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.117546
+bev,,,2030,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.322289
+bev,,,2031,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.32481
+bev,,,2032,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.516342
+bev,,,2036,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.89679
+bev,,,2033,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.517399
+bev,,,2034,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.51659
+bev,,,2035,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,53.519299
+bev,,,2037,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,54.933666
+bev,,,2038,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,55.628212
+bev,,,2039,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,57.222572
+bev,,,2040,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.062725
+bev,,,2041,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.45813
+bev,,,2042,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.460709
+bev,,,2043,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.463303
+bev,,,2044,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.465927
+bev,,,2045,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.468597
+bev,,,2046,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.47039
+bev,,,2047,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.472198
+bev,,,2048,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.47403
+bev,,,2049,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,60.475899
+bev,,,2050,ref2023,gw,5-23,electricity : electric power sector : capacity : renewable sources,61.310524
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1934.466553
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1855.710693
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1878.209839
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1903.272827
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1973.621094
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,2018.708252
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,2060.38916
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,2093.696777
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,2124.792969
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,2161.523682
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,2199.250488
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1132.661743
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1168.422852
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1205.393555
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1250.332764
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1325.930664
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1402.946655
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1462.796753
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1507.648804
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1543.301758
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1581.780273
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1624.225464
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : total electric power sector capacity,1662.855347

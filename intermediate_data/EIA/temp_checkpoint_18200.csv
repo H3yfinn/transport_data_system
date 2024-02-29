@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,83.105408
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,85.652893
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,86.174896
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,88.318901
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,94.840897
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,95.079895
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,95.318893
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,95.557892
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,100.996895
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : cumulative planned additions : total,109.435898
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,0.626
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,0.626
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,0.626
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.081001
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.081001
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.081001
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : cumulative retirements : coal,1.667001
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,2.0224
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,2.1814
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,2.1814
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,4.2554
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,4.2554
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,5.305401
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2038,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,6.640401
+bev,,,2039,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,7.455401
+bev,,,2040,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,8.699402
+bev,,,2041,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,9.885402
+bev,,,2042,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,9.885402
+bev,,,2043,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,9.885402
+bev,,,2044,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,9.885402
+bev,,,2045,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,9.885402
+bev,,,2046,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,11.886402
+bev,,,2047,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,11.886402
+bev,,,2048,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,11.886402
+bev,,,2049,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,11.886402
+bev,,,2050,ref2023,gw,5-4,electricity : electric power sector : cumulative retirements : coal,11.886402
+bev,,,2022,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,
+bev,,,2023,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,2.0492
+bev,,,2024,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,2.0492
+bev,,,2025,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,3.538599
+bev,,,2026,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,3.693099
+bev,,,2027,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,3.693099
+bev,,,2028,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,3.693099
+bev,,,2029,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2030,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2031,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2032,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2033,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2034,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2035,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2036,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2037,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101
+bev,,,2038,ref2023,gw,5-5,electricity : electric power sector : cumulative retirements : coal,4.963101

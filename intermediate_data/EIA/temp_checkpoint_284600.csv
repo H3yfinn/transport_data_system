@@ -1,0 +1,24 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.18362
+ice_g,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.813334
+ice_g,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.546818
+ice_g,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.385072
+ice_g,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.420626
+ice_g,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.472272
+ice_g,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.546854
+ice_g,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.630287
+ice_g,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.723497
+ice_g,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.802581
+ice_g,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,3.909463
+ice_g,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.011086
+ice_g,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.120544
+ice_g,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.225615
+ice_g,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.368844
+ice_g,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.472623
+ice_g,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.584931
+ice_g,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.705503
+ice_g,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.816295
+ice_g,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,4.923951
+ice_g,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,5.047703
+ice_g,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,5.142185
+ice_g,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : motor gasoline,5.294944

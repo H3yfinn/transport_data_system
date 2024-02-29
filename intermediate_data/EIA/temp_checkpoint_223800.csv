@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small pickup,0.0
+lpg,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small pickup,0.0
+lpg,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small pickup,0.0
+lpg,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small pickup,0.0
+lpg,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small pickup,0.0
+lpg,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small pickup,0.0
+lpg,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+lpg,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : small pickup,0.0
+ice_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,45.311466
+ice_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,45.556911
+ice_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,45.799934
+ice_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,46.236229
+ice_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,46.48848
+ice_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,46.676701
+ice_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.013241
+ice_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.118031
+ice_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.226845
+ice_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.345142
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.466717
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.610207
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.670998
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.723812
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.765339
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.808796
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.849766
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.897057
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.925125
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.952713
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,47.978508
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.00272
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.015205
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.028744
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.040119
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.052967
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.065125
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.113327
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small pickup,48.118744
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : small pickup,0.0
+phev_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,336.361145
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,350.112762
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,364.354614
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,378.991364
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,394.01416
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,409.428406
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,425.250519
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,441.580109
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,458.330841
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,475.497925
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,493.085876
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa,511.110077
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,83.549149
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,121.20388
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,149.299881
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,168.689804
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,185.260757
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,196.634628
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,207.110458
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,213.337173
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,219.69072
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,226.147476
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,232.662155
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,239.259293
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,245.948135
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,252.610596
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,259.336395
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,266.227722
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,273.258301
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,280.352295
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,287.513519
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,294.795258
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,302.209137
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,309.75473
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,317.43219
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,325.237732
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,333.16507
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,341.21582
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,349.411987
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,357.758057
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand,366.254517
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,87.27404
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,97.675728
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,104.957893
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,111.186455
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,117.21154
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,121.512398
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,125.17572
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,128.093277
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,130.818069
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,133.282593
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,135.629974
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,137.852524
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,139.940857
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,141.886719
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,143.689804
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,145.369553
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,146.93898
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,148.411224
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,149.7948
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,151.101685
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,152.338089
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,153.509338
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,154.618851
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,155.670609
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,156.674118
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,157.629074
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,158.534073
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,159.383148
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : brazil,160.178146
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,97.788551
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,116.537071
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,129.851135
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,138.943787
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,146.62851
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,153.511139
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,156.930206
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,160.421234
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,163.975632
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,167.596069
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,171.278015
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,175.015976
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,178.810196
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,182.661438
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,186.56987
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,190.536957
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,194.563095
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,198.650085
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,202.795197
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,207.00029
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,211.267471
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,215.59639
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,219.995056
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,224.467728
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,229.016327
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,233.643768
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,238.35257
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,243.146866
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : canada,248.029572
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : china,782.722778

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,,,2027,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2028,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2030,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2031,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2032,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,3e-06
+fcev,,,2033,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,9e-06
+fcev,,,2034,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,4.3e-05
+fcev,,,2035,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.000108
+fcev,,,2036,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.000237
+fcev,,,2037,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.000474
+fcev,,,2038,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.000928
+fcev,,,2039,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.001755
+fcev,,,2040,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.003277
+fcev,,,2041,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.00605
+fcev,,,2042,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.008821
+fcev,,,2043,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.011598
+fcev,,,2044,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.014381
+fcev,,,2045,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.017171
+fcev,,,2046,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.019964
+fcev,,,2047,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.022764
+fcev,,,2048,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.025563
+fcev,,,2049,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.028357
+fcev,,,2050,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.031149
+fcev,,,2022,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2023,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2024,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2025,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+fcev,,,2029,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : fuel cells,0.0
+,,,2040,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,130.678467
+,,,2037,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,127.452408
+,,,2038,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,128.580276
+,,,2039,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,129.795914
+,,,2041,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,131.532822
+,,,2042,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,132.372482
+,,,2043,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,133.257446
+,,,2044,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,134.0457
+,,,2045,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,134.787109
+,,,2046,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,135.570633
+,,,2047,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,136.371704
+,,,2048,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,137.274658
+,,,2049,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,138.112167
+,,,2050,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,138.976959
+,,,2022,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,102.695099
+,,,2023,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,104.688721
+,,,2024,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,106.936668
+,,,2025,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,108.52356
+,,,2026,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,109.952644
+,,,2027,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,111.454178
+,,,2028,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,112.988495
+,,,2029,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,114.56694
+,,,2030,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,116.394722
+,,,2031,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,118.241707
+,,,2032,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,120.195175
+,,,2033,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,121.982651
+,,,2034,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,123.64547
+,,,2035,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,125.140549
+,,,2036,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : natural gas,126.382019
+,,,2022,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2023,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2024,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2025,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2026,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2027,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2028,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2029,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2030,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2031,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2032,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2033,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2034,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2035,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2036,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2037,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2038,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2039,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2040,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2041,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2042,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2043,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2044,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2045,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2046,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2047,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2048,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2049,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2050,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : other,16.760143
+,,,2022,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2023,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2024,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2025,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2026,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2027,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2028,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2029,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2030,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2031,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2032,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2033,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2034,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2035,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528

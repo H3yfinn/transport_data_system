@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : south korea: regional jets,1.24018
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : south korea: regional jets,1.243879
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : south korea: regional jets,1.247797
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : south korea: regional jets,1.252185
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,109.654007
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,115.916664
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,116.464874
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,116.764183
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,119.278656
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,121.753967
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,123.927666
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,125.711655
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,127.139191
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,128.653656
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,130.795105
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,133.299286
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,135.77739
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,138.293808
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,141.094452
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,144.172653
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,147.387192
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,150.655472
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,154.38472
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,158.1026
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,161.908447
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,165.847443
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,169.700684
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,173.468781
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,177.318344
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,181.469849
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,185.699783
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,189.966583
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : u.s.: regional jets,194.60527
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,1365.956543
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,1815.035767
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,2153.073975
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,2353.895264
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,2582.885742
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,2715.44165
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,2833.056152
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,2924.18457
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3015.576172
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3107.762695
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3202.957764
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3301.172607
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3401.424561
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3503.965088
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3609.331299
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3717.852539
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3829.166992
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,3943.211426
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4061.568359
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4182.518066
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4306.732422
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4434.241211
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4564.285645
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4696.761719
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4831.351074
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,4969.530273
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,5110.807617
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,5255.125977
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : world: regional jets,5403.638184
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,57.727024
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,72.771004
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,86.37709
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,95.095619
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,104.223206
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,110.097046
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,114.924202
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,120.069939
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,125.454285
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,131.061264
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,136.861633
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,142.840607
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,148.99646
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,155.328354
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,161.899872
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,168.666382
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,175.618225
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,182.753784
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,190.079254
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,197.656296
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,205.433868
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,213.406235
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,221.575668
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,229.950668
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,238.58374
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,247.427994
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,256.479889
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,265.740936
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : africa: wide body aircraft,275.218903
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,42.035439
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,65.305634
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,85.952705
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,100.826874
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,114.9105
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,124.001762
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,132.22052
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,136.347626
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : australia and new zealand: wide body aircraft,140.565521

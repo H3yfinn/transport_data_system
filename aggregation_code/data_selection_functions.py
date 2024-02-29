@@ -75,8 +75,12 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
                     plot_selection_timeseries(data_to_select_from, paths_dict,index_row_no_year,highlighted_datasets)
 
                 #now pass the group_concordance df to the user input handler which will run through each year and ask the user to select the preferred data. The preferred data will be recorded in the concordance df.
-                group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input)
-
+                try:#TODO FIXING THIS 2/26/2024
+                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input)
+                except:
+                    breakpoint()
+                    
+                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input)
                 if user_input == 'quit':
                     break
                 else:
@@ -441,7 +445,12 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
             year_index_i -= 1
             continue
         else:
-            group_concordance,years_to_ignore = apply_user_input_to_data(user_input, choice_dict, group_concordance,data_to_select_from, data_to_select_from_for_this_year, paths_dict,years_to_ignore)
+            try:
+                #TODO FIXING THIS 2/26/2024
+                group_concordance,years_to_ignore = apply_user_input_to_data(user_input, choice_dict, group_concordance,data_to_select_from, data_to_select_from_for_this_year, paths_dict,years_to_ignore)
+            except:
+                breakpoint()
+                group_concordance,years_to_ignore = apply_user_input_to_data(user_input, choice_dict, group_concordance,data_to_select_from, data_to_select_from_for_this_year, paths_dict,years_to_ignore)
             #go to next year
             year_index_i += 1
 
@@ -492,11 +501,20 @@ def change_concordance_with_selection(rows_to_change,selected_data, group_concor
         #if all num_datapoints are 1 but there are multiple years of data we will have a df
         # group_concordance = group_concordance.reset_index().set_index(paths_dict['INDEX_COLS'])
         # selected_data = selected_data.reset_index().set_index(paths_dict['INDEX_COLS'])
-        for rows_to_change in selected_data.index:
-            group_concordance.loc[rows_to_change, 'value'] = selected_data.loc[rows_to_change,'value']
-            group_concordance.loc[rows_to_change, 'dataset'] =  selected_data.loc[rows_to_change,'dataset']
-            group_concordance.loc[rows_to_change, 'comment'] = selected_data.loc[rows_to_change,'comment']
-            group_concordance.loc[rows_to_change, 'dataset_selection_method'] = dataset_selection_method
+        try:
+            for rows_to_change in selected_data.index:
+                group_concordance.loc[rows_to_change, 'value'] = selected_data.loc[rows_to_change,'value']
+                group_concordance.loc[rows_to_change, 'dataset'] =  selected_data.loc[rows_to_change,'dataset']
+                group_concordance.loc[rows_to_change, 'comment'] = selected_data.loc[rows_to_change,'comment']
+                group_concordance.loc[rows_to_change, 'dataset_selection_method'] = dataset_selection_method
+        except:
+            breakpoint()
+            
+            for rows_to_change in selected_data.index:
+                group_concordance.loc[rows_to_change, 'value'] = selected_data.loc[rows_to_change,'value']
+                group_concordance.loc[rows_to_change, 'dataset'] =  selected_data.loc[rows_to_change,'dataset']
+                group_concordance.loc[rows_to_change, 'comment'] = selected_data.loc[rows_to_change,'comment']
+                group_concordance.loc[rows_to_change, 'dataset_selection_method'] = dataset_selection_method
     else:
         logging.error(f'ERROR: not a series or df: {selected_data}')
         raise ValueError
@@ -673,7 +691,6 @@ def plot_selection_timeseries(data_to_select_from, paths_dict,index_row_no_year,
 
         #make the graph fig a bit bigger 
         fig.set_size_inches(10, 10)
-        
         fig.savefig(paths_dict['plotting_paths']['selection_timeseries'] + '/{}.png'.format(paths_dict['FILE_DATE_ID']))
         plt.close()#although we arent opening any plots, it seems we need to close them, at least when using jupytyer interactive
         

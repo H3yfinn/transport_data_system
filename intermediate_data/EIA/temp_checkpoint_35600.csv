@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,78.473526
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,83.382271
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,88.145393
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,93.947594
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,116.118263
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,99.106346
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,104.475723
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,109.911209
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,122.657608
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,127.585518
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,133.96225
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,139.357544
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,145.725708
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,152.265213
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,158.830002
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,165.440414
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,172.055618
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,178.825714
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,185.692123
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,192.871078
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,201.085556
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,208.26741
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,216.260696
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,223.842621
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : end-use generators : renewable sources,231.526932
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : end-use generators : total,79.264328
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : end-use generators : total,86.192307
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : end-use generators : total,92.617462
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : end-use generators : total,98.603409
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : end-use generators : total,103.44014
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : end-use generators : total,108.51992
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : end-use generators : total,113.454376
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : end-use generators : total,119.429878
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : end-use generators : total,124.76487
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : end-use generators : total,130.324371
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : end-use generators : total,135.966034
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : end-use generators : total,142.38327
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : end-use generators : total,149.149872
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : end-use generators : total,154.319183
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : end-use generators : total,160.942566
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : end-use generators : total,166.599915
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : end-use generators : total,173.24147
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : end-use generators : total,180.0672
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : end-use generators : total,186.937012
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : end-use generators : total,193.867142
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : end-use generators : total,200.81752
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : end-use generators : total,207.932236
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : end-use generators : total,215.14946
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : end-use generators : total,222.683228
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : end-use generators : total,231.225159
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : end-use generators : total,238.753998
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : end-use generators : total,247.094025
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : end-use generators : total,255.038589
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : end-use generators : total,263.117737
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,4.835001
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,4.209002
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,4.209002
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,4.209002
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,3.317
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,3.317
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,3.317
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : capacity : coal,2.731
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,22.799503
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,20.777103
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,20.618103
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,20.618103
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,18.544104
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,18.544104
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,17.494101
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103
+bev,,,2038,ref2023,gw,5-4,electricity : electric power sector : capacity : coal,16.159103

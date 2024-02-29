@@ -1,0 +1,94 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2038,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.353715
+,,,2039,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.345892
+,,,2040,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.401134
+,,,2041,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.419509
+,,,2042,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.45427
+,,,2043,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.453583
+,,,2044,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.481853
+,,,2045,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.53457
+,,,2046,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.5065
+,,,2047,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.561287
+,,,2048,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.578429
+,,,2049,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.585656
+,,,2050,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.596296
+,,,2029,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.373306
+,,,2026,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.435555
+,,,2027,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.415823
+,,,2028,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.383131
+,,,2030,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.3859
+,,,2031,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.367958
+,,,2032,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.360013
+,,,2033,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.328094
+,,,2034,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.318662
+,,,2035,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.334319
+,,,2036,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.354036
+,,,2037,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.319482
+,,,2022,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.761636
+,,,2023,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.480737
+,,,2024,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.479048
+,,,2025,ref2023,tcf,20_usa,natural gas use : all sectors : east north central,4.488146
+,,,2022,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.826043
+,,,2023,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.796004
+,,,2024,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.737786
+,,,2025,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.658571
+,,,2026,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.629773
+,,,2027,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.579033
+,,,2028,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.535627
+,,,2029,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.515863
+,,,2030,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.487075
+,,,2031,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.472243
+,,,2032,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.457095
+,,,2033,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.390602
+,,,2034,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.401447
+,,,2035,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.408845
+,,,2036,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.411663
+,,,2037,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.440073
+,,,2038,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.445366
+,,,2039,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.453705
+,,,2040,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.468034
+,,,2041,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.462152
+,,,2042,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.45915
+,,,2043,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.462797
+,,,2044,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.52909
+,,,2045,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.514027
+,,,2046,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.497597
+,,,2047,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.494232
+,,,2048,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.519141
+,,,2049,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.521359
+,,,2050,ref2023,tcf,20_usa,natural gas use : all sectors : east south central,1.513267
+,,,2022,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.902167
+,,,2023,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.57765
+,,,2024,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.519606
+,,,2025,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.461535
+,,,2026,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.414003
+,,,2027,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.347682
+,,,2028,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.359175
+,,,2029,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.357128
+,,,2030,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.325829
+,,,2031,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.261085
+,,,2032,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.228402
+,,,2033,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.181716
+,,,2034,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.107569
+,,,2035,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.037871
+,,,2036,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,2.975023
+,,,2037,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.039045
+,,,2038,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.08156
+,,,2039,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.066252
+,,,2040,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.112369
+,,,2041,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.13639
+,,,2042,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.150006
+,,,2043,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.150152
+,,,2044,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.194163
+,,,2045,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.202946
+,,,2046,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.191522
+,,,2047,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.144945
+,,,2048,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.119622
+,,,2049,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.117866
+,,,2050,ref2023,tcf,20_usa,natural gas use : all sectors : middle atlantic,3.179834
+,,,2022,ref2023,tcf,20_usa,natural gas use : all sectors : mountain,1.847213
+,,,2023,ref2023,tcf,20_usa,natural gas use : all sectors : mountain,1.673618
+,,,2024,ref2023,tcf,20_usa,natural gas use : all sectors : mountain,1.62815
+,,,2025,ref2023,tcf,20_usa,natural gas use : all sectors : mountain,1.654308
+,,,2026,ref2023,tcf,20_usa,natural gas use : all sectors : mountain,1.606752
+,,,2027,ref2023,tcf,20_usa,natural gas use : all sectors : mountain,1.532282

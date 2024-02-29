@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.244963
+,,,2041,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.333443
+,,,2042,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.379602
+,,,2043,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.40567
+,,,2044,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.393663
+,,,2045,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.331772
+,,,2046,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.287839
+,,,2047,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.283342
+,,,2048,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.251342
+,,,2049,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.240483
+,,,2050,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : wood products,7.299208
+,,,2022,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.557702
+,,,2023,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.453097
+,,,2024,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.206325
+,,,2025,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.477785
+,,,2026,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.357696
+,,,2027,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.292214
+,,,2028,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.39739
+,,,2029,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.545018
+,,,2030,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.569008
+,,,2031,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.573676
+,,,2032,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.713096
+,,,2033,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,11.891123
+,,,2034,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.097278
+,,,2035,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.220999
+,,,2036,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.178108
+,,,2037,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.263863
+,,,2038,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.30404
+,,,2039,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.370533
+,,,2040,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.474615
+,,,2041,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.620698
+,,,2042,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.740822
+,,,2043,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.821144
+,,,2044,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.837812
+,,,2045,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.766619
+,,,2046,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.723177
+,,,2047,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.745
+,,,2048,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.724631
+,,,2049,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.740418
+,,,2050,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : wood products,12.878936
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments,36663.269531
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments,37454.488281
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments,37873.355469
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments,38518.664062
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments,39338.316406
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments,40132.984375
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments,40863.734375
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments,41568.757812
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments,42259.625
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments,42957.105469
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments,43768.628906
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments,44664.777344
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments,45574.347656
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments,46493.609375
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments,47451.671875
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments,48448.648438
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments,49485.5625
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments,50538.066406
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments,51668.613281
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments,52834.960938
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments,54008.269531
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments,55200.695312
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments,56400.382812
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments,57613.9375
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments,58865.550781
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments,60168.925781
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments,61481.953125
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments,62812.625
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments,64271.160156
+,,,2022,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,36663.269531
+,,,2023,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,37454.488281
+,,,2024,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,37873.355469
+,,,2025,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,38518.664062
+,,,2026,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,39338.316406
+,,,2027,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,40132.988281
+,,,2028,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,40863.734375
+,,,2029,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,41568.757812
+,,,2030,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,42259.625
+,,,2031,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,42957.105469
+,,,2032,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,43768.628906
+,,,2033,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,44664.777344
+,,,2034,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,45574.347656
+,,,2035,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,46493.609375
+,,,2036,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,47451.671875
+,,,2037,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,48448.648438
+,,,2038,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,49485.5625
+,,,2039,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,50538.066406
+,,,2040,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,51668.617188
+,,,2041,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,52834.960938
+,,,2042,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,54008.269531
+,,,2043,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,55200.691406
+,,,2044,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,56400.382812
+,,,2045,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,57613.941406
+,,,2046,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,58865.550781
+,,,2047,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,60168.921875
+,,,2048,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,61481.953125
+,,,2049,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,62812.625
+,,,2050,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : total,64271.15625
+,,,2022,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : non-energy-intensive,4127.074219
+,,,2023,ref2023,billion 2012 $,20_usa,macroeconomic indicators : value of shipments : non-energy-intensive,4136.049805

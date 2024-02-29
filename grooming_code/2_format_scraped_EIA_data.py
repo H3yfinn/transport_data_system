@@ -3,7 +3,7 @@
 
 # the prev file for this is be C:\Users\finbar.maunsell\github\transport_data_system\grooming_code\1_extract_data_from_EIA_API.py
 #%%
-
+ 
 
 #take in data files. they all have around about the same structure:
 import os
@@ -16,6 +16,7 @@ import datetime
 import urllib.parse
 import requests
 import time
+import json
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
 # key = 'tCnavZWYLeKCs7nKHvKVGpnAqMKXIXoXVoxa0GXF'
 data_source = 'aeo/2023'
@@ -138,9 +139,16 @@ words_in_series_names_to_ignore += ['aircraft stock','energy use', 'use by secto
 # anything in this list will cause that series to be ignored. e.g. 'liquefaction' will ignore any series with 'liquefaction' in the seriesname
 
 new_df = pd.DataFrame(columns=['drive', 'vehicle_type', 'measure', 'period', 'scenario', 'unit', 'economy', 'value'])#'fuel', 
+
+#make the value col into a float:
+#find any nopn num,eric characters in the value column and replace them with np.nan
+concatenated_data['value'] = concatenated_data['value'].replace(regex=r'[^\d.]', value=np.nan)
+concatenated_data['value'] = concatenated_data['value'].astype(float)
 #decapitalaise everythin in concatenated_data:
 concatenated_data = concatenated_data.apply(lambda x: x.str.lower() if x.dtype == "object" else x)
-    
+#%%
+######################################
+######################################
 def extract_values_from_mapping_dictionaries(mapping, string_to_search):
     matching_string = None
     for key in mapping.keys():
@@ -148,12 +156,12 @@ def extract_values_from_mapping_dictionaries(mapping, string_to_search):
             matching_string = mapping[key]
     
     return matching_string
-    
-for index, row in concatenated_data.iterrows():
+
+def process_row(row):
     new_row = {}
     
     if any(word in row['seriesName'] for word in words_in_series_names_to_ignore):
-        continue
+        return None
     
     #go through the mapping dictionaries and extract the values in column_to_extract_from that mathc the keys in the mapping dictionary
     for column_name, mapping in mapping_dictionaries_to_column_name.items():
@@ -178,10 +186,93 @@ for index, row in concatenated_data.iterrows():
     new_row['economy'] = region_id_to_economy_mapping[row['regionId']] if row['regionId'] in region_id_to_economy_mapping else row['regionId']
     # new_row['value'] = entry['data'][0]['value']
     
-    new_row['seriesName'] = row['seriesName']
-    new_df = pd.concat([new_df, pd.DataFrame(new_row, index=[0])])
-#%%
+    new_row['seriesName'] = row['seriesName']    
+    new_row['value'] = row['value']
+    if new_row['value'] == 'nan' or new_row['value'] == 'na' or new_row['value'] == np.nan:
+        breakpoint()#why doesnt vlaue have non na
+    breakpoint()
+    return new_row
 
+# Function to save checkpoints
+def save_checkpoint(index, temp_df):
+    temp_df.to_csv(f'intermediate_data/EIA/temp_checkpoint_{index}.csv', index=False)
+    with open('intermediate_data/EIA/last_checkpoint.json', 'w') as f:
+        json.dump({'last_index': index}, f)
+
+# Function to load the last checkpoint
+def load_last_checkpoint():
+    try:
+        with open('intermediate_data/EIA/last_checkpoint.json', 'r') as f:
+            try:
+                last_checkpoint = json.load(f)
+            except:
+                return 0
+            if 'last_index' in last_checkpoint:
+                last_index = last_checkpoint['last_index']
+            else:
+                last_index = 0
+            return last_index
+    except FileNotFoundError:
+        return 0
+    
+######################################
+######################################
+#%%
+# Load the last checkpoint
+last_index_processed = load_last_checkpoint()
+last_index_processed = 0
+
+# Assuming you've defined your mapping functions and dictionaries above
+
+# Process data in chunks
+chunk_size = 100  # Define a reasonable chunk size
+total_rows = len(concatenated_data)
+
+for start_row in range(last_index_processed, total_rows, chunk_size):
+    end_row = min(start_row + chunk_size, total_rows)
+    temp_df = pd.DataFrame()  # Temporary dataframe to store processed chunk
+
+    # Process chunk
+    for index, row in concatenated_data.iloc[start_row:end_row].iterrows():
+        # Your data processing logic here
+        breakpoint()
+        new_row = process_row(row)  # Assuming you have a function to process each row
+        if new_row is not None:
+            temp_df = pd.concat([temp_df, pd.DataFrame(new_row, index=[0])])
+
+    # Save processed chunk
+    save_checkpoint(end_row, temp_df)
+    print(f"Processed and saved up to row {end_row}")
+
+# Combine all chunks into the final DataFrame after all chunks are processed
+# This step can be done after all processing is complete or in a separate script
+final_df = pd.DataFrame()
+for i in range(0, total_rows, chunk_size):
+    if i == 0:
+        continue
+    try:
+        temp_df = pd.read_csv(f'intermediate_data/EIA/temp_checkpoint_{i}.csv')
+    except:
+        print(f"File intermediate_data/EIA/temp_checkpoint_{i}.csv not found with error")
+        breakpoint()
+        continue
+    final_df = pd.concat([final_df, temp_df], ignore_index=True)
+
+# Save the final combined DataFrame
+final_df.to_csv(f'intermediate_data/EIA/{data_source.replace("/", "_")}_partly_formatted.csv', index=False)
+
+#%%
+# #save new_df:
+# new_df.to_csv(f'intermediate_data/EIA/{data_source.replace("/", "_")}_partly_formatted.csv', index=False) #this data will be used by 2_format_scraped_EIA_data
+
+
+######################################
+######################################
+
+
+
+#%%
+new_df = pd.read_csv(f'intermediate_data/EIA/{data_source.replace("/", "_")}_partly_formatted.csv')
 #where the unit is mpg convert to pj.km. can do this using the config/conversion_factors.csv file. 
 #we will have to convert from the drove to the fuel type:
 drive_to_fuel_type = {
@@ -189,16 +280,20 @@ drive_to_fuel_type = {
     'ice_g': 'petrol',
     'phev_d': 'diesel',
     'phev_g': 'petrol',
-    'bev': 'electric'}
-
+    'bev': 'electric',
+    'lpg': 'lpg',
+    'ethanol_flex_fuel': 'ethanol',
+    'fcev': 'hydrogen'}
+    
 new_df_mpg = new_df[new_df['unit'] == 'mpg']
 new_df_mpg['fuel'] = new_df_mpg['drive'].map(drive_to_fuel_type)
-#where there ar enas show them
-nas = new_df_mpg[new_df_mpg['fuel'].isna()]
+#where there ar enas show them then if there are not nas fro drive, print the user so they know:
+nas = new_df_mpg[new_df_mpg['fuel'].isna() & new_df_mpg['drive'].notna()]
+
 if len(nas) > 0:
-    print('nas found')
+    print('nas found for drive to fuel type mapping')
     print(nas)
-    raise ValueError('nas found')
+    breakpoint()
 
 conversion_factors = pd.read_csv('config/conversion_factors.csv')
 conversion_factors = conversion_factors[(conversion_factors['original_unit'] == 'mpg')&(conversion_factors['final_unit'] == 'km/PJ')]
@@ -208,9 +303,9 @@ new_df_mpg = new_df_mpg.merge(conversion_factors, left_on=['fuel', 'unit'], righ
 #identify any left_onlys
 left_onlys = new_df_mpg[new_df_mpg['_merge'] == 'left_only']
 if len(left_onlys) > 0:
-    print('left_onlys found')
+    print('left_onlys found in merge with conversion factors')
     print(left_onlys)
-    raise ValueError('left_onlys found')
+    # raise ValueError('left_onlys found')
 
 #times the conversion factor by the value:
 new_df_mpg['value'] = new_df_mpg['value']*new_df_mpg['value_conversion_factor']
@@ -230,4 +325,19 @@ new_df = pd.concat([new_df, new_df_mpg])
 #save the data:
 new_df.to_csv(f'intermediate_data/EIA/{data_source.replace("/", "_")}_formatted.csv', index=False) #this data will be used by 2_format_scraped_EIA_data
 #%%
-#TODO HOW TO INSERT VALUE? LIKE WHERE IS IT??
+#Do some quick analysis to show user what is available:
+#hosw the different valuesin new_df.seriesName.unique() and new_df.measure.unique()
+print('We have the following unique values in seriesName and measure:')
+for i in new_df['seriesName'].unique():
+    print(i)
+print(new_df['measure'].unique())
+
+
+
+
+
+
+
+
+
+# %%

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,6.142066
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,6.144857
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,6.055934
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,6.051066
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,5.999092
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,6.002813
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : pacific,6.031173
+ice_d,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,41.241074
+ice_d,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,41.434673
+ice_d,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,41.622746
+ice_d,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,42.032749
+ice_d,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,42.275822
+ice_d,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,42.444687
+ice_d,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,42.740387
+ice_d,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,42.851692
+ice_d,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,42.962112
+ice_d,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.075844
+ice_d,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.192535
+ice_d,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.314995
+ice_d,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.369083
+ice_d,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.414692
+ice_d,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.459312
+ice_d,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.505146
+ice_d,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.55024
+ice_d,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.608227
+ice_d,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.643723
+ice_d,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.680958
+ice_d,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.715195
+ice_d,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.747856
+ice_d,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.769241
+ice_d,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.792892
+ice_d,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.810921
+ice_d,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.833328
+ice_d,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.854145
+ice_d,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.911674
+ice_d,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small crossover light truck,43.925426
+lpg,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,46.803684
+lpg,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,47.158745
+lpg,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,47.384972
+lpg,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,47.705814
+lpg,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.065037
+lpg,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.222256
+lpg,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.57291
+lpg,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.648411
+lpg,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.719204
+lpg,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.789013
+lpg,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,48.873142
+lpg,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.000805
+lpg,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.068371
+lpg,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.138298
+lpg,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.207382
+lpg,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.274437
+lpg,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.33778
+lpg,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.418922
+lpg,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.457325
+lpg,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.496494
+lpg,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.532185
+lpg,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.563145
+lpg,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.574352
+lpg,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.592724
+lpg,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.60368
+lpg,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.619701
+lpg,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.634483
+lpg,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.706242
+lpg,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : large van,49.71167
+bev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,41.875431
+bev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,42.032673
+bev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,42.076431
+bev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,42.515087
+bev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,42.72718
+bev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,42.825241
+bev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.070126
+bev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.092148
+bev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.122799
+bev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.170185
+bev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.252964
+bev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.325081
+bev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.326851
+bev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.341785
+bev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.358162
+bev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.382042
+bev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.412533
+bev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.458912
+bev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.47892
+bev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.499592
+bev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.521542
+bev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.537895
+bev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.537624
+bev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.541218
+bev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.538799
+bev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.541847
+bev,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.545254
+bev,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.603985
+bev,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small pickup,43.59771
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover car,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover car,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover car,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover car,0.0
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover car,0.0
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover car,0.0

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2048,ref2023,gw,5-23,electricity : end-use sectors : capacity : renewable sources,22.173134
+bev,,,2049,ref2023,gw,5-23,electricity : end-use sectors : capacity : renewable sources,22.996593
+bev,,,2050,ref2023,gw,5-23,electricity : end-use sectors : capacity : renewable sources,23.831169
+,,,2022,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2023,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2024,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2025,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2026,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2027,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2028,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2029,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2030,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2031,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2032,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2033,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2034,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2035,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2036,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2037,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2038,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2039,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2040,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2041,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2042,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2043,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2044,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2045,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2046,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2047,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2048,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2049,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2050,ref2023,gw,20_usa,other manufacturing : combined heat and power : generating capacity : petroleum,0.0375
+,,,2022,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,28.352093
+,,,2023,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,28.423635
+,,,2024,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,28.48354
+,,,2025,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,28.622684
+,,,2026,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,28.938061
+,,,2027,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,29.137899
+,,,2028,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,29.334263
+,,,2029,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,29.52079
+,,,2030,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,29.701962
+,,,2031,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,29.906544
+,,,2032,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,30.128889
+,,,2033,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,30.345646
+,,,2034,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,30.582626
+,,,2035,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,30.83717
+,,,2036,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,31.096634
+,,,2037,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,31.375259
+,,,2038,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,31.65135
+,,,2039,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,31.958248
+,,,2040,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,32.273239
+,,,2041,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,32.606148
+,,,2042,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,32.963623
+,,,2043,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,33.334129
+,,,2044,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,33.699226
+,,,2045,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,34.060066
+,,,2046,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,34.412575
+,,,2047,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,34.792839
+,,,2048,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,35.155289
+,,,2049,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,35.540668
+,,,2050,ref2023,gw,20_usa,industrial : total industrial combined heat and power : capacity,35.97506
+bev,,,2022,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.5406
+bev,,,2023,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.5656
+bev,,,2024,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.5656
+bev,,,2025,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.5656
+bev,,,2026,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.6656
+bev,,,2027,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.7406
+bev,,,2028,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.8156
+bev,,,2029,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,2.95142
+bev,,,2030,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.069424
+bev,,,2031,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.144424
+bev,,,2032,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.23087
+bev,,,2033,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.269469
+bev,,,2034,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.373804
+bev,,,2035,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.458715
+bev,,,2036,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.593119
+bev,,,2037,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.698781
+bev,,,2038,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.800297
+bev,,,2039,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.856339
+bev,,,2040,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.909254
+bev,,,2041,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,3.995065
+bev,,,2042,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.083319
+bev,,,2043,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.144464
+bev,,,2044,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.219464
+bev,,,2045,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.343123
+bev,,,2046,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.528783
+bev,,,2047,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.717385
+bev,,,2048,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.833777
+bev,,,2049,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,4.965326
+bev,,,2050,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : geothermal,5.061599
+bev,,,2022,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.223099
+bev,,,2023,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.249893
+bev,,,2024,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.251686
+bev,,,2025,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.249191
+bev,,,2026,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.297455
+bev,,,2027,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.341156
+bev,,,2028,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.325356
+bev,,,2029,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.325356
+bev,,,2030,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.325356
+bev,,,2031,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : hydropower,79.325356

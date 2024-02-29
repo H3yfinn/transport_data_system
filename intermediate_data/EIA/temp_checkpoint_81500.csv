@@ -1,0 +1,4 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar thermal,0.019886
+bev,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar thermal,0.020183
+bev,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : electric power : solar thermal,0.020373

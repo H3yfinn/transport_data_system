@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2424.325928
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2395.675781
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2365.741699
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2336.720215
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2308.44458
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2279.487793
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2252.449951
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2224.95166
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2195.407227
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2166.333252
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2135.86792
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2105.196045
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2075.306152
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2045.8573
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,2016.038208
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,1986.243652
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : cc with 90% sequestration,1957.881714
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,1175.687988
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,1087.006958
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,1035.390381
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,1009.830139
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,997.114319
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,988.820496
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,978.514282
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,969.059204
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,958.99408
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,952.317078
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,946.124695
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,939.20459
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,931.924561
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,901.894348
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,924.115417
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,916.631897
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,909.412048
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,895.107544
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,888.111633
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,880.267395
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,872.576538
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,864.28717
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,855.872437
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,847.733276
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,839.733521
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,831.539978
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,823.312927
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : multi shaft,815.637573
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1329.505127
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1229.22168
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1170.852173
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1141.947876
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1127.568359
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1118.189453
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1106.534912
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1095.842773
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1084.460815
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1076.910278
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1069.907715
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1062.082275
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1053.849731
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1045.018921
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1036.556274
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1028.391846
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1019.890625
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1012.216003
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,1004.304749
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,995.434143
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,986.737122
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,977.363342
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,967.847656
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,958.643616
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,949.597229
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,940.331665
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,931.028259
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : combined cycle : single shaft,922.348694
+fcev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,3254.033203
+fcev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,3149.781494
+fcev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,0.0
+fcev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,7290.584473
+fcev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,6544.978027
+fcev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,6024.608887
+fcev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5816.85498
+fcev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5683.58252
+fcev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5571.414062
+fcev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5459.87793
+fcev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5346.341797
+fcev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5229.97168
+fcev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5119.821289
+fcev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,5012.650391
+fcev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4902.025879
+fcev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4790.015137
+fcev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4675.85498
+fcev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4563.93457
+fcev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4453.879883
+fcev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4342.929688
+fcev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4236.03418
+fcev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4128.645996
+fcev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,4017.908447
+fcev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,3908.53125
+fcev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : fuel cells,3797.180664

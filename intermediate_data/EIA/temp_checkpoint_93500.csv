@@ -1,0 +1,5 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2022,ref2023,quads,20_usa,industrial : refining use : biofuels heat and coproducts,0.918076
+,,,2023,ref2023,quads,20_usa,industrial : refining use : biofuels heat and coproducts,0.984578
+,,,2024,ref2023,quads,20_usa,industrial : refining use : biofuels heat and coproducts,0.910289
+,,,2025,ref2023,quads,20_usa,industrial : refining use : biofuels heat and coproducts,0.906579

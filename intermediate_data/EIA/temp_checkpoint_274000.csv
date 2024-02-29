@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2046,ref2023,tcf,20_usa,oil and gas : natural gas : supplemental gas supplies,0.062892
+,,,2047,ref2023,tcf,20_usa,oil and gas : natural gas : supplemental gas supplies,0.062892
+,,,2048,ref2023,tcf,20_usa,oil and gas : natural gas : supplemental gas supplies,0.062892
+,,,2049,ref2023,tcf,20_usa,oil and gas : natural gas : supplemental gas supplies,0.062892
+,,,2050,ref2023,tcf,20_usa,oil and gas : natural gas : supplemental gas supplies,0.062892
+bev,,,2022,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2026,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2023,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2024,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2025,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2027,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2028,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2029,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2030,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.533877
+bev,,,2031,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.653452
+bev,,,2032,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.773026
+bev,,,2033,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,14.8926
+bev,,,2034,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.012175
+bev,,,2035,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.131748
+bev,,,2036,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.251322
+bev,,,2037,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.370896
+bev,,,2038,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.49047
+bev,,,2039,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.610044
+bev,,,2040,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2041,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2042,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2043,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2044,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2045,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2046,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2047,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2048,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2049,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2050,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : economy,15.729618
+bev,,,2042,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,493.264252
+bev,,,2043,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,499.916534
+bev,,,2044,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,518.644531
+bev,,,2045,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,524.393738
+bev,,,2046,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,547.19751
+bev,,,2047,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,562.658142
+bev,,,2048,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,566.251465
+bev,,,2049,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,580.286682
+bev,,,2050,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,586.51593
+bev,,,2022,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,246.610352
+bev,,,2023,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,217.955978
+bev,,,2024,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,274.054565
+bev,,,2025,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,264.932922
+bev,,,2026,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,264.275818
+bev,,,2027,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,287.935699
+bev,,,2028,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,339.67276
+bev,,,2029,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,370.751129
+bev,,,2030,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,406.239258
+bev,,,2031,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,433.963104
+bev,,,2032,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,448.352997
+bev,,,2033,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,465.686401
+bev,,,2034,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,492.161377
+bev,,,2035,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,488.947205
+bev,,,2036,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,498.166748
+bev,,,2037,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,483.174072
+bev,,,2038,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,482.242371
+bev,,,2039,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,477.699738
+bev,,,2040,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,479.71347
+bev,,,2041,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : economy,488.482788
+bev,,,2042,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,43.113739
+bev,,,2043,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.432346
+bev,,,2044,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,41.618855
+bev,,,2045,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,40.813282
+bev,,,2046,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,39.891457
+bev,,,2047,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,39.743462
+bev,,,2048,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,40.150204
+bev,,,2049,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,39.705467

@@ -1,0 +1,80 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.634693
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.460797
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.240523
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,14.065301
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.868577
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.666343
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.405502
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.193121
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,13.058621
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.800762
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.688694
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.558852
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.357529
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,12.140377
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.941495
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.783803
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.629775
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.452766
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.283547
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.136607
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : east north central,11.028867
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.290928
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.351826
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.406925
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.445259
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.484077
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.524914
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.572426
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.601063
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.629082
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.654716
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.678192
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.690845
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.704781
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.716358
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.72953
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.742012
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.788139
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.793892
+ice_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,49.947868
+ice_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,50.189335
+ice_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,50.427349
+ice_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,50.857475
+ice_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,51.268108
+ice_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,51.423965
+ice_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,51.699425
+ice_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,51.802444
+ice_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,51.909725
+ice_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.028271
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : small utility,52.147999
+bev,,,2022,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,13.315578
+bev,,,2023,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,13.570746
+bev,,,2024,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,13.822851
+bev,,,2025,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,14.081017
+bev,,,2026,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,14.338543
+bev,,,2027,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,14.596683
+bev,,,2028,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,14.856007
+bev,,,2029,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,15.113205
+bev,,,2030,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,15.364176
+bev,,,2031,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,15.610795
+bev,,,2032,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,15.855648
+bev,,,2033,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,16.095499
+bev,,,2034,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,16.328896
+bev,,,2035,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,16.560501
+bev,,,2036,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,16.79364
+bev,,,2037,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,17.026976
+bev,,,2038,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,17.2586
+bev,,,2039,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,17.487827
+bev,,,2040,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,17.718792
+bev,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,17.949728
+bev,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,18.178337
+bev,,,2043,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,18.406141
+bev,,,2044,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,18.633221
+bev,,,2045,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,18.859972
+bev,,,2046,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,19.086086
+bev,,,2047,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,19.312725
+bev,,,2048,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,19.538191
+bev,,,2049,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,19.762444
+bev,,,2050,ref2023,millions,20_usa,residential equipment : equipment stock : main space heaters : electric heat pumps,19.985924

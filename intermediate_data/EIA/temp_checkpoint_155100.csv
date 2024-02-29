@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.395226
+ethanol_flex_fuel,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.341377
+ethanol_flex_fuel,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.300262
+ethanol_flex_fuel,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.647243
+ethanol_flex_fuel,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small crossover car,50.588123
+fcev,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small crossover car,0.0
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small cross car,0.0
+bev,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,61.278301
+bev,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,62.306938
+bev,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,62.894257
+bev,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,65.911392
+bev,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,65.929031
+bev,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,66.334259
+bev,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.800636
+bev,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.48632
+bev,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.993385
+bev,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.906197
+bev,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.678207
+bev,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.354965
+bev,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.200539
+bev,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.200539
+bev,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.221741
+bev,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.221512
+bev,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.189552
+bev,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.357803
+bev,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.332298
+bev,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.349304
+bev,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.36982
+bev,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.374245
+bev,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.280243
+bev,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.195702
+bev,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.129364
+bev,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.056076
+bev,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.001884
+bev,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.313133
+bev,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small crossover car,68.233917
+ice_g,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,43.781582
+ice_g,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,44.346535
+ice_g,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,45.131996
+ice_g,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,47.248158
+ice_g,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,47.431843
+ice_g,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,47.767708
+ice_g,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,49.533123
+ice_g,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small crossover car,49.712379

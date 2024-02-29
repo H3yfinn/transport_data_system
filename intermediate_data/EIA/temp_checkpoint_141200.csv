@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2037,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,23.740986
+,,,2038,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,23.973526
+,,,2039,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,24.438433
+,,,2040,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,24.801506
+,,,2041,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,25.109716
+,,,2042,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,25.424669
+,,,2043,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,25.797144
+,,,2044,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,26.079134
+,,,2045,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,26.329205
+,,,2046,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,26.688988
+,,,2047,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,27.122108
+,,,2048,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,27.345951
+,,,2049,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,27.663321
+,,,2050,ref2023,billion 2012 $,1-5,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,28.264759
+,,,2022,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,17.061096
+,,,2023,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,15.535584
+,,,2024,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,14.435347
+,,,2025,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,15.042588
+,,,2026,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,15.290726
+,,,2027,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,15.57834
+,,,2028,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,15.863848
+,,,2029,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,15.920611
+,,,2030,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,16.193817
+,,,2031,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,16.439959
+,,,2032,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,16.613321
+,,,2033,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,16.736433
+,,,2034,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,16.957787
+,,,2035,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,17.647247
+,,,2036,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,17.923422
+,,,2037,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,18.386862
+,,,2038,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,18.730804
+,,,2039,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,19.018898
+,,,2040,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,19.613657
+,,,2041,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,19.990614
+,,,2042,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,20.516956
+,,,2043,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,20.789404
+,,,2044,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,21.060577
+,,,2045,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,21.332041
+,,,2046,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,21.880489
+,,,2047,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,22.143822
+,,,2048,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,22.330759
+,,,2049,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,22.924234
+,,,2050,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,23.406683
+,,,2022,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,85.863914
+,,,2023,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,79.816795
+,,,2024,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,76.46608
+,,,2025,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,79.322647
+,,,2026,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,82.276283
+,,,2027,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,84.540794
+,,,2028,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,86.448425
+,,,2029,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,87.870964
+,,,2030,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,89.206642
+,,,2031,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,90.960197
+,,,2032,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,92.884262
+,,,2033,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,94.54142
+,,,2034,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,96.440041
+,,,2035,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,97.899208
+,,,2036,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,99.253746
+,,,2037,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,100.733162
+,,,2038,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,101.829254
+,,,2039,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,103.558189
+,,,2040,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,105.531532
+,,,2041,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,107.305672
+,,,2042,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,108.84903
+,,,2043,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,110.647179
+,,,2044,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,112.077385
+,,,2045,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,113.352592
+,,,2046,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,115.105225
+,,,2047,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,117.286049
+,,,2048,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,118.528694
+,,,2049,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,120.170753
+,,,2050,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : organic,123.090057
+,,,2022,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,103.532509
+,,,2023,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,94.480309
+,,,2024,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,94.301254
+,,,2025,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,94.631927
+,,,2026,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,95.614571
+,,,2027,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,97.164352
+,,,2028,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,98.657478
+,,,2029,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,99.958351
+,,,2030,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,100.896263
+,,,2031,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,101.765823
+,,,2032,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,103.101936
+,,,2033,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,104.663414
+,,,2034,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,106.328163
+,,,2035,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,108.132523
+,,,2036,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,109.825531
+,,,2037,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,111.697701
+,,,2038,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,113.652275
+,,,2039,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,115.59964
+,,,2040,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,117.747818
+,,,2041,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,120.242233
+,,,2042,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,123.134804
+,,,2043,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,126.111115
+,,,2044,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,128.913086
+,,,2045,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,131.348419
+,,,2046,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,133.693985
+,,,2047,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,136.276093
+,,,2048,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,138.766281
+,,,2049,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : chemicals : other chemical products,140.683914

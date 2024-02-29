@@ -1,0 +1,90 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2041,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.01787
+,,,2042,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.019115
+,,,2022,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004512
+,,,2023,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004586
+,,,2024,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004689
+,,,2025,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004686
+,,,2026,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004794
+,,,2027,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004795
+,,,2028,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004813
+,,,2029,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004807
+,,,2030,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004768
+,,,2031,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004748
+,,,2032,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.00478
+,,,2033,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004845
+,,,2034,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.004968
+,,,2035,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.005146
+,,,2036,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.005361
+,,,2037,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.005618
+,,,2038,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.005894
+,,,2039,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.006213
+,,,2040,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.006563
+,,,2041,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.006979
+,,,2042,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.007426
+,,,2043,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.007891
+,,,2044,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.008364
+,,,2045,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.008856
+,,,2046,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.009357
+,,,2047,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.009975
+,,,2048,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.010609
+,,,2049,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.011228
+,,,2050,ref2023,tcf,20_usa,natural gas use : transportation : east south central,0.011898
+,,,2022,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.00889
+,,,2023,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.009602
+,,,2024,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.010625
+,,,2025,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.010292
+,,,2026,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.011526
+,,,2027,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.011696
+,,,2028,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012221
+,,,2029,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012561
+,,,2030,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.01263
+,,,2031,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012607
+,,,2032,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.01257
+,,,2033,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012461
+,,,2034,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012461
+,,,2035,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012565
+,,,2036,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.012829
+,,,2037,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.01312
+,,,2038,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.013267
+,,,2039,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.013702
+,,,2040,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.013974
+,,,2041,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.014363
+,,,2042,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.014775
+,,,2043,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.015372
+,,,2044,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.015914
+,,,2045,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.016512
+,,,2046,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.016809
+,,,2047,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.01756
+,,,2048,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.018482
+,,,2049,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.019483
+,,,2050,ref2023,tcf,20_usa,natural gas use : transportation : middle atlantic,0.020485
+,,,2022,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.009014
+,,,2023,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.00928
+,,,2024,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.009501
+,,,2025,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.009605
+,,,2026,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.009722
+,,,2027,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.009803
+,,,2028,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.009893
+,,,2029,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.010012
+,,,2030,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.010084
+,,,2031,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.010217
+,,,2032,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.010478
+,,,2033,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.010847
+,,,2034,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.011333
+,,,2038,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.014138
+,,,2035,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.011935
+,,,2036,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.012575
+,,,2037,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.013311
+,,,2039,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.014967
+,,,2040,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.015909
+,,,2041,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.017049
+,,,2042,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.018244
+,,,2043,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.019371
+,,,2044,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.020542
+,,,2045,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.02174
+,,,2046,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.023053
+,,,2047,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.024637
+,,,2048,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.026316
+,,,2049,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.027794
+,,,2050,ref2023,tcf,20_usa,natural gas use : transportation : mountain,0.029399

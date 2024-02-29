@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2048,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,328.325165
+,,,2049,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,331.704865
+,,,2050,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,336.604645
+,,,2022,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,251.77301
+,,,2023,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,246.736801
+,,,2024,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,245.394836
+,,,2025,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,249.892242
+,,,2026,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,253.221527
+,,,2027,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,254.485992
+,,,2028,ref2023,billion 2012 $,1-5,industrial macroeconomic : nonmanufacturing : construction,256.986481
+,,,2022,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,99.12661
+,,,2023,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,96.581444
+,,,2024,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,95.882507
+,,,2025,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,97.640762
+,,,2026,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,99.043922
+,,,2027,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,99.326416
+,,,2028,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,100.181908
+,,,2029,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,102.686386
+,,,2030,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,104.229546
+,,,2031,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,104.439667
+,,,2032,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,104.371979
+,,,2033,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,104.697281
+,,,2034,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,104.88736
+,,,2035,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,105.718788
+,,,2036,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,106.848579
+,,,2037,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,108.389236
+,,,2038,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,110.279373
+,,,2039,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,111.628471
+,,,2040,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,112.965919
+,,,2041,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,114.557899
+,,,2042,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,116.101868
+,,,2043,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,117.420593
+,,,2044,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,118.71154
+,,,2045,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,120.168221
+,,,2046,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,121.629288
+,,,2047,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,123.046959
+,,,2048,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,124.280067
+,,,2049,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,125.359169
+,,,2050,ref2023,billion 2012 $,1-4,industrial macroeconomic : nonmanufacturing : construction,127.001556
+,,,2038,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,318.089783
+,,,2039,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,324.126404
+,,,2040,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,331.029572
+,,,2041,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,338.800873
+,,,2042,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,345.39212
+,,,2043,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,351.501465
+,,,2044,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,357.702118
+,,,2045,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,364.493286
+,,,2046,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,371.521912
+,,,2047,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,378.519501
+,,,2048,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,384.888153
+,,,2049,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,390.899689
+,,,2050,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,398.785187
+,,,2022,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,258.773926
+,,,2023,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,255.185806
+,,,2024,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,254.940018
+,,,2025,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,260.90683
+,,,2026,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,265.504395
+,,,2027,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,267.419739
+,,,2028,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,271.448456
+,,,2029,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,279.957092
+,,,2030,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,285.868073
+,,,2031,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,288.583496
+,,,2032,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,291.216187
+,,,2033,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,294.321594
+,,,2034,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,297.05011
+,,,2035,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,300.509308
+,,,2036,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,305.033844
+,,,2037,ref2023,billion 2012 $,1-7,industrial macroeconomic : nonmanufacturing : construction,311.34082
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,26.445768
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,24.966379
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,27.292437
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,25.62233
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,23.437805
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,21.01228
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,18.857807
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,16.832655
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.99481
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.924342
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,16.039305
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.969783
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.822633
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.941665
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.754698
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.39941
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,15.150702
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.790575
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.574625
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.58649
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.613447
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.40947
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.17987
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,14.012298
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,13.854372
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,13.77959
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,13.740123
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,13.654935
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : nonmanufacturing : mining : coal,13.459152
+,,,2022,ref2023,billion 2012 $,1-3,industrial macroeconomic : nonmanufacturing : mining,25.706539
+,,,2023,ref2023,billion 2012 $,1-3,industrial macroeconomic : nonmanufacturing : mining,25.096498
+,,,2024,ref2023,billion 2012 $,1-3,industrial macroeconomic : nonmanufacturing : mining,25.175102

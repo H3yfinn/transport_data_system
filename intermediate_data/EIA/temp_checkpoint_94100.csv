@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2036,ref2023,quads,20_usa,industrial : refining use : still gas,1.410449
+,,,2037,ref2023,quads,20_usa,industrial : refining use : still gas,1.422036
+,,,2038,ref2023,quads,20_usa,industrial : refining use : still gas,1.424106
+,,,2039,ref2023,quads,20_usa,industrial : refining use : still gas,1.433722
+,,,2040,ref2023,quads,20_usa,industrial : refining use : still gas,1.437419
+,,,2041,ref2023,quads,20_usa,industrial : refining use : still gas,1.441903
+,,,2042,ref2023,quads,20_usa,industrial : refining use : still gas,1.444047
+,,,2043,ref2023,quads,20_usa,industrial : refining use : still gas,1.446997
+,,,2044,ref2023,quads,20_usa,industrial : refining use : still gas,1.446597
+,,,2045,ref2023,quads,20_usa,industrial : refining use : still gas,1.446151
+,,,2046,ref2023,quads,20_usa,industrial : refining use : still gas,1.433908
+,,,2047,ref2023,quads,20_usa,industrial : refining use : still gas,1.432005
+,,,2048,ref2023,quads,20_usa,industrial : refining use : still gas,1.426541
+,,,2049,ref2023,quads,20_usa,industrial : refining use : still gas,1.423645
+,,,2050,ref2023,quads,20_usa,industrial : refining use : still gas,1.412466
+,,,2022,ref2023,quads,20_usa,industrial : refining use : still gas,1.307035
+,,,2023,ref2023,quads,20_usa,industrial : refining use : still gas,1.364159
+,,,2024,ref2023,quads,20_usa,industrial : refining use : still gas,1.315433
+,,,2034,ref2023,quads,20_usa,industrial : refining use : total,4.851644
+,,,2031,ref2023,quads,20_usa,industrial : refining use : total,4.826879
+,,,2032,ref2023,quads,20_usa,industrial : refining use : total,4.830582
+,,,2033,ref2023,quads,20_usa,industrial : refining use : total,4.816456
+,,,2035,ref2023,quads,20_usa,industrial : refining use : total,4.854527
+,,,2036,ref2023,quads,20_usa,industrial : refining use : total,4.853708
+,,,2037,ref2023,quads,20_usa,industrial : refining use : total,4.854257
+,,,2038,ref2023,quads,20_usa,industrial : refining use : total,4.867875
+,,,2039,ref2023,quads,20_usa,industrial : refining use : total,4.879813
+,,,2040,ref2023,quads,20_usa,industrial : refining use : total,4.887368
+,,,2041,ref2023,quads,20_usa,industrial : refining use : total,4.913995
+,,,2042,ref2023,quads,20_usa,industrial : refining use : total,4.92365
+,,,2043,ref2023,quads,20_usa,industrial : refining use : total,4.930529
+,,,2044,ref2023,quads,20_usa,industrial : refining use : total,4.938629
+,,,2045,ref2023,quads,20_usa,industrial : refining use : total,4.957471
+,,,2046,ref2023,quads,20_usa,industrial : refining use : total,4.923748
+,,,2047,ref2023,quads,20_usa,industrial : refining use : total,4.945747
+,,,2048,ref2023,quads,20_usa,industrial : refining use : total,5.011462
+,,,2049,ref2023,quads,20_usa,industrial : refining use : total,5.036737
+,,,2050,ref2023,quads,20_usa,industrial : refining use : total,5.040757
+,,,2022,ref2023,quads,20_usa,industrial : refining use : total,4.800136
+,,,2023,ref2023,quads,20_usa,industrial : refining use : total,4.94237
+,,,2024,ref2023,quads,20_usa,industrial : refining use : total,4.697221
+,,,2025,ref2023,quads,20_usa,industrial : refining use : total,4.689082
+,,,2026,ref2023,quads,20_usa,industrial : refining use : total,4.708497
+,,,2027,ref2023,quads,20_usa,industrial : refining use : total,4.708156
+,,,2028,ref2023,quads,20_usa,industrial : refining use : total,4.764869
+,,,2029,ref2023,quads,20_usa,industrial : refining use : total,4.803918
+,,,2030,ref2023,quads,20_usa,industrial : refining use : total,4.841097
+,,,2022,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,1.625
+,,,2023,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,1.404
+,,,2024,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2025,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2026,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2027,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2028,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2029,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2030,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2031,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2032,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2033,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2034,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2035,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2036,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2037,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2038,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2039,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2040,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2041,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2042,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2043,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2044,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2045,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2046,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2047,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2048,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2049,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2050,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : distillate fuel oil,0.0
+,,,2022,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,6.813
+,,,2023,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,4.763
+,,,2024,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2025,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2026,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2027,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2028,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2029,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2030,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2031,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2032,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2033,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2034,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2035,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2036,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2037,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2038,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2039,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2040,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2041,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2042,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2043,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2044,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0
+,,,2045,ref2023,trillion btu,20_usa,refining industry : refinery only energy : use : liquefied petroleum gases,0.0

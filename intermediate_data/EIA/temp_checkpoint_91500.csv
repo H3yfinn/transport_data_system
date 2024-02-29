@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2043,ref2023,bkwh,5-23,electricity : electricity demand : industrial,54.088905
+bev,,,2044,ref2023,bkwh,5-23,electricity : electricity demand : industrial,54.534962
+bev,,,2045,ref2023,bkwh,5-23,electricity : electricity demand : industrial,55.794117
+bev,,,2046,ref2023,bkwh,5-23,electricity : electricity demand : industrial,56.34227
+bev,,,2047,ref2023,bkwh,5-23,electricity : electricity demand : industrial,56.979431
+bev,,,2048,ref2023,bkwh,5-23,electricity : electricity demand : industrial,57.524395
+bev,,,2049,ref2023,bkwh,5-23,electricity : electricity demand : industrial,58.11618
+bev,,,2050,ref2023,bkwh,5-23,electricity : electricity demand : industrial,58.915627
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1013.826233
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1017.035034
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1010.613342
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1017.345337
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1029.366089
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1038.971802
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1046.74353
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1051.978516
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1054.523926
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1056.740845
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1062.974854
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1066.226196
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1072.445312
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1079.723755
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1084.632446
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1090.831543
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1097.142212
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1102.100098
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1108.788574
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1116.909058
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1124.65686
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1131.188965
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1136.258789
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1141.717285
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1152.853271
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1160.82373
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1166.34021
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1172.239624
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electricity sales by sector : industrial,1183.400269
+bev,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.338319
+bev,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.230862
+bev,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.214326
+bev,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.244325
+bev,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.258288
+bev,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.249971
+bev,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.221888
+bev,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.189397
+bev,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.160585
+bev,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.166782
+bev,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.225309
+bev,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.239511
+bev,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.299394
+bev,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.347783
+bev,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.380004
+bev,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.395452
+bev,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.391884
+bev,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.377059
+bev,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.388512
+bev,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.41924
+bev,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.471676
+bev,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.505963
+bev,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.536995
+bev,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.577136
+bev,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.622548
+bev,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.658074
+bev,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.682095
+bev,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.698312
+bev,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : electricity related losses,6.751364
+,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010773
+,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010913
+,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010875
+,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010837
+,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010801
+,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010767
+,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010736
+,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010707
+,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010682
+,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010661
+,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010644
+,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010632
+,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010624
+,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : industrial : hydropower,0.010622
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : lpg and other feedstocks,3.6685
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : lpg and other feedstocks,3.780699
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : lpg and other feedstocks,3.672111
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : lpg and other feedstocks,3.758908
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : lpg and other feedstocks,3.868278

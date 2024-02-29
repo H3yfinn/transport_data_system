@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2028,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,103.92617
+,,,2029,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,104.42012
+,,,2030,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,105.043533
+,,,2031,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,105.53344
+,,,2032,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,106.149971
+,,,2033,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,106.733376
+,,,2034,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,107.311653
+,,,2035,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,108.030754
+,,,2036,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,108.395882
+,,,2037,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,108.946159
+,,,2038,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,109.551262
+,,,2039,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,109.992081
+,,,2040,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,110.381699
+,,,2041,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,111.009407
+,,,2042,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,111.109787
+,,,2043,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,111.523827
+,,,2044,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,111.444695
+,,,2045,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,111.666046
+,,,2046,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,112.816681
+,,,2047,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,112.803474
+,,,2048,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,113.455467
+,,,2049,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,113.998337
+,,,2050,ref2023,2022 $/b,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,114.542786
+,,,2022,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1730.0
+,,,2023,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1637.0
+,,,2024,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1805.0
+,,,2025,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1814.0
+,,,2026,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1824.0
+,,,2027,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1834.0
+,,,2028,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1844.0
+,,,2029,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1854.0
+,,,2030,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1864.0
+,,,2031,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1874.0
+,,,2032,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1884.0
+,,,2033,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1894.0
+,,,2034,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1904.0
+,,,2035,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1914.0
+,,,2036,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1924.0
+,,,2037,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1934.0
+,,,2038,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1944.0
+,,,2039,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1954.0
+,,,2040,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1964.0
+,,,2041,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1974.0
+,,,2042,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1984.0
+,,,2043,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1994.0
+,,,2044,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2004.0
+,,,2045,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2014.0
+,,,2046,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2024.0
+,,,2047,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2034.0
+,,,2048,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2044.0
+,,,2049,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2054.0
+,,,2050,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2064.0
+,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.898049
+,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.874746
+,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.881324
+,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.903447
+,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.91908
+,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.962503
+,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.968712
+,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.976897
+,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.990441
+,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.994338
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,3.609875
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,3.046653
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.923896
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.723717
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.692795
+,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.661374
+,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.64865
+,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.663954
+,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.66691
+,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.696277
+,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.717784
+,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.729521
+,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.749722
+,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.770591
+,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.783986
+,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.800727
+,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.817335
+,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.830515
+,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : jet fuel,2.846833
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,3.609875
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,3.046653
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.923896
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.723717
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.692795
+,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.661374
+,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.64865
+,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.717784
+,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.663954
+,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.66691
+,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.696277
+,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.729521
+,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.749722
+,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.770591
+,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.783986
+,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.800727
+,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.817335
+,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.830515
+,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : jet fuel,2.846833

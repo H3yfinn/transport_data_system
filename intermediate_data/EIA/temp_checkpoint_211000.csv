@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2034,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.559013
+,,,2035,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.573503
+,,,2036,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.553329
+,,,2037,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.525976
+,,,2038,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.551762
+,,,2039,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.553747
+,,,2040,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.559427
+,,,2041,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.572374
+,,,2042,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.58411
+,,,2043,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.555267
+,,,2044,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.595018
+,,,2045,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.568554
+,,,2046,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.604202
+,,,2047,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.551661
+,,,2048,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.533842
+,,,2049,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.552763
+,,,2050,ref2023,mmb/d,20_usa,refining industry : inputs to distillation units,17.49287
+,,,2022,ref2023,cdd,20_usa,residential : cooling degree days : east north central,813.0
+,,,2023,ref2023,cdd,20_usa,residential : cooling degree days : east north central,752.0
+,,,2024,ref2023,cdd,20_usa,residential : cooling degree days : east north central,892.0
+,,,2025,ref2023,cdd,20_usa,residential : cooling degree days : east north central,900.0
+,,,2026,ref2023,cdd,20_usa,residential : cooling degree days : east north central,908.0
+,,,2027,ref2023,cdd,20_usa,residential : cooling degree days : east north central,916.0
+,,,2028,ref2023,cdd,20_usa,residential : cooling degree days : east north central,924.0
+,,,2029,ref2023,cdd,20_usa,residential : cooling degree days : east north central,932.0
+,,,2030,ref2023,cdd,20_usa,residential : cooling degree days : east north central,939.0
+,,,2031,ref2023,cdd,20_usa,residential : cooling degree days : east north central,947.0
+,,,2032,ref2023,cdd,20_usa,residential : cooling degree days : east north central,955.0
+,,,2033,ref2023,cdd,20_usa,residential : cooling degree days : east north central,963.0
+,,,2034,ref2023,cdd,20_usa,residential : cooling degree days : east north central,971.0
+,,,2035,ref2023,cdd,20_usa,residential : cooling degree days : east north central,979.0
+,,,2036,ref2023,cdd,20_usa,residential : cooling degree days : east north central,987.0
+,,,2037,ref2023,cdd,20_usa,residential : cooling degree days : east north central,994.0
+,,,2038,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1002.0
+,,,2039,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1010.0
+,,,2040,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1018.0
+,,,2041,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1026.0
+,,,2042,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1034.0
+,,,2043,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1042.0
+,,,2044,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1050.0
+,,,2045,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1058.0
+,,,2046,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1066.0
+,,,2047,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1073.0
+,,,2048,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1081.0
+,,,2049,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1089.0
+,,,2050,ref2023,cdd,20_usa,residential : cooling degree days : east north central,1097.0
+,,,2022,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1730.0
+,,,2023,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1637.0
+,,,2024,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1805.0
+,,,2025,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1814.0
+,,,2026,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1824.0
+,,,2027,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1834.0
+,,,2028,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1844.0
+,,,2029,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1854.0
+,,,2030,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1864.0
+,,,2031,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1874.0
+,,,2032,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1884.0
+,,,2033,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1894.0
+,,,2034,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1904.0
+,,,2035,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1914.0
+,,,2036,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1924.0
+,,,2037,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1934.0
+,,,2038,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1944.0
+,,,2039,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1954.0
+,,,2040,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1964.0
+,,,2041,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1974.0
+,,,2042,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1984.0
+,,,2043,ref2023,cdd,20_usa,residential : cooling degree days : east south central,1994.0
+,,,2044,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2004.0
+,,,2045,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2014.0
+,,,2046,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2024.0
+,,,2047,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2034.0
+,,,2048,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2044.0
+,,,2049,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2054.0
+,,,2050,ref2023,cdd,20_usa,residential : cooling degree days : east south central,2064.0
+,,,2026,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1084.0
+,,,2023,ref2023,cdd,20_usa,residential : cooling degree days : west north central,944.0
+,,,2024,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1069.0
+,,,2025,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1077.0
+,,,2027,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1091.0
+,,,2028,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1099.0
+,,,2029,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1106.0
+,,,2030,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1114.0
+,,,2031,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1121.0
+,,,2032,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1129.0
+,,,2033,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1136.0
+,,,2034,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1144.0
+,,,2035,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1151.0
+,,,2036,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1159.0
+,,,2037,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1166.0
+,,,2038,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1174.0
+,,,2039,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1182.0
+,,,2040,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1189.0
+,,,2041,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1197.0
+,,,2042,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1204.0
+,,,2043,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1212.0
+,,,2044,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1220.0
+,,,2045,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1227.0
+,,,2046,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1235.0
+,,,2047,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1243.0

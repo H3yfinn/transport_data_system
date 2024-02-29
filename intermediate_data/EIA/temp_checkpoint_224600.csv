@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.796661
+ethanol_flex_fuel,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.86763
+ethanol_flex_fuel,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,74.950943
+ethanol_flex_fuel,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.037498
+ethanol_flex_fuel,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.122559
+ethanol_flex_fuel,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.198792
+ethanol_flex_fuel,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.299141
+ethanol_flex_fuel,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.356781
+ethanol_flex_fuel,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.418915
+ethanol_flex_fuel,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.477226
+ethanol_flex_fuel,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.531158
+ethanol_flex_fuel,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.563713
+ethanol_flex_fuel,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.59993
+ethanol_flex_fuel,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.630226
+ethanol_flex_fuel,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.666176
+ethanol_flex_fuel,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.701958
+ethanol_flex_fuel,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.809036
+ethanol_flex_fuel,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : two seater car,75.818329
+fcev,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : two seater car,0.0
+fcev,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+fcev,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : two seater car,0.0
+bev,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.458961
+bev,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.506866
+bev,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.505966
+bev,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.761734
+bev,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.750717
+bev,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,76.809731
+bev,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.152596
+bev,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.141434
+bev,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.130569
+bev,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.124313
+bev,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.175217
+bev,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.214813
+bev,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.235809
+bev,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.268364
+bev,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.300888
+bev,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.334335
+bev,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.366051
+bev,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.415024
+bev,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.44516
+bev,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.479042
+bev,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.510918
+bev,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.540268
+bev,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.554863
+bev,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : two seater car,77.5728

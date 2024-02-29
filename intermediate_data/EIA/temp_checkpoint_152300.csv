@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.936985
+bev,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.778549
+bev,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.659832
+bev,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.595871
+bev,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.685932
+bev,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.772655
+bev,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.869202
+bev,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,61.985764
+bev,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.073177
+bev,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.262665
+bev,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.30685
+bev,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.372963
+bev,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.431396
+bev,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.466824
+bev,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.416023
+bev,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.377304
+bev,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.339714
+bev,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.298565
+bev,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.266579
+bev,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.490112
+bev,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : large crossover car,62.444836
+ice_g,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,39.660164
+ice_g,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,40.372723
+ice_g,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,41.103668
+ice_g,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,42.691246
+ice_g,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,42.818737
+ice_g,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,43.110481
+ice_g,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.323971
+ice_g,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.509659
+ice_g,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.565037
+ice_g,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.548809
+ice_g,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.564613
+ice_g,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.710636
+ice_g,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,44.902447
+ice_g,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.136703
+ice_g,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.323654
+ice_g,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.468914
+ice_g,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.586845
+ice_g,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.799618
+ice_g,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.858467
+ice_g,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.932247
+ice_g,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.986763
+ice_g,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,46.019875
+ice_g,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.983345
+ice_g,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.954391
+ice_g,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.92709
+ice_g,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.896954
+ice_g,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,45.873886
+ice_g,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,46.105228
+ice_g,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large crossover car,46.071434
+,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large crossover car,0.0
+,suv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0
+,suv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large crossover car,0.0

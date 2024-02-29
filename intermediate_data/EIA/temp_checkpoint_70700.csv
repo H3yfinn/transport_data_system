@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2036,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2037,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2038,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2039,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2040,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2041,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2042,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2043,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2044,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2045,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2046,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2047,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2048,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2049,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2050,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : petroleum,1.016528
+,,,2022,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,261.815369
+,,,2023,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,308.04425
+,,,2024,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,349.124512
+,,,2025,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,378.462524
+,,,2026,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,393.909027
+,,,2027,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,414.620331
+,,,2028,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,431.875671
+,,,2029,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,460.305298
+,,,2030,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,480.623962
+,,,2031,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,501.827576
+,,,2032,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,519.754456
+,,,2033,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,545.579956
+,,,2034,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,573.5802
+,,,2035,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,591.70874
+,,,2036,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,620.738098
+,,,2037,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,637.336182
+,,,2038,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,658.839905
+,,,2039,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,681.914368
+,,,2040,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,701.093994
+,,,2041,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,720.851746
+,,,2042,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,735.415283
+,,,2043,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,748.404846
+,,,2044,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,761.182068
+,,,2045,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,772.834229
+,,,2046,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,793.086243
+,,,2047,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,800.968933
+,,,2048,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,811.401367
+,,,2049,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,818.580811
+,,,2050,ref2023,trillion btu,20_usa,commercial : combined heat and power : energy input : solar photovoltaic,819.180969
+,,,2022,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,320.742065
+,,,2023,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,353.178406
+,,,2024,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,397.251587
+,,,2025,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,434.426453
+,,,2026,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,470.733337
+,,,2027,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,509.777893
+,,,2028,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,548.172485
+,,,2029,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,589.557983
+,,,2030,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,635.009094
+,,,2031,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,682.951904
+,,,2032,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,733.300171
+,,,2033,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,781.92981
+,,,2034,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,835.914062
+,,,2035,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,883.022217
+,,,2036,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,929.25885
+,,,2037,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,974.570557
+,,,2038,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1022.574585
+,,,2039,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1077.076172
+,,,2040,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1132.467773
+,,,2041,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1197.609253
+,,,2042,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1261.770264
+,,,2043,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1330.908447
+,,,2044,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1405.431152
+,,,2045,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1483.531128
+,,,2046,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1559.298462
+,,,2047,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1639.516357
+,,,2048,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1720.66748
+,,,2049,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1808.160645
+,,,2050,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : solar photovoltaic,1890.24707
+,,,2022,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,321.303253
+,,,2023,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,353.781799
+,,,2024,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,397.910217
+,,,2025,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,435.131195
+,,,2026,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,471.48111
+,,,2027,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,510.578644
+,,,2028,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,549.026367
+,,,2029,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,590.4646
+,,,2030,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,635.96936
+,,,2031,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,683.968811
+,,,2032,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,734.371765
+,,,2033,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,783.051575
+,,,2034,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,837.036438
+,,,2035,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,884.14917
+,,,2036,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,930.385498
+,,,2037,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,975.698792
+,,,2038,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1023.703918
+,,,2039,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1078.208374
+,,,2040,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1133.606567
+,,,2041,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1198.759033
+,,,2042,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1262.924927
+,,,2043,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1332.074219
+,,,2044,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1406.607666
+,,,2045,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1484.71875
+,,,2046,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1560.49585
+,,,2047,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1640.722168
+,,,2048,ref2023,trillion btu,20_usa,residential : combined heat and power : energy input : total,1721.879883

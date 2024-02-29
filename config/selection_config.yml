@@ -12,6 +12,35 @@ INDEX_COLS:
 - scope
 
 concordances_file_path: './input_data/concordances/9th/model_concordances_measures.csv'
+  
+#in the belwo, if you use 8th then the source of splits will be in the dataset 'egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto'. If you use 'activity' then the source of splits will be the selected activity in the combined data, likewise for 'energy' if that is the selected source of splits.
+SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD:
+  '01_AUS': '8th'
+  '02_BD': '8th'
+  '03_CDA': '8th'
+  '04_CHL': '8th'
+  '05_PRC': '8th'
+  '06_HKC': '8th'
+  '07_INA': 'activity'
+  '08_JPN': '8th'
+  '09_ROK': '8th'
+  '10_MAS': '8th'
+  '11_MEX': '8th'
+  '12_NZ': '8th'
+  '13_PNG': '8th'
+  '14_PE': '8th'
+  '15_PHL': '8th'
+  '16_RUS': '8th'
+  '17_SGP': '8th'
+  '18_CT': '8th'
+  '19_THA': '8th'
+  '20_USA': '8th'
+  '21_VN': '8th'
+
+# {'05_PRC': {'rail': ['passenger']}, '19_THA': {'air': ['freight']}
+ECONOMIES_FOR_WHICH_TO_USE_PROVIDED_NON_ROAD_ACTIVITY_DATA_TO_CALCULATE_INTENSITY:
+  07_INA: 
+    rail: ['passenger'] # , air: ['freight'] 
 
 road_measures_datasets_to_always_use:
   - 'ct_national_stats'
@@ -41,6 +70,7 @@ road_measures_datasets_to_always_use:
   # - 'nz_fleet_stats $ iea_ev_explorer ice_split'
   # - 'nz_fleet_stats $ iea_ev_explorer vehicle_dist_split'
   # - 'nz_fleet_stats $ iea_ev_explorer vehicle_dist_split ice_split'
+  - 'statistics_indonesia'
 
   - 'singapore_annual_stocks'
   - 'singapore_annual_stocks $ iea_ev_explorer_no_data'
@@ -72,12 +102,31 @@ road_measures_datasets_to_always_use:
   - 'aus_census'
   - 'aus_census $ iea_ev_explorer_no_data'
   - 'aus_census $ iea_ev_explorer_no_data ice_split'
+  - 'ph_govt_data_stocks'
   
 all_other_combined_data_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
   
 #in the below, make sure to set the key to be as much of the file name as you can while excluding its date and file type. this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
+  _9th_outlook_esto:
+    file_path: intermediate_data/EGEDA/FILE_DATE_ID_9th_outlook_esto.csv
+    folder: intermediate_data/EGEDA/
+    script: grooming_code\1_extract_9th_outlook_esto_data.py
+    included: True
+    type: transport
+  _statistics_indonesia_non_road:
+    file_path: intermediate_data/INA/FILE_DATE_ID_statistics_indonesia_non_road.csv
+    folder: intermediate_data/INA/
+    script: grooming_code\1_indonesia_statistics.py
+    included: True
+    type: transport
+  phillipines_2022_stocks_total:
+    file_path: intermediate_data/PHL/FILE_DATE_IDphillipines_2022_stocks_total.csv
+    folder: intermediate_data/PHL/
+    script: grooming_code/1_phillipines_statistics.py
+    included: True
+    type: transport
   2019_ato_carried_to_2020_BD:
     file_path: intermediate_data/BD/2019_ato_carried_to_2020_BDFILE_DATE_ID.csv
     folder: intermediate_data/BD/
@@ -300,6 +349,3 @@ datasets:
     script: insert_gathered_efficiency_data.py
     included: True
     type: transport
-  
-
-  

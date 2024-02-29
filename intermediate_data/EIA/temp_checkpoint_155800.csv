@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+bev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,44.496185
+bev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,46.510136
+bev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,47.015804
+bev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,49.241417
+bev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,50.133282
+bev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,50.837017
+bev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.269184
+bev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.382805
+bev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.497257
+bev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.594917
+bev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.641682
+bev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.690941
+bev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.70266
+bev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.781902
+bev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,52.894714
+bev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.032303
+bev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.197128
+bev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.376328
+bev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.458832
+bev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.541729
+bev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.618729
+bev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.673012
+bev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.666
+bev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.65929
+bev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.649467
+bev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.634544
+bev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.624138
+bev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.827507
+bev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : small pickup,53.810364
+ice_g,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,31.631792
+ice_g,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,32.913506
+ice_g,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,33.546875
+ice_g,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,35.31311
+ice_g,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,36.068729
+ice_g,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,36.547009
+ice_g,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,37.863506
+ice_g,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,37.977379
+ice_g,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.07235
+ice_g,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.117565
+ice_g,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.187191
+ice_g,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.377541
+ice_g,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.543983
+ice_g,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.761963
+ice_g,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,38.955795
+ice_g,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.161335
+ice_g,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.396996
+ice_g,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.663445
+ice_g,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.776184
+ice_g,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.881332
+ice_g,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.957256
+ice_g,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,40.001869
+ice_g,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.995987
+ice_g,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.997108
+ice_g,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.989117
+ice_g,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.977325
+ice_g,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,39.967258
+ice_g,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,40.101536
+ice_g,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : small pickup,40.087223
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : small pickup,0.0
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : small pickup,0.0

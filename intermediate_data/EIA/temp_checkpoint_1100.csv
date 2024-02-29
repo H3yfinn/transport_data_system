@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3957.255127
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3956.516846
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3956.341553
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3956.019531
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3955.518066
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3955.10791
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3954.329834
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3953.437256
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3953.437256
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3953.161621
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3953.161621
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3953.161621
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3953.161621
+,lt,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3950.929688
+,lt,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small pickup,3950.929688
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4348.753906
+,lt,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4327.826172
+,lt,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4310.024414
+,lt,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4265.699219
+,lt,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4238.409668
+,lt,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4228.062988
+,lt,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4210.265625
+,lt,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4207.533691
+,lt,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4203.839355
+,lt,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4199.320801
+,lt,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4193.189941
+,lt,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4186.803223
+,lt,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4184.051758
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4182.566406
+,lt,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4180.985352
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4179.254395
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4177.428223
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4175.518066
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4174.0625
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4172.709473
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4171.409668
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4170.390137
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4170.36084
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4170.019531
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4170.030762
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4170.02002
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4170.02002
+,lt,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4167.652344
+,lt,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small utility,4167.610352
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3538.64917
+,lt,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3523.416992
+,lt,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3507.82251
+,lt,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3490.398193
+,lt,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3475.35083
+,lt,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3451.39624
+,lt,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3424.646729
+,lt,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3419.330811
+,lt,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3419.102295
+,lt,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3418.135498
+,lt,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3416.333252
+,lt,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3414.875
+,lt,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3413.356445
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3411.635254
+,lt,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3409.526123
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3407.719238
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3405.991943
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3404.182129
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3403.406738
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3403.161377
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.925781
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.72998
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.712402
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.587158
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.581543
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.580566
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.574951
+,lt,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.320557
+,lt,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : small van,3402.229736
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4315.384766
+,lt,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4299.586426
+,lt,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4292.797852
+,lt,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4266.53418
+,lt,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4254.371094
+,lt,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4246.22168
+,lt,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4229.350586
+,lt,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4229.530273
+,lt,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4228.297363
+,lt,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4226.777344
+,lt,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4224.767578
+,lt,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4222.626465
+,lt,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4220.73584
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4219.390625
+,lt,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4218.340332
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4216.625977
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4215.29248
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4213.80957
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4212.863281
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4211.952148
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4210.978516
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4210.043945
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4210.283203
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4209.930664
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4210.57373
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4210.030273
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : average,4210.241211

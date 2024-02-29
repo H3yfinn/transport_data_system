@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large van,0.0
+fcev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+fcev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large crossover light truck,0.0
+ice_d,car,,2022,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.528652
+ice_d,car,,2023,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.495424
+ice_d,car,,2024,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.463076
+ice_d,car,,2025,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.431282
+ice_d,car,,2026,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.399902
+ice_d,car,,2027,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.368815
+ice_d,car,,2028,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.337792
+ice_d,car,,2029,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.306862
+ice_d,car,,2030,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.276541
+ice_d,car,,2031,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.247577
+ice_d,car,,2032,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.219783
+ice_d,car,,2033,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.19367
+ice_d,car,,2034,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.169775
+ice_d,car,,2035,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.148659
+ice_d,car,,2036,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.130743
+ice_d,car,,2037,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.115961
+ice_d,car,,2038,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.104272
+ice_d,car,,2039,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.095627
+ice_d,car,,2040,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.089083
+ice_d,car,,2041,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.083144
+ice_d,car,,2042,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.077796
+ice_d,car,,2043,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.072952
+ice_d,car,,2044,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.068449
+ice_d,car,,2045,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.06424
+ice_d,car,,2046,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.060306
+ice_d,car,,2047,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.056629
+ice_d,car,,2048,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.053191
+ice_d,car,,2049,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.049975
+ice_d,car,,2050,ref2023,millions,20_usa,light-duty vehicle stock : conventional cars : tdi diesel,0.046969

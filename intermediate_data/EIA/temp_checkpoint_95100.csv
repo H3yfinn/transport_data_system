@@ -1,0 +1,63 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2047,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : electric power,0.020882
+bev,,,2048,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : electric power,0.020744
+bev,,,2049,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : electric power,0.020784
+bev,,,2050,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : electric power,0.02068
+,,,2022,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.541753
+,,,2023,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.60833
+,,,2024,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.489428
+,,,2025,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.586515
+,,,2026,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.69916
+,,,2027,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.794546
+,,,2028,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.873937
+,,,2029,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.931854
+,,,2030,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,5.980093
+,,,2031,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.020403
+,,,2032,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.080755
+,,,2033,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.127106
+,,,2034,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.197315
+,,,2035,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.24824
+,,,2036,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.291248
+,,,2037,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.339194
+,,,2038,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.375128
+,,,2039,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.434257
+,,,2040,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.497345
+,,,2041,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.556935
+,,,2042,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.619048
+,,,2043,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.673532
+,,,2044,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.717232
+,,,2045,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.758747
+,,,2046,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.807035
+,,,2047,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.864539
+,,,2048,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.893939
+,,,2049,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,6.935251
+,,,2050,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : industrial,7.006616
+,,,2022,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,13.697194
+,,,2023,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,13.676905
+,,,2024,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,13.495472
+,,,2025,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,13.335958
+,,,2026,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,13.21237
+,,,2027,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,13.104248
+,,,2028,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.979018
+,,,2029,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.836352
+,,,2030,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.677281
+,,,2031,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.534233
+,,,2032,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.409414
+,,,2033,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.308296
+,,,2034,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.219779
+,,,2035,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.137952
+,,,2036,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.056125
+,,,2037,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.997029
+,,,2038,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.952026
+,,,2039,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.911753
+,,,2040,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.895242
+,,,2041,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.888226
+,,,2042,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.892285
+,,,2043,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.901959
+,,,2044,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.922736
+,,,2045,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,11.952594
+,,,2046,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.00193
+,,,2047,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.062331
+,,,2048,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.124934
+,,,2049,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.19198
+,,,2050,ref2023,mmb/d,20_usa,liquid fuels : liquid fuels use : by sector : transportation,12.283104

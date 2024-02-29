@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east south central,6.28068
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east south central,6.249844
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east south central,6.193463
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : east south central,6.140453
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.245158
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.157691
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.123882
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.197288
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.386594
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.47289
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.617229
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.719746
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,9.431005
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,8.35977
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,7.376008
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.846812
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.377566
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.864369
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.904587
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.94971
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.999591
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.919374
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,7.034031
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,7.130476
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,7.141948
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,7.053785
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.978288
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.978571
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.893595
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.8597
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.847317
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.802772
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west north central,6.791387
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,7.850254
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,6.484749
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.275283
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.707178
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.258647
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.043967
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,3.98883
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.038193
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.169509
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.335772
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.511782
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.707626
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.862181
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,4.99694
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.007234
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.037253
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.177455
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.089916
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.243624
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.329537
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.318727
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.254247
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.218065
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.213491
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.205833
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.164896
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.145156
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.083797
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : all sectors : west south central,5.069948
+lpg,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.574961
+lpg,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.537145
+lpg,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.567952
+lpg,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.748713
+lpg,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.690401
+lpg,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.594827
+lpg,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.511864
+lpg,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.528536
+lpg,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.650412
+lpg,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.746783
+lpg,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.862185
+lpg,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,2.995953
+lpg,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.129671
+lpg,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.247339
+lpg,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.353256
+lpg,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.458637
+lpg,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.583486
+lpg,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.673926
+lpg,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.796993
+lpg,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,3.919721
+lpg,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.029994
+lpg,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.128629
+lpg,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.219786
+lpg,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.32607
+lpg,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.453263
+lpg,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.562531
+lpg,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.684578
+lpg,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.79612
+lpg,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : propane,4.90398
+,,,2022,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,97.775391
+,,,2023,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,98.249626
+,,,2024,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,112.876907
+,,,2025,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,110.262444
+,,,2026,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,113.532791
+,,,2027,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,117.281464
+,,,2028,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,120.742378
+,,,2029,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,123.976883
+,,,2030,ref2023,nom $/b,20_usa,nominal petroleum prices : refined petroleum product prices : residual fuel oil,127.500977

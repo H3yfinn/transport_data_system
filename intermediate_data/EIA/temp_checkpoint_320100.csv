@@ -1,0 +1,74 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2036,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.568343
+bev,,,2037,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.570598
+bev,,,2038,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.572771
+bev,,,2039,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.571718
+bev,,,2040,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.566564
+bev,,,2041,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.563143
+bev,,,2042,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.559066
+bev,,,2043,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.558413
+bev,,,2044,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.557542
+bev,,,2045,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.55597
+bev,,,2046,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.552641
+bev,,,2047,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.549764
+bev,,,2048,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.547952
+bev,,,2049,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.547187
+bev,,,2050,ref2023,2022 $/mmbtu,5-18,electricity : fuel prices : coal,1.546079
+bev,,,2045,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2042,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2043,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2044,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2046,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2047,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2048,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2049,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2050,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2022,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.17601
+bev,,,2023,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.207045
+bev,,,2024,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.034879
+bev,,,2025,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.037371
+bev,,,2026,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.046485
+bev,,,2027,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.044894
+bev,,,2028,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,2.039261
+bev,,,2029,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2030,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2031,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2032,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2033,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2034,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2035,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2036,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2037,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2038,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2039,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2040,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2041,ref2023,2022 $/mmbtu,5-13,electricity : fuel prices : coal,0.0
+bev,,,2022,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,7.287213
+bev,,,2023,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,5.698229
+bev,,,2024,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,4.477067
+bev,,,2025,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.807332
+bev,,,2026,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.361404
+bev,,,2027,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.130857
+bev,,,2028,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.053111
+bev,,,2029,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.00734
+bev,,,2030,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.082189
+bev,,,2034,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.593213
+bev,,,2031,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.195657
+bev,,,2032,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.338782
+bev,,,2033,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.429196
+bev,,,2035,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.700997
+bev,,,2036,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.704185
+bev,,,2037,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.785847
+bev,,,2038,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.915663
+bev,,,2039,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.862833
+bev,,,2040,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,4.020962
+bev,,,2041,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,4.066252
+bev,,,2042,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,4.04281
+bev,,,2043,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.977469
+bev,,,2044,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.951149
+bev,,,2045,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.924151
+bev,,,2046,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.933072
+bev,,,2047,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.917866
+bev,,,2048,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.894632
+bev,,,2049,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.828743
+bev,,,2050,ref2023,2022 $/mmbtu,5-16,electricity : fuel prices : natural gas,3.818825

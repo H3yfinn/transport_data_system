@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.853008
+bev,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.808445
+bev,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.788169
+bev,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,7.0865
+bev,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,5.36799
+bev,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.200252
+bev,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.585189
+bev,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.14794
+bev,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,2.924447
+bev,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,2.874731
+bev,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,2.893556
+bev,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,2.998999
+bev,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.142415
+bev,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.284031
+bev,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.47629
+bev,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.617208
+bev,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.759918
+bev,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.788334
+bev,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.792912
+bev,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.966037
+bev,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.88898
+bev,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.096725
+bev,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.184255
+bev,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.174954
+bev,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.102211
+bev,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.074482
+bev,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.070039
+bev,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.071937
+bev,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.034376
+bev,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,4.017342
+bev,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.934022
+bev,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west south central,3.920043
+bev,,,2022,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2023,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2024,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2025,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2026,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2027,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2028,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2029,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2030,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2031,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2032,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2033,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2034,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2035,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2036,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2037,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2038,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2039,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2040,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2041,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2042,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2043,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2044,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2045,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2046,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2047,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2048,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2049,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2050,ref2023,nom $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2022,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2023,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2024,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2025,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2026,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2027,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2028,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2029,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2030,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2031,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2032,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2033,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2034,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2035,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2036,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2037,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2038,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2039,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2040,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2041,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2042,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2043,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2044,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2045,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2046,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2047,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2048,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2049,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2050,ref2023,2022 $/mmbtu,5-2,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2022,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2023,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2024,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2028,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2025,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2026,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2027,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2029,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2030,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0
+bev,,,2031,ref2023,nom $/mmbtu,5-4,electricity : fuel prices : residual fuel oil,0.0

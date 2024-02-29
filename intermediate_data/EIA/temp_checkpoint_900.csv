@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3255.195312
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3253.964844
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3252.429932
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3250.694336
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3249.73584
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3249.4729
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3249.23291
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3247.798828
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3249.217773
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3248.325439
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3244.756348
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : average,3244.843262
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3167.710205
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3189.786133
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3182.355225
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3143.979736
+,car,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3140.573975
+,car,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3134.350342
+,car,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3119.422119
+,car,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3118.783936
+,car,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.616211
+,car,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3116.453125
+,car,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3115.040771
+,car,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3114.330322
+,car,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3114.002686
+,car,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3113.966553
+,car,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3113.603516
+,car,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3113.753174
+,car,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3114.329834
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3115.69043
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3116.064697
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3116.63501
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3116.998779
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.273926
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.273926
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.229248
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.229248
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.229248
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3117.229736
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3118.512695
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : two seater,3118.515137
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4301.463379
+,lt,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4296.405273
+,lt,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4283.899902
+,lt,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4253.004395
+,lt,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4242.747559
+,lt,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4233.123535
+,lt,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4216.597656
+,lt,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4216.115234
+,lt,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4215.455078
+,lt,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.699219
+,lt,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4213.851562
+,lt,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.317871
+,lt,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4213.990723
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.007324
+,lt,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4213.923828
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.0625
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.138672
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.190918
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4214.038574
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4213.44873
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4212.672363
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4211.970215
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4211.970215
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4211.788574
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4211.788574
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4211.783203
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4211.772949
+,lt,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4209.892578
+,lt,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large crossover,4209.865234
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4790.027344
+,lt,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4782.091797
+,lt,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4767.289062
+,lt,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4741.61084
+,lt,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4724.436035
+,lt,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4723.453125
+,lt,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4715.228027
+,lt,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4716.76123
+,lt,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4715.811523
+,lt,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4715.203613
+,lt,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4713.806641
+,lt,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4712.775391
+,lt,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4712.098633
+,lt,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4711.879395
+,lt,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4710.85791
+,lt,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4709.339844
+,lt,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4707.61084
+,lt,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4705.665527
+,lt,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4704.728516
+,lt,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4703.878418
+,lt,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4703.019531
+,lt,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4702.339844
+,lt,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4702.339844
+,lt,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4702.130371
+,lt,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4702.130371
+,lt,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4702.130371
+,lt,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4702.128906
+,lt,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4700.451172
+,lt,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large pickup,4700.461914
+,lt,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional light trucks : large utility,5554.640137

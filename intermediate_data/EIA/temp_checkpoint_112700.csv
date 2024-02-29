@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.025875
+lpg,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.024772
+lpg,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.023735
+lpg,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.02187
+lpg,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.021041
+lpg,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.020275
+lpg,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane bi-fuel,0.019576
+ice_g,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,5.997003
+ice_g,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,7.318346
+ice_g,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,8.835059
+ice_g,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,10.528111
+ice_g,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,12.49413
+ice_g,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,14.599579
+ice_g,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,16.69804
+ice_g,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,18.92646
+ice_g,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,21.055801
+ice_g,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,23.226791
+ice_g,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,25.29916
+ice_g,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,27.298203
+ice_g,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,29.278225
+ice_g,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,31.138155
+ice_g,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,32.752979
+ice_g,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,34.304794
+ice_g,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,35.688198
+ice_g,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,36.946682
+ice_g,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,38.25774
+ice_g,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,39.401421
+ice_g,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,40.467293
+ice_g,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,41.489872
+ice_g,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,42.389427
+ice_g,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,43.212708
+ice_g,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,44.039898
+ice_g,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,44.838875
+ice_g,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,45.620209
+ice_g,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,46.373375
+ice_g,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 20 gasoline hybrid,47.175957
+ice_g,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,7.034838
+ice_g,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,8.853513
+ice_g,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,10.827475
+ice_g,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,13.016227
+ice_g,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,15.405021
+ice_g,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,17.866121
+ice_g,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,20.373514
+ice_g,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,22.905313
+ice_g,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,25.445019
+ice_g,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,27.955698
+ice_g,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,30.34293
+ice_g,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,32.690796
+ice_g,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,35.018063
+ice_g,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,37.256523
+ice_g,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,39.501953
+ice_g,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,41.814838
+ice_g,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,43.902096
+ice_g,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,45.872871
+ice_g,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,47.79282
+ice_g,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,49.569958
+ice_g,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,51.297363
+ice_g,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,52.964493
+ice_g,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,54.547184
+ice_g,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,56.045303
+ice_g,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,57.467575
+ice_g,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,2.950048
+ice_g,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,3.4684
+ice_g,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,4.308969
+ice_g,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : plug-in 50 gasoline hybrid,5.503342
+lpg,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.074514
+lpg,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.072763
+lpg,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.073984
+lpg,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.077732
+lpg,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.08447
+lpg,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.093717
+lpg,lpv,,2028,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.103895
+lpg,lpv,,2029,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.114743
+lpg,lpv,,2030,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.125697
+lpg,lpv,,2031,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.136789
+lpg,lpv,,2032,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.147746
+lpg,lpv,,2033,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.158563
+lpg,lpv,,2034,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.169416
+lpg,lpv,,2035,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.179952
+lpg,lpv,,2036,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.190176
+lpg,lpv,,2037,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.200238
+lpg,lpv,,2038,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.21004
+lpg,lpv,,2039,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.219606
+lpg,lpv,,2040,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.228955
+lpg,lpv,,2041,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.238188
+lpg,lpv,,2042,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.247466
+lpg,lpv,,2043,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.25657
+lpg,lpv,,2044,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.265906
+lpg,lpv,,2045,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.275669
+lpg,lpv,,2046,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.286315
+lpg,lpv,,2047,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.297736
+lpg,lpv,,2048,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.310135
+lpg,lpv,,2049,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.323438
+lpg,lpv,,2050,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : alternative-fuel vehicles : propane ice,0.338239
+ice_d,lpv,,2022,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,14.31778
+ice_d,lpv,,2023,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,15.188455
+ice_d,lpv,,2024,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,15.940958
+ice_d,lpv,,2025,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,16.851959
+ice_d,lpv,,2026,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,17.929171
+ice_d,lpv,,2027,ref2023,billion miles,20_usa,light-duty vehicle miles traveled : conventional vehicles : tdi diesel,18.841543

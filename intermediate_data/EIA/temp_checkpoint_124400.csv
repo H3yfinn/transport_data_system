@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2035,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,662.551636
+,lpv,,2036,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,665.798218
+,lpv,,2037,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,667.793396
+,lpv,,2038,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,670.981812
+,lpv,,2039,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,673.413086
+,lpv,,2040,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,676.958923
+,lpv,,2041,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,676.650757
+,lpv,,2042,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,676.713257
+,lpv,,2043,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,675.8974
+,lpv,,2044,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,675.602844
+,lpv,,2045,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,678.766052
+,lpv,,2046,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,681.669067
+,lpv,,2047,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,682.590576
+,lpv,,2048,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,682.398926
+,lpv,,2049,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,684.385132
+,lpv,,2050,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,688.998962
+,lpv,,2022,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,661.19397
+,lpv,,2023,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,675.71875
+,lpv,,2024,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,693.579712
+,lpv,,2025,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,700.057861
+,lpv,,2026,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,702.248596
+,lpv,,2027,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,695.925842
+,lpv,,2028,ref2023,thousands,1-6,light-duty vehicle sales : total vehicles sales,686.059998
+,lpv,,2022,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,213.146484
+,lpv,,2023,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,248.608582
+,lpv,,2024,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,285.583435
+,lpv,,2025,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,321.846863
+,lpv,,2026,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,352.736084
+,lpv,,2027,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,383.939209
+,lpv,,2028,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,413.167297
+,lpv,,2029,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,444.479736
+,lpv,,2030,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,467.496155
+,lpv,,2031,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,490.493469
+,lpv,,2032,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,512.931885
+,lpv,,2033,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,532.897217
+,lpv,,2034,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,553.782837
+,lpv,,2035,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,575.875244
+,lpv,,2036,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,597.383301
+,lpv,,2037,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,615.883362
+,lpv,,2038,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,633.727661
+,lpv,,2039,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,647.508484
+,lpv,,2040,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,658.971313
+,lpv,,2041,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,664.344666
+,lpv,,2042,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,668.516663
+,lpv,,2043,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,670.512817
+,lpv,,2044,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,672.014648
+,lpv,,2045,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,676.292236
+,lpv,,2046,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,679.747925
+,lpv,,2047,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,680.685852
+,lpv,,2048,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,680.503296
+,lpv,,2049,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,682.947571
+,lpv,,2050,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fueled vehicles,687.557129
+,lpv,,2022,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1963.956543
+,lpv,,2023,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1998.128052
+,lpv,,2024,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2054.666504
+,lpv,,2025,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2074.765137
+,lpv,,2026,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2080.195557
+,lpv,,2027,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2059.669922
+,lpv,,2028,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2028.495239
+,lpv,,2029,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2025.56897
+,lpv,,2030,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,2004.226074
+,lpv,,2031,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1985.536621
+,lpv,,2035,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1945.247925
+,lpv,,2032,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1968.749512
+,lpv,,2033,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1950.087524
+,lpv,,2034,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1942.862183
+,lpv,,2036,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1952.433105
+,lpv,,2037,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1955.655518
+,lpv,,2038,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1962.093506
+,lpv,,2039,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1966.187744
+,lpv,,2040,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1973.198242
+,lpv,,2041,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1968.963989
+,lpv,,2042,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1963.435547
+,lpv,,2043,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1955.462402
+,lpv,,2044,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1949.018555
+,lpv,,2045,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1952.363281
+,lpv,,2046,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1954.458496
+,lpv,,2047,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1950.962158
+,lpv,,2048,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1944.370361
+,lpv,,2049,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1943.813965
+,lpv,,2050,ref2023,thousands,1-2,light-duty vehicle sales : total vehicles sales,1950.355591
+,lpv,,2022,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,680.312256
+,lpv,,2023,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,789.254639
+,lpv,,2024,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,909.600098
+,lpv,,2025,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1024.22522
+,lpv,,2026,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1122.041748
+,lpv,,2027,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1215.82019
+,lpv,,2028,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1301.14856
+,lpv,,2029,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1391.813843
+,lpv,,2030,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1454.626343
+,lpv,,2031,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1513.836792
+,lpv,,2032,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1571.034058
+,lpv,,2033,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1619.524902
+,lpv,,2034,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1670.762207
+,lpv,,2035,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1725.769775
+,lpv,,2036,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1779.718872
+,lpv,,2037,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1824.84668
+,lpv,,2038,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1868.530762
+,lpv,,2039,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1901.318481
+,lpv,,2040,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fueled vehicles,1928.333618

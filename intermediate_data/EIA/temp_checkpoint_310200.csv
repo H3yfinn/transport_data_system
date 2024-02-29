@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,43.276039
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,43.389286
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,43.520222
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,43.967915
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.057877
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.134022
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.208218
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.277214
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.360435
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.427769
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.499683
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.578747
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.667786
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.759354
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.883377
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,44.955036
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.035042
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.110466
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.182663
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.228275
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.280613
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.321053
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.373234
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.422745
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.561512
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large car,45.584438
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,21.826904
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,20.945295
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,19.158169
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,18.233019
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,17.592482
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.991018
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.545179
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.700468
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.445465
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.227268
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.240141
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,16.081745
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.946467
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.814693
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.653238
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.526559
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.453646
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.295915
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.143899
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,15.081086
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,14.964643
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,14.763503
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,14.339628
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,14.478668
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,14.230505
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,14.009969
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,13.750019
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,13.715302
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : new england,13.725091
+bev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.033772
+bev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.051762
+bev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.07085
+bev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.051323
+bev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.229279
+bev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.170807
+bev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.228241
+bev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.495461
+bev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.532024
+bev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.536259
+bev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.543381
+bev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.595455
+bev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.642857
+bev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.669327
+bev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.699539
+bev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.734623
+bev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.785263
+bev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.831451
+bev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.900066
+bev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.945301
+bev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,38.989864
+bev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.076374
+bev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.104492
+bev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.137985
+bev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.160767
+bev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.193836
+bev,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.226414
+bev,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.307346
+bev,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large car,39.313366
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1566.117432
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1452.914429
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1388.878906
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1359.175293
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1346.41626
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1338.489014
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1330.610962
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1322.132812
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1312.817139
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1304.93103
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1297.702271
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1289.468628
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1280.732422
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1271.259521
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1262.224121

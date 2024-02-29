@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2039,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.180772
+,,,2040,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.197886
+,,,2041,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.213951
+,,,2042,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.231441
+,,,2043,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.248918
+,,,2044,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.268608
+,,,2045,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.287723
+,,,2046,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.30575
+,,,2047,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.324247
+,,,2048,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.343639
+,,,2049,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.364023
+,,,2050,ref2023,mmmt co2,1-7,carbon dioxide : commercial : petroleum,6.385423
+bev,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.916845
+bev,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,18.055857
+bev,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.8967
+bev,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.985506
+bev,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.674644
+bev,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.429052
+bev,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.537103
+bev,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.135835
+bev,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.126033
+bev,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.243572
+bev,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.258964
+bev,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.372441
+bev,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.371119
+bev,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.398817
+bev,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.371854
+bev,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.435214
+bev,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.500514
+bev,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.504842
+bev,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.523709
+bev,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.540503
+bev,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.456391
+bev,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.456577
+bev,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.439062
+bev,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,15.450525
+bev,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.006729
+bev,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.038853
+bev,,,2048,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.085049
+bev,,,2049,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.602602
+bev,,,2050,ref2023,mmmt co2,20_usa,carbon dioxide : biogenic energy combustion : biomass : electric power,16.67494
+bev,,,2022,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,175.759125
+bev,,,2023,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,161.260498
+bev,,,2024,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,162.872238
+bev,,,2025,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,150.391083
+bev,,,2026,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,130.387283
+bev,,,2027,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,124.998154
+bev,,,2028,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,102.478607
+bev,,,2029,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,81.071732
+bev,,,2030,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,62.933094
+bev,,,2031,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,58.85437
+bev,,,2032,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,56.728268
+bev,,,2033,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,60.667149
+bev,,,2034,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,57.026051
+bev,,,2035,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,56.924793
+bev,,,2036,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,58.680977
+bev,,,2037,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,61.028263
+bev,,,2038,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,61.51416
+bev,,,2039,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,55.982231
+bev,,,2040,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,56.449013
+bev,,,2041,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,58.163445
+bev,,,2042,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,57.864147
+bev,,,2043,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,55.899998
+bev,,,2044,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,53.958767
+bev,,,2045,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,46.124783
+bev,,,2046,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,44.296074
+bev,,,2047,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,43.675678
+bev,,,2048,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,41.286087
+bev,,,2049,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,39.042324
+bev,,,2050,ref2023,mmmt co2,1-3,carbon dioxide : electric power : coal,35.620106
+bev,,,2036,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,53.273464
+bev,,,2037,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,53.586639
+bev,,,2038,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,52.727352
+bev,,,2039,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,52.147438
+bev,,,2040,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,49.559341
+bev,,,2041,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,47.533123
+bev,,,2042,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,47.583523
+bev,,,2043,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,50.554825
+bev,,,2044,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,47.407192
+bev,,,2045,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,48.859261
+bev,,,2046,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,45.625416
+bev,,,2047,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,45.841228
+bev,,,2048,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,45.880726
+bev,,,2049,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,45.244488
+bev,,,2050,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,44.904846
+bev,,,2022,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,104.825851
+bev,,,2023,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,107.433159
+bev,,,2024,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,105.732201
+bev,,,2025,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,107.562927
+bev,,,2026,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,103.530678
+bev,,,2027,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,87.134018
+bev,,,2028,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,75.918755
+bev,,,2029,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,64.40477
+bev,,,2030,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,60.179779
+bev,,,2031,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,59.114971
+bev,,,2032,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,57.586029
+bev,,,2033,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,59.054226
+bev,,,2034,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,55.764252
+bev,,,2035,ref2023,mmmt co2,1-6,carbon dioxide : electric power : coal,53.681431
+bev,,,2022,ref2023,mmmt co2,1-2,carbon dioxide : electric power : coal,40.363506

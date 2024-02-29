@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4554.355469
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4590.847168
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4628.84082
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4667.808594
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4706.600098
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4750.295898
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4792.216309
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4837.745605
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4880.828125
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4925.732422
+bev,,,2050,ref2023,bkwh,20_usa,electricity : electric power sector : total net generation,4977.472656
+bev,,,2022,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.41993
+bev,,,2023,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.341535
+bev,,,2024,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.255826
+bev,,,2025,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.183102
+bev,,,2026,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.145399
+bev,,,2027,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.107211
+bev,,,2028,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.067333
+bev,,,2029,ref2023,bkwh,20_usa,electricity : end-use generation : coal,6.026674
+bev,,,2030,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.984074
+bev,,,2031,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.945016
+bev,,,2032,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.90862
+bev,,,2033,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.869285
+bev,,,2034,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.831379
+bev,,,2035,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.794954
+bev,,,2036,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.756212
+bev,,,2037,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.719226
+bev,,,2038,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.681121
+bev,,,2039,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.642261
+bev,,,2040,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.606191
+bev,,,2041,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.570499
+bev,,,2042,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.535927
+bev,,,2043,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.500118
+bev,,,2044,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.463257
+bev,,,2045,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.426078
+bev,,,2046,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.390855
+bev,,,2047,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.357732
+bev,,,2048,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.321622
+bev,,,2049,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.286877
+bev,,,2050,ref2023,bkwh,20_usa,electricity : end-use generation : coal,5.255407
+bev,,,2022,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,181.110886
+bev,,,2023,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,190.620636
+bev,,,2024,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,210.673141
+bev,,,2025,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,219.020187
+bev,,,2026,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,226.43895
+bev,,,2027,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,233.806702
+bev,,,2028,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,240.91571
+bev,,,2029,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,249.317062
+bev,,,2030,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,256.861786
+bev,,,2031,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,264.676208
+bev,,,2032,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,272.551422
+bev,,,2033,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,281.454498
+bev,,,2034,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,290.698792
+bev,,,2035,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,298.083679
+bev,,,2036,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,307.264893
+bev,,,2037,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,315.260345
+bev,,,2038,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,324.428192
+bev,,,2039,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,333.857178
+bev,,,2040,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,343.297729
+bev,,,2041,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,352.806763
+bev,,,2042,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,362.395966
+bev,,,2043,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,372.139526
+bev,,,2044,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,381.961487
+bev,,,2045,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,392.097504
+bev,,,2046,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,401.807648
+bev,,,2047,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,411.962372
+bev,,,2048,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,423.423248
+bev,,,2049,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,434.126068
+bev,,,2050,ref2023,bkwh,20_usa,electricity : end-use generation : less direct use,444.911011
+bev,,,2022,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,110.904663
+bev,,,2023,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,112.063866
+bev,,,2024,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,115.074921
+bev,,,2025,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,115.737877
+bev,,,2026,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,117.073486
+bev,,,2027,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,118.032089
+bev,,,2028,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,118.995033
+bev,,,2029,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,119.972816
+bev,,,2030,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,120.974731
+bev,,,2031,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,122.048218
+bev,,,2032,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,123.209785
+bev,,,2033,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,124.393883
+bev,,,2034,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,125.664696
+bev,,,2035,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,127.00679
+bev,,,2036,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,128.375366
+bev,,,2037,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,129.821701
+bev,,,2038,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,131.331238
+bev,,,2039,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,132.914017
+bev,,,2040,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,134.588501
+bev,,,2041,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,136.343857
+bev,,,2042,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,138.183365
+bev,,,2043,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,140.078491
+bev,,,2044,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,142.009872
+bev,,,2045,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,143.967728
+bev,,,2046,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,144.802429
+bev,,,2047,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,146.655624
+bev,,,2048,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,148.865707
+bev,,,2049,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,150.869202
+bev,,,2050,ref2023,bkwh,20_usa,electricity : end-use generation : natural gas,152.879196
+bev,,,2022,ref2023,bkwh,20_usa,electricity : end-use generation : other gaseous fuels,10.509938
+bev,,,2023,ref2023,bkwh,20_usa,electricity : end-use generation : other gaseous fuels,10.645227

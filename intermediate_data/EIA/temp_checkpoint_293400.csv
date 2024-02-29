@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2045,ref2023,nom cents/kwh,5-0,electricity : prices by service category : generation,8.981676
+bev,,,2046,ref2023,nom cents/kwh,5-0,electricity : prices by service category : generation,9.118425
+bev,,,2047,ref2023,nom cents/kwh,5-0,electricity : prices by service category : generation,9.23762
+bev,,,2048,ref2023,nom cents/kwh,5-0,electricity : prices by service category : generation,9.43259
+bev,,,2049,ref2023,nom cents/kwh,5-0,electricity : prices by service category : generation,9.569685
+bev,,,2050,ref2023,nom cents/kwh,5-0,electricity : prices by service category : generation,9.675106
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,7.616823
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,6.514565
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,5.361677
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.771115
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.321446
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.073116
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,3.986617
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.002231
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.062998
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.172425
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.287567
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.451732
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.582922
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.698439
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.718104
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.7644
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.893519
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.836315
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.960828
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,5.040644
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,5.034396
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.981189
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.929628
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.927132
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.889997
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.854081
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.818973
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.775721
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas : delivered prices : industrial,4.771768
+,,,2043,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1783.0
+,,,2040,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1807.0
+,,,2041,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1799.0
+,,,2042,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1791.0
+,,,2044,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1774.0
+,,,2045,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1766.0
+,,,2046,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1758.0
+,,,2047,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1750.0
+,,,2048,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1742.0
+,,,2049,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1734.0
+,,,2050,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1726.0
+,,,2022,ref2023,hdd,20_usa,commercial : heating degree days : west south central,2195.0
+,,,2023,ref2023,hdd,20_usa,commercial : heating degree days : west south central,2056.0
+,,,2024,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1942.0
+,,,2025,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1934.0
+,,,2026,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1925.0
+,,,2027,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1916.0
+,,,2028,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1908.0
+,,,2029,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1899.0
+,,,2030,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1891.0
+,,,2031,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1882.0
+,,,2032,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1874.0
+,,,2033,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1865.0
+,,,2034,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1857.0
+,,,2035,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1849.0
+,,,2036,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1840.0
+,,,2037,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1832.0
+,,,2038,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1824.0
+,,,2039,ref2023,hdd,20_usa,commercial : heating degree days : west south central,1815.0
+,,,2022,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,7.616823
+,,,2023,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,6.783866
+,,,2024,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,5.719601
+,,,2025,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,5.200292
+,,,2026,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,4.8106
+,,,2027,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,4.632108
+,,,2028,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,4.631688
+,,,2029,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,4.751806
+,,,2030,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,4.931633
+,,,2031,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,5.180331
+,,,2032,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,5.445302
+,,,2033,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,5.787689
+,,,2034,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,6.100988
+,,,2035,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,6.401233
+,,,2036,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,6.576075
+,,,2037,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,6.789239
+,,,2038,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,7.127412
+,,,2039,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,7.198794
+,,,2040,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,7.548803
+,,,2041,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,7.842237
+,,,2042,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.009428
+,,,2043,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.106438
+,,,2044,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.207777
+,,,2045,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.394775
+,,,2046,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.528066
+,,,2047,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.666553
+,,,2048,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.81012
+,,,2049,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,8.940605
+,,,2050,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : industrial,9.148849
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.292125
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.516741
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.379853
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.303586
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.270398
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.314075
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : average,13.310819

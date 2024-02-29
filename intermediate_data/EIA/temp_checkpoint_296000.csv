@@ -1,0 +1,85 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3520.672852
+bev,,,2023,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3520.672852
+bev,,,2024,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3514.061035
+bev,,,2025,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3369.567139
+bev,,,2026,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3352.339844
+bev,,,2027,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3334.553955
+bev,,,2028,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3314.408447
+bev,,,2029,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3293.697998
+bev,,,2030,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3272.801758
+bev,,,2031,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3241.351074
+bev,,,2032,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3209.901367
+bev,,,2033,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3178.450439
+bev,,,2034,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3127.289795
+bev,,,2035,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3073.583252
+bev,,,2036,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3019.256104
+bev,,,2037,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2951.89209
+bev,,,2038,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2886.886719
+bev,,,2039,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2805.25
+bev,,,2040,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2719.081787
+bev,,,2041,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2643.466797
+bev,,,2042,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2558.540039
+bev,,,2043,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2473.612793
+bev,,,2044,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2415.008301
+bev,,,2045,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2368.944092
+bev,,,2046,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2324.121582
+bev,,,2047,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2292.894775
+bev,,,2048,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2261.667969
+bev,,,2049,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2247.637695
+bev,,,2050,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2238.325439
+,,,2022,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6845.0
+,,,2023,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6601.0
+,,,2024,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6349.0
+,,,2025,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6340.0
+,,,2026,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6330.0
+,,,2027,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6321.0
+,,,2028,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6311.0
+,,,2029,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6301.0
+,,,2030,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6291.0
+,,,2031,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6281.0
+,,,2032,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6271.0
+,,,2033,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6261.0
+,,,2034,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6250.0
+,,,2035,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6240.0
+,,,2036,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6230.0
+,,,2037,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6219.0
+,,,2038,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6209.0
+,,,2039,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6198.0
+,,,2040,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6188.0
+,,,2041,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6177.0
+,,,2042,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6167.0
+,,,2043,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6156.0
+,,,2044,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6145.0
+,,,2045,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6135.0
+,,,2046,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6124.0
+,,,2047,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6113.0
+,,,2048,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6103.0
+,,,2049,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6092.0
+,,,2050,ref2023,hdd,20_usa,commercial : heating degree days : west north central,6081.0
+,,,2022,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1730.0
+,,,2023,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1637.0
+,,,2024,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1805.0
+,,,2025,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1814.0
+,,,2026,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1824.0
+,,,2027,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1834.0
+,,,2028,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1844.0
+,,,2029,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1854.0
+,,,2030,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1864.0
+,,,2031,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1874.0
+,,,2032,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1884.0
+,,,2033,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1894.0
+,,,2037,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1934.0
+,,,2034,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1904.0
+,,,2035,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1914.0
+,,,2036,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1924.0
+,,,2038,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1944.0
+,,,2039,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1954.0
+,,,2040,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1964.0
+,,,2041,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1974.0
+,,,2042,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1984.0
+,,,2043,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,1994.0
+,,,2044,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2004.0
+,,,2045,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2014.0
+,,,2046,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2024.0
+,,,2047,ref2023,cdd,20_usa,commercial : cooling degree days : east south central,2034.0

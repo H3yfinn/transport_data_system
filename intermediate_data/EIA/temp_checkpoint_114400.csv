@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,103.856598
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,106.912582
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,110.031853
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,113.215477
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,116.464378
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,119.778374
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,123.139626
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,126.561783
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,130.054138
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,133.627457
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,137.290436
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,29.79896
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,40.311974
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,50.607475
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,59.090389
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,65.108185
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,68.878365
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international mexico and other oecd americas,71.778519
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,280.836365
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,391.708832
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,486.742432
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,550.707336
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,603.097595
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,615.402893
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,627.856873
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,640.495605
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,653.343628
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,666.416382
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,679.720459
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,693.25177
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,706.993225
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,720.923096
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,735.061035
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,749.429077
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,764.018982
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,778.827942
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,793.86084
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,809.109558
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,824.571472
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,840.242004
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,856.117126
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,872.193115
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,888.459961
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,904.916504
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,921.581177
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,938.478271
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international oecd europe,955.626831
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,29.001909
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,38.939625
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,48.404114
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,56.043312
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,61.383991
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,64.561356
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,66.927483
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,68.857925
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,70.841438
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,72.918564
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,75.062759
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,77.264267
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,79.524734
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,81.848335
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,84.195854
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,86.60318
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,89.073074
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,91.606102
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,94.205521
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,96.825775
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,99.511925
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,102.264999
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,105.084068
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,107.969559
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,110.868172
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,113.832314
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,116.865829
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,119.971458
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other europe and eurasia,123.151581
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,91.279388
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,154.358658
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,219.66423
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,276.064514
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,317.251556
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,343.596405
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,367.343903
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,382.824493
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,398.539978
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,414.538605
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,430.961273
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,447.812286
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,465.116791
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,482.902344
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,500.969513
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,519.508362
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,538.546448
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,558.082336
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,578.153625
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,598.504089
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,619.325867
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,640.643494
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,662.475342
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : international other non-oecd asia,684.814636

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2024,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,16.552074
+bev,,,2025,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,18.153648
+bev,,,2026,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,18.648397
+bev,,,2027,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,19.140242
+bev,,,2028,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,19.576485
+bev,,,2029,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,20.139067
+bev,,,2030,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,20.688938
+bev,,,2031,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,21.823767
+bev,,,2032,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,23.573751
+bev,,,2033,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,29.698481
+bev,,,2034,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,33.744553
+bev,,,2035,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,34.429276
+bev,,,2036,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,35.12801
+bev,,,2037,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,36.448624
+bev,,,2038,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,40.796188
+bev,,,2039,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,42.346581
+bev,,,2040,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,43.63868
+bev,,,2041,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,44.691635
+bev,,,2042,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,46.4744
+bev,,,2043,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,47.996994
+bev,,,2044,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,49.790092
+bev,,,2045,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,51.635994
+bev,,,2046,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,53.591537
+bev,,,2047,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,55.135941
+bev,,,2048,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,56.757446
+bev,,,2049,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,58.682293
+bev,,,2050,ref2023,bkwh,5-20,renewable energy : all sectors : electricity generation : solar,60.896259
+bev,,,2022,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,11.898299
+bev,,,2023,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,14.08518
+bev,,,2024,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,16.271666
+bev,,,2025,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,17.076431
+bev,,,2026,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,17.807705
+bev,,,2027,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,18.600163
+bev,,,2028,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,19.401917
+bev,,,2029,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,20.25209
+bev,,,2030,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,21.143867
+bev,,,2031,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,22.061892
+bev,,,2032,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,23.042845
+bev,,,2033,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,24.032408
+bev,,,2034,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,25.028582
+bev,,,2035,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,25.880062
+bev,,,2036,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,27.367977
+bev,,,2037,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,30.06451
+bev,,,2038,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,32.343166
+bev,,,2039,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,35.660461
+bev,,,2040,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,40.988449
+bev,,,2041,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,43.525112
+bev,,,2042,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,44.841274
+bev,,,2043,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,46.160789
+bev,,,2044,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,47.483227
+bev,,,2045,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,48.883781
+bev,,,2046,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,50.319904
+bev,,,2047,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,51.757988
+bev,,,2048,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,53.219612
+bev,,,2049,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,54.588821
+bev,,,2050,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : solar,57.485672
+bev,,,2022,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.700521
+bev,,,2023,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.671127
+bev,,,2024,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.653517
+bev,,,2025,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.667042
+bev,,,2026,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.677537
+bev,,,2027,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.688239
+bev,,,2028,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.697918
+bev,,,2029,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.705228
+bev,,,2030,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.711214
+bev,,,2031,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.719356
+bev,,,2032,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.728386
+bev,,,2033,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.734861
+bev,,,2034,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.741613
+bev,,,2035,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.74855
+bev,,,2036,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.75423
+bev,,,2037,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.7601
+bev,,,2038,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.763678
+bev,,,2039,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.771387
+bev,,,2040,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.776556
+bev,,,2041,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.781508
+bev,,,2042,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.789279
+bev,,,2043,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.79774
+bev,,,2044,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.802689
+bev,,,2045,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.808335
+bev,,,2046,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.813861
+bev,,,2047,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.823219
+bev,,,2048,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.829102
+bev,,,2049,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.836165
+bev,,,2050,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wood and other biomass,1.846813
+bev,,,2022,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.390207
+bev,,,2023,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.379502
+bev,,,2024,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.391976
+bev,,,2025,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.396967
+bev,,,2026,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.476736
+bev,,,2027,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.445276
+bev,,,2028,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.443207
+bev,,,2029,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.454044
+bev,,,2030,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.417227
+bev,,,2031,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.459368
+bev,,,2032,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.398759
+bev,,,2033,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.448388
+bev,,,2034,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.393549
+bev,,,2035,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.395807
+bev,,,2036,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wood and other biomass,0.397657

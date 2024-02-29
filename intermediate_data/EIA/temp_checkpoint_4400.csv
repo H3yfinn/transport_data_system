@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2023,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.086823
+bev,,,2024,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.088895
+bev,,,2025,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.09058
+bev,,,2026,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.09245
+bev,,,2027,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.094805
+bev,,,2028,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.097139
+bev,,,2029,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.099598
+bev,,,2030,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.102103
+bev,,,2031,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.104623
+bev,,,2032,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.1072
+bev,,,2033,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.109957
+bev,,,2034,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.112448
+bev,,,2035,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.115158
+bev,,,2036,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.117989
+bev,,,2037,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.120866
+bev,,,2038,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.123848
+bev,,,2039,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.126951
+bev,,,2040,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.129363
+bev,,,2041,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.131826
+bev,,,2042,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.134407
+bev,,,2043,ref2023,gw,5-23,renewable energy : electric power sector : generating capacity : municipal waste,0.137001
+bev,,,2022,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,6.578808
+bev,,,2023,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,8.2158
+bev,,,2024,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,10.098434
+bev,,,2025,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,16.838816
+bev,,,2026,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,27.760202
+bev,,,2027,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,37.241493
+bev,,,2028,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,39.928513
+bev,,,2029,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,39.934723
+bev,,,2030,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,39.941051
+bev,,,2031,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,41.119858
+bev,,,2032,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,42.133152
+bev,,,2033,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,42.140114
+bev,,,2034,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,46.243237
+bev,,,2035,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,46.25008
+bev,,,2036,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,47.364079
+bev,,,2037,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,48.065056
+bev,,,2038,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,48.072586
+bev,,,2039,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,48.801357
+bev,,,2040,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,50.777306
+bev,,,2041,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,50.846348
+bev,,,2042,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,52.465481
+bev,,,2043,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,55.359962
+bev,,,2044,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,62.512722
+bev,,,2045,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,62.51947
+bev,,,2046,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,63.818874
+bev,,,2047,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,64.400116
+bev,,,2048,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,64.472816
+bev,,,2049,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,64.477531
+bev,,,2050,ref2023,gw,5-2,renewable energy : electric power sector : generating capacity : total,65.198784
+bev,,,2022,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,7.337907
+bev,,,2023,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,7.36048
+bev,,,2024,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,8.219168
+bev,,,2025,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,8.22499
+bev,,,2026,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,16.200695
+bev,,,2027,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,23.800262
+bev,,,2028,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,23.808327
+bev,,,2029,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,28.885288
+bev,,,2030,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,36.482635
+bev,,,2031,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,36.481445
+bev,,,2032,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,40.527905
+bev,,,2033,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,44.528202
+bev,,,2034,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,47.13448
+bev,,,2035,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,47.656544
+bev,,,2036,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,48.450504
+bev,,,2037,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,48.711758
+bev,,,2038,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,48.900986
+bev,,,2039,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,48.956326
+bev,,,2040,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,49.053238
+bev,,,2041,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,49.235825
+bev,,,2042,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,49.469883
+bev,,,2043,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,49.740234
+bev,,,2044,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,49.998322
+bev,,,2045,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,50.283619
+bev,,,2046,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,50.580803
+bev,,,2047,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,50.995502
+bev,,,2048,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,51.303551
+bev,,,2049,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,51.605923
+bev,,,2050,ref2023,gw,5-4,renewable energy : electric power sector : generating capacity : total,52.022976
+bev,,,2022,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,4.550101
+bev,,,2023,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,4.696929
+bev,,,2024,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,8.00683
+bev,,,2025,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,11.170521
+bev,,,2026,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,12.285551
+bev,,,2027,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,12.651058
+bev,,,2028,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,15.147388
+bev,,,2029,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,17.200729
+bev,,,2030,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,17.445419
+bev,,,2031,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,18.286575
+bev,,,2032,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,18.50349
+bev,,,2033,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,18.504919
+bev,,,2034,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,18.50621
+bev,,,2035,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,18.765867
+bev,,,2036,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,19.877012
+bev,,,2037,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,20.285656
+bev,,,2038,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,20.670658
+bev,,,2039,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,20.672268
+bev,,,2040,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,20.673519
+bev,,,2041,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,20.680298
+bev,,,2042,ref2023,gw,5-5,renewable energy : electric power sector : generating capacity : total,20.688004

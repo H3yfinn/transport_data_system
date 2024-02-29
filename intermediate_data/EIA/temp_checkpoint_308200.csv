@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.619125
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.402104
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.348167
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.375971
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.475188
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.622898
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.779428
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,3.972505
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.125145
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.254152
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.26533
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.299548
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.431217
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.347362
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.494826
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.577531
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.568589
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.504148
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.464176
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.459082
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.451838
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.413624
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.389871
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.326512
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : west south central,4.313622
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,38.950661
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,39.173046
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,39.323936
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,39.709778
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,39.788666
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,39.907368
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.380543
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.449989
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.520424
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.592533
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.663372
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.750912
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.811249
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.876423
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,40.947269
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.025658
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.110519
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.219498
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.296947
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.379128
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.457249
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.532661
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.583035
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.640408
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.684582
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.741821
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.796417
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.929428
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : compact car,41.957253
+bev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.333019
+bev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,53.623608
+bev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,53.688332
+bev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,53.694786
+bev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.155998
+bev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.313042
+bev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.416138
+bev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.69537
+bev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.73624
+bev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.766273
+bev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.806049
+bev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.904034
+bev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,54.996788
+bev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.020134
+bev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.044807
+bev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.067959
+bev,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : large crossover light truck,55.09853

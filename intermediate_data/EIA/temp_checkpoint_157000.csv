@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,suv,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.976311
+,suv,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.834152
+,suv,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.713615
+,suv,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.583176
+,suv,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.47142
+,suv,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.289917
+,suv,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.074539
+,suv,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.945518
+,suv,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.650665
+,suv,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.502487
+,suv,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.353195
+,suv,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.132477
+,suv,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.878265
+,suv,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.61721
+,suv,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.636375
+,suv,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.384155
+,suv,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.1446
+,suv,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.147003
+,suv,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,82.91748
+,car,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.429588
+,car,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.801826
+,car,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.95488
+,car,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.708084
+,car,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.793968
+,car,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,87.089561
+,car,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,88.279762
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,88.399971
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,88.273933
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,88.093826
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,88.157036
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,87.967278
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,87.763496
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,87.576172
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,87.40387
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,87.173233
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.944519
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.828445
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.514626
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.358582
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,86.207253
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.976402
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.699394
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.434715
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.40451
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,85.158707
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,84.911133
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,84.98378
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large,84.733589
+,car,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.428741
+,car,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.662239
+,car,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.786934
+,car,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.130997
+,car,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.032074
+,car,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.037529
+,car,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,95.215324
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,95.015999
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.774345
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.518936
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.481438
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,94.227432
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.958038
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.728249
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.574516
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.37809
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.180183
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,93.094551
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.835861
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.704933
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.574478
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.379913
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,92.122086
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,91.862625
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,91.805244
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,91.540726
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,91.298431
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,91.403435
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : midsize,91.148491
+,car,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,38.667477
+,car,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,40.742157
+,car,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,42.508583
+,car,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,44.168629
+,car,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,46.487946
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,47.664482
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,48.690296
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,49.301888
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,50.139114
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,51.03809
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,51.892811
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,52.818745
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,53.472687
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,53.995232
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,54.434952
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,54.879539
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,55.019333
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,54.325516
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,54.658615
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,54.948048
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,55.056801
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,55.078865
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : minicompact,55.202248

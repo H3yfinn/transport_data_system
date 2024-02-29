@@ -1,0 +1,59 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,12.224998
+bev,,,2023,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.913273
+bev,,,2024,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.471824
+bev,,,2025,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.030275
+bev,,,2026,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.768831
+bev,,,2027,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.582514
+bev,,,2028,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.45016
+bev,,,2029,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.399552
+bev,,,2030,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.413742
+bev,,,2031,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.447019
+bev,,,2032,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.475133
+bev,,,2033,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.629589
+bev,,,2034,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.729555
+bev,,,2035,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.73074
+bev,,,2036,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.793545
+bev,,,2037,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.871433
+bev,,,2038,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,10.987963
+bev,,,2039,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.078531
+bev,,,2040,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.155383
+bev,,,2041,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.217563
+bev,,,2042,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.243109
+bev,,,2043,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.258493
+bev,,,2044,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.271253
+bev,,,2045,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.281693
+bev,,,2046,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.247436
+bev,,,2047,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.196383
+bev,,,2048,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.178801
+bev,,,2049,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.117008
+bev,,,2050,ref2023,2022 cents/kwh,20_usa,total energy : real prices : electricity,11.024078
+,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.46807
+,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.466637
+,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.464696
+,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.468365
+,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.467147
+,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.463506
+,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.421122
+,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.435924
+,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.40917
+,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.430189
+,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.417399
+,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.400392
+,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.385018
+,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.383724
+,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.373453
+,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.37069
+,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.37088
+,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.426985
+,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.44437
+,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.495598
+,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.478124
+,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.473002
+,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.507854
+,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.72446
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.559305
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.559305
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.581998
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.475205
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : ethanol wholesale price,1.472151

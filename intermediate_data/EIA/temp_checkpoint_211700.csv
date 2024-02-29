@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2038,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",368.380646
+,,,2039,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",371.811432
+,,,2040,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",375.588074
+,,,2041,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",379.587524
+,,,2042,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",383.514648
+,,,2043,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",387.208832
+,,,2044,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",390.633392
+,,,2045,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",393.837952
+,,,2046,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",397.542633
+,,,2047,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",401.354675
+,,,2048,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",404.659821
+,,,2049,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",408.224457
+,,,2050,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",413.08252
+,lpv,,2049,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3463.024902
+,lpv,,2050,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3499.542969
+,lpv,,2022,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",2843.298096
+,lpv,,2023,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",2901.358887
+,lpv,,2024,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",2922.506592
+,lpv,,2025,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",2933.360107
+,lpv,,2026,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",2954.238037
+,lpv,,2027,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",2981.934326
+,lpv,,2028,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3007.558105
+,lpv,,2029,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3027.572998
+,lpv,,2030,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3042.843262
+,lpv,,2031,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3055.774658
+,lpv,,2032,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3066.651611
+,lpv,,2033,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3082.359375
+,lpv,,2034,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3102.418213
+,lpv,,2035,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3120.737549
+,lpv,,2036,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3135.62085
+,lpv,,2037,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3152.917725
+,lpv,,2038,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3172.435547
+,lpv,,2039,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3192.100586
+,lpv,,2040,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3214.562988
+,lpv,,2041,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3237.580566
+,lpv,,2042,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3261.584717
+,lpv,,2043,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3284.897461
+,lpv,,2044,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3309.039062
+,lpv,,2045,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3334.703369
+,lpv,,2046,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3364.522461
+,lpv,,2047,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3396.535156
+,lpv,,2048,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : light-duty vehicles <= 8,500 lbs",3429.562744
+,,,2022,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1620.494873
+,,,2023,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1600.10083
+,,,2024,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1666.9198
+,,,2025,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1628.408447
+,,,2026,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1561.420654
+,,,2027,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1509.649414
+,,,2028,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1489.731201
+,,,2029,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1507.515137
+,,,2030,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1500.164917
+,,,2031,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1506.952393
+,,,2032,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1522.198242
+,,,2033,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1534.73938
+,,,2034,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1543.237427
+,,,2035,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1554.590698
+,,,2036,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1557.525391
+,,,2037,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1562.481567
+,,,2038,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1568.966064
+,,,2039,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1568.339478
+,,,2040,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1571.777466
+,,,2041,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1585.611206
+,,,2042,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1597.307007
+,,,2043,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1600.190918
+,,,2044,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1601.832764
+,,,2045,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1602.998779
+,,,2046,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1608.129395
+,,,2047,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1618.082397
+,,,2048,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1630.807983
+,,,2049,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1636.890503
+,,,2050,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1649.469482
+,,,2022,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,10.854354
+,,,2023,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,13.474721
+,,,2024,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,16.426645
+,,,2025,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,23.267769
+,,,2026,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,24.127253
+,,,2027,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,26.66951
+,,,2028,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,29.503904
+,,,2029,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,29.578844
+,,,2030,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,29.70682
+,,,2031,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,29.857338
+,,,2032,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,29.54775
+,,,2033,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,28.973969
+,,,2034,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,28.050112
+,,,2035,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,26.909739
+,,,2036,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,25.435419
+,,,2037,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,23.604179
+,,,2038,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,22.372984
+,,,2039,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,20.872454
+,,,2040,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,19.90946
+,,,2041,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,19.046013
+,,,2042,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,18.313862
+,,,2043,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,17.751463
+,,,2044,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,17.635996
+,,,2045,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,17.260498
+,,,2046,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,17.148401
+,,,2047,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,16.929388
+,,,2048,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,16.739115
+,,,2049,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,15.788038
+,,,2050,ref2023,percent,20_usa,technology market penetration : car : 10 speed automatic ii,15.76599

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2027,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000132
+,,,2028,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000146
+,,,2029,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000161
+,,,2030,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000176
+,,,2031,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000194
+,,,2032,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000214
+,,,2033,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000238
+,,,2034,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000265
+,,,2035,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000296
+,,,2036,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000331
+,,,2037,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000369
+,,,2038,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000411
+,,,2039,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000457
+,,,2040,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000506
+,,,2041,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.00056
+,,,2042,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000617
+,,,2043,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000678
+,,,2044,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000741
+,,,2045,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000807
+,,,2046,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.000877
+,,,2047,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.00095
+,,,2048,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.001028
+,,,2049,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.001109
+,,,2050,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : total,0.001195
+,,,2022,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,4.7e-05
+,,,2023,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,7.3e-05
+,,,2024,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,9.4e-05
+,,,2025,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000106
+,,,2026,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000119
+,,,2027,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000132
+,,,2028,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000146
+,,,2029,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000161
+,,,2030,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000176
+,,,2031,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000194
+,,,2032,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000214
+,,,2033,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000238
+,,,2034,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000265
+,,,2035,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000296
+,,,2036,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000331
+,,,2037,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000369
+,,,2038,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000411
+,,,2039,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000457
+,,,2040,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000506
+,,,2041,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.00056
+,,,2042,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000617
+,,,2043,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000678
+,,,2044,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000741
+,,,2045,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000807
+,,,2046,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.000877
+,,,2047,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.00095
+,,,2048,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.001028
+,,,2049,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.001109
+,,,2050,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : natural gas,0.001195
+,,,2023,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2022,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2024,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2025,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2026,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2027,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2028,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2029,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2030,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2031,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2032,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2033,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2034,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2035,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2036,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2037,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2038,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2039,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2040,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2041,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2042,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2043,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2044,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2045,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2046,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2047,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2048,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2049,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2050,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : other,0.0
+,,,2022,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2023,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2024,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2025,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2026,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2027,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2028,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2029,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2030,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2031,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2032,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2033,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2034,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2035,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2036,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2037,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2038,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2039,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0

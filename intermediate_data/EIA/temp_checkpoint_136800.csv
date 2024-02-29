@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_d,mt,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : diesel,67.468948
+ice_d,mt,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : diesel,68.816582
+ice_d,mt,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : diesel,70.243614
+ice_d,mt,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : diesel,71.603302
+ice_d,mt,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : diesel,73.056641
+ice_d,mt,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : diesel,74.77961
+phev_d,mt,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.0
+phev_d,mt,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.005791
+phev_d,mt,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.011641
+phev_d,mt,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.017745
+phev_d,mt,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.024024
+phev_d,mt,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.030277
+phev_d,mt,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.036508
+phev_d,mt,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.042765
+phev_d,mt,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.049185
+phev_d,mt,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.055924
+phev_d,mt,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.063112
+phev_d,mt,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.070484
+phev_d,mt,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.078226
+phev_d,mt,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.086534
+phev_d,mt,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.095422
+phev_d,mt,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.105274
+phev_d,mt,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.116181
+phev_d,mt,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.128332
+phev_d,mt,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.142063
+phev_d,mt,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.157389
+phev_d,mt,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.174051
+phev_d,mt,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.191836
+phev_d,mt,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.210715
+phev_d,mt,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.230889
+phev_d,mt,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.252466
+phev_d,mt,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.274962
+phev_d,mt,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.297693
+phev_d,mt,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.321199
+phev_d,mt,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in diesel hybrid,0.346224
+ethanol_flex_fuel,mt,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.793104
+ethanol_flex_fuel,mt,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.733989
+ethanol_flex_fuel,mt,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.701197
+ethanol_flex_fuel,mt,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.694834
+ethanol_flex_fuel,mt,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.705554
+ethanol_flex_fuel,mt,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.713322
+ethanol_flex_fuel,mt,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.722355
+ethanol_flex_fuel,mt,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.737602
+ethanol_flex_fuel,mt,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.763645
+ethanol_flex_fuel,mt,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.807043
+ethanol_flex_fuel,mt,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.864232
+ethanol_flex_fuel,mt,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.914667
+ethanol_flex_fuel,mt,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.947316
+ethanol_flex_fuel,mt,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.968468
+ethanol_flex_fuel,mt,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.971855
+ethanol_flex_fuel,mt,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.975454
+ethanol_flex_fuel,mt,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.964083
+ethanol_flex_fuel,mt,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.953435
+ethanol_flex_fuel,mt,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.955495
+ethanol_flex_fuel,mt,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,3.973439
+ethanol_flex_fuel,mt,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.000788
+ethanol_flex_fuel,mt,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.04146
+ethanol_flex_fuel,mt,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.095368
+ethanol_flex_fuel,mt,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.15557
+ethanol_flex_fuel,mt,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.225757
+ethanol_flex_fuel,mt,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.299688
+ethanol_flex_fuel,mt,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.36784
+ethanol_flex_fuel,mt,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.436968
+ethanol_flex_fuel,mt,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : ethanol-flex fuel,4.51719
+phev_g,mt,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.0
+phev_g,mt,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.006025
+phev_g,mt,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.012129
+phev_g,mt,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.018395
+phev_g,mt,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.024749
+phev_g,mt,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.030966
+phev_g,mt,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.037011
+phev_g,mt,,2029,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.042946
+phev_g,mt,,2030,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.048956
+phev_g,mt,,2031,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.055274
+phev_g,mt,,2032,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.06205
+phev_g,mt,,2033,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.069098
+phev_g,mt,,2034,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.076634
+phev_g,mt,,2035,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.084903
+phev_g,mt,,2036,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.093932
+phev_g,mt,,2037,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.104143
+phev_g,mt,,2038,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.115635
+phev_g,mt,,2039,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.12865
+phev_g,mt,,2040,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.143532
+phev_g,mt,,2041,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.160333
+phev_g,mt,,2042,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.178793
+phev_g,mt,,2043,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.198736
+phev_g,mt,,2044,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.21998
+phev_g,mt,,2045,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.242805
+phev_g,mt,,2046,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.267198
+phev_g,mt,,2047,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.292703
+phev_g,mt,,2048,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.318521
+phev_g,mt,,2049,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.345285
+phev_g,mt,,2050,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : plug-in gasoline hybrid,0.373702
+bev,mt,,2022,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000803
+bev,mt,,2023,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000726
+bev,mt,,2024,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000665
+bev,mt,,2025,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000618
+bev,mt,,2026,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000584
+bev,mt,,2027,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000557
+bev,mt,,2028,ref2023,billion miles,20_usa,freight : truck stock : vehicle miles traveled : light medium : electric,0.000536

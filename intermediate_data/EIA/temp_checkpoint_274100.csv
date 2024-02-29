@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2050,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,39.110512
+bev,,,2022,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.616199
+bev,,,2023,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,50.412155
+bev,,,2024,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.907917
+bev,,,2025,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,37.916794
+bev,,,2026,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,39.056049
+bev,,,2027,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,41.376659
+bev,,,2028,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,43.812645
+bev,,,2029,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,41.663773
+bev,,,2030,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,44.00061
+bev,,,2031,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,41.520844
+bev,,,2032,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.651928
+bev,,,2033,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,43.216297
+bev,,,2034,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,43.67704
+bev,,,2035,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.577164
+bev,,,2036,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.541195
+bev,,,2037,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,42.57288
+bev,,,2038,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,43.397404
+bev,,,2039,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,44.032112
+bev,,,2040,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,44.54705
+bev,,,2041,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : economy,43.139381
+,,,2022,ref2023,quads,20_usa,total energy : exports : coal,2.154573
+,,,2023,ref2023,quads,20_usa,total energy : exports : coal,2.143556
+,,,2024,ref2023,quads,20_usa,total energy : exports : coal,2.779966
+,,,2025,ref2023,quads,20_usa,total energy : exports : coal,2.715976
+,,,2026,ref2023,quads,20_usa,total energy : exports : coal,2.848135
+,,,2027,ref2023,quads,20_usa,total energy : exports : coal,2.810707
+,,,2028,ref2023,quads,20_usa,total energy : exports : coal,2.822736
+,,,2029,ref2023,quads,20_usa,total energy : exports : coal,2.808787
+,,,2030,ref2023,quads,20_usa,total energy : exports : coal,2.810107
+,,,2031,ref2023,quads,20_usa,total energy : exports : coal,2.838428
+,,,2032,ref2023,quads,20_usa,total energy : exports : coal,2.89129
+,,,2033,ref2023,quads,20_usa,total energy : exports : coal,2.819009
+,,,2034,ref2023,quads,20_usa,total energy : exports : coal,2.79456
+,,,2035,ref2023,quads,20_usa,total energy : exports : coal,2.821391
+,,,2036,ref2023,quads,20_usa,total energy : exports : coal,2.784587
+,,,2037,ref2023,quads,20_usa,total energy : exports : coal,2.726998
+,,,2038,ref2023,quads,20_usa,total energy : exports : coal,2.770777
+,,,2039,ref2023,quads,20_usa,total energy : exports : coal,2.712615
+,,,2040,ref2023,quads,20_usa,total energy : exports : coal,2.722989
+,,,2041,ref2023,quads,20_usa,total energy : exports : coal,2.708216
+,,,2042,ref2023,quads,20_usa,total energy : exports : coal,2.723382
+,,,2043,ref2023,quads,20_usa,total energy : exports : coal,2.690624
+,,,2044,ref2023,quads,20_usa,total energy : exports : coal,2.694831
+,,,2045,ref2023,quads,20_usa,total energy : exports : coal,2.703859
+,,,2046,ref2023,quads,20_usa,total energy : exports : coal,2.688675
+,,,2047,ref2023,quads,20_usa,total energy : exports : coal,2.682404
+,,,2048,ref2023,quads,20_usa,total energy : exports : coal,2.70565
+,,,2049,ref2023,quads,20_usa,total energy : exports : coal,2.707865
+,,,2050,ref2023,quads,20_usa,total energy : exports : coal,2.723995
+,,,2022,ref2023,quads,20_usa,total energy : exports : natural gas,7.157014
+,,,2023,ref2023,quads,20_usa,total energy : exports : natural gas,7.945881
+,,,2024,ref2023,quads,20_usa,total energy : exports : natural gas,7.943815
+,,,2025,ref2023,quads,20_usa,total energy : exports : natural gas,8.33703
+,,,2026,ref2023,quads,20_usa,total energy : exports : natural gas,8.842743
+,,,2027,ref2023,quads,20_usa,total energy : exports : natural gas,9.263846
+,,,2028,ref2023,quads,20_usa,total energy : exports : natural gas,9.664758
+,,,2029,ref2023,quads,20_usa,total energy : exports : natural gas,10.022476
+,,,2030,ref2023,quads,20_usa,total energy : exports : natural gas,10.671082
+,,,2031,ref2023,quads,20_usa,total energy : exports : natural gas,11.372363
+,,,2032,ref2023,quads,20_usa,total energy : exports : natural gas,12.069704
+,,,2033,ref2023,quads,20_usa,total energy : exports : natural gas,12.747917
+,,,2034,ref2023,quads,20_usa,total energy : exports : natural gas,13.325287
+,,,2035,ref2023,quads,20_usa,total energy : exports : natural gas,13.720263
+,,,2036,ref2023,quads,20_usa,total energy : exports : natural gas,13.973807
+,,,2037,ref2023,quads,20_usa,total energy : exports : natural gas,14.186524
+,,,2038,ref2023,quads,20_usa,total energy : exports : natural gas,14.301539
+,,,2039,ref2023,quads,20_usa,total energy : exports : natural gas,14.335634
+,,,2040,ref2023,quads,20_usa,total energy : exports : natural gas,14.360343
+,,,2041,ref2023,quads,20_usa,total energy : exports : natural gas,14.349729
+,,,2042,ref2023,quads,20_usa,total energy : exports : natural gas,14.358644
+,,,2043,ref2023,quads,20_usa,total energy : exports : natural gas,14.365799
+,,,2044,ref2023,quads,20_usa,total energy : exports : natural gas,14.408306
+,,,2045,ref2023,quads,20_usa,total energy : exports : natural gas,14.392715
+,,,2046,ref2023,quads,20_usa,total energy : exports : natural gas,14.375298
+,,,2047,ref2023,quads,20_usa,total energy : exports : natural gas,14.355018
+,,,2048,ref2023,quads,20_usa,total energy : exports : natural gas,14.358721
+,,,2049,ref2023,quads,20_usa,total energy : exports : natural gas,14.323404
+,,,2050,ref2023,quads,20_usa,total energy : exports : natural gas,14.304577
+,,,2022,ref2023,quads,20_usa,total energy : exports : petroleum,18.53616
+,,,2023,ref2023,quads,20_usa,total energy : exports : petroleum,19.04047
+,,,2024,ref2023,quads,20_usa,total energy : exports : petroleum,20.328047
+,,,2025,ref2023,quads,20_usa,total energy : exports : petroleum,20.57988
+,,,2026,ref2023,quads,20_usa,total energy : exports : petroleum,21.071783
+,,,2027,ref2023,quads,20_usa,total energy : exports : petroleum,21.489708
+,,,2028,ref2023,quads,20_usa,total energy : exports : petroleum,21.636562
+,,,2029,ref2023,quads,20_usa,total energy : exports : petroleum,21.880472
+,,,2030,ref2023,quads,20_usa,total energy : exports : petroleum,22.202881
+,,,2031,ref2023,quads,20_usa,total energy : exports : petroleum,22.327625
+,,,2032,ref2023,quads,20_usa,total energy : exports : petroleum,22.464676
+,,,2033,ref2023,quads,20_usa,total energy : exports : petroleum,22.515352
+,,,2034,ref2023,quads,20_usa,total energy : exports : petroleum,22.756023
+,,,2035,ref2023,quads,20_usa,total energy : exports : petroleum,22.978777
+,,,2036,ref2023,quads,20_usa,total energy : exports : petroleum,23.076605
+,,,2037,ref2023,quads,20_usa,total energy : exports : petroleum,23.112068
+,,,2038,ref2023,quads,20_usa,total energy : exports : petroleum,23.121672
+,,,2039,ref2023,quads,20_usa,total energy : exports : petroleum,23.267797
+,,,2040,ref2023,quads,20_usa,total energy : exports : petroleum,23.053844
+,,,2041,ref2023,quads,20_usa,total energy : exports : petroleum,23.139196
+,,,2042,ref2023,quads,20_usa,total energy : exports : petroleum,23.210157

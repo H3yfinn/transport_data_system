@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : freezers,0.067377
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : freezers,0.067287
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : freezers,0.067216
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : freezers,0.067169
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : freezers,0.067159
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : freezers,0.067178
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : freezers,0.067229
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : freezers,0.067311
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : freezers,0.067431
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : freezers,0.067596
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : freezers,0.067794
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : freezers,0.068036
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : freezers,0.068326
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : freezers,0.068666
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : freezers,0.069053
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : freezers,0.069481
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : freezers,0.069904
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : freezers,0.070319
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : freezers,0.070729
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : lighting,0.22927
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : lighting,0.21316
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : lighting,0.206794
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : lighting,0.205129
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : lighting,0.2052
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : lighting,0.206404
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : lighting,0.20833
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : lighting,0.210226
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : lighting,0.209704
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : lighting,0.209164
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : lighting,0.208855
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : lighting,0.208568
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : lighting,0.208536
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : lighting,0.209016
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : lighting,0.209627
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : lighting,0.210178
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : lighting,0.210558
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : lighting,0.210954
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : lighting,0.207703
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : lighting,0.205012
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : lighting,0.202911
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : lighting,0.201467
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : lighting,0.200848
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : lighting,0.200991
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : lighting,0.20064
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : lighting,0.200592
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : lighting,0.20073
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : lighting,0.201423
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : lighting,0.202056
+bev,,,2022,ref2023,bkwh,5-2,electricity : electricity demand : residential,126.478394
+bev,,,2023,ref2023,bkwh,5-2,electricity : electricity demand : residential,126.536148
+bev,,,2024,ref2023,bkwh,5-2,electricity : electricity demand : residential,124.998116
+bev,,,2025,ref2023,bkwh,5-2,electricity : electricity demand : residential,125.946312
+bev,,,2026,ref2023,bkwh,5-2,electricity : electricity demand : residential,126.94426
+bev,,,2027,ref2023,bkwh,5-2,electricity : electricity demand : residential,128.287186
+bev,,,2028,ref2023,bkwh,5-2,electricity : electricity demand : residential,129.568619
+bev,,,2029,ref2023,bkwh,5-2,electricity : electricity demand : residential,130.670471
+bev,,,2030,ref2023,bkwh,5-2,electricity : electricity demand : residential,131.571747
+bev,,,2031,ref2023,bkwh,5-2,electricity : electricity demand : residential,132.347382
+bev,,,2032,ref2023,bkwh,5-2,electricity : electricity demand : residential,133.097855
+bev,,,2033,ref2023,bkwh,5-2,electricity : electricity demand : residential,133.685699
+bev,,,2034,ref2023,bkwh,5-2,electricity : electricity demand : residential,134.184845
+bev,,,2035,ref2023,bkwh,5-2,electricity : electricity demand : residential,135.105515
+bev,,,2036,ref2023,bkwh,5-2,electricity : electricity demand : residential,136.195984
+bev,,,2037,ref2023,bkwh,5-2,electricity : electricity demand : residential,137.277069
+bev,,,2038,ref2023,bkwh,5-2,electricity : electricity demand : residential,138.177155
+bev,,,2039,ref2023,bkwh,5-2,electricity : electricity demand : residential,139.185303
+bev,,,2040,ref2023,bkwh,5-2,electricity : electricity demand : residential,140.311691
+bev,,,2041,ref2023,bkwh,5-2,electricity : electricity demand : residential,141.652527
+bev,,,2042,ref2023,bkwh,5-2,electricity : electricity demand : residential,143.159698
+bev,,,2043,ref2023,bkwh,5-2,electricity : electricity demand : residential,144.737106
+bev,,,2044,ref2023,bkwh,5-2,electricity : electricity demand : residential,146.338425
+bev,,,2045,ref2023,bkwh,5-2,electricity : electricity demand : residential,147.841293
+bev,,,2046,ref2023,bkwh,5-2,electricity : electricity demand : residential,149.392883
+bev,,,2047,ref2023,bkwh,5-2,electricity : electricity demand : residential,151.036331
+bev,,,2048,ref2023,bkwh,5-2,electricity : electricity demand : residential,152.838181
+bev,,,2049,ref2023,bkwh,5-2,electricity : electricity demand : residential,154.726471
+bev,,,2050,ref2023,bkwh,5-2,electricity : electricity demand : residential,156.74762
+bev,,,2023,ref2023,bkwh,5-4,electricity : electricity demand : residential,72.200592
+bev,,,2024,ref2023,bkwh,5-4,electricity : electricity demand : residential,73.22049
+bev,,,2026,ref2023,bkwh,5-4,electricity : electricity demand : residential,74.129593
+bev,,,2027,ref2023,bkwh,5-4,electricity : electricity demand : residential,74.696243
+bev,,,2028,ref2023,bkwh,5-4,electricity : electricity demand : residential,75.152557
+bev,,,2029,ref2023,bkwh,5-4,electricity : electricity demand : residential,75.48024
+bev,,,2030,ref2023,bkwh,5-4,electricity : electricity demand : residential,75.742287
+bev,,,2031,ref2023,bkwh,5-4,electricity : electricity demand : residential,76.004372
+bev,,,2032,ref2023,bkwh,5-4,electricity : electricity demand : residential,76.270775
+bev,,,2033,ref2023,bkwh,5-4,electricity : electricity demand : residential,76.575211
+bev,,,2034,ref2023,bkwh,5-4,electricity : electricity demand : residential,76.869354
+bev,,,2035,ref2023,bkwh,5-4,electricity : electricity demand : residential,77.270271
+bev,,,2036,ref2023,bkwh,5-4,electricity : electricity demand : residential,77.745956
+bev,,,2037,ref2023,bkwh,5-4,electricity : electricity demand : residential,78.220871
+bev,,,2038,ref2023,bkwh,5-4,electricity : electricity demand : residential,78.673431
+bev,,,2039,ref2023,bkwh,5-4,electricity : electricity demand : residential,79.072159
+bev,,,2040,ref2023,bkwh,5-4,electricity : electricity demand : residential,79.384109
+bev,,,2041,ref2023,bkwh,5-4,electricity : electricity demand : residential,79.736908
+bev,,,2042,ref2023,bkwh,5-4,electricity : electricity demand : residential,80.208435
+bev,,,2043,ref2023,bkwh,5-4,electricity : electricity demand : residential,80.80014
+bev,,,2044,ref2023,bkwh,5-4,electricity : electricity demand : residential,81.446831
+bev,,,2045,ref2023,bkwh,5-4,electricity : electricity demand : residential,82.111443
+bev,,,2046,ref2023,bkwh,5-4,electricity : electricity demand : residential,82.840256

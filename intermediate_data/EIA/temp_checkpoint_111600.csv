@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle miles traveled : vmt equation components : driving population,236.460175
+,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle miles traveled : vmt equation components : driving population,237.970032
+,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle miles traveled : vmt equation components : driving population,239.268951
+,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle miles traveled : vmt equation components : driving population,240.432465
+,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle miles traveled : vmt equation components : driving population,241.528152
+,lpv,,2022,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.292728
+,lpv,,2023,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.526435
+,lpv,,2024,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.577197
+,lpv,,2025,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.567465
+,lpv,,2026,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.577917
+,lpv,,2027,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.610725
+,lpv,,2028,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.638391
+,lpv,,2029,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.65343
+,lpv,,2030,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.655709
+,lpv,,2031,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.651836
+,lpv,,2032,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.637545
+,lpv,,2033,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.641304
+,lpv,,2034,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.658344
+,lpv,,2035,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.676088
+,lpv,,2036,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.692268
+,lpv,,2037,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.71774
+,lpv,,2038,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.749751
+,lpv,,2039,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.786051
+,lpv,,2040,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.831347
+,lpv,,2041,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.882289
+,lpv,,2042,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.938205
+,lpv,,2043,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,12.994745
+,lpv,,2044,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.055583
+,lpv,,2045,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.120469
+,lpv,,2046,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.200115
+,lpv,,2047,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.287262
+,lpv,,2048,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.378972
+,lpv,,2049,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.473079
+,lpv,,2050,ref2023,thousand miles,20_usa,light-duty vehicle miles traveled : vmt equation components : vmt/driving population,13.577239
+,,,2022,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.367208
+,,,2023,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.95415
+,,,2024,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.895261
+,,,2025,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.89879
+,,,2026,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.873402
+,,,2027,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.857016
+,,,2028,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.843623
+,,,2029,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.83613
+,,,2030,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.854791
+,,,2031,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.866635
+,,,2032,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.865829
+,,,2033,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.874982
+,,,2034,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.873528
+,,,2035,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.863874
+,,,2036,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.866191
+,,,2037,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.866138
+,,,2038,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.87297
+,,,2039,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.871267
+,,,2040,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.846363
+,,,2041,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.836264
+,,,2042,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.820084
+,,,2043,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.817876
+,,,2044,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.840563
+,,,2045,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.868021
+,,,2046,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.882095
+,,,2047,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.883294
+,,,2048,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.897954
+,,,2049,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.909042
+,,,2050,ref2023,"percent, nominal",20_usa,macroeconomic indicators : interest rates : aa utility bond rate,4.887235
+,lpv,,2022,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,9.161829
+,lpv,,2023,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,8.445475
+,lpv,,2024,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,8.089037
+,lpv,,2025,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,7.395504
+,lpv,,2026,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,7.164747
+,lpv,,2027,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.98038
+,lpv,,2028,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.830608
+,lpv,,2029,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.698566
+,lpv,,2030,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.573293
+,lpv,,2031,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.437982
+,lpv,,2032,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.344121
+,lpv,,2033,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.25063
+,lpv,,2034,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.166095
+,lpv,,2035,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.06848
+,lpv,,2036,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,6.038244
+,lpv,,2037,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.952086
+,lpv,,2038,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.880244
+,lpv,,2039,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.825352
+,lpv,,2040,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.760146
+,lpv,,2041,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.688338
+,lpv,,2042,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.638334
+,lpv,,2043,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.560752
+,lpv,,2044,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.55147
+,lpv,,2045,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.521921
+,lpv,,2046,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.638013
+,lpv,,2047,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.609405
+,lpv,,2048,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.637034
+,lpv,,2049,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.622787
+,lpv,,2050,ref2023,1987 $/mi,20_usa,light-duty vehicle miles traveled : price effects : real cost of driving per mile,5.659869
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2149.376221
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2214.748779
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2267.254883
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2310.52002
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2353.884277
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2412.560547
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2458.776367
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : real disposable income : east north central,2497.726807

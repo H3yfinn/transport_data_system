@@ -1,0 +1,12 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2040,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.048342
+bev,,,2041,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.302299
+bev,,,2042,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.413398
+bev,,,2043,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.473688
+bev,,,2044,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.504844
+bev,,,2045,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.641873
+bev,,,2046,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.755627
+bev,,,2047,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.856544
+bev,,,2048,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,6.989635
+bev,,,2049,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,7.051152
+bev,,,2050,ref2023,nom $/mcf,20_usa,natural gas : delivered prices : electric power,7.217737

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.791531
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.80352
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.817413
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.819332
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.821598
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.822445
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.827473
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.828793
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.83078
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.83112
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.842136
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.842136
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.842136
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.843197
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.843197
+,,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.843231
+,,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.845177
+,,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.845177
+,,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.848228
+,,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.848228
+,,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.867775
+,,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.867775
+,,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.867775
+,,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.867775
+,,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new car,59.867775
+,lpv,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.939564
+,lpv,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.91069
+,lpv,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.948238
+,lpv,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.913113
+,lpv,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.90683
+,lpv,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.880138
+,lpv,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.870857
+,lpv,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,35.855949
+,lpv,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,36.277985
+,lpv,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,39.337013
+,lpv,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,42.578201
+,lpv,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.262627
+,lpv,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.227249
+,lpv,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.18121
+,lpv,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.168774
+,lpv,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.163849
+,lpv,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.152081
+,lpv,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.159279
+,lpv,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.152672
+,lpv,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.146118
+,lpv,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.131687
+,lpv,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.138325
+,lpv,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.119869
+,lpv,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.100937
+,lpv,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.084251
+,lpv,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.059879
+,lpv,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.032314
+,lpv,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,47.004074
+,lpv,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light-duty vehicle,46.960155
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.755749
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,32.608868
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,35.403008
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,38.46349
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.75658
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.76173
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.76173
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.761841
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762085
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762169
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.76236
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.76239
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.76252
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762554
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762699
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762756
+,,efficiency,2039,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762825
+,,efficiency,2040,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762897
+,,efficiency,2041,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.762962
+,,efficiency,2042,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763016
+,,efficiency,2043,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763103
+,,efficiency,2044,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763103
+,,efficiency,2045,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763184
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,32.047302
+,,efficiency,2046,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763184
+,,efficiency,2047,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763294
+,,efficiency,2048,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763294
+,,efficiency,2049,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763393
+,,efficiency,2050,ref2023,mpg,20_usa,transportation : energy efficiency indicators : cafe standard : new light truck,42.763393
+,,efficiency,2022,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,49.658657
+,,efficiency,2023,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,50.63982
+,,efficiency,2024,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,51.418789
+,,efficiency,2025,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,54.041267
+,,efficiency,2026,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,54.808311
+,,efficiency,2027,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,55.812794
+,,efficiency,2028,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,58.414131
+,,efficiency,2029,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,59.295654
+,,efficiency,2030,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,59.885937
+,,efficiency,2031,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,60.128426
+,,efficiency,2032,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,60.482559
+,,efficiency,2033,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,60.696911
+,,efficiency,2034,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,60.896141
+,,efficiency,2035,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,61.139969
+,,efficiency,2036,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,61.34211
+,,efficiency,2037,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,61.456459
+,,efficiency,2038,ref2023,mpg,20_usa,transportation : energy efficiency indicators : tested : new car,61.54549

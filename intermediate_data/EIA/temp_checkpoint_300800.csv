@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593036
+ice_g,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.03513
+ice_g,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.038594
+ice_g,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.037381
+ice_g,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.036164
+ice_g,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.034097
+ice_g,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.033101
+ice_g,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.032113
+ice_g,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.031125
+ice_g,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.030226
+ice_g,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.029317
+ice_g,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.028415
+ice_g,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.02752
+ice_g,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.02663
+ice_g,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.025746
+ice_g,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.024862
+ice_g,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.023974
+ice_g,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.023084
+ice_g,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.0222
+ice_g,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.051711
+ice_g,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.050536
+ice_g,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.049363
+ice_g,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.048181
+ice_g,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.046995
+ice_g,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.045806
+ice_g,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.044614
+ice_g,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.043417
+ice_g,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.042216
+ice_g,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.041012
+ice_g,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.039805
+bev,,,2022,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,13948.568359
+bev,,,2023,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,17142.066406
+bev,,,2024,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,14811.707031
+bev,,,2025,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,12944.099609
+bev,,,2026,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,12071.169922
+bev,,,2027,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,12189.860352
+bev,,,2028,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,13383.052734
+bev,,,2029,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,13544.255859
+bev,,,2030,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,14316.116211
+bev,,,2031,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,15092.248047
+bev,,,2032,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,16012.551758
+bev,,,2033,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,16943.767578
+bev,,,2037,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,19169.617188
+bev,,,2034,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,18030.472656
+bev,,,2035,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,18366.875
+bev,,,2036,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,18951.980469
+bev,,,2038,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,19710.384766
+bev,,,2039,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,18990.691406
+bev,,,2040,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,19536.613281
+bev,,,2041,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,20195.634766
+bev,,,2042,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,20283.050781
+bev,,,2043,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,20465.099609
+bev,,,2044,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,21185.365234
+bev,,,2045,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,21126.933594
+bev,,,2046,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,22135.775391
+bev,,,2047,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,22931.808594
+bev,,,2048,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,22996.324219
+bev,,,2049,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,23420.660156
+bev,,,2050,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : total,23518.765625
+,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.609875
+,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.172596
+,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.119083
+,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,2.968724
+,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,2.997598
+,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.026619
+,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.077226
+,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.162884
+,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.237073
+,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.347599
+,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.451644
+,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.548645
+,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.660551
+,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.7747
+,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.880308
+,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,3.991017
+,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.103449
+,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.213187
+,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.331974
+,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.472531
+,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.584018
+,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.7251
+,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.82522
+,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,4.973486
+,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,5.166553
+,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,5.300386
+,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,5.44241
+,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,5.598391
+,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : refined petroleum product prices : jet fuel,5.741006
+,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.304008
+,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.424212
+,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.762643
+,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.677299
+,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.737416
+,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.809325
+,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.875693
+,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.952776
+,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.03688
+,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.12079
+,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.210996
+,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.305326

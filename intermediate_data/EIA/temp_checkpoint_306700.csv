@@ -1,0 +1,55 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.347926
+lpg,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.206625
+lpg,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.055114
+lpg,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.903669
+lpg,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.82895
+lpg,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.788991
+lpg,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.782604
+lpg,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.792671
+lpg,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.816743
+lpg,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.847197
+lpg,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.885391
+lpg,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.927412
+lpg,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.961353
+lpg,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.980686
+lpg,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,1.99236
+lpg,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.006474
+lpg,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.033764
+lpg,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.033407
+lpg,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.056775
+lpg,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.074668
+lpg,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.081972
+lpg,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.081476
+lpg,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.077358
+lpg,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.082856
+lpg,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.105681
+lpg,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.108654
+lpg,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.116083
+lpg,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.115075
+lpg,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.111846
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.327985
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.246414
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.519363
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.408632
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.428297
+,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.455433
+,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.474433
+,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.486193
+,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.501036
+,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.512701
+,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.52738
+,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.541271
+,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.555039
+,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.572161
+,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.580854
+,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.593956
+,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.608363
+,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.618859
+,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.628136
+,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.643081
+,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.645471
+,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.655329
+,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.653445
+,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.658715
+,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : residual fuel oil,2.686111

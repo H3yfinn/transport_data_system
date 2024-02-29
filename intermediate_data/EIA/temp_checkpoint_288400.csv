@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.246674
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,12.094895
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.940942
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.706865
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.522861
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.436956
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.188575
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.140628
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,11.072577
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.923501
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.743245
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.575659
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.453215
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.334746
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,9.893041
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.198887
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,10.077387
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : west north central,9.964554
+ice_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,78.787415
+ice_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,79.045586
+ice_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,79.287003
+ice_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,79.763138
+ice_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,80.05761
+ice_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,80.269577
+ice_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,80.59407
+ice_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,80.721031
+ice_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,80.82486
+ice_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,80.936684
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.05616
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.193268
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.259605
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.320824
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.369545
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.417847
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.465363
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.519745
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.554131
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.58757
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.618706
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.646217
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.65937
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.675346
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.687141
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.700783
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.713783
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.76857
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large utility,81.774712
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,19.753227
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,18.306129
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,16.82909
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,16.367126
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.635909
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.312843
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.061953
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.932024
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.867635
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.900737
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.918269
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.057215
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.156935
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.229827
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.015793
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.16234
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.107067
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.200159
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.050174
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,15.040016
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.959203
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.814341
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.640085
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,14.706367
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,17.797859
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,17.675562
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,17.50403
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,17.403898
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : transportation : pacific,17.334076
+lpg,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0
+lpg,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small crossover light truck,0.0

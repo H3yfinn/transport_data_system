@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,65.81601
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,67.67215
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,69.540039
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,71.392395
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,73.24205
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,75.092896
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,76.872742
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,78.633728
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,80.435425
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,82.260277
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,84.062126
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,85.845726
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,87.640495
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,89.452477
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,91.281105
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,93.125473
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,94.983177
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,96.849968
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,98.72625
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,100.62426
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,102.545494
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : australia and new zealand,104.489151
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,54.320999
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,48.393002
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,52.212002
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,56.43
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,57.815392
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,59.144066
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,60.473392
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,61.790428
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,63.030361
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,64.167816
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,65.257767
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,66.29747
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,67.283569
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,68.213135
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,69.085907
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,69.909248
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,70.688301
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,71.4282
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,72.133858
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,72.808731
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,73.454994
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,74.074745
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,74.669487
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,75.240585
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,75.790413
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,76.318916
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,76.827271
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,77.315163
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : brazil,77.784637
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,33.891998
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,36.630001
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,37.250919
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,37.928448
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,38.582844
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,39.201328
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,39.822952
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,40.457237
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,41.099152
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,41.750576
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,42.408978
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,43.071007
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,43.736645
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,44.405922
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,45.078777
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,45.755299
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,46.435478
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,47.119484
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,47.807274
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,48.498726
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,49.194065
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,49.893105
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,50.59708
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,51.306602
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,52.021793
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,52.742985
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,53.470383
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,54.204514
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : canada,54.945633
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,487.209015
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,523.710022
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,560.388245
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,597.474426
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,634.904724
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,672.733032
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,710.815979
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,748.889526
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,787.297974
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,826.023865
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,864.931641
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,1024.044312
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,904.114868
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,943.793152
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,983.87207
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,1064.332764
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,1104.986206
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,1146.439697
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,1189.120728
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue passenger miles : domestic : china,1232.996216

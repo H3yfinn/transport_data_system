@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,75.666542
+ethanol_flex_fuel,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,75.034683
+ethanol_flex_fuel,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,74.555443
+ethanol_flex_fuel,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,74.032272
+ethanol_flex_fuel,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,73.489876
+ethanol_flex_fuel,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,72.862831
+ethanol_flex_fuel,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,72.320984
+ethanol_flex_fuel,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,71.990898
+ethanol_flex_fuel,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,72.008469
+ethanol_flex_fuel,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,71.941269
+ethanol_flex_fuel,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,71.822685
+ethanol_flex_fuel,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,71.715027
+ethanol_flex_fuel,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : ethanol-flex fuel ice,71.534599
+bev,car,,2033,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,182.023727
+bev,car,,2034,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,183.034592
+bev,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,184.915085
+bev,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,187.750809
+bev,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,191.071381
+bev,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,194.749283
+bev,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,198.695999
+bev,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,202.832947
+bev,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,206.79274
+bev,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,210.626266
+bev,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,214.1521
+bev,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,217.717209
+bev,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,221.636642
+bev,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,226.31955
+bev,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,230.779282
+bev,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,235.126694
+bev,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,239.494919
+bev,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,244.116791
+bev,car,,2030,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,183.589569
+bev,car,,2027,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,193.128555
+bev,car,,2028,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,188.948227
+bev,car,,2029,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,185.78183
+bev,car,,2031,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,182.246887
+bev,car,,2032,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,181.812088
+bev,car,,2022,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,223.615494
+bev,car,,2023,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,216.07962
+bev,car,,2024,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,210.169006
+bev,car,,2025,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,203.942795
+bev,car,,2026,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : electric-gasoline hybrid,198.138
+fcev,car,,2031,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,1.524476
+fcev,car,,2032,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,1.685228
+fcev,car,,2033,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,1.854181
+fcev,car,,2034,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,2.033293
+fcev,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,2.223712
+fcev,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,2.427094
+fcev,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,2.639039
+fcev,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,2.858608
+fcev,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,3.08428
+fcev,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,3.314411
+fcev,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,3.544198
+fcev,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,3.773129
+fcev,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,3.997288
+fcev,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,4.220754
+fcev,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,4.448301
+fcev,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,4.688444
+fcev,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,4.925473
+fcev,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,5.161976
+fcev,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,5.399414
+fcev,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,5.639956
+fcev,car,,2022,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,0.695658
+fcev,car,,2023,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,0.693525
+fcev,car,,2024,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,0.730931
+fcev,car,,2025,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,0.79699
+fcev,car,,2026,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,0.88554
+fcev,car,,2027,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,0.9894
+fcev,car,,2028,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,1.10531
+fcev,car,,2029,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,1.234237
+fcev,car,,2030,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell hydrogen,1.374475
+fcev,car,,2022,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2023,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2024,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2025,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2026,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2027,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2028,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2029,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2030,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2031,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2032,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2033,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2034,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2035,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2036,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2037,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2038,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2039,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2040,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2041,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2042,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2043,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2044,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2045,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2046,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2047,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2048,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2049,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0
+fcev,car,,2050,ref2023,thousands,20_usa,fleet vehicle stock : alternative-fuel cars : fuel cell methanol,0.0

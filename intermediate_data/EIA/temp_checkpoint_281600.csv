@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1562.505615
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1745.089722
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1653.376831
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1603.185547
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1545.598633
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1529.508911
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1512.275635
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1494.503052
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1475.928467
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1457.922363
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1440.380981
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1422.413696
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1405.643188
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1388.584717
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1370.248291
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1352.204834
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1333.291626
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1314.248779
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1295.692627
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1277.410889
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1258.896973
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1240.397339
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1222.791016
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,2300.018799
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,2126.885986
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,2026.525879
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1950.994873
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : peak,1841.912109
+fcev,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+fcev,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : small van,0.0
+,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : large crossover car,0.0
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small pickup,0.0

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,,,2041,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2042,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2043,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2044,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2045,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2046,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2047,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2048,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2049,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+fcev,,,2050,ref2023,gw,5-23,electricity : electric power sector : cumulative planned additions : fuel cells,0.0
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,1.628091
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,3.627792
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.291292
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : cumulative planned additions : total planned additions,5.812791
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.0104
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2038,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2039,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2040,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2041,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2042,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2043,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2044,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2045,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2046,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2047,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2048,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2049,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2050,ref2023,gw,5-4,electricity : electric power sector : cumulative planned additions : total planned additions,0.861928
+bev,,,2022,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,
+bev,,,2023,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.145
+bev,,,2024,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2025,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2026,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2027,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2028,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2029,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2030,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2031,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2032,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2033,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2034,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2035,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2036,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2037,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2038,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2039,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2040,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2041,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2042,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2043,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2044,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2045,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2049,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2046,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2047,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2048,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2050,ref2023,gw,5-5,electricity : electric power sector : cumulative planned additions : total planned additions,0.415
+bev,,,2022,ref2023,gw,5-6,electricity : electric power sector : cumulative planned additions : total planned additions,
+bev,,,2023,ref2023,gw,5-6,electricity : electric power sector : cumulative planned additions : total planned additions,1.185
+bev,,,2024,ref2023,gw,5-6,electricity : electric power sector : cumulative planned additions : total planned additions,2.065

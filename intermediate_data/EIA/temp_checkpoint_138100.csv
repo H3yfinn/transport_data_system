@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,48.02721
+,,,2041,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,48.631012
+,,,2042,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,49.402283
+,,,2043,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,49.964901
+,,,2044,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,50.329197
+,,,2045,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,50.972748
+,,,2046,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,51.743004
+,,,2047,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,52.397064
+,,,2048,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,52.615349
+,,,2049,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,53.016792
+,,,2050,ref2023,billion 2012 $,20_usa,aluminum industry : value of shipments,53.815617
+,,,2022,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,545.779419
+,,,2023,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,545.041992
+,,,2024,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,550.019714
+,,,2025,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,557.387939
+,,,2026,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,565.909302
+,,,2027,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,573.497803
+,,,2028,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,580.222046
+,,,2029,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,586.108948
+,,,2030,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,591.38092
+,,,2031,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,596.969177
+,,,2032,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,602.595642
+,,,2033,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,607.974121
+,,,2034,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,612.479065
+,,,2035,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,616.590698
+,,,2036,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,620.115601
+,,,2037,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,624.813599
+,,,2038,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,629.283325
+,,,2039,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,633.780151
+,,,2040,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,638.528198
+,,,2041,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,643.14386
+,,,2042,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,647.884277
+,,,2043,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,652.480286
+,,,2044,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,656.705017
+,,,2045,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,661.02771
+,,,2046,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,665.258789
+,,,2047,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,669.473938
+,,,2048,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,673.571289
+,,,2049,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,677.732117
+,,,2050,ref2023,billion 2012 $,20_usa,nonmanufacturing : value of shipments : agriculture,681.940125
+,,,2022,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,474.045685
+,,,2023,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,452.662415
+,,,2024,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,441.203949
+,,,2025,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,453.24295
+,,,2026,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,468.349792
+,,,2027,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,480.999664
+,,,2028,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,490.772919
+,,,2029,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,497.28476
+,,,2030,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,503.203827
+,,,2031,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,511.001434
+,,,2032,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,519.995239
+,,,2033,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,527.936584
+,,,2034,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,537.209961
+,,,2035,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,545.924316
+,,,2036,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,552.747498
+,,,2037,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,560.289124
+,,,2038,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,566.191345
+,,,2039,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,573.650391
+,,,2040,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,582.997437
+,,,2041,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,591.118652
+,,,2042,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,598.443176
+,,,2043,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,605.70813
+,,,2044,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,611.420593
+,,,2045,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,616.42041
+,,,2046,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,624.271667
+,,,2047,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,633.372253
+,,,2048,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,638.376587
+,,,2049,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,645.892029
+,,,2050,ref2023,billion 2012 $,20_usa,bulk chemical : value of shipments,658.58075
+,,,2027,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,15.80765
+,,,2024,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,15.174519
+,,,2025,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,15.420744
+,,,2026,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,15.655219
+,,,2028,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,15.951729
+,,,2029,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.142639
+,,,2030,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.343666
+,,,2031,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.538471
+,,,2032,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.67625
+,,,2033,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.739433
+,,,2034,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.852367
+,,,2035,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,17.106045
+,,,2036,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,17.312027
+,,,2037,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,17.484806
+,,,2038,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,17.670828
+,,,2039,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,17.814068
+,,,2040,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,18.006584
+,,,2041,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,18.220646
+,,,2042,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,18.389345
+,,,2043,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,18.476151
+,,,2044,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,18.683887
+,,,2045,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,18.925755
+,,,2046,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,19.120739
+,,,2047,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,19.317871
+,,,2048,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,19.466255
+,,,2049,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,19.601412
+,,,2050,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,19.775444
+,,,2022,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,16.081751
+,,,2023,ref2023,billion 2012 $,20_usa,cement industry : value of shipments,15.364241
+,,,2022,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,506.490936
+,,,2023,ref2023,billion 2012 $,20_usa,metal-based durables : value of shipments : computers,516.428772

@@ -1,0 +1,18 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2034,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,6.762828
+bev,,,2035,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,6.862728
+bev,,,2036,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,7.05975
+bev,,,2037,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,7.27564
+bev,,,2038,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,7.548815
+bev,,,2039,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,7.795939
+bev,,,2040,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,8.033878
+bev,,,2041,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,8.256325
+bev,,,2042,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,8.444288
+bev,,,2043,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,8.628355
+bev,,,2044,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,8.807384
+bev,,,2045,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,8.981676
+bev,,,2046,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,9.118425
+bev,,,2047,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,9.23762
+bev,,,2048,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,9.43259
+bev,,,2049,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,9.569685
+bev,,,2050,ref2023,nom cents/kwh,20_usa,electricity : prices by service category : generation,9.675106

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : propane,3.774491
+lpg,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : propane,4.156269
+lpg,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : propane,4.525984
+lpg,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : propane,4.863328
+lpg,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : propane,5.19646
+lpg,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : propane,5.514914
+ice_d,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,217.913254
+ice_d,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,216.090149
+ice_d,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,216.778915
+ice_d,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,217.489502
+ice_d,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,218.446533
+ice_d,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,220.215424
+ice_d,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,221.829361
+ice_d,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,223.044952
+ice_d,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,223.587784
+ice_d,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,225.01088
+ice_d,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,226.821655
+ice_d,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,201.552704
+ice_d,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,203.643539
+ice_d,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,209.879852
+ice_d,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,213.993912
+ice_d,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,214.057724
+ice_d,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,212.224716
+ice_d,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,210.505005
+ice_d,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,209.42543
+ice_d,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,207.824234
+ice_d,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,206.282516
+ice_d,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,205.665222
+ice_d,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,205.245102
+ice_d,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,205.646667
+ice_d,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,207.128983
+ice_d,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,209.04892
+ice_d,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,210.688049
+ice_d,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,212.599258
+ice_d,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : commercial light trucks : tdi diesel,214.240753
+,,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : total new car,803.282104
+,,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : total new car,788.469299
+,,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : total new car,789.735718
+,,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : total new car,794.354187
+,,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : total new car,808.266296
+,,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : total new car,813.101135
+,,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : total new car,817.851074
+,,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : total new car,821.69397
+,,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : total new car,820.859985
+,,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : total new car,819.8396
+,,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : total new car,815.63208
+,,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : total new car,814.462769
+,,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : total new car,817.454224
+,,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : total new car,826.613831
+,,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : total new car,826.839966
+,,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : total new car,828.190308
+,,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : total new car,830.831177
+,,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : total new car,835.266296
+,,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : total new car,829.774414
+,,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : total new car,845.736633
+,,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : total new car,853.070984
+,,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : total new car,842.017029
+,,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : total new car,825.266541
+,,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : total new car,816.247375
+,,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : total new car,806.411438
+,,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : total new car,800.874817
+,,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : total new car,796.595337
+,,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : total new car,792.361755
+,,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : total new car,791.304321
+,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1285.535156
+,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1334.117676
+,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1394.321289
+,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1447.884888
+,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1470.19812
+,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1468.698242
+,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1466.604736
+,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1473.057617
+,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1466.756592
+,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1463.369263
+,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1459.311035
+,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1455.908813
+,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1460.876465
+,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1474.561035
+,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1488.633667
+,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1503.613525
+,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1521.225708
+,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1536.832764
+,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1555.5354
+,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1566.634033
+,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1578.552734
+,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1590.889893
+,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1600.960327
+,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1620.74353
+,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1631.485229
+,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1645.272217
+,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1652.628174
+,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1668.761353
+,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : light trucks : total,1686.68457
+,,sales,2022,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2115.30957
+,,sales,2023,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2179.854248
+,,sales,2024,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2247.392334
+,,sales,2025,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2289.901855
+,,sales,2026,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2295.4646
+,,sales,2027,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2284.945557
+,,sales,2028,ref2023,thousands,20_usa,transportation fleet vehicle sales : total fleet vehicles,2273.016113

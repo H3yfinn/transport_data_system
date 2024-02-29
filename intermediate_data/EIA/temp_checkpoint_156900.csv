@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : two seater car,0.0
+lpg,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : two seater car,0.0
+lpg,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : two seater car,0.0
+lpg,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+lpg,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane : two seater car,0.0
+ice_d,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+ice_d,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : turbo direct injection diesel : two seater car,0.0
+,car,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,81.856773
+,car,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,80.167786
+,car,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,82.106377
+,car,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,85.735153
+,car,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,87.475647
+,car,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,89.110031
+,car,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,92.400482
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,93.785255
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,94.731934
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,94.880882
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.273201
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.298355
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.357124
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.435699
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.531647
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.522339
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.490799
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.555771
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.374863
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.399818
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.460777
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.441887
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.312157
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.196541
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.499321
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.333
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.19899
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.504082
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : compact,95.369133
+,suv,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,81.360321
+,suv,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,83.309563
+,suv,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,82.867889
+,suv,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.47113
+,suv,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.573914
+,suv,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,84.956345
+,suv,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,86.09684
+,suv,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,86.211647
+,suv,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,86.10981
+,suv,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : large crossover,85.917084

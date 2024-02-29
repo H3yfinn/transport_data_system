@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2041,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2042,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2043,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2044,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2045,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2046,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2047,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2048,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2049,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2050,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : petroleum,0.0
+,,,2022,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,1.3e-05
+,,,2023,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,2e-05
+,,,2024,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,2.6e-05
+,,,2025,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,2.9e-05
+,,,2026,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,3.3e-05
+,,,2027,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,3.6e-05
+,,,2028,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,4e-05
+,,,2029,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,4.4e-05
+,,,2030,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,4.8e-05
+,,,2031,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,5.3e-05
+,,,2032,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,5.8e-05
+,,,2033,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,6.5e-05
+,,,2034,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,7.2e-05
+,,,2035,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,8.1e-05
+,,,2036,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,9e-05
+,,,2037,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000101
+,,,2038,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000112
+,,,2039,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000125
+,,,2040,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000138
+,,,2041,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000153
+,,,2042,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000168
+,,,2043,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000185
+,,,2044,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000202
+,,,2045,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.00022
+,,,2046,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000239
+,,,2047,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000259
+,,,2048,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000281
+,,,2049,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000303
+,,,2050,ref2023,bkwh,20_usa,aluminum industry : combined heat and power : net generation : sales to the grid,0.000326
+,,,2022,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2023,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2024,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2025,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2026,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2027,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2028,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2029,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2030,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2031,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2032,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2033,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2034,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2035,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2036,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2037,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2038,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2039,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2040,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2041,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2042,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2043,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2044,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2045,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2046,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2047,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2048,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2049,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2050,ref2023,bkwh,20_usa,bulk chemical : combined heat and power : net generation : petroleum,0.008203
+,,,2022,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2023,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2024,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2025,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2026,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2027,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2028,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2029,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2030,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2031,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2032,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2033,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2034,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2035,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2036,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2037,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2038,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2039,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2040,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2041,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2042,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2043,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2044,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2045,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2046,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2047,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2048,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2049,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2050,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : coal,0.0
+,,,2022,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : generation for own use,0.189801
+,,,2023,ref2023,bkwh,20_usa,cement industry : combined heat and power : net generation : generation for own use,0.189801

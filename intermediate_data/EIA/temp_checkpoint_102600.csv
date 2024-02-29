@@ -1,0 +1,43 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.578644
+,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.57726
+,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.575864
+,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.574471
+,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.57305
+,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.571346
+,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.569874
+,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.568397
+,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.567132
+,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.565676
+,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.579699
+,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.603261
+,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.648387
+,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.678537
+,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : transportation,1.699064
+,,,2046,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.024553
+,,,2043,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.020407
+,,,2044,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.02174
+,,,2045,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.023123
+,,,2047,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.02627
+,,,2048,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.028005
+,,,2049,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.029686
+,,,2050,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.031446
+,,,2022,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.010458
+,,,2023,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.010712
+,,,2024,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.010922
+,,,2025,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.010943
+,,,2026,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011129
+,,,2027,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011152
+,,,2028,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011192
+,,,2029,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011203
+,,,2030,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011178
+,,,2031,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011199
+,,,2032,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011351
+,,,2033,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.011617
+,,,2034,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.012019
+,,,2035,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.012559
+,,,2036,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.013198
+,,,2037,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.013953
+,,,2038,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.014784
+,,,2039,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.015705
+,,,2040,ref2023,tcf,20_usa,natural gas use : transportation : east north central,0.016712

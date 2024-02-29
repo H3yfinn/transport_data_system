@@ -36,27 +36,73 @@ fuel_economy_by_vehicle_type_new = pd.read_csv('intermediate_data/USA/all_econom
 #bev to bev: 1 times more efficient
 #%%
 # Define average efficiency values in percentage terms
-avg_efficiency = {
-    'bev': 87.5,
-    'ice_g': 25,
-    'ice_d': 37.5,
-    'cng': 42.5,
-    'lpg': 42.5,
-    'phev_g': 25,  # Assuming the ICE part of PHEV is as efficient as a normal gasoline engine
-    'phev_d': 37.5,  # Assuming the ICE part of PHEV is as efficient as a normal diesel engine
-    'fcev': 50
-}
+# avg_efficiency = {
+#     'bev': 87.5,
+#     'ice_g': 25,
+#     'ice_d': 37.5,
+#     'cng': 42.5,
+#     'lpg': 42.5,
+#     'phev_g': 25,  # Assuming the ICE part of PHEV is as efficient as a normal gasoline engine
+#     'phev_d': 37.5,  # Assuming the ICE part of PHEV is as efficient as a normal diesel engine
+#     'fcev': 50
+# }
+#the above was swapped for index average efficiency of each drive type in the USA's EIA outlook data. this essentially allows us to copy their efficiency data and therefore avoid having to estimate it ourselves. This is because the data is not very reliable when we estimate it ourselves, wehreas the EIA data is very reliable!
+#%%
+efficiency_eia = pd.read_csv('intermediate_data/EIA/eia_2023_weo_fuel_economy_original.csv')
+#drop all cols except vehicle type, drive and value, then index the vlaes in terms of the ice_g efficiency
+#grab year == 2022 only
+efficiency_eia = efficiency_eia[efficiency_eia['year']==2022]
 
-# Calculate efficiency ratios with respect to ice_g
-efficiency_ratios = {key: value / avg_efficiency['ice_g'] for key, value in avg_efficiency.items()}
+efficiency_eia = efficiency_eia[['original_vehicle_type', 'drive','Value']]
+efficiency_eia = efficiency_eia.groupby(['original_vehicle_type','drive']).mean().reset_index()
+#index the values in terms of the ice_g efficiency within each vehicle type
+#this helps to avoid where some vehicle types will not have all teh drives and so averaging at the first step will sway the values
+for vehicle_type in efficiency_eia['original_vehicle_type'].unique():
+    v_type_eff = efficiency_eia[efficiency_eia['original_vehicle_type']==vehicle_type]
+    v_type_eff['Value'] = v_type_eff['Value']/v_type_eff[v_type_eff['drive']=='ice_g']['Value'].values[0]
+    efficiency_eia.loc[efficiency_eia['original_vehicle_type']==vehicle_type,'Value'] = v_type_eff['Value']
 
-# For PHEVs, we divide by 2 to account for the part-time electric operation
-efficiency_ratios['phev_g'] = (efficiency_ratios['phev_g'] + efficiency_ratios['bev'])/2
-efficiency_ratios['phev_d'] = (efficiency_ratios['phev_d'] + efficiency_ratios['bev'])/2
+efficiency_eia.reset_index(inplace=True, drop=True)
+#%%
+#drop vehicle type
+efficiency_eia = efficiency_eia.drop(columns=['original_vehicle_type'])
+#now we can get the average, indexed, efficiency of each drive type
+avg_efficiency = efficiency_eia.groupby(['drive']).mean().reset_index()
+#convert to dictionary
+avg_efficiency = avg_efficiency.set_index('drive').to_dict()['Value']
+#Interesting that cng ends up at 0.9 whereas lpg is 1.4. i guess we jsut stick with the EIA data for now. Also notethat this change decreases the ratios from:
+# {'bev': 3.5,
+#  'ice_g': 1.0,
+#  'ice_d': 1.5,
+#  'cng': 1.7,
+#  'lpg': 1.7,
+#  'phev_g': 2.25,
+#  'phev_d': 2.5,
+#  'fcev': 2.0}
+# to:
+#   {'bev': 2.6005059601244254,
+#  'cng': 0.9036279850081149,
+#  'fcev': 1.2344189390821694,
+#  'ice_d': 1.0516428159749103,
+#  'ice_g': 1.0,
+#  'lpg': 1.4333634668259467,
+#  'phev_g': 1.5731773927778308,
+#  'phev_d': 1.5731773927778308}
+#add phev_d as the same value as phev_g (it might be sloghtly more efficient but we will assume its the same for now since sample size is small)
+avg_efficiency['phev_d'] = avg_efficiency['phev_g']
+efficiency_ratios = avg_efficiency
+#%%
 
-# Print the efficiency ratios
-for vehicle, ratio in efficiency_ratios.items():
-    print(f"{vehicle} is {ratio:.2f} times more efficient than ice_g.")
+# # Calculate efficiency ratios with respect to ice_g
+# efficiency_ratios = {key: value / avg_efficiency['ice_g'] for key, value in avg_efficiency.items()}
+
+# # For PHEVs, we divide by 2 to account for the part-time electric operation
+# efficiency_ratios['phev_g'] = (efficiency_ratios['phev_g'] + efficiency_ratios['bev'])/2
+# efficiency_ratios['phev_d'] = (efficiency_ratios['phev_d'] + efficiency_ratios['bev'])/2
+
+# # Print the efficiency ratios
+# for vehicle, ratio in efficiency_ratios.items():
+#     print(f"{vehicle} is {ratio:.2f} times more efficient than ice_g.")
 #%%
 
 #we will also assume that cng and lpg powered vehicles are the same efficiency as ice ones. THis is because there is not much knowledge aobut these, but it is assumed that if they are more efficient its only by a few percent, and they would also lose out on the relative efficiency gains from learning.
@@ -171,14 +217,33 @@ fuel_economy_by_vehicle_type_new.to_csv('intermediate_data/estimated/USA_based_v
 
 import plotly.express as px
 import plotly.graph_objects as go
-
-fuel_economy_by_vehicle_type_new['medium+vehicle_type'] = fuel_economy_by_vehicle_type_new['medium'] + ' ' + fuel_economy_by_vehicle_type_new['vehicle_type']
+fuel_economy_by_vehicle_type_plot = fuel_economy_by_vehicle_type_new.copy()
+fuel_economy_by_vehicle_type_plot['transport_type+vehicle_type'] = fuel_economy_by_vehicle_type_plot['transport_type'] + ' ' + fuel_economy_by_vehicle_type_plot['vehicle_type']
 # fuel_economy_by_vehicle_type['drive'] = fuel_economy_by_vehicle_type['vehicle_sub_type'] + ' ' + fuel_economy_by_vehicle_type['drive']
 #foilter for only usa
-fuel_economy_by_vehicle_type_new = fuel_economy_by_vehicle_type_new[fuel_economy_by_vehicle_type_new['economy']=='20_USA']
-title = 'Fuel economy by vehicle type - adjuste usa only'
-fig = px.bar(fuel_economy_by_vehicle_type_new, x="medium+vehicle_type", y="value", color="drive", facet_col="transport_type", facet_col_wrap=2, title=title)
+fuel_economy_by_vehicle_type_plot = fuel_economy_by_vehicle_type_plot[fuel_economy_by_vehicle_type_plot['economy']=='20_USA']
+#extract year form date
+fuel_economy_by_vehicle_type_plot['year'] = fuel_economy_by_vehicle_type_plot['date'].str[:4].astype(int)
+#grab  measure = Efficiency only
+fuel_economy_by_vehicle_type_plot = fuel_economy_by_vehicle_type_plot[fuel_economy_by_vehicle_type_plot['measure']=='Efficiency']
+#%%
+title = 'Fuel economy by vehicle type - adjusted usa only'
+fig = px.bar(fuel_economy_by_vehicle_type_plot[fuel_economy_by_vehicle_type_plot['date']==fuel_economy_by_vehicle_type_plot['date'].max()], x="transport_type+vehicle_type", y="value", color="drive", facet_col="transport_type", facet_col_wrap=2, title=title)
 #save to plotting_output\analysis as html
 fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
 
+#do a strip chart*
+fig = px.strip(fuel_economy_by_vehicle_type_plot[fuel_economy_by_vehicle_type_plot['date']==fuel_economy_by_vehicle_type_plot['date'].max()], x='transport_type+vehicle_type', y='value', color='drive', title=title)
+fig.write_html("plotting_output/analysis/usa/strip - {}.html".format(title))
+
+#do a faceted bar chart
+fig = px.bar(fuel_economy_by_vehicle_type_plot[fuel_economy_by_vehicle_type_plot['date']==fuel_economy_by_vehicle_type_plot['date'].max()], x='drive', y='value', color='drive', title=title, facet_col="transport_type+vehicle_type", facet_col_wrap=4)
+fig.write_html("plotting_output/analysis/usa/bar - {}.html".format(title))
+
+#plot as line, with facets as the transport_type+vehicle_type
+title = 'Line graph - Fuel economy by vehicle type - adjusted usa only'
+fig = px.line(fuel_economy_by_vehicle_type_plot, x="year", y="value", color="drive", facet_col="transport_type+vehicle_type", facet_col_wrap=2, title=title)
+fig.write_html("plotting_output/analysis/usa/{}.html".format(title))
+
+#
 # %%

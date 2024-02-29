@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+lpg,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane bi-fuel,0.0
+ice_g,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,2.416381
+ice_g,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,2.779324
+ice_g,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,3.120898
+ice_g,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,3.388887
+ice_g,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,3.61952
+ice_g,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,3.871928
+ice_g,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,4.112279
+ice_g,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,4.368149
+ice_g,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,4.626535
+ice_g,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,4.881974
+ice_g,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,5.155017
+ice_g,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,5.414467
+ice_g,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,5.701344
+ice_g,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,6.014175
+ice_g,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,6.363098
+ice_g,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,6.686507
+ice_g,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,7.012915
+ice_g,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,7.341406
+ice_g,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,7.665002
+ice_g,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,7.946321
+ice_g,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,8.224556
+ice_g,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,8.469109
+ice_g,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,8.743222
+ice_g,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,9.063097
+ice_g,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,9.459611
+ice_g,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,9.753787
+ice_g,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,10.060923
+ice_g,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,10.385608
+ice_g,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 20 gasoline hybrid,10.734817
+ice_g,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,0.85057
+ice_g,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,1.23013
+ice_g,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,1.607591
+ice_g,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,1.947863
+ice_g,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,2.261849
+ice_g,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,2.585001
+ice_g,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,2.896867
+ice_g,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,3.217093
+ice_g,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,3.53761
+ice_g,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,3.854425
+ice_g,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,4.184191
+ice_g,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,4.502318
+ice_g,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,4.842849
+ice_g,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,5.205986
+ice_g,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,5.601945
+ice_g,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,5.976532
+ice_g,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,6.354444
+ice_g,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,6.735092
+ice_g,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,7.111816
+ice_g,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,7.449342
+ice_g,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,7.783675
+ice_g,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,8.085442
+ice_g,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,8.414771
+ice_g,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,8.788048
+ice_g,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,9.236242
+ice_g,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,9.585274
+ice_g,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,9.946996
+ice_g,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,10.326148
+ice_g,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : plug-in 50 gasoline hybrid,10.729992
+lpg,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0

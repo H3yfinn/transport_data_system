@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2036,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,684.029175
+bev,,,2037,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,673.099243
+bev,,,2038,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,654.486694
+bev,,,2039,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,644.631958
+bev,,,2040,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,625.429016
+bev,,,2041,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,625.598083
+bev,,,2042,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,625.896912
+bev,,,2043,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,626.152649
+bev,,,2044,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,626.436401
+bev,,,2045,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,626.438843
+bev,,,2046,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,626.196777
+bev,,,2047,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,626.002136
+bev,,,2048,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,625.141296
+bev,,,2049,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,625.259399
+bev,,,2050,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : nuclear,624.860901
+bev,,,2022,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,13.17383
+bev,,,2023,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,12.665396
+bev,,,2024,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,13.1416
+bev,,,2025,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,12.471628
+bev,,,2026,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,12.183074
+bev,,,2027,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,11.752855
+bev,,,2028,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,10.380667
+bev,,,2029,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,9.681137
+bev,,,2030,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,8.989835
+bev,,,2031,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,8.15296
+bev,,,2032,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,6.945907
+bev,,,2033,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,5.483245
+bev,,,2034,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,4.057487
+bev,,,2035,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,2.739496
+bev,,,2036,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,1.24335
+bev,,,2037,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-0.884946
+bev,,,2038,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-3.24265
+bev,,,2039,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-5.833791
+bev,,,2040,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-8.343657
+bev,,,2041,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-10.434194
+bev,,,2042,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-12.075774
+bev,,,2043,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-13.652925
+bev,,,2044,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-15.951567
+bev,,,2045,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-17.92309
+bev,,,2046,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-19.423046
+bev,,,2047,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-20.799486
+bev,,,2048,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-22.180428
+bev,,,2049,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-23.809244
+bev,,,2050,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : other,-25.583933
+bev,,,2046,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,4.709653
+bev,,,2043,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,5.459556
+bev,,,2044,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,5.111528
+bev,,,2045,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,4.748369
+bev,,,2047,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,4.716311
+bev,,,2048,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,4.693108
+bev,,,2049,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,4.707721
+bev,,,2050,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,4.692904
+bev,,,2022,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,11.318971
+bev,,,2023,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,10.811957
+bev,,,2024,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,10.602041
+bev,,,2025,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,10.276357
+bev,,,2026,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,9.569905
+bev,,,2027,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,8.876225
+bev,,,2028,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,8.186831
+bev,,,2029,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.782994
+bev,,,2030,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.49275
+bev,,,2031,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.210017
+bev,,,2032,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.173691
+bev,,,2033,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.168949
+bev,,,2034,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.14061
+bev,,,2035,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.123692
+bev,,,2036,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,7.035764
+bev,,,2037,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,6.851839
+bev,,,2038,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,6.581026
+bev,,,2039,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,6.46981
+bev,,,2040,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,6.375459
+bev,,,2041,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,6.10275
+bev,,,2042,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : petroleum,5.784111
+bev,,,2022,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,990.373596
+bev,,,2023,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,1076.52478
+bev,,,2024,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,1175.911255
+bev,,,2025,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,1352.36792
+bev,,,2026,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,1565.998535
+bev,,,2027,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,1786.455933
+bev,,,2028,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,1979.001343
+bev,,,2029,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2127.906494
+bev,,,2030,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2254.938965
+bev,,,2031,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2347.448975
+bev,,,2032,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2428.781982
+bev,,,2033,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2523.386719
+bev,,,2034,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2598.431396
+bev,,,2035,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2658.964844
+bev,,,2036,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2721.883057
+bev,,,2037,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2772.97168
+bev,,,2038,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2823.594482
+bev,,,2039,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2868.712646
+bev,,,2040,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2916.306396
+bev,,,2041,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2953.432617
+bev,,,2042,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,2989.286377
+bev,,,2043,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,3034.308105
+bev,,,2044,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,3095.519043
+bev,,,2045,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,3151.513428
+bev,,,2046,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,3218.401367
+bev,,,2047,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,3277.518066
+bev,,,2048,ref2023,bkwh,20_usa,electricity : total electricity generation by fuel : renewable sources,3333.478271

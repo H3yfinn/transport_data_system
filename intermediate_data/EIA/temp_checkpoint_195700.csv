@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2046,ref2023,bkwh,5-22,electricity : end-use sectors : generation : other gaseous fuels,1.290031
+bev,,,2047,ref2023,bkwh,5-22,electricity : end-use sectors : generation : other gaseous fuels,1.287379
+bev,,,2048,ref2023,bkwh,5-22,electricity : end-use sectors : generation : other gaseous fuels,1.313251
+bev,,,2049,ref2023,bkwh,5-22,electricity : end-use sectors : generation : other gaseous fuels,1.301196
+bev,,,2050,ref2023,bkwh,5-22,electricity : end-use sectors : generation : other gaseous fuels,1.274448
+bev,,,2022,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.004446
+bev,,,2023,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.004446
+bev,,,2024,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2025,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2026,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2027,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2028,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2029,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2030,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2031,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2032,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2033,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2034,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2035,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2036,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2037,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2038,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2039,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2040,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2041,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2045,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2042,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2043,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2044,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2046,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2047,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2048,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2049,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2050,ref2023,bkwh,5-24,electricity : end-use sectors : generation : other gaseous fuels,0.005035
+bev,,,2022,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2023,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2024,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2025,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2026,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2027,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2028,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2029,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2030,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2031,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2032,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2033,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2034,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2035,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2036,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2037,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2038,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2039,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2040,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2041,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2042,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2043,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2044,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2045,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2046,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2047,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2048,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2049,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2050,ref2023,bkwh,5-20,electricity : end-use sectors : generation : other gaseous fuels,0.0
+bev,,,2022,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.311773
+bev,,,2023,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.311773
+bev,,,2024,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.321023
+bev,,,2025,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2026,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2027,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2028,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2029,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2030,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2031,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2032,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2033,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2034,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2035,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2036,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2037,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2038,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2039,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2040,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2041,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2042,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2043,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2044,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.338218
+bev,,,2045,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.304326
+bev,,,2046,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.300767
+bev,,,2047,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.30015
+bev,,,2048,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.306164
+bev,,,2049,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.303362
+bev,,,2050,ref2023,bkwh,5-23,electricity : end-use sectors : generation : other gaseous fuels,0.297145
+bev,,,2043,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2044,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2045,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2046,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2047,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2048,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2049,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745
+bev,,,2050,ref2023,bkwh,5-2,electricity : end-use sectors : generation : other,0.486745

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,lt,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+fcev,lt,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : fuel cell,0.0
+ice_g,lt,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,51.837433
+ice_g,lt,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,53.552582
+ice_g,lt,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,54.945126
+ice_g,lt,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,56.519489
+ice_g,lt,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,58.240616
+ice_g,lt,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,59.414616
+ice_g,lt,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,60.508511
+ice_g,lt,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,61.372761
+ice_g,lt,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,62.082912
+ice_g,lt,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,62.734547
+ice_g,lt,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,63.47319
+ice_g,lt,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,64.143776
+ice_g,lt,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,64.758095
+ice_g,lt,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,65.349152
+ice_g,lt,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,65.876694
+ice_g,lt,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,66.393311
+ice_g,lt,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,66.921219
+ice_g,lt,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,67.367889
+ice_g,lt,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,67.924988
+ice_g,lt,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,68.537971
+ice_g,lt,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,69.110214
+ice_g,lt,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,69.618706
+ice_g,lt,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,70.08326
+ice_g,lt,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,70.546219
+ice_g,lt,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,71.129585
+ice_g,lt,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,71.808876
+ice_g,lt,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,72.428055
+ice_g,lt,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,73.064812
+ice_g,lt,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : gasoline,73.95974
+,lt,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,102.214951
+,lt,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,103.34346
+,lt,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,103.55378
+,lt,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,104.369987
+,lt,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,105.656265
+,lt,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,107.002548
+,lt,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,108.204063
+,lt,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,109.329842
+,lt,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,110.214569
+,lt,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,111.063705
+,lt,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,112.175911
+,lt,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,113.267311
+,lt,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,114.361328
+,lt,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,115.539856
+,lt,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,116.693398
+,lt,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,117.934776
+,lt,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,119.263252
+,lt,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,120.517143
+,lt,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,121.965698
+,lt,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,123.543205
+,lt,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,125.055435
+,lt,,2043,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,126.490196
+,lt,,2044,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,127.831902
+,lt,,2045,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,129.148026
+,lt,,2046,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,130.647919
+,lt,,2047,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,132.255341
+,lt,,2048,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,133.719238
+,lt,,2049,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,135.169113
+,lt,,2050,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : total,137.065033
+,lt,,2022,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.08245
+,lt,,2023,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.077089
+,lt,,2024,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.07164
+,lt,,2025,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.063703
+,lt,,2026,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.055662
+,lt,,2027,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.048924
+,lt,,2028,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.044138
+,lt,,2029,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.039933
+,lt,,2030,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.035755
+,lt,,2031,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.031772
+,lt,,2032,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.028242
+,lt,,2033,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.025179
+,lt,,2034,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.022497
+,lt,,2035,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.020257
+,lt,,2036,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.01817
+,lt,,2037,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.016234
+,lt,,2038,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.014561
+,lt,,2039,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.013184
+,lt,,2040,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.012032
+,lt,,2041,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.010985
+,lt,,2042,ref2023,billion miles,20_usa,fleet vehicle miles traveled : commercial light trucks : cng/lng,0.010017

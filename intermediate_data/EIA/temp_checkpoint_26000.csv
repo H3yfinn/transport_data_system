@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2028,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.01
+bev,,,2029,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.01
+bev,,,2030,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.01
+bev,,,2031,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.01
+bev,,,2032,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.01
+bev,,,2033,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.0117
+bev,,,2034,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2035,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2036,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2037,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2038,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2039,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2040,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2041,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2042,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2043,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2044,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2045,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2046,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2047,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2048,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2049,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2050,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.015
+bev,,,2022,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,
+bev,,,2023,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.0
+bev,,,2024,ref2023,gw,5-23,electricity : electric power sector : cumulative retirements : renewable sources,0.0
+bev,,,2022,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,
+bev,,,2023,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,12.624104
+bev,,,2024,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,30.276014
+bev,,,2025,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,57.619041
+bev,,,2026,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,67.339157
+bev,,,2027,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,80.017632
+bev,,,2028,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,99.835648
+bev,,,2029,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,118.17997
+bev,,,2030,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,127.518776
+bev,,,2031,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,131.610458
+bev,,,2032,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,137.043457
+bev,,,2033,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,145.348755
+bev,,,2034,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,151.564087
+bev,,,2035,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,155.299088
+bev,,,2036,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,158.613449
+bev,,,2037,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,162.006638
+bev,,,2038,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,168.879349
+bev,,,2039,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,173.182663
+bev,,,2040,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,179.999863
+bev,,,2041,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,181.74588
+bev,,,2042,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,182.883881
+bev,,,2043,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,182.887085
+bev,,,2044,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,184.538971
+bev,,,2045,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,184.538971
+bev,,,2046,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,187.112564
+bev,,,2047,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,188.274567
+bev,,,2048,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,190.924683
+bev,,,2049,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,191.022675
+bev,,,2050,ref2023,gw,20_usa,electricity capacity : cumulative retirements : total,191.180679
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,21.849693
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,32.617683
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,35.304703
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,35.89238
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,36.400013
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,37.932446
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,38.960651
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,41.557743
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,46.158363
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,46.180691
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,47.311111
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,48.81963
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,50.203457
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,50.94746
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,52.94022
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,54.343742
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,55.983665
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,58.898846
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,66.072067
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,68.999702
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,70.320274
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,70.923119
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,72.908188
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,72.937645
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,73.684135
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,1.636991
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,3.641925
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : cumulative total additions,10.928308
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,0.022572
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,3.15873
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,4.122658
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,12.392169
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,20.579123
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,21.971766
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,27.741009
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,35.338356
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,36.085022
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,40.181801
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,45.718609
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,48.815727
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,49.837318
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,51.803413
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : cumulative total additions,52.570923

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.392468
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.390573
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.390288
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.388298
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.38521
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.381225
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.378289
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.375985
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.371507
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.368933
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : metallurgical coal and coke,0.369553
+ice_g,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.292961
+ice_g,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.291846
+ice_g,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.288558
+ice_g,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.288357
+ice_g,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.287908
+ice_g,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.285982
+ice_g,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.285068
+ice_g,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.285832
+ice_g,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.286154
+ice_g,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.285326
+ice_g,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.285028
+ice_g,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.28497
+ice_g,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.28505
+ice_g,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.285878
+ice_g,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.28723
+ice_g,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.289362
+ice_g,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.291579
+ice_g,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.293586
+ice_g,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.29565
+ice_g,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.297969
+ice_g,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.300045
+ice_g,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.302011
+ice_g,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.303898
+ice_g,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.30581
+ice_g,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.307816
+ice_g,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.309581
+ice_g,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.31127
+ice_g,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.312898
+ice_g,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : motor gasoline,0.315107
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.327843
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.343543
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.354987
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.357904
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.363141
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.373211
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.371581
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.384232
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.395448
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.40196
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.404587
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.408745
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.413412
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.421897
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.423655
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.420307
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.416717
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.422145
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.525116
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.341451
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.298
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.293826
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.261147
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.247427
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.234587
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.250867
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.268788
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.288348
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : miscellaneous petroleum,0.307669
+,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.418849
+,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.558293
+,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.454399
+,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.458783
+,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.461936
+,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.469083
+,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.484627
+,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.491801
+,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.494826
+,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.500568
+,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.509977
+,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.521396
+,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.534965
+,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.553261
+,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.557693
+,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.567496
+,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.576616
+,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.588815
+,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.604867
+,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.630121
+,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.648243
+,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.664851
+,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.671741
+,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.681419
+,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.697925
+,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.720405
+,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.747052
+,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.763744
+,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : industrial,2.78549
+,,,2022,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161768
+,,,2023,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.159976

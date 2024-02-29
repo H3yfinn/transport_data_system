@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2035,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,16.560503
+bev,,,2036,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,16.793638
+bev,,,2037,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,17.026976
+bev,,,2038,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,17.258608
+bev,,,2039,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,17.487829
+bev,,,2040,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,17.718796
+bev,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,17.949732
+bev,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.178335
+bev,,,2043,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.406145
+bev,,,2044,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.633224
+bev,,,2045,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,18.859974
+bev,,,2046,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.086088
+bev,,,2047,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.312731
+bev,,,2048,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.538191
+bev,,,2049,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.762447
+bev,,,2050,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : electric heat pumps,19.985924
+,,,2022,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.086197
+,,,2023,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.099602
+,,,2024,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.113243
+,,,2025,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.130096
+,,,2026,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.148983
+,,,2027,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.170322
+,,,2028,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.193909
+,,,2029,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.21701
+,,,2030,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.235847
+,,,2031,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.251923
+,,,2032,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.267937
+,,,2033,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.282757
+,,,2034,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.294533
+,,,2035,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.304741
+,,,2036,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.315868
+,,,2037,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.326084
+,,,2038,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.335472
+,,,2039,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.3442
+,,,2040,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.355373
+,,,2041,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.36763
+,,,2042,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.379017
+,,,2043,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.390129
+,,,2044,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.400814
+,,,2045,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.41119
+,,,2046,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.42065
+,,,2047,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.430313
+,,,2048,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.439327
+,,,2049,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.447399
+,,,2050,ref2023,millions,20_usa,residential equipment : equipment stock : space cooling : room air conditioners,58.45509
+fcev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0
+fcev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell methanol : large pickup,0.0

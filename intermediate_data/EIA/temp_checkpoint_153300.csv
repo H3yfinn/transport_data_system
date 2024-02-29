@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.420036
+ice_g,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.34885
+ice_g,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.28867
+ice_g,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.215355
+ice_g,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.154335
+ice_g,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.440315
+ice_g,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : large car,47.36174
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,42.631454
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,43.177399
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,43.45731
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,44.873577
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,45.103996
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,45.445728
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.767536
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.063213
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.133221
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.113079
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.023212
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.923958
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.864426
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.838707
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.891319
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.95771
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.036106
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.268391
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.261276
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.298691
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.314224
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.315845
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.235683
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.16304
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.102158
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.027878
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,46.965538
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.266384
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : large car,47.186638
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.532104
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.547432
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.551594
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.465656
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.388371
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.323208
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.24337
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.176155
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.502533
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.417435
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,45.920609
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,46.471882
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,46.8153
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,48.239147
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,48.481834
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,48.824352
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.323277
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.668365
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.742256
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.665535
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.536598
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.426147
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.323597
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.26659
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.229897
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.263359
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.312973
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.515549
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : large car,50.499977
+lpg,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,42.664467
+lpg,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,43.219685
+lpg,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,43.507599
+lpg,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,44.942448
+lpg,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,45.175758
+lpg,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,45.534786
+lpg,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,46.841282
+lpg,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.137768
+lpg,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.207268
+lpg,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.186619
+lpg,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.101971
+lpg,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.007874
+lpg,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,46.961945
+lpg,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,46.964149
+lpg,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.020645
+lpg,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.089443
+lpg,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.162285
+lpg,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.382103
+lpg,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.377373
+lpg,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.412342
+lpg,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.424828
+lpg,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.424129
+lpg,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.344139
+lpg,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.272648
+lpg,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.212059
+lpg,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.138229
+lpg,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.076607
+lpg,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.360806
+lpg,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : large car,47.28191
+lpg,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane : large car,44.31673
+lpg,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane : large car,44.867004
+lpg,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane : large car,45.185661
+lpg,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane : large car,46.621796
+lpg,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane : large car,46.863747
+lpg,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane : large car,47.215939

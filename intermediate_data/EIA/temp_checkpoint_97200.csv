@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2030,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.434731
+,,,2031,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.432911
+,,,2032,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.431073
+,,,2033,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.429863
+,,,2034,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.428319
+,,,2035,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.427014
+,,,2036,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.426185
+,,,2037,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.425451
+,,,2038,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424789
+,,,2039,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424495
+,,,2040,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424376
+,,,2041,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424181
+,,,2042,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424262
+,,,2043,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.424637
+,,,2044,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.425303
+,,,2045,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.426038
+,,,2046,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.426651
+,,,2047,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.427276
+,,,2048,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.428029
+,,,2049,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.428603
+,,,2050,ref2023,tcf,20_usa,natural gas use : residential : west north central,0.429032
+,,,2022,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.392638
+,,,2023,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.454554
+,,,2024,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.349295
+,,,2025,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.351613
+,,,2026,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.353584
+,,,2027,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.355371
+,,,2028,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.356847
+,,,2029,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.357358
+,,,2030,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.357502
+,,,2031,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.357088
+,,,2032,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.356743
+,,,2033,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.356933
+,,,2034,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.356975
+,,,2035,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.357095
+,,,2036,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.35729
+,,,2037,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.357716
+,,,2038,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.358052
+,,,2039,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.358426
+,,,2040,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.3589
+,,,2041,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.359362
+,,,2042,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.359899
+,,,2043,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.36065
+,,,2044,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.361343
+,,,2045,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.362162
+,,,2046,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.36295
+,,,2047,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.36376
+,,,2048,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.364569
+,,,2049,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.365347
+,,,2050,ref2023,tcf,20_usa,natural gas use : residential : west south central,0.366031
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : other uses,1.728992
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : other uses,1.778594
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : other uses,1.805526
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : other uses,1.841668
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : other uses,1.877618
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : other uses,1.918136
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : other uses,1.953426
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : other uses,1.984526
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : other uses,2.015298
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : other uses,2.045995
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : other uses,2.0772
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : other uses,2.108309
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : other uses,2.137068
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : other uses,2.169604
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : other uses,2.204503
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : other uses,2.241675
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : other uses,2.277666
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : other uses,2.3145
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : other uses,2.353622
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : other uses,2.393605
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : other uses,2.436224
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : other uses,2.480371
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : other uses,2.526102
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : other uses,2.573554
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : other uses,2.622924
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : other uses,2.674564
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : other uses,2.727255
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : other uses,2.781734
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : other uses,2.840269
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : refrigeration,0.295558
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : refrigeration,0.290783
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : refrigeration,0.293987
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : refrigeration,0.292668
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : refrigeration,0.29163
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : refrigeration,0.290158
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : refrigeration,0.289778
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : refrigeration,0.289615
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : refrigeration,0.289659
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : refrigeration,0.289986
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : refrigeration,0.29063
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : refrigeration,0.29157
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : refrigeration,0.292795
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : refrigeration,0.294343
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : refrigeration,0.296242
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : refrigeration,0.298447
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : refrigeration,0.30096
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : refrigeration,0.303745
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : refrigeration,0.306848
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : refrigeration,0.310249
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : refrigeration,0.313888

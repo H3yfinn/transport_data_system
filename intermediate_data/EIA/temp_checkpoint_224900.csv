@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2043,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,79.251785
+,,,2044,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,79.770424
+,,,2045,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,80.341034
+,,,2046,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,80.904984
+,,,2047,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,81.657433
+,,,2048,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,82.537125
+,,,2049,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,83.622513
+,,,2050,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : low sulfur bituminous,84.524849
+,mt,,2022,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,58.533962
+,mt,,2023,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,58.189903
+,mt,,2024,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,59.121529
+,mt,,2025,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,59.930908
+,mt,,2026,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,60.450066
+,mt,,2027,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,60.826935
+,mt,,2028,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,61.373177
+,mt,,2029,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,61.943844
+,mt,,2030,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,62.537365
+,mt,,2031,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,63.173996
+,mt,,2032,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,63.715626
+,mt,,2033,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,64.216255
+,mt,,2034,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,64.673752
+,mt,,2035,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,65.060974
+,mt,,2036,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,65.459312
+,mt,,2037,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,65.857445
+,mt,,2038,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,66.253372
+,mt,,2039,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,66.638733
+,mt,,2040,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,67.008743
+,mt,,2041,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,67.379539
+,mt,,2042,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,67.743271
+,mt,,2043,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,68.113403
+,mt,,2044,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,68.470627
+,mt,,2045,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,68.840988
+,mt,,2046,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,69.225998
+,mt,,2047,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,69.611626
+,mt,,2048,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,69.998138
+,mt,,2049,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,70.387711
+,mt,,2050,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur bituminous,70.773308
+,mt,,2022,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,128.1091
+,mt,,2023,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,130.297394
+,mt,,2024,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,136.890167
+,mt,,2025,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,135.20636
+,mt,,2026,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,135.351364
+,mt,,2027,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,136.828705
+,mt,,2028,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,138.628418
+,mt,,2029,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,140.115372
+,mt,,2030,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,143.570267
+,mt,,2031,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,145.634674
+,mt,,2032,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,149.018677
+,mt,,2033,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,151.279053
+,mt,,2034,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,153.227066
+,mt,,2035,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,155.510681
+,mt,,2036,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,157.807526
+,mt,,2037,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,160.542633
+,mt,,2038,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,162.541626
+,mt,,2039,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,164.526886
+,mt,,2040,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,166.689667
+,mt,,2041,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,168.158264
+,mt,,2042,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,169.605728
+,mt,,2043,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,171.03096
+,mt,,2044,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,172.555115
+,mt,,2045,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,174.202866
+,mt,,2046,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,175.78392
+,mt,,2047,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,177.403122
+,mt,,2048,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,178.987106
+,mt,,2049,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,180.556473
+,mt,,2050,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia : medium sulfur premium,182.395493
+,,,2022,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,110.005394
+,,,2023,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,116.490822
+,,,2024,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,130.267807
+,,,2025,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,129.102234
+,,,2026,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,129.19751
+,,,2027,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,130.316772
+,,,2028,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,131.738449
+,,,2029,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,132.643036
+,,,2030,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,136.470551
+,,,2031,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,138.110291
+,,,2032,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,141.865326
+,,,2033,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,143.934845
+,,,2034,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,145.559357
+,,,2035,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,147.674332
+,,,2036,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,149.941071
+,,,2037,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,152.857544
+,,,2038,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,154.54776
+,,,2039,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,156.030197
+,,,2040,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,158.153778
+,,,2041,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,159.38829
+,,,2042,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,160.695709
+,,,2043,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,162.011688
+,,,2044,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,163.547211
+,,,2045,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,164.977066
+,,,2046,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,166.261444
+,,,2047,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,167.915604
+,,,2048,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,168.99823
+,,,2049,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,170.962753
+,,,2050,ref2023,2022 $/st,20_usa,coal minemouth prices : central appalachia,172.817383
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : distillate fuel oil,5.043715
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : distillate fuel oil,4.517002
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : distillate fuel oil,4.272482
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : distillate fuel oil,3.967687
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : distillate fuel oil,3.824326

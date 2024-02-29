@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,6.833717
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,6.871065
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.0396
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,6.9079
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,6.947071
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,6.991405
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.088742
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.138021
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.185943
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.230637
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.271873
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.311771
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.352193
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : south korea,7.394368
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,47.902061
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,47.890633
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,48.038204
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,48.550663
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,49.413074
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,50.31435
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,51.18404
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,51.994289
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,52.74818
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,53.550034
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,54.533695
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,55.631897
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,56.744064
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,57.884483
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,59.114532
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,60.431892
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,61.800179
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,63.197701
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,64.731224
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,66.278328
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,67.864983
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,69.503113
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,71.136124
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,72.764046
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,74.430275
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,76.193153
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,77.994987
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,79.825203
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : u.s.,81.772209
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,83.779938
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,88.081581
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,92.329849
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,96.345688
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,100.232613
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,103.880737
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,107.291229
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,110.497536
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,113.531898
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,116.474495
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,119.445824
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,122.439751
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,125.398201
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,128.331329
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,131.305466
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,134.333847
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,137.390121
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,140.470154
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,143.67131
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,146.899384
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,150.17868
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,153.512833
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,156.855621
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,160.203384
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,163.581161
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,167.047256
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,170.565186
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,174.130859
+,,,2050,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : international world,177.808167
+,,,2022,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,117.293579
+,,,2023,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,121.855034
+,,,2024,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,126.479424
+,,,2025,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,130.991959
+,,,2026,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,135.484863
+,,,2027,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,139.747971
+,,,2028,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,143.761871
+,,,2029,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,147.553238
+,,,2030,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,151.155518
+,,,2031,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,154.681366
+,,,2032,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,158.29184
+,,,2033,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,161.958313
+,,,2034,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,165.592758
+,,,2035,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,169.210068
+,,,2036,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,172.894424
+,,,2037,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,176.658295
+,,,2038,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,180.464325
+,,,2039,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,184.303146
+,,,2040,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,188.304657
+,,,2041,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,192.337738
+,,,2042,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,196.43576
+,,,2043,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,200.603806
+,,,2044,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,204.777954
+,,,2045,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,208.952606
+,,,2046,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,213.161774
+,,,2047,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,217.482803
+,,,2048,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,221.862839
+,,,2049,ref2023,billion miles,20_usa,air travel : travel demand : revenue ton miles : freight : world,226.293732

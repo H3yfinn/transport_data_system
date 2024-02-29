@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2033,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2119.102295
+,lpv,,2034,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2129.278809
+,lpv,,2035,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2151.680176
+,lpv,,2036,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2174.184326
+,lpv,,2037,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2198.318604
+,lpv,,2038,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2226.615234
+,lpv,,2039,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2250.868896
+,lpv,,2040,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2279.825928
+,lpv,,2041,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2296.932129
+,lpv,,2042,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2315.092041
+,lpv,,2043,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2334.009521
+,lpv,,2044,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2349.604248
+,lpv,,2045,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2379.540039
+,lpv,,2046,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2402.251953
+,lpv,,2047,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2425.245605
+,lpv,,2048,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2436.438232
+,lpv,,2049,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2460.596191
+,lpv,,2050,ref2023,thousands,1-5,light-duty vehicle sales : total new truck,2488.807373
+,lpv,,2022,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,594.281555
+,lpv,,2023,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,586.816711
+,lpv,,2024,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,600.063599
+,lpv,,2025,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,610.893616
+,lpv,,2026,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,614.191589
+,lpv,,2027,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,608.222351
+,lpv,,2028,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,601.321777
+,lpv,,2029,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,600.97113
+,lpv,,2030,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,595.936829
+,lpv,,2031,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,592.545227
+,lpv,,2032,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,588.933777
+,lpv,,2033,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,585.49646
+,lpv,,2034,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,585.470581
+,lpv,,2035,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,589.132568
+,lpv,,2036,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,593.258667
+,lpv,,2037,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,597.59668
+,lpv,,2038,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,603.005615
+,lpv,,2039,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,607.746643
+,lpv,,2040,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,613.73938
+,lpv,,2041,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,616.648193
+,lpv,,2042,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,619.862183
+,lpv,,2043,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,623.343201
+,lpv,,2044,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,625.77002
+,lpv,,2045,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,631.898254
+,lpv,,2046,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,635.936584
+,lpv,,2047,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,640.024536
+,lpv,,2048,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,641.120117
+,lpv,,2049,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,645.623962
+,lpv,,2050,ref2023,thousands,1-4,light-duty vehicle sales : total new truck,650.878906
+,lpv,,2022,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1214.244873
+,lpv,,2023,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1315.215332
+,lpv,,2024,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1408.245483
+,lpv,,2025,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1486.279297
+,lpv,,2026,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1529.092529
+,lpv,,2027,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1547.437256
+,lpv,,2028,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1557.017944
+,lpv,,2029,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1578.787964
+,lpv,,2030,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1583.044312
+,lpv,,2031,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1589.713623
+,lpv,,2032,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1595.243408
+,lpv,,2033,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1600.847534
+,lpv,,2034,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1616.160645
+,lpv,,2035,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1640.544189
+,lpv,,2036,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1663.789795
+,lpv,,2037,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1689.64917
+,lpv,,2038,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1717.120117
+,lpv,,2039,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1741.495483
+,lpv,,2040,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1770.989136
+,lpv,,2041,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1791.671875
+,lpv,,2042,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1813.166138
+,lpv,,2043,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1835.593018
+,lpv,,2044,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1855.541016
+,lpv,,2045,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1887.578125
+,lpv,,2046,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1912.85498
+,lpv,,2047,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1938.368286
+,lpv,,2048,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1955.504883
+,lpv,,2049,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,1982.566528
+,lpv,,2050,ref2023,thousands,1-7,light-duty vehicle sales : total new truck,2012.051514
+,lt,,2048,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.006915
+,lt,,2049,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.007063
+,lt,,2050,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.007394
+,lt,,2022,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005611
+,lt,,2023,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005292
+,lt,,2024,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005562
+,lt,,2025,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005024
+,lt,,2026,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005064
+,lt,,2027,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005083
+,lt,,2028,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005009
+,lt,,2029,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005042
+,lt,,2030,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005001
+,lt,,2031,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.004951
+,lt,,2032,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.00499
+,lt,,2033,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.004954
+,lt,,2034,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.004987
+,lt,,2035,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005009
+,lt,,2036,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005185
+,lt,,2037,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005249
+,lt,,2038,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005336
+,lt,,2039,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005475
+,lt,,2040,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005595
+,lt,,2041,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005647
+,lt,,2042,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : natural gas bi-fuel,0.005768

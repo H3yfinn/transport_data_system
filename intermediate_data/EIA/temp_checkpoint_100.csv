@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,156.090927
+,car,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,159.541885
+,car,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,161.286774
+,car,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,160.169495
+,car,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,161.373993
+,car,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,162.243835
+,car,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,159.680695
+,car,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,160.378143
+,car,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,161.216995
+,car,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,162.198196
+,car,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,163.498001
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,164.767426
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,165.537827
+,car,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,166.270721
+,car,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,166.952133
+,car,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,168.057129
+,car,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,169.208496
+,car,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,170.253616
+,car,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,171.686539
+,car,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,173.1082
+,car,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,174.540039
+,car,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,176.120728
+,car,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,177.633041
+,car,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,179.255493
+,car,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,180.457626
+,car,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,182.150848
+,car,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,183.62468
+,car,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,184.992599
+,car,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : compact,186.509567
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,229.279388
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,229.772873
+,car,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,230.285934
+,car,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,230.826004
+,car,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,231.514694
+,car,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,232.235977
+,car,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,232.906845
+,car,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,233.747711
+,car,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,234.558044
+,car,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,235.345413
+,car,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,236.17691
+,car,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,236.930206
+,car,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,237.771286
+,car,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,238.372086
+,car,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,239.215485
+,car,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,239.939407
+,car,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,240.681839
+,car,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,241.382614
+,car,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,232.269287
+,car,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,232.709473
+,car,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,232.201401
+,car,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,229.677231
+,car,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,230.399124
+,car,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,230.648132
+,car,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,228.097961
+,car,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,227.629257
+,car,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,227.920837
+,car,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,228.109375
+,car,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large crossover,228.607758
+,car,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,216.704453
+,car,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,220.721909
+,car,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,222.720047
+,car,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,221.660751
+,car,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,223.033142
+,car,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,223.553421
+,car,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,220.958939
+,car,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,221.317245
+,car,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,221.705582
+,car,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,222.448959
+,car,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,223.757782
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,224.972504
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,225.866501
+,car,,2035,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,226.701584
+,car,,2036,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,227.628464
+,car,,2037,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,229.025299
+,car,,2038,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,230.356323
+,car,,2039,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,231.582855
+,car,,2040,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,233.169312
+,car,,2041,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,234.717667
+,car,,2042,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,236.277481
+,car,,2043,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,237.994888
+,car,,2044,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,239.591507
+,car,,2045,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,241.295303
+,car,,2046,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,242.54628
+,car,,2047,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,244.297455
+,car,,2048,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,245.829208
+,car,,2049,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,247.251114
+,car,,2050,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : large,248.784836
+,car,,2022,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,171.558289
+,car,,2023,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,175.768326
+,car,,2024,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,178.010147
+,car,,2025,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,177.611877
+,car,,2026,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,179.084534
+,car,,2027,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,180.314865
+,car,,2028,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,177.794739
+,car,,2029,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,177.881134
+,car,,2030,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,178.054916
+,car,,2031,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,178.390106
+,car,,2032,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,178.767334
+,car,,2033,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,180.216125
+,car,,2034,ref2023,hp,20_usa,new vehicle attributes : horsepower : conventional cars : midsize,181.220123

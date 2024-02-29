@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,790.371643
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,830.369568
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,870.758423
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,911.40509
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,952.40625
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,993.986877
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1036.053101
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1207.394775
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1078.296143
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1120.742432
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1163.645386
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1252.449341
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1298.777588
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1345.984375
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1393.582031
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1441.037598
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1488.248291
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1535.462646
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1582.492432
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1628.837769
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: narrow body aircraft,1673.971924
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,75.193489
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,88.749321
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,96.573021
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,102.475159
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,114.042053
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,124.892517
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,135.918442
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,147.58873
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,159.553558
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,171.721115
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,184.025848
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,196.383865
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,208.70137
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,221.018524
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,233.43985
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,246.180557
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,259.240784
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,272.598236
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,286.214722
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,300.075562
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,314.157196
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,328.444824
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,342.897003
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,357.480377
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,372.158813
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,386.895111
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,401.645325
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,416.36499
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: narrow body aircraft,431.013611
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,50.248627
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,73.327492
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,80.386337
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,83.712601
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,86.558563
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,88.524124
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,90.305573
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,90.819534
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,91.274376
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,91.683594
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,92.070816
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,92.45636
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,92.842278
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,93.22831
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,93.614204
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,94.000175
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,94.386238
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,94.772171
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,95.15416
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,95.535126
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,95.914665
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,96.29332
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,96.674294
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,97.063904
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,97.467575
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,97.886574
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,98.320923
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,98.770683
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: narrow body aircraft,99.235695
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,47.925186
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,65.206665
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,84.260094
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,98.283669
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,106.965828
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,113.162628
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,119.248817
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,124.49781
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,129.914719
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,135.37001
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,140.9953
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,146.82103
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,152.859528
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,159.126328
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,165.567123
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,172.237518
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,179.143967
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,186.284485
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,193.666122
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,201.246246
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: narrow body aircraft,209.078751

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.003368
+,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.003286
+,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.003207
+,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.00313
+,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.00306
+,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.002997
+,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.002939
+,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : natural gas ice,0.002889
+lpg,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.004111
+lpg,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.003538
+lpg,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.003065
+lpg,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.002679
+lpg,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.002424
+lpg,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.002272
+lpg,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.002145
+lpg,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.002041
+lpg,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001943
+lpg,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001852
+lpg,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001766
+lpg,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001685
+lpg,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001609
+lpg,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001538
+lpg,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001471
+lpg,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001407
+lpg,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001347
+lpg,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.00129
+lpg,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001236
+lpg,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001184
+lpg,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001134
+lpg,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001087
+lpg,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001043
+lpg,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.001001
+lpg,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.000962
+lpg,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.000926
+lpg,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.000893
+lpg,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.000863
+lpg,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane bi-fuel,0.000835
+ice_g,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.15425
+ice_g,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.940007
+ice_g,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.012591
+ice_g,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.08364
+ice_g,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.224977
+ice_g,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.294188
+ice_g,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.360819
+ice_g,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.42494
+ice_g,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.485957
+ice_g,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.542327
+ice_g,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.596601
+ice_g,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.649411
+ice_g,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.700004
+ice_g,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.748196
+ice_g,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.794386
+ice_g,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.841316
+ice_g,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.886765
+ice_g,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.930704
+ice_g,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,1.973792
+ice_g,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,2.017411
+ice_g,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.364818
+ice_g,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.396854
+ice_g,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.440523
+ice_g,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.498074
+ice_g,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.565075
+ice_g,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.636266
+ice_g,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.711799
+ice_g,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.789752
+ice_g,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 20 gasoline hybrid,0.8658
+ice_g,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.2038
+ice_g,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.198907
+ice_g,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.194099
+ice_g,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.188969
+ice_g,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.183365
+ice_g,lpv,,2027,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.177172
+ice_g,lpv,,2028,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.170253
+ice_g,lpv,,2029,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.162531
+ice_g,lpv,,2030,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.154045
+ice_g,lpv,,2031,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.144848
+ice_g,lpv,,2032,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.135139
+ice_g,lpv,,2033,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.12507
+ice_g,lpv,,2034,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.115033
+ice_g,lpv,,2035,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.105492
+ice_g,lpv,,2036,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.096682
+ice_g,lpv,,2037,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.088872
+ice_g,lpv,,2038,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.082437
+ice_g,lpv,,2039,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.07746
+ice_g,lpv,,2040,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.073616
+ice_g,lpv,,2041,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.070371
+ice_g,lpv,,2042,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.068429
+ice_g,lpv,,2043,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.067599
+ice_g,lpv,,2044,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.067237
+ice_g,lpv,,2045,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.067141
+ice_g,lpv,,2046,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.067418
+ice_g,lpv,,2047,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.067787
+ice_g,lpv,,2048,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.068248
+ice_g,lpv,,2049,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.068819
+ice_g,lpv,,2050,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : plug-in 50 gasoline hybrid,0.069534
+lpg,lpv,,2022,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.002127
+lpg,lpv,,2023,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001895
+lpg,lpv,,2024,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001721
+lpg,lpv,,2025,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001595
+lpg,lpv,,2026,ref2023,millions,20_usa,light-duty vehicle stock : alternative-fuel cars : propane ice,0.001539

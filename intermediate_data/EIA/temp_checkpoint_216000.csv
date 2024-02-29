@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2046,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 6 cylinder,0.0
+,,,2047,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 6 cylinder,0.0
+,,,2048,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 6 cylinder,1e-06
+,,,2049,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 6 cylinder,0.0
+,,,2050,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 6 cylinder,0.0
+,,,2039,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2040,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2041,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2042,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2043,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2044,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2045,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2046,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2047,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2048,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2049,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2050,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2022,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.572143
+,,,2023,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.502472
+,,,2024,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.46312
+,,,2025,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.600897
+,,,2026,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.411323
+,,,2027,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.258425
+,,,2028,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.25804
+,,,2029,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.255598
+,,,2030,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.112016
+,,,2031,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,5e-06
+,,,2032,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2033,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2034,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2035,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2036,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2037,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+,,,2038,ref2023,percent,20_usa,technology market penetration : light truck : dohc vvl 8 cylinder,0.0
+bev,,,2022,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,80.189995
+bev,,,2023,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,75.553879
+bev,,,2024,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,70.8396
+bev,,,2025,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,66.080658
+bev,,,2026,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,61.403664
+bev,,,2027,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,55.784893
+bev,,,2028,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,50.080997
+bev,,,2029,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,44.419811
+bev,,,2030,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,39.627735
+bev,,,2031,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,34.802937
+bev,,,2032,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,30.137051
+bev,,,2033,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,25.737785
+bev,,,2034,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,21.607252
+bev,,,2035,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,17.684055
+bev,,,2036,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,14.057357
+bev,,,2037,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,10.709002
+bev,,,2038,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,7.593573
+bev,,,2039,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,5.247672
+bev,,,2040,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,3.539962
+bev,,,2041,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,2.324427
+bev,,,2042,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,1.430815
+bev,,,2043,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.825963
+bev,,,2044,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.419928
+bev,,,2045,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.166103
+bev,,,2046,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.033263
+bev,,,2047,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.032882
+bev,,,2048,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.032694
+bev,,,2049,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.022511
+bev,,,2050,ref2023,percent,20_usa,technology market penetration : light truck : electric power steering,0.022448
+,,,2022,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,5.191104
+,,,2023,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,6.881659
+,,,2024,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,8.66716
+,,,2025,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,13.674581
+,,,2026,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,14.818373
+,,,2027,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,16.620174
+,,,2028,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,20.452326
+,,,2029,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,21.062271
+,,,2030,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,21.061207
+,,,2031,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,21.063129
+,,,2032,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,21.188324
+,,,2033,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,21.558979
+,,,2034,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,21.984268
+,,,2035,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,23.09606
+,,,2036,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,24.082216
+,,,2037,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,25.067923
+,,,2038,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,25.898865
+,,,2039,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,27.114002
+,,,2040,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,27.498566
+,,,2041,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,27.919865
+,,,2042,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.301153
+,,,2043,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.59869
+,,,2044,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.589828
+,,,2045,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.618572
+,,,2046,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.604319
+,,,2047,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.618446
+,,,2048,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,28.618675
+,,,2049,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,29.627293
+,,,2050,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-4 cylinder,29.620003
+,,,2022,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,5.142422
+,,,2023,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,7.079883
+,,,2024,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,9.162399
+,,,2025,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,14.770222
+,,,2026,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,17.158817
+,,,2027,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,19.153456
+,,,2028,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,24.141262
+,,,2029,ref2023,percent,20_usa,technology market penetration : light truck : engine friction i-6 cylinder,25.01428

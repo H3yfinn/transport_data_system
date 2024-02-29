@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,lt,,2025,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,105.962799
+ethanol_flex_fuel,lt,,2029,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,107.462463
+ethanol_flex_fuel,lt,,2026,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,107.690361
+ethanol_flex_fuel,lt,,2027,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,107.749344
+ethanol_flex_fuel,lt,,2028,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,107.147606
+ethanol_flex_fuel,lt,,2030,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,106.866898
+ethanol_flex_fuel,lt,,2031,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,106.903542
+ethanol_flex_fuel,lt,,2032,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,106.794182
+ethanol_flex_fuel,lt,,2033,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,106.790512
+ethanol_flex_fuel,lt,,2034,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,107.401459
+ethanol_flex_fuel,lt,,2035,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,108.647667
+ethanol_flex_fuel,lt,,2036,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,109.897072
+ethanol_flex_fuel,lt,,2037,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,111.494659
+ethanol_flex_fuel,lt,,2038,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,113.250557
+ethanol_flex_fuel,lt,,2039,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,114.741386
+ethanol_flex_fuel,lt,,2040,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,116.771927
+ethanol_flex_fuel,lt,,2041,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,118.093239
+ethanol_flex_fuel,lt,,2042,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,119.426262
+ethanol_flex_fuel,lt,,2043,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,120.894371
+ethanol_flex_fuel,lt,,2044,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,122.180878
+ethanol_flex_fuel,lt,,2045,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,124.314743
+ethanol_flex_fuel,lt,,2046,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,125.883698
+ethanol_flex_fuel,lt,,2047,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,127.627861
+ethanol_flex_fuel,lt,,2048,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,128.686432
+ethanol_flex_fuel,lt,,2049,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,130.444168
+ethanol_flex_fuel,lt,,2050,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,132.280319
+bev,lt,,2022,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,55.772827
+bev,lt,,2023,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,60.74041
+bev,lt,,2024,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,67.675323
+bev,lt,,2025,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,72.841118
+bev,lt,,2026,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,76.589134
+bev,lt,,2027,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,79.021767
+bev,lt,,2028,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,81.742897
+bev,lt,,2029,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,83.824547
+bev,lt,,2030,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,84.768776
+bev,lt,,2031,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,85.43058
+bev,lt,,2032,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,86.017273
+bev,lt,,2033,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,87.003006
+bev,lt,,2034,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,88.570969
+bev,lt,,2035,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,90.629959
+bev,lt,,2036,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,92.149002
+bev,lt,,2037,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,93.334618
+bev,lt,,2038,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,94.588303
+bev,lt,,2039,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,95.671333
+bev,lt,,2040,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,96.392471
+bev,lt,,2041,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,97.071289
+bev,lt,,2042,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,97.83284
+bev,lt,,2043,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,98.456383
+bev,lt,,2044,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,98.888367
+bev,lt,,2045,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,99.826118
+bev,lt,,2046,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,100.841316
+bev,lt,,2047,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,101.337868
+bev,lt,,2048,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,101.550636
+bev,lt,,2049,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,102.141579
+bev,lt,,2050,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,103.102097
+bev,lt,,2022,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,15.418086
+bev,lt,,2023,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,16.791851
+bev,lt,,2024,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,18.789776
+bev,lt,,2025,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,20.315872
+bev,lt,,2026,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,21.421261
+bev,lt,,2027,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,22.132631
+bev,lt,,2028,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,22.912165
+bev,lt,,2029,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,23.524616
+bev,lt,,2030,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,23.815132
+bev,lt,,2031,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,24.027
+bev,lt,,2032,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,24.210873
+bev,lt,,2033,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,24.500343
+bev,lt,,2034,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,24.954437
+bev,lt,,2035,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,25.538937
+bev,lt,,2036,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,25.980328
+bev,lt,,2037,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,26.335218
+bev,lt,,2038,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,26.711855
+bev,lt,,2039,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,27.03763
+bev,lt,,2040,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,27.275488
+bev,lt,,2041,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,27.490065
+bev,lt,,2042,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,27.731352
+bev,lt,,2043,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,27.93718
+bev,lt,,2044,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,28.090788
+bev,lt,,2045,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,28.395643
+bev,lt,,2046,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,28.732077
+bev,lt,,2047,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,28.910412
+bev,lt,,2048,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,29.002914
+bev,lt,,2049,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,29.213831
+bev,lt,,2050,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,29.524422
+bev,lt,,2022,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,57.027382
+bev,lt,,2023,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,61.923134
+bev,lt,,2024,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,68.985283
+bev,lt,,2025,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,74.177437
+bev,lt,,2026,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,77.972343
+bev,lt,,2027,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,80.39904
+bev,lt,,2028,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,83.12532
+bev,lt,,2029,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,85.184952
+bev,lt,,2030,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,86.095978
+bev,lt,,2031,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,86.713097
+bev,lt,,2032,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,87.244072
+bev,lt,,2033,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,88.196365
+bev,lt,,2034,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,89.736725
+bev,lt,,2035,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,91.78035
+bev,lt,,2036,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,93.257729
+bev,lt,,2037,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,94.390984

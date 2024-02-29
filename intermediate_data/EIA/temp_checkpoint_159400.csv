@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2025,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.37701
+,,,2026,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.380574
+,,,2027,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.384142
+,,,2028,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.387713
+,,,2029,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.391289
+,,,2030,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.394868
+,,,2031,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.398451
+,,,2032,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.402037
+,,,2033,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.405628
+,,,2034,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.409222
+,,,2035,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.41282
+,,,2036,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.416422
+,,,2037,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.420027
+,,,2038,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.423637
+,,,2039,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.42725
+,,,2040,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.430867
+,,,2041,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.434488
+,,,2042,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.438113
+,,,2043,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.441741
+,,,2044,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.445373
+,,,2045,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.44901
+,,,2046,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.452649
+,,,2047,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.456293
+,,,2048,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.459941
+,,,2049,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.463593
+,,,2050,ref2023,ton miles/thousand b,20_usa,transportation : energy efficiency indicators : rail,3.467248
+,rail,,2045,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.44901
+,rail,,2046,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.452649
+,rail,,2047,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.456293
+,rail,,2048,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.459941
+,rail,,2049,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.463593
+,rail,,2050,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.467248
+,rail,,2022,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.36634
+,rail,,2023,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.369893
+,rail,,2024,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.37345
+,rail,,2025,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.37701
+,rail,,2026,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.380574
+,rail,,2027,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.384142
+,rail,,2028,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.387713
+,rail,,2029,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.391289
+,rail,,2030,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.394868
+,rail,,2031,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.398451
+,rail,,2032,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.402037
+,rail,,2033,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.405628
+,rail,,2034,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.409222
+,rail,,2035,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.41282
+,rail,,2036,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.416422
+,rail,,2037,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.420027
+,rail,,2038,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.423637
+,rail,,2039,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.42725
+,rail,,2040,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.430867
+,rail,,2041,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.434488
+,rail,,2042,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.438113
+,rail,,2043,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.441741
+,rail,,2044,ref2023,ton miles/thousand b,20_usa,freight : railroads : fuel efficiency,3.445373
+,,efficiency,2022,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,77.863678
+,,efficiency,2023,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,78.969109
+,,efficiency,2024,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,79.835861
+,,efficiency,2025,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,80.657959
+,,efficiency,2026,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,81.519676
+,,efficiency,2027,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,82.249397
+,,efficiency,2028,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,82.953148
+,,efficiency,2029,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,83.63662
+,,efficiency,2030,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,84.322136
+,,efficiency,2031,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,85.012177
+,,efficiency,2032,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,85.709496
+,,efficiency,2033,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,86.412521
+,,efficiency,2034,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,87.119553
+,,efficiency,2035,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,87.831146
+,,efficiency,2036,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,88.54866
+,,efficiency,2037,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,89.271477
+,,efficiency,2038,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,89.999092
+,,efficiency,2039,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,90.731506
+,,efficiency,2040,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,91.47097
+,,efficiency,2041,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,92.216415
+,,efficiency,2042,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,92.968033
+,,efficiency,2043,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,93.725632
+,,efficiency,2044,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,94.487938
+,,efficiency,2045,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,95.254532
+,,efficiency,2046,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,96.027145
+,,efficiency,2047,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,96.806198
+,,efficiency,2048,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,97.59037
+,,efficiency,2049,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,98.379211
+,,efficiency,2050,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : average aircraft,99.173317
+,,efficiency,2025,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,75.377182
+,,efficiency,2026,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,75.94239
+,,efficiency,2027,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,76.569298
+,,efficiency,2028,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,77.191185
+,,efficiency,2029,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,77.82238
+,,efficiency,2030,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,78.449371
+,,efficiency,2031,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,79.082161
+,,efficiency,2032,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,79.729332
+,,efficiency,2033,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,80.384323
+,,efficiency,2034,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,81.040703
+,,efficiency,2035,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,81.700325
+,,efficiency,2036,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,82.36721
+,,efficiency,2037,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,83.039787
+,,efficiency,2038,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,83.715836
+,,efficiency,2039,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,84.394936
+,,efficiency,2040,ref2023,seat mpg,20_usa,air travel : new aircraft efficiency : narrow body aircraft,85.08374

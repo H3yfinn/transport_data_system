@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6187.145996
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6108.231934
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,6031.480469
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,5955.910645
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,5879.157715
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,5802.369141
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : solar thermal,5729.660156
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,1270.23291
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,1063.931763
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,918.241943
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,841.153137
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,801.37915
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,776.07074
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,749.598755
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,721.813721
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,703.736328
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,692.526367
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,681.70105
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,670.38562
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,658.855469
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,647.0
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,635.423157
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,624.076599
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,612.573669
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,601.613037
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,590.554382
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,578.982361
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,567.567932
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,555.824524
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,544.067322
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,532.551758
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,521.18811
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,509.769623
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,498.398743
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,487.426941
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4997.892578
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4621.517578
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4403.289062
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4294.495117
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4239.90625
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4200.661621
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4161.648438
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4120.842285
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4077.526855
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4038.745605
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,4001.672119
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3961.981445
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3920.841309
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3877.555908
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3835.719482
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3795.06543
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3753.24707
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3714.546387
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3675.047119
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3632.121338
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3589.921875
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3545.359375
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3500.392578
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3456.662354
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3413.606689
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3368.967041
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3325.219238
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wood and other biomass,3283.806641
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1566.117432
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1452.914429
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1388.878906
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1359.175293
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1346.41626
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1338.489014
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1330.610962
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1322.132812
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1312.817139
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1304.93103
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1297.702271
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1289.468628
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1280.732422
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1271.259521
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1262.224121
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1253.542847
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1244.441284
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1236.339233
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1227.939697
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1218.357178
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1208.975708
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1198.753052
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1188.343018
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1178.302734
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1168.443359
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1158.301025
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1148.098633
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : wind,1138.652588
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : offshore wind,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : offshore wind,6672.151367
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : offshore wind,6159.783691
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : offshore wind,5775.76709
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : offshore wind,4495.063477
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : offshore wind,4426.693848

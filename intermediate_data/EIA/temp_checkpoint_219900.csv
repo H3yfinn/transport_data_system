@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+lpg,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : compact car,0.0
+ice_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,35.516247
+ice_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,35.677898
+ice_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,35.823845
+ice_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.138065
+ice_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.216969
+ice_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.320763
+ice_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.607475
+ice_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.68121
+ice_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.757133
+ice_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.83588
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.913219
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,36.998672
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.062042
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.124607
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.183372
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.24749
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.312382
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.385742
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.448956
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.512791
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.575043
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.637333
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.68742
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.740303
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.784115
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.836712
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.886768
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,37.972713
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : compact car,38.000633
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,40.693363
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,40.907024
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,41.066753
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,41.42762
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,41.505127
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,41.62289
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.087662
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.158508
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.228905
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.301105
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.370903
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.451183
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.511482
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.579449
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.642857
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.718254
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.792213
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.894886
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,42.970638
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.050621
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.127331
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.200764
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.251068
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.308163
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.352272
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.40897
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.463001
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.590984
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : compact car,43.618671
+phev_d,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0
+phev_d,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover car,0.0

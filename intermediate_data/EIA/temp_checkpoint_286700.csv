@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.284416
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.341058
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.384879
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.407416
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.432682
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.450044
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : residential : west south central,14.490172
+ethanol_flex_fuel,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,30.730846
+ethanol_flex_fuel,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,30.900921
+ethanol_flex_fuel,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,31.049042
+ethanol_flex_fuel,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,31.503134
+ethanol_flex_fuel,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,31.587008
+ethanol_flex_fuel,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,31.710453
+ethanol_flex_fuel,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.175171
+ethanol_flex_fuel,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.242474
+ethanol_flex_fuel,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.306568
+ethanol_flex_fuel,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.370453
+ethanol_flex_fuel,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.433449
+ethanol_flex_fuel,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.50465
+ethanol_flex_fuel,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.555244
+ethanol_flex_fuel,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.617729
+ethanol_flex_fuel,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.684181
+ethanol_flex_fuel,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.763775
+ethanol_flex_fuel,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.838745
+ethanol_flex_fuel,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,32.945614
+ethanol_flex_fuel,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.007961
+ethanol_flex_fuel,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.077736
+ethanol_flex_fuel,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.143364
+ethanol_flex_fuel,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.205742
+ethanol_flex_fuel,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.244061
+ethanol_flex_fuel,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.287563
+ethanol_flex_fuel,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.322617
+ethanol_flex_fuel,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.366039
+ethanol_flex_fuel,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.408443
+ethanol_flex_fuel,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.534946
+ethanol_flex_fuel,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : small crossover car,33.550686
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : residual fuel oil,6.287
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.037077
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,5.997051
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.035549
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.040228
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.057789
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.049477
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.061068
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.060353
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.06164
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.070837
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.079952
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.078108
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.089023
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.089758
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.089698
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.099061
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.098973
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.099608
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.101254
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.098327
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.097382
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.101766
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.104531
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.105972
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.100702
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.100448
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.09999
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.100516
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : imports,6.10035
+ethanol_flex_fuel,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.551773
+ethanol_flex_fuel,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.566177
+ethanol_flex_fuel,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.587471
+ethanol_flex_fuel,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.600395
+ethanol_flex_fuel,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.618301
+ethanol_flex_fuel,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.635567

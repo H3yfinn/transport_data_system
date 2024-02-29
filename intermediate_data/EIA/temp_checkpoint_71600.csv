@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2025,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,25.300688
+bev,,,2026,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,25.417063
+bev,,,2027,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,25.495605
+bev,,,2028,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,25.731884
+bev,,,2029,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,25.915281
+bev,,,2030,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,26.129143
+bev,,,2031,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,26.375294
+bev,,,2032,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,26.627722
+bev,,,2033,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,26.823023
+bev,,,2034,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,27.02573
+bev,,,2035,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,27.239281
+bev,,,2036,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,27.398026
+bev,,,2037,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,27.505066
+bev,,,2038,ref2023,bkwh,5-24,electricity : electricity demand : commercial/other,27.543797
+bev,,,2022,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,42.034916
+bev,,,2023,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,41.331821
+bev,,,2024,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,41.579182
+bev,,,2025,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,41.739204
+bev,,,2026,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,41.90583
+bev,,,2027,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,41.997952
+bev,,,2028,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,42.385551
+bev,,,2029,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,42.693012
+bev,,,2030,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,43.016026
+bev,,,2031,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,43.391499
+bev,,,2032,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,43.783291
+bev,,,2033,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,44.0816
+bev,,,2034,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,44.391647
+bev,,,2035,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,44.715809
+bev,,,2036,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,44.96254
+bev,,,2037,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,45.141273
+bev,,,2038,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,45.220306
+bev,,,2039,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,45.340237
+bev,,,2040,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,45.498047
+bev,,,2041,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,45.700726
+bev,,,2042,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,45.966763
+bev,,,2043,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,46.339504
+bev,,,2044,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,46.701851
+bev,,,2045,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,47.085396
+bev,,,2046,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,47.405354
+bev,,,2047,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,47.827965
+bev,,,2048,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,48.269791
+bev,,,2049,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,48.71217
+bev,,,2050,ref2023,bkwh,5-20,electricity : electricity demand : commercial/other,49.185406
+bev,,,2024,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.130318
+bev,,,2025,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,49.984673
+bev,,,2026,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.075432
+bev,,,2027,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,49.862038
+bev,,,2028,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.069447
+bev,,,2029,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.302788
+bev,,,2030,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.340336
+bev,,,2031,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.422207
+bev,,,2032,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.512321
+bev,,,2033,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.573441
+bev,,,2034,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.680981
+bev,,,2035,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.775806
+bev,,,2036,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.869183
+bev,,,2037,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.019302
+bev,,,2038,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.160412
+bev,,,2039,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.365498
+bev,,,2040,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.533806
+bev,,,2041,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.704784
+bev,,,2042,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.872086
+bev,,,2043,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,52.014751
+bev,,,2044,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,52.146748
+bev,,,2045,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,52.300766
+bev,,,2046,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,52.517097
+bev,,,2047,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,52.814011
+bev,,,2048,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,53.135216
+bev,,,2049,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,53.525917
+bev,,,2050,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,53.94228
+bev,,,2022,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,51.676395
+bev,,,2023,ref2023,bkwh,5-23,electricity : electricity demand : commercial/other,50.395763
+bev,,,2022,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1346.575684
+bev,,,2023,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1324.414673
+bev,,,2024,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1332.190552
+bev,,,2025,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1329.360107
+bev,,,2026,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1330.974609
+bev,,,2027,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1330.901611
+bev,,,2028,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1338.452637
+bev,,,2029,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1345.406372
+bev,,,2030,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1351.640747
+bev,,,2031,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1358.888428
+bev,,,2032,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1366.605591
+bev,,,2033,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1371.631348
+bev,,,2034,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1375.619629
+bev,,,2035,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1381.310181
+bev,,,2036,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1385.496948
+bev,,,2037,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1390.233032
+bev,,,2038,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1393.473999
+bev,,,2039,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1396.274292
+bev,,,2040,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1400.430786
+bev,,,2041,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1405.842651
+bev,,,2042,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1412.116333
+bev,,,2043,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1419.350464
+bev,,,2047,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1455.439453
+bev,,,2044,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1427.110962
+bev,,,2045,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1435.69043
+bev,,,2046,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1444.297729
+bev,,,2048,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1466.544312
+bev,,,2049,ref2023,bkwh,20_usa,electricity : electricity sales by sector : commercial,1478.826904

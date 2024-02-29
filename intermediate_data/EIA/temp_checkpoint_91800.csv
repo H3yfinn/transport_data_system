@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2024,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.160365
+,,,2025,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.16234
+,,,2026,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.164713
+,,,2027,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.166676
+,,,2028,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.167756
+,,,2029,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.167014
+,,,2030,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.166274
+,,,2031,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.165657
+,,,2032,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.164915
+,,,2033,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.164057
+,,,2034,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.163178
+,,,2035,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.162395
+,,,2036,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161408
+,,,2037,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.16053
+,,,2038,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.159728
+,,,2039,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.159956
+,,,2040,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.160357
+,,,2041,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.160718
+,,,2042,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.160969
+,,,2043,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161029
+,,,2044,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.160963
+,,,2045,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161255
+,,,2046,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161468
+,,,2047,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161673
+,,,2048,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.161871
+,,,2049,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.162026
+,,,2050,ref2023,quads,20_usa,renewable energy : marketed use : industrial : municipal waste,0.162219
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.3061
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.3051
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.309602
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.333833
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.370594
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.393896
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.420737
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.442894
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.465083
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.480011
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.504415
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.514874
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.540211
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.551754
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.562155
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.574206
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.585947
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.59427
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.601637
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.614436
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.619448
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.622495
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.623012
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.621586
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.600994
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.608957
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.615456
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.620473
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas feedstocks,1.633735
+,,,2022,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,10.884902
+,,,2023,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,10.621674
+,,,2024,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,10.522757
+,,,2025,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,10.67487
+,,,2026,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,10.923656
+,,,2027,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.066352
+,,,2028,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.207505
+,,,2029,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.267525
+,,,2030,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.315854
+,,,2031,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.340307
+,,,2032,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.408512
+,,,2033,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.449107
+,,,2034,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.520883
+,,,2035,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.580128
+,,,2036,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.670913
+,,,2037,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.746552
+,,,2038,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.811049
+,,,2039,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.907647
+,,,2040,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,11.966406
+,,,2041,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.043862
+,,,2042,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.129612
+,,,2043,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.219065
+,,,2044,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.304866
+,,,2045,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.367586
+,,,2046,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.379799
+,,,2047,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.466796
+,,,2048,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.58295
+,,,2049,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.681414
+,,,2050,ref2023,quads,20_usa,industrial : total industrial sector use : natural gas subtotal,12.807266
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.205412
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.15563
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.178585
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.193924
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.210953
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.226272
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.232481
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.245133
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.263288
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.264385
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.266162
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.267813
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.275245
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.282452
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.285054

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2043,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.659015
+,,,2044,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.67934
+,,,2045,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.641171
+,,,2049,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.661194
+,,,2046,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.620387
+,,,2047,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.644855
+,,,2048,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.640891
+,,,2050,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : wood products,8.764818
+,,,2022,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.981154
+,,,2023,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.39931
+,,,2024,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.225214
+,,,2025,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.294554
+,,,2026,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.206382
+,,,2027,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.164401
+,,,2028,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.21963
+,,,2029,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.271082
+,,,2030,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.270753
+,,,2031,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.262367
+,,,2032,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.315741
+,,,2033,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.389943
+,,,2034,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.471425
+,,,2035,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.504431
+,,,2036,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.468784
+,,,2037,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.486678
+,,,2038,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.489554
+,,,2039,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.502502
+,,,2040,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.536093
+,,,2041,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.588022
+,,,2045,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.583518
+,,,2042,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.623081
+,,,2043,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.641254
+,,,2044,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.631283
+,,,2046,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.54791
+,,,2047,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.540893
+,,,2048,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.514954
+,,,2049,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.504858
+,,,2050,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : wood products,5.54762
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,109.157951
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,99.189583
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,96.542572
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,98.351212
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,97.092918
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,96.657242
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,97.914101
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,99.570168
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,100.326973
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,100.708099
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,101.900551
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,103.346748
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,105.107971
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,106.07505
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,105.740578
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,106.268326
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,106.630623
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,107.175323
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,108.014572
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,109.217476
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,110.198822
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,110.843697
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,110.922722
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,110.269798
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,109.847878
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,109.986877
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,109.763977
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,109.854774
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : wood products,111.003975
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,109.157951
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,99.189583
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,96.542572
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,98.351212
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,97.092918
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,96.657242
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,97.914101
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,99.570168
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,100.326973
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,100.708099
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,101.900551
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,103.346748
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,105.107971
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,106.07505
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,105.740578
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,106.268326
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,106.630623
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,107.175323
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,108.014572
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,109.217476
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,110.198822
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,110.843697
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,110.922722
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,110.269798
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,109.847878
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,109.986877
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,109.763977
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,109.854774
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : wood products,111.003975
+,,,2022,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : wood products,3.205138
+,,,2023,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : wood products,2.895701
+,,,2024,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : wood products,2.80833
+,,,2025,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : wood products,2.849715
+,,,2026,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : wood products,2.816039

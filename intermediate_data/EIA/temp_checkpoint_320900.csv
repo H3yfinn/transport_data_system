@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,5.361677
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.771115
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.321446
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.073116
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,3.986617
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.002231
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.062998
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.172425
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.287567
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.451732
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.582922
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.698439
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.718104
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.7644
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.893519
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.836315
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.960828
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,5.040644
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,5.034396
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.981189
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.929628
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.927132
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.889997
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.854081
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.818973
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.775721
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : average,4.771768
+,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.638831
+,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,7.720549
+,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,6.484441
+,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,5.250755
+,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.185747
+,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.950607
+,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.879205
+,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.897053
+,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,3.973238
+,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.088392
+,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.221109
+,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.40617
+,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.537446
+,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.646451
+,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.659757
+,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.707011
+,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.831576
+,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.766024
+,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.901079
+,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.983382
+,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.972262
+,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.908401
+,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.863029
+,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.853949
+,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.842321
+,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.802997
+,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.773695
+,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.714075
+,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : industrial : east south central,4.69992
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,7319.169922
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6759.345703
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6431.829102
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6265.117188
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6177.236328
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6111.785156
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,6046.715332
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5979.090332
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5907.882324
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5843.300293
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5781.810547
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5716.001465
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5648.158203
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5577.290527
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5508.575195
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5441.62207
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5373.063965
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5309.03125
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5243.916016
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5173.97998
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5105.156738
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,5033.056152
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4960.473145
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4889.734863
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4820.039551
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4749.475586
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4678.972168
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : coal : usc with 90% sequestration,4611.847168
+lpg,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0
+lpg,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane bi-fuel : small van,0.0

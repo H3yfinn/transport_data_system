@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2045,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : electrical equipment,21.097967
+bev,,,2046,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : electrical equipment,21.740034
+bev,,,2047,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : electrical equipment,22.413015
+bev,,,2048,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : electrical equipment,23.099865
+bev,,,2049,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : electrical equipment,23.780638
+bev,,,2050,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : electrical equipment,24.58025
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.872
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.08959
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,19.600193
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.212652
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.135117
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.067261
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.109798
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.014952
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.967573
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.875952
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.76252
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.229191
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.406601
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.18594
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.419991
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.282383
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.109159
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,16.957718
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.00543
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.09296
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.16465
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,17.293449
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.0222
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,18.85813
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,19.263687
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,19.26755
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,19.657467
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,20.270849
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : bulk chemicals : organic : ethanol,23.36517
+,,,2022,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,108.231705
+,,,2023,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,106.227272
+,,,2024,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,105.490227
+,,,2025,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,107.397133
+,,,2026,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,110.852707
+,,,2027,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,113.687271
+,,,2028,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,115.215477
+,,,2029,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,116.393631
+,,,2030,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,117.079041
+,,,2031,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,118.077675
+,,,2032,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,120.456749
+,,,2033,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,122.476944
+,,,2034,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,124.098007
+,,,2035,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,126.275871
+,,,2036,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,128.714478
+,,,2037,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,131.375519
+,,,2038,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,133.983429
+,,,2039,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,135.846558
+,,,2040,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,137.443451
+,,,2041,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,139.648041
+,,,2042,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,141.596603
+,,,2043,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,143.169067
+,,,2044,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,144.067444
+,,,2045,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,144.37207
+,,,2046,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,144.785583
+,,,2047,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,145.681213
+,,,2048,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,145.953766
+,,,2049,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,145.754211
+,,,2050,ref2023,billion 2012 $,1-3,industrial macroeconomic : manufacturing : fabricated metal products,147.502228
+,,,2022,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,25.729557
+,,,2023,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,25.172577
+,,,2024,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,24.983778
+,,,2025,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,25.490875
+,,,2026,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,26.377899
+,,,2027,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,27.088526
+,,,2028,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,27.473661
+,,,2029,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,27.737623
+,,,2030,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,27.883583
+,,,2031,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,28.129372
+,,,2032,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,28.698721
+,,,2033,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,29.190678
+,,,2034,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,29.602385
+,,,2035,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,30.171171
+,,,2036,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,30.782225
+,,,2037,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,31.435268
+,,,2038,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,32.130268
+,,,2039,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,32.596008
+,,,2040,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,33.056
+,,,2041,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,33.664158
+,,,2042,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,34.179607
+,,,2043,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,34.603779
+,,,2044,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,34.867977
+,,,2045,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,34.993717
+,,,2046,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,35.14201
+,,,2047,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,35.412506
+,,,2048,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,35.527237
+,,,2049,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,35.527287
+,,,2050,ref2023,billion 2012 $,1-6,industrial macroeconomic : manufacturing : fabricated metal products,36.003105
+,,,2046,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,48.127758
+,,,2043,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,47.235989
+,,,2044,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,47.635681
+,,,2045,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,47.852158
+,,,2047,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,48.552792
+,,,2048,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,48.754574
+,,,2049,ref2023,billion 2012 $,1-2,industrial macroeconomic : manufacturing : fabricated metal products,48.803493

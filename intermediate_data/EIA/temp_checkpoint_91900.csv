@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.291285
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.296448
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.303225
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.310724
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.317131
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.322333
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.328724
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.334025
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.340146
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.353219
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.367964
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.375429
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.382571
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : east north central,1.395949
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.608246
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.588365
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.560184
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.572678
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.591607
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.60405
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.612185
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.614916
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.615553
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.616323
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.619379
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.620734
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.623507
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.626754
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.630912
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.635066
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.638268
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.643587
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.646045
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.65062
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.655214
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.660351
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.663675
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.666161
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.671161
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.676377
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.680432
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.685768
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : east south central,0.693222
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.400967
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.373641
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.379431
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.381913
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.3878
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.391845
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.393071
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.393654
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.393712
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.394336
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.397899
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.398408
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.400346
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.402593
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.405182
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.407381
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.409317
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.411216
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.412046
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.413549
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.413838
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.415883
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.419289
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.421388
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.424839
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.42777
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.431018
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.431876
+,,,2050,ref2023,tcf,20_usa,natural gas use : industrial : middle atlantic,0.43549
+,,,2022,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.282438
+,,,2023,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.268968
+,,,2024,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.254671
+,,,2025,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.259232
+,,,2026,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.265586
+,,,2027,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.269584
+,,,2028,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.271935
+,,,2029,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.277458
+,,,2030,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.278285
+,,,2031,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.284714
+,,,2032,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.287989
+,,,2033,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.292199
+,,,2034,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.297431
+,,,2035,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.301974
+,,,2036,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.305682
+,,,2037,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.308622
+,,,2038,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.314237
+,,,2039,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.319998
+,,,2040,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.324925
+,,,2041,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.330993
+,,,2042,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.335386
+,,,2043,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.342167
+,,,2044,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.347869
+,,,2045,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.3545
+,,,2046,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.356122
+,,,2047,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.359774
+,,,2048,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.365847
+,,,2049,ref2023,tcf,20_usa,natural gas use : industrial : mountain,0.371572

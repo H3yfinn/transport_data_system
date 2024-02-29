@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3067.885254
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3065.890137
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3065.888672
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3064.853027
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3064.852539
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3064.110352
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3063.299316
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3059.756348
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : compact,3059.756348
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3863.023438
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3866.275391
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3862.7229
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3839.419434
+,car,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3840.482422
+,car,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3833.375732
+,car,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3804.466064
+,car,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3806.08374
+,car,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3806.349365
+,car,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3805.121826
+,car,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3803.968018
+,car,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3802.685547
+,car,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3800.208008
+,car,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3796.986816
+,car,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3794.653076
+,car,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3792.492188
+,car,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3791.182617
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3789.559082
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3789.417236
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3789.193848
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.801758
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.430176
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.408447
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.374268
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.366211
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.333496
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3788.208496
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3787.344482
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large crossover,3787.344482
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3489.171631
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3504.260254
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3515.836426
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3501.596924
+,car,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3501.611084
+,car,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3493.752686
+,car,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3467.331299
+,car,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3468.342773
+,car,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3468.521484
+,car,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3468.726807
+,car,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3468.081055
+,car,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3465.026855
+,car,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3460.914307
+,car,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3454.673096
+,car,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3450.46582
+,car,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3447.107178
+,car,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3443.716064
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3439.66626
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3437.996338
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3436.215332
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3434.518799
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3433.255371
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3433.249268
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3432.553955
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3432.551758
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3431.981934
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3431.399414
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3428.088867
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : large,3428.088867
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3238.494141
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3251.185303
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3257.162598
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3235.228271
+,car,,2026,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3235.445312
+,car,,2027,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3230.312256
+,car,,2028,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3202.429688
+,car,,2029,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3203.090332
+,car,,2030,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3203.619141
+,car,,2031,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3204.091309
+,car,,2032,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3204.196777
+,car,,2033,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3201.941162
+,car,,2034,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3197.386475
+,car,,2035,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3190.637207
+,car,,2036,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3184.706787
+,car,,2037,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3180.522461
+,car,,2038,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3177.429932
+,car,,2039,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3173.585449
+,car,,2040,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3171.657715
+,car,,2041,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3169.59375
+,car,,2042,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3167.538818
+,car,,2043,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3165.80249
+,car,,2044,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3165.80249
+,car,,2045,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3164.974365
+,car,,2046,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3164.974365
+,car,,2047,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3164.309082
+,car,,2048,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3163.552734
+,car,,2049,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3158.700684
+,car,,2050,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : midsize,3158.700684
+,car,,2022,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : minicompact,3343.59668
+,car,,2023,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : minicompact,3344.903564
+,car,,2024,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : minicompact,3342.290527
+,car,,2025,ref2023,lb,20_usa,new vehicle attributes : weight : conventional cars : minicompact,3319.785645

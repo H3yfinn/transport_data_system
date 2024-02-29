@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2043,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : solar thermal,1.48
+bev,,,2044,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : solar thermal,1.48
+bev,,,2045,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : solar thermal,1.48
+bev,,,2046,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : solar thermal,1.48
+bev,,,2047,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : solar thermal,1.48
+bev,,,2048,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : solar thermal,1.48
+bev,,,2024,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,382.684357
+bev,,,2022,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,308.573914
+bev,,,2023,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,341.595032
+bev,,,2025,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,442.584625
+bev,,,2026,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,517.491211
+bev,,,2027,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,587.853821
+bev,,,2028,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,648.172913
+bev,,,2029,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,690.901794
+bev,,,2030,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,728.88501
+bev,,,2031,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,760.278748
+bev,,,2032,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,794.037415
+bev,,,2033,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,824.717712
+bev,,,2034,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,852.022461
+bev,,,2035,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,870.150085
+bev,,,2036,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,892.591858
+bev,,,2037,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,909.381714
+bev,,,2038,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,930.071594
+bev,,,2039,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,939.829956
+bev,,,2040,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,957.287292
+bev,,,2041,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,966.79071
+bev,,,2042,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,982.09259
+bev,,,2043,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1001.278381
+bev,,,2044,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1024.484253
+bev,,,2045,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1053.594849
+bev,,,2046,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1080.326172
+bev,,,2047,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1100.706909
+bev,,,2048,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1119.039551
+bev,,,2049,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1140.868164
+bev,,,2050,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : total,1163.058716
+bev,,,2022,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.677301
+bev,,,2023,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.679301
+bev,,,2024,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.682301
+bev,,,2025,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.682301
+bev,,,2026,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.682301
+bev,,,2027,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.682301
+bev,,,2028,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.529301
+bev,,,2029,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.529301
+bev,,,2030,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.529301
+bev,,,2031,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2035,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2032,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2033,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2034,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2036,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2037,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2038,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2039,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2040,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2041,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2042,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2043,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2044,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2045,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.542639
+bev,,,2046,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.61192
+bev,,,2047,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.61192
+bev,,,2048,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.61192
+bev,,,2049,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.61192
+bev,,,2050,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wood and other biomass,2.61192
+bev,,,2022,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,143.965576
+bev,,,2023,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,148.12178
+bev,,,2024,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,152.030807
+bev,,,2025,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,167.879791
+bev,,,2026,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,187.582245
+bev,,,2027,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,212.300812
+bev,,,2028,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,243.17421
+bev,,,2029,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,270.364349
+bev,,,2030,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,290.148407
+bev,,,2031,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,297.919067
+bev,,,2032,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,302.551117
+bev,,,2033,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,316.962341
+bev,,,2034,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,319.269348
+bev,,,2035,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,320.421478
+bev,,,2036,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,321.949219
+bev,,,2037,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,322.94458
+bev,,,2038,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,323.845245
+bev,,,2039,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,324.785339
+bev,,,2040,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,325.914032
+bev,,,2041,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,326.25528
+bev,,,2042,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,326.835327
+bev,,,2043,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,329.056274
+bev,,,2044,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,331.087463
+bev,,,2045,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,333.728638
+bev,,,2046,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,336.440948
+bev,,,2047,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,340.444214
+bev,,,2048,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,344.559174
+bev,,,2049,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,346.668365
+bev,,,2050,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : wind,349.996765
+bev,,,2022,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,0.462
+bev,,,2023,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,0.992
+bev,,,2024,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,2.892
+bev,,,2025,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,2.892
+bev,,,2026,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,2.892
+bev,,,2027,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,2.892
+bev,,,2028,ref2023,gw,20_usa,renewable energy : electric power sector : net summer capacity : offshore wind,3.992

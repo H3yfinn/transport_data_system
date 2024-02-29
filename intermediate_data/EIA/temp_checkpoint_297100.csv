@@ -1,0 +1,54 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+,car,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas : subcompact car,0.0
+ice_g,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.051239
+ice_g,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.049952
+ice_g,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.048665
+ice_g,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.047375
+ice_g,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.046085
+ice_g,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.044794
+ice_g,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.043502
+ice_g,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.042209
+ice_g,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.040914
+ice_g,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.039618
+ice_g,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.038322
+ice_g,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.037026
+ice_g,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.03573
+ice_g,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.034434
+ice_g,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.033323
+ice_g,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.032218
+ice_g,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.03115
+ice_g,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.030091
+ice_g,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.029032
+ice_g,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.028083
+ice_g,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.027124
+ice_g,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.026171
+ice_g,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.025226
+ice_g,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.024285

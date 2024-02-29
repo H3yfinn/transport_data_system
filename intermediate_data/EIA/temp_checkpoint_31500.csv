@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,,,2044,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2045,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2046,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2047,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2048,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2049,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2050,ref2023,gw,5-20,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2022,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,
+fcev,,,2023,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2024,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2025,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2026,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2027,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2028,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2029,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2030,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2031,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2032,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2033,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2034,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2035,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2036,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2037,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2038,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2039,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2040,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2041,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2042,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2043,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2044,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2045,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2046,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2047,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2048,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2049,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+fcev,,,2050,ref2023,gw,5-23,electricity : electric power sector : cumulative unplanned additions : fuel cells,0.0
+bev,,,2022,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,
+bev,,,2023,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,0.008899
+bev,,,2024,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,0.014133
+bev,,,2025,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,5.637016
+bev,,,2026,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,16.036901
+bev,,,2027,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,26.804893
+bev,,,2028,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,29.491911
+bev,,,2029,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,30.07959
+bev,,,2030,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,30.587223
+bev,,,2031,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,32.119656
+bev,,,2032,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,33.147861
+bev,,,2033,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,35.744953
+bev,,,2034,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,40.345573
+bev,,,2035,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,40.367901
+bev,,,2036,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,41.498322
+bev,,,2037,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,43.00684
+bev,,,2038,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,44.390667
+bev,,,2039,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,45.13467
+bev,,,2040,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,47.12743
+bev,,,2041,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,48.530952
+bev,,,2042,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,50.170876
+bev,,,2043,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,53.086056
+bev,,,2044,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,60.259277
+bev,,,2045,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,63.186909
+bev,,,2046,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,64.507484
+bev,,,2047,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,65.110329
+bev,,,2048,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,67.095398
+bev,,,2049,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,67.124855
+bev,,,2050,ref2023,gw,5-2,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,67.871346
+bev,,,2022,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,
+bev,,,2023,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,0.012172
+bev,,,2024,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,2.296802
+bev,,,2025,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,3.260729
+bev,,,2026,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,11.530241
+bev,,,2027,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,19.717194
+bev,,,2028,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,21.109837
+bev,,,2029,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,26.87908
+bev,,,2030,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,34.476429
+bev,,,2031,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,35.223095
+bev,,,2032,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,39.319874
+bev,,,2033,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,44.856682
+bev,,,2034,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,47.9538
+bev,,,2038,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,52.357143
+bev,,,2035,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,48.975391
+bev,,,2036,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,50.941486
+bev,,,2037,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,51.708996
+bev,,,2039,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,53.248859
+bev,,,2040,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,54.987297
+bev,,,2041,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,56.799934
+bev,,,2042,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,57.542793
+bev,,,2043,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,58.272785
+bev,,,2044,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,59.026844
+bev,,,2045,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,59.835091
+bev,,,2046,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,62.78603
+bev,,,2047,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,64.106979
+bev,,,2048,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,64.994087
+bev,,,2049,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,65.880569
+bev,,,2050,ref2023,gw,5-4,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,66.950928
+bev,,,2022,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,
+bev,,,2023,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,0.001827
+bev,,,2024,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,3.041728
+bev,,,2025,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,8.397578
+bev,,,2026,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,9.545481
+bev,,,2027,ref2023,gw,5-5,electricity : electric power sector : cumulative unplanned additions : total unplanned additions,10.350802

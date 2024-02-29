@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,745.488586
+ice_g,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,752.847778
+ice_g,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,752.358276
+ice_g,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,735.733459
+ice_g,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,714.397766
+ice_g,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,699.987854
+ice_g,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,685.040466
+ice_g,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,673.874939
+ice_g,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,663.850525
+ice_g,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,653.93219
+ice_g,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,646.676086
+ice_g,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,638.0
+ice_g,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : gasoline,632.653625
+,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,745.488586
+,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,752.847778
+,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,752.358276
+,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,735.733459
+,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,714.397766
+,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,699.987854
+,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,685.040466
+,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,673.874939
+,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,663.850525
+,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,653.93219
+,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,646.676086
+,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,638.0
+,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,632.653625
+,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,629.944214
+,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,630.54657
+,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,627.933655
+,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,625.118958
+,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,622.161438
+,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,618.440979
+,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,611.172913
+,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,603.780579
+,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,594.080505
+,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,586.634521
+,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,582.167297
+,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,581.98822
+,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,575.447021
+,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,569.673706
+,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,564.752808
+,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : total,561.188354
+ice_d,car,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_d,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : conventional cars : tdi diesel,0.0
+ice_g,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1264.047729
+ice_g,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1273.665039
+ice_g,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1276.939819
+ice_g,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1280.798096
+ice_g,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1284.902832
+ice_g,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1287.094238
+ice_g,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1296.9729
+ice_g,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1299.45459
+ice_g,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1304.311401
+ice_g,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1303.999023
+ice_g,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1310.53125
+ice_g,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1318.357544
+ice_g,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1139.88269
+ice_g,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1177.592163
+ice_g,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1225.196167
+ice_g,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1266.629272
+ice_g,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1280.526367
+ice_g,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1273.656372
+ice_g,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1266.319214
+ice_g,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1266.370361
+ice_g,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1255.479492
+ice_g,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1247.123413
+ice_g,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1238.223267
+ice_g,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1229.916992
+ice_g,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1228.676392
+ice_g,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1234.700684
+ice_g,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1240.965576
+ice_g,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1247.865479
+ice_g,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : conventional light trucks : gasoline,1256.841919

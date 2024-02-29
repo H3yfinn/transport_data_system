@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2029,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,7.99676
+,,,2030,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,8.599118
+,,,2031,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,9.347609
+,,,2032,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,10.126622
+,,,2033,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,11.09325
+,,,2034,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,11.819814
+,,,2035,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,12.379827
+,,,2036,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,12.480713
+,,,2037,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,12.714173
+,,,2038,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,13.369213
+,,,2039,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,13.143954
+,,,2040,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,13.839808
+,,,2041,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,14.280551
+,,,2042,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,14.47359
+,,,2043,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,14.276364
+,,,2044,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,14.266542
+,,,2045,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : other petroleum,14.364395
+,,,2022,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,1.217704
+,,,2023,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,1.112327
+,,,2024,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.654691
+,,,2025,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.52289
+,,,2026,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.367296
+,,,2027,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.278933
+,,,2028,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.23122
+,,,2029,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.242418
+,,,2030,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.257932
+,,,2031,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.278175
+,,,2032,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.299633
+,,,2033,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.327139
+,,,2034,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.347899
+,,,2035,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.364304
+,,,2036,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.367245
+,,,2037,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.37407
+,,,2038,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.39348
+,,,2039,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.386507
+,,,2040,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.407297
+,,,2041,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.420374
+,,,2042,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.42604
+,,,2043,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.420122
+,,,2044,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.419963
+,,,2045,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.422708
+,,,2049,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.413025
+,,,2046,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.423394
+,,,2047,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.422575
+,,,2048,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.418917
+,,,2050,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum coke,0.414054
+,,,2022,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,75.416664
+,,,2023,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,70.415878
+,,,2024,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,65.948784
+,,,2025,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,61.496746
+,,,2026,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.892235
+,,,2027,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,52.438477
+,,,2028,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,50.436604
+,,,2029,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,50.522968
+,,,2030,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,50.752823
+,,,2031,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,51.162392
+,,,2032,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,51.698864
+,,,2033,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,52.494385
+,,,2034,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,53.083416
+,,,2035,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,53.551048
+,,,2036,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,53.536118
+,,,2037,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,53.689026
+,,,2038,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,54.331902
+,,,2039,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,53.991245
+,,,2040,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,54.721161
+,,,2041,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.18026
+,,,2042,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.378166
+,,,2043,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.130024
+,,,2044,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.109039
+,,,2045,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.181488
+,,,2046,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.163101
+,,,2047,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,55.138046
+,,,2048,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,54.980873
+,,,2049,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,54.718254
+,,,2050,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : petroleum subtotal,54.799603
+lpg,,,2022,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,3.473961
+lpg,,,2023,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,3.819263
+lpg,,,2024,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.688148
+lpg,,,2025,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.200717
+lpg,,,2026,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.786343
+lpg,,,2027,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.597159
+lpg,,,2028,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.514664
+lpg,,,2029,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.55349
+lpg,,,2030,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.578454
+lpg,,,2031,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.612946
+lpg,,,2032,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.678715
+lpg,,,2033,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.756962
+lpg,,,2034,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.828331
+lpg,,,2035,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.908493
+lpg,,,2036,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,12.961611
+lpg,,,2037,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.033624
+lpg,,,2038,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.135208
+lpg,,,2039,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.189281
+lpg,,,2040,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.319019
+lpg,,,2041,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.447816
+lpg,,,2042,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.563892
+lpg,,,2043,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.657982
+lpg,,,2044,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.766217
+lpg,,,2045,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.866167
+lpg,,,2046,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : propane,13.961797

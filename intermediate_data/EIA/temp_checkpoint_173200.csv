@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2050,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : coal,3.284427
+,,,2022,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.109527
+,,,2023,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.153908
+,,,2024,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.180315
+,,,2025,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.194531
+,,,2026,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.208211
+,,,2027,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.221614
+,,,2028,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.235075
+,,,2029,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.248596
+,,,2030,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.262434
+,,,2031,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.276913
+,,,2032,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.292239
+,,,2033,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.309077
+,,,2034,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.328064
+,,,2035,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.348595
+,,,2036,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.371094
+,,,2037,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.395186
+,,,2038,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.421035
+,,,2039,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.448397
+,,,2040,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.477683
+,,,2041,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.508822
+,,,2042,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.541518
+,,,2043,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.575727
+,,,2044,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.611351
+,,,2045,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.647462
+,,,2046,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.676244
+,,,2047,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.706168
+,,,2048,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.737464
+,,,2049,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.770186
+,,,2050,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : generation for own use,6.804595
+,,,2022,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.297133
+,,,2023,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.342967
+,,,2024,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.370264
+,,,2025,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.384958
+,,,2026,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.399099
+,,,2027,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.412954
+,,,2028,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.426869
+,,,2029,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.440845
+,,,2030,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.45515
+,,,2031,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.470117
+,,,2032,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.485959
+,,,2033,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.503365
+,,,2034,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.522991
+,,,2035,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.544214
+,,,2036,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.567471
+,,,2037,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.592376
+,,,2038,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.619095
+,,,2039,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.647379
+,,,2040,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.677652
+,,,2041,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.709841
+,,,2042,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.743639
+,,,2043,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.779001
+,,,2044,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.815825
+,,,2045,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.853153
+,,,2046,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.882904
+,,,2047,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.913836
+,,,2048,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.946187
+,,,2049,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,6.980012
+,,,2050,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : total,7.01558
+,,,2022,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.7653
+,,,2023,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.807411
+,,,2024,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.834708
+,,,2025,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.849403
+,,,2026,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.863545
+,,,2027,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.877399
+,,,2028,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.891314
+,,,2029,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.90529
+,,,2030,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.919594
+,,,2031,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.934561
+,,,2032,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.950404
+,,,2033,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.967809
+,,,2034,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,2.987435
+,,,2035,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.008659
+,,,2036,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.031915
+,,,2037,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.05682
+,,,2038,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.08354
+,,,2039,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.111824
+,,,2040,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.142097
+,,,2041,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.174285
+,,,2042,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.208084
+,,,2043,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.243446
+,,,2044,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.280269
+,,,2045,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.317597
+,,,2046,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.347348
+,,,2047,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.378281
+,,,2048,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.410631
+,,,2049,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.444457
+,,,2050,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : natural gas,3.480024
+,,,2022,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.174305
+,,,2026,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2023,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2024,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2025,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2027,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2028,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2029,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2030,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2031,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2032,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028
+,,,2033,ref2023,bkwh,20_usa,food industry : combined heat and power : net generation : other,0.178028

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2050,ref2023,bkwh,5-19,electricity : total electricity generation,82.54052
+bev,,,2038,ref2023,bkwh,5-19,electricity : total electricity generation,81.287292
+bev,,,2039,ref2023,bkwh,5-19,electricity : total electricity generation,82.193962
+bev,,,2040,ref2023,bkwh,5-19,electricity : total electricity generation,81.727806
+bev,,,2041,ref2023,bkwh,5-19,electricity : total electricity generation,81.741791
+bev,,,2042,ref2023,bkwh,5-19,electricity : total electricity generation,81.815536
+bev,,,2043,ref2023,bkwh,5-19,electricity : total electricity generation,81.569527
+bev,,,2044,ref2023,bkwh,5-19,electricity : total electricity generation,81.52124
+bev,,,2045,ref2023,bkwh,5-19,electricity : total electricity generation,81.72921
+bev,,,2022,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,30.49157
+bev,,,2023,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,32.588371
+bev,,,2024,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,33.260334
+bev,,,2025,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,34.287781
+bev,,,2026,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,39.706036
+bev,,,2027,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,41.50423
+bev,,,2028,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,45.734879
+bev,,,2029,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,51.395588
+bev,,,2030,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,56.049404
+bev,,,2031,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,58.933266
+bev,,,2032,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,59.515228
+bev,,,2033,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,62.622612
+bev,,,2034,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,63.576794
+bev,,,2035,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.143448
+bev,,,2036,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.393738
+bev,,,2037,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.464325
+bev,,,2038,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.506721
+bev,,,2039,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.603584
+bev,,,2040,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.698502
+bev,,,2041,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.752678
+bev,,,2042,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.783028
+bev,,,2043,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.815338
+bev,,,2044,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.856667
+bev,,,2045,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.892372
+bev,,,2046,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.940613
+bev,,,2047,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,64.983536
+bev,,,2048,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,65.0252
+bev,,,2049,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,65.069664
+bev,,,2050,ref2023,bkwh,5-19,renewable energy : all sectors : electricity generation : total,65.636848
+bev,,,2022,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,62.840042
+bev,,,2023,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,67.684189
+bev,,,2024,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,68.717148
+bev,,,2025,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,80.863342
+bev,,,2026,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,85.55761
+bev,,,2027,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,86.117134
+bev,,,2028,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,86.529617
+bev,,,2029,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,107.127205
+bev,,,2030,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,128.107712
+bev,,,2031,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,134.405029
+bev,,,2032,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,135.621613
+bev,,,2033,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,136.006287
+bev,,,2034,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,136.09021
+bev,,,2035,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,136.311768
+bev,,,2036,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,136.585907
+bev,,,2037,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,137.003387
+bev,,,2038,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,138.59108
+bev,,,2039,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,139.331711
+bev,,,2040,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,139.840408
+bev,,,2041,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,140.328903
+bev,,,2042,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,140.948303
+bev,,,2043,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,141.545212
+bev,,,2044,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,141.942703
+bev,,,2045,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,142.329803
+bev,,,2046,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,142.783218
+bev,,,2047,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,143.388168
+bev,,,2048,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,144.138916
+bev,,,2049,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,144.840103
+bev,,,2050,ref2023,bkwh,5-17,renewable energy : all sectors : electricity generation : total,145.386292
+bev,,,2022,ref2023,bkwh,5-17,electricity : total electricity generation,149.35759
+bev,,,2023,ref2023,bkwh,5-17,electricity : total electricity generation,149.151505
+bev,,,2024,ref2023,bkwh,5-17,electricity : total electricity generation,154.675339
+bev,,,2025,ref2023,bkwh,5-17,electricity : total electricity generation,159.319717
+bev,,,2026,ref2023,bkwh,5-17,electricity : total electricity generation,157.253479
+bev,,,2027,ref2023,bkwh,5-17,electricity : total electricity generation,150.188797
+bev,,,2028,ref2023,bkwh,5-17,electricity : total electricity generation,143.550308
+bev,,,2029,ref2023,bkwh,5-17,electricity : total electricity generation,154.582733
+bev,,,2030,ref2023,bkwh,5-17,electricity : total electricity generation,164.244904
+bev,,,2031,ref2023,bkwh,5-17,electricity : total electricity generation,166.074661
+bev,,,2032,ref2023,bkwh,5-17,electricity : total electricity generation,166.876266
+bev,,,2033,ref2023,bkwh,5-17,electricity : total electricity generation,166.210724
+bev,,,2034,ref2023,bkwh,5-17,electricity : total electricity generation,165.67984
+bev,,,2035,ref2023,bkwh,5-17,electricity : total electricity generation,166.015869
+bev,,,2036,ref2023,bkwh,5-17,electricity : total electricity generation,168.973907
+bev,,,2037,ref2023,bkwh,5-17,electricity : total electricity generation,171.675293
+bev,,,2038,ref2023,bkwh,5-17,electricity : total electricity generation,172.837479
+bev,,,2039,ref2023,bkwh,5-17,electricity : total electricity generation,172.810806
+bev,,,2040,ref2023,bkwh,5-17,electricity : total electricity generation,173.057907
+bev,,,2041,ref2023,bkwh,5-17,electricity : total electricity generation,173.442551
+bev,,,2042,ref2023,bkwh,5-17,electricity : total electricity generation,174.180374
+bev,,,2043,ref2023,bkwh,5-17,electricity : total electricity generation,174.673111
+bev,,,2044,ref2023,bkwh,5-17,electricity : total electricity generation,175.880478
+bev,,,2045,ref2023,bkwh,5-17,electricity : total electricity generation,177.706131
+bev,,,2046,ref2023,bkwh,5-17,electricity : total electricity generation,179.397873
+bev,,,2047,ref2023,bkwh,5-17,electricity : total electricity generation,181.006866
+bev,,,2048,ref2023,bkwh,5-17,electricity : total electricity generation,183.091156
+bev,,,2049,ref2023,bkwh,5-17,electricity : total electricity generation,185.527679
+bev,,,2050,ref2023,bkwh,5-17,electricity : total electricity generation,188.423981
+bev,,,2036,ref2023,bkwh,5-1,electricity : total electricity generation,485.293243
+bev,,,2033,ref2023,bkwh,5-1,electricity : total electricity generation,472.773254
+bev,,,2034,ref2023,bkwh,5-1,electricity : total electricity generation,476.667877
+bev,,,2035,ref2023,bkwh,5-1,electricity : total electricity generation,480.695801

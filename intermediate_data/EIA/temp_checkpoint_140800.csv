@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2027,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.357248
+,,,2028,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.379225
+,,,2029,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.387526
+,,,2030,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.408891
+,,,2031,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.40583
+,,,2032,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.418277
+,,,2033,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.460727
+,,,2034,ref2023,billion 2012 $,1-4,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,2.493387
+,,,2022,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,12.146488
+,,,2023,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,12.261666
+,,,2024,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,12.215852
+,,,2025,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,12.533864
+,,,2026,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,12.862642
+,,,2027,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.075137
+,,,2028,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.224163
+,,,2029,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.311116
+,,,2030,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.3695
+,,,2031,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.445407
+,,,2032,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.54475
+,,,2033,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.648664
+,,,2034,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.793453
+,,,2035,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,13.931241
+,,,2036,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.032881
+,,,2037,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.159714
+,,,2038,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.223189
+,,,2039,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.343516
+,,,2040,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.507573
+,,,2041,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.648229
+,,,2042,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.755971
+,,,2043,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.853389
+,,,2044,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.935537
+,,,2045,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,14.96104
+,,,2046,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,15.063534
+,,,2050,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,15.527366
+,,,2047,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,15.196397
+,,,2048,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,15.225497
+,,,2049,ref2023,billion 2012 $,1-7,industrial macroeconomic : manufacturing : chemicals : bulk chemicals : inorganic,15.301437
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,104.468376
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,98.844162
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,100.600494
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,102.438927
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,105.541199
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,106.059402
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,106.727676
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,107.777603
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,108.480698
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,107.795776
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,108.104248
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,86.513969
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,86.257233
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,86.359383
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,86.679367
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,87.574333
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,88.7714
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,89.536377
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,90.13649
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,90.36274
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,90.582878
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,91.295494
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,92.021378
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,92.807945
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,93.557144
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,94.285233
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,95.176765
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,96.293198
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : cleaning,97.373482
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,51.956429
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,52.444759
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,52.866299
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,53.298634
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,54.023014
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,54.344425
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,54.734692
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,55.046967
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,55.378571
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,55.851101
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,56.693829
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,49.088619
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,47.782162
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,47.409897
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,47.513119
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,47.865501
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,48.313412
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,48.730091
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,48.957623
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,48.985676
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,49.02953
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,49.289124
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,49.653934
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,49.927444
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,50.189976
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,50.484814
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,50.799809
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,51.163349
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : other,51.521088
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : paint,45.857521
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : paint,44.707798
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : paint,45.538406
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : paint,46.630547
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : chemicals : other chemical products : paint,47.914726

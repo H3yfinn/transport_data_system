@@ -1,0 +1,82 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ethanol_flex_fuel,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.721367
+ethanol_flex_fuel,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.728851
+ethanol_flex_fuel,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,71.869423
+ethanol_flex_fuel,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,72.321602
+ethanol_flex_fuel,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,72.613876
+ethanol_flex_fuel,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,73.073875
+ethanol_flex_fuel,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,73.494888
+ethanol_flex_fuel,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,73.761978
+ethanol_flex_fuel,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.253723
+ethanol_flex_fuel,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.388565
+ethanol_flex_fuel,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.473259
+ethanol_flex_fuel,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.567062
+ethanol_flex_fuel,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.694901
+ethanol_flex_fuel,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.856712
+ethanol_flex_fuel,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,74.959061
+ethanol_flex_fuel,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.067802
+ethanol_flex_fuel,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.149643
+ethanol_flex_fuel,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.220444
+ethanol_flex_fuel,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.284515
+ethanol_flex_fuel,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.373123
+ethanol_flex_fuel,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.420616
+ethanol_flex_fuel,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.468201
+ethanol_flex_fuel,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : ethanol flex : large utility,75.512878
+ice_d,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,46.023293
+ice_d,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,46.215664
+ice_d,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,46.392712
+ice_d,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,46.704136
+ice_d,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,46.977699
+ice_d,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.119442
+ice_d,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.376556
+ice_d,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.48246
+ice_d,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.591175
+ice_d,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.70409
+ice_d,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.817204
+ice_d,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,47.950981
+ice_d,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.017342
+ice_d,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.079792
+ice_d,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.13129
+ice_d,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.169235
+ice_d,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.206356
+ice_d,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.249157
+ice_d,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.275524
+ice_d,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.301529
+ice_d,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.325958
+ice_d,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.348495
+ice_d,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.361446
+ice_d,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.37492
+ice_d,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.386482
+ice_d,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.39978
+ice_d,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.412289
+ice_d,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.454308
+ice_d,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large van,48.460194
+bev,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.58967
+bev,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.671924
+bev,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.676721
+bev,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.626346
+bev,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.601733
+bev,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.588262
+bev,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.567684
+bev,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.562892
+bev,,,2048,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.548068
+bev,,,2049,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.524265
+bev,,,2050,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.536653
+bev,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,7.545208
+bev,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,5.870998
+bev,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.73456
+bev,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.180734
+bev,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.745699
+bev,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.42813
+bev,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.332135
+bev,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.296599
+bev,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.335797
+bev,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.456721
+bev,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.626018
+bev,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.809458
+bev,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,3.992381
+bev,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.167011
+bev,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.21533
+bev,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.25261
+bev,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.449082
+bev,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : mountain,4.368664

@@ -1,0 +1,31 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,ship_international,,2022,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2023,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2024,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2025,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2026,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2027,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2028,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2029,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2030,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2031,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2032,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2033,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2034,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2035,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2036,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2037,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2038,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2039,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2040,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2041,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2042,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2043,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2044,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2045,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2046,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2047,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2048,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2049,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2050,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : cng,0.0
+,ship_international,,2022,ref2023,trillion btu,20_usa,freight : international shipping : fuel use : distillate fuel oil,222.938675

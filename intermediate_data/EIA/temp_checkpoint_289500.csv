@@ -1,0 +1,81 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,46.887558
+,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,47.085297
+,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,47.42535
+,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,48.075748
+,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,48.476578
+,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,48.713234
+,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.170761
+,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.219387
+,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.177822
+,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.202328
+,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.205078
+,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.279762
+,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.284294
+,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.29398
+,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.391438
+,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.490925
+,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.608139
+,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.73278
+,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.788609
+,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.845528
+,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.90144
+,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.94619
+,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,49.990486
+,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.053097
+,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.074402
+,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.104424
+,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.134968
+,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.155754
+,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : average price : trucks,50.166798
+,,,2022,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",321.954987
+,,,2023,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",320.720612
+,,,2024,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",321.156647
+,,,2025,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",324.039185
+,,,2026,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",328.451477
+,,,2027,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",332.319275
+,,,2028,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",335.878754
+,,,2029,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",338.621002
+,,,2030,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",341.153259
+,,,2031,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",344.162292
+,,,2032,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",348.165833
+,,,2033,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",351.541229
+,,,2034,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",354.830109
+,,,2035,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",358.344696
+,,,2036,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",361.393555
+,,,2037,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",364.926788
+,,,2038,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",368.380646
+,,,2039,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",371.811432
+,,,2040,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",375.588074
+,,,2041,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",379.587524
+,,,2042,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",383.514648
+,,,2043,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",387.208832
+,,,2044,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",390.633392
+,,,2045,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",393.837952
+,,,2046,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",397.542633
+,,,2047,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",401.354675
+,,,2048,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",404.659821
+,,,2049,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",408.224457
+,,,2050,ref2023,billion vehicle mile,20_usa,"transportation : travel indicators : freight trucks > 10,000 lbs.",413.08252
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065

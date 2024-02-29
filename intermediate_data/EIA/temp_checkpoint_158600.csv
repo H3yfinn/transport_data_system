@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.731625
+lpg,car,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.788441
+lpg,car,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,49.001236
+lpg,car,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.989464
+lpg,car,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,49.025036
+lpg,car,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,49.043133
+lpg,car,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,49.045155
+lpg,car,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.96257
+lpg,car,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.88773
+lpg,car,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.825409
+lpg,car,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.749615
+lpg,car,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.68504
+lpg,car,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.979031
+lpg,car,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel cars : propane ice,48.8983
+ice_d,car,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,52.824074
+ice_d,car,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,52.738361
+ice_d,car,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,52.958523
+ice_d,car,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,54.363869
+ice_d,car,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,54.288715
+ice_d,car,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,54.411682
+ice_d,car,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.820747
+ice_d,car,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.757618
+ice_d,car,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.709587
+ice_d,car,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.656528
+ice_d,car,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.609898
+ice_d,car,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.55434
+ice_d,car,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.546005
+ice_d,car,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.572666
+ice_d,car,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.601387
+ice_d,car,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.608768
+ice_d,car,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.612816
+ice_d,car,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.721722
+ice_d,car,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.685192
+ice_d,car,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.671253
+ice_d,car,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.642117
+ice_d,car,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.592323
+ice_d,car,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.501751
+ice_d,car,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.40432
+ice_d,car,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.352081
+ice_d,car,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.235485
+ice_d,car,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.156193
+ice_d,car,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.302288
+ice_d,car,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : conventional cars : tdi diesel,55.211716
+bev,lt,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2050,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : electric-diesel hybrid,0.0
+ethanol_flex_fuel,lt,efficiency,2022,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,31.966473
+ethanol_flex_fuel,lt,efficiency,2023,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,32.779987
+ethanol_flex_fuel,lt,efficiency,2024,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,33.299873
+ethanol_flex_fuel,lt,efficiency,2025,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,34.64035
+ethanol_flex_fuel,lt,efficiency,2026,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,35.296001
+ethanol_flex_fuel,lt,efficiency,2027,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,35.667622
+ethanol_flex_fuel,lt,efficiency,2028,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,36.691807
+ethanol_flex_fuel,lt,efficiency,2029,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,36.792664
+ethanol_flex_fuel,lt,efficiency,2030,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,36.83437
+ethanol_flex_fuel,lt,efficiency,2031,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,36.903015
+ethanol_flex_fuel,lt,efficiency,2032,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,37.012318
+ethanol_flex_fuel,lt,efficiency,2033,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,37.17284
+ethanol_flex_fuel,lt,efficiency,2034,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,37.345722
+ethanol_flex_fuel,lt,efficiency,2035,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,37.546238
+ethanol_flex_fuel,lt,efficiency,2036,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,37.715714
+ethanol_flex_fuel,lt,efficiency,2037,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,37.871662
+ethanol_flex_fuel,lt,efficiency,2038,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.007816
+ethanol_flex_fuel,lt,efficiency,2039,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.191891
+ethanol_flex_fuel,lt,efficiency,2040,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.253666
+ethanol_flex_fuel,lt,efficiency,2041,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.310345
+ethanol_flex_fuel,lt,efficiency,2042,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.350475
+ethanol_flex_fuel,lt,efficiency,2043,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.373413
+ethanol_flex_fuel,lt,efficiency,2044,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.350491
+ethanol_flex_fuel,lt,efficiency,2045,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.336029
+ethanol_flex_fuel,lt,efficiency,2046,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.317223
+ethanol_flex_fuel,lt,efficiency,2047,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.299507
+ethanol_flex_fuel,lt,efficiency,2048,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.282127
+ethanol_flex_fuel,lt,efficiency,2049,ref2023,mpg gas equiv,20_usa,light-duty fuel economy : alternative-fuel light trucks : ethanol-flex fuel ice,38.408054

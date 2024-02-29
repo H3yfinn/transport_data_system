@@ -1,0 +1,72 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,1270.23291
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,1063.931763
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,918.241943
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,841.153137
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,801.37915
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,776.07074
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,749.598755
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,721.813721
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,703.736328
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,692.526367
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,681.70105
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,670.38562
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,658.855469
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,647.0
+bev,,,2037,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,635.423157
+bev,,,2038,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,624.076599
+bev,,,2039,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,612.573669
+bev,,,2040,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,601.613037
+bev,,,2041,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,590.554382
+bev,,,2042,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,578.982361
+bev,,,2043,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,567.567932
+bev,,,2044,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,555.824524
+bev,,,2045,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,544.067322
+bev,,,2046,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,532.551758
+bev,,,2047,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,521.18811
+bev,,,2048,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,509.769623
+bev,,,2049,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,498.398743
+bev,,,2050,ref2023,2022 $/kw,5-0,electricity capital costs : renewables : diurnal storage,487.426941
+,,,2022,ref2023,millions,20_usa,air travel : drivers : population : brazil,215.502502
+,,,2023,ref2023,millions,20_usa,air travel : drivers : population : brazil,216.787003
+,,,2024,ref2023,millions,20_usa,air travel : drivers : population : brazil,218.005798
+,,,2025,ref2023,millions,20_usa,air travel : drivers : population : brazil,219.159805
+,,,2026,ref2023,millions,20_usa,air travel : drivers : population : brazil,220.245499
+,,,2027,ref2023,millions,20_usa,air travel : drivers : population : brazil,221.264801
+,,,2028,ref2023,millions,20_usa,air travel : drivers : population : brazil,222.220306
+,,,2029,ref2023,millions,20_usa,air travel : drivers : population : brazil,223.115005
+,,,2030,ref2023,millions,20_usa,air travel : drivers : population : brazil,223.951797
+,,,2031,ref2023,millions,20_usa,air travel : drivers : population : brazil,224.729996
+,,,2032,ref2023,millions,20_usa,air travel : drivers : population : brazil,225.447495
+,,,2033,ref2023,millions,20_usa,air travel : drivers : population : brazil,226.105301
+,,,2034,ref2023,millions,20_usa,air travel : drivers : population : brazil,226.704498
+,,,2035,ref2023,millions,20_usa,air travel : drivers : population : brazil,227.246506
+,,,2036,ref2023,millions,20_usa,air travel : drivers : population : brazil,227.728302
+,,,2037,ref2023,millions,20_usa,air travel : drivers : population : brazil,228.150299
+,,,2038,ref2023,millions,20_usa,air travel : drivers : population : brazil,228.515503
+,,,2039,ref2023,millions,20_usa,air travel : drivers : population : brazil,228.827301
+,,,2040,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.087006
+,,,2041,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.292999
+,,,2042,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.443802
+,,,2043,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.542999
+,,,2044,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.595306
+,,,2045,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.600006
+,,,2046,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.541
+,,,2047,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.420807
+,,,2048,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.266296
+,,,2049,ref2023,millions,20_usa,air travel : drivers : population : brazil,229.106995
+,,,2050,ref2023,millions,20_usa,air travel : drivers : population : brazil,228.962997
+,,,2026,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.869581
+,,,2023,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.950808
+,,,2024,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.865932
+,,,2025,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.833019
+,,,2027,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.926399
+,,,2028,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",10.979715
+,,,2029,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.012056
+,,,2030,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.02863
+,,,2031,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.032684
+,,,2032,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.053961
+,,,2033,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.096717
+,,,2034,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.163212
+,,,2035,ref2023,millions,1-4,"industrial macroeconomic : employment, nonfarm",11.217059

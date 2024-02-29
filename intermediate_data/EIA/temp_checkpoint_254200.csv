@@ -1,0 +1,16 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,0.0
+bev,,,2023,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1914.66272
+bev,,,2024,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1770.537476
+bev,,,2025,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1686.991943
+bev,,,2026,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1645.485596
+bev,,,2027,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1624.628174
+bev,,,2028,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1609.649658
+bev,,,2029,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1594.759399
+bev,,,2030,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1579.182007
+bev,,,2031,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1562.642334
+bev,,,2032,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1547.839844
+bev,,,2033,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1533.845093
+bev,,,2034,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1518.692017
+bev,,,2035,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1502.98291
+bev,,,2036,ref2023,2022 $/kw,5-0,electricity capital costs : distributed generation : base,1486.45105

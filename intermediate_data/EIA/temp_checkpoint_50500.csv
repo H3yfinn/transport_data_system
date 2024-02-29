@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : lubricants,6.065
+ice_g,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.03513
+ice_g,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.038594
+ice_g,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.037381
+ice_g,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.036164
+ice_g,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.034097
+ice_g,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.033101
+ice_g,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.032113
+ice_g,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.031125
+ice_g,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.030226
+ice_g,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.029317
+ice_g,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.028415
+ice_g,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.02752
+ice_g,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.02663
+ice_g,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.025746
+ice_g,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.024862
+ice_g,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.023974
+ice_g,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.023084
+ice_g,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.0222
+ice_g,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.051711
+ice_g,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.050536
+ice_g,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.049363
+ice_g,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.048181
+ice_g,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.046995
+ice_g,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.045806
+ice_g,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.044614
+ice_g,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.043417
+ice_g,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.042216
+ice_g,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.041012
+ice_g,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline average,5.039805
+ice_g,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.051239
+ice_g,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.049952
+ice_g,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.048665
+ice_g,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.047375
+ice_g,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.046085
+ice_g,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.044794
+ice_g,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.043502
+ice_g,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.042209
+ice_g,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.040914
+ice_g,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.039618
+ice_g,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.038322
+ice_g,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.037026
+ice_g,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.03573
+ice_g,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.034434
+ice_g,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.033323
+ice_g,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.032218
+ice_g,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.03115
+ice_g,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.030091
+ice_g,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.029032
+ice_g,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.028083
+ice_g,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.027124
+ice_g,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.026171
+ice_g,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.025226
+ice_g,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.024285
+ice_g,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.023351
+ice_g,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.022417
+ice_g,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.021479
+ice_g,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.020539
+ice_g,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : motor gasoline : conventional,5.019606
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : other petroleum,5.8

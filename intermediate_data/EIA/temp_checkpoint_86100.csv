@@ -1,0 +1,58 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2022,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,31.701138
+,,,2023,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,32.211105
+,,,2024,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,30.498184
+,,,2025,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,30.021414
+,,,2026,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,29.440449
+,,,2027,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,28.913553
+,,,2028,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,28.51783
+,,,2029,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,28.149675
+,,,2030,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,27.808712
+,,,2031,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,27.477932
+,,,2032,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,27.20153
+,,,2033,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.968481
+,,,2034,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.772923
+,,,2035,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.608475
+,,,2036,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.456242
+,,,2037,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.316311
+,,,2038,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.202559
+,,,2039,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,26.059149
+,,,2040,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.961683
+,,,2041,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.857027
+,,,2042,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.758709
+,,,2043,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.637835
+,,,2044,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.536451
+,,,2045,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.425934
+,,,2046,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.304346
+,,,2047,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.213051
+,,,2048,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,25.108212
+,,,2049,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,24.987862
+,,,2050,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : distillate fuel oil,24.913168
+bev,,,2022,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,481.16272
+bev,,,2023,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,473.020081
+bev,,,2024,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,468.402344
+bev,,,2025,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,465.855377
+bev,,,2026,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,467.151245
+bev,,,2027,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,470.697815
+bev,,,2028,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,474.553284
+bev,,,2029,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,477.664795
+bev,,,2030,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,479.424744
+bev,,,2031,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,481.126648
+bev,,,2032,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,484.272461
+bev,,,2033,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,486.372528
+bev,,,2034,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,489.871094
+bev,,,2035,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,494.570404
+bev,,,2036,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,497.45282
+bev,,,2037,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,500.885376
+bev,,,2038,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,505.286102
+bev,,,2039,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,507.871918
+bev,,,2040,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,513.377869
+bev,,,2041,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,519.174744
+bev,,,2042,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,525.022827
+bev,,,2043,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,530.568726
+bev,,,2044,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,535.669434
+bev,,,2045,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,541.677551
+bev,,,2046,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,552.397705
+bev,,,2047,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,558.882996
+bev,,,2048,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,564.675598
+bev,,,2049,ref2023,trillion btu,20_usa,other manufacturing : balance of manufacturing : use : purchased electricity,569.759888

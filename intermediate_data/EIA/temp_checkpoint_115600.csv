@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,car,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+lpg,car,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel cars : propane ice,0.0
+bev,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+ethanol_flex_fuel,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,97.975632
+ethanol_flex_fuel,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,137.195465
+ethanol_flex_fuel,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,102.396866
+ethanol_flex_fuel,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,107.670074
+ethanol_flex_fuel,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,112.335747
+ethanol_flex_fuel,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,114.480133
+ethanol_flex_fuel,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,114.707611
+ethanol_flex_fuel,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,114.843849
+ethanol_flex_fuel,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,115.617477
+ethanol_flex_fuel,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,115.360405
+ethanol_flex_fuel,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,115.324371
+ethanol_flex_fuel,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,115.233521
+ethanol_flex_fuel,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,115.180016
+ethanol_flex_fuel,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,115.78656
+ethanol_flex_fuel,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,117.082176
+ethanol_flex_fuel,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,118.387558
+ethanol_flex_fuel,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,119.784828
+ethanol_flex_fuel,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,121.377831
+ethanol_flex_fuel,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,122.802498
+ethanol_flex_fuel,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,124.487411
+ethanol_flex_fuel,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,125.57402
+ethanol_flex_fuel,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,126.727165
+ethanol_flex_fuel,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,127.919655
+ethanol_flex_fuel,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,128.931488
+ethanol_flex_fuel,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,130.741165
+ethanol_flex_fuel,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,131.884537
+ethanol_flex_fuel,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,133.223083
+ethanol_flex_fuel,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,134.033508
+ethanol_flex_fuel,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,135.549683
+bev,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,37.296288
+bev,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,39.102524
+bev,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,41.305428
+bev,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,43.376812
+bev,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,44.561203
+bev,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,45.045021
+bev,lt,sales,2028,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,45.519054
+bev,lt,sales,2029,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,46.267311
+bev,lt,sales,2030,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,46.621571
+bev,lt,sales,2031,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,47.067921
+bev,lt,sales,2032,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,47.492344
+bev,lt,sales,2033,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,47.939545
+bev,lt,sales,2034,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,48.665665
+bev,lt,sales,2035,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,49.692074
+bev,lt,sales,2036,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,50.747635
+bev,lt,sales,2037,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,51.84573
+bev,lt,sales,2038,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,53.052174
+bev,lt,sales,2039,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,54.205021
+bev,lt,sales,2040,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,55.481575
+bev,lt,sales,2041,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,56.500191
+bev,lt,sales,2042,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,57.560112
+bev,lt,sales,2043,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,58.646866
+bev,lt,sales,2044,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,59.661129
+bev,lt,sales,2045,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,61.050877
+bev,lt,sales,2046,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,62.110481
+bev,lt,sales,2047,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,63.303482
+bev,lt,sales,2048,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,64.26046
+bev,lt,sales,2049,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,65.571259
+bev,lt,sales,2050,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : electric-gasoline hybrid,66.969986
+fcev,lt,sales,2022,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : fuel cell hydrogen,0.002034
+fcev,lt,sales,2023,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : fuel cell hydrogen,0.004225
+fcev,lt,sales,2024,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : fuel cell hydrogen,0.006628
+fcev,lt,sales,2025,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : fuel cell hydrogen,0.00918
+fcev,lt,sales,2026,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : fuel cell hydrogen,0.011653
+fcev,lt,sales,2027,ref2023,thousands,20_usa,fleet vehicle sales : alternative-fuel light trucks : fuel cell hydrogen,0.013968

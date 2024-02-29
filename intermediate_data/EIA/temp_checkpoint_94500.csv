@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,176.024094
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,177.948212
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,178.12326
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,177.997803
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,178.811768
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,181.244278
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,182.930435
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,184.760498
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,187.070374
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,188.867737
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,189.678253
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,190.733688
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,191.290649
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,192.613388
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,194.308105
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,196.146957
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,197.458588
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,198.224396
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,199.408295
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,201.73613
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,203.732971
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,205.312378
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,206.766159
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : purchased electricity,208.814301
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,370.932007
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,373.188354
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,375.799927
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,378.570496
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,382.398987
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,386.841949
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,390.526672
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,393.215881
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,396.103729
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,399.51947
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,404.274414
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,408.321686
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,412.123291
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,416.710938
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,318.992126
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,335.154907
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,340.786743
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,338.701538
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,339.369781
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,345.841888
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,349.616333
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,349.574768
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,348.959045
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,349.949829
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,354.060974
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,357.156372
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,360.381653
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,364.464142
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : total,368.716858
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,146.460052
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,151.134094
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,157.366058
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,157.955048
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,159.806839
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,163.632019
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,165.624786
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,165.474548
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,165.045105
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,165.245026
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,166.885406
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,168.23848
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,169.577972
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,171.282761
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,173.684326
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,175.063751
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,176.206329
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,178.251678
+,,,2040,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,179.64003
+,,,2041,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,181.722458
+,,,2042,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,184.278839
+,,,2043,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,186.648422
+,,,2044,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,188.563004
+,,,2045,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,190.253967
+,,,2046,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,191.323929
+,,,2047,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,194.052719
+,,,2048,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,196.509262
+,,,2049,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,198.859634
+,,,2050,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : natural gas,201.371704
+,,,2022,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2023,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2024,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2025,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2026,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2027,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2028,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2029,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2030,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2031,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2032,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2033,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2034,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2035,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2036,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2037,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2038,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0
+,,,2039,ref2023,trillion btu,20_usa,metal-based durables : transportation equipment : use : petroleum coke,0.0

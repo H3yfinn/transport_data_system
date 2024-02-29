@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.028458
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.015853
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.998264
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.983273
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.974049
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.96997
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.971485
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.976365
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.982494
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.985731
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,0.999589
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.005095
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.013009
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.023871
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.037931
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.052706
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.064679
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.079152
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.092473
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.103799
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.11737
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : propane,1.133262
+bev,,,2022,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2023,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2024,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : renewables,0.0
+bev,,,2022,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2023,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2024,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2042,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2043,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2044,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2045,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2046,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2047,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2048,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2049,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2050,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : residual fuel oil,0.0
+bev,,,2022,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2023,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2024,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2025,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2026,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2027,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2028,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2029,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2030,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2031,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2032,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2033,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2034,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2035,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2036,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2037,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2038,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2039,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2040,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0
+bev,,,2041,ref2023,trillion btu,20_usa,metal-based durables : electrical equipment : use : steam coal,0.0

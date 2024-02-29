@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,lt,,2037,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,117.934776
+,lt,,2038,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,119.263252
+,lt,,2039,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,120.517143
+,lt,,2040,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,121.965698
+,lt,,2041,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,123.543205
+,lt,,2042,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,125.055435
+,lt,,2043,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,126.490196
+,lt,,2044,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,127.831902
+,lt,,2045,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,129.148026
+,lt,,2046,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,130.647919
+,lt,,2047,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,132.255341
+,lt,,2048,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,133.719238
+,lt,,2049,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,135.169113
+,lt,,2050,ref2023,billion vehicle mile,20_usa,transportation : travel indicators : commercial light trucks,137.065033
+fcev,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,76.600555
+fcev,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,74.997757
+fcev,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,73.438171
+fcev,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,71.673073
+fcev,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,70.322021
+fcev,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,68.987579
+fcev,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,67.632584
+fcev,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,66.480949
+fcev,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,65.385414
+fcev,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,64.346779
+fcev,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,63.356583
+fcev,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,62.408596
+fcev,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,61.461487
+fcev,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,60.559734
+fcev,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,59.697449
+fcev,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,58.881203
+fcev,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,58.108551
+fcev,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,57.373501
+fcev,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,56.678352
+fcev,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,56.016907
+fcev,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,55.387043
+fcev,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,54.787891
+fcev,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,54.220524
+fcev,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,53.676308
+fcev,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,53.161152
+fcev,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,52.667519
+fcev,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,52.197006
+fcev,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,51.753216
+fcev,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : compact car,51.307152
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : jet fuel - kerosene,5.67
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.572606
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.597443
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.595406
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.595317
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.595244
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.595073
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594945
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594821
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594671
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594597
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594531
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.59447
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594379
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594272
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.59422
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594141
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594086
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593991
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593964
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593852
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593757
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593641
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593558
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.59345
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593437
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593347
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.594541
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : crude oil : exports,5.593982

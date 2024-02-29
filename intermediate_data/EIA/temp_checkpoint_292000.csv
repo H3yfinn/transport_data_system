@@ -1,0 +1,87 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.254025
+bev,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.273621
+bev,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.208359
+bev,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.464943
+bev,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.396282
+bev,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.421471
+bev,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.725174
+bev,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.729725
+bev,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.724667
+bev,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.722992
+bev,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.770657
+bev,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.805321
+bev,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.825382
+bev,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.861942
+bev,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.899483
+bev,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.937866
+bev,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,34.968342
+bev,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.01965
+bev,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.053349
+bev,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.089485
+bev,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.125671
+bev,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.163265
+bev,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.182186
+bev,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.207371
+bev,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.224892
+bev,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.249458
+bev,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.274616
+bev,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.35218
+bev,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : gasoline-electric hybrid : small crossover car,35.351131
+,,,2022,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.108319
+,,,2023,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.104861
+,,,2024,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.100737
+,,,2025,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.098038
+,,,2029,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.089605
+,,,2026,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.095774
+,,,2027,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.09352
+,,,2028,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.091458
+,,,2030,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.087733
+,,,2031,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.084814
+,,,2032,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.081497
+,,,2033,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.078681
+,,,2034,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.076203
+,,,2035,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.0738
+,,,2036,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.071323
+,,,2037,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.068832
+,,,2038,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.066507
+,,,2039,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.064779
+,,,2040,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.063222
+,,,2041,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.061688
+,,,2042,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.06027
+,,,2043,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.058952
+,,,2044,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.05768
+,,,2045,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.056451
+,,,2046,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.055178
+,,,2047,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.053942
+,,,2048,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.052732
+,,,2049,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.051517
+,,,2050,ref2023,millions,20_usa,macro indicators : employment : manufacturing : petroleum and coal products,0.050323
+fcev,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,80.6754
+fcev,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,78.820198
+fcev,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,76.984863
+fcev,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,75.288292
+fcev,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,73.753296
+fcev,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,72.239601
+fcev,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,70.848503
+fcev,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,69.588989
+fcev,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,68.419838
+fcev,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,67.30854
+fcev,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,66.246582
+fcev,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,65.244324
+fcev,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,64.219536
+fcev,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,63.227108
+fcev,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,62.27684
+fcev,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,61.372059
+fcev,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,60.509415
+fcev,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,59.686829
+fcev,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,58.904892
+fcev,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,58.16106
+fcev,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,57.45179
+fcev,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,56.775173
+fcev,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,56.127342
+fcev,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,55.508976
+fcev,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,54.918842
+fcev,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,54.355568
+fcev,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,53.817966
+fcev,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : fuel cell hydrogen : small van,53.312313

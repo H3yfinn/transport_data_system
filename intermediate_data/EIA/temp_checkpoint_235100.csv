@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2035,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.108275
+bev,,,2036,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.166492
+bev,,,2037,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.258908
+bev,,,2038,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.449325
+bev,,,2039,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.351752
+bev,,,2040,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.534905
+bev,,,2041,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.667807
+bev,,,2042,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.663431
+bev,,,2043,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.654199
+bev,,,2044,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.616009
+bev,,,2045,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.50851
+bev,,,2046,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.520683
+bev,,,2047,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.540266
+bev,,,2048,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.52036
+bev,,,2049,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.525763
+bev,,,2050,ref2023,2022 $/mmbtu,5-20,electricity : fuel prices : natural gas,4.559991
+bev,,,2022,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.59905
+bev,,,2023,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,5.58006
+bev,,,2024,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,4.600584
+bev,,,2025,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,4.158237
+bev,,,2026,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,3.83319
+bev,,,2027,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,3.635159
+bev,,,2028,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,3.608066
+bev,,,2029,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,3.595198
+bev,,,2030,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,3.749526
+bev,,,2031,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,3.943406
+bev,,,2032,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,4.237285
+bev,,,2033,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,4.494178
+bev,,,2034,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,4.806519
+bev,,,2035,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,5.096213
+bev,,,2036,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,5.263315
+bev,,,2037,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,5.515646
+bev,,,2038,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,5.872004
+bev,,,2039,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,5.874918
+bev,,,2040,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.147328
+bev,,,2041,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.494154
+bev,,,2042,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.649775
+bev,,,2043,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.748558
+bev,,,2044,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.803128
+bev,,,2045,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,6.847336
+bev,,,2046,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,7.085413
+bev,,,2047,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,7.291535
+bev,,,2048,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,7.468136
+bev,,,2049,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,7.656278
+bev,,,2050,ref2023,nom $/mmbtu,5-23,electricity : fuel prices : natural gas,7.926221
+bev,,,2022,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,6.59905
+bev,,,2023,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,5.358546
+bev,,,2024,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.312687
+bev,,,2025,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.81506
+bev,,,2026,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.443422
+bev,,,2027,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.196476
+bev,,,2028,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.105558
+bev,,,2029,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.028073
+bev,,,2030,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.089102
+bev,,,2031,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.176161
+bev,,,2050,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.134081
+bev,,,2032,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.336389
+bev,,,2033,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.456799
+bev,,,2034,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.610547
+bev,,,2035,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.740568
+bev,,,2036,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.776245
+bev,,,2037,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.870647
+bev,,,2038,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.031584
+bev,,,2039,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,3.946904
+bev,,,2040,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.039824
+bev,,,2041,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.174156
+bev,,,2042,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.179774
+bev,,,2043,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.146808
+bev,,,2044,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.085989
+bev,,,2045,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.018896
+bev,,,2046,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.062778
+bev,,,2047,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.083942
+bev,,,2048,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.084933
+bev,,,2049,ref2023,2022 $/mmbtu,5-23,electricity : fuel prices : natural gas,4.089684
+bev,,,2022,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,7.318232
+bev,,,2023,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,5.590406
+bev,,,2024,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,4.490167
+bev,,,2025,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.887266
+bev,,,2026,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.482379
+bev,,,2027,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.224241
+bev,,,2028,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.01422
+bev,,,2029,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,2.984246
+bev,,,2030,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.077947
+bev,,,2031,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.126475
+bev,,,2032,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.239092
+bev,,,2033,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.377021
+bev,,,2034,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.49927
+bev,,,2035,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.598784
+bev,,,2036,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.622227
+bev,,,2037,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.678478
+bev,,,2038,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.827861
+bev,,,2039,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.798983
+bev,,,2040,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.961716
+bev,,,2041,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,4.031367
+bev,,,2042,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,4.043269
+bev,,,2043,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.9997
+bev,,,2044,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.997393
+bev,,,2045,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.979771
+bev,,,2046,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.941093
+bev,,,2047,ref2023,2022 $/mcf,20_usa,natural gas delivered : electric power : west north central,3.886697

@@ -1,0 +1,9 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.567952
+lpg,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.639597
+lpg,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.52204
+lpg,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.380678
+lpg,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.279161
+lpg,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.208738
+lpg,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.176378
+lpg,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.168773

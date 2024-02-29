@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2041,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.72168
+bev,,,2042,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.729637
+bev,,,2043,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.738302
+bev,,,2044,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.74337
+bev,,,2045,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.749152
+bev,,,2046,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.754811
+bev,,,2047,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.764394
+bev,,,2048,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.770418
+bev,,,2049,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.777652
+bev,,,2050,ref2023,bkwh,5-23,renewable energy : all sectors : electricity generation : wood and other biomass,2.788556
+bev,,,2022,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2023,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2024,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2025,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2026,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2027,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2028,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2029,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2030,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2031,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2032,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2033,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2034,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2038,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2035,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2036,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2037,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2039,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2040,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2041,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2042,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2043,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2044,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2045,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2046,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2047,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2048,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2049,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2050,ref2023,bkwh,5-2,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2022,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,15.805766
+bev,,,2023,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,16.180296
+bev,,,2024,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,16.138309
+bev,,,2025,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,16.261751
+bev,,,2026,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,20.548002
+bev,,,2027,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,41.544731
+bev,,,2028,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,46.633224
+bev,,,2029,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,59.435394
+bev,,,2030,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,82.038956
+bev,,,2031,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,87.889038
+bev,,,2032,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,100.486282
+bev,,,2033,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,113.809669
+bev,,,2034,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,123.279625
+bev,,,2035,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,126.695625
+bev,,,2036,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,129.25119
+bev,,,2037,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,130.466019
+bev,,,2038,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,131.282562
+bev,,,2039,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,131.57489
+bev,,,2040,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,131.904251
+bev,,,2041,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,132.45929
+bev,,,2042,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,133.238937
+bev,,,2043,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,134.099442
+bev,,,2044,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,134.970718
+bev,,,2045,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,135.898758
+bev,,,2046,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,136.675018
+bev,,,2047,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,138.059723
+bev,,,2048,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,139.147858
+bev,,,2049,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,140.07518
+bev,,,2050,ref2023,bkwh,5-4,renewable energy : all sectors : electricity generation : wind,141.426163
+bev,,,2022,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,10.010612
+bev,,,2023,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,10.756781
+bev,,,2024,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,10.580194
+bev,,,2025,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,15.105005
+bev,,,2026,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,19.197798
+bev,,,2027,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,19.924723
+bev,,,2028,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,19.924913
+bev,,,2029,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,22.811514
+bev,,,2030,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,24.188711
+bev,,,2031,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,26.515707
+bev,,,2032,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,27.661423
+bev,,,2033,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,27.794468
+bev,,,2034,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,27.776819
+bev,,,2035,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,28.387875
+bev,,,2036,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,31.367935
+bev,,,2037,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,33.120445
+bev,,,2038,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,34.356007
+bev,,,2039,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,34.624786
+bev,,,2040,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,34.636108
+bev,,,2041,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,34.681419
+bev,,,2042,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,34.727276
+bev,,,2043,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,35.332401
+bev,,,2044,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,40.065098
+bev,,,2045,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,46.998146
+bev,,,2046,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,48.58429
+bev,,,2047,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,48.609467
+bev,,,2048,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,50.485321
+bev,,,2049,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,52.174622
+bev,,,2050,ref2023,bkwh,5-5,renewable energy : all sectors : electricity generation : wind,54.422619
+bev,,,2022,ref2023,bkwh,5-6,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2023,ref2023,bkwh,5-6,renewable energy : all sectors : electricity generation : wind,0.0
+bev,,,2024,ref2023,bkwh,5-6,renewable energy : all sectors : electricity generation : wind,0.0

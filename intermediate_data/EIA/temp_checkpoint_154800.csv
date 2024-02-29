@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+fcev,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.488091
+fcev,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.481514
+fcev,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.481514
+fcev,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,51.829342
+fcev,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,51.839432
+fcev,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,52.000256
+fcev,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,52.671711
+fcev,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,52.743317
+fcev,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,52.922035
+fcev,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.353233
+fcev,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.345409
+fcev,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.33799
+fcev,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.3396
+fcev,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.375984
+fcev,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : subcompact car,53.410191
+fcev,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+fcev,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : subcompact car,0.0
+bev,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.142952
+bev,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.262421
+bev,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.380718
+bev,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.49435
+bev,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.609035
+bev,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.714882
+bev,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.881287
+bev,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.9118
+bev,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.947784
+bev,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.973202
+bev,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.970581
+bev,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.89307
+bev,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,49.656841
+bev,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,49.99979
+bev,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,50.399509
+bev,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,51.915817
+bev,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,51.993382
+bev,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,52.262623
+bev,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,53.900295
+bev,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.160404
+bev,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.235203
+bev,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.198421
+bev,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.169373
+bev,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.627258
+bev,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.828636
+bev,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.767586
+bev,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.689426
+bev,car,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.802856
+bev,car,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : subcompact car,54.723755
+ice_g,car,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,35.47961
+ice_g,car,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,34.988373
+ice_g,car,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,35.991631
+ice_g,car,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,37.248642
+ice_g,car,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,37.258881
+ice_g,car,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,37.639381
+ice_g,car,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.16589
+ice_g,car,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.173023
+ice_g,car,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.182842
+ice_g,car,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.211025
+ice_g,car,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.2757
+ice_g,car,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.405724
+ice_g,car,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.56675
+ice_g,car,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,39.796223
+ice_g,car,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.009148
+ice_g,car,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.183842
+ice_g,car,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.342365
+ice_g,car,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.572601
+ice_g,car,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.618614
+ice_g,car,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.673504
+ice_g,car,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.707031
+ice_g,car,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.715706
+ice_g,car,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.658226
+ice_g,car,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.608753
+ice_g,car,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.563358
+ice_g,car,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.503765
+ice_g,car,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : subcompact car,40.462059

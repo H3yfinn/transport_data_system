@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+phev_d,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+phev_d,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : diesel-electric hybrid : small pickup,0.0
+ethanol_flex_fuel,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,31.93214
+ethanol_flex_fuel,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,33.231014
+ethanol_flex_fuel,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,33.863789
+ethanol_flex_fuel,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,35.64846
+ethanol_flex_fuel,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,36.411568
+ethanol_flex_fuel,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,36.89463
+ethanol_flex_fuel,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.221416
+ethanol_flex_fuel,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.335552
+ethanol_flex_fuel,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.430046
+ethanol_flex_fuel,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.476685
+ethanol_flex_fuel,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.540276
+ethanol_flex_fuel,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.72776
+ethanol_flex_fuel,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,38.897884
+ethanol_flex_fuel,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,39.113743
+ethanol_flex_fuel,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,39.306675
+ethanol_flex_fuel,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,39.511276
+ethanol_flex_fuel,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,39.746471
+ethanol_flex_fuel,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.01685
+ethanol_flex_fuel,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.128952
+ethanol_flex_fuel,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.233822
+ethanol_flex_fuel,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.318333
+ethanol_flex_fuel,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.365433
+ethanol_flex_fuel,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.359325
+ethanol_flex_fuel,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.3601
+ethanol_flex_fuel,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.352081
+ethanol_flex_fuel,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.340355
+ethanol_flex_fuel,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.330444
+ethanol_flex_fuel,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.466164
+ethanol_flex_fuel,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : ethanol flex : small pickup,40.452118
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell hydrogen : small pickup,0.0
+fcev,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0
+fcev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : fuel cell methanol : small pickup,0.0

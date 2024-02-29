@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,147.198837
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,152.938492
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,158.730743
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,164.630173
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,170.701813
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,176.940796
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,183.290512
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,189.681244
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,196.036987
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,202.342896
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,208.634064
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,214.883301
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,221.019318
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : china: regional jets,226.967133
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,9.927269
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,11.185945
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,11.666002
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,11.996092
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,13.22853
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,14.534067
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,15.89746
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,17.308926
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,18.757919
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,20.232868
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,21.725401
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,23.224907
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,24.719524
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,26.214109
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,27.721582
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,29.26877
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,30.85565
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,32.479408
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,34.134968
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,35.820602
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,37.533295
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,39.271095
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,41.028694
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,42.801788
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,44.585773
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,46.375938
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,48.166649
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,49.952206
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : india: regional jets,51.727398
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.915336
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.75796
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.810561
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.863001
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.967572
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.019721
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.071241
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.122562
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.17367
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.224634
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.275739
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.327367
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.379951
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.433577
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.488227
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.543894
+,,,2050,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,11.600548
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.544403
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.599194
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.652366
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.705219
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,6.371553
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,9.305447
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,9.961326
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.207762
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.286181
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.358179
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.424552
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : japan: regional jets,10.486486
+,,,2024,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,4.104287
+,,,2022,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,2.368829
+,,,2023,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,3.195343
+,,,2025,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,4.696469
+,,,2026,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,4.931356
+,,,2027,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,5.131535
+,,,2028,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,5.337862
+,,,2029,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,5.543259
+,,,2030,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,5.754571
+,,,2031,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,5.968172
+,,,2032,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,6.185586
+,,,2033,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,6.408988
+,,,2034,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,6.639018
+,,,2035,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,6.876587
+,,,2036,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,7.120035
+,,,2037,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,7.370493
+,,,2038,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,7.628097
+,,,2039,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,7.892268
+,,,2040,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,8.163127
+,,,2041,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,8.439787
+,,,2042,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,8.723413
+,,,2043,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,9.014404
+,,,2044,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,9.312893
+,,,2045,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,9.619158
+,,,2046,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,9.93126
+,,,2047,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,10.250947
+,,,2048,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,10.578808
+,,,2049,ref2023,billion miles,20_usa,air travel : seat miles demanded : middle east: regional jets,10.914996

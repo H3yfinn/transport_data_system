@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.081972
+lpg,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.081476
+lpg,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.077358
+lpg,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.082856
+lpg,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.105681
+lpg,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.108654
+lpg,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.116083
+lpg,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.115075
+lpg,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : propane,2.111846
+,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.304008
+,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.424212
+,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.762643
+,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.677299
+,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.737416
+,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.809325
+,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.875693
+,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,2.952776
+,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.03688
+,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.12079
+,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.210996
+,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.305326
+,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.403055
+,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.506178
+,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.599001
+,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.698856
+,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.802257
+,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,3.901801
+,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.003696
+,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.118875
+,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.218124
+,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.333658
+,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.433037
+,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.547791
+,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.702404
+,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.813231
+,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,4.956908
+,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,5.100119
+,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : residual fuel oil,5.249031
+,,,2022,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,96.768318
+,,,2023,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,97.77504
+,,,2024,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,108.769981
+,,,2025,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,103.166435
+,,,2026,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,103.280869
+,,,2027,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,103.752701
+,,,2028,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,103.957787
+,,,2029,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,104.453575
+,,,2030,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,105.083069
+,,,2031,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,105.571075
+,,,2032,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,106.188629
+,,,2033,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,106.779404
+,,,2034,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,107.364464
+,,,2035,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,108.086929
+,,,2036,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,108.450623
+,,,2037,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,109.019402
+,,,2038,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,109.642792
+,,,2039,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,110.095421
+,,,2040,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,110.506165
+,,,2041,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,111.192108
+,,,2042,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,111.356232
+,,,2043,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,111.842499
+,,,2044,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,111.825089
+,,,2045,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,112.107552
+,,,2046,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,113.247139
+,,,2047,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,113.226105
+,,,2048,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,113.876167
+,,,2049,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,114.41993
+,,,2050,ref2023,2022 $/b,20_usa,real petroleum prices : transportation : residual fuel oil,114.985016
+,,,2022,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.304008
+,,,2023,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.327977
+,,,2024,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.589761
+,,,2025,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.456344
+,,,2026,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.459068
+,,,2027,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.470302
+,,,2028,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.475185
+,,,2029,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.48699
+,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.501978
+,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.513597
+,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.528301
+,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.542367
+,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.556297
+,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.573498
+,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.582158
+,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.5957
+,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.610543
+,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.62132
+,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.631099
+,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.647431
+,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.651339
+,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.662917
+,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.662502
+,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.669227
+,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.69636
+,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.69586
+,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.711337
+,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.724284
+,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : transportation : residual fuel oil,2.737738
+bev,,,2022,ref2023,nom cents/kwh,20_usa,total energy : nominal prices : electricity,12.224998
+bev,,,2023,ref2023,nom cents/kwh,20_usa,total energy : nominal prices : electricity,12.405747
+bev,,,2024,ref2023,nom cents/kwh,20_usa,total energy : nominal prices : electricity,12.237636
+bev,,,2025,ref2023,nom cents/kwh,20_usa,total energy : nominal prices : electricity,12.022483

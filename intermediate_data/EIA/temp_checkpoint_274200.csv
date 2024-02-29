@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2043,ref2023,quads,20_usa,total energy : exports : petroleum,23.236942
+,,,2044,ref2023,quads,20_usa,total energy : exports : petroleum,23.218386
+,,,2045,ref2023,quads,20_usa,total energy : exports : petroleum,23.136253
+,,,2046,ref2023,quads,20_usa,total energy : exports : petroleum,22.799206
+,,,2047,ref2023,quads,20_usa,total energy : exports : petroleum,22.53091
+,,,2048,ref2023,quads,20_usa,total energy : exports : petroleum,22.513948
+,,,2049,ref2023,quads,20_usa,total energy : exports : petroleum,22.402639
+,,,2050,ref2023,quads,20_usa,total energy : exports : petroleum,21.931286
+,,,2022,ref2023,quads,20_usa,total energy : exports : total,27.847746
+,,,2023,ref2023,quads,20_usa,total energy : exports : total,29.129908
+,,,2024,ref2023,quads,20_usa,total energy : exports : total,31.051828
+,,,2025,ref2023,quads,20_usa,total energy : exports : total,31.632887
+,,,2026,ref2023,quads,20_usa,total energy : exports : total,32.762661
+,,,2027,ref2023,quads,20_usa,total energy : exports : total,33.564262
+,,,2028,ref2023,quads,20_usa,total energy : exports : total,34.124054
+,,,2029,ref2023,quads,20_usa,total energy : exports : total,34.711735
+,,,2030,ref2023,quads,20_usa,total energy : exports : total,35.684071
+,,,2031,ref2023,quads,20_usa,total energy : exports : total,36.538418
+,,,2032,ref2023,quads,20_usa,total energy : exports : total,37.425667
+,,,2033,ref2023,quads,20_usa,total energy : exports : total,38.082275
+,,,2034,ref2023,quads,20_usa,total energy : exports : total,38.87587
+,,,2035,ref2023,quads,20_usa,total energy : exports : total,39.520432
+,,,2036,ref2023,quads,20_usa,total energy : exports : total,39.834999
+,,,2037,ref2023,quads,20_usa,total energy : exports : total,40.025589
+,,,2038,ref2023,quads,20_usa,total energy : exports : total,40.193985
+,,,2039,ref2023,quads,20_usa,total energy : exports : total,40.316048
+,,,2040,ref2023,quads,20_usa,total energy : exports : total,40.137177
+,,,2041,ref2023,quads,20_usa,total energy : exports : total,40.197144
+,,,2042,ref2023,quads,20_usa,total energy : exports : total,40.292183
+,,,2043,ref2023,quads,20_usa,total energy : exports : total,40.293365
+,,,2044,ref2023,quads,20_usa,total energy : exports : total,40.321526
+,,,2048,ref2023,quads,20_usa,total energy : exports : total,39.57832
+,,,2045,ref2023,quads,20_usa,total energy : exports : total,40.232826
+,,,2046,ref2023,quads,20_usa,total energy : exports : total,39.863178
+,,,2047,ref2023,quads,20_usa,total energy : exports : total,39.568333
+,,,2049,ref2023,quads,20_usa,total energy : exports : total,39.43391
+,,,2050,ref2023,quads,20_usa,total energy : exports : total,38.959858
+bev,,,2022,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2023,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2024,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2025,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2026,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2027,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2028,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2029,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2030,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.19574
+bev,,,2031,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,1.076166
+bev,,,2032,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.956592
+bev,,,2033,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.837018
+bev,,,2034,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.717444
+bev,,,2035,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.59787
+bev,,,2036,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.478296
+bev,,,2037,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.358722
+bev,,,2038,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.239148
+bev,,,2039,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.119574
+bev,,,2040,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2041,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2042,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2043,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2044,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2045,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2046,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2047,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2048,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2049,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2050,ref2023,bkwh,20_usa,electricity trade : exports to canada and mexico : firm power,0.0
+bev,,,2022,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,45.207634
+bev,,,2023,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,45.207634
+bev,,,2024,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,45.122738
+bev,,,2025,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,43.267345
+bev,,,2026,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,43.046135
+bev,,,2027,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,42.817745
+bev,,,2028,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,42.559071
+bev,,,2029,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,42.293137
+bev,,,2030,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,42.024815
+bev,,,2031,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,41.620972
+bev,,,2032,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,41.217129
+bev,,,2033,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,40.81329
+bev,,,2049,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,28.861069
+bev,,,2050,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,28.741493
+bev,,,2034,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,40.156349
+bev,,,2035,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,39.466724
+bev,,,2036,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,38.769131
+bev,,,2037,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,37.904129
+bev,,,2038,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,37.069424
+bev,,,2039,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,36.021156
+bev,,,2040,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,34.914703
+bev,,,2041,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,33.94376
+bev,,,2042,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,32.853245
+bev,,,2043,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,31.762732
+bev,,,2044,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,31.010212
+bev,,,2045,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,30.418718
+bev,,,2046,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,29.843166
+bev,,,2047,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,29.442198
+bev,,,2048,ref2023,bkwh,20_usa,electricity trade : gross domestic sales : firm power,29.041225
+bev,,,2022,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,15.799711
+bev,,,2023,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,16.437441
+bev,,,2024,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,16.437441
+bev,,,2025,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,16.437441
+bev,,,2026,ref2023,bkwh,20_usa,electricity trade : imports from canada and mexico : firm power,16.437441

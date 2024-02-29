@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2048,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1250.0
+,,,2049,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1258.0
+,,,2050,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1266.0
+,,,2022,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1050.0
+,,,2022,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3000.0
+,,,2023,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2658.0
+,,,2024,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2860.0
+,,,2025,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2874.0
+,,,2026,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2887.0
+,,,2027,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2901.0
+,,,2028,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2915.0
+,,,2029,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2928.0
+,,,2030,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2942.0
+,,,2031,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2955.0
+,,,2032,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2969.0
+,,,2033,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2982.0
+,,,2034,ref2023,cdd,20_usa,residential : cooling degree days : west south central,2996.0
+,,,2035,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3009.0
+,,,2036,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3023.0
+,,,2037,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3036.0
+,,,2038,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3050.0
+,,,2039,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3063.0
+,,,2040,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3076.0
+,,,2041,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3090.0
+,,,2042,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3103.0
+,,,2043,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3117.0
+,,,2044,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3130.0
+,,,2045,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3144.0
+,,,2046,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3157.0
+,,,2047,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3170.0
+,,,2048,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3184.0
+,,,2049,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3197.0
+,,,2050,ref2023,cdd,20_usa,residential : cooling degree days : west south central,3210.0
+bev,,,2022,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,10427.895508
+bev,,,2023,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,13621.392578
+bev,,,2024,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,11297.646484
+bev,,,2025,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,9574.532227
+bev,,,2026,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,8718.830078
+bev,,,2027,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,8855.306641
+bev,,,2028,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,10068.644531
+bev,,,2029,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,10250.557617
+bev,,,2030,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,11043.314453
+bev,,,2031,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,11850.897461
+bev,,,2032,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,12802.650391
+bev,,,2033,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,13765.316406
+bev,,,2034,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,14903.182617
+bev,,,2035,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,15293.291992
+bev,,,2036,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,15932.724609
+bev,,,2037,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,16217.724609
+bev,,,2038,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,16823.498047
+bev,,,2039,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,16185.442383
+bev,,,2040,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,16817.53125
+bev,,,2041,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,17552.167969
+bev,,,2042,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,17724.509766
+bev,,,2043,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,17991.486328
+bev,,,2044,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,18770.357422
+bev,,,2045,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,18757.990234
+bev,,,2046,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,19811.654297
+bev,,,2047,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,20638.914062
+bev,,,2048,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,20734.65625
+bev,,,2049,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,21173.021484
+bev,,,2050,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : economy,21280.439453
+bev,,,2022,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3520.672852
+bev,,,2023,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3520.672852
+bev,,,2024,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3514.061035
+bev,,,2025,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3369.567139
+bev,,,2026,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3352.339844
+bev,,,2027,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3334.553955
+bev,,,2028,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3314.408447
+bev,,,2029,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3293.697998
+bev,,,2030,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3272.801758
+bev,,,2031,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3241.351074
+bev,,,2032,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3209.901367
+bev,,,2033,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3178.450439
+bev,,,2034,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3127.289795
+bev,,,2035,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3073.583252
+bev,,,2036,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,3019.256104
+bev,,,2037,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2951.89209
+bev,,,2038,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2886.886719
+bev,,,2039,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2805.25
+bev,,,2040,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2719.081787
+bev,,,2041,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2643.466797
+bev,,,2042,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2558.540039
+bev,,,2043,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2473.612793
+bev,,,2044,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2415.008301
+bev,,,2045,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2368.944092
+bev,,,2046,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2324.121582
+bev,,,2047,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2292.894775
+bev,,,2048,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2261.667969
+bev,,,2049,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2247.637695
+bev,,,2050,ref2023,million 2022 $,20_usa,electricity trade : gross domestic sales : firm power,2238.325439
+,,,2042,ref2023,hdd,20_usa,residential : heating degree days : east north central,5715.0
+,,,2043,ref2023,hdd,20_usa,residential : heating degree days : east north central,5701.0
+,,,2044,ref2023,hdd,20_usa,residential : heating degree days : east north central,5686.0
+,,,2045,ref2023,hdd,20_usa,residential : heating degree days : east north central,5671.0
+,,,2046,ref2023,hdd,20_usa,residential : heating degree days : east north central,5656.0
+,,,2047,ref2023,hdd,20_usa,residential : heating degree days : east north central,5641.0
+,,,2048,ref2023,hdd,20_usa,residential : heating degree days : east north central,5626.0
+,,,2049,ref2023,hdd,20_usa,residential : heating degree days : east north central,5611.0
+,,,2050,ref2023,hdd,20_usa,residential : heating degree days : east north central,5597.0

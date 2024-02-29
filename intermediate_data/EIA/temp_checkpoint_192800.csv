@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2046,ref2023,bkwh,5-2,electricity : end-use sectors : generation : total,16.801056
+bev,,,2047,ref2023,bkwh,5-2,electricity : end-use sectors : generation : total,17.4202
+bev,,,2048,ref2023,bkwh,5-2,electricity : end-use sectors : generation : total,18.036932
+bev,,,2049,ref2023,bkwh,5-2,electricity : end-use sectors : generation : total,18.664364
+bev,,,2050,ref2023,bkwh,5-2,electricity : end-use sectors : generation : total,19.289665
+bev,,,2022,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,3.440347
+bev,,,2023,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,3.790771
+bev,,,2024,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,4.147413
+bev,,,2025,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,4.580282
+bev,,,2026,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,4.9432
+bev,,,2027,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,5.317484
+bev,,,2028,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,5.658182
+bev,,,2029,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,6.079121
+bev,,,2030,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,6.456037
+bev,,,2031,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,6.888357
+bev,,,2032,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,7.293839
+bev,,,2033,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,7.852063
+bev,,,2034,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,8.35487
+bev,,,2035,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,8.73216
+bev,,,2036,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,9.230246
+bev,,,2037,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,9.695595
+bev,,,2038,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,10.212214
+bev,,,2039,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,10.691688
+bev,,,2040,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,11.172975
+bev,,,2041,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,11.616034
+bev,,,2042,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,12.079328
+bev,,,2043,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,12.54737
+bev,,,2044,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,13.053988
+bev,,,2045,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,13.610157
+bev,,,2046,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,14.222224
+bev,,,2047,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,14.772041
+bev,,,2048,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,15.318988
+bev,,,2049,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,15.873997
+bev,,,2050,ref2023,bkwh,5-2,renewable energy : end-use sector : electricity generation : total,16.421991
+bev,,,2022,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,8.825593
+bev,,,2023,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,9.054328
+bev,,,2024,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,9.072847
+bev,,,2025,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,9.316233
+bev,,,2026,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,9.568073
+bev,,,2027,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,9.785239
+bev,,,2028,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,10.020233
+bev,,,2029,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,10.366312
+bev,,,2030,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,10.578996
+bev,,,2031,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,10.811773
+bev,,,2032,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,11.028611
+bev,,,2033,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,11.268496
+bev,,,2034,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,11.567324
+bev,,,2035,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,11.76678
+bev,,,2036,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,12.053115
+bev,,,2037,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,12.284036
+bev,,,2038,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,12.54173
+bev,,,2039,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,12.871994
+bev,,,2040,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,13.196508
+bev,,,2041,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,13.466765
+bev,,,2042,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,13.704461
+bev,,,2043,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,13.907702
+bev,,,2044,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,14.134496
+bev,,,2045,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,14.363172
+bev,,,2046,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,14.660407
+bev,,,2047,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,14.860761
+bev,,,2048,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,15.11333
+bev,,,2049,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,15.327241
+bev,,,2050,ref2023,bkwh,5-4,electricity : end-use sectors : generation : total,15.543942
+bev,,,2022,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,1.491719
+bev,,,2023,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,1.685347
+bev,,,2024,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,1.857212
+bev,,,2025,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,2.084884
+bev,,,2026,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,2.285261
+bev,,,2027,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,2.454195
+bev,,,2028,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,2.641995
+bev,,,2029,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,2.939431
+bev,,,2030,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,3.105333
+bev,,,2031,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,3.287098
+bev,,,2032,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,3.447469
+bev,,,2033,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,3.636116
+bev,,,2034,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,3.880148
+bev,,,2035,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,4.022344
+bev,,,2036,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,4.250562
+bev,,,2037,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,4.416829
+bev,,,2038,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,4.609105
+bev,,,2039,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,4.871605
+bev,,,2040,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,5.121425
+bev,,,2041,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,5.313537
+bev,,,2042,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,5.468836
+bev,,,2043,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,5.588819
+bev,,,2044,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,5.73245
+bev,,,2045,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,5.877803
+bev,,,2046,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,6.086385
+bev,,,2047,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,6.192754
+bev,,,2048,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,6.35242
+bev,,,2049,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,6.468153
+bev,,,2050,ref2023,bkwh,5-4,renewable energy : end-use sector : electricity generation : total,6.576084
+bev,,,2022,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,1.540728
+bev,,,2023,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,1.634012
+bev,,,2024,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,1.782009
+bev,,,2025,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,1.869682
+bev,,,2026,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,1.993268
+bev,,,2027,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,2.08013
+bev,,,2028,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,2.178176
+bev,,,2029,ref2023,bkwh,5-5,electricity : end-use sectors : generation : total,2.354375

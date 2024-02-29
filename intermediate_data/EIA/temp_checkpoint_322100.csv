@@ -1,0 +1,27 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.255268
+bev,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,2.896781
+bev,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,2.944197
+bev,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,2.843261
+bev,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,2.898792
+bev,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,2.970733
+bev,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.033978
+bev,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.110919
+bev,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.195137
+bev,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.27612
+bev,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.367549
+bev,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.462022
+bev,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.559154
+bev,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.666714
+bev,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.762142
+bev,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.85957
+bev,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,3.960387
+bev,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.06017
+bev,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.153592
+bev,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.24097
+bev,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.311923
+bev,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.381974
+bev,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.435443
+bev,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.483553
+bev,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.646598
+bev,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : electric power : residual fuel oil,4.764251

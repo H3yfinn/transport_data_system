@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,273.123749
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,273.695068
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,274.638153
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,277.506836
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,278.695221
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,280.698608
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,283.362976
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,285.988678
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,290.064911
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,293.638977
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,296.832458
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,300.254639
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,304.253418
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,308.324677
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,311.608551
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,314.539093
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,317.616791
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,321.322052
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,325.113037
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,327.847473
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,330.892242
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : primary metals industry,335.559998
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,244.920639
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,242.714478
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,242.907928
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,250.14743
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,260.917786
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,267.471436
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,270.684143
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,273.123749
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,273.695068
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,274.638153
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,277.506836
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,278.695221
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,280.698608
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,283.362976
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,285.988678
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,300.254639
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,290.064911
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,293.638977
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,296.832458
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,304.253418
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,308.324677
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,311.608551
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,314.539093
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,317.616791
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,321.322052
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,325.113037
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,327.847473
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,330.892242
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : primary metals industry,335.559998
+,,,2022,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.356933
+,,,2023,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.347496
+,,,2024,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.319323
+,,,2025,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.306234
+,,,2026,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.311813
+,,,2027,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.318592
+,,,2028,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.316043
+,,,2029,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.306651
+,,,2030,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.295279
+,,,2031,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.289927
+,,,2032,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.286269
+,,,2033,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.283887
+,,,2034,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.283841
+,,,2035,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.283208
+,,,2036,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.281144
+,,,2037,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.277209
+,,,2038,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.273027
+,,,2039,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.268459
+,,,2040,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.264436
+,,,2041,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.260282
+,,,2042,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.255582
+,,,2043,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.249786
+,,,2044,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.242843
+,,,2045,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.236739
+,,,2046,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.231595
+,,,2047,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.226976
+,,,2048,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.221899
+,,,2049,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.21577
+,,,2050,ref2023,millions,20_usa,macro indicators : employment : manufacturing : primary metals industry,0.209521
+,,,2022,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,8.29039
+,,,2023,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,8.31299
+,,,2024,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,8.465723
+,,,2025,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,8.815216
+,,,2026,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,9.28542
+,,,2027,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,9.658253
+,,,2028,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,9.981666
+,,,2029,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,10.256559
+,,,2030,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,10.473624
+,,,2031,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,10.681931
+,,,2032,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,10.929802
+,,,2033,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,11.190794
+,,,2034,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,11.484966
+,,,2035,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,11.818647
+,,,2036,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,12.159954
+,,,2037,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,12.503016
+,,,2038,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,12.838902
+,,,2039,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,13.180372
+,,,2040,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,13.567498
+,,,2041,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : primary metals industry,13.968647

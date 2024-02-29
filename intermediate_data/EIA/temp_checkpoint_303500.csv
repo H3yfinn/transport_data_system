@@ -1,0 +1,86 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+phev_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+phev_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large utility,0.0
+,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,295.850494
+,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,293.190948
+,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,284.206573
+,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,282.061707
+,,,2026,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,282.773865
+,,,2027,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,281.278259
+,,,2028,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,283.832886
+,,,2029,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,283.784729
+,,,2030,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,284.515411
+,,,2031,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,284.651062
+,,,2032,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,286.641754
+,,,2033,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,285.977814
+,,,2034,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,288.838074
+,,,2035,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,289.072845
+,,,2036,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,289.114197
+,,,2037,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,290.903931
+,,,2038,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,290.847931
+,,,2039,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,292.485443
+,,,2040,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,293.15448
+,,,2041,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,293.836487
+,,,2042,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,294.59024
+,,,2043,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,295.580658
+,,,2044,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,295.415283
+,,,2045,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,296.247131
+,,,2046,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,294.950287
+,,,2047,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,295.516052
+,,,2048,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,295.15274
+,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,294.502533
+,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : petroleum subtotal,293.670654
+,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,1.171972
+,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.77745
+,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2026,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2027,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2028,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2029,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2030,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2031,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2032,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2033,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2034,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2035,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2036,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2037,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2038,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2039,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2040,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2041,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2042,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2043,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2044,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2045,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2046,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2047,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2048,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0
+,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : liquefied petroleum gases,0.0

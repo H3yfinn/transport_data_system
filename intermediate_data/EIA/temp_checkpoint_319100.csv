@@ -1,0 +1,59 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,lcv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,49.936592
+lpg,lcv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,50.283531
+lpg,lcv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,50.519325
+lpg,lcv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,50.835823
+lpg,lcv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,51.204056
+lpg,lcv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,51.35804
+lpg,lcv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,51.703869
+lpg,lcv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,51.781658
+lpg,lcv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,51.852829
+lpg,lcv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,51.922733
+lpg,lcv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.000366
+lpg,lcv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.120819
+lpg,lcv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.183327
+lpg,lcv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.251911
+lpg,lcv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.315765
+lpg,lcv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.381516
+lpg,lcv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.442669
+lpg,lcv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.523235
+lpg,lcv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.563965
+lpg,lcv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.605049
+lpg,lcv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.640327
+lpg,lcv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.671356
+lpg,lcv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.682648
+lpg,lcv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.700851
+lpg,lcv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.711853
+lpg,lcv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.727882
+lpg,lcv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.742733
+lpg,lcv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.813759
+lpg,lcv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : propane : large van,52.819153
+,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0
+,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : natural gas bi-fuel : small crossover car,0.0

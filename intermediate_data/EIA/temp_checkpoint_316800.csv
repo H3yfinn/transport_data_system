@@ -1,0 +1,92 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_g,,,2022,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.183997
+ice_g,,,2023,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.819378
+ice_g,,,2024,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.546643
+ice_g,,,2025,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.381871
+ice_g,,,2026,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.416535
+ice_g,,,2027,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.468658
+ice_g,,,2028,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.544447
+ice_g,,,2029,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.627688
+ice_g,,,2030,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.7207
+ice_g,,,2031,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.799535
+ice_g,,,2032,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,3.906202
+ice_g,,,2033,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.007583
+ice_g,,,2034,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.116829
+ice_g,,,2035,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.221659
+ice_g,,,2036,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.364785
+ice_g,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.468297
+ice_g,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.580369
+ice_g,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.700749
+ice_g,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.811294
+ice_g,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,4.918676
+ice_g,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,5.042183
+ice_g,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,5.136367
+ice_g,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,5.288891
+ice_g,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,5.413583
+ice_g,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,5.694739
+ice_g,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,5.828813
+ice_g,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,6.016406
+ice_g,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,6.176035
+ice_g,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : transportation : motor gasoline,6.379766
+,,,2022,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2023,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2024,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2025,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2026,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2027,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2028,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2029,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2030,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2031,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2032,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2033,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2034,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2035,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2036,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2037,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2038,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2039,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2040,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2041,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2042,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2043,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2044,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2045,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2046,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2047,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2048,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2049,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+,,,2050,ref2023,mmbtu/b,20_usa,conversion factors : petroleum products : e85,3.994413
+ice_d,lpv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,39.087269
+ice_d,lpv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,39.253021
+ice_d,lpv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,39.404705
+ice_d,lpv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,39.733772
+ice_d,lpv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,39.82196
+ice_d,lpv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,39.950466
+ice_d,lpv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.225544
+ice_d,lpv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.294697
+ice_d,lpv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.365688
+ice_d,lpv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.439072
+ice_d,lpv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.512054
+ice_d,lpv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.591026
+ice_d,lpv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.644566
+ice_d,lpv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.702312
+ice_d,lpv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.757694
+ice_d,lpv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.818726
+ice_d,lpv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.881931
+ice_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,40.95689
+ice_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.014027
+ice_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.073521
+ice_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.13105
+ice_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.187874
+ice_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.232681
+ice_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.279758
+ice_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.319469
+ice_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.366283
+ice_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.410404
+ice_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.4953
+ice_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : large car,41.517368
+ice_d,car,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : mini-compact car,0.0
+ice_d,car,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : mini-compact car,0.0
+ice_d,car,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : mini-compact car,0.0
+ice_d,car,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : turbo direct injection diesel : mini-compact car,0.0

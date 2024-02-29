@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,,,2030,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.18358
+lpg,,,2031,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.212358
+lpg,,,2032,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.253651
+lpg,,,2033,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.304405
+lpg,,,2034,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.350937
+lpg,,,2035,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.383513
+lpg,,,2036,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.405844
+lpg,,,2037,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.427125
+lpg,,,2038,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.46034
+lpg,,,2039,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.468228
+lpg,,,2040,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.495261
+lpg,,,2041,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.519424
+lpg,,,2042,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.533088
+lpg,,,2043,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.536932
+lpg,,,2044,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.534423
+lpg,,,2045,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.539093
+lpg,,,2046,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.553503
+lpg,,,2047,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.555444
+lpg,,,2048,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.562378
+lpg,,,2049,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.5619
+lpg,,,2050,ref2023,2022 $/gal,20_usa,real petroleum prices : refined petroleum product prices : propane,2.55777
+,,,2022,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1620.494873
+,,,2023,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1600.10083
+,,,2024,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1666.9198
+,,,2025,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1628.408447
+,,,2026,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1561.420654
+,,,2027,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1509.649414
+,,,2028,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1489.731201
+,,,2029,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1507.515137
+,,,2030,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1500.164917
+,,,2031,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1506.952393
+,,,2032,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1522.198242
+,,,2033,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1534.73938
+,,,2034,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1543.237427
+,,,2035,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1554.590698
+,,,2036,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1557.525391
+,,,2037,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1562.481567
+,,,2038,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1568.966064
+,,,2039,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1568.339478
+,,,2040,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1571.777466
+,,,2041,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1585.611206
+,,,2042,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1597.307007
+,,,2043,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1600.190918
+,,,2044,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1601.832764
+,,,2045,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1602.998779
+,,,2046,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1608.129395
+,,,2047,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1618.082397
+,,,2048,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1630.807983
+,,,2049,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1636.890503
+,,,2050,ref2023,billion ton miles,20_usa,transportation : travel indicators : rail,1649.469482
+,,,2022,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,93.169998
+,,,2023,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,86.620003
+,,,2024,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,95.064835
+,,,2025,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,91.230621
+,,,2026,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,93.362236
+,,,2027,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,95.906746
+,,,2028,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,98.287399
+,,,2029,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,101.109497
+,,,2030,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,103.969826
+,,,2031,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,106.68148
+,,,2032,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,109.936981
+,,,2033,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,113.10685
+,,,2034,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,116.17791
+,,,2035,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,119.597664
+,,,2036,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,123.633385
+,,,2037,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,126.946815
+,,,2038,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,130.566971
+,,,2039,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,134.157837
+,,,2040,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,138.170532
+,,,2041,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,142.142044
+,,,2042,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,146.227066
+,,,2043,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,149.632217
+,,,2044,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,153.530426
+,,,2045,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,157.636566
+,,,2046,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,162.516113
+,,,2047,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,167.210388
+,,,2048,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,172.200195
+,,,2049,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,177.441696
+,,,2050,ref2023,nom $/b,20_usa,nominal petroleum prices : crude oil : average imported cost,182.600998
+bev,,,2022,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.134762
+bev,,,2023,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.057127
+bev,,,2024,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.05386
+bev,,,2025,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.037131
+bev,,,2026,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,2.008164
+bev,,,2027,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.988704
+bev,,,2028,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.964183
+bev,,,2029,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.952749
+bev,,,2030,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.954107
+bev,,,2031,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.947204
+bev,,,2032,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.91757
+bev,,,2033,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.906071
+bev,,,2034,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.904636
+bev,,,2035,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.897833
+bev,,,2036,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.891512
+bev,,,2037,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.889286
+bev,,,2038,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.914712
+bev,,,2039,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.91035
+bev,,,2040,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.912446
+bev,,,2041,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.911104
+bev,,,2042,ref2023,2022 $/mmbtu,5-0,electricity : fuel prices : coal,1.909412

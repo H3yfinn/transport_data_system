@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : cooking,0.059404
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : cooking,0.05968
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : cooking,0.059996
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : cooking,0.060304
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : cooking,0.060601
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : cooking,0.060895
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : cooking,0.061182
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : cooking,0.061454
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : cooking,0.061714
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : cooking,0.061964
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : cooking,0.062203
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : cooking,0.062434
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : cooking,0.062659
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : cooking,0.06288
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : cooking,0.063098
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : cooking,0.063319
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : clothes washers,0.037489
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : clothes washers,0.037813
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : clothes washers,0.038144
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : clothes washers,0.038486
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : clothes washers,0.038827
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : clothes washers,0.039168
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : clothes washers,0.039519
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : clothes washers,0.039875
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : clothes washers,0.040246
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : clothes washers,0.040617
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : clothes washers,0.040992
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : clothes washers,0.041365
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : clothes washers,0.041733
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : clothes washers,0.042099
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : clothes washers,0.042465
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : clothes washers,0.042828
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : clothes washers,0.043187
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : clothes washers,0.043542
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : clothes washers,0.043898
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : clothes washers,0.044252
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : clothes washers,0.044599
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : clothes washers,0.044942
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : clothes washers,0.045282
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : clothes washers,0.045619
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : clothes washers,0.045952
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : clothes washers,0.046283
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : clothes washers,0.046611
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : clothes washers,0.046936
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : clothes washers,0.047258
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : computers,0.084848
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : computers,0.082133
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : computers,0.079493
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : computers,0.077008
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : computers,0.074726
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : computers,0.072652
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : computers,0.070825
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : computers,0.069227
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : computers,0.067875
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : computers,0.066753
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : computers,0.065956
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : computers,0.065417
+bev,,,2048,ref2023,quads,20_usa,residential : electricity : computers,0.065087
+bev,,,2049,ref2023,quads,20_usa,residential : electricity : computers,0.064993
+bev,,,2050,ref2023,quads,20_usa,residential : electricity : computers,0.065107
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : computers,0.120106
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : computers,0.118562
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : computers,0.116931
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : computers,0.115363
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : computers,0.113493
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : computers,0.111328
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : computers,0.108857
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : computers,0.106117
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : computers,0.103168
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : computers,0.100088
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : computers,0.09698
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : computers,0.093786
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : computers,0.09061
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : computers,0.087647
+bev,,,2022,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.147618
+bev,,,2023,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.046671
+bev,,,2024,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.113911
+bev,,,2025,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.157499
+bev,,,2026,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.199634
+bev,,,2027,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.245647
+bev,,,2028,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.28379
+bev,,,2029,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.31335
+bev,,,2030,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.334268
+bev,,,2031,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.351949
+bev,,,2032,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.371014
+bev,,,2033,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.391346
+bev,,,2034,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.410297
+bev,,,2035,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.442602
+bev,,,2036,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.480425
+bev,,,2037,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.521421
+bev,,,2038,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.559047
+bev,,,2039,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.597267
+bev,,,2040,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.6349
+bev,,,2041,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.674541
+bev,,,2042,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.718532
+bev,,,2043,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.765529
+bev,,,2044,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.815574
+bev,,,2045,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.868124
+bev,,,2046,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.925225
+bev,,,2047,ref2023,quads,20_usa,residential : electricity : purchased electricity,5.986255

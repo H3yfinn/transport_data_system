@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2043,ref2023,tcf,20_usa,natural gas : volumes : imports,2.261465
+,,,2044,ref2023,tcf,20_usa,natural gas : volumes : imports,2.343375
+,,,2045,ref2023,tcf,20_usa,natural gas : volumes : imports,2.416977
+,,,2046,ref2023,tcf,20_usa,natural gas : volumes : imports,2.446887
+,,,2047,ref2023,tcf,20_usa,natural gas : volumes : imports,2.473611
+,,,2048,ref2023,tcf,20_usa,natural gas : volumes : imports,2.519592
+,,,2049,ref2023,tcf,20_usa,natural gas : volumes : imports,2.535872
+,,,2050,ref2023,tcf,20_usa,natural gas : volumes : imports,2.563126
+,,,2022,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.883244
+,,,2023,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.718662
+,,,2024,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.372942
+,,,2025,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.258649
+,,,2026,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.155516
+,,,2027,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.082333
+,,,2028,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,1.967933
+,,,2029,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,1.935556
+,,,2030,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,1.967081
+,,,2031,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,1.962275
+,,,2032,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.011777
+,,,2033,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.030531
+,,,2034,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.034238
+,,,2035,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.018623
+,,,2036,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,1.974416
+,,,2037,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,1.973408
+,,,2038,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.029621
+,,,2039,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.003368
+,,,2040,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.121746
+,,,2041,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.14651
+,,,2042,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.159123
+,,,2043,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.206238
+,,,2044,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.288148
+,,,2045,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.36175
+,,,2046,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.391659
+,,,2047,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.418383
+,,,2048,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.464365
+,,,2049,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.480645
+,,,2050,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from canada,2.507899
+,,,2022,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2023,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2024,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2025,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2026,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2027,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2028,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2029,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2030,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2031,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2032,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2033,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2034,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2035,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2036,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2037,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2038,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2039,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2040,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2041,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2042,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2043,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2044,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2045,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2046,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2047,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2048,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2049,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+,,,2050,ref2023,tcf,20_usa,natural gas : volumes : imports : pipeline imports from mexico,0.0
+bev,,,2022,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,253.884369
+bev,,,2023,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,252.837463
+bev,,,2024,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,251.961746
+bev,,,2025,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,252.73291
+bev,,,2026,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,254.452942
+bev,,,2027,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,256.585205
+bev,,,2028,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,259.50943
+bev,,,2029,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,262.221313
+bev,,,2030,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,264.696472
+bev,,,2031,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,267.023651
+bev,,,2032,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,269.393829
+bev,,,2033,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,271.152039
+bev,,,2034,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,272.875244
+bev,,,2035,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,275.233521
+bev,,,2036,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,277.618622
+bev,,,2037,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,279.919373
+bev,,,2038,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,281.876221
+bev,,,2039,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,283.936981
+bev,,,2040,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,286.320068
+bev,,,2041,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,289.134125
+bev,,,2042,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,292.160217
+bev,,,2043,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,295.274139
+bev,,,2044,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,298.314819
+bev,,,2045,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,301.269836
+bev,,,2046,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,304.266724
+bev,,,2050,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,318.325317
+bev,,,2047,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,307.44632
+bev,,,2048,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,310.868622
+bev,,,2049,ref2023,bkwh,5-2,electricity : net energy for load : total net energy for load,314.442444
+bev,,,2022,ref2023,bkwh,5-4,electricity : net energy for load : total net energy for load,200.554596
+bev,,,2023,ref2023,bkwh,5-4,electricity : net energy for load : total net energy for load,199.304291
+bev,,,2024,ref2023,bkwh,5-4,electricity : net energy for load : total net energy for load,199.972397
+bev,,,2025,ref2023,bkwh,5-4,electricity : net energy for load : total net energy for load,200.831299
+bev,,,2026,ref2023,bkwh,5-4,electricity : net energy for load : total net energy for load,202.377548

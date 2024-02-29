@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,,,2035,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.189291
+bev,,,2036,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.192972
+bev,,,2037,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.195011
+bev,,,2038,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.164026
+bev,,,2039,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.173612
+bev,,,2040,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.167111
+bev,,,2041,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.169871
+bev,,,2042,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.17346
+bev,,,2043,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.170147
+bev,,,2044,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.168099
+bev,,,2045,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.168753
+bev,,,2046,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.16578
+bev,,,2047,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.161978
+bev,,,2048,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.163089
+bev,,,2049,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.160629
+bev,,,2050,ref2023,mmmt co2,1-4,carbon dioxide : electric power : petroleum,0.160347
+bev,,,2022,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.376849
+bev,,,2023,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.316557
+bev,,,2024,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.398581
+bev,,,2025,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.374523
+bev,,,2026,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.290001
+bev,,,2027,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.216926
+bev,,,2028,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.16625
+bev,,,2029,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.143577
+bev,,,2030,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.12285
+bev,,,2031,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.10895
+bev,,,2032,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.108826
+bev,,,2033,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.115625
+bev,,,2034,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.123139
+bev,,,2035,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.127849
+bev,,,2036,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.123326
+bev,,,2037,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.10104
+bev,,,2038,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.095248
+bev,,,2039,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.089282
+bev,,,2040,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.083485
+bev,,,2041,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.091679
+bev,,,2042,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.091694
+bev,,,2043,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.084809
+bev,,,2044,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.085612
+bev,,,2045,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.082896
+bev,,,2046,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.077718
+bev,,,2047,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.077127
+bev,,,2048,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.071299
+bev,,,2049,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.070808
+bev,,,2050,ref2023,mmmt co2,1-7,carbon dioxide : electric power : petroleum,0.071551
+,,,2040,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.779445
+,,,2041,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.832534
+,,,2042,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.935232
+,,,2043,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.961355
+,,,2044,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.908691
+,,,2045,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.922361
+,,,2046,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.920109
+,,,2047,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.956254
+,,,2048,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.898034
+,,,2049,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.902972
+,,,2050,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.932664
+,,,2022,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,15.618164
+,,,2023,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,14.957636
+,,,2024,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,14.6954
+,,,2025,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,14.06171
+,,,2026,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,13.431772
+,,,2027,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,12.656522
+,,,2028,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,11.851706
+,,,2029,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,11.167352
+,,,2030,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,10.594436
+,,,2031,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,10.277965
+,,,2032,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,10.088465
+,,,2033,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,10.019302
+,,,2034,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.963843
+,,,2035,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.978425
+,,,2036,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.966843
+,,,2037,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.950189
+,,,2038,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.931892
+,,,2039,ref2023,mmmt co2,20_usa,aluminum industry : carbon dioxide emissions,9.93051
+,,,2022,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,15.618164
+,,,2023,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,14.957636
+,,,2024,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,14.6954
+,,,2025,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,14.06171
+,,,2026,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,13.431772
+,,,2027,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,12.656522
+,,,2028,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,11.851706
+,,,2029,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,11.167352
+,,,2030,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,10.594436
+,,,2031,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,10.277965
+,,,2032,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,10.088465
+,,,2033,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,10.019302
+,,,2034,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.963843
+,,,2035,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.978425
+,,,2036,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.966843
+,,,2037,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.950189
+,,,2038,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.931892
+,,,2039,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.93051
+,,,2040,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.779445
+,,,2041,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.832534
+,,,2042,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.935232
+,,,2043,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.961355
+,,,2044,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.908691
+,,,2045,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.922361
+,,,2046,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.920109
+,,,2047,ref2023,mmmt co2,20_usa,carbon dioxide : industrial : manufacturing : aluminum,9.956254

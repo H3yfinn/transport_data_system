@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : compact car,73.302711
+bev,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline-electric hybrid : compact car,73.152275
+ice_g,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,48.999348
+ice_g,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,49.952591
+ice_g,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,50.470375
+ice_g,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,52.342487
+ice_g,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,52.371269
+ice_g,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,52.551289
+ice_g,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.667416
+ice_g,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.74073
+ice_g,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.663063
+ice_g,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.539555
+ice_g,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.434025
+ice_g,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.377098
+ice_g,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.367908
+ice_g,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.32048
+ice_g,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.315372
+ice_g,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.28397
+ice_g,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.305824
+ice_g,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.484234
+ice_g,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.488293
+ice_g,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.525543
+ice_g,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.537815
+ice_g,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.519512
+ice_g,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.407944
+ice_g,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.308018
+ice_g,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.223305
+ice_g,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.117947
+ice_g,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.031509
+ice_g,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.331467
+ice_g,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : gasoline : compact car,54.219757
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,48.756912
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,49.6763
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,50.123196
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,52.07975
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,52.099461
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,52.228359
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.410042
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.481182
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.403412
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.28014
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.174957
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.117695
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.058289
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.981892
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.987343
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.984459
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.017803
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.209583
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.210476
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.250587
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.262089
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.243561
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.131264
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.027069
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.94128
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.833927
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.747383
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,54.059792
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas bi-fuel : compact car,53.946838
+,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,52.359928
+,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,53.318775
+,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,53.963661
+,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,55.930008
+,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,55.94305
+,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,56.056679
+,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.429199
+,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.535633
+,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.449905
+,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.313503
+,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.187958
+,lpv,efficiency,2033,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.077663
+,lpv,efficiency,2034,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.985748
+,lpv,efficiency,2035,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.944382
+,lpv,efficiency,2036,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.890491
+,lpv,efficiency,2037,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.866978
+,lpv,efficiency,2038,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.839722
+,lpv,efficiency,2039,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.002972
+,lpv,efficiency,2040,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.995426
+,lpv,efficiency,2041,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.028259
+,lpv,efficiency,2042,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.037575
+,lpv,efficiency,2043,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,58.012138
+,lpv,efficiency,2044,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.892109
+,lpv,efficiency,2045,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.780853
+,lpv,efficiency,2046,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.689262
+,lpv,efficiency,2047,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.57333
+,lpv,efficiency,2048,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.480316
+,lpv,efficiency,2049,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.789444
+,lpv,efficiency,2050,ref2023,mpg,20_usa,new light-duty vehicle : natural gas : compact car,57.669262
+lpg,lpv,efficiency,2022,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,48.905655
+lpg,lpv,efficiency,2023,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,49.858177
+lpg,lpv,efficiency,2024,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,50.368038
+lpg,lpv,efficiency,2025,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,52.229214
+lpg,lpv,efficiency,2026,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,52.258022
+lpg,lpv,efficiency,2027,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,52.436234
+lpg,lpv,efficiency,2028,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,54.532558
+lpg,lpv,efficiency,2029,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,54.604095
+lpg,lpv,efficiency,2030,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,54.526146
+lpg,lpv,efficiency,2031,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,54.402534
+lpg,lpv,efficiency,2032,ref2023,mpg,20_usa,new light-duty vehicle : propane bi-fuel : compact car,54.297123

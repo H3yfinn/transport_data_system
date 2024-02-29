@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2033,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.55755
+,,,2034,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.611392
+,,,2035,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.658222
+,,,2036,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.688774
+,,,2037,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.725904
+,,,2038,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.757632
+,,,2039,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.776081
+,,,2040,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.807135
+,,,2041,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.83813
+,,,2042,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.862963
+,,,2043,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.887333
+,,,2044,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.906889
+,,,2045,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.923613
+,,,2046,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.942596
+,,,2047,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.964818
+,,,2048,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,2.98441
+,,,2049,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,3.001695
+,,,2050,ref2023,billion 2012 $,1-8,industrial macroeconomic : manufacturing : textile mills and products,3.024329
+,,,2023,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,65.669136
+,,,2024,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,65.001823
+,,,2025,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,65.029869
+,,,2026,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,66.256409
+,,,2027,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,67.770676
+,,,2031,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,69.699669
+,,,2028,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,68.830185
+,,,2029,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,69.285484
+,,,2030,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,69.392448
+,,,2032,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,70.340233
+,,,2033,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,70.872391
+,,,2034,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,71.188072
+,,,2035,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,71.296379
+,,,2036,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,71.216957
+,,,2037,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,70.94442
+,,,2038,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,70.524757
+,,,2039,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,69.963654
+,,,2040,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,69.602867
+,,,2041,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,69.247803
+,,,2042,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,68.801804
+,,,2043,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,68.352921
+,,,2044,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,67.758598
+,,,2045,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,67.12265
+,,,2046,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,66.56498
+,,,2047,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,66.076332
+,,,2048,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,65.540405
+,,,2049,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,64.960022
+,,,2050,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,64.499519
+,,,2022,ref2023,billion 2012 $,20_usa,macro indicators : shipments : industrial : manufacturing : textile mills and products,66.688927
+,,,2022,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,66.688927
+,,,2023,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,65.669136
+,,,2024,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,65.001823
+,,,2025,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,65.029869
+,,,2026,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,66.256409
+,,,2027,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,67.770676
+,,,2028,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,68.830185
+,,,2029,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,69.285484
+,,,2030,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,69.392448
+,,,2031,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,69.699669
+,,,2032,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,70.340233
+,,,2033,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,70.872391
+,,,2034,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,71.188072
+,,,2035,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,71.296379
+,,,2036,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,71.216957
+,,,2037,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,70.94442
+,,,2038,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,70.524757
+,,,2039,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,69.963654
+,,,2040,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,69.602867
+,,,2041,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,69.247803
+,,,2042,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,68.801804
+,,,2043,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,68.352921
+,,,2044,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,67.758598
+,,,2045,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,67.12265
+,,,2046,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,66.56498
+,,,2047,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,66.076332
+,,,2048,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,65.540405
+,,,2049,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,64.960022
+,,,2050,ref2023,billion 2012 $,1-0,industrial macroeconomic : manufacturing : textile mills and products,64.499519
+,,,2022,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.772687
+,,,2023,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.768281
+,,,2024,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.750209
+,,,2025,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.718443
+,,,2026,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.76367
+,,,2027,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.819539
+,,,2028,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.827782
+,,,2029,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.796259
+,,,2030,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.769658
+,,,2031,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.760999
+,,,2032,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.760005
+,,,2033,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.746111
+,,,2034,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.72607
+,,,2035,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.687618
+,,,2036,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.62208
+,,,2037,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.548746
+,,,2038,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.460392
+,,,2039,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.377502
+,,,2040,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.301856
+,,,2041,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.227187
+,,,2042,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.148377
+,,,2043,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,4.06886
+,,,2044,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,3.982276
+,,,2045,ref2023,billion 2012 $,1-1,industrial macroeconomic : manufacturing : textile mills and products,3.894383

@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.009148
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.183842
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.342365
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.572601
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.618614
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.673504
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.707031
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.715706
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.658226
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.608753
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.563358
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.503765
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.462059
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.647648
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : subcompact,40.588432
+,car,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,43.781582
+,car,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,44.346535
+,car,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,45.131996
+,car,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,47.248158
+,car,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,47.431843
+,car,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,47.767708
+,car,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.533123
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.712379
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.688892
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.618908
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.58456
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.57988
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.533638
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.570267
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.634277
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.726353
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.797405
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.038452
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.041134
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.094818
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.12925
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.149021
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.07996
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.0224
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.976215
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.922611
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,49.88163
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.228569
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : small crossover,50.169388
+,car,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,30.334042
+,car,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,31.296259
+,car,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,32.191891
+,car,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,33.52581
+,car,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,33.793491
+,car,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,34.25412
+,car,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,35.362324
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,35.451813
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,35.557896
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,35.612892
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,35.709614
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,35.862324
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.003555
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.20155
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.397373
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.562656
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.68087
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.852512
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.913502
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.98856
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.043598
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.077526
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.060207
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.044624
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.028355
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.005043
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,36.986824
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.143089
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional cars : two seater,37.118969
+,lt,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,32.520012
+,lt,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,33.158882
+,lt,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,33.82341
+,lt,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,35.326485
+,lt,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,35.906277
+,lt,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,36.398384
+,lt,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,37.570305
+,lt,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,37.661297
+,lt,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,37.684246
+,lt,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,37.746384
+,lt,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,37.859661
+,lt,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,38.040428
+,lt,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,38.243984
+,lt,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,38.456882
+,lt,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,38.643055
+,lt,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,38.821167
+,lt,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,38.975483
+,lt,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.171906
+,lt,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.232372
+,lt,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.276745
+,lt,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.302422
+,lt,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.306011
+,lt,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.266071
+,lt,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.232937
+,lt,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.199543
+,lt,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.155834
+,lt,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : epa efficiency : conventional light trucks : large crossover,39.119438

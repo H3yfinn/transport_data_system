@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,,,2041,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.153503
+,,,2042,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.171996
+,,,2043,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.190401
+,,,2044,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.203285
+,,,2045,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.21293
+,,,2046,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.231624
+,,,2047,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.256955
+,,,2048,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.27219
+,,,2049,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.291464
+,,,2050,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : sales to the grid,3.322624
+,,,2040,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,42.894131
+,,,2037,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,42.387901
+,,,2038,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,42.511017
+,,,2039,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,42.725849
+,,,2041,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,43.072777
+,,,2042,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,43.308865
+,,,2043,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,43.552273
+,,,2044,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,43.714146
+,,,2045,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,43.825668
+,,,2046,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,44.068012
+,,,2047,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,44.394562
+,,,2048,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,44.58633
+,,,2049,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,44.831432
+,,,2050,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,45.230965
+,,,2022,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,41.433643
+,,,2023,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,40.501347
+,,,2024,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,39.897034
+,,,2025,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,39.751942
+,,,2026,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,40.027855
+,,,2027,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,40.315075
+,,,2028,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,40.574203
+,,,2029,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,40.76532
+,,,2030,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,40.917816
+,,,2031,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,41.151081
+,,,2032,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,41.413536
+,,,2033,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,41.596428
+,,,2034,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,41.798805
+,,,2035,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,42.019924
+,,,2036,ref2023,bkwh,20_usa,paper industry : combined heat and power : net generation : total,42.192585
+,,,2022,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2023,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2024,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2025,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2026,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2027,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2028,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2029,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2030,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2031,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2032,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2033,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2034,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2035,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2036,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2037,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2038,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2039,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2040,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2041,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2042,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2043,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2044,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2045,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2046,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2047,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2048,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2049,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2050,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : coal,0.0
+,,,2022,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,19.286602
+,,,2023,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,19.286602
+,,,2024,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2025,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2026,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2027,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2028,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2029,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2030,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2031,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2032,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2033,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2034,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2035,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2036,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2037,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2038,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2039,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2040,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2041,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2042,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2043,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2044,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.527288
+,,,2045,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,30.548311
+,,,2046,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,28.834606
+,,,2047,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,28.793713
+,,,2048,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,29.20693
+,,,2049,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,29.244907
+,,,2050,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : generation for own use,29.093943
+,,,2022,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : natural gas,22.292501
+,,,2023,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : natural gas,22.292501
+,,,2024,ref2023,bkwh,20_usa,refining industry : combined heat and power : net generation : natural gas,24.43865

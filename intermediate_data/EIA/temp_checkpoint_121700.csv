@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+ice_d,car,,2025,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004974
+ice_d,car,,2026,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004814
+ice_d,car,,2027,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004799
+ice_d,car,,2028,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005135
+ice_d,car,,2029,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004996
+ice_d,car,,2030,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004878
+ice_d,car,,2031,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004767
+ice_d,car,,2032,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004695
+ice_d,car,,2033,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004616
+ice_d,car,,2034,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.00465
+ice_d,car,,2035,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004665
+ice_d,car,,2036,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.004848
+ice_d,car,,2037,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.00493
+ice_d,car,,2038,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.00502
+ice_d,car,,2039,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005166
+ice_d,car,,2040,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005277
+ice_d,car,,2041,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005294
+ice_d,car,,2042,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005368
+ice_d,car,,2043,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005344
+ice_d,car,,2044,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005424
+ice_d,car,,2045,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005481
+ice_d,car,,2046,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005582
+ice_d,car,,2047,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.00564
+ice_d,car,,2048,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005758
+ice_d,car,,2049,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.005872
+ice_d,car,,2050,ref2023,thousands,1-7,light-duty vehicle sales : conventional cars : tdi diesel,0.006044
+,lpv,,2031,ref2023,thousands,1-3,light-duty vehicle sales : total new car,612.096924
+,lpv,,2028,ref2023,thousands,1-3,light-duty vehicle sales : total new car,619.685364
+,lpv,,2029,ref2023,thousands,1-3,light-duty vehicle sales : total new car,621.267029
+,lpv,,2030,ref2023,thousands,1-3,light-duty vehicle sales : total new car,617.470398
+,lpv,,2032,ref2023,thousands,1-3,light-duty vehicle sales : total new car,609.105896
+,lpv,,2033,ref2023,thousands,1-3,light-duty vehicle sales : total new car,603.540405
+,lpv,,2034,ref2023,thousands,1-3,light-duty vehicle sales : total new car,601.090271
+,lpv,,2035,ref2023,thousands,1-3,light-duty vehicle sales : total new car,600.291626
+,lpv,,2036,ref2023,thousands,1-3,light-duty vehicle sales : total new car,603.219116
+,lpv,,2037,ref2023,thousands,1-3,light-duty vehicle sales : total new car,601.799805
+,lpv,,2038,ref2023,thousands,1-3,light-duty vehicle sales : total new car,601.177307
+,lpv,,2039,ref2023,thousands,1-3,light-duty vehicle sales : total new car,599.967407
+,lpv,,2040,ref2023,thousands,1-3,light-duty vehicle sales : total new car,598.748291
+,lpv,,2041,ref2023,thousands,1-3,light-duty vehicle sales : total new car,593.522949
+,lpv,,2042,ref2023,thousands,1-3,light-duty vehicle sales : total new car,588.77594
+,lpv,,2043,ref2023,thousands,1-3,light-duty vehicle sales : total new car,581.171631
+,lpv,,2044,ref2023,thousands,1-3,light-duty vehicle sales : total new car,576.857422
+,lpv,,2045,ref2023,thousands,1-3,light-duty vehicle sales : total new car,574.395386
+,lpv,,2046,ref2023,thousands,1-3,light-duty vehicle sales : total new car,574.743164
+,lpv,,2047,ref2023,thousands,1-3,light-duty vehicle sales : total new car,569.015503
+,lpv,,2048,ref2023,thousands,1-3,light-duty vehicle sales : total new car,565.524231
+,lpv,,2049,ref2023,thousands,1-3,light-duty vehicle sales : total new car,560.990112
+,lpv,,2050,ref2023,thousands,1-3,light-duty vehicle sales : total new car,561.071594
+,lpv,,2022,ref2023,thousands,1-3,light-duty vehicle sales : total new car,558.960693
+,lpv,,2023,ref2023,thousands,1-3,light-duty vehicle sales : total new car,594.569336
+,lpv,,2024,ref2023,thousands,1-3,light-duty vehicle sales : total new car,625.023682
+,lpv,,2025,ref2023,thousands,1-3,light-duty vehicle sales : total new car,624.767456
+,lpv,,2026,ref2023,thousands,1-3,light-duty vehicle sales : total new car,630.507812
+,lpv,,2027,ref2023,thousands,1-3,light-duty vehicle sales : total new car,628.740906
+,lpv,,2022,ref2023,thousands,1-6,light-duty vehicle sales : total new car,255.181641
+,lpv,,2023,ref2023,thousands,1-6,light-duty vehicle sales : total new car,249.422363
+,lpv,,2024,ref2023,thousands,1-6,light-duty vehicle sales : total new car,245.827332
+,lpv,,2025,ref2023,thousands,1-6,light-duty vehicle sales : total new car,235.099518
+,lpv,,2026,ref2023,thousands,1-6,light-duty vehicle sales : total new car,231.016098
+,lpv,,2027,ref2023,thousands,1-6,light-duty vehicle sales : total new car,225.816162
+,lpv,,2028,ref2023,thousands,1-6,light-duty vehicle sales : total new car,219.319717
+,lpv,,2029,ref2023,thousands,1-6,light-duty vehicle sales : total new car,218.189835
+,lpv,,2030,ref2023,thousands,1-6,light-duty vehicle sales : total new car,215.649323
+,lpv,,2031,ref2023,thousands,1-6,light-duty vehicle sales : total new car,212.931
+,lpv,,2032,ref2023,thousands,1-6,light-duty vehicle sales : total new car,211.342468
+,lpv,,2033,ref2023,thousands,1-6,light-duty vehicle sales : total new car,209.267105
+,lpv,,2034,ref2023,thousands,1-6,light-duty vehicle sales : total new car,208.461151
+,lpv,,2035,ref2023,thousands,1-6,light-duty vehicle sales : total new car,208.4263
+,lpv,,2036,ref2023,thousands,1-6,light-duty vehicle sales : total new car,210.128296
+,lpv,,2037,ref2023,thousands,1-6,light-duty vehicle sales : total new car,209.938812
+,lpv,,2038,ref2023,thousands,1-6,light-duty vehicle sales : total new car,210.093079
+,lpv,,2039,ref2023,thousands,1-6,light-duty vehicle sales : total new car,210.283569
+,lpv,,2040,ref2023,thousands,1-6,light-duty vehicle sales : total new car,210.302765
+,lpv,,2041,ref2023,thousands,1-6,light-duty vehicle sales : total new car,208.858871
+,lpv,,2042,ref2023,thousands,1-6,light-duty vehicle sales : total new car,207.670944
+,lpv,,2043,ref2023,thousands,1-6,light-duty vehicle sales : total new car,205.415237
+,lpv,,2044,ref2023,thousands,1-6,light-duty vehicle sales : total new car,204.416122
+,lpv,,2045,ref2023,thousands,1-6,light-duty vehicle sales : total new car,203.833206
+,lpv,,2046,ref2023,thousands,1-6,light-duty vehicle sales : total new car,204.555298
+,lpv,,2047,ref2023,thousands,1-6,light-duty vehicle sales : total new car,203.222794
+,lpv,,2048,ref2023,thousands,1-6,light-duty vehicle sales : total new car,202.827988
+,lpv,,2049,ref2023,thousands,1-6,light-duty vehicle sales : total new car,201.986633
+,lpv,,2050,ref2023,thousands,1-6,light-duty vehicle sales : total new car,202.984543
+,lpv,,2022,ref2023,thousands,1-2,light-duty vehicle sales : total new car,611.331543
+,lpv,,2023,ref2023,thousands,1-2,light-duty vehicle sales : total new car,628.162231
+,lpv,,2024,ref2023,thousands,1-2,light-duty vehicle sales : total new car,658.920715
+,lpv,,2025,ref2023,thousands,1-2,light-duty vehicle sales : total new car,657.44519
+,lpv,,2026,ref2023,thousands,1-2,light-duty vehicle sales : total new car,662.549316
+,lpv,,2027,ref2023,thousands,1-2,light-duty vehicle sales : total new car,658.127014
+,lpv,,2028,ref2023,thousands,1-2,light-duty vehicle sales : total new car,645.738525
+,lpv,,2029,ref2023,thousands,1-2,light-duty vehicle sales : total new car,646.646118
+,lpv,,2030,ref2023,thousands,1-2,light-duty vehicle sales : total new car,641.164612
+,lpv,,2031,ref2023,thousands,1-2,light-duty vehicle sales : total new car,635.031006
+,lpv,,2032,ref2023,thousands,1-2,light-duty vehicle sales : total new car,631.455811
+,lpv,,2033,ref2023,thousands,1-2,light-duty vehicle sales : total new car,625.032349
+,lpv,,2034,ref2023,thousands,1-2,light-duty vehicle sales : total new car,622.305786
+,lpv,,2039,ref2023,thousands,1-2,light-duty vehicle sales : total new car,620.240967
+,lpv,,2036,ref2023,thousands,1-2,light-duty vehicle sales : total new car,623.970825
+,lpv,,2037,ref2023,thousands,1-2,light-duty vehicle sales : total new car,622.311035

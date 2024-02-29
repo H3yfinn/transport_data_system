@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+phev_d,lpv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,lpv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : small utility,0.0
+phev_d,suv,,2022,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2023,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2024,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2025,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2026,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2027,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2028,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2029,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2030,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2031,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2032,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2033,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2034,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2035,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2036,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2037,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2038,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2039,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2040,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2041,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2042,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2043,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2044,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2045,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2046,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2047,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2048,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2049,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+phev_d,suv,,2050,ref2023,thousand 2022 $,20_usa,new light-duty vehicle prices : diesel-electric hybrid : large crossover light truck,0.0
+bev,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,25.841358
+bev,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,23.780529
+bev,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,22.985394
+bev,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,22.948734
+bev,,,2026,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,23.037699
+bev,,,2027,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,22.809839
+bev,,,2028,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,23.283777
+bev,,,2029,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,23.698833
+bev,,,2030,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.224688
+bev,,,2031,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.092674
+bev,,,2032,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.198854
+bev,,,2033,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.077555
+bev,,,2034,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.409901
+bev,,,2035,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.258453
+bev,,,2036,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.329393
+bev,,,2037,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.334789
+bev,,,2038,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.42244
+bev,,,2039,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.554003
+bev,,,2040,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.549213
+bev,,,2041,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.567726
+bev,,,2042,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.553905
+bev,,,2043,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.485952
+bev,,,2044,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.50333
+bev,,,2045,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.593414
+bev,,,2046,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.83028
+bev,,,2047,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,24.919529
+bev,,,2048,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,25.052492
+bev,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,25.125103
+bev,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : purchased electricity,25.233192
+,,,2022,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,219.759842
+,,,2023,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,217.850632
+,,,2024,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,200.930328
+,,,2025,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,199.458282
+,,,2026,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,202.794571
+,,,2027,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,201.860458
+,,,2028,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,205.350601
+,,,2029,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,205.398788
+,,,2030,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,206.638748
+,,,2031,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,207.063934
+,,,2032,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,209.043961
+,,,2033,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,208.604614
+,,,2034,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,211.669159
+,,,2035,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,211.997009
+,,,2036,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,211.839355
+,,,2037,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,213.981293
+,,,2038,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,213.990097
+,,,2039,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,215.466736
+,,,2040,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,215.97377
+,,,2041,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,216.513885
+,,,2042,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,216.70343
+,,,2043,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,217.519867
+,,,2044,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,216.96611
+,,,2045,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,217.22345
+,,,2046,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,215.220291
+,,,2047,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,215.601242
+,,,2048,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,214.882797
+,,,2049,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,214.21582
+,,,2050,ref2023,thousand btu/b,20_usa,refining industry : refinery only energy : use per unit of refinery input : still gas,213.272461
+bev,,,2022,ref2023,nom $/mmbtu,5-16,electricity : fuel prices : coal,1.973302

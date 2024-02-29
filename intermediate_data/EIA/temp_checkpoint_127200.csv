@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+bev,lt,,2044,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2045,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2046,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2047,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2048,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2049,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2050,ref2023,thousands,1-4,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2022,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2023,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2024,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2025,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2026,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2027,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2028,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2029,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2030,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2031,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2032,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2033,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2034,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2035,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2036,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2037,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2038,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2039,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2040,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2041,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2042,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2043,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2044,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2045,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2046,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2047,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2048,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2049,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+bev,lt,,2050,ref2023,thousands,1-7,light-duty vehicle sales : alternative-fuel light trucks : electric-diesel hybrid,0.0
+ethanol_flex_fuel,lt,,2022,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,77.466805
+ethanol_flex_fuel,lt,,2023,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,77.192932
+ethanol_flex_fuel,lt,,2024,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,76.915977
+ethanol_flex_fuel,lt,,2025,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,76.363152
+ethanol_flex_fuel,lt,,2026,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,74.671387
+ethanol_flex_fuel,lt,,2027,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,72.412674
+ethanol_flex_fuel,lt,,2028,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,69.909019
+ethanol_flex_fuel,lt,,2029,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,68.389198
+ethanol_flex_fuel,lt,,2030,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,66.549065
+ethanol_flex_fuel,lt,,2031,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,65.390594
+ethanol_flex_fuel,lt,,2032,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,64.165047
+ethanol_flex_fuel,lt,,2033,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.088848
+ethanol_flex_fuel,lt,,2034,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,62.462509
+ethanol_flex_fuel,lt,,2035,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,62.214516
+ethanol_flex_fuel,lt,,2036,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,62.096436
+ethanol_flex_fuel,lt,,2037,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,62.17762
+ethanol_flex_fuel,lt,,2038,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,62.417427
+ethanol_flex_fuel,lt,,2039,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,62.554977
+ethanol_flex_fuel,lt,,2040,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.041702
+ethanol_flex_fuel,lt,,2041,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.032955
+ethanol_flex_fuel,lt,,2045,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.420357
+ethanol_flex_fuel,lt,,2042,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.015045
+ethanol_flex_fuel,lt,,2043,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.078419
+ethanol_flex_fuel,lt,,2044,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.032135
+ethanol_flex_fuel,lt,,2046,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.501945
+ethanol_flex_fuel,lt,,2047,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.619793
+ethanol_flex_fuel,lt,,2048,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.37431
+ethanol_flex_fuel,lt,,2049,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.492992
+ethanol_flex_fuel,lt,,2050,ref2023,thousands,1-3,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.680367
+ethanol_flex_fuel,lt,,2030,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.996565
+ethanol_flex_fuel,lt,,2027,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,23.484671
+ethanol_flex_fuel,lt,,2028,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,22.855005
+ethanol_flex_fuel,lt,,2029,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,22.507368
+ethanol_flex_fuel,lt,,2031,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.69322
+ethanol_flex_fuel,lt,,2032,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.357914
+ethanol_flex_fuel,lt,,2033,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.075241
+ethanol_flex_fuel,lt,,2034,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,20.911882
+ethanol_flex_fuel,lt,,2035,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,20.862047
+ethanol_flex_fuel,lt,,2022,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,22.190739
+ethanol_flex_fuel,lt,,2023,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,22.942999
+ethanol_flex_fuel,lt,,2024,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,23.672438
+ethanol_flex_fuel,lt,,2025,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,24.104593
+ethanol_flex_fuel,lt,,2026,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,23.954411
+ethanol_flex_fuel,lt,,2036,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,20.844704
+ethanol_flex_fuel,lt,,2037,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,20.918072
+ethanol_flex_fuel,lt,,2038,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.038759
+ethanol_flex_fuel,lt,,2039,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.106441
+ethanol_flex_fuel,lt,,2040,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.295374
+ethanol_flex_fuel,lt,,2041,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.325193
+ethanol_flex_fuel,lt,,2042,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.348923
+ethanol_flex_fuel,lt,,2043,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.411692
+ethanol_flex_fuel,lt,,2044,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.439701
+ethanol_flex_fuel,lt,,2045,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.623571
+ethanol_flex_fuel,lt,,2046,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.698524
+ethanol_flex_fuel,lt,,2047,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.814079
+ethanol_flex_fuel,lt,,2048,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.812515
+ethanol_flex_fuel,lt,,2049,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,21.933834
+ethanol_flex_fuel,lt,,2050,ref2023,thousands,1-6,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,22.092632
+ethanol_flex_fuel,lt,,2050,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,54.821266
+ethanol_flex_fuel,lt,,2022,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,65.077332
+ethanol_flex_fuel,lt,,2023,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,65.050156
+ethanol_flex_fuel,lt,,2024,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,64.980103
+ethanol_flex_fuel,lt,,2025,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,64.532463
+ethanol_flex_fuel,lt,,2026,ref2023,thousands,1-2,light-duty vehicle sales : alternative-fuel light trucks : ethanol-flex fuel ice,63.081219

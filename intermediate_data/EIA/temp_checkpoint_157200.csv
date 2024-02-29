@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+,car,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,90.597435
+,car,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.080971
+,car,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.325882
+,car,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.074547
+,car,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.3237
+,car,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.44162
+,car,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.515305
+,car,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.561371
+,car,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.400719
+,car,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,93.182396
+,car,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.96022
+,car,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.582924
+,car,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.491478
+,car,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.444191
+,car,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.270485
+,car,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.101532
+,car,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,91.903687
+,car,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.499779
+,car,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.065407
+,car,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.338936
+,car,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.163864
+,car,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel cars : two seater,92.198418
+,lt,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,42.921883
+,lt,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,43.880978
+,lt,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,46.113815
+,lt,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,49.839863
+,lt,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,52.271694
+,lt,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,54.171097
+,lt,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,56.769638
+,lt,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,58.038177
+,lt,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,58.84
+,lt,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,59.167816
+,lt,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,59.615078
+,lt,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,59.946724
+,lt,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.257076
+,lt,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.552948
+,lt,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.812252
+,lt,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.973576
+,lt,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.082157
+,lt,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.226665
+,lt,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.18557
+,lt,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.196556
+,lt,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.208893
+,lt,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.159767
+,lt,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.08176
+,lt,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.988537
+,lt,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.10656
+,lt,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.985744
+,lt,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.907169
+,lt,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,61.01086
+,lt,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large crossover,60.942612
+,lt,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,51.492172
+,lt,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,50.256596
+,lt,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,50.726414
+,lt,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,51.101318
+,lt,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,51.586002
+,lt,efficiency,2041,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,51.869537
+,lt,efficiency,2042,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,52.233772
+,lt,efficiency,2043,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,52.468304
+,lt,efficiency,2044,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,52.702465
+,lt,efficiency,2045,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,52.862583
+,lt,efficiency,2046,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,53.699368
+,lt,efficiency,2047,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,53.900764
+,lt,efficiency,2048,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,54.149174
+,lt,efficiency,2049,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,54.555447
+,lt,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,54.870415
+,lt,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,31.480179
+,lt,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,31.757389
+,lt,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,32.52813
+,lt,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,34.165203
+,lt,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,35.828537
+,lt,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,37.423302
+,lt,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,39.914516
+,lt,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,42.320072
+,lt,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,44.356766
+,lt,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,45.403454
+,lt,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,46.66497
+,lt,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,47.651245
+,lt,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,48.588821
+,lt,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large pickup,49.49115
+,lt,efficiency,2050,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,48.490089
+,lt,efficiency,2022,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,29.806095
+,lt,efficiency,2023,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,31.141968
+,lt,efficiency,2024,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,32.853092
+,lt,efficiency,2025,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,35.233036
+,lt,efficiency,2026,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,37.340199
+,lt,efficiency,2027,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,39.240822
+,lt,efficiency,2028,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,41.778358
+,lt,efficiency,2029,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,43.493908
+,lt,efficiency,2030,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,44.657776
+,lt,efficiency,2031,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,45.213963
+,lt,efficiency,2032,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,45.904816
+,lt,efficiency,2033,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,46.47834
+,lt,efficiency,2034,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,47.018673
+,lt,efficiency,2035,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,47.574833
+,lt,efficiency,2036,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,47.985622
+,lt,efficiency,2037,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,48.172314
+,lt,efficiency,2038,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,48.281639
+,lt,efficiency,2039,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,48.453865
+,lt,efficiency,2040,ref2023,mpg,20_usa,new vehicle attributes : fuel efficiency : alternative-fuel light trucks : large utility,48.378105

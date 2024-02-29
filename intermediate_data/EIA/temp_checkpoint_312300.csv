@@ -1,0 +1,101 @@
+drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
+lpg,,,2037,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.402378
+lpg,,,2038,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.508485
+lpg,,,2039,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.563864
+lpg,,,2040,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.668443
+lpg,,,2041,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.766348
+lpg,,,2042,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.845196
+lpg,,,2043,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.909697
+lpg,,,2044,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,2.967662
+lpg,,,2045,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,3.046448
+lpg,,,2046,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,3.117303
+lpg,,,2047,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,3.198148
+lpg,,,2048,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,3.292854
+lpg,,,2049,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,3.369314
+lpg,,,2050,ref2023,nom $/gal,20_usa,nominal petroleum prices : industrial : propane,3.441937
+bev,,,2022,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.134762
+bev,,,2023,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.142165
+bev,,,2024,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.190968
+bev,,,2025,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.220377
+bev,,,2026,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.235473
+bev,,,2027,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.261633
+bev,,,2028,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.282006
+bev,,,2029,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.318478
+bev,,,2030,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.371879
+bev,,,2031,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.417578
+bev,,,2032,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.435354
+bev,,,2033,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.478079
+bev,,,2034,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.535536
+bev,,,2035,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.58564
+bev,,,2036,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.636382
+bev,,,2037,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.692221
+bev,,,2038,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.788779
+bev,,,2039,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.843532
+bev,,,2040,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.910135
+bev,,,2041,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,2.973297
+bev,,,2042,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.037762
+bev,,,2043,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.106765
+bev,,,2044,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.169794
+bev,,,2045,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.236824
+bev,,,2046,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.314437
+bev,,,2047,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.384014
+bev,,,2048,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.449347
+bev,,,2049,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.538665
+bev,,,2050,ref2023,nom $/mmbtu,5-0,electricity : fuel prices : coal,3.618458
+bev,,,2022,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.134762
+bev,,,2023,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.142165
+bev,,,2024,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.190968
+bev,,,2025,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.220377
+bev,,,2026,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.235473
+bev,,,2027,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.261633
+bev,,,2028,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.282006
+bev,,,2029,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.318478
+bev,,,2030,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.371879
+bev,,,2031,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.417578
+bev,,,2032,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.435354
+bev,,,2033,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.478079
+bev,,,2034,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.535536
+bev,,,2035,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.58564
+bev,,,2036,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.636382
+bev,,,2037,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.692221
+bev,,,2038,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.788779
+bev,,,2039,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.843532
+bev,,,2040,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.910135
+bev,,,2041,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,2.973297
+bev,,,2042,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.037762
+bev,,,2043,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.106765
+bev,,,2044,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.169794
+bev,,,2045,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.236824
+bev,,,2046,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.314437
+bev,,,2047,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.384014
+bev,,,2048,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.449347
+bev,,,2049,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.538665
+bev,,,2050,ref2023,nom $/mmbtu,20_usa,coal supply : delivered prices : electric power,3.618458
+,,,2026,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1084.0
+,,,2023,ref2023,cdd,20_usa,residential : cooling degree days : west north central,944.0
+,,,2024,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1069.0
+,,,2025,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1077.0
+,,,2027,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1091.0
+,,,2028,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1099.0
+,,,2029,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1106.0
+,,,2030,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1114.0
+,,,2031,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1121.0
+,,,2032,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1129.0
+,,,2033,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1136.0
+,,,2034,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1144.0
+,,,2035,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1151.0
+,,,2036,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1159.0
+,,,2037,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1166.0
+,,,2038,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1174.0
+,,,2039,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1182.0
+,,,2040,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1189.0
+,,,2041,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1197.0
+,,,2042,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1204.0
+,,,2043,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1212.0
+,,,2044,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1220.0
+,,,2045,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1227.0
+,,,2046,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1235.0
+,,,2047,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1243.0
+,,,2048,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1250.0
+,,,2049,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1258.0
+,,,2050,ref2023,cdd,20_usa,residential : cooling degree days : west north central,1266.0
