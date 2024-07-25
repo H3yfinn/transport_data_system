@@ -15,7 +15,10 @@
 #anything in archive folders doesnt nee to be tracked
 **/archive
 # #anything in the intermediate_data folder doesnt need to be tracked
-# **/intermediate_data
+**/intermediate_data
+
+#and anything in EEI since that is a large folder
+input_data/EEI/*
 #####################
 env_jupyter/*
 env_transport_data_system/*
