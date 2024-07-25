@@ -13,7 +13,7 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_syst
 #%%
 #load in the files:
 # C:\Users\finbar.maunsell\github\transport_data_system\input_data\indonesia\indonesia_non_road.xlsx
-non_road = pd.read_excel('input_data/indonesia/indonesia_non_road.xlsx')
+rail = pd.read_excel('input_data/indonesia/indonesia_non_road.xlsx',sheet_name='rail')
 #these are the columns in the file:
 # Index(['Date', 'medium', 'value', 'measure', 'transport type', 'unit'], dtype='object')
 #these are the cols we want
@@ -24,7 +24,6 @@ default_values = {
     'vehicle_type': 'all',
     'dataset': 'statistics_indonesia',
     'economy': '07_INA',
-    'source': '',
     'fuel': 'all',
     'scope': '',
     'frequency': 'yearly',
@@ -32,12 +31,13 @@ default_values = {
 }
 
 # Identify the missing columns
-missing_columns = set(default_values.keys()) - set(non_road.columns)
+missing_columns = set(default_values.keys()) - set(rail.columns)
 
 # Add the missing columns with their default values
 for column in missing_columns:
-    non_road[column] = default_values.get(column, None)
+    rail[column] = default_values.get(column, None)
 
+non_road = rail.copy()
 #%%
 # date id to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")

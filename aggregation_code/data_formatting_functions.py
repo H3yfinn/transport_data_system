@@ -209,7 +209,7 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
     #if there are any nans in the index columns (EXCEPT FUEL) then throw an error and let the user know: 
     INDEX_COLS_no_fuel = INDEX_COLS.copy()
     INDEX_COLS_no_fuel.remove('fuel')
-    error_file_path = paths_dict['combined_data_error.pkl']
+    error_file_path = paths_dict['combined_data_error.csv']
     if combined_data[INDEX_COLS_no_fuel].isna().any().any():
         #find the columns with nans
         cols_with_nans = combined_data[INDEX_COLS_no_fuel].isna().any()
@@ -217,11 +217,12 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
         logging.info('The following columns have nans: ')
         for col in cols_with_nans[cols_with_nans].index:
             logging.info('{}: {}'.format(col, combined_data[col].isna().sum()))
-            #save the data to a pickle file so that the user can see what the nans are
+            print('{}: {}'.format(col, combined_data[col].isna().sum()))
+            #save the data to a csv file so that the user can see what the nans are
         breakpoint()
-        combined_data.to_pickle(error_file_path)
-        logging.error('There are nans in the index columns. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
-        raise Exception('There are nans in the index columns. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
+        combined_data.to_csv(error_file_path)
+        logging.error('There are nans in the index columns. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(error_file_path))
+        raise Exception('There are nans in the index columns. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(error_file_path))
     #Important step: make sure that units are the same for each measure so that they can be compared. If they are not then the measure should be different.
     #For example, if one measure is in tonnes and another is in kg then they should just be converted. But if one is in tonnes and another is in number of vehicles then they should be different measures.
     for measure in combined_data['measure'].unique():
@@ -229,9 +230,9 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
             logging.info(measure)
             logging.info(combined_data[combined_data['measure'] == measure]['unit'].unique())
             # save data to pickle file for viewing
-            combined_data.to_pickle(error_file_path)
-            logging.error('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
-            raise Exception('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a pickle file. The path to the file is: {}'.format(error_file_path))
+            combined_data.to_csv(error_file_path)
+            logging.error('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(error_file_path))
+            raise Exception('There are multiple units for this measure {}. This is not allowed. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(measure, error_file_path))
         
     #check the economies match the economies in the concordance file:
     economy_list = pd.read_csv(paths_dict['concordances_file_path']).Economy.unique().tolist()
@@ -239,7 +240,7 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
         different_economies = set(combined_data['economy'].unique().tolist()) - set(economy_list)
         logging.info('The following economies are in the combined data but not in the concordance file: {}'.format(different_economies))
         # save data to pickle file for viewing
-        combined_data.to_pickle(error_file_path)
+        combined_data.to_csv(error_file_path)
         logging.error('The following economies are in the combined data but not in the concordance file: {}'.format(different_economies))
         raise Exception('The following economies are in the combined data but not in the concordance file: {}'.format(different_economies))
         
@@ -249,7 +250,7 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
         logging.info(combined_data[combined_data.duplicated()])
         # save data to pickle file for viewing
         
-        combined_data.to_pickle(error_file_path)
+        combined_data.to_csv(error_file_path)
                                                             
         raise Exception('There are {} duplicates in the combined data. Please fix this before continuing. Data saved to {}'.format(len(combined_data[combined_data.duplicated()]), error_file_path))
     
@@ -261,7 +262,22 @@ def combine_dataset_source_col(combined_data):
     combined_data = combined_data.drop(columns=['source'])
     return combined_data
 
-def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
+def fix_miswritten_frequency_names(col, dataset):
+    alternative_names_dict = {
+        'yearly': ['year', 'annual'],
+        'monthly': [ 'month'],
+        'quarterly': [ 'quarter'],
+        'daily': [ 'day']
+    }
+    # update all values in col so they map to the correct frequency
+    for key in alternative_names_dict:
+        for name in alternative_names_dict[key]:
+            if name in col.unique():
+                print('replacing miswritten frequency name {} with {} for dataset {}'.format(name, key, dataset[1]))
+                col = col.replace(name, key)
+    return col
+
+def combine_datasets(datasets, paths_dict,dataset_frequency='yearly', ADD_COLUMNS_AND_RESAVE=False):
     if dataset_frequency != 'yearly':
         raise Exception('The frequency for this dataset is not annual. This library is not ready for anything other than annual data, yet.')
     #loop through each dataset and load it into a dataframe, then concatenate the dataframes together
@@ -270,26 +286,54 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly'):
     for dataset in datasets:
         #datasets can be broken into (folder, dataset name, file path)
         print('Combining dataset: {}'.format(dataset[1]))
+        # if dataset[1] == 'phillipines_2022_stocks_total':
+        #     breakpoint()#phl
         new_dataset = pd.read_csv(dataset[2])
-
+        
         #convert cols to snake case
         new_dataset.columns = [utility_functions.replace_bad_col_names(col) for col in new_dataset.columns]
-        
-        #check that all the cols in index cols are in the dataset
-        for col in paths_dict['INDEX_COLS']:
-            if col not in new_dataset.columns:
-                raise Exception('The column {} is not in the dataset {}'.format(col, dataset[1]))
-        #convert all values in all columns to snakecase, except economy date and value
-        new_dataset = utility_functions.convert_all_cols_to_snake_case(new_dataset)
+        #check that all the cols in REQUIRED_COLS are in the dataset
 
+        for col in paths_dict['REQUIRED_COLS']:
+            if col not in new_dataset.columns:
+                if ADD_COLUMNS_AND_RESAVE:
+                    if col == 'source':
+                        new_dataset['source'] = np.nan
+                    elif col == 'comment':
+                        new_dataset['comment'] = np.nan
+                    else:
+                        raise Exception('The column {} is not in the dataset {}'.format(col, dataset[1]))
+                else:
+                    raise Exception('The column {} is not in the dataset {}'.format(col, dataset[1]))
+        #then check thatthere are no cols in the dataset that are not in the index cols
+        for col in new_dataset.columns:
+            if col not in paths_dict['REQUIRED_COLS']:
+                raise Exception('The column {} is in the dataset {} but is not in the index cols'.format(col, dataset[1]))
+        #convert all values in all columns to snakecase, except economy date and value
+        try:
+            new_dataset = utility_functions.convert_all_cols_to_snake_case(new_dataset)
+        except:
+            breakpoint()
+            raise Exception('There was an error converting the columns to snake case. Please check the columns in the dataset: {}'.format(dataset[1]))
         #filter for dataset freuqncy in frequency column
+        #sometimes i accidnetally wrtie frequency in wrong way. so this will catch any variabtion of the word
+        new_dataset['frequency'] = fix_miswritten_frequency_names(new_dataset['frequency'], dataset)
         new_dataset = new_dataset[new_dataset['frequency'] == dataset_frequency]
+        
         if len(new_dataset) == 0:
             logging.info('No data for this dataset {} in this frequency {}. Skipping...'.format(dataset[1], dataset_frequency))
             continue
 
         new_dataset = utility_functions.ensure_date_col_is_year(new_dataset)
 
+        #doub;le check for no duplicates
+        if len(new_dataset[new_dataset.duplicated()]) > 0:
+            logging.info(new_dataset[new_dataset.duplicated()])
+            # save data to pickle file for viewing
+            error_file_path = paths_dict['combined_data_error.pkl']
+            new_dataset.to_pickle(error_file_path)
+            raise Exception('There are {} duplicates in the combined data. Please fix this before continuing. Data saved to {}'.format(len(new_dataset[new_dataset.duplicated()]), error_file_path))
+        
         #concatenate the dataset to the combined data
         combined_data = pd.concat([combined_data, new_dataset], ignore_index=True)
         logging.info('Finished combining dataset: {}'.format(dataset[1]))
@@ -526,6 +570,9 @@ def filter_for_years_of_interest(combined_data_concordance,combined_data,paths_d
 
 def filter_for_specifc_data(selection_dict, df, filter_for_all_other_data=False):
     #use the keys of the selection dict as the columns to filter on and the values as the values to filter on
+    if selection_dict == {}: #if the selection dict is empty then just return the df
+        return df
+    
     df_not_filtered = df.copy()
     if not filter_for_all_other_data:
         for key, value in selection_dict.items():

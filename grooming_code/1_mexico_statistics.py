@@ -55,7 +55,7 @@ transport_type_map = {
     'ht': 'freight'
 }
 # Apply initial mappings for vehicle_type
-inegi_melted['vehicle_type'] = inegi_melted['vehicle_type'].map(transport_type_map)
+inegi_melted['transport_type'] = inegi_melted['vehicle_type'].map(transport_type_map)
 
 # Add missing columns
 missing_columns = set(data_structure_mexico.columns) - set(inegi_melted.columns)
@@ -77,6 +77,38 @@ for column in missing_columns:
 
 # Reorder columns to match data_structure_mexico
 inegi_melted = inegi_melted[data_structure_mexico.columns]
+#%%
+###################################
+#we have a problem in the modelling where the proportional decrease in diesel use is actually pretty high. To fix this we are going to try anmd allocate more ice_d to passenger vehicles and less to freight vehicles. To make it easy we will just assume that all freight vehicles are ice_d
+
+
+
+# #try and split the proportions of ice_d/ice_g in the vehicle types. We dont have much to go off of except avg's of other economies and the fact that diesel was affected quite a lot by covid, which implies a higher proportion of diesel vehicles in passenger than you would expect: (since passenger is more affected by covid than freight)
+# #my generaly hunch is that, at least to make the modelling play nice, we should increase the proportion of lcvs that are gasoline and increase proprotion of cars and buses taht use diesel. We can calcualte the proportions by looking at the averages we have in our pre modelled data, and then adjust them according to how much tehy need to increae/decrease to make the modelled data match the real data
+# mexico_prop_decreases_from_covid_by_drive = {
+#     'ice_d':(563-317)/563,
+#     'ice_g':(1457-1107)/1457
+
+# }
+# mexico_current_prop_increases_after_covid_by_drive = {
+#     'ice_d':449/563,
+#     'ice_g':1457/1457,
+# }#use this to identify how much we need to increase the proportion of diesel vehicles in passenger vehicles
+
+# #take in road modelled data
+# road_modelled_data_path = 'input_data/mexico/11_MEX_road_model_output20240618.csv'
+# road_modelled_data_stocks = pd.read_csv(road_modelled_data_path)[['Economy', 'Date', 'Medium', 'Vehicle Type', 'Transport Type', 'Drive', 'Scenario', 'Stocks']]
+# #filter for just the earliest date
+# road_modelled_data_stocks = road_modelled_data_stocks[road_modelled_data_stocks['Date'] == road_modelled_data_stocks['Date'].min()]
+# #filter for just ice_g and ice_d
+# road_modelled_data_stocks = road_modelled_data_stocks[road_modelled_data_stocks['Vehicle Type'].isin(['ice_g', 'ice_d'])]
+# #calcualte proportion of each drive type within each vehicle type/transport type , scenario comboniation
+# road_modelled_data_stocks['proportion'] = road_modelled_data_stocks.groupby(['Vehicle Type', 'Transport Type', 'Scenario', 'Drive'])['Stocks'].transform(lambda x: x/x.sum())
+
+
+
+
+###################################
 #%%
 # date id to be used in the file name of the output file and for referencing input files that are saved in the output data folder
 file_date = datetime.datetime.now().strftime("%Y%m%d")

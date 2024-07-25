@@ -14,6 +14,9 @@ os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_syst
 logger = logging.getLogger(__name__)
 #%%
 
+def insert_economy_into_path(path,economy):
+    #just before the file extension add the economy so that when we are iterating through economies we can save the file with the economy name instead of overwriting it each time
+    return os.path.splitext(path)[0]+'_'+economy+os.path.splitext(path)[1]
 def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DATE_ID=None,ECONOMIES_TO_RUN_PREV_DATE_ID=None,save_plotting_backups=True,previous_selections_file_path=None):
     paths_dict = dict()
     paths_dict['log_file_path'] = 'logs/{}.log'.format(FILE_DATE_ID)
@@ -39,6 +42,9 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
     with open('config/selection_config.yml', 'r') as ymlfile:
         cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
     INDEX_COLS = cfg['INDEX_COLS']
+    REQUIRED_COLS = cfg['REQUIRED_COLS']
+    
+    paths_dict['REQUIRED_COLS'] = REQUIRED_COLS
     paths_dict['INDEX_COLS'] = INDEX_COLS
     paths_dict['concordances_file_path'] = cfg['concordances_file_path']
     #TODO remove this.
@@ -55,7 +61,6 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
     paths_dict['intermediate_folder'] = intermediate_folder
     paths_dict['output_data_folder'] = 'output_data/'
     paths_dict['INDEX_COLS_no_year'] = INDEX_COLS_no_year
-    paths_dict['INDEX_COLS'] = INDEX_COLS
     paths_dict['EARLIEST_date'] = EARLIEST_date
     paths_dict['LATEST_date'] = LATEST_date
     paths_dict['EARLIEST_YEAR'] = EARLIEST_YEAR
@@ -135,6 +140,7 @@ def setup_paths_dict(FILE_DATE_ID, EARLIEST_date, LATEST_date, previous_FILE_DAT
     paths_dict['missing_rows_for_transport_model'] = os.path.join(paths_dict['intermediate_folder'], 'missing_rows_for_transport_model.csv')
     paths_dict['missing_rows'] = os.path.join(paths_dict['intermediate_folder'], 'missing_rows.csv')
     paths_dict['combined_data_error.pkl'] = os.path.join(paths_dict['intermediate_folder'], 'combined_data_error.pkl')
+    paths_dict['combined_data_error.csv'] = os.path.join(paths_dict['intermediate_folder'], 'combined_data_error.csv')
     paths_dict['unselected_combined_data'] = f"{paths_dict['intermediate_folder']}/unselected_combined_data.pkl"
 
     #selection
@@ -313,6 +319,7 @@ def setup_logging(FILE_DATE_ID,paths_dict,testing=True):
         ], encoding='utf-8', level=logging_level, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logger = logging.getLogger()
     logger.info(f"LOGGING STARTED: {FILE_DATE_ID}, being saved to {paths_dict['log_file_path']} and outputted to console")
+    print(f"LOGGING STARTED: {FILE_DATE_ID}, being saved to {paths_dict['log_file_path']} and outputted to console")
     
 def convert_string_to_snake_case(string):
     """

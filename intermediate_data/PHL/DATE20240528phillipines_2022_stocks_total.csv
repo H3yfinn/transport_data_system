@@ -1,0 +1,77 @@
+economy,date,medium,measure,dataset,unit,fuel,comment,scope,frequency,vehicle_type,transport_type,drive,value
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,2w,passenger,bev,602.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,2w,passenger,cng,2.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,2w,passenger,ice_d,60.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,2w,passenger,ice_g,8472404.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,2w,passenger,lpg,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,2w,passenger,other,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,bus,passenger,bev,44.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,bus,passenger,cng,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,bus,passenger,ice_d,32173.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,bus,passenger,ice_g,295.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,bus,passenger,lpg,2.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,bus,passenger,phev_g,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,car,passenger,bev,87.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,car,passenger,cng,2.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,car,passenger,ice_d,27531.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,car,passenger,ice_g,1282377.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,car,passenger,lpg,2.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,car,passenger,phev_g,5.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,ht,freight,bev,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,ht,freight,cng,27.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,ht,freight,ice_d,516046.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,ht,freight,ice_g,5769.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,ht,freight,lpg,1.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,ht,freight,phev_g,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lcv,freight,ice_d,5758.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lt,passenger,bev,82.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lt,passenger,cng,8.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lt,passenger,ice_d,1786597.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lt,passenger,ice_g,793402.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lt,passenger,lpg,1.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,lt,passenger,phev_g,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,mt,freight,ice_d,631.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,suv,passenger,bev,91.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,suv,passenger,cng,1.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,suv,passenger,ice_d,569109.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,suv,passenger,ice_g,395866.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,suv,passenger,lpg,0.0
+15_PHL,2021,road,stocks,ph_govt_data_stocks,number,all,Same as 2022 data,national,annual,suv,passenger,phev_g,161.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,2w,passenger,bev,602.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,2w,passenger,cng,2.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,2w,passenger,ice_d,60.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,2w,passenger,ice_g,8472404.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,2w,passenger,lpg,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,2w,passenger,other,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,bus,passenger,bev,44.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,bus,passenger,cng,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,bus,passenger,ice_d,32173.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,bus,passenger,ice_g,295.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,bus,passenger,lpg,2.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,bus,passenger,phev_g,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,car,passenger,bev,87.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,car,passenger,cng,2.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,car,passenger,ice_d,27531.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,car,passenger,ice_g,1282377.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,car,passenger,lpg,2.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,car,passenger,phev_g,5.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,ht,freight,bev,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,ht,freight,cng,27.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,ht,freight,ice_d,516046.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,ht,freight,ice_g,5769.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,ht,freight,lpg,1.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,ht,freight,phev_g,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lcv,freight,ice_d,5758.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lt,passenger,bev,82.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lt,passenger,cng,8.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lt,passenger,ice_d,1786597.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lt,passenger,ice_g,793402.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lt,passenger,lpg,1.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,lt,passenger,phev_g,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,mt,freight,ice_d,631.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,suv,passenger,bev,91.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,suv,passenger,cng,1.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,suv,passenger,ice_d,569109.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,suv,passenger,ice_g,395866.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,suv,passenger,lpg,0.0
+15_PHL,2022,road,stocks,ph_govt_data_stocks,number,all,no_comment,national,annual,suv,passenger,phev_g,161.0

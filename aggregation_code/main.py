@@ -18,23 +18,24 @@ import pre_selection_estimation_functions
 import logging
 import analysis_and_plotting_functions
 import yaml
+from utility_functions import insert_economy_into_path
 create_9th_model_dataset = True
 
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = 'DATE20230726'
 EARLIEST_DATE="2010-01-01"
-LATEST_DATE='2023-01-01'
+LATEST_DATE='2024-01-01'
 
-previous_selections_file_path = None#'input_data/previous_selections/combined_data_concordance (1).pkl'
-previous_FILE_DATE_ID =None#'DATE20230901'
+previous_selections_file_path = None#'input_data/previous_selections/combined_data_concordance_DATE20240314.pkl'
+previous_FILE_DATE_ID =None#'DATE20240314'
 
 if previous_FILE_DATE_ID is not None:#you can set some of these to false if you want to do some of the steps manually
     LOAD_DATA_CREATION_PROGRESS = True
-    load_road_measures_selection_progress = False
-    load_road_measures_interpolation_progress = False
-    load_energy_activity_selection_progress = False
-    load_energy_activity_interpolation_progress = False
+    load_road_measures_selection_progress = True
+    load_road_measures_interpolation_progress = True
+    load_energy_activity_selection_progress = True
+    load_energy_activity_interpolation_progress = True
     
 else:  
     LOAD_DATA_CREATION_PROGRESS = False
@@ -57,8 +58,9 @@ RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False#note that this is not done aymore bec
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN=['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
-ECONOMIES_TO_RUN_PREV_DATE_ID  = 'DATE20240215' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
+ECONOMIES_TO_RUN=['17_SGP', '06_HKC']#['15_PHL']#, '01_AUS']#[ '12_NZ']#['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+
+ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20240605' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
 
 def setup_main():
     global FILE_DATE_ID
@@ -70,7 +72,7 @@ def setup_main():
         FILE_DATE_ID = FILE_DATE_ID + '_{}'.format("".join(ECONOMIES_TO_RUN_PREV_DATE_ID))
     paths_dict = utility_functions.setup_paths_dict(FILE_DATE_ID, EARLIEST_DATE, LATEST_DATE,previous_FILE_DATE_ID=previous_FILE_DATE_ID,ECONOMIES_TO_RUN_PREV_DATE_ID=ECONOMIES_TO_RUN_PREV_DATE_ID, previous_selections_file_path=previous_selections_file_path)
     
-    utility_functions.setup_logging(FILE_DATE_ID,paths_dict,testing=False)
+    utility_functions.setup_logging(FILE_DATE_ID,paths_dict,testing=True)
 
     highlight_list = []
     
@@ -91,13 +93,14 @@ def main():
     #EXTRACT DATA
     if not LOAD_DATA_CREATION_PROGRESS:      
         datasets_transport, datasets_other = data_formatting_functions.extract_latest_groomed_data()
-        unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict)
+        unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict,ADD_COLUMNS_AND_RESAVE = True)
 
-        if ECONOMIES_TO_RUN is not None:
-            unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'].isin(ECONOMIES_TO_RUN)]
+        # if ECONOMIES_TO_RUN is not None:
+        #     unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'].isin(ECONOMIES_TO_RUN)]
         
         #EDIT ALL DATA BEFORE SELECTION
         unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
+        unfiltered_combined_data =  pre_selection_estimation_functions.split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data)
         splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
         #now we have to split the stocks where drive is all into bev and phev      
         unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
@@ -116,6 +119,12 @@ def main():
             
         else:
             combined_data = unfiltered_combined_data.copy()
+            
+        #seems like this is the best place to do this.if we do it earlier ew lose useful aggregates of all economies.     
+        if ECONOMIES_TO_RUN is not None:
+            unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'].isin(ECONOMIES_TO_RUN)]
+            combined_data = combined_data[combined_data['economy'].isin(ECONOMIES_TO_RUN)]
+            
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
         
@@ -149,7 +158,6 @@ def main():
         combined_data_concordance = combined_data_concordance_copy[combined_data_concordance_copy['economy'] == economy]
         unfiltered_combined_data = unfiltered_combined_data_copy[unfiltered_combined_data_copy['economy'] == economy]
         
-        
         midway_time = time.time()
         print('Time taken to extract and combine data: ',midway_time-start_time,' seconds')
         ####################################################
@@ -172,19 +180,18 @@ def main():
             road_measures_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, road_measures_combined_data_concordance, road_measures_combined_data, paths_dict,road_measures_datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True)
             
         else:
-            road_measures_combined_data_concordance = pd.read_pickle(paths_dict['previous_road_measures_combined_data_concordance'])
-        
-        road_measures_combined_data_concordance.to_pickle(paths_dict['road_measures_combined_data_concordance'])
+            road_measures_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_road_measures_combined_data_concordance'],economy))
+        road_measures_combined_data_concordance.to_pickle(insert_economy_into_path(paths_dict['road_measures_combined_data_concordance'],economy))
         logging.info('Saving road_measures_combined_data_concordance')
         ####################################################
         #interpolate missing values for STOCKS MILAGE OCCUPANCY EFFICIENCY DATA
         ####################################################
-        if not load_road_measures_interpolation_progress    :#when we design actual progress integration then we wont do it like this.  
+        if not load_road_measures_interpolation_progress:#when we design actual progress integration then we wont do it like this.  
             road_measures_combined_data_concordance = interpolation_functions.interpolate_missing_values(road_measures_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.0000001, INTERPOLATION_LIMIT=10,load_progress=True)
         else:
-            road_measures_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_road_measures_combined_data_concordance'])
+            road_measures_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_interpolated_road_measures_combined_data_concordance'],economy))
         #save to pickle
-        road_measures_combined_data_concordance.to_pickle(paths_dict['interpolated_road_measures_combined_data_concordance'])
+        road_measures_combined_data_concordance.to_pickle(insert_economy_into_path(paths_dict['interpolated_road_measures_combined_data_concordance'],economy))
         logging.info('Saving interpolated_road_measures_combined_data_concordance')
         
         road_measures_combined_data = data_formatting_functions.convert_concordance_to_combined_data(road_measures_combined_data_concordance, combined_data)
@@ -194,8 +201,7 @@ def main():
         ####################################################
         #where is average age for non raod? it seems to go missing around here
         road_measures_activity_energy_combined_data = pre_selection_estimation_functions.calculate_energy_and_activity(road_measures_combined_data, paths_dict)
-
-        road_measures_activity_energy_combined_data.to_pickle(paths_dict['calculated_activity_energy_combined_data'])
+        road_measures_activity_energy_combined_data.to_pickle(insert_economy_into_path(paths_dict['calculated_activity_energy_combined_data'], economy))
         logging.info('Saving calculated_activity_energy_combined_data')
 
         new_combined_data = pd.concat([combined_data,road_measures_activity_energy_combined_data],axis=0,sort=False)
@@ -220,35 +226,32 @@ def main():
         all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict,new_combined_data_concordance, filter_for_all_other_data=True)
 
         #now drop all data in the confluence of energy and activity for air, rail and ship, as well as for 'energy','activity' measures
-        non_road_measures_exclusion_dict  = {'medium':['air','rail','ship'],
-                                            'measure':['energy']}
+        non_road_measures_exclusion_dict  = {}#'medium':['air','rail','ship'],'measure':['energy']
         all_other_combined_data = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data, filter_for_all_other_data=True)
         
         all_other_combined_data_concordance  = data_formatting_functions.filter_for_specifc_data(non_road_measures_exclusion_dict,all_other_combined_data_concordance, filter_for_all_other_data=True)
-        breakpoint()
         ####################################################
         #BEGIN DATA SELECTION PROCESS FOR ENERGY AND PASSENGER KM
         ####################################################
         if not load_energy_activity_selection_progress: 
             highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
             all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
-            breakpoint()
             all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1, PLOT_SELECTION_TIMESERIES=True)
         else:
-            all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_all_other_combined_data_concordance'])
+            all_other_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_all_other_combined_data_concordance'], economy))
         
         #save data to pickle
-        pd.to_pickle(all_other_combined_data_concordance,paths_dict['all_other_combined_data_concordance'])
+        pd.to_pickle(all_other_combined_data_concordance, insert_economy_into_path(paths_dict['all_other_combined_data_concordance'], economy))
         logging.info('Saving all_other_combined_data_concordance')
         if not load_energy_activity_interpolation_progress:
             #run interpolation
             all_other_combined_data_concordance = interpolation_functions.interpolate_missing_values(all_other_combined_data_concordance,paths_dict['INDEX_COLS'],paths_dict,automatic_interpolation_method = 'linear', automatic_interpolation = True, FILE_DATE_ID=FILE_DATE_ID,percent_of_values_needed_to_interpolate=0.7, INTERPOLATION_LIMIT=3,load_progress=True)
         else:
             # all_other_combined_data = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
-            all_other_combined_data_concordance = pd.read_pickle(paths_dict['previous_interpolated_all_other_combined_data_concordance'])
+            all_other_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_interpolated_all_other_combined_data_concordance'], economy))
 
         #save to pickle
-        all_other_combined_data_concordance.to_pickle(paths_dict['interpolated_all_other_combined_data_concordance'])
+        all_other_combined_data_concordance.to_pickle(insert_economy_into_path(paths_dict['interpolated_all_other_combined_data_concordance'], economy))
         #convert to combined data
         all_other_combined_data = data_formatting_functions.convert_concordance_to_combined_data(all_other_combined_data_concordance, combined_data)
         logging.info('Saving interpolated_all_other_combined_data_concordance')
@@ -262,25 +265,25 @@ def main():
         
         all_combined_data_concordance = pd.concat([road_measures_combined_data_concordance,all_other_combined_data_concordance],axis=0)
 
-        all_combined_data_concordance.to_pickle(paths_dict['all_selections_done_combined_data_concordance'])
-        all_combined_data.to_pickle(paths_dict['all_selections_done_combined_data'])
+        all_combined_data_concordance.to_pickle(insert_economy_into_path(paths_dict['all_selections_done_combined_data_concordance'], economy))
+        all_combined_data.to_pickle(insert_economy_into_path(paths_dict['all_selections_done_combined_data'], economy))
         ####################################################
         #CALCUALTE NON ROAD ENERGY AND ACTIVITY DATA
         ####################################################
-        
         #PLEASE NOTE THAT THIS DATA IN THIS STEP WILL ONLY BE FOR 2017. 
-        non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict, economy)
-        breakpoint()
+        non_road_energy_no_transport_type = data_estimation_functions.estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_dict, economy)   
         
         non_road_energy = data_estimation_functions.split_non_road_energy_into_transport_types(non_road_energy_no_transport_type,unfiltered_combined_data, all_combined_data, paths_dict, economy)
         
-        all_new_combined_data = data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
-        breakpoint()
-        all_new_combined_data.to_csv('a.csv')
-        all_new_combined_data = data_estimation_functions.extract_activity_and_calculate_intensity_for_applicable_economies(economy, non_road_energy, all_combined_data, all_new_combined_data)
-        breakpoint()
+        non_road_energy,all_combined_data,activity,old_activity= data_estimation_functions.estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data,paths_dict)
+        
+        #remove energy from all_new_combined_data where medium != road
+        all_combined_data = all_combined_data[~((all_combined_data['medium'] != 'road') & (all_combined_data['measure'] == 'energy'))]
+        #concatenate all the data together
+        all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity],axis=0)
+        all_new_combined_data = data_estimation_functions.extract_activity_and_calculate_intensity_for_applicable_economies(economy, non_road_energy, all_combined_data, all_new_combined_data, old_activity)
         #save to pickle
-        all_new_combined_data.to_pickle(paths_dict['final_combined_data_not_rescaled'])
+        all_new_combined_data.to_pickle(insert_economy_into_path(paths_dict['final_combined_data_not_rescaled'], economy))
         ####################################################
         #MAKE SURE DATA MATCHES EGEDA TOTALS
         ####################################################
@@ -291,12 +294,11 @@ def main():
             # analysis_and_plotting_functions.plot_final_data_energy_activity(combined_rescaled_data,paths_dict)
 
             #save to pickle
-            combined_rescaled_data.to_pickle(paths_dict['final_combined_rescaled_data'])
-            
-            combined_rescaled_data.to_pickle(paths_dict['final_combined_data_pkl'])
+            combined_rescaled_data.to_pickle(insert_economy_into_path(paths_dict['final_combined_rescaled_data'], economy))
 
-            #save to output_data
-            combined_rescaled_data.to_csv(paths_dict['final_data_csv'], index=False)
+            combined_rescaled_data.to_pickle(insert_economy_into_path(paths_dict['final_combined_data_pkl'], economy))
+
+            combined_rescaled_data.to_csv(insert_economy_into_path(paths_dict['final_data_csv'], economy), index=False)
             
             #save data with economy name, just in case we need it later
             combined_rescaled_data.to_pickle(paths_dict['final_combined_data_pkl'][:-4]+'_'+economy+'.pkl')
@@ -305,10 +307,10 @@ def main():
             all_economies_final_df = pd.concat([all_economies_final_df,combined_rescaled_data],axis=0)
         else:
             #save to pickle
-            all_new_combined_data.to_pickle(paths_dict['final_combined_data_pkl'])
+            all_new_combined_data.to_pickle(insert_economy_into_path(paths_dict['final_combined_data_pkl'], economy))
             
             #save to output_data
-            all_new_combined_data.to_csv(paths_dict['final_data_csv'], index=False)
+            all_new_combined_data.to_csv(insert_economy_into_path(paths_dict['final_data_csv'], economy), index=False)
             
             #save data with economy name, just in case we need it later
             all_new_combined_data.to_pickle(paths_dict['final_combined_data_pkl'][:-4]+'_'+economy+'.pkl')
@@ -352,11 +354,8 @@ def main():
 ################################################
 ################################################
 
-
-
 #%%
 
- 
 ################################################################################
 #FOR RUNNING THROUGH JUPYTER INTERACTIVE NOTEBOOK (FINNS SETUP, allows for running the function outside of the command line through jupyter interactive)
 ################################################################################

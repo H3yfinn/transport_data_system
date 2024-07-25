@@ -15,7 +15,7 @@ import analysis_and_plotting_functions
 import utility_functions
 import yaml
 logger = logging.getLogger(__name__)
-plotting = True#change to false to stop plots from appearing
+plotting = False#change to false to stop plots from appearing
 #eg from
 #  Estimate Energy and passenger km using stocks:
 # vkm = mileage * stocks
@@ -42,7 +42,7 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     #get egeda data
     egeda_energy_selection_dict = {'measure': 
         ['energy'],
-    'dataset': ['9th_outlook_esto']}#egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto
+    'dataset': ['9th_outlook_esto $ egeda']}#egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto
     #make them all lower case:
     unfiltered_combined_data['measure'] = unfiltered_combined_data['measure'].str.lower()
     egeda_energy_combined_data = data_formatting_functions.filter_for_specifc_data(egeda_energy_selection_dict, unfiltered_combined_data)
@@ -76,7 +76,7 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     road_energy = all_combined_data[all_combined_data['measure'] == 'energy']
     #set transport type to all and sum up road energy
     road_energy['transport_type'] = 'all'
-    road_energy = road_energy.groupby(['economy','date']).sum().reset_index()
+    road_energy = road_energy.groupby(['economy','date'])['value'].sum().reset_index()
     #name the value col 'road_energy_calculated' 
     road_energy = road_energy.rename(columns={'value':'road_energy_calculated'})
     #drop unnecessary cols
@@ -85,7 +85,6 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     egeda_energy_combined_data = pd.merge(egeda_energy_combined_data, road_energy, on=['economy','date'], how='left')
     #calculate the proportion of road energy that is calculated
     egeda_energy_combined_data['road_energy_calculated_proportion'] = egeda_energy_combined_data['road_energy_calculated'] / egeda_energy_combined_data['total_energy_use']
-    breakpoint()
     #fill forwards any missing dates, in case we need them:
     latest_date = unfiltered_combined_data['date'].max()
     max_date = egeda_energy_combined_data['date'].max()
@@ -95,7 +94,19 @@ def prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, 
     for date in range(max_date+1, latest_date+1):
         egeda_energy_combined_data_latest_date['date'] = date
         egeda_energy_combined_data = pd.concat([egeda_energy_combined_data, egeda_energy_combined_data_latest_date])
-    breakpoint()    
+        
+    #where road_energy_calculated_proportion and road_energy_calculated are na or 0, ffill then bfil them so we replace them with the latest proportion.
+    #replace 0s with na
+    egeda_energy_combined_data['road_energy_calculated_proportion'] = egeda_energy_combined_data['road_energy_calculated_proportion'].replace(0, np.nan)
+    egeda_energy_combined_data['road_energy_calculated'] = egeda_energy_combined_data['road_energy_calculated'].replace(0, np.nan)
+    egeda_energy_combined_data.sort_values(['economy','date'], inplace=True)
+    #group by economy and fill the na values
+    egeda_energy_combined_data['road_energy_calculated_proportion'] = egeda_energy_combined_data.groupby('economy')['road_energy_calculated_proportion'].ffill()
+    
+    egeda_energy_combined_data['road_energy_calculated'] = egeda_energy_combined_data.groupby('economy')['road_energy_calculated'].ffill()
+    egeda_energy_combined_data['road_energy_calculated_proportion'] = egeda_energy_combined_data.groupby('economy')['road_energy_calculated_proportion'].bfill()
+    
+    egeda_energy_combined_data['road_energy_calculated'] = egeda_energy_combined_data.groupby('economy')['road_energy_calculated'].bfill()
     return egeda_energy_combined_data
 
 def scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined_data):
@@ -122,13 +133,31 @@ def scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined
     egeda_energy_combined_data_scaled = egeda_energy_combined_data_scaled.drop(columns=['road'])
     egeda_energy_combined_data_scaled = egeda_energy_combined_data_scaled.rename(columns={'road_energy_calculated':'road'})
     #keep only cols we need
+    
+    #copy the egeda data
+    egeda_energy_combined_data_scaled = egeda_energy_combined_data.copy()
+    #find what % the calculated road energy changed compared to the egeda road energy
+    egeda_energy_combined_data_scaled['road_energy_calculated_proportion_change'] = egeda_energy_combined_data_scaled['road_energy_calculated'] / egeda_energy_combined_data_scaled['road']
+    #scale the other energy uses by the same amount
+    egeda_energy_combined_data_scaled['rail'] = egeda_energy_combined_data_scaled['rail'] * egeda_energy_combined_data_scaled['road_energy_calculated_proportion_change']
+    egeda_energy_combined_data_scaled['ship'] = egeda_energy_combined_data_scaled['ship'] * egeda_energy_combined_data_scaled['road_energy_calculated_proportion_change']
+    egeda_energy_combined_data_scaled['air'] = egeda_energy_combined_data_scaled['air'] * egeda_energy_combined_data_scaled['road_energy_calculated_proportion_change']
+    #calculate the new total energy use
+    egeda_energy_combined_data_scaled['total_energy_use'] = egeda_energy_combined_data_scaled['rail'] + egeda_energy_combined_data_scaled['ship'] + egeda_energy_combined_data_scaled['air']+ egeda_energy_combined_data_scaled['road_energy_calculated']
+    #drop road and then rename road enegry calculated to road
+    egeda_energy_combined_data_scaled = egeda_energy_combined_data_scaled.drop(columns=['road'])
+    egeda_energy_combined_data_scaled = egeda_energy_combined_data_scaled.rename(columns={'road_energy_calculated':'road'})
+    #keep only cols we need
     egeda_energy_combined_data_scaled = egeda_energy_combined_data_scaled[['economy','date','rail','ship','air','road','rail_proportion', 'ship_proportion', 'air_proportion', 'road_proportion', 'total_energy_use']]
+    #done = egeda_energy_combined_data_scaled[['economy','date','rail','ship','air','road','rail_proportion', 'ship_proportion', 'air_proportion', 'road_proportion', 'total_energy_use']]
     #done
     return egeda_energy_combined_data_scaled
 
 def scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combined_data):
-    """use the values from egeda but make it the remainder of the total road energy use (so scale between non-road energy uses are the same but the proportion comapred to total road energy use is different)
+    """use the values from egeda but make it the remainder of ?Something? I honestly forgot how i made this work.
 
+    note that eventually we will cnhose to use either these etiamtes or the scaled estiamtes. 
+    if there are any negatives in these estiamtes then the remainder method wont work as it has been written so we definitely shoudlnt use this method 
     Args:
         egeda_energy_combined_data (_type_): _description_
 
@@ -140,6 +169,7 @@ def scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combi
     egeda_energy_combined_data_remainder = egeda_energy_combined_data.copy()
     #calculate the remainder of the total energy use
     egeda_energy_combined_data_remainder['total_energy_use_remainder'] = egeda_energy_combined_data_remainder['total_energy_use'] - egeda_energy_combined_data_remainder['road_energy_calculated']
+    
     #calcualte previous remainder
     egeda_energy_combined_data_remainder['total_energy_use_remainder_previous'] = egeda_energy_combined_data_remainder['total_energy_use_remainder'] - egeda_energy_combined_data_remainder['road']
     #clacualte the percentage change of the remainder
@@ -160,6 +190,7 @@ def scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combi
     egeda_energy_combined_data_remainder = egeda_energy_combined_data_remainder.rename(columns={'road_energy_calculated': 'road'})
     #keep only cols we need
     egeda_energy_combined_data_remainder = egeda_energy_combined_data_remainder[['economy', 'date', 'rail_proportion', 'ship_proportion', 'air_proportion', 'road_proportion', 'rail', 'ship', 'air', 'road','total_energy_use']]
+    
     #done
     return egeda_energy_combined_data_remainder
 
@@ -194,6 +225,10 @@ def aggregate_non_road_energy_estimates(egeda_energy_combined_data_scaled,egeda_
     egeda_energy_combined_data_remainder['option'] = 'remainder'
     egeda_energy_combined_data_scaled['option'] = 'scaled'
 
+    if option_chosen == 'remainder':
+        #check for any negatives. if there are then the remainder method wont work as it has been written so we definitely shoudlnt use this method
+        if (egeda_energy_combined_data_remainder['rail'] < 0).any() or (egeda_energy_combined_data_remainder['ship'] < 0).any() or (egeda_energy_combined_data_remainder['air'] < 0).any():
+            option_chosen = 'scaled'
     #now graph the results on 2 plotly time series one for proporitons and one for absolute values, faceted by economy, with the egeda_energy_combined_data_remainder as a dashed line and the egeda_energy_combined_data_scaled as a solid line,m then color as the rail, ship, air, road proportions
     egeda_energy_combined_data_merged = pd.concat([egeda_energy_combined_data_remainder, egeda_energy_combined_data_scaled])
 
@@ -232,9 +267,11 @@ def estimate_non_road_energy(unfiltered_combined_data,all_combined_data,paths_di
         _type_: _description_
     """
     egeda_energy_combined_data = prepare_egeda_energy_data_for_estimating_non_road(unfiltered_combined_data, all_combined_data) 
+    #run two options 'scaled' and 'remainder' to estimate non road energy use. currently we will commit to scaled (since remaninder is pretty faulty) but we can change this later.
     egeda_energy_combined_data_scaled = scale_egeda_energy_data_scaled_for_estimating_non_road(egeda_energy_combined_data)
     egeda_energy_combined_data_remainder = scale_egeda_energy_data_remainder_for_estimating_non_road(egeda_energy_combined_data)    
     #we will commit to scaled for now, but we can change this later. So filter for remainder only and then drop proportion and option. then rename absolute to value. Then lastly create a whole lot of new cols.
+    
     egeda_energy_combined_data_merged_tall = aggregate_non_road_energy_estimates(egeda_energy_combined_data_scaled,egeda_energy_combined_data_remainder,option_chosen = 'scaled')
     ###########
     #analysis:  
@@ -253,6 +290,15 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
 
 
     #PLEASE NOTE THAT THIS DATA IN THIS STEP WILL ONLY BE FOR 2017. THIS IS BECAUSE OF A FEW THINGS BUT MOST IMPORTANTLY WE ARE TRYING TO FIND THE ENERGY VALUE FOR THE YEAR IN WHICH WE HAVE THE MOST CONFIDENCE. THIS IS BECAUSE THE VALUE NEEDS TO BE SPLIT INTO TRANSPORT TYPE, WHICH WE DO USING INPUT DATA FROM THE ECONOMIES. RIGHT NOW THAT IS DONE USING THE 8TH EDIITON INPUT DATA BECAUSE IT IS THE MOST COMPLETE AND AGREEABLE, AS IT WOULD TAKE A LOT OF TIME TO FIND ALL THE DATA REQUIRED TO REPLACE THIS DATASET.
+    
+    #prep:
+    #TODO IT WOULD BE GOOD TO BE ABLE TO USE A DIFFERENT DATASET THAN THE CURRENT ONE, SINCE THE CURRENT ON EI SBASED OFF 2017, 8TH EDITION OUTLOOK VALUES. WHEREAS IT WOULD BE GOOD TO USE DATA FROM, SAY, THE ATO. PROBLEM IS THAT THE DATA FROM THE ATO DOESNT GIVE TOO MUCH CONFIDENCE IN THE SPLIT BETWEEN TRANSPORT TYPES (WE CAN TRUST THAT THEY ARE INDIVIDUALLY RELATIVELY CORRECT BUT ITS HARD TO KNOW IF THEY ARE CORRECT RELATIVE TO EACH OTHER).
+    #IF WE CAN MAYBE IT WOULD BE GOOD TO RELY ON THE SELECTION PROCESS BEFOR THIS, AND USE THAT TO SELECT THE DATA FOR THIS FUNCTION. THEN, WE CAN HAVE PARAMETERS IN THE SELECTION CONFIG THAT DETAIL IF WE SHOULD USE THE SPLITS FROM THOSE SELECTIONS OR OTHERWISE SPLITS FROM THE 8TH EDITION OUTLOOK.
+
+
+    #prep:
+    #TODO IT MIGHT BE GOOD TO CREATE A METHOD TO ESTIMATE A NEW SPLIT BETWEEN TRANSPORT TYPES AND THEN APPLY THAT TO THE EGEDA DATA. THAT WAY IT WOULD BE BASED OFF THE BEST DATA AVAILABLE. WE COULD ALSO HAVE A SELECTION CONIFG PARAMATER TO DEFINE WHETHER TO USE THE 8TH EDITION OUTLOOK DATA OR THE NEWLY ESTIMATED DATA.
+    
     Args:
     Args:
         non_road_energy_no_transport_type (_type_): _description_
@@ -262,14 +308,6 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
     Returns:
         _type_: _description_
     """
-    #prep:
-    breakpoint()
-    #TODO IT WOULD BE GOOD TO BE ABLE TO USE A DIFFERENT DATASET THAN THE CURRENT ONE, SINCE THE CURRENT ON EI SBASED OFF 2017, 8TH EDITION OUTLOOK VALUES. WHEREAS IT WOULD BE GOOD TO USE DATA FROM, SAY, THE ATO. PROBLEM IS THAT THE DATA FROM THE ATO DOESNT GIVE TOO MUCH CONFIDENCE IN THE SPLIT BETWEEN TRANSPORT TYPES (WE CAN TRUST THAT THEY ARE INDIVIDUALLY RELATIVELY CORRECT BUT ITS HARD TO KNOW IF THEY ARE CORRECT RELATIVE TO EACH OTHER).
-    #IF WE CAN MAYBE IT WOULD BE GOOD TO RELY ON THE SELECTION PROCESS BEFOR THIS, AND USE THAT TO SELECT THE DATA FOR THIS FUNCTION. THEN, WE CAN HAVE PARAMETERS IN THE SELECTION CONFIG THAT DETAIL IF WE SHOULD USE THE SPLITS FROM THOSE SELECTIONS OR OTHERWISE SPLITS FROM THE 8TH EDITION OUTLOOK.
-
-
-    #prep:
-    #TODO IT MIGHT BE GOOD TO CREATE A METHOD TO ESTIMATE A NEW SPLIT BETWEEN TRANSPORT TYPES AND THEN APPLY THAT TO THE EGEDA DATA. THAT WAY IT WOULD BE BASED OFF THE BEST DATA AVAILABLE. WE COULD ALSO HAVE A SELECTION CONIFG PARAMATER TO DEFINE WHETHER TO USE THE 8TH EDITION OUTLOOK DATA OR THE NEWLY ESTIMATED DATA.
     
     SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD'][economy_id]
     if SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD =='8th':   
@@ -279,9 +317,9 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
         transport_type_split = calcualte_egeda_non_road_transport_type_energy_proportions(unfiltered_combined_data,egeda_energy_selection_dict) 
     else:
         #we will estiamte the splits using the data in all_combined_data. this will require calcualting a split.          
-        transport_type_split = calculate_transport_type_split_from_activity_or_non_esto_energy_use(all_combined_data, economy_id, SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD)
-    breakpoint()
-    #merge on economy and date
+        transport_type_split = calculate_transport_type_split_from_activity_times_intensity_or_non_esto_energy_use(all_combined_data, economy_id, SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD)
+        
+    #merge on economy and date. how
     non_road_energy = non_road_energy_no_transport_type.merge(transport_type_split, on=['economy','date', 'medium'], how='left')
         
     #times the energy use by the proportion of energy use for each transport type
@@ -294,20 +332,28 @@ def split_non_road_energy_into_transport_types(non_road_energy_no_transport_type
     cols.remove('freight')
     cols.remove('passenger')#does this need to ave other columns added to it, eg. comment?
     non_road_energy = non_road_energy.melt(id_vars=cols, value_vars=['freight','passenger'], var_name='transport_type', value_name='value')
-
     if plotting:#global variable in main() 
         analysis_and_plotting_functions.plot_non_road_energy_use_by_transport_type(non_road_energy, paths_dict)
 
     return non_road_energy
 
-def calculate_transport_type_split_from_activity_or_non_esto_energy_use(all_combined_data, economy_id, SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD):
+def calculate_transport_type_split_from_activity_times_intensity_or_non_esto_energy_use(all_combined_data, economy_id, SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD):
     #based on the economy id we will either find transport type splits from energy or activity data, using specifications in the selection config
     if SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD == 'energy':
         #find energy data from the all_combined_data
         transport_type_split = all_combined_data[all_combined_data['measure'] == 'energy']   
-    elif SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD == 'activity':
-        #find activity data from the all_combined_data
-        transport_type_split = all_combined_data[all_combined_data['measure'] == 'activity']
+    elif SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD == 'activity_times_intensity':
+        #find activity and intensity data from the all_combined_data then times them to get energy. (we cannot rely on jsut activity to find the split since the units are not the same for each transport type... comapring between freigh tonne km and passenger km results in a very different split to comparing between energy use for each transport type)
+        transport_type_split = all_combined_data[all_combined_data['measure'].isin(['activity','intensity'])]
+        #Before we use the intensity values, check that there are no 0's
+        if len(transport_type_split.loc[(transport_type_split['value'] == 0)&(transport_type_split['measure'] == 'intensity')]) > 0:
+            raise ValueError('There are 0s in the intensity data. This will cause a problem when we times the activity by the intensity to get energy')
+        #pivot the measures round. note that we will sum by not jsut date, economy, medium, transport type but also vehicle type, drive and fuel in case we add more detail to the data later
+        transport_type_split = transport_type_split.pivot(index=['economy','date','medium','transport_type', 'vehicle_type', 'drive', 'fuel', 'scope'], columns='measure', values='value').reset_index()
+        #times activity by intensity to get energy. do this by pivoting so we have activity and intensity in the same row
+        transport_type_split['value'] = transport_type_split['activity'] * transport_type_split['intensity']
+        #drop activity and intensity
+        transport_type_split = transport_type_split.drop(columns=['activity','intensity'])       
     else:
         breakpoint()
         raise ValueError('The source of the splits for non road transport type split estimation method is not valid. It must be either energy or activity')
@@ -317,15 +363,28 @@ def calculate_transport_type_split_from_activity_or_non_esto_energy_use(all_comb
     transport_type_split = pd.merge(transport_type_split, required_combinations, on=['economy','medium','date','transport_type'], how='right')
     #find any na rows, if there are then show the user and if it is ok then fill them with 0
     if transport_type_split['value'].isna().any():
-        breakpoint()
-        print('There are missing values in the transport type split data. They will be filled with 0, {}'.format(transport_type_split[transport_type_split['value'].isna()]))
+        print('There are missing values in the transport type split data. They will be filled with 0, {}'.format(transport_type_split[transport_type_split['value'].isna()][['economy','medium','date','transport_type']]))
         
     transport_type_split['value'] = transport_type_split['value'].fillna(0)
-    transport_type_split = transport_type_split.groupby(['economy','medium', 'transport_type', 'date']).sum().reset_index()
+    transport_type_split = transport_type_split.groupby(['economy','medium', 'transport_type', 'date'])['value'].sum().reset_index()
     #calcualte the % of the total energy use for each transport type, medium and date
-    transport_type_split['proportion'] = transport_type_split['value'] / transport_type_split['value'].groupby(['medium','date']).transform('sum')
+    transport_type_split['proportion'] = transport_type_split['value'] / transport_type_split.groupby(['medium','date'])['value'].transform('sum')
     #drop values that are not needed                
     transport_type_split = transport_type_split.drop(columns=['value'])
+    
+    #set any rows with 0s or 1s in the proportion column to na and then ffill so we replace them with the latest proportion.
+    transport_type_split.loc[transport_type_split['proportion']==0, 'proportion'] = np.nan
+    transport_type_split.loc[transport_type_split['proportion']==1, 'proportion'] = np.nan
+    #sort quikclly
+    transport_type_split = transport_type_split.sort_values(['economy','medium','date','transport_type'])
+    transport_type_split['proportion'] = transport_type_split.groupby(['economy', 'medium','transport_type'])['proportion'].ffill()
+    #bfill
+    transport_type_split['proportion'] = transport_type_split.groupby(['economy', 'medium','transport_type'])['proportion'].bfill()
+    #if there are any nas leftover tlel the user and then set them to 0
+    nas = transport_type_split[transport_type_split['proportion'].isna() & (transport_type_split['medium'] != 'road')]
+    if len(nas) > 0:
+        print('There are still missing values in the transport type split data. They will be filled with 0, {}'.format(nas[nas['proportion'].isna()][['economy','medium','date','transport_type']]))
+        transport_type_split['proportion'] = transport_type_split['proportion'].fillna(0)
     
     #now format things so we have the columns used int eh prexisiting code (which would be nice to clean up evenutally as its a bit of a mess) - freight_energy_proportion, passenger_energy_proportion
     #pivot so the transport type is a column
@@ -334,7 +393,6 @@ def calculate_transport_type_split_from_activity_or_non_esto_energy_use(all_comb
     transport_type_split = transport_type_split.rename(columns={'freight':'freight_energy_proportion','passenger':'passenger_energy_proportion'})
     #reset index
     transport_type_split = transport_type_split.reset_index()
-    breakpoint()
     
     return transport_type_split     
 
@@ -379,7 +437,18 @@ def calcualte_egeda_non_road_transport_type_energy_proportions(unfiltered_combin
 
     #drop non proportional columns
     egeda_transport_type_energy_proportions = egeda_transport_type_energy_proportions.drop(columns=['freight','passenger','total_energy_use'])
-
+    
+    #join the splits onto unfiltered_combined_data['economy','date'].drop_dupes so we have the splits for each row in the unfiltered_combined_data
+    extra_rows = unfiltered_combined_data[['economy','date', 'medium']].drop_duplicates()
+    extra_rows = extra_rows[extra_rows.medium.isin(egeda_transport_type_energy_proportions.medium.unique())]
+    egeda_transport_type_energy_proportions = egeda_transport_type_energy_proportions.merge(extra_rows, on=['economy','date','medium'], how='right')
+    #sort and then bfill and ffill
+    egeda_transport_type_energy_proportions = egeda_transport_type_energy_proportions.sort_values(['economy','date','medium'])
+    egeda_transport_type_energy_proportions['freight_energy_proportion'] = egeda_transport_type_energy_proportions.groupby(['economy','medium'])['freight_energy_proportion'].ffill()
+    egeda_transport_type_energy_proportions['freight_energy_proportion'] = egeda_transport_type_energy_proportions.groupby(['economy','medium'])['freight_energy_proportion'].bfill()
+    egeda_transport_type_energy_proportions['passenger_energy_proportion'] = egeda_transport_type_energy_proportions.groupby(['economy','medium'])['passenger_energy_proportion'].ffill()
+    egeda_transport_type_energy_proportions['passenger_energy_proportion'] = egeda_transport_type_energy_proportions.groupby(['economy','medium'])['passenger_energy_proportion'].bfill()
+    
     return egeda_transport_type_energy_proportions
 
 
@@ -525,6 +594,7 @@ def estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data
     intensity = extract_intensity_non_road(all_combined_data)
     
     #drop activity from all_combined_data where medium is not road
+    old_activity = all_combined_data.loc[(all_combined_data['measure']=='activity') & (all_combined_data['medium']!='road')]
     all_combined_data = all_combined_data.loc[~((all_combined_data['measure']=='activity') & (all_combined_data['medium']!='road'))]
     #now times the intenstiy by the energy values weve calcualted to get the activity
     energy_activity = non_road_energy.merge(intensity,how='left',on=['date',	'economy',	'medium', 'transport_type'], suffixes=('', '_intensity'))
@@ -534,11 +604,8 @@ def estimate_activity_non_road_using_intensity(non_road_energy,all_combined_data
     energy_activity['activity'] = energy_activity['value']/energy_activity['intensity']
 
     activity = clean_activity(energy_activity)
-
-    #concatenate all the data together
-    all_new_combined_data = pd.concat([non_road_energy,all_combined_data,activity],axis=0)
     
-    return all_new_combined_data
+    return non_road_energy,all_combined_data,activity,old_activity
 
 def extract_activity_non_road(all_combined_data, medium, economy, transport_type):
     #get activity data from all_combined_data for non road
@@ -555,13 +622,13 @@ def estimate_intensity_non_road_using_activity(activity, non_road_energy):
     #drop non both
     energy_intensity = energy_intensity.loc[energy_intensity['_merge']=='both']
     #drop any cols ending in _activity
-    energy_intensity = energy_intensity.drop(columns=[col for col in energy_intensity.columns if col.endswith('_activity')]) 
+    energy_intensity = energy_intensity.drop(columns=[col for col in energy_intensity.columns if col.endswith('_activity')]+['_merge'])
     
     energy_intensity['intensity'] = energy_intensity['value']/energy_intensity['activity'] 
 
-    activity = clean_intensity(energy_intensity)
+    energy_intensity = clean_intensity(energy_intensity)
 
-    return activity
+    return energy_intensity
     
 def clean_intensity(energy_intensity):
     intensity = energy_intensity.drop(columns=['value','activity'])
@@ -585,7 +652,7 @@ def clean_intensity(energy_intensity):
     intensity['vehicle_type'] = 'all'
     return intensity
 
-def extract_activity_and_calculate_intensity_for_applicable_economies(economy, non_road_energy, all_combined_data, all_new_combined_data):
+def extract_activity_and_calculate_intensity_for_applicable_economies(economy, non_road_energy, all_combined_data, all_new_combined_data, old_activity):
     """
     #this is a function that will calculate non road activity, if it is in the settings in the config/selection_config.yml file for that economy/medium/transport type. 
     #by default we will calcualte activity using intensity and this is done before this fucntion. but then in the selection config file we will have a dict of economies and their mediums and for those we will use supplied activity data instead. If we dont use those economies for any mediums, or even if we dont use them for certain mediums, then they wont ahve an entry in the dict.
@@ -606,16 +673,28 @@ def extract_activity_and_calculate_intensity_for_applicable_economies(economy, n
         for medium in USE_PROVIDED_NON_ROAD_ACTIVITY_DATA.keys():
             for transport_type in USE_PROVIDED_NON_ROAD_ACTIVITY_DATA[medium]:
                 #extract activity data, then calcalate intensity. then repalce intensity in non_road_energy with this new intensity, as well as the activity data
-                #we grab activity from all_combined_data since it contains the activity data we need (its not the same as what is in all_new_combined_data)
-                activity_new = extract_activity_non_road(all_combined_data, medium, economy, transport_type)
+                #we grab activity from old_activity since it contains the origianl (non clacualted) activity data we need 
+                original_activity = extract_activity_non_road(old_activity, medium, economy, transport_type)
                 #calculate intensity
-                intensity_new = estimate_intensity_non_road_using_activity(activity_new, non_road_energy)
-                #remove intensity in non_road_energy since we will replace it with this new value in the concat step for the medium, economy and transport type. this data was calcualted in estimate_activity_non_road_using_intensity()
-                all_new_combined_data = all_new_combined_data.loc[~((all_new_combined_data['measure'].isin(['intensity'])) & (all_new_combined_data['medium']==medium) & (all_new_combined_data['economy']==economy) & (all_new_combined_data['transport_type']==transport_type))]
-                #now concat the new data instead
-                all_new_combined_data = pd.concat([all_new_combined_data, intensity_new],axis=0)
-
-    all_new_combined_data = pd.concat([all_new_combined_data,non_road_energy])
+                intensity_new = estimate_intensity_non_road_using_activity(original_activity, non_road_energy)
+                
+                #CLEAN THE DATA AND REPLCE THE OLD DATA WITH THE NEW DATA
+                #now concat the new data instead.. but only repalce it where the new data is not na
+                intensity_new = intensity_new.dropna(subset=['value'])
+                original_activity = original_activity.dropna(subset=['activity'])
+                original_activity.rename(columns={'activity':'value'}, inplace=True)
+                original_activity['measure'] = 'activity'
+                intensity_activity = pd.concat([intensity_new, original_activity],axis=0)
+                all_new_combined_data_new =  all_new_combined_data.merge(intensity_activity, how='outer', on=['economy', 'date', 'medium', 'measure', 'unit', 'fuel','scope', 'frequency', 'drive', 'vehicle_type', 'transport_type'], suffixes=('', '_new'))
+                #replace activity in all_new_combined_data with this new value in the concat step for the medium, economy and transport type. this data was calcualted in estimate_activity_non_road_using_intensity()
+                #where value_new is not na, replace value with value_new
+                all_new_combined_data_new.loc[~(all_new_combined_data_new['value_new'].isna()), 'value'] = all_new_combined_data_new['value_new']
+                #same for dataset
+                all_new_combined_data_new.loc[~(all_new_combined_data_new['value_new'].isna()), 'dataset'] = all_new_combined_data_new['dataset_new']
+                #drop cols ending in _new
+                all_new_combined_data_new = all_new_combined_data_new.drop(columns=[col for col in all_new_combined_data_new.columns if col.endswith('_new')])
+                all_new_combined_data = all_new_combined_data_new
+                
     return all_new_combined_data
 
 def find_percent_diff_for_missing_years_in_egeda(merged_data):

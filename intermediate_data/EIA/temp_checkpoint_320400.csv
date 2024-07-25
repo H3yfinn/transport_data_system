@@ -1,9 +1,0 @@
-drive,vehicle_type,measure,period,scenario,unit,economy,seriesName,value
-bev,,,2022,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,34.887512
-bev,,,2023,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,33.665546
-bev,,,2024,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,32.453667
-bev,,,2025,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,29.673792
-bev,,,2026,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,27.524731
-bev,,,2027,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,26.050907
-bev,,,2028,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,24.851532
-bev,,,2029,ref2023,nom $/mmbtu,5-15,electricity : fuel prices : distillate fuel oil,25.188951

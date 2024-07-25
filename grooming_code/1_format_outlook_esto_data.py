@@ -163,7 +163,21 @@ def convert_outlook_data_system_output_to_transport_data_system_input(FILE_DATE_
         
         # if len(new_df) > 1000:
         #     break
-        
+    
+    #identify columns that contain only nas. if these are year columns then remove them
+    ###########################
+    ###########################
+    #TO BE SAFE SINCE I HAVENT TESTED THIS ROW, CREATE A INPUT PROMPT TO ASK THE USER TO PROCEED WITH THIS STEP AND CHECK THE OUTPUT
+    input('Please check the output of the esto data and confirm that the columns with all nas are year columns. Press enter to continue')
+    cols = new_df.columns.tolist()
+    new_df = new_df.dropna(axis=1, how='all')
+    print('Dropping columns with all nas')
+    print(f'Dropped columns: {list(set(cols) - set(new_df.columns.tolist()))}')
+    input('Please check the output of the esto data and confirm that the columns with all nas are year columns. Press enter to continue')
+    
+    ###########################
+    ###########################
+    
     #set nas to 0s
     new_df['Value'] = new_df['Value'].fillna(0)
 
@@ -174,11 +188,16 @@ def convert_outlook_data_system_output_to_transport_data_system_input(FILE_DATE_
     if new_final_df.isna().sum().sum() > 0:
         nans = new_final_df[new_final_df.isna().any(axis=1)]
         raise ValueError(f'There are nans in the esto ouput. Please check {nans}')
+    
+    #Drop any Target rpws amnd only keep Reference rows in the scenario column
+    new_final_df = new_final_df.loc[new_final_df['Scenario'].str.contains('reference')].copy()
+    
     #pivot the date column
     INDEX_COLS_no_date = INDEX_COLS.copy()
     INDEX_COLS_no_date.remove('Date')
     new_final_df = new_final_df.pivot(index=INDEX_COLS_no_date, columns='Date', values='Value').reset_index()
-
+    #dro scenario column
+    new_final_df.drop(columns='Scenario', inplace=True)
     #save this file to output_data\for_other_modellers
     new_final_df.to_csv(f'intermediate_data/EGEDA/DATE{FILE_DATE_ID}_9th_outlook_esto_WIDE.csv', index=False)
 
@@ -187,14 +206,15 @@ def format_transport_data_system_input(FILE_DATE_ID):
     date_id = utility_functions.get_latest_date_for_data_file('intermediate_data/EGEDA', '_9th_outlook_esto_WIDE')#
     new_final_df = pd.read_csv(f'intermediate_data/EGEDA/DATE{date_id}_9th_outlook_esto_WIDE.csv')#
         
-    new_final_df = new_final_df.melt(id_vars=['Economy', 'Measure', 'Vehicle Type', 'Medium', 'Transport Type', 'Drive', 'Scenario', 'Unit'], var_name='Date', value_name='Value')
+    new_final_df = new_final_df.melt(id_vars=['Economy', 'Measure', 'Vehicle Type', 'Medium', 'Transport Type', 'Drive',  'Unit'], var_name='Date', value_name='Value')
     
     #we jsut want to add a dataset column and melt it
     new_final_df['Dataset'] = '9th_outlook_esto'
+    new_final_df['Source'] = 'EGEDA'
     new_final_df['Fuel'] = 'all'
     new_final_df['Frequency'] = 'yearly'
-    new_final_df['Unit'] = 'PJ'
     new_final_df['Scope']='national'
+    new_final_df['comment '] = np.nan
     
     #save this file to output_data\for_other_modellers
     new_final_df.to_csv(f'intermediate_data/EGEDA/DATE{FILE_DATE_ID}_9th_outlook_esto.csv', index=False)

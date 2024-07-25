@@ -28,6 +28,7 @@
 
 #first, open the excel workbook and extract the names of all the sheets in the workbook. we will use those to extract data from the sheets iteratively.
 #%%
+#%%
 import pandas as pd
 # set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
 pd.options.mode.chained_assignment = None
@@ -45,7 +46,7 @@ file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 #%%
 #open the workbook using pandas
-wb = pd.ExcelFile('./input_data/Asian_transport_outlook_ATO/ATO National Data - indicatorview.xlsx')
+wb = pd.ExcelFile('./input_data/Asian_transport_outlook_ATO/ATO National Data - indicatorview june2024.xlsx')
 #extract the sheets in the workbook
 sheets = wb.sheet_names
 
@@ -201,7 +202,7 @@ all_data_aggregated = pd.concat(dataframes, axis=0)
 ################################################################################################################################################################
 #%%
 #We'll now load in the TOC sheet we originally removed and join it to the all_data_aggregated df using the indicator code/name to extract the useful Subcategory column
-toc = pd.read_excel('./input_data/Asian_transport_outlook_ATO/ATO National Data - indicatorview.xlsx', sheet_name='TOC')
+toc = pd.read_excel('./input_data/Asian_transport_outlook_ATO/ATO National Data - indicatorview june2024.xlsx', sheet_name='TOC')
 #Find row in col 2 that has name 'Subcategory'
 toc_row = toc[toc.iloc[:,1] == 'Subcategory'].index[0]
 # #find what cols contain 'Indicator Code', 'Indicator Name'
@@ -223,16 +224,16 @@ all_data_aggregated = all_data_aggregated.merge(toc, how='left', left_on='Indica
 #so first,, checking all files with 'other_data' in the name, against other_data_agg
 same_data = False
 
-for file in os.listdir('intermediate_data/ATO_data/'):
+for file in os.listdir('intermediate_data/ATO/'):
     if 'ATO_extracted_data' in file:
-        all_data_aggregated_old = pd.read_csv('intermediate_data/ATO_data/' + file)
+        all_data_aggregated_old = pd.read_csv('intermediate_data/ATO/' + file)
         if all_data_aggregated.equals(all_data_aggregated_old):
             same_data = True
             print('actual_data_agg is the same as the data in '+file)
             break
 if same_data == False:
     print('Saving data to csv')
-    all_data_aggregated.to_csv('intermediate_data/ATO_data/ATO_extracted_data_'+FILE_DATE_ID+'.csv', index=False)
+    all_data_aggregated.to_csv('intermediate_data/ATO/ATO_extracted_data_'+FILE_DATE_ID+'.csv', index=False)
 
 
 #%%

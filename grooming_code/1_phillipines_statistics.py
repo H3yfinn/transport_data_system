@@ -9,9 +9,19 @@ import plotly.graph_objects as go
 import re
 import datetime
 os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
+
+HEV_VAR = 'ice_g'#set to phev if you want to set HEVs to PHEVs or jsut leave them as ices
+scenario = 'tgt'#tgt for target, ref for reference
+AUTO_OPEN = False
 #%%
 # File paths for the data files
 ev_stocks_path = 'input_data/phillipines/chatgpt/20230919_PH_Vehicle Fleet_FINAL.xlsx'
+
+if scenario == 'tgt':
+    ev_stocks_path_sheet = 'CES-EV Invst'
+elif scenario == 'ref':
+    ev_stocks_path_sheet = 'BAU-EV Invst'
+    
 other_stocks_path = 'input_data/phillipines/chatgpt/PH Registered MV as of Dec 2022.xlsx'
 phil_data_structure_path = 'input_data/phillipines/chatgpt/phil_data_structure.xlsx'
 
@@ -24,8 +34,8 @@ other_stocks_data = other_stocks_data.drop([0])
 phil_data_structure = pd.read_excel(phil_data_structure_path)
 
 # Load the EV stocks data and set the correct header for dates
-ev_stocks_data = pd.read_excel(ev_stocks_path, header=2)  # Setting header to second row
-
+ev_stocks_data = pd.read_excel(ev_stocks_path, header=2, sheet_name=ev_stocks_path_sheet)  # Setting header to second row
+#%%
 #########################
 #PLEASE NOTE THAT THIS TRSUTS THAT THE DATA KEEPS THE SAME STRUCTURE. IF IT CHANGES THEN THIS CODE WILL RMEOVE TOO MANY ROWS
 #%%
@@ -42,7 +52,7 @@ other_stocks_total = other_stocks_total.rename(columns={'TOTAL': 'value', 'Unnam
 #%%
 # Map vehicle types and drive types
 #'CARS', 'SUV', 'UV', 'TRUCK', 'BUSES', 'MC', 'TRL', 'TRM', 'TRH'
-other_stocks_total['vehicle_type'] = other_stocks_total['vehicle_type'].map({'CARS': 'car', 'SUV': 'suv', 'UV': 'lcv', 'TRUCK': 'ht', 'BUSES': 'bus', 'MC': '2w', 'TRL': 'lcv', 'TRM': 'mt', 'TRH': 'ht'})
+other_stocks_total['vehicle_type'] = other_stocks_total['vehicle_type'].map({'CARS': 'car', 'SUV': 'suv', 'UV': 'lt', 'TRUCK': 'ht', 'BUSES': 'bus', 'MC': '2w', 'TRL': 'lcv', 'TRM': 'mt', 'TRH': 'ht'})
 other_stocks_total['drive'] = other_stocks_total['drive'].map({'G': 'ice_g', 'D': 'ice_d', 'Hybrid': 'phev_g', 'Electric': 'bev', 'LPG': 'lpg', 'CNG': 'cng', 'Others': 'other'})
 #where vehicle_type is lcv,mt and ht and drive is na then set it to ice_d
 other_stocks_total.loc[(other_stocks_total['vehicle_type'].isin(['lcv','mt','ht'])) & (other_stocks_total['drive'].isna()),'drive'] = 'ice_d'
@@ -52,21 +62,21 @@ other_stocks_total.loc[(other_stocks_total['vehicle_type'].isin(['lcv','mt','ht'
 ##############################
 
 # Load the EV stocks data with default headers first to identify rows
-ev_stocks_data = pd.read_excel(ev_stocks_path)
+ev_stocks_data = pd.read_excel(ev_stocks_path, sheet_name=ev_stocks_path_sheet)
 
 # Find the row indices for the 'Grand Total' and '% share of total fleet'
 grand_total_start_index = ev_stocks_data.index[ev_stocks_data.iloc[:, 0] == 'Grand Total'][0] +1
 share_of_total_fleet_start_index = ev_stocks_data.index[ev_stocks_data.iloc[:, 0] == 'Grand Total'][-1]+1
 total_vehicle_fleet_start_index = ev_stocks_data.index[ev_stocks_data.iloc[:, 0] == 'Grand Total'][-2] +1
 # Load the EV stocks data again but only the required rows for the 'Grand Total'
-ev_stocks_data_grand_total = pd.read_excel(ev_stocks_path, skiprows=grand_total_start_index+1, nrows=16, header=None)
+ev_stocks_data_grand_total = pd.read_excel(ev_stocks_path, skiprows=grand_total_start_index+1, nrows=16, header=None, sheet_name=ev_stocks_path_sheet)
 
 # Load the EV stocks data again but only the required rows for '% share of total fleet'
-ev_stocks_data_share_total_fleet = pd.read_excel(ev_stocks_path, skiprows=share_of_total_fleet_start_index+1, nrows=6, header=None)
+ev_stocks_data_share_total_fleet = pd.read_excel(ev_stocks_path, skiprows=share_of_total_fleet_start_index+1, nrows=6, header=None, sheet_name=ev_stocks_path_sheet)
 
-total_vehicle_fleet = pd.read_excel(ev_stocks_path, skiprows=total_vehicle_fleet_start_index+1, nrows=6, header=None) 
+total_vehicle_fleet = pd.read_excel(ev_stocks_path, skiprows=total_vehicle_fleet_start_index+1, nrows=6, header=None, sheet_name=ev_stocks_path_sheet)
 
-columns = pd.read_excel(ev_stocks_path, skiprows=1, nrows=0, header=1).rename(columns={'Unnamed: 0': 'vehicle_type'}).columns
+columns = pd.read_excel(ev_stocks_path, skiprows=1, nrows=0, header=1, sheet_name=ev_stocks_path_sheet).rename(columns={'Unnamed: 0': 'vehicle_type'}).columns
 
 # Set the correct headers for both datasets by using the columns from the top 
 ev_stocks_data_grand_total.columns = columns
@@ -78,8 +88,9 @@ ev_stocks_data_grand_total['drive'] = ''
 
 # Handle 'TC - BEV' and 'MC - BEV' based on your knowledge or glossary
 # Assuming 'TC' refers to some kind of three-wheeler and 'MC' refers to motorcycles
-ev_stocks_data_grand_total['drive'] = ev_stocks_data_grand_total['vehicle_type'].map({'BEV': 'bev', 'PHEV': 'phev', 'HEV': 'phev', 'E-Bus': 'bev', 'TC - BEV': 'bev', 'MC - BEV': 'bev'})
-ev_stocks_data_grand_total['vehicle_type'] =  ev_stocks_data_grand_total['vehicle_type'].map({'Cars': 'car', 'SUV': 'suv', 'UV': 'lcv', 'TC': '2w', 'MC': '2w', 'E-Bus': 'bus', 'TC - BEV': '2w', 'MC - BEV': '2w'})
+#SET HEV TO ICE
+ev_stocks_data_grand_total['drive'] = ev_stocks_data_grand_total['vehicle_type'].map({'BEV': 'bev', 'PHEV': 'phev', 'HEV': HEV_VAR, 'E-Bus': 'bev', 'TC - BEV': 'bev', 'MC - BEV': 'bev'})
+ev_stocks_data_grand_total['vehicle_type'] =  ev_stocks_data_grand_total['vehicle_type'].map({'Cars': 'car', 'SUV': 'suv', 'UV': 'lt', 'TC': '2w', 'MC': '2w', 'E-Bus': 'bus', 'TC - BEV': '2w', 'MC - BEV': '2w'})
 #FFILL the vehicle_type column
 ev_stocks_data_grand_total['vehicle_type'] = ev_stocks_data_grand_total['vehicle_type'].ffill()
 
@@ -103,11 +114,11 @@ ev_stocks_data_grand_total = ev_stocks_data_grand_total.melt(id_vars=['vehicle_t
 # TC
 # MC
 # Bus
-ev_stocks_data_share_total_fleet['vehicle_type'] = ev_stocks_data_share_total_fleet['vehicle_type'].map({'Cars': 'car', 'SUV': 'suv', 'UV': 'lcv', 'TC': '2w', 'MC': '2w', 'Bus': 'bus'})
+ev_stocks_data_share_total_fleet['vehicle_type'] = ev_stocks_data_share_total_fleet['vehicle_type'].map({'Cars': 'car', 'SUV': 'suv', 'UV': 'lt', 'TC': '2w', 'MC': '2w', 'Bus': 'bus'})
 #melt to have date, vehicle_type and value
 ev_stocks_data_share_total_fleet = ev_stocks_data_share_total_fleet.melt(id_vars=['vehicle_type'], var_name='date', value_name='value')
 #do same for total_vehicle_fleet
-total_vehicle_fleet['vehicle_type'] = total_vehicle_fleet['vehicle_type'].map({'Cars': 'car', 'SUV': 'suv', 'UV': 'lcv', 'TC': '2w', 'MC': '2w', 'Bus': 'bus'})
+total_vehicle_fleet['vehicle_type'] = total_vehicle_fleet['vehicle_type'].map({'Cars': 'car', 'SUV': 'suv', 'UV': 'lt', 'TC': '2w', 'MC': '2w', 'Bus': 'bus'})
 #melt to have date, vehicle_type and value
 total_vehicle_fleet = total_vehicle_fleet.melt(id_vars=['vehicle_type'], var_name='date', value_name='value')
 
@@ -165,7 +176,7 @@ default_values = {
     'medium': 'road',  # Assuming all vehicles are for road use
     'measure': 'stocks',  # Assuming we're measuring vehicle stocks
     'dataset': 'ph_govt_data_stocks',  # Name of the dataset
-    'unit': 'number',  # Assuming the unit is the actual number of vehicles
+    'unit': 'stocks',  # Assuming the unit is the actual number of vehicles
     'fuel': 'all',  # If specific fuel data is not available
     'comment': 'no_comment',  # Placeholder for any comments
     'scope': 'national',  # Assuming national scope
@@ -211,7 +222,8 @@ transport_type_mapping = {
     'bus': 'passenger',
     '2w': 'passenger',
     'mt': 'freight',
-    'ht': 'freight'
+    'ht': 'freight',
+    'lt': 'passenger'
     # Add more mappings as required
 }
 ev_stocks_data_grand_total['transport_type'] = ev_stocks_data_grand_total['vehicle_type'].map(transport_type_mapping)
@@ -269,16 +281,269 @@ total_sales['sales'] = total_sales.groupby(['vehicle_type'])['total_fleet'].tran
 total_sales.drop('total_fleet', axis=1, inplace=True)
 #drop nas
 total_sales = total_sales.dropna()
+#%%
 ev_stocks_share_of_vtype = ev_stocks_data_grand_total.merge(total_sales, how='left', on=['date','vehicle_type'])
 #now calculate the share of the total fleet that each drive type makes up
 ev_stocks_share_of_vtype['Share'] = ev_stocks_share_of_vtype['value'] / ev_stocks_share_of_vtype['sales']
+
+#if HEV_VAR is ice_g then drop ice_g from the data sicne it doesnt indicate the whole share of the fleet
+if HEV_VAR == 'ice_g':
+    ev_stocks_share_of_vtype = ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['drive'] != 'ice_g']
+
+#LET THE USER KNOW, WE WILL SET 2W SHARES FOR DRIVE = BEV TO BE THE SAME AS CAR SHARES FOR DRIVE = 2W. This is because the shares are 100% or more for 2w for BEV, which is not possible.
+print('Setting 2w shares for BEV to be the same as car shares for BEV sicne they are above 100%, and 100% in early years.')
+#first get the shares for bev for car
+car_shares = ev_stocks_share_of_vtype.loc[(ev_stocks_share_of_vtype['vehicle_type'] == 'car') & (ev_stocks_share_of_vtype['drive'] == 'bev')][['date','Share']]
+#now set the shares for 2w for bev to be the same as car
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.merge(car_shares, how='left', on='date', suffixes=('','_car'))
+ev_stocks_share_of_vtype.loc[(ev_stocks_share_of_vtype['vehicle_type'] == '2w') & (ev_stocks_share_of_vtype['drive'] == 'bev'),'Share'] = ev_stocks_share_of_vtype['Share_car']
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['Share_car'])
+
+#%%
+#POST PROCESSING:
+df = ev_stocks_share_of_vtype.copy()
+SMOOTHING_WINDOW = 10
+shape='LOGIT'
+SET_FIRST_5_YEARS_TO_ZERO = True#THIS KEEPS THEM LOW SO THAT THE SMOOTHING DOESNT OVERDO THE GROWTH IN YEARS WE FEEL CONFIDENT GROWTH DOESNT HAPPEN EARLY/
+#do independent smoohting process to get the shares looking a bit less bumpy. There are years for example 2031 in target, where the share goes from 0.1 to 0.5 overnight. So the smoothing should identify any big changes and smooth them out over the years before and after. I think first we should try a logit transformation, then a rolling average, then an inverse logit transformation.
+
+# Apply the transformations
+def smooth_share(group):
+    # Rolling average smoothing (e.g., window of 3, adjust as needed)
+    group['new_share'] = group['Share'].rolling(window=SMOOTHING_WINDOW, center=True, min_periods=1).mean()
+    
+    # Apply cumulative maximum to ensure the value never decreases
+    group['smoothed_share'] = group['new_share'].cummax()
+    if SET_FIRST_5_YEARS_TO_ZERO:
+        group.loc[group['date'] < group['date'].min() + 5,'smoothed_share'] = 0
+    # Rolling average smoothing (e.g., window of 3, adjust as needed)
+    group['smoothed_share'] = group['smoothed_share'].rolling(window=SMOOTHING_WINDOW, center=True, min_periods=1).mean()
+    return group
+
+# Group by the specified columns and apply the smoothing function
+grouped_columns = ['economy', 'transport_type', 'medium', 'vehicle_type', 'drive']
+df_smoothed = df.groupby(grouped_columns).apply(smooth_share)
+
+# Drop intermediate columns if necessary
+df_smoothed = df_smoothed.drop(columns=['new_share']).reset_index(drop=True)
+
+# Create the plot
+fig = px.line(
+    df_smoothed, 
+    x='date', 
+    y='smoothed_share', 
+    color='vehicle_type', 
+    line_dash='drive',
+    facet_row='transport_type', 
+    facet_col='medium',
+    title='Smoothed Sales Share Over Time {}'.format(scenario)
+)
+
+# Update the layout for better readability
+fig.update_layout(height=800, width=1200)
+
+# Show the plot and save with scenario in name
+fig.write_html('plotting_output/analysis/phl/smoothed_sales_share_over_time_{}.html'.format(scenario), auto_open=AUTO_OPEN)
+
+#now replace old shares with smoothed shares by joining on the old shares and then replacing them
+ev_stocks_share_of_vtype = pd.merge(ev_stocks_share_of_vtype, df_smoothed[['economy', 'transport_type', 'medium', 'vehicle_type', 'drive', 'date', 'smoothed_share']], on=['economy', 'transport_type', 'medium', 'vehicle_type', 'drive', 'date'], how='left')
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['Share'])
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.rename(columns={'smoothed_share':'Share'})
+
+#%%
+
+#We want the value to trend to at a similar rate as before all the way to 2100. To do this we'll just get the average growth from min and max date for each group and then push that forwards.
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.sort_values(by=['vehicle_type','drive','date'])
+#repalce 0s with nas to avoid issues with pct_change
+ev_stocks_share_of_vtype['Share'] = ev_stocks_share_of_vtype['Share'].replace(0, np.nan)
+#first get the average growth rate for each group
+ev_stocks_share_of_vtype['growth'] = ev_stocks_share_of_vtype.groupby(['vehicle_type','transport_type','drive'])['Share'].transform(lambda x: x.pct_change().mean())
+#replace nans with 0
+ev_stocks_share_of_vtype['Share'] = ev_stocks_share_of_vtype['Share'].fillna(0)
+#%%
+#then create data out to 2100 and apply that same growth rate cumulatively to the share
+ev_stocks_share_of_vtype_new_dates = ev_stocks_share_of_vtype.copy()
+for year in range(ev_stocks_share_of_vtype.date.max()+1, 2101):
+    temp = ev_stocks_share_of_vtype_new_dates[ev_stocks_share_of_vtype_new_dates['date'] == ev_stocks_share_of_vtype_new_dates.date.max()].copy()
+    temp['date'] = year
+    temp['Share'] = temp['Share'] * (1 + temp['growth'])
+    ev_stocks_share_of_vtype_new_dates = pd.concat([ev_stocks_share_of_vtype_new_dates,temp])
+
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype_new_dates.copy()
+ev_stocks_share_of_vtype.drop(columns=['growth'], inplace=True)
+#check for duplicates
+if len(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype.duplicated(subset=['date','vehicle_type','transport_type','drive'], keep=False)]) > 0:
+    raise ValueError('There are duplicates in the data')
+
+#%%
+
+
+#check for any groups of shares that are above 1
+ev_stocks_share_of_vtype['group_sum'] = ev_stocks_share_of_vtype.groupby(['date','vehicle_type', 'transport_type'])['Share'].transform(lambda x: x.sum())
+if len(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1]) > 0:
+    print('There are shares above 1 in the data')
+    print(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1])
+    
+    #normalize the shares which are above 1 to be below 1, grouping by date and vehicle type
+    #first identify groups where shares are above 1
+    ev_stocks_share_of_vtype['above_1'] = ev_stocks_share_of_vtype['group_sum'] > 1
+    #now normalize the shares to be below 1
+    
+    ev_stocks_share_of_vtype['Share_new'] = ev_stocks_share_of_vtype.groupby(['date','vehicle_type', 'transport_type'])['Share'].transform(lambda x: x / x.sum())
+    
+    ev_stocks_share_of_vtype.loc[ev_stocks_share_of_vtype['above_1'],'Share'] = ev_stocks_share_of_vtype.loc[ev_stocks_share_of_vtype['above_1'],'Share_new'] 
+    ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['above_1','Share_new', 'group_sum'])
+    
+#check for any shares taht are above 1.
+ev_stocks_share_of_vtype['group_sum'] = ev_stocks_share_of_vtype.groupby(['date','vehicle_type', 'transport_type'])['Share'].transform(lambda x: x.sum())
+if len(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1 + 0.000000001]) > 0:
+    raise ValueError('There are shares above 1 in the data still {}'.format(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1 + 0.00000001]))
+
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['group_sum'])
+#%%
+#now smooth the shares again using the same method as before
+
+df = ev_stocks_share_of_vtype.copy()
+SMOOTHING_WINDOW = 10
+shape='LOGIT'
+SET_FIRST_5_YEARS_TO_ZERO = True#THIS KEEPS THEM LOW SO THAT THE SMOOTHING DOESNT OVERDO THE GROWTH IN YEARS WE FEEL CONFIDENT GROWTH DOESNT HAPPEN EARLY/
+#do independent smoohting process to get the shares looking a bit less bumpy. There are years for example 2031 in target, where the share goes from 0.1 to 0.5 overnight. So the smoothing should identify any big changes and smooth them out over the years before and after. I think first we should try a logit transformation, then a rolling average, then an inverse logit transformation.
+
+# Apply the transformations
+def smooth_share(group):
+    # Rolling average smoothing (e.g., window of 3, adjust as needed)
+    group['new_share'] = group['Share'].rolling(window=SMOOTHING_WINDOW, center=True, min_periods=1).mean()
+    
+    # Apply cumulative maximum to ensure the value never decreases
+    group['smoothed_share'] = group['new_share'].cummax()
+    if SET_FIRST_5_YEARS_TO_ZERO:
+        group.loc[group['date'] < group['date'].min() + 5,'smoothed_share'] = 0
+    # Rolling average smoothing (e.g., window of 3, adjust as needed)
+    group['smoothed_share'] = group['smoothed_share'].rolling(window=SMOOTHING_WINDOW, center=True, min_periods=1).mean()
+    return group
+
+# Group by the specified columns and apply the smoothing function
+grouped_columns = ['economy', 'transport_type', 'medium', 'vehicle_type', 'drive']
+df_smoothed = df.groupby(grouped_columns).apply(smooth_share)
+
+# Drop intermediate columns if necessary
+df_smoothed = df_smoothed.drop(columns=['new_share']).reset_index(drop=True)
+
+# Create the plot
+fig = px.line(
+    df_smoothed, 
+    x='date', 
+    y='smoothed_share', 
+    color='vehicle_type', 
+    line_dash='drive',
+    facet_row='transport_type', 
+    facet_col='medium',
+    title='Smoothed Sales Share Over Time {}'.format(scenario)
+)
+
+# Update the layout for better readability
+fig.update_layout(height=800, width=1200)
+
+# Show the plot and save with scenario in name
+fig.write_html('plotting_output/analysis/phl/smoothed_sales_share_over_time_{}_normalized.html'.format(scenario), auto_open=AUTO_OPEN)
+
+#now replace old shares with smoothed shares by joining on the old shares and then replacing them
+ev_stocks_share_of_vtype = pd.merge(ev_stocks_share_of_vtype, df_smoothed[['economy', 'transport_type', 'medium', 'vehicle_type', 'drive', 'date', 'smoothed_share']], on=['economy', 'transport_type', 'medium', 'vehicle_type', 'drive', 'date'], how='left')
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['Share'])
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.rename(columns={'smoothed_share':'Share'})
+
+#%%
+
+
+#check for any groups of shares that are above 1
+ev_stocks_share_of_vtype['group_sum'] = ev_stocks_share_of_vtype.groupby(['date','vehicle_type', 'transport_type'])['Share'].transform(lambda x: x.sum())
+if len(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1]) > 0:
+    print('There are shares above 1 in the data')
+    print(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1])
+    
+    #normalize the shares which are above 1 to be below 1, grouping by date and vehicle type
+    #first identify groups where shares are above 1
+    ev_stocks_share_of_vtype['above_1'] = ev_stocks_share_of_vtype['group_sum'] > 1
+    #now normalize the shares to be below 1
+    
+    ev_stocks_share_of_vtype['Share_new'] = ev_stocks_share_of_vtype.groupby(['date','vehicle_type', 'transport_type'])['Share'].transform(lambda x: x / x.sum())
+    
+    ev_stocks_share_of_vtype.loc[ev_stocks_share_of_vtype['above_1'],'Share'] = ev_stocks_share_of_vtype.loc[ev_stocks_share_of_vtype['above_1'],'Share_new'] 
+    ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['above_1','Share_new', 'group_sum'])
+    
+#check for any shares taht are above 1.
+ev_stocks_share_of_vtype['group_sum'] = ev_stocks_share_of_vtype.groupby(['date','vehicle_type', 'transport_type'])['Share'].transform(lambda x: x.sum())
+if len(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1 + 0.000000001]) > 0:
+    raise ValueError('There are shares above 1 in the data still {}'.format(ev_stocks_share_of_vtype[ev_stocks_share_of_vtype['group_sum'] > 1 + 0.00000001]))
+
+ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.drop(columns=['group_sum'])
+
+#%%
+
+# Create the plot again
+fig = px.line(
+    df_smoothed, 
+    x='date', 
+    y='smoothed_share', 
+    color='vehicle_type', 
+    line_dash='drive',
+    facet_row='transport_type', 
+    facet_col='medium',
+    title='Smoothed Sales Share Over Time {}'.format(scenario)
+)
+
+# Update the layout for better readability
+fig.update_layout(height=800, width=1200)
+
+# Show the plot and save with scenario in name
+fig.write_html('plotting_output/analysis/phl/smoothed_sales_share_over_time_2100_{}_normalized.html'.format(scenario), auto_open=AUTO_OPEN)
 #%%
 #now sort out the colymns so we only have the ones we need (Economy	Scenario	Transport Type	Medium	Vehicle Type	Drive	Date	Share)
 ev_stocks_share_of_vtype = ev_stocks_share_of_vtype[['economy','transport_type','medium','vehicle_type','drive','date','Share']]
 #make the scenario 'Target'
-ev_stocks_share_of_vtype['scenario'] = 'Target'
+if scenario == 'ref':
+    ev_stocks_share_of_vtype['scenario'] = 'Reference'
+elif scenario == 'tgt':
+    
+    ev_stocks_share_of_vtype['scenario'] = 'Target'
 #rename cols to match exactly:
 ev_stocks_share_of_vtype = ev_stocks_share_of_vtype.rename(columns={'economy':'Economy','scenario':'Scenario','transport_type':'Transport Type','medium':'Medium','vehicle_type':'Vehicle Type','drive':'Drive','date':'Date','Share':'Share'})
+#%%
+####################################
+#also extract sales shares and yearly growth in sales shares compared to other vehicle types for the transport model
+vehicle_sales = total_vehicle_fleet.copy()
+#calculate the yearly growth in sales for each vehicle type by calciong the sales per year (NOT pct change)
+vehicle_sales['sales'] = vehicle_sales.groupby(['vehicle_type', 'transport_type'])['value'].transform(lambda x: x.diff())
+#calcaulate the total for each transport type anmd eyar
+vehicle_sales['total_sales'] = vehicle_sales.groupby(['date','transport_type'])['sales'].transform(lambda x: x.sum())
+#calcaulate the share of sales for each vehicle type
+vehicle_sales['share'] = vehicle_sales['sales'] / vehicle_sales['total_sales']
+#now calc the % change  in share of slaes per year
+vehicle_sales['sales_growth'] = vehicle_sales.groupby(['vehicle_type', 'transport_type'])['share'].transform(lambda x: x.pct_change())
+#drop first year
+vehicle_sales = vehicle_sales[vehicle_sales['date'] > vehicle_sales['date'].min()]
+#create tall dataframe
+vehicle_sales_tall = vehicle_sales[['date','vehicle_type','transport_type','value', 'sales', 'share','sales_growth']].copy()
+
+vehicle_sales_tall = vehicle_sales.melt(id_vars=['date','vehicle_type','transport_type'], value_vars=['value', 'sales', 'share','sales_growth'], var_name='measure', value_name='values')
+#plot suing plotly with a facet for each measure
+fig = px.line(vehicle_sales_tall, x='date', y='values', color='vehicle_type', facet_row='measure', line_dash='transport_type')
+
+##make y-xis range independent for each plot
+
+fig.update_yaxes(matches=None)
+#show y axis on both plots
+fig.for_each_yaxis(lambda yaxis: yaxis.update(showticklabels=True))
+fig.write_html('plotting_output/analysis/phl/vehicle_sales_tall.html', auto_open=AUTO_OPEN)
+#DONT NEED TO SAVE TEHSE, JUST FOR INFORMING ASUSMPTIONS
+####################################
+#%%
+#since we shifted all UV shares to LT, we need to do something about lcv shares. It seems likely that they'd be similar t UV shares, so we'll just set them to be the same as UV shares
+print('Setting LCV shares to be the same as UV shares')
+ev_stocks_share_of_vtype_lcv = ev_stocks_share_of_vtype.loc[ev_stocks_share_of_vtype['Vehicle Type'] == 'lt'].copy()
+ev_stocks_share_of_vtype_lcv['Vehicle Type'] = 'lcv'
+ev_stocks_share_of_vtype_lcv['Transport Type'] = 'freight'
+ev_stocks_share_of_vtype = pd.concat([ev_stocks_share_of_vtype,ev_stocks_share_of_vtype_lcv])
 
 #%%
 #save data to files
@@ -291,8 +556,12 @@ ev_stocks_data_share_total_fleet.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}_e
 other_stocks_total.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}phillipines_2022_stocks_total.csv', index=False)
 total_vehicle_fleet.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}_total_vehicle_fleet_forecast.csv', index=False)
 
+if scenario == 'tgt':
+    ev_stocks_share_of_vtype.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}_ev_stocks_share_of_vtype_TARGET.csv', index=False)
+elif scenario == 'ref':
+    ev_stocks_share_of_vtype.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}_ev_stocks_share_of_vtype_REFERENCE.csv', index=False)
 #save as csv
-ev_stocks_share_of_vtype.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}_ev_stocks_share_of_vtype.csv', index=False)
+# ev_stocks_share_of_vtype.to_csv(f'intermediate_data/PHL/{FILE_DATE_ID}_ev_stocks_share_of_vtype.csv', index=False)
 #%%
 
 

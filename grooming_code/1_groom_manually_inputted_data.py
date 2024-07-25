@@ -13,6 +13,11 @@ folder_path = './aggregation_code'  # Replace with the actual path of the folder
 sys.path.append(folder_path)
 import utility_functions 
 #%%
+# expected columns names:
+# 'Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy',
+# 'Frequency', 'Measure', 'Unit', 'Dataset', 'Scope', 'Comments', 'Fuel',
+#    'Source', 'Vehicle type', 'comment', 'Value'
+expected_cols = ['Medium', 'Transport Type', 'Vehicle Type', 'Drive', 'Date', 'Economy', 'Frequency', 'Measure', 'Unit', 'Dataset', 'Scope', 'Comments', 'Fuel', 'Source', 'Value']
 #take in concordances (created in the model, perhaps creation should be moved here)
 with open('config/selection_config.yml', 'r') as ymlfile:
     cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -23,11 +28,29 @@ concordances = pd.read_csv(concordances_file_path)
 #TAKE IN ROAD DATA
 wb = pd.ExcelFile('./input_data/Manually_inputted_data_road.xlsx')
 concat_df_road = pd.DataFrame()
+expected_sheets = ['vehicle_type_distributions',
+ 'Occupancy',
+ 'Average_age',
+ 'Load',
+ 'Mileage',
+ 'Turnover_rate',
+ 'New_vehicle_efficiency',
+ 'Efficiency']
 for sheet in wb.sheet_names:
     df = pd.read_excel(wb,sheet)
     if sheet =='vehicle_type_distributions':
         vehicle_type_distributions = df.copy()
         continue
+    elif sheet not in expected_sheets:
+        continue
+    elif set(df.columns) != set(expected_cols):
+        #if missing col is 'drive' then just pass
+        missing_cols = [col for col in expected_cols if col not in df.columns]
+        extra_cols = [col for col in df.columns if col not in expected_cols]
+        if len(missing_cols) == 1 and missing_cols[0] == 'Drive' and len(extra_cols) == 0:
+            pass
+        else:   
+            raise ValueError(f'The columns in the sheet {sheet} are not the same as the expected columns')
     concat_df_road = pd.concat([concat_df_road,df],ignore_index=True)
 wb.close()
 
@@ -35,10 +58,21 @@ wb.close()
 #%% 
 
 #TAKE IN NON ROAD DATA
+expected_sheets = ['Intensity', 'average_age']
 wb = pd.ExcelFile('./input_data/Manually_inputted_data_other.xlsx')
 concat_df_other = pd.DataFrame()
 for sheet in wb.sheet_names:
     df = pd.read_excel(wb,sheet)
+    if sheet not in expected_sheets:
+        continue
+    elif set(df.columns) != set(expected_cols):
+        #if the extra col is Value_MJ then pass
+        missing_cols = [col for col in expected_cols if col not in df.columns]
+        extra_cols = [col for col in df.columns if col not in expected_cols]
+        if len(missing_cols) == 0 and len(extra_cols) == 1 and extra_cols[0] == 'Value_MJ':
+            pass
+        else:
+            raise ValueError(f'The columns in the sheet {sheet} are not the same as the expected columns')
     concat_df_other = pd.concat([concat_df_other,df],ignore_index=True)
 
 wb.close()
@@ -495,6 +529,7 @@ def save_df_to_csv(df,save_path, file_name_start):
             df.to_csv(f'{save_path}/{file_name_start}{FILE_DATE_ID}.csv',index=False)
 
 #%%
+
 save_df_to_csv(concat_df_road,'./intermediate_data/estimated','manually_inputted_data_cleaned_road')
 save_df_to_csv(concat_df_other,'./intermediate_data/estimated','manually_inputted_data_cleaned_other')
 save_df_to_csv(vehicle_type_distributions, './intermediate_data/estimated','vehicle_type_distributions')

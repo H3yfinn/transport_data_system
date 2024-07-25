@@ -11,9 +11,26 @@ INDEX_COLS:
 - frequency
 - scope
 
+REQUIRED_COLS:
+- value
+- dataset
+- source
+- comment
+- date
+- economy
+- measure
+- vehicle_type
+- unit
+- medium
+- transport_type
+- drive
+- fuel
+- frequency
+- scope
+
 concordances_file_path: './input_data/concordances/9th/model_concordances_measures.csv'
   
-#in the belwo, if you use 8th then the source of splits will be in the dataset 'egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto'. If you use 'activity' then the source of splits will be the selected activity in the combined data, likewise for 'energy' if that is the selected source of splits.
+#in the belwo, if you use 8th then the source of splits will be in the dataset 'egeda_split_into_transport_types $ 8th_transport_splits_9th_outlook_esto'. If you use 'activity_times_intensity' then the source of splits will be the selected activity in the combined data times the intensity in the combined data, likewise for 'energy' if that is the selected source of splits.
 SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD:
   '01_AUS': '8th'
   '02_BD': '8th'
@@ -21,7 +38,7 @@ SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD:
   '04_CHL': '8th'
   '05_PRC': '8th'
   '06_HKC': '8th'
-  '07_INA': 'activity'
+  '07_INA': 'activity_times_intensity'
   '08_JPN': '8th'
   '09_ROK': '8th'
   '10_MAS': '8th'
@@ -38,9 +55,11 @@ SOURCE_OF_SPLITS_FOR_NON_ROAD_TRANSPORT_SPLIT_ESTIMATION_METHOD:
   '21_VN': '8th'
 
 # {'05_PRC': {'rail': ['passenger']}, '19_THA': {'air': ['freight']}
-ECONOMIES_FOR_WHICH_TO_USE_PROVIDED_NON_ROAD_ACTIVITY_DATA_TO_CALCULATE_INTENSITY:
-  07_INA: 
-    rail: ['passenger'] # , air: ['freight'] 
+ECONOMIES_FOR_WHICH_TO_USE_PROVIDED_NON_ROAD_ACTIVITY_DATA_TO_CALCULATE_INTENSITY: #thi sallows for a bit of leeway in the ratio between the activity data and the energy data by adjusting the intensity instead of activity (since we HAVE to use the presupplied energy data, and we WANT to also use the presupplied activity data).Its important to make sure you are confident in the activity data first though, as the ratio will be adjusted to fit the energy data (in a lot of cases the energy data might be wrong so setting activity to the correct value and leaving the 'incorrectness' to hide in the intensity data is a good way to satisfy peoples needs for a correct looking activity value while keeping the energy the same as the provided ESTO data).
+# 07_INA: 
+#   rail: ['passenger', 'freight'] # , air: ['freight'] 
+  None:
+    None: ['None']
 
 road_measures_datasets_to_always_use:
   - 'ct_national_stats'
@@ -102,6 +121,7 @@ road_measures_datasets_to_always_use:
   - 'aus_census'
   - 'aus_census $ iea_ev_explorer_no_data'
   - 'aus_census $ iea_ev_explorer_no_data ice_split'
+  
   - 'ph_govt_data_stocks'
   
 all_other_combined_data_datasets_to_always_use:

@@ -147,7 +147,21 @@ df_final['Scope'] = 'National'
 df_final['Economy'] = '01_AUS'
 df_final['Medium'] = 'road'
 df_final['Unit'] = np.where(df_final['Measure']=='average_age','age','stocks')
+#%%
+###########################
+#POSTHOC UPADTE. MOVE HALF OF LCV'S INTO LT'S SINCE WE BELIEVE THEY ARE BEING MISCATEGORISED BECAUSE OF THEIR SIZE. (the proprotion of LCV's is higher than it is in most otnher economies which is leading them to dominate the EV transition, since the assumption is that lcv's are easier to electrify than lt's - but in aussie case these vehicles are just big trucks being driven round the countryside to get people from a to b with little to no related freight.)
+lcvs = df_final[(df_final['Vehicle Type']=='lcv') & (df_final['Measure']=='stocks')]
+lts = lcvs.copy()
+lts['Vehicle Type'] = 'lt'
+lts['Transport Type'] = 'passenger'
+lts['Value'] = lts['Value']*0.5
+lcvs['Value'] = lcvs['Value']*0.5
+df_final = df_final[~((df_final['Vehicle Type']=='lcv') & (df_final['Measure']=='stocks'))]
+df_final = pd.concat([df_final,lcvs,lts])
+#sum
+df_final = df_final.groupby(['Date','Vehicle Type','Transport Type','Drive','Measure','Comment','Dataset','Frequency','Fuel','Scope','Economy','Medium','Unit'])['Value'].sum().reset_index()
 
+###########################
 #%%
 #save the data
 

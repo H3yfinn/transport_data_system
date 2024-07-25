@@ -285,6 +285,126 @@ def split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data, splits_dict)
             
     return unfiltered_combined_data
 
+
+def split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data):
+    """
+    Splits the stocks where drive is ev or bev_and_phev into BEV and PHEV.
+
+    Using the IEA EV data explorer data, we will split all estimates for stocks in drive=='ev' or drive=='bev_and_phev' into BEV and PHEV.
+    
+    For any economies where we don't have IEA data, we will set the BEV and PHEV shares to the average of all economies we do have the data for.
+    
+    Args:
+        unfiltered_combined_data (pandas.DataFrame): The input data.
+
+    Returns:
+        pandas.DataFrame: The modified data.
+    """
+    combined_data_ev_drives = unfiltered_combined_data[unfiltered_combined_data['drive'].isin(['ev', 'bev_and_phev'])].copy()
+
+    iea_ev_explorer_selection_dict = {
+        'measure': ['stock_share'],
+        'medium': ['road'],
+        'dataset': ['iea_ev_explorer $ historical']
+    }
+    stock_shares = data_formatting_functions.filter_for_specifc_data(iea_ev_explorer_selection_dict, unfiltered_combined_data)
+    
+    if stock_shares.empty:
+        breakpoint()
+        raise ValueError('No data for iea_ev_explorer $ historical. Something is wrong')
+    # Make stock shares wide on drive col
+    cols = stock_shares.columns.tolist()
+    cols.remove('drive')
+    cols.remove('value')
+    stock_shares = stock_shares.pivot(index=cols, columns='drive', values='value').reset_index()
+    
+    #if theres nas, throw an error
+    if stock_shares['bev'].isna().any() or stock_shares['phev'].isna().any():
+        breakpoint()
+        raise ValueError('There are NaN values in the stock shares data. Something is wrong')
+    
+    # Calculate average BEV and PHEV shares
+    stock_shares_avgs = stock_shares.groupby(['economy', 'date', 'vehicle_type', 'transport_type'])[['bev', 'phev']].mean().reset_index()
+    stock_shares_avgs_no_economy = stock_shares.groupby(['date', 'vehicle_type', 'transport_type'])[['bev', 'phev']].mean().reset_index()
+    transport_type_combined = stock_shares.copy()
+    transport_type_combined['transport_type'] = 'combined'
+    stock_shares_avgs_no_economy_no_vehicle_type_no_date = pd.concat([stock_shares, transport_type_combined]).groupby(['transport_type'])[['bev', 'phev']].mean().reset_index()
+    #normalise
+    stock_shares_avgs['bev_avg'] = stock_shares_avgs['bev'] / (stock_shares_avgs['bev'] + stock_shares_avgs['phev'])
+    stock_shares_avgs['phev_avg'] = stock_shares_avgs['phev'] / (stock_shares_avgs['bev'] + stock_shares_avgs['phev'])
+    stock_shares_avgs_no_economy['bev_avg_no_economy'] = stock_shares_avgs_no_economy['bev'] / (stock_shares_avgs_no_economy['bev'] + stock_shares_avgs_no_economy['phev'])
+    stock_shares_avgs_no_economy['phev_avg_no_economy'] = stock_shares_avgs_no_economy['phev'] / (stock_shares_avgs_no_economy['bev'] + stock_shares_avgs_no_economy['phev'])
+    stock_shares_avgs_no_economy_no_vehicle_type_no_date['bev_avg_no_economy_no_vehicle_type_no_date'] = stock_shares_avgs_no_economy_no_vehicle_type_no_date['bev'] / (stock_shares_avgs_no_economy_no_vehicle_type_no_date['bev'] + stock_shares_avgs_no_economy_no_vehicle_type_no_date['phev'])
+    stock_shares_avgs_no_economy_no_vehicle_type_no_date['phev_avg_no_economy_no_vehicle_type_no_date'] = stock_shares_avgs_no_economy_no_vehicle_type_no_date['phev'] / (stock_shares_avgs_no_economy_no_vehicle_type_no_date['bev'] + stock_shares_avgs_no_economy_no_vehicle_type_no_date['phev'])
+    
+    # for economy
+    if stock_shares.empty:
+        raise ValueError('No data for iea_ev_explorer $ historical. Something is wrong')
+
+    stock_shares['measure'] = 'stocks'
+    stock_shares['unit'] = 'stocks'
+
+    # Join stock shares to combined data's stocks
+    combined_data_stocks = combined_data_ev_drives[(combined_data_ev_drives['measure'] == 'stocks')]
+    cols.remove('dataset')
+    #join economy and non economy stock avgs
+    combined_data_stocks = combined_data_stocks.merge(stock_shares_avgs[['economy', 'date', 'vehicle_type', 'transport_type', 'bev_avg', 'phev_avg']], on=['economy', 'date', 'vehicle_type', 'transport_type'], how='left', indicator=True)
+    #if theres any right onlys, raise an error
+    if 'right_only' in combined_data_stocks['_merge'].unique():
+        raise ValueError('There are right onlys in the merge. Something is wrong')
+    else:
+        combined_data_stocks.drop(columns='_merge', inplace=True)
+    
+    combined_data_stocks = combined_data_stocks.merge(stock_shares_avgs_no_economy[['date', 'vehicle_type', 'transport_type', 'bev_avg_no_economy', 'phev_avg_no_economy']], on=['date', 'vehicle_type', 'transport_type'], how='left', indicator=False)
+    
+    combined_data_stocks = combined_data_stocks.merge(stock_shares_avgs_no_economy_no_vehicle_type_no_date[['transport_type', 'bev_avg_no_economy_no_vehicle_type_no_date', 'phev_avg_no_economy_no_vehicle_type_no_date']], on=['transport_type'], how='left', indicator=True)
+    
+    #if theres any left onlys, raise an error
+    if 'left_only' in combined_data_stocks['_merge'].unique():
+        raise ValueError('There are left onlys in the merge. Something is wrong')
+    
+    #now where there are nas in bev_avg and phev_avg, set them to the average of all economies
+    combined_data_stocks['bev_avg'] = combined_data_stocks['bev_avg'].fillna(combined_data_stocks['bev_avg_no_economy'])
+    combined_data_stocks['phev_avg'] = combined_data_stocks['phev_avg'].fillna(combined_data_stocks['phev_avg_no_economy'])
+    combined_data_stocks['bev_avg'] = combined_data_stocks['bev_avg'].fillna(combined_data_stocks['bev_avg_no_economy_no_vehicle_type_no_date'])
+    combined_data_stocks['phev_avg'] = combined_data_stocks['phev_avg'].fillna(combined_data_stocks['phev_avg_no_economy_no_vehicle_type_no_date'])
+    
+    # # For left-only, set dataset_y to 'iea_ev_explorer_no_data' then drop _merge
+    # combined_data_stocks.loc[combined_data_stocks['_merge'] == 'left_only', 'dataset_y'] = 'iea_ev_explorer_no_data'
+    
+    # Split stocks into BEV and PHEV using the shares
+    combined_data_stocks['stocks_bev'] = combined_data_stocks['value'] * combined_data_stocks['bev_avg']
+    combined_data_stocks['stocks_phev'] = combined_data_stocks['value'] * combined_data_stocks['phev_avg']
+
+    # Drop original stocks and BEV, PHEV shares
+    combined_data_stocks = combined_data_stocks.drop(columns=['value', 'phev_avg', 'phev_avg', 'bev_avg_no_economy', 'phev_avg_no_economy'])
+
+    # Rename stocks_bev and stocks_phev to bev and phev
+    combined_data_stocks = combined_data_stocks.rename(columns={'stocks_bev': 'bev', 'stocks_phev': 'phev'})
+    
+    # Create dataset column
+    combined_data_stocks['dataset'] = combined_data_stocks['dataset'] + ' $ iea_ev_explorer $ historical'
+    
+    # Add dataset to cols
+    cols.append('dataset')
+    
+    # Melt the combined data back to long format
+    combined_data_stocks_tall = combined_data_stocks.melt(id_vars=cols, value_vars=['bev', 'phev'], var_name='drive', value_name='value')
+    #check for nas. if there are any then breakpoint and raise an error
+    if combined_data_stocks_tall['value'].isna().any():
+        nas = combined_data_stocks_tall[combined_data_stocks_tall['value'].isna()]
+        breakpoint()
+        raise ValueError('There are NaN values in the data. Something is wrong')
+    # Combine the modified data back with the unfiltered data
+    unfiltered_combined_data = pd.concat([combined_data_stocks_tall, unfiltered_combined_data])
+    
+    # Drop any duplicates that may have occurred
+    unfiltered_combined_data = unfiltered_combined_data.drop_duplicates()
+    
+    return unfiltered_combined_data
+
+
+
 def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data):
     """
     Splits the stocks where drive is all into BEV, PHEV, and ICE.
@@ -343,7 +463,7 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     combined_data_stocks['bev'] = combined_data_stocks['bev'].fillna(0)
     combined_data_stocks['phev'] = combined_data_stocks['phev'].fillna(0)
     combined_data_stocks['ice'] = combined_data_stocks['ice'].fillna(1)
-
+    
     #split stocks into ev, phev and ice suing the shares
     combined_data_stocks['stocks_bev'] = combined_data_stocks['value'] * combined_data_stocks['bev']
     combined_data_stocks['stocks_phev'] = combined_data_stocks['value'] * combined_data_stocks['phev']

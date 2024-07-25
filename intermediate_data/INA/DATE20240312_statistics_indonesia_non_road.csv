@@ -1,0 +1,16 @@
+Date,medium,value,measure,transport type,unit,source,comment,scope,fuel,frequency,vehicle_type,economy,drive,dataset
+2015,rail,21323155,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2016,rail,20765155,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2017,rail,15597474,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2018,rail,15972700,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2019,rail,28083660,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2020,rail,10327876,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2021,rail,8729195,activity,passenger,passenger-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2022,rail,19047317,activity,passenger,passenger-km,statistik-transportasi-darat-2021.html,found online,,all,yearly,all,07_INA,all,statistics_indonesia
+2015,rail,3458,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2016,rail,3673,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2017,rail,4083,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2018,rail,3576,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2019,rail,4547,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2020,rail,3293,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
+2021,rail,2804,activity,freight,freight-tonne-km,direktorat jenderal perkeretaapian dalam angka tahun 2021,source provided by juniko,,all,yearly,all,07_INA,all,statistics_indonesia
