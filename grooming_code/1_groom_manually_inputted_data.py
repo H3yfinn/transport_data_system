@@ -224,11 +224,11 @@ def set_new_drive_ages_to_one(df, concordances):
     #load in the concordance
     df_age = df[df['Measure']=='Average_age'].copy()
     df = df[df['Measure']!='Average_age'].copy()
-
+    breakpoint()
     #grab the drive types for road:
     drive_types = concordances[(concordances['Medium']=='road')].Drive.unique()#array(['bev', 'ice_d', 'ice_g', 'cng', 'fcev', 'lpg', 'phev_d', 'phev_g'],
     new_drives = ['bev','phev_d','phev_g','fcev']
-    old_drives = ['ice_d','ice_g','cng','lpg']
+    old_drives = ['ice_d','ice_g','cng','lpg', 'lng']
     #check that the drive types are in the data
     if set(drive_types) != set(new_drives+old_drives):
         breakpoint()

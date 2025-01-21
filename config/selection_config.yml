@@ -61,6 +61,7 @@ ECONOMIES_FOR_WHICH_TO_USE_PROVIDED_NON_ROAD_ACTIVITY_DATA_TO_CALCULATE_INTENSIT
   None:
     None: ['None']
 
+#note that in the below, since sometimes we add tags e.g. $ iea_ev_explorer_no_data to the dataset name, we need to make sure that the dataset name contains those if we find that those tags get added nd we want to use those datasets too
 road_measures_datasets_to_always_use:
   - 'ct_national_stats'
   - 'ct_national_stats vehicle_dist_split'
@@ -122,13 +123,41 @@ road_measures_datasets_to_always_use:
   - 'aus_census $ iea_ev_explorer_no_data'
   - 'aus_census $ iea_ev_explorer_no_data ice_split'
   
+  - 'ph_govt_data_stocks vehicle_dist_split'
   - 'ph_govt_data_stocks'
-  
+  - 'ph_govt_data_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split'
+  - 'ph_govt_data_stocks $ iea_ev_explorer  historical vehicle_dist_split'
+
+  - 'eei_manually_extracted $ iea_ev_explorer  historical'
+  - 'eei_manually_extracted vehicle_dist_split'
+  - 'eei_manually_extracted $ iea_ev_explorer  historical vehicle_dist_split'
+  - 'eei_manually_extracted $ iea_ev_explorer_no_data ice_split'
+  - 'eei_manually_extracted $ iea_ev_explorer  historical ice_split'
+  - 'eei_manually_extracted $ iea_ev_explorer  historical vehicle_dist_split ice_split' #todo im not sure if i need to have so much of the dataset name in here, but i think i do
+  - 'EEI vehicle_dist_split'
+  - 'EEI'
+  - 'EEI $ iea_ev_explorer  historical vehicle_dist_split ice_split'
+  - 'EEI $ iea_ev_explorer  historical vehicle_dist_split'
+
+
 all_other_combined_data_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
+  - 'EEI'
   
 #in the below, make sure to set the key to be as much of the file name as you can while excluding its date and file type. this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
+  _eei_stocks:
+    file_path: intermediate_data/estimated/FILE_DATE_ID_eei_stocks.csv
+    folder: intermediate_data/estimated/
+    script: exploratory_code\groom_manually_extracted_eei_data.py
+    included: True
+    type: transport
+  eei_processed_from_energy_activity_: #was prbiously named eei_FILE_DATE_ID.csv but to make it more unique we added the _processed_from_energy_activity_ to the name
+    file_path: intermediate_data/estimated/eei_processed_from_energy_activity_FILE_DATE_ID.csv
+    folder: intermediate_data/estimated/
+    script: exploratory_code\explore_and_groom_eei_data.py
+    included: True
+    type: transport
   _9th_outlook_esto:
     file_path: intermediate_data/EGEDA/FILE_DATE_ID_9th_outlook_esto.csv
     folder: intermediate_data/EGEDA/

@@ -67,7 +67,7 @@ default_values = {
     'unit': 'Stocks',
     'fuel': 'All',
     'comment': None,
-    'scope': 'All',
+    'scope': 'national',
     'frequency': 'Annual',
     'drive': 'All',
     'source': ''

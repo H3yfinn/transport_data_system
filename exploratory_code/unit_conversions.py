@@ -90,15 +90,30 @@ def create_factors_to_convert_mpg_to_useful_outputs_for_fuel(fuel_energy_content
 #jet fuel 42.8 MJ/kg #chatgpt
 #biojet = jet fuel #chatgpt
 #coal https://world-nuclear.org/information-library/facts-and-figures/heat-values-of-various-fuels.aspx - includeng some quick assumptions about the coal types eg. met coal is bituminous, thermal coal is sub-bituminous
+# fuel oil 42.7 MJ/kg #chatgpt
+#note this is a pretty good source (actually the source is straight frm copilot lol) https://www.engineeringtoolbox.com/fuels-higher-calorific-values-d_169.html
+
 # Energy content per kg and densities for various fuels
 energy_per_kg = {
     'hydrogen': 131, 'methanol': 22.7, 'petrol': 46, 'diesel': 46, 'crude_oil': 47, 
-    'lpg': 51, 'natural_gas': 55, 'ethanol': 26.8, 'biodiesel': 38, 'jet_fuel': 42.8, 'biojet': 42.8, 'sub-bituminous coal':20, 'bituminous coal': 24,'lignite': 15.6, 'metallurgical coal': 24, 'thermal coal': 20
+    'lpg': 51, 'natural_gas': 55, 'ethanol': 26.8, 'biodiesel': 38, 'jet_fuel': 42.8, 'biojet': 42.8, 'sub-bituminous coal':20, 'bituminous coal': 24,'lignite': 15.6, 'metallurgical coal': 24, 'thermal coal': 20, 'fuel_oil': 42.7
 }
 density_kg_l = {
     'hydrogen': 0.071, 'methanol': 0.791, 'petrol': 0.755, 'diesel': 0.832, 'crude_oil': 0.82, 
-    'lpg': 0.493, 'natural_gas': 0.75, 'ethanol': 0.789, 'biodiesel': 0.88, 'jet_fuel': 0.804, 'biojet': 0.804
+    'lpg': 0.493, 'natural_gas': 0.75, 'ethanol': 0.789, 'biodiesel': 0.88, 'jet_fuel': 0.804, 'biojet': 0.804,  'fuel_oil': 0.96
 }
+missing_fuel_mappings = {}
+missing_fuel_mappings['thermal coal'] = 'thermal_coal'
+missing_fuel_mappings['bituminous coal'] = 'coal'
+missing_fuel_mappings['metallurgical coal'] = 'coking_coal'
+missing_fuel_mappings['sub-bituminous coal'] = 'coal'
+
+for fuel, mapping in missing_fuel_mappings.items():
+    energy_per_kg[mapping] = energy_per_kg[fuel]
+    energy_per_kg.pop(fuel)
+    if fuel in density_kg_l:
+        density_kg_l[mapping] = density_kg_l[fuel]
+        density_kg_l.pop(fuel)
 #set up emissions factors too, where we have them
 emissions_factors = pd.read_csv('config/9th_edition_emissions_factors.csv')
 emissions_factors = emissions_factors[emissions_factors['simple_name'].isin(energy_per_kg.keys())]
@@ -112,9 +127,12 @@ emissions_factors = emissions_factors.set_index('simple_name')['Emissions factor
 all_fuel_dfs = pd.DataFrame()
 for fuel, energy_content in energy_per_kg.items():
     emissions_factor = emissions_factors[fuel]
-    fuel_df = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_content, density_kg_l[fuel], emissions_factor, fuel)
-    all_fuel_dfs = pd.concat([all_fuel_dfs, fuel_df], ignore_index=True)
+    try:
+        fuel_df = create_factors_to_convert_mpg_to_useful_outputs_for_fuel(energy_content, density_kg_l[fuel], emissions_factor, fuel)
+        all_fuel_dfs = pd.concat([all_fuel_dfs, fuel_df], ignore_index=True)
 
+    except KeyError:
+        print(f'No density for {fuel}')
 #%%
 
 conversion_factors_nested = {

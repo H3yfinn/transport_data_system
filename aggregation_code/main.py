@@ -27,15 +27,15 @@ FILE_DATE_ID = 'DATE{}'.format(file_date)
 EARLIEST_DATE="2010-01-01"
 LATEST_DATE='2024-01-01'
 
-previous_selections_file_path = None#'input_data/previous_selections/combined_data_concordance_DATE20240314.pkl'
-previous_FILE_DATE_ID =None#'DATE20240314'
+previous_selections_file_path = None#'input_data/previous_selections/combined_data_concordance_DATE20240731.pkl'
+previous_FILE_DATE_ID =None#'DATE20240731'#None#'DATE20240314'
 
 if previous_FILE_DATE_ID is not None:#you can set some of these to false if you want to do some of the steps manually
-    LOAD_DATA_CREATION_PROGRESS = True
-    load_road_measures_selection_progress = True
-    load_road_measures_interpolation_progress = True
-    load_energy_activity_selection_progress = True
-    load_energy_activity_interpolation_progress = True
+    LOAD_DATA_CREATION_PROGRESS = True#setme
+    load_road_measures_selection_progress = False #setme
+    load_road_measures_interpolation_progress = False#setme
+    load_energy_activity_selection_progress = False#setme
+    load_energy_activity_interpolation_progress = False#setme
     
 else:  
     LOAD_DATA_CREATION_PROGRESS = False
@@ -57,10 +57,10 @@ RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False#note that this is not done aymore bec
 
 #%% 
 
-#if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data)
-ECONOMIES_TO_RUN=['17_SGP', '06_HKC']#['15_PHL']#, '01_AUS']#[ '12_NZ']#['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+#if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data). Else, set it to None and it will run for all economies in the data
+ECONOMIES_TO_RUN=['04_CHL']#20_USA', '08_JPN', '12_NZ']#['09_ROK']#['17_SGP', '06_HKC']#['15_PHL']#, '01_AUS']#[ '12_NZ']#['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
 
-ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20240605' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA combined_data_DATE20230810.csv
+ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20250121'#'DATE20240726' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA just make sure its the end of the file name and not including combined_data_ since that is added automatically
 
 def setup_main():
     global FILE_DATE_ID
@@ -91,7 +91,7 @@ def main():
     paths_dict, highlight_list = setup_main()
     ################################################################
     #EXTRACT DATA
-    if not LOAD_DATA_CREATION_PROGRESS:      
+    if not LOAD_DATA_CREATION_PROGRESS:   
         datasets_transport, datasets_other = data_formatting_functions.extract_latest_groomed_data()
         unfiltered_combined_data = data_formatting_functions.combine_datasets(datasets_transport,paths_dict,ADD_COLUMNS_AND_RESAVE = True)
 
@@ -152,7 +152,10 @@ def main():
     combined_data_copy = combined_data.copy()
     combined_data_concordance_copy = combined_data_concordance.copy()
     unfiltered_combined_data_copy = unfiltered_combined_data.copy()
+    
+    
     for economy in unfiltered_combined_data.economy.unique():
+        print('Running for economy: ',economy)
         #filter for economy
         combined_data = combined_data_copy[combined_data_copy['economy'] == economy]
         combined_data_concordance = combined_data_concordance_copy[combined_data_concordance_copy['economy'] == economy]
@@ -166,9 +169,8 @@ def main():
 
         grouping_cols = ['economy','vehicle_type','drive']
         
-        road_measures_selection_dict = {'measure': 
-            ['efficiency', 'occupancy_or_load', 'mileage', 'stocks', 'average_age', 'intensity'],
-            'medium': ['road', 'air', 'rail', 'ship']}
+        road_measures_selection_dict = {'measure': ['intensity', 'efficiency', 'occupancy_or_load', 'mileage', 'stocks', 'average_age'],
+        'medium': ['road', 'air', 'rail', 'ship']}
         
         highlight_list = highlight_list+[]
         road_measures_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['road_measures_datasets_to_always_use']
@@ -177,7 +179,8 @@ def main():
             road_measures_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
 
             road_measures_combined_data_concordance = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data_concordance)
-            road_measures_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, road_measures_combined_data_concordance, road_measures_combined_data, paths_dict,road_measures_datasets_to_always_use,default_user_input=1, highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True)
+            
+            road_measures_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, road_measures_combined_data_concordance, road_measures_combined_data, paths_dict,road_measures_datasets_to_always_use,default_user_input=['Keep_for_all_consecutive_years', 0], highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=['ato', '8th'])
             
         else:
             road_measures_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_road_measures_combined_data_concordance'],economy))
@@ -236,7 +239,7 @@ def main():
         if not load_energy_activity_selection_progress: 
             highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
             all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
-            all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=1, PLOT_SELECTION_TIMESERIES=True)
+            all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=['Keep_for_all_consecutive_years', 0], PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=['ato', '8th'])
         else:
             all_other_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_all_other_combined_data_concordance'], economy))
         
@@ -259,7 +262,6 @@ def main():
         ####################################################
         #combine and save all data seelctions and intepolations before final calculations
         ####################################################
-
         #join the two datasets together
         all_combined_data = pd.concat([road_measures_combined_data,all_other_combined_data],axis=0)
         

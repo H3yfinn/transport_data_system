@@ -372,6 +372,9 @@ def get_latest_date_for_data_file(data_folder_path, file_name):
     all_files = [re.search(r'\d{8}', file).group() for file in all_files]
     #convert the dates to datetime objects
     all_files = [datetime.datetime.strptime(date, '%Y%m%d') for date in all_files]
+    if len(all_files) == 0:
+        print('No files found for ' + file_name)
+        return 'empty'
     #get the latest date
     try:
         latest_date = max(all_files)

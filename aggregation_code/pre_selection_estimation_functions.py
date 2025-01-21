@@ -48,7 +48,7 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
                     
     #convert all values in all columns to snakecase, except economy date and value
     vehicle_type_distributions = utility_functions.convert_all_cols_to_snake_case(vehicle_type_distributions)
-
+    breakpoint()#whats going on with the freight distrs
     #because of the complexity of this we will do it line by line within the vehicle_type_distributions file:
     for index, row in vehicle_type_distributions.iterrows():
         original_vehicle_type = row['vehicle_type']
@@ -63,6 +63,8 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
         #now we have the new vehicle types and their values. we will filter for rows in the unfiltered_combined_data that match the economy and transport type with measure = stocks, check each separate dataset/source combo (they should be concatednated alrady) for the vehicle type and then split the stocks into the new vehicle types
         rows_to_edit = unfiltered_combined_data[(unfiltered_combined_data['economy'] == economy)&(unfiltered_combined_data['medium'] == 'road') & (unfiltered_combined_data['transport_type'] == transport_type) & (unfiltered_combined_data['measure'] == 'stocks')]
         unique_datasets = rows_to_edit['dataset'].unique()
+        if 'eei_manually_extracted' in unique_datasets:
+            breakpoint()
         # if economy == '10_MAS':
         #find unique vehicle types for each dataset. if they are already split into more than one of the new vehicle types then we will not edit them, else, grab the original vehicle type (if it is available) and split it into the new vehicle types
         for dataset in unique_datasets:

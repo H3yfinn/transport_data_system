@@ -134,9 +134,13 @@ def extract_latest_groomed_data():
     #     included: True
     #     type: transport
     #aus_census is the dataset name, intermediate_data/AUS/ is the folder and intermediate_data/AUS/FILE_DATE_ID_aus_census.csv is the file path
+    datasets_to_remove = []
     for dataset in datasets_transport:
         #get the latest file
         latest_file = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
+        if latest_file == 'empty':
+            datasets_to_remove.append(dataset)
+            continue
         #add date to the start of latest_file
         try:
             latest_file = 'DATE'+latest_file
@@ -145,13 +149,21 @@ def extract_latest_groomed_data():
             raise Exception('The latest file for {} is not a date. Please make sure the file name is a date in the format DATEYYYMMDD'.format(dataset))
         #replace the FILE_DATE_ID with the latest file date
         dataset[2] = dataset[2].replace('FILE_DATE_ID', latest_file)
+    for dataset in datasets_to_remove:
+        datasets_transport.remove(dataset)
+    datasets_to_remove = []
     for dataset in datasets_other:
         #get the latest file
         latest_file = utility_functions.get_latest_date_for_data_file(dataset[0], dataset[1])
+        if latest_file == 'empty':
+            datasets_to_remove.append(dataset)
+            continue
         #add date to the start of latest_file
         latest_file = 'DATE'+latest_file
         #replace the FILE_DATE_ID with the latest file date
         dataset[2] = dataset[2].replace('FILE_DATE_ID', latest_file)
+    for dataset in datasets_to_remove:
+        datasets_other.remove(dataset)
     return datasets_transport, datasets_other
 
 def convert_concordance_to_combined_data(concordance, old_combined_data):
@@ -230,9 +242,9 @@ def check_dataset_for_issues(combined_data, INDEX_COLS,paths_dict):
             logging.info(measure)
             logging.info(combined_data[combined_data['measure'] == measure]['unit'].unique())
             # save data to pickle file for viewing
-            combined_data.to_csv(error_file_path)
+            combined_data[combined_data['measure'] == measure].to_csv(error_file_path)
             logging.error('There are multiple units for this measure. This is not allowed. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(error_file_path))
-            raise Exception('There are multiple units for this measure {}. This is not allowed. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(measure, error_file_path))
+            raise Exception('There are multiple units for this measure {}. They are {}. This is not allowed. Please fix this before continuing. The data has been saved to a csv file. The path to the file is: {}'.format(measure, combined_data[combined_data['measure'] == measure]['unit'].unique(), error_file_path))
         
     #check the economies match the economies in the concordance file:
     economy_list = pd.read_csv(paths_dict['concordances_file_path']).Economy.unique().tolist()
@@ -286,8 +298,6 @@ def combine_datasets(datasets, paths_dict,dataset_frequency='yearly', ADD_COLUMN
     for dataset in datasets:
         #datasets can be broken into (folder, dataset name, file path)
         print('Combining dataset: {}'.format(dataset[1]))
-        # if dataset[1] == 'phillipines_2022_stocks_total':
-        #     breakpoint()#phl
         new_dataset = pd.read_csv(dataset[2])
         
         #convert cols to snake case
@@ -516,6 +526,24 @@ def filter_for_transport_model_data_using_concordances(combined_data, model_conc
     missing_rows_df.to_csv(paths_dict['missing_rows_for_transport_model'])
     # # save them to a csv
     filtered_combined_data.reset_index(inplace=True)
+    
+    #Just in case the user has accidentally written it wrong, check what rows contain different values than standard for the scope and fuel cols (should be 'national' and 'all' respectively). If they have their dataset recorded in the list below then we will just remove them but otherwise we will throw an error.
+    datasets_to_just_remove = ['ato $ un_statistics_division,_itf']
+    #remove where the dataset is in the list above and scope or fuel is not 'national' or 'all'
+    filtered_combined_data = filtered_combined_data[~((filtered_combined_data['dataset'].isin(datasets_to_just_remove)) & (~filtered_combined_data['scope'].isin(['national']) | ~filtered_combined_data['fuel'].isin(['all'])))]
+    #get the datasets that have incorrect scope or fuel
+    datasets_with_incorrect_scope_or_fuel = filtered_combined_data[~filtered_combined_data['scope'].isin(['national']) | ~filtered_combined_data['fuel'].isin(['all'])]['dataset'].unique()
+    
+    if len(datasets_with_incorrect_scope_or_fuel) > 0:    
+        breakpoint()
+        #save them to a csv:
+        datasets_with_incorrect_scope_or_fuel.to_csv(os.path.join(paths_dict['intermediate_folder'], 'datasets_with_incorrect_scope_or_fuel.csv'))
+        logging.info('The following rows have unexpected values in the scope column: ')
+        logging.info(filtered_combined_data[~filtered_combined_data['scope'].isin(['national'])])
+        logging.info('The following rows have unexpected values in the fuel column: ')
+        logging.info(filtered_combined_data[~filtered_combined_data['fuel'].isin(['all'])])
+        raise Exception('The following rows have unexpected values in the scope and fuel columns. Please fix this before continuing: {}'.format(filtered_combined_data[~filtered_combined_data['scope'].isin(['national']) | ~filtered_combined_data['fuel'].isin(['all'])]))
+    
     return filtered_combined_data
 
 

@@ -49,8 +49,9 @@ evs[evs['Economy'].isna()].region.unique()
     #    'Rest of the world', 'South Africa', 'Spain', 'Sweden',
     #    'Switzerland', 'United Kingdom',
 #checked the above m,anually and they are all correct
-#so remove them all
-evs = evs[~evs['Economy'].isna()]
+#we can remove them later casue we'll want to keep a different version of data which contains all the regions. for now set missing economies to region
+evs.loc[evs['Economy'].isna(), 'Economy'] = evs.loc[evs['Economy'].isna(), 'region']
+
 #%%
 #we will change 'category' to 'source', 'parameter' to 'measure', 'mode' to 'vehicle type', powertrain to 'drive'
 evs.rename(columns={'category':'source', 'parameter':'measure', 'mode':'vehicle type', 'powertrain': 'drive', 'year':'date'}, inplace=True)
@@ -188,8 +189,6 @@ def split_PHEV_and_BEV(STOCKS=True):
     return evs_stock_share_new
 
 #%%
-
-
 evs_stock_share_new = split_PHEV_and_BEV(STOCKS=True)
 evs_sales_share_new = split_PHEV_and_BEV(STOCKS=False)
 # concat to ev new
@@ -200,10 +199,14 @@ evs.columns = evs.columns.str.lower()
 #we can concat the bvelow becvause previouslky evs_stock_share_new wouldve had the drive bev_and_phev only, now it has bev and phev individually. 
 evs_new = pd.concat([evs, evs_stock_share_new, evs_sales_share_new], axis=0, ignore_index=True)
 
+evs_all_regions = evs_new.copy()
+#drop Economy that are not in economy_name_to_code 
+evs_new = evs_new[evs_new['economy'].isin(economy_name_to_code['Economy'])]
+
 #%%
 #save the data
 evs_new.to_csv('intermediate_data/IEA/{}_evs.csv'.format(FILE_DATE_ID), index=False)
-
+evs_all_regions.to_csv('input_data/IEA/processed/{}_evs_cleaned_all_regions.csv'.format(FILE_DATE_ID), index=False)
 #%%
 PLOTTING = True
 if PLOTTING:

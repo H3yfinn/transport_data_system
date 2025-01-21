@@ -152,3 +152,16 @@ biojet,kgc02_per_l,0.0,L,kgC02
 biojet,kgc02_per_kg_fuel,0.0,kg fuel,kgC02
 biojet,kgc02_per_mj,0.0,MJ,kgC02
 biojet,Megatonne c02 per PJ of fuel,0.0,PJ,MTC02
+fuel_oil,mpg_to_km_per_liter,0.42514285110463595,mpg,km/L
+fuel_oil,mpg_to_km_per_pj,10371361.512115436,mpg,km/PJ
+fuel_oil,mpg_to_billion_km_per_pj,0.010371361512115436,mpg,billion km/PJ
+fuel_oil,fuel_energy_content_mj_kg,42.7,kg,MJ
+fuel_oil,density_kg_per_l,0.96,L,kg
+fuel_oil,km_per_kg_to_km_per_mj,0.010371361512115436,MJ,km
+fuel_oil,kt_to_pj,0.04270000000000001,kt,PJ
+fuel_oil,km_per_liter_to_km_per_pj,9956507.051630817,km/L,km/PJ
+fuel_oil,km_per_liter_to_km_per_mj,0.009956507051630818,km/L,km/MJ
+fuel_oil,kgc02_per_l,3.174297504,L,kgC02
+fuel_oil,kgc02_per_kg_fuel,3.3065599000000003,kg fuel,kgC02
+fuel_oil,kgc02_per_mj,0.077437,MJ,kgC02
+fuel_oil,Megatonne c02 per PJ of fuel,0.077437,PJ,MTC02

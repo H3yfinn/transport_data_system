@@ -391,7 +391,7 @@ passenger_mpg.drop(['medium+vehicle_type'],axis=1,inplace=True)
 #we will now make the factors available for use for other economys. just do this by appending a copy of the data for each eocnomy.
 # #also could incorporate all drive types here. to do that we can load in the concordances file from E:\APERC\transport_data_system\input_data\concordances\9th\model_concordances_measures.csv
 
-concordances = pd.read_csv('input_data/concordances/9th/model_concordances_measures_20230615.csv')
+concordances = pd.read_csv('input_data/concordances/9th/model_concordances_measures.csv')
 #make all cols snake case
 concordances.columns = concordances.columns.str.lower().str.replace(' ','_')
 

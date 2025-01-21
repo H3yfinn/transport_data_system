@@ -10,13 +10,24 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import itertools
 import data_formatting_functions
-
+import time
 import logging
 logger = logging.getLogger(__name__)
 
 #%%
-def data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict,datasets_to_always_use=[],highlighted_datasets=[],open_dashboard=False,default_user_input=None,PLOT_SELECTION_TIMESERIES=True):
+def data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict,datasets_to_always_use=[],highlighted_datasets=[],open_dashboard=False,default_user_input=None,PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=[]):
+    """
 
+    Args:
+        default_user_input (_type_, optional): NOTE that for this you will want to set it as a list with the first element being the option text (e.g. Keep_for_all_consecutive_years, keep_for_all_years, keep_for_this_year) and the second element being the index of the dataset in unique_datasets. Defaults to None. - generally reocmmend just writing it as ['Keep_for_all_consecutive_years', 0] where 0 is the index of the first dataset in unique_datasets as long as you are not deprioritising that dataset
+        DATASETS_TO_DEPRIORITISE (list, optional): A list of strings from datasets that should be deprioritised in the selection process. Defaults to [].
+
+    Raises:
+        Exception: _description_
+
+    Returns:
+        _type_: _description_
+    """
 
     ########PREPAREATION########
     # combined_data_concordance.set_index(paths_dict['INDEX_COLS_no_year'] , inplace=True)
@@ -76,11 +87,11 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
 
                 #now pass the group_concordance df to the user input handler which will run through each year and ask the user to select the preferred data. The preferred data will be recorded in the concordance df.
                 try:#TODO FIXING THIS 2/26/2024
-                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input)
+                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input, DATASETS_TO_DEPRIORITISE)
                 except:
                     breakpoint()
                     
-                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input)
+                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input, DATASETS_TO_DEPRIORITISE)
                 if user_input == 'quit':
                     break
                 else:
@@ -391,7 +402,33 @@ def find_default_dataset(datasets_to_always_use, unique_datasets, choice_dict):
     else:
         return None
     
-def manual_user_input_function(data_to_select_from, index_row_no_year,  group_concordance, paths_dict,datasets_to_always_use, default_user_input): 
+
+def choose_default_input(default_user_input, DATASETS_TO_DEPRIORITISE, unique_datasets, choice_dict):
+    #based on what the default input is, choose that as the user input. 
+    #standard input for default user input would be ['Keep_for_all_consecutive_years', 0] where 0 is the index of dataset in unique_datasets
+    if len(default_user_input) != 2:
+        raise ValueError('Default user input must be a list of length 2 with the first element being the option text (e.g. Keep_for_all_consecutive_years) and the second element being the index of the dataset in unique_datasets')
+    
+    if DATASETS_TO_DEPRIORITISE:
+        remaining_datasets = [unique_dataset for unique_dataset in unique_datasets
+        if not any(dataset in unique_dataset for dataset in DATASETS_TO_DEPRIORITISE)]
+        
+    if len(remaining_datasets) > 0:
+        unique_datasets = remaining_datasets
+
+    option_text = default_user_input[0]
+
+    while default_user_input[1] > len(unique_datasets)-1:
+        #minus 1 from default_user_input[1] until it is less than the length of unique_datasets
+        default_user_input[1] -= 1
+    dataset = unique_datasets[default_user_input[1]]
+    
+    for choice_dict_key, choice_dict_value in choice_dict.items():
+        if choice_dict_value[0] == option_text and choice_dict_value[1] == dataset:
+            return choice_dict_key
+    return None
+
+def manual_user_input_function(data_to_select_from, index_row_no_year,  group_concordance, paths_dict,datasets_to_always_use, default_user_input, DATASETS_TO_DEPRIORITISE): 
     timeseries_png =None
     user_input = None
     years_to_ignore = []
@@ -417,14 +454,14 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
         logging.info('\nFor unique combination: {}'.format(index_row_no_year))
 
         user_input = find_default_dataset(datasets_to_always_use, unique_datasets, choice_dict)
+        
         if user_input is None:
-            #TODO TEMP FIX:
-            #SET USER INPUT TO 1 FOR NOW. IM NOT SURE IF THIS IS A VALID LONG TERM FIX TBH
             if default_user_input is not None:
-                user_input = default_user_input
+                user_input = choose_default_input(default_user_input, DATASETS_TO_DEPRIORITISE, unique_datasets, choice_dict)
+                if user_input is None:
+                    logging.error('Default user input not found in choice_dict. Please check that the default user input is correct')
+                    raise ValueError('Default user input not found in choice_dict. Please check that the default user input is correct')
             else:
-            #TEMP FIX END
-
                 #if not already, open time series plot for this unique combination
                 #open the timeseries png in separate window
                 if timeseries_png is None:

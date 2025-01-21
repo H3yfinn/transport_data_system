@@ -91,6 +91,8 @@ avg_efficiency = avg_efficiency.set_index('drive').to_dict()['Value']
 #add phev_d as the same value as phev_g (it might be sloghtly more efficient but we will assume its the same for now since sample size is small)
 avg_efficiency['phev_d'] = avg_efficiency['phev_g']
 efficiency_ratios = avg_efficiency
+#TEMP FIX, FILL IN LNG EFFICIENCY WITH CNG EFFICIENCY
+efficiency_ratios['lng'] = efficiency_ratios['cng']
 #%%
 
 # # Calculate efficiency ratios with respect to ice_g
@@ -125,6 +127,7 @@ fuel_economy_by_vehicle_type_new_ice = fuel_economy_by_vehicle_type_new[fuel_eco
 
 #and now for drive in cng, lpg, create a cpoy of the df
 fuel_economy_by_vehicle_type_new_cng = fuel_economy_by_vehicle_type_new_ice.copy()
+fuel_economy_by_vehicle_type_new_lng = fuel_economy_by_vehicle_type_new_ice.copy()
 fuel_economy_by_vehicle_type_new_lpg = fuel_economy_by_vehicle_type_new_ice.copy()
 fuel_economy_by_vehicle_type_new_bev = fuel_economy_by_vehicle_type_new_ice.copy()
 fuel_economy_by_vehicle_type_new_phev_g = fuel_economy_by_vehicle_type_new_ice_g.copy()
@@ -133,6 +136,7 @@ fuel_economy_by_vehicle_type_new_phev = fuel_economy_by_vehicle_type_new_ice.cop
 fuel_economy_by_vehicle_type_new_fcev = fuel_economy_by_vehicle_type_new_ice.copy()
 #and then change the drive type to cng and lpg respectively
 fuel_economy_by_vehicle_type_new_cng['drive'] = 'cng'
+fuel_economy_by_vehicle_type_new_lng['drive'] = 'lng'
 fuel_economy_by_vehicle_type_new_lpg['drive'] = 'lpg'
 
 fuel_economy_by_vehicle_type_new_bev['drive'] = 'bev'
@@ -150,9 +154,11 @@ fuel_economy_by_vehicle_type_new_phev_d['value'] = fuel_economy_by_vehicle_type_
 fuel_economy_by_vehicle_type_new_cng['value'] = fuel_economy_by_vehicle_type_new_cng['value']*efficiency_ratios['cng']
 fuel_economy_by_vehicle_type_new_lpg['value'] = fuel_economy_by_vehicle_type_new_lpg['value']*efficiency_ratios['lpg']
 
+fuel_economy_by_vehicle_type_new_lng['value'] = fuel_economy_by_vehicle_type_new_lng['value']*efficiency_ratios['lng']
+
 
 #and then concat them to the original df
-fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new_ice,fuel_economy_by_vehicle_type_new_cng,fuel_economy_by_vehicle_type_new_lpg, fuel_economy_by_vehicle_type_new_bev, fuel_economy_by_vehicle_type_new_fcev, 
+fuel_economy_by_vehicle_type_new = pd.concat([fuel_economy_by_vehicle_type_new_ice,fuel_economy_by_vehicle_type_new_cng,fuel_economy_by_vehicle_type_new_lng,fuel_economy_by_vehicle_type_new_lpg, fuel_economy_by_vehicle_type_new_bev, fuel_economy_by_vehicle_type_new_fcev, 
  fuel_economy_by_vehicle_type_new_phev_g, fuel_economy_by_vehicle_type_new_phev_d, fuel_economy_by_vehicle_type_new_ice_g, fuel_economy_by_vehicle_type_new_ice_d])
 # fuel_economy_by_vehicle_type_new_phev,
 #and then drop the duplicates
