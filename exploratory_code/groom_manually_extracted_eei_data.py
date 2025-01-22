@@ -59,7 +59,7 @@ for sheet in sheet_names:
 # 1990	1991	1992	1993	1994	1995	1996	1997	1998	1999	2000	2001	2002	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012	2013	2014	2015	2016	2017	2018	2019	2020
 
 #so we wantto drop the seconda nd third columns then set the index to the first column. Then map the first columns rows to the vehicle type, drive and transprot types we use in the model:
-vehicle_type_mapping_dict = {'Cars, SUV and personal light trucks': 'lpv', 'Motorcycles (2-4 wheelers < 400 kg)': 'motorcycle', 'Buses': 'bus', 'Passenger Trains': 'train', 'Domestic passenger airplanes': 'air', 'Domestic passenger ships': 'ship', 'Freight & Commercial road transport': 'all', 'Freight trains': 'train', 'Domestic freight airplanes': 'air', 'Domestic freight ships': 'ship','     Of which Light Commercial Vehicle (<3.5 t) - voluntary': 'lcvs', '     Of which Medium Freight Trucks  ( 3.5 t -12 t) - voluntary': 'mt', '     Of which Heavy Freight Trucks (> 12 t) - voluntary': 'ht', '     Of which cars - VOLUNTARY': 'car', '     Of which SUV and personal light trucks - VOLUNTARY': 'suv'} #using all for freight and commercial road transport since we have light commercial vehicle, medium freight trucks and heavy freight trucks which will get split upby unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data) in main.py
+vehicle_type_mapping_dict = {'Cars, SUV and personal light trucks': 'lpv', 'Motorcycles (2-4 wheelers < 400 kg)': 'motorcycle', 'Buses': 'bus', 'Passenger Trains': 'train', 'Domestic passenger airplanes': 'air', 'Domestic passenger ships': 'ship', 'Freight & Commercial road transport': 'all', 'Freight trains': 'train', 'Domestic freight airplanes': 'air', 'Domestic freight ships': 'ship','     Of which Light Commercial Vehicle (<3.5 t) - voluntary': 'lcv', '     Of which Medium Freight Trucks  ( 3.5 t -12 t) - voluntary': 'mt', '     Of which Heavy Freight Trucks (> 12 t) - voluntary': 'ht', '     Of which cars - VOLUNTARY ': 'car', '     Of which SUV and personal light trucks - VOLUNTARY': 'suv'} #using all for freight and commercial road transport since we have light commercial vehicle, medium freight trucks and heavy freight trucks which will get split upby unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data) in main.py
 
 drive_mapping_dict = {'     - gasoline and other spark ignition engines': 'ice_g', '     - diesel (compression ignition) engine': 'ice_d', '     - battery and plug-in hybrid electric - voluntary': 'ev'}
 
@@ -135,6 +135,13 @@ for sheet in sheet_names:
                         elif data_to_check['drive'].str.contains('all').any() and (data_to_check['drive'].str.contains('ice_d').any()):
                             raise ValueError('WASNT EXPECTING THIS: There is a row with drive all and drive ice_d for vehicle_type: {}, transport_type: {}, date: {}, economy: {}'.format(vehicle_type, transport_type, date, economy))   
     all_Data = pd.concat([all_Data, data])
+
+#%%
+#for chile, since there are suv and car categories, rename the lpv category to lt and set its values to 0
+all_Data.loc[(all_Data['vehicle_type']=='lpv') & (all_Data['economy']=='04_CHL'), 'vehicle_type'] = 'lt'
+all_Data.loc[(all_Data['vehicle_type']=='lt'), 'value'] = 0
+
+
 #%%
 import datetime
 #create FILE_DATE_ID to be used in the file name of the output file and for referencing input files that are saved in the output data folder
