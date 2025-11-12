@@ -1,13 +1,35 @@
 
 #%%
+import os
+import sys
+import re
+
+# Ensure this script's folder (and the project root if it contains 'transport_data_system')
+# are on sys.path so other modules can be imported reliably even if some imported module
+# later changes the current working directory.
+try:
+    THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    # __file__ may not be defined in some interactive contexts; fallback to argv or cwd
+    THIS_DIR = os.path.dirname(os.path.abspath(sys.argv[0])) if len(sys.argv) > 0 and sys.argv[0] else os.getcwd()
+
+# Try to locate the project root containing 'transport_data_system'
+parts = re.split(r'(transport_data_system)', THIS_DIR)
+if len(parts) > 1:
+    PROJECT_ROOT = parts[0] + 'transport_data_system'
+else:
+    PROJECT_ROOT = THIS_DIR
+
+for p in (THIS_DIR, PROJECT_ROOT):
+    if p and p not in sys.path:
+        sys.path.insert(0, p)
+
+#%%
 import datetime
 import pandas as pd
 # set the option to suppress the warning: PerformanceWarning: indexing past lexsort depth may impact performance.
 pd.options.mode.chained_assignment = None
 import numpy as np
-import os
-import re
-import sys
 from PIL import Image
 import data_formatting_functions
 import utility_functions 
@@ -19,8 +41,9 @@ import logging
 import analysis_and_plotting_functions
 import yaml
 from utility_functions import insert_economy_into_path
-create_9th_model_dataset = True
 
+create_9th_model_dataset = True
+#%%
 file_date = datetime.datetime.now().strftime("%Y%m%d")
 FILE_DATE_ID = 'DATE{}'.format(file_date)
 # FILE_DATE_ID = 'DATE20230726'
@@ -58,9 +81,9 @@ RESCALE_DATA_TO_MATCH_EGEDA_TOTALS = False#note that this is not done aymore bec
 #%% 
 
 #if you set this to something then it will only do selections for that economy and then using the FILE_DATE_ID of a previous final output, concat the new data to the old data(with the economy removed from old data). Else, set it to None and it will run for all economies in the data
-ECONOMIES_TO_RUN=['04_CHL']#20_USA', '08_JPN', '12_NZ']#['09_ROK']#['17_SGP', '06_HKC']#['15_PHL']#, '01_AUS']#[ '12_NZ']#['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
+ECONOMIES_TO_RUN=[ '13_PNG']#20_USA', '08_JPN', '12_NZ']#['09_ROK']#['17_SGP', '06_HKC']#['15_PHL']#, '01_AUS']#[ '12_NZ']#['07_INA']#['05_PRC']#[ '12_NZ']#['03_CDA','08_JPN'] #MAKE SURE THIS IS A #'17_SGP',LIST#'19_THA'#'08_JPN'#'08_JPN'#'20_USA'# '08_JPN'#'05_PRC'
 
-ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20250121'#'DATE20240726' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA just make sure its the end of the file name and not including combined_data_ since that is added automatically
+ECONOMIES_TO_RUN_PREV_DATE_ID ='DATE20250122'#'DATE20240726' #='DATE20231005_DATE20230927'#'DATE20230824'#'DATE20230810'#='DATE20230731_19_THA'#'DATE20230717'#'DATE20230712'#'DATE20230628'#make sure to update this to what you want to concat the new data to so you have a full dataset. Note it could also be somethign liek DATE20230731_19_THA just make sure its the end of the file name and not including combined_data_ since that is added automatically
 
 def setup_main():
     global FILE_DATE_ID
@@ -101,17 +124,20 @@ def main():
         #EDIT ALL DATA BEFORE SELECTION
         unfiltered_combined_data = pre_selection_estimation_functions.split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data)#will essentially assume that all economys have 0 phev and bev unless iea has data on them
         unfiltered_combined_data =  pre_selection_estimation_functions.split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data)
+        
         splits_dict_petrol_to_diesel = pre_selection_estimation_functions.estimate_petrol_diesel_splits(unfiltered_combined_data)
         #now we have to split the stocks where drive is all into bev and phev      
         unfiltered_combined_data = pre_selection_estimation_functions.split_vehicle_types_using_distributions(unfiltered_combined_data)#trying out putting this before spltting ice into phev and petrol and diesel
         unfiltered_combined_data = pre_selection_estimation_functions.split_ice_phev_into_petrol_and_diesel(unfiltered_combined_data,splits_dict_petrol_to_diesel)
         
+        unfiltered_combined_data = pre_selection_estimation_functions.concat_incomplete_new_datasets(unfiltered_combined_data)
         #EDIT ALL DATA BEFORE SELECTION END
         if create_9th_model_dataset:
             #import snapshot of 9th concordance
             #however, this doesnt include the years in the model_concordances_measures.csv file. They are determined by EARLIEST_DATE and LATEST_DATE
             model_concordances_base_year_measures_file_name = paths_dict['concordances_file_path']
-                
+            
+            
             #TEMP EDIT CONCORDANCES FOR NON ROAD:
             #we will set drive to all for non road so that the data we currently have as input data still works. the detail is handled in the model currently, although this is not a good way to do it.
             paths_dict = data_formatting_functions.drop_detailed_drive_types_from_non_road_concordances(paths_dict)
@@ -124,12 +150,13 @@ def main():
         if ECONOMIES_TO_RUN is not None:
             unfiltered_combined_data = unfiltered_combined_data[unfiltered_combined_data['economy'].isin(ECONOMIES_TO_RUN)]
             combined_data = combined_data[combined_data['economy'].isin(ECONOMIES_TO_RUN)]
-            
         combined_data = data_formatting_functions.filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data)
+        
+        breakpoint()#combined data lacking stocks data for >2010 cars?
         combined_data_concordance = data_formatting_functions.create_concordance_from_combined_data(combined_data, frequency = 'yearly')
         
         sorting_cols = ['date','economy','measure','transport_type','medium', 'vehicle_type','drive','fuel','frequency','scope']
-        
+        breakpoint()#how does mex end up with less data so quickly
         combined_data_concordance, combined_data = data_selection_functions.prepare_data_for_selection(combined_data_concordance,combined_data,paths_dict, sorting_cols)
         
         if previous_selections_file_path is not None:
@@ -174,13 +201,14 @@ def main():
         
         highlight_list = highlight_list+[]
         road_measures_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['road_measures_datasets_to_always_use']
+        road_measures_datasets_to_never_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['road_measures_datasets_to_never_use']
         #['estimated_mileage_occupancy_load_efficiency $ transport_data_system']#['iea_ev_explorer $ historical','estimated_mileage_occupancy_efficiency $ transport_data_system']
         if not load_road_measures_selection_progress:#when we design actual progress integration then we wont do it like this. 
             road_measures_combined_data = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data)
 
             road_measures_combined_data_concordance = data_formatting_functions.filter_for_specifc_data(road_measures_selection_dict, combined_data_concordance)
-            
-            road_measures_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, road_measures_combined_data_concordance, road_measures_combined_data, paths_dict,road_measures_datasets_to_always_use,default_user_input=['Keep_for_all_consecutive_years', 0], highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=['ato', '8th'])
+            breakpoint()#where do our >2010 car valus go?
+            road_measures_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, road_measures_combined_data_concordance, road_measures_combined_data, paths_dict,road_measures_datasets_to_always_use,road_measures_datasets_to_never_use,default_user_input=['Keep_for_all_consecutive_years', 0], highlighted_datasets=highlight_list, PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=['ato', '8th'])
             
         else:
             road_measures_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_road_measures_combined_data_concordance'],economy))
@@ -239,7 +267,8 @@ def main():
         if not load_energy_activity_selection_progress: 
             highlight_list = highlight_list +['estimated $ calculate_energy_and_activity()']
             all_other_combined_data_datasets_to_always_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_always_use']
-            all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,highlighted_datasets=highlight_list,default_user_input=['Keep_for_all_consecutive_years', 0], PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=['ato', '8th'])
+            all_other_combined_data_datasets_to_never_use = yaml.load(open('config/selection_config.yml'), Loader=yaml.FullLoader)['all_other_combined_data_datasets_to_never_use']
+            all_other_combined_data_concordance = data_selection_functions.data_selection_handler(grouping_cols, all_other_combined_data_concordance, all_other_combined_data, paths_dict,all_other_combined_data_datasets_to_always_use,all_other_combined_data_datasets_to_never_use,highlighted_datasets=highlight_list,default_user_input=['Keep_for_all_consecutive_years', 0], PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=['ato', '8th'])
         else:
             all_other_combined_data_concordance = pd.read_pickle(insert_economy_into_path(paths_dict['previous_all_other_combined_data_concordance'], economy))
         
@@ -378,7 +407,6 @@ if is_notebook():
     os.chdir(re.split('transport_data_system', os.getcwd())[0]+'/transport_data_system')
     main()
 elif __name__ == '__main__':
-
     # if len(sys.argv) != 2:
     #     msg = "Usage: python {} <input_data_sheet_file>"
     #     print(msg.format(sys.argv[0]))

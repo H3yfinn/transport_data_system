@@ -87,6 +87,8 @@ gdp_per_capita = gdp_per_capita[['Economy', 'GDP_per_capita', 'Date']]
 #rename 17_SIN to 17_SGP and 15_RP to 15_PHL
 gdp_per_capita['Economy'] = gdp_per_capita['Economy'].replace('17_SIN', '17_SGP')
 
+gdp_per_capita['Economy'] = gdp_per_capita['Economy'].replace('15_RP', '15_PHL')
+
 #%%
 
 #units:
@@ -112,8 +114,8 @@ all_data = all_data.dropna()
 #then calc averages for each economy and date
 all_data_avg = all_data.groupby(['Economy', 'Economy_name']).mean().reset_index()
 
-#then filternfor only 2021 
-all_data = all_data[all_data['Date'] == 2021]
+#then filternfor only 2022
+all_data = all_data[all_data['Date'] == 2022]
 #then merge, make suffixes avg
 all_data = pd.merge(all_data, all_data_avg, on=['Economy', 'Economy_name'], suffixes=('', '_avg'))
 
@@ -137,64 +139,340 @@ all_data['Category'] = None
 for category, economies in mapping.items():
     all_data.loc[all_data['Economy'].isin(economies), 'Category'] = category
 all_data = all_data.sort_values(['Category', 'GDP_per_capita', 'Population density'], ascending=[True, False, False])
+#rename Economy_name to Hong Kong, China
+all_data['Economy_name'] = all_data['Economy_name'].replace('Hong Kong', 'Hong Kong, China')
 #%%
 #map colors for them
-mapping_colors = {
-    'High income, high density':'rgb(30, 144, 255)',  # Dodger Blue
-    'Lower income low density': 'rgb(220, 20, 60)',  # Crimson
-    'High income low density': 'rgb(34, 139, 34)',  # Forest Green
-    'Lower income high density':  'rgb(255, 165, 0)',  # Orange
-    'Microstates': 'rgb(186, 85, 211)',  # Medium Orchid
-    'China': 'rgb(0, 206, 209)'  # Dark Turquoise
-}
+mapping_colors =  {
+    'Microstates': '#BA55D3',                # rgb(186, 85, 211)
+    'Lower income high density': '#00CED1',  # rgb(0, 206, 209)
+    'Lower income low density': "#ffa500",
+    'China': '#e63946',                      # rgb(0, 206, 209)
+    'High income, high density': '#1E90FF',  # rgb(30, 144, 255)
+    'High income low density': '#228B22',    # rgb(34, 139, 34)
+}#{
+#     'High income, high density':'rgb(30, 144, 255)',  # Dodger Blue
+#     'Lower income low density': 'rgb(220, 20, 60)',  # Crimson
+#     'High income low density': 'rgb(34, 139, 34)',  # Forest Green
+#     'Lower income high density':  'rgb(255, 165, 0)',  # Orange
+#     'Microstates': 'rgb(186, 85, 211)',  # Medium Orchid
+#     'China': 'rgb(0, 206, 209)'  # Dark Turquoise
+# }
+# #map economy economy codes to their codes without the numbers
+all_data['Economy'] = all_data['Economy'].str.replace(r'^\d+_', '', regex=True)
+
+#%%
+font_mult = 1.5
 #now plot the data using px.scatter
 import plotly.express as px
-fig = px.scatter(all_data, x='Population density', y='Vehicle_ownership', text='Economy_name', color='Category', color_discrete_map=mapping_colors)
+fig = px.scatter(all_data, x='Population density', y='Vehicle_ownership', text='Economy', color='Category', color_discrete_map=mapping_colors)
 fig.update_traces(textposition='top center')
 fig.update_layout(title='Vehicle ownership vs population density', xaxis_title='Population density (people per km^2 - log scale)', yaxis_title='Vehicle ownership (vehicles per person)')
 #make ext bigger and points bigger
-fig.update_layout(font=dict(size=18))
-fig.update_traces(marker=dict(size=18))
+fig.update_layout(font=dict(size=18 * font_mult))
+fig.update_traces(marker=dict(size=18 * font_mult))
 #save the plot
 fig.write_html('plotting_output/vehicle_ownership_vs_population_density.html')
 #%%
 #then create a 3d plot with gdp per capita as the z axis
-fig = px.scatter_3d(all_data, x='Population density', y='Vehicle_ownership', z='GDP_per_capita', text='Economy_name', color='Category', color_discrete_map=mapping_colors)
+fig = px.scatter_3d(all_data, x='Population density', y='Vehicle_ownership', z='GDP_per_capita', text='Economy', color='Category', color_discrete_map=mapping_colors)
 fig.update_traces(textposition='top center')
-fig.update_layout(title='Vehicle ownership vs population density vs GDP per capita', xaxis_title='Population density )people per km^2 - log scale)', yaxis_title='Vehicle ownership (vehicles per person)')
+fig.update_layout(
+    title='Vehicle ownership vs population density vs GDP per capita',
+    scene=dict(
+        xaxis=dict(
+            title='Population density (people per km^2 - log scale)',
+            backgroundcolor='white',
+            gridcolor='black',
+            zerolinecolor='black',
+            showbackground=True
+        ),
+        yaxis=dict(
+            title='Vehicle ownership (vehicles per person)',
+            backgroundcolor='white',
+            gridcolor='black',
+            zerolinecolor='black',
+            showbackground=True
+        ),
+        zaxis=dict(
+            title='GDP per capita',
+            backgroundcolor='white',
+            gridcolor='black',
+            zerolinecolor='black',
+            showbackground=True
+        ),
+        bgcolor='white'
+    ),
+    paper_bgcolor='white',
+    plot_bgcolor='white'
+)
 fig.write_html('plotting_output/vehicle_ownership_vs_population_density_vs_gdp_per_capita.html')
 
 #%%
 #and then do avgs of the above
-fig = px.scatter(all_data, x='Population density_avg', y='Vehicle_ownership_avg', text='Economy_name', color='Category', color_discrete_map=mapping_colors)
+fig = px.scatter(all_data, x='Population density_avg', y='Vehicle_ownership_avg', text='Economy', color='Category', color_discrete_map=mapping_colors)
 fig.update_traces(textposition='top center')
-fig.update_layout(title='Average vehicle ownership vs average population density', xaxis_title='Average population density (people per km^2 - log scale)', yaxis_title='Average vehicle ownership (vehicles per person)')
-fig.update_layout(font=dict(size=18))
-fig.update_traces(marker=dict(size=18))
+fig.update_layout(
+    title='Average vehicle ownership vs average population density',
+    xaxis_title='Average population density (people per km^2 - log scale)',
+    yaxis_title='Average vehicle ownership (vehicles per person)',
+    paper_bgcolor='white',
+    plot_bgcolor='white',
+    yaxis=dict(side='left')
+)
+fig.update_layout(
+    font=dict(size=18 * font_mult),
+    title_font=dict(size=22 * font_mult),
+    xaxis_title_font=dict(size=18 * font_mult),
+    yaxis_title_font=dict(size=18 * font_mult)
+)
+#make the legendshow along the bottom
+fig.update_layout(legend=dict(
+    orientation='h',
+    yanchor='bottom',
+    y=-0.2,
+    xanchor='center',
+    x=0.5,
+    title='Grouping:'
+),
+    showlegend=False)
+fig.update_traces(marker=dict(size=15 * font_mult))
 fig.write_html('plotting_output/vehicle_ownership_vs_population_density_avg.html')
+########
+width_inches = 4.48
+height_inches = 3.14
+height_px = int(height_inches * 96)*3.5
+width_px = int(width_inches * 96)*3.5
+FONT_SIZE=40
+FONT_SIZE2=30
+FONT_SIZE3=30
+fig.update_layout(
+    font=dict(size=FONT_SIZE2),
+    legend=dict(font=dict(size=FONT_SIZE)),
+    title_font=dict(size=FONT_SIZE),
+    xaxis_title_font=dict(size=FONT_SIZE),
+    yaxis_title_font=dict(size=FONT_SIZE),
+    xaxis=dict(
+        tickfont=dict(size=FONT_SIZE2),  # Change x-axis tick mark size
+        titlefont=dict(size=FONT_SIZE3), # Change x-axis label size
+    ),
+    yaxis=dict(
+        tickfont=dict(size=FONT_SIZE2),  # Change y-axis tick mark size
+        titlefont=dict(size=FONT_SIZE3), # Change y-axis label size
+    )
+)
+fig.update_traces(textfont=dict(color='#000000'))
+#make font Segoe UI
+fig.update_layout(font_family='Segoe UI')
+# # Save as SVG with dimensions 3.48in x 3.48in (300 DPI)
+fig.write_image('plotting_output/vehicle_ownership_vs_population_density_avg.svg', format='svg', width=width_px, height=height_px, scale=1)
+#%%
+# Create a dummy figure with only the legend
+import plotly.graph_objects as go
 
-fig = px.scatter_3d(all_data, x='Population density_avg', y='Vehicle_ownership_avg', z='GDP_per_capita_avg', text='Economy_name', color='Category', color_discrete_map=mapping_colors)
+dummy_categories = list(mapping_colors.keys())
+dummy_categories = ['Microstates',
+ 'Lower income low density',
+ 'Lower income high density',
+ 'High income, high density',
+ 'High income low density',
+ 'China']
+# Ensure colors are in the same order as dummy_categories using them as keys
+dummy_colors = [mapping_colors[cat] for cat in dummy_categories]
+
+fig_legend = go.Figure()
+for cat, color in zip(dummy_categories, dummy_colors):
+    fig_legend.add_trace(go.Scatter(
+        x=[None], y=[None],
+        mode='markers',
+        marker=dict(color=color, size=18 * font_mult),
+        name=cat
+    ))
+
+fig_legend.update_layout(
+    showlegend=True,
+    legend=dict(
+        orientation='h',
+        yanchor='bottom',
+        y=0.5,
+        xanchor='center',
+        x=0.5,
+        font=dict(size=FONT_SIZE)
+    ),
+    paper_bgcolor='white',
+    plot_bgcolor='white',
+    xaxis=dict(visible=False),
+    yaxis=dict(visible=False),
+    margin=dict(l=0, r=0, t=0, b=0)
+)
+####
+width_inches = 9.53#4.48 +1.62
+height_inches = 0.5
+height_px = int(height_inches * 96) * 3.5
+width_px = int(width_inches * 96)*3.5
+FONT_SIZE=40
+FONT_SIZE2=30
+FONT_SIZE3=30
+fig.update_layout(
+    font=dict(size=FONT_SIZE),
+    legend=dict(font=dict(size=FONT_SIZE)),
+)
+fig_legend.update_layout(
+    autosize=False,
+    width=width_px,
+    height=height_px,
+    margin=dict(l=0, r=0, t=0, b=0),
+    legend=dict(
+        orientation='h',
+        yanchor='bottom',
+        y=0.5,
+        xanchor='center',
+        x=0.5,
+        font=dict(size=FONT_SIZE),
+        bgcolor='rgba(0,0,0,0)',  # transparent legend background
+        borderwidth=0,
+        itemwidth=120  # reduce item width to pack legend items closer
+    )
+)
+fig_legend.update_layout(
+    xaxis=dict(visible=False, range=[0, 1]),
+    yaxis=dict(visible=False, range=[0, 1])
+)
+fig_legend.write_html('plotting_output/legend_only.html')
+fig_legend.write_image('plotting_output/legend_only.svg', format='svg', width=width_px, height=height_px, scale=1)
+#%%
+
+fig = px.scatter_3d(all_data, x='Population density_avg', y='Vehicle_ownership_avg', z='GDP_per_capita_avg', text='Economy', color='Category', color_discrete_map=mapping_colors)
 fig.update_traces(textposition='top center')
-fig.update_layout(title='Average vehicle ownership vs average population density vs average GDP per capita', xaxis_title='Average population density (people per km^2 - log scale)', yaxis_title='Average vehicle ownership (vehicles per person)')
+fig.update_layout(
+    title='Average vehicle ownership vs average population density vs average GDP per capita',
+    scene=dict(
+        xaxis=dict(
+            title='Average population density (people per km^2 - log scale)',
+            backgroundcolor='white',
+            gridcolor='black',
+            zerolinecolor='black',
+            showbackground=True
+        ),
+        yaxis=dict(
+            title='Average vehicle ownership (vehicles per person)',
+            backgroundcolor='white',
+            gridcolor='black',
+            zerolinecolor='black',
+            showbackground=True
+        ),
+        zaxis=dict(
+            title='Average GDP per capita',
+            backgroundcolor='white',
+            gridcolor='black',
+            zerolinecolor='black',
+            showbackground=True
+        ),
+        bgcolor='white'
+    ),
+    paper_bgcolor='white',
+    plot_bgcolor='white'
+)
 fig.write_html('plotting_output/vehicle_ownership_vs_population_density_vs_gdp_per_capita_avg.html')
 
 #%%
+fig = px.bar(
+    all_data,
+    y='Economy_name',
+    x='GDP_per_capita_avg',
+    color='Category',
+    color_discrete_map=mapping_colors,
+    orientation='h'
+)
+# Label the x axis as gdp per capita and the y axis will be dropped. Title it as Average gdp per capita between 2021 and 2060
+# Make text a bit bigger
+show_titles = True  # Set to False to hide axis titles and plot title
 
-fig = px.bar(all_data, x='Economy', y='GDP_per_capita_avg', color='Category', color_discrete_map=mapping_colors)
-#label the y axis as gdp per capita and the x axis will be dropped. then title it as Average gdp per capita between 2000 and 2050
-#and amke text a bit bigger, and make the labels for x axis a bit vertical
+if show_titles:
+    fig.update_layout(
+        xaxis_title='USD PPP 2017 / person',
+        title='Average GDP per capita',
+        font=dict(size=18 * font_mult),
+        title_font=dict(size=22 * font_mult),
+        yaxis_title=None,
+        xaxis_title_font=dict(size=15 * font_mult),
+        xaxis=dict(tickfont=dict(size=15 * font_mult)),
+        yaxis=dict(tickfont=dict(size=15 * font_mult))
+    )
+else:
+    fig.update_layout(
+        xaxis_title=None,
+        title='Average GDP per capita',
+        font=dict(size=18 * font_mult),
+        title_font=dict(size=22 * font_mult),
+        yaxis_title=None,
+        xaxis_title_font=dict(size=18 * font_mult),
+        xaxis=dict(tickfont=dict(size=15 * font_mult)),
+        yaxis=dict(tickfont=dict(size=15 * font_mult))
+    )
+#make background white and rmeove legend
 fig.update_layout(
-    yaxis_title='GDP per capita',
-    title='Average GDP per capita between 2021 and 2060',
-    font=dict(
-        size=22
-    ),
-    xaxis_tickangle=-45,
-    xaxis_title=None)
+    paper_bgcolor='white',
+    plot_bgcolor='white',
+    showlegend=False
+)
 fig.write_html('plotting_output/gdp_per_capita_avg.html')
 
 
+########
+width_inches = 1.62
+height_inches = 3.14
+height_px = int(height_inches * 96)*3.5
+width_px = int(width_inches * 96)*3.5
+FONT_SIZE=40
+FONT_SIZE2=30
+FONT_SIZE3=30
+fig.update_layout(
+    font=dict(size=FONT_SIZE2),
+    legend=dict(font=dict(size=FONT_SIZE)),
+    title_font=dict(size=FONT_SIZE),
+    xaxis_title_font=dict(size=FONT_SIZE),
+    yaxis_title_font=dict(size=FONT_SIZE),
+    xaxis=dict(
+        tickfont=dict(size=FONT_SIZE2),  # Change x-axis tick mark size
+        titlefont=dict(size=FONT_SIZE3), # Change x-axis label size
+    ),
+    yaxis=dict(
+        tickfont=dict(size=FONT_SIZE2),  # Change y-axis tick mark size
+        titlefont=dict(size=FONT_SIZE3), # Change y-axis label size
+    )
+)
+#make all text black
+fig.update_traces(textfont=dict(color='#000000'))
+#make font Segoe UI
+fig.update_layout(font_family='Segoe UI')
+# # Save as SVG with dimensions 3.48in x 3.48in (300 DPI)
+fig.write_image('plotting_output/gdp_per_capita_avg.svg', format='svg', width=width_px, height=height_px, scale=1)
 
 #%%
 # %%
 
+
+# width_inches = 4.48
+# height_inches = 3.14
+# height_px = int(height_inches * 96)*3.5
+# width_px = int(width_inches * 96)*3.5
+# FONT_SIZE=40
+# FONT_SIZE2=30
+# fig.update_layout(
+#     font=dict(size=FONT_SIZE2),
+#     legend=dict(font=dict(size=FONT_SIZE)),
+#     title_font=dict(size=FONT_SIZE),
+#     xaxis_title_font=dict(size=FONT_SIZE),
+#     yaxis_title_font=dict(size=FONT_SIZE),
+#     xaxis=dict(
+#         tickfont=dict(size=FONT_SIZE2),  # Change x-axis tick mark size
+#         titlefont=dict(size=FONT_SIZE), # Change x-axis label size
+#     ),
+#     yaxis=dict(
+#         tickfont=dict(size=FONT_SIZE2),  # Change y-axis tick mark size
+#         titlefont=dict(size=FONT_SIZE), # Change y-axis label size
+#     )
+# )
+# # # Save as SVG with dimensions 3.48in x 3.48in (300 DPI)
+# fig.write_image('plotting_output/vehicle_ownership_vs_population_density_avg.svg', format='svg', width=width_px, height=height_px, scale=1)

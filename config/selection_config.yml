@@ -62,90 +62,62 @@ ECONOMIES_FOR_WHICH_TO_USE_PROVIDED_NON_ROAD_ACTIVITY_DATA_TO_CALCULATE_INTENSIT
     None: ['None']
 
 #note that in the below, since sometimes we add tags e.g. $ iea_ev_explorer_no_data to the dataset name, we need to make sure that the dataset name contains those if we find that those tags get added nd we want to use those datasets too
+road_measures_datasets_to_never_use:
+  - 'nz_fleet_stats vehicle_dist_split'
+  - 'nz_fleet_stats $ iea_ev_explorer'
+  - 'nz_fleet_stats $ iea_ev_explorer ice_split'
+  - 'nz_fleet_stats $ iea_ev_explorer vehicle_dist_split'
+  - 'nz_fleet_stats $ iea_ev_explorer vehicle_dist_split ice_split'
 road_measures_datasets_to_always_use:
+  - 'png_manual_stocks'
   - 'ct_national_stats'
-  - 'ct_national_stats vehicle_dist_split'
-  - 'ct_national_stats $ iea_ev_explorer_no_data'
-  - 'ct_national_stats $ iea_ev_explorer_no_data ice_split'
-  - 'ct_national_stats $ iea_ev_explorer_no_data vehicle_dist_split'
-  - 'ct_national_stats $ iea_ev_explorer_no_data vehicle_dist_split ice_split'
 
   - 'bug_fix_china'
   - '2017_8th_carried_to_2020_PNG'
   - '2019_ato_carried_to_2020_BD'
 
   - 'statistics_mexico_stocks'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data ice_split'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data vehicle_dist_split'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data vehicle_dist_split ice_split'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical ice_split'
-  - 'statistics_mexico_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split ice_split'
-
   - 'nz_fleet_stats'
-  # - 'nz_fleet_stats vehicle_dist_split'
-  # - 'nz_fleet_stats $ iea_ev_explorer'
-  # - 'nz_fleet_stats $ iea_ev_explorer ice_split'
-  # - 'nz_fleet_stats $ iea_ev_explorer vehicle_dist_split'
-  # - 'nz_fleet_stats $ iea_ev_explorer vehicle_dist_split ice_split'
   - 'statistics_indonesia'
 
   - 'singapore_annual_stocks'
-  - 'singapore_annual_stocks $ iea_ev_explorer_no_data'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data ice_split'
 
   - 'statistics_korea_stocks'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data ice_split'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data vehicle_dist_split'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data vehicle_dist_split ice_split'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical ice_split'
-  - 'statistics_korea_stocks $ iea_ev_explorer_no_data historical vehicle_dist_split ice_split'
 
-  - 'singapore_annual_stocks $ iea_ev_explorer_no_data'
-  - 'singapore_annual_stocks $ iea_ev_explorer_no_data ice_split'
   - 'singapore_annual_stocks'
 
   - 'iea_ev_explorer $ historical'
   - 'usa_alternative_fuels_data_center'
 
   - '9th_model_first_iteration'
-  - '9th_model_first_iteration vehicle_dist_split'
-  - '9th_model_first_iteration'
-  - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split ice_split'
-  - '9th_model_first_iteration $ iea_ev_explorer  historical vehicle_dist_split'
-
   - 'aus_census'
-  - 'aus_census $ iea_ev_explorer_no_data'
-  - 'aus_census $ iea_ev_explorer_no_data ice_split'
   
-  - 'ph_govt_data_stocks vehicle_dist_split'
   - 'ph_govt_data_stocks'
-  - 'ph_govt_data_stocks $ iea_ev_explorer  historical vehicle_dist_split ice_split'
-  - 'ph_govt_data_stocks $ iea_ev_explorer  historical vehicle_dist_split'
-
-  - 'eei_manually_extracted $ iea_ev_explorer  historical'
-  - 'eei_manually_extracted vehicle_dist_split'
-  - 'eei_manually_extracted $ iea_ev_explorer  historical vehicle_dist_split'
-  - 'eei_manually_extracted $ iea_ev_explorer_no_data ice_split'
-  - 'eei_manually_extracted $ iea_ev_explorer  historical ice_split'
-  - 'eei_manually_extracted $ iea_ev_explorer  historical vehicle_dist_split ice_split' #todo im not sure if i need to have so much of the dataset name in here, but i think i do
-  - 'EEI vehicle_dist_split'
+  - 'eei_manually_extracted'
   - 'EEI'
-  - 'EEI $ iea_ev_explorer  historical vehicle_dist_split ice_split'
-  - 'EEI $ iea_ev_explorer  historical vehicle_dist_split'
+  - 'manually_estimated_peru_stocks'
 
 
 all_other_combined_data_datasets_to_always_use:
   - 'iea_ev_explorer $ historical'
   - 'EEI'
+all_other_combined_data_datasets_to_never_use:
+ - 'asafsdfdsgh'
   
 #in the below, make sure to set the key to be as much of the file name as you can while excluding its date and file type. this willk be searched for using utility_functions.get_latest_date_for_data_file(folder, KEY) 
 datasets:
+  _png_stocks_manually_inputted:
+    file_path: intermediate_data/png/FILE_DATE_ID_png_stocks_manually_inputted.csv
+    folder: intermediate_data/png/
+    script: grooming_code\1_png_stocks_manually_inputted.py
+    included: True
+    type: transport
+  manually_estimated_peru_stocks_:
+    file_path: intermediate_data/Peru/manually_estimated_peru_stocks_FILE_DATE_ID.csv
+    folder: intermediate_data/Peru/
+    script: grooming_code\1_create_estimates_for_peru_stocks.py
+    included: True
+    type: transport
   _eei_stocks:
     file_path: intermediate_data/estimated/FILE_DATE_ID_eei_stocks.csv
     folder: intermediate_data/estimated/

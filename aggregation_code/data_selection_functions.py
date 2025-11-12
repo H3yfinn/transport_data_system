@@ -15,7 +15,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 #%%
-def data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict,datasets_to_always_use=[],highlighted_datasets=[],open_dashboard=False,default_user_input=None,PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=[]):
+def data_selection_handler(grouping_cols, combined_data_concordance, combined_data, paths_dict,datasets_to_always_use=[],datasets_to_never_use=[],highlighted_datasets=[],open_dashboard=False,default_user_input=None,PLOT_SELECTION_TIMESERIES=True, DATASETS_TO_DEPRIORITISE=[]):
     """
 
     Args:
@@ -87,11 +87,11 @@ def data_selection_handler(grouping_cols, combined_data_concordance, combined_da
 
                 #now pass the group_concordance df to the user input handler which will run through each year and ask the user to select the preferred data. The preferred data will be recorded in the concordance df.
                 try:#TODO FIXING THIS 2/26/2024
-                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input, DATASETS_TO_DEPRIORITISE)
+                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use,datasets_to_never_use, default_user_input, DATASETS_TO_DEPRIORITISE)
                 except:
                     breakpoint()
                     
-                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use, default_user_input, DATASETS_TO_DEPRIORITISE)
+                    group_concordance, user_input = manual_user_input_function(data_to_select_from, index_row_no_year, group_concordance, paths_dict, datasets_to_always_use,datasets_to_never_use, default_user_input, DATASETS_TO_DEPRIORITISE)
                 if user_input == 'quit':
                     break
                 else:
@@ -383,13 +383,24 @@ def create_user_choice_dict(unique_datasets):
 
     return choice_dict
 
-def find_default_dataset(datasets_to_always_use, unique_datasets, choice_dict):
+def find_default_dataset(datasets_to_always_use,datasets_to_never_use, unique_datasets, choice_dict):
     #find if we have set a default dataset for this year
 
     #ask the user to input a number and then check that it is a valid number. Use a fucntion for this to reduce lines in this function
     if len(datasets_to_always_use) > 0:
         #check if any datasets in  unique_datasets is in the list of datasets to always use, if so, if there is only one then find that dataset in the choice_dict and set the user_input to that number
-        datasets_to_always_use_in_unique_datasets = [dataset for dataset in unique_datasets if dataset in datasets_to_always_use]
+        # datasets_to_always_use_in_unique_datasets = [dataset for dataset in unique_datasets if dataset in datasets_to_always_use]
+        datasets_to_always_use_in_unique_datasets = []
+        #check if the string within unique_datasets is wihtin datasets_to_always_use, if so add it to the list
+        for dataset in unique_datasets:
+            for dataset_to_always_use in datasets_to_always_use:
+                if dataset_to_always_use in dataset:
+                    datasets_to_always_use_in_unique_datasets.append(dataset)
+                    
+        #but check its not in road_measures_datasets_to_never_use
+        if len(datasets_to_never_use) > 0:
+            datasets_to_always_use_in_unique_datasets = [dataset for dataset in datasets_to_always_use_in_unique_datasets if dataset not in datasets_to_never_use]
+                    
         if len(datasets_to_always_use_in_unique_datasets) == 1:
             #find the dataset in the choice_dict and set the user_input to that number
             for choice_dict_key, choice_dict_value in choice_dict.items():
@@ -428,7 +439,7 @@ def choose_default_input(default_user_input, DATASETS_TO_DEPRIORITISE, unique_da
             return choice_dict_key
     return None
 
-def manual_user_input_function(data_to_select_from, index_row_no_year,  group_concordance, paths_dict,datasets_to_always_use, default_user_input, DATASETS_TO_DEPRIORITISE): 
+def manual_user_input_function(data_to_select_from, index_row_no_year,  group_concordance, paths_dict,datasets_to_always_use, datasets_to_never_use,default_user_input, DATASETS_TO_DEPRIORITISE): 
     timeseries_png =None
     user_input = None
     years_to_ignore = []
@@ -452,8 +463,12 @@ def manual_user_input_function(data_to_select_from, index_row_no_year,  group_co
             choice_dict.pop('b')
 
         logging.info('\nFor unique combination: {}'.format(index_row_no_year))
-
-        user_input = find_default_dataset(datasets_to_always_use, unique_datasets, choice_dict)
+        if data_to_select_from_for_this_year.reset_index()['vehicle_type'][0] == 'car':
+            if data_to_select_from_for_this_year.reset_index()['measure'][0] == 'stocks':
+                # breakpoint()#why cant ew get data for >2010 forthis year?
+                if data_to_select_from_for_this_year.reset_index()['date'][0] > 2010:
+                    breakpoint()
+        user_input = find_default_dataset(datasets_to_always_use, datasets_to_never_use,unique_datasets, choice_dict)
         
         if user_input is None:
             if default_user_input is not None:

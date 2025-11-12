@@ -80,7 +80,6 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, DROP_8
             for dataset in economy_data['dataset'].unique():
                 non_dist_split_dataset = dataset.replace(' vehicle_dist_split', '')
                 #if this data contains data on all the vehicle types for this transport type then add it 
-
                 if set(vehicle_types[transport_type]).issubset(set(economy_data_copy[(economy_data_copy['dataset']==non_dist_split_dataset)&(economy_data_copy['transport_type']==transport_type)]['vehicle_type'].unique())):
                     datasets_with_all_vehicle_types.append(dataset)
             min_datasets = 0
@@ -95,7 +94,7 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, DROP_8
                 number_of_iea_ev_explorer_datasets = len([dataset for dataset in datasets_with_all_vehicle_types if 'iea_ev_explorer $' in dataset])
                 if number_of_iea_ev_explorer_datasets>0:
                     min_datasets+= number_of_iea_ev_explorer_datasets
-                
+            
             #if there is a dataset with all the vehicle types for this transport type then remove the datasets that arent in this list
             if len(datasets_with_all_vehicle_types)>min_datasets:
                 datasets_to_remove = [dataset for dataset in economy_data['dataset'].unique() if dataset not in datasets_with_all_vehicle_types]
@@ -110,7 +109,7 @@ def filter_for_most_detailed_vehicle_type_stock_breakdowns(combined_data, DROP_8
                 print('datasets available for this transport type with their available vehicle types are as follows:')
                 for dataset in economy_data['dataset'].unique():
                     print(dataset+': '+str(economy_data[(economy_data['dataset']==dataset)&(economy_data['transport_type']==transport_type)]['vehicle_type'].unique()))
-
+    
     return combined_data
 
 def extract_latest_groomed_data():
@@ -537,7 +536,7 @@ def filter_for_transport_model_data_using_concordances(combined_data, model_conc
     if len(datasets_with_incorrect_scope_or_fuel) > 0:    
         breakpoint()
         #save them to a csv:
-        datasets_with_incorrect_scope_or_fuel.to_csv(os.path.join(paths_dict['intermediate_folder'], 'datasets_with_incorrect_scope_or_fuel.csv'))
+        filtered_combined_data  = filtered_combined_data[filtered_combined_data['dataset'].isin(datasets_with_incorrect_scope_or_fuel)].to_csv(os.path.join(paths_dict['intermediate_folder'], 'datasets_with_incorrect_scope_or_fuel.csv'))
         logging.info('The following rows have unexpected values in the scope column: ')
         logging.info(filtered_combined_data[~filtered_combined_data['scope'].isin(['national'])])
         logging.info('The following rows have unexpected values in the fuel column: ')

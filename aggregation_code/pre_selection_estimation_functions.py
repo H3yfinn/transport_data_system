@@ -48,7 +48,7 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
                     
     #convert all values in all columns to snakecase, except economy date and value
     vehicle_type_distributions = utility_functions.convert_all_cols_to_snake_case(vehicle_type_distributions)
-    breakpoint()#whats going on with the freight distrs
+    # breakpoint()#whats going on with the freight distrs
     #because of the complexity of this we will do it line by line within the vehicle_type_distributions file:
     for index, row in vehicle_type_distributions.iterrows():
         original_vehicle_type = row['vehicle_type']
@@ -63,8 +63,8 @@ def split_vehicle_types_using_distributions(unfiltered_combined_data):
         #now we have the new vehicle types and their values. we will filter for rows in the unfiltered_combined_data that match the economy and transport type with measure = stocks, check each separate dataset/source combo (they should be concatednated alrady) for the vehicle type and then split the stocks into the new vehicle types
         rows_to_edit = unfiltered_combined_data[(unfiltered_combined_data['economy'] == economy)&(unfiltered_combined_data['medium'] == 'road') & (unfiltered_combined_data['transport_type'] == transport_type) & (unfiltered_combined_data['measure'] == 'stocks')]
         unique_datasets = rows_to_edit['dataset'].unique()
-        if 'eei_manually_extracted' in unique_datasets:
-            breakpoint()
+        # if 'eei_manually_extracted' in unique_datasets:
+            # breakpoint()
         # if economy == '10_MAS':
         #find unique vehicle types for each dataset. if they are already split into more than one of the new vehicle types then we will not edit them, else, grab the original vehicle type (if it is available) and split it into the new vehicle types
         for dataset in unique_datasets:
@@ -311,6 +311,9 @@ def split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data):
     }
     stock_shares = data_formatting_functions.filter_for_specifc_data(iea_ev_explorer_selection_dict, unfiltered_combined_data)
     
+    #search for where dataset contains mex, year==2022, measure==stocks 
+    a = stock_shares[stock_shares['dataset'].str.contains('mex') & (stock_shares['date'] == 2022) & (stock_shares['measure'] == 'stocks')]
+    
     if stock_shares.empty:
         breakpoint()
         raise ValueError('No data for iea_ev_explorer $ historical. Something is wrong')
@@ -383,8 +386,25 @@ def split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data):
 
     # Rename stocks_bev and stocks_phev to bev and phev
     combined_data_stocks = combined_data_stocks.rename(columns={'stocks_bev': 'bev', 'stocks_phev': 'phev'})
-    
-    # Create dataset column
+    # breakpoint()#what is happening to mexico data here? it seems to be dropping 2w and buses? does that make it so the vehicle dist split removes them?
+    # # Create dataset column
+    # #identify if the data for each dataset contains 2w and buses. if not, add them in with 0 stocks of bev and the original amount of stocks of ice's:
+    # for v_type in ['2w', 'bus']:
+    #     for dataset in combined_data_stocks.dataset.unique():
+    #         if v_type not in combined_data_stocks[(combined_data_stocks['dataset'] == dataset)]['vehicle_type'].unique():
+    #             #add 2w data
+    #             tw_data = unfiltered_combined_data[(unfiltered_combined_data['dataset'] == dataset) & (unfiltered_combined_data['vehicle_type'] == v_type) & (unfiltered_combined_data['measure'] == 'stocks')].copy()
+    #             #remove any ev drives from the drive col by removing any that contiin 'ev'
+    #             tw_data_evs = tw_data.loc[tw_data['drive'].str.contains('ev')]
+    #             if len(tw_data_evs)==0:
+    #                 tw_data_evs = tw_data.copy()
+    #                 tw_data_evs['value'] = 0            
+    #                 tw_data_evs['drive']='bev'
+    #                 tw_data_evs.drop_duplicates(inplace=True)
+    #                 tw_data = pd.concat([tw_data, tw_data_evs])
+    #             combined_data_stocks = pd.concat([combined_data_stocks, tw_data])
+    # breakpoint()#i feel
+            
     combined_data_stocks['dataset'] = combined_data_stocks['dataset'] + ' $ iea_ev_explorer $ historical'
     
     # Add dataset to cols
@@ -397,6 +417,7 @@ def split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data):
         nas = combined_data_stocks_tall[combined_data_stocks_tall['value'].isna()]
         breakpoint()
         raise ValueError('There are NaN values in the data. Something is wrong')
+    
     # Combine the modified data back with the unfiltered data
     unfiltered_combined_data = pd.concat([combined_data_stocks_tall, unfiltered_combined_data])
     
@@ -405,7 +426,15 @@ def split_stocks_where_drive_is_ev_or_bev_and_phev(unfiltered_combined_data):
     
     return unfiltered_combined_data
 
-
+def concat_incomplete_new_datasets(unfiltered_combined_data):
+    # breakpoint()#can we identify where there are full sets of ice_g, ice_d, 2w, bus , car etc but with different dataset names? can we remove those dataset names to join them together., 
+    #i.e. look for where measure is stocks and the dataset contains: iea_ev_explorer_no_data ice_split and vehicle type is either 2w or bus, or 'iea_ev_explorer  historical vehicle_dist_split ice_split' and vehicle type is car, suv and lt.. then identify if they have the same dataset name othewise. if so, replace their names with 'iea_ev_explorer_concat ice_split'. Then double check there are no duplicates before adding those new rows to the dataset
+    bus_2w = unfiltered_combined_data[(unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['dataset'].str.contains('iea_ev_explorer_no_data ice_split')) & (unfiltered_combined_data['vehicle_type'].isin(['bus','2w']))]
+    lpv = unfiltered_combined_data[(unfiltered_combined_data['measure'] == 'stocks') & (unfiltered_combined_data['dataset'].str.contains('iea_ev_explorer  historical vehicle_dist_split ice_split')) & (unfiltered_combined_data['vehicle_type'].isin(['car','suv','lt']))]
+    bus_2w['dataset'] = bus_2w['dataset'].str.replace('iea_ev_explorer_no_data ice_split', 'iea_ev_explorer_concat ice_split')
+    lpv['dataset'] = lpv['dataset'].str.replace('iea_ev_explorer  historical vehicle_dist_split ice_split','iea_ev_explorer_concat ice_split')
+    unfiltered_combined_data = pd.concat([unfiltered_combined_data,bus_2w,lpv],axis=0)
+    return unfiltered_combined_data
 
 def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_data):
     """
@@ -459,6 +488,7 @@ def split_stocks_where_drive_is_all_into_bev_phev_and_ice(unfiltered_combined_da
     combined_data_stocks = combined_data_stocks.merge(stock_shares, on = cols, how = 'left', indicator = True)
     #drop any right only
     combined_data_stocks = combined_data_stocks[combined_data_stocks['_merge'] != 'right_only'].copy()
+    
     #for left only, set dataset_y to 'iea_ev_explorer_no_data' then drop _merge
     combined_data_stocks.loc[combined_data_stocks['_merge'] == 'left_only','dataset_y'] = 'iea_ev_explorer_no_data'#this allows us to keep the information that there are perhaps no evs in this row, because teh iea didnt ahve data on it. 
     #where ice bev and phev are na then set themn to 0 and ice to 1

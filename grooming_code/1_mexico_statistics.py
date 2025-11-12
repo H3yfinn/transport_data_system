@@ -28,7 +28,7 @@ inegi_export_data = inegi_export_data[inegi_export_data.iloc[:, 0].str.isnumeric
 
 # Translate column names
 column_translation = {
-    'Automóviles': 'cars',
+    'Automóviles': 'lpv',
     'Camiones para pasajeros': 'bus',
     'Camiones y camionetas para carga': 'ht',
     'Motocicletas': '2w'
@@ -49,7 +49,7 @@ inegi_melted.drop(columns=[inegi_export_data.columns[0]], inplace=True)
 #transport type: passenger for cars, bus, 2w and freight for ht
 #also drop total
 transport_type_map = {
-    'cars': 'passenger',
+    'lpv': 'passenger',
     'bus': 'passenger',
     '2w': 'passenger',
     'ht': 'freight'
@@ -105,9 +105,19 @@ inegi_melted = inegi_melted[data_structure_mexico.columns]
 # #calcualte proportion of each drive type within each vehicle type/transport type , scenario comboniation
 # road_modelled_data_stocks['proportion'] = road_modelled_data_stocks.groupby(['Vehicle Type', 'Transport Type', 'Scenario', 'Drive'])['Stocks'].transform(lambda x: x/x.sum())
 
+#%%
 
+# reduce ice_g stocks in freight to 0. This is because freight diesel use is too high in the modelled data. do this by jsut setting the drive to ice_d for all freight vehicles
+#double check there are no ice_g or ice_d vehicles in freight
+if inegi_melted.loc[inegi_melted['transport_type'] == 'freight', 'drive'].nunique() > 1:
+    raise ValueError('There are multiple drive types for freight vehicles. This is not expected.')
+#set all freight vehicles to ice_d
+inegi_melted.loc[(inegi_melted['transport_type'] == 'freight') & (inegi_melted['drive'] == 'All'), 'drive'] = 'ice_d'
 
-
+#also set vehicle type to trucks for freight vehicles so the aggregation code main..py will split these into lcvs/hts/mts
+if inegi_melted.loc[inegi_melted['transport_type'] == 'freight', 'vehicle_type'].nunique() > 1:
+    raise ValueError('There are multiple vehicle types for freight vehicles. This is not expected.')
+inegi_melted.loc[inegi_melted['transport_type'] == 'freight', 'vehicle_type'] = 'all'
 ###################################
 #%%
 # date id to be used in the file name of the output file and for referencing input files that are saved in the output data folder
